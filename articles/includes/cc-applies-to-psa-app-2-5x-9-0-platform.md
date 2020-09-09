@@ -1,0 +1,1 @@
+<span data-ttu-id="ec156-101">Versão 2.5.x ou posterior da aplicação Project Service no Dynamics 365 (online), versão 9.x</span><span class="sxs-lookup"><span data-stu-id="ec156-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>
