@@ -1,0 +1,96 @@
+---
+title: Progresso e consumo de custo de um projeto
+description: Este tópico fornece informações sobre como monitorizar o progresso e o consumo de custo do projeto.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 03/01/2019
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: 0d742164-5469-421d-8917-63160a81f651
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 8aa5814938129f30885d8161a7c86197ab013364
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3754594"
+---
+# <a name="project-progress-and-cost-consumption"></a>Progresso e consumo de custo de um projeto
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+A necessidade de monitorizar o progresso relativamente a uma agenda varia de acordo com o setor. Alguns setores monitorizam a um nível granular, ao passo que outros setores monitoram a um nível superior. Este tópico mostra como agendar para satisfazer os requisitos da sua organização.
+
+## <a name="effort-tracking-view"></a>Visto de controlo do esforço
+
+A vista **Controlo do Esforço** monitoriza o progresso das tarefas na agenda. Esta vista compara as horas de esforço reais que foram gastas numa tarefa com as horas de esforço planeadas para essa tarefa. O PSA utiliza as seguintes fórmulas para calcular as métricas de monitorização:
+
+- Percentagem do progresso = Esforço real gasto até à data ÷ Esforço planeado para a tarefa 
+- Estimativa para conclusão (ETC) = Esforço planeado – Esforço real gasto até à data 
+- Estimativa na conclusão (EAC) = Esforço restante + Esforço real gasto até à data 
+- Desvio do esforço projetado = Esforço planeado – EAC
+
+O PSA mostra uma projeção do desvio do esforço na tarefa. Se a EAC for superior ao esforço planeado, a tarefa é projetada para levar mais tempo do que o planeado originalmente. Consequentemente, está atrasada. Se a EAC for inferior ao esforço planeado, a tarefa é projetada para levar menos tempo do que o planeado originalmente. Consequentemente, está adiantada.
+
+## <a name="re-projecting-effort"></a>Reprojetar o esforço
+
+É comum que um gestor de projeto reveja as estimativas originais de uma tarefa. As reprojeções do projeto são a perceção de estimativas de um gestor de projeto, dado o estado atual de um projeto. No entanto, não recomendamos que os gestores de projeto alterem os valores da linha de base, porque a linha de base do projeto representa a fonte de verdade estabelecida para a agenda e a estimativa de custo do projeto acordadas por todos os intervenientes.
+
+Existem duas formas de um gestor de projeto poder reprojetar o esforço nas tarefas:
+
+- Substitua a ETC predefinida por uma nova estimativa do esforço real restante na tarefa. 
+- Substitua a percentagem de progresso predefinida por uma nova estimativa do verdadeiro progresso na tarefa.
+
+Cada uma destas abordagens causa um recálculo da ETC, da EAC e da percentagem de progresso da tarefa e o desvio do esforço projetado numa tarefa. A EAC, a ETC e a percentagem de progresso das tarefas de resumo também são recalculadas e produzem uma nova projeção de variância do esforço.
+
+## <a name="re-projection-of-effort-on-summary-tasks"></a>Reprojeção do esforço em tarefas de resumo
+
+O esforço em tarefas de resumo ou tarefas de contentor pode ser reprojetado. Independentemente de o utilizador reprojetar utilizando o esforço restante ou a percentagem de progresso nas tarefas de resumo, o seguinte conjunto de cálculos começa:
+
+- A EAC, a ETC e a percentagem de progresso na tarefa são calculadas.
+- A nova EAC é distribuída para as tarefas subordinadas na mesma proporção que a EAC original na tarefa.
+- A nova EAC em cada uma das tarefas individuais até às tarefas do nó de folha é calculada. 
+- As tarefas subordinadas afetadas até ao nó de folha têm a ETC e a percentagem de progresso recalculada com base no valor da EAC. Isto resulta numa nova projeção para o desvio do esforço da tarefa. 
+- As EACs das tarefas de resumo até ao nó raiz são recalculadas.
+
+### <a name="cost-tracking-view"></a>Vista Controlo dos custos 
+
+A vista **Controlo dos custos** compara o custo real gasto numa tarefa com o custo planeado numa tarefa. 
+
+> [!NOTE]
+> Esta vista mostra apenas os custos de mão de obra e não inclui os custos das estimativas de despesas. 
+
+O PSA utiliza as seguintes fórmulas para calcular as métricas de monitorização:
+
+- Percentagem do custo consumido = Custo real gasto até ao momento cost ÷ Custo planeado para a tarefa
+- Custo para conclusão (CTC) = Custo planeado – Custo real gasto até à data
+- EAC = CTC + Custo real gasto até à data
+- Desvio de custo projetado = Custo planeado – EAC
+
+Uma projeção do desvio de custo é mostrada na tarefa. Se a EAC for superior ao custo planeado, a tarefa é projetada para custar mais do que o planeado originalmente. Portanto, está acima do orçamento. Se a EAC for inferior ao custo planeado, a tarefa é projetada para custar menos do que o planeado originalmente. Portanto, está abaixo do orçamento.
+
+## <a name="project-managers-re-projection-of-cost"></a>Reprojeção de custos do gestor de projeto
+
+Quando o esforço é reprojetado, o CTC, a EAC, a percentagem do custo consumido e o desvio de custo projetado são todos recalculados na vista **Controlo dos custos**.
+
+## <a name="project-status-summary"></a>Resumo do estado do projeto
+
+Os dados de monitorização nas vistas **Controlo do esforço** e **Controlo dos custos** mostram o progresso e o consumo de custo no nó raiz do projeto, nas tarefas de resumo e nos níveis de tarefas dos nós de folha. A secção **Estado** na página **Entidade do Projeto** mostra um resumo do estado do nível do projeto.
+
+## <a name="status-summary-fields"></a>Campos Resumo do estado
+
+O campo **Estado Geral do Projeto** é um campo editável que mostra o estado geral do projeto. Utiliza a codificação de cores, tal como verde, amarela e vermelha, para indicar um risco de aumento. O campo **Comentários** permite que o gestor de projeto introduza comentários específicos sobre o estado. O campo **Estado atualizado em** não é editável e o valor é um carimbo de data/hora que indica quando o estado foi atualizado pela última vez.
+
+Os campos **Desempenho de Agendamento** e **Desempenho de Custos** são definidos a partir da data de monitorização. Quando os desvios da agenda e de custo do nó raiz na vista **Controlo do esforço** são positivos, é possível definir estes campos como **Adiantado**. Quando os desvios da agenda e de custo do nó raiz são negativos, é possível defini-los como **Atrasado**.
