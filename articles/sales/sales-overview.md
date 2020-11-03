@@ -1,6 +1,6 @@
 ---
 title: Descrição geral dos processos de vendas
-description: Este tópico fornece informações sobre os processos de vendas básicos.
+description: Este tópico fornece informações sobre processos de vendas básicos.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3891994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082603"
 ---
 # <a name="sales-processes-overview"></a>Descrição geral dos processos de vendas
 
@@ -57,12 +56,12 @@ Por exemplo, a sua empresa poderá ter as seis fases seguintes no processo de ve
  
 A sua organização poderá utilizar entidades diferentes para representar o mesmo negócio à medida que evoluir. No início do processo de vendas, um negócio é representado pela entidade Oportunidade. À medida que o tempo passa e surgem mais detalhes, poderá utilizar estimativas de alto nível para criar uma ou mais propostas. Se uma destas propostas for revista por intervenientes internos e dos clientes, a entidade Proposta representa o negócio. Depois de o cliente aceitar a proposta, um contrato do projeto ou uma SOW representa o negócio. Para suportar este comportamento, os BPFs são estruturados de modo a que cada fase no processo esteja associada a uma tabela de base de dados diferente.
 
-A fase **Qualificar** no processo de vendas pode ser apoiada por uma entidade Oportunidade. As fases **Estimativa** e **Revisão Interna** podem ser apoiadas por uma entidade Proposta. As fases **Contrato**, **Entrega** e **Fechar** podem ser apoiadas por uma entidade Contrato do Projeto.
+A fase **Qualificar** no processo de vendas pode ser apoiada por uma entidade Oportunidade. As fases **Estimativa** e **Revisão Interna** podem ser apoiadas por uma entidade Proposta. As fases **Contrato** , **Entrega** e **Fechar** podem ser apoiadas por uma entidade Contrato do Projeto.
 
 À medida que os negócios avançam pelas fases, é-lhe pedido para criar o registo de entidade apropriado para o ajudar e orientar ao longo do processo. As fases podem ser condicionais. Por exemplo, se necessitar de uma revisão interna de uma proposta apenas se a proposta utilizar uma lista de preços personalizada, poderá configurar essa condição na fase apropriada do processo de negócio. A fase **Revisão Interna** é mostrada apenas para as propostas que utilizam uma lista de preços personalizada. Para todos os outros negócios e propostas, a fase **Estimativa** é seguida pela fase **Contrato**.
 
 > [!NOTE]
-> As Operações do projeto têm páginas específicas para registos de oportunidades, propostas, encomendas e entidades de fatura. Tem de criar estes registos utilizando as páginas de informação do projeto para estas entidades. Caso contrário, não poderá abrir os registos a partir da página de **informações do Projeto**. Se pretender abrir um registo a partir da página de **informações do projeto**, deve apagar o registo e recriá-lo utilizando a página de **informações do projeto**, onde a lógica de negócio para cada um destes tipos de entidades garante que o campo **Tipo** do registo é definido corretamente, e todos os conceitos obrigatórios são devidamente iniciados.
+> As Operações do projeto têm páginas específicas para registos de oportunidades, propostas, encomendas e entidades de fatura. Tem de criar estes registos utilizando as páginas de informação do projeto para estas entidades. Caso contrário, não poderá abrir os registos a partir da página de **informações do Projeto**. Se pretender abrir um registo a partir da página de **informações do projeto** , deve apagar o registo e recriá-lo utilizando a página de **informações do projeto** , onde a lógica de negócio para cada um destes tipos de entidades garante que o campo **Tipo** do registo é definido corretamente, e todos os conceitos obrigatórios são devidamente iniciados.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Monitorizar revisões de propostas e planos do projeto no ciclo de vendas

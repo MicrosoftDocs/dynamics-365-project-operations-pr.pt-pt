@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896250"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082330"
 ---
 # <a name="product-based-opportunity-lines"></a>Itens de oportunidade baseados em produtos
 
@@ -25,4 +25,4 @@ As linhas baseadas no produto podem ser itens de catálogo ou produtos acrescent
 
 Um conceito sobre as linhas de oportunidade baseadas em produtos específicas para oportunidades baseadas em projetos é **Orçamento do Cliente**. Utilize este campo para monitorizar o montante que o cliente está disposto a pagar pelo item.
 
-Se o método de receitas do Resumo da oportunidade for definido como **Calculada pelo Sistema**, os valores do orçamento do cliente nas linhas baseadas em produtos e projetos são resumidos para calcular as receitas estimadas.
+Se o método de receitas do Resumo da oportunidade for definido como **Calculada pelo Sistema** , os valores do orçamento do cliente nas linhas baseadas em produtos e projetos são resumidos para calcular as receitas estimadas.

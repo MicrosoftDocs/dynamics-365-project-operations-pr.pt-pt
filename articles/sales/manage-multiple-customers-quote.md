@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908478"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082258"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Gerir vários clientes em propostas do projeto
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-As propostas do projeto suportam o cenário em que a proposta envolve vários clientes que irão financiar o negócio. O separador **Resumo** da Proposta tem o campo **Cliente potencial**, que identifica o cliente principal do negócio. Podem ser configurados outros clientes para a oportunidade potencial no separador **Clientes** da proposta do projeto.
+As propostas do projeto suportam o cenário em que a proposta envolve vários clientes que irão financiar o negócio. O separador **Resumo** da Proposta tem o campo **Cliente potencial** , que identifica o cliente principal do negócio. Podem ser configurados outros clientes para a oportunidade potencial no separador **Clientes** da proposta do projeto.
 
 Todos os clientes da proposta no separador **Clientes** da proposta do projeto são assumidos por predefinição como clientes de linha de proposta em quaisquer **novas** linhas de proposta baseadas em projetos criadas para a proposta. Quaisquer linhas de proposta baseadas em projetos existentes não vão herdar novos registos de clientes de proposta criados depois deles.
 
@@ -29,7 +29,7 @@ Os clientes da proposta e os clientes da linha de proposta podem ser adicionados
 
 O cliente listado no separador **Resumo** da proposta de projeto como cliente potencial é o cliente principal da proposta. Se tentar eliminar o cliente principal da lista de clientes na proposta, receberá um erro a indicar que não é possível eliminar um registo de cliente principal numa proposta.
 
-O cliente principal não deve ser atualizado a partir da lista de clientes na proposta. No entanto, pode influenciar o cliente principal ao alterar o cliente potencial no separador **Resumo** da proposta. Quando este campo é atualizado no **Resumo da Proposta**, o cliente potencial selecionado recentemente é adicionado como um novo cliente de proposta com o sinalizador de privacidade **Principal**. O antigo cliente potencial continuará a ser um cliente na proposta.
+O cliente principal não deve ser atualizado a partir da lista de clientes na proposta. No entanto, pode influenciar o cliente principal ao alterar o cliente potencial no separador **Resumo** da proposta. Quando este campo é atualizado no **Resumo da Proposta** , o cliente potencial selecionado recentemente é adicionado como um novo cliente de proposta com o sinalizador de privacidade **Principal**. O antigo cliente potencial continuará a ser um cliente na proposta.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Criar, Atualizar ou Eliminar um registo de cliente de proposta
 

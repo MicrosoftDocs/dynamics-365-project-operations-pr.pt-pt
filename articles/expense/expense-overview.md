@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082284"
 ---
 # <a name="expense-home-page"></a>Home page das despesas
 
@@ -24,8 +24,8 @@ O Dynamics 365 Project Operations suporta a capacidade de processar despesas. O 
 
 No Project Operations, existem dois modelos de implementação suportados para Despesas: 
 
-- **Completo**: está disponível a implementação completa para o **Project Operations para cenários baseados em recursos/não armazenados** ou **Project Operations para cenários baseados em encomenda de produção**.
-- **Básico**: a implementação básica está disponível para **Project Operations para cenários baseados em recursos/não armazenados** e **Implementação leve – oportunidade potencial para fatura pró-forma**.
+- **Completo** : está disponível a implementação completa para o **Project Operations para cenários baseados em recursos/não armazenados** ou **Project Operations para cenários baseados em encomenda de produção**.
+- **Básico** : a implementação básica está disponível para **Project Operations para cenários baseados em recursos/não armazenados** e **Implementação leve – oportunidade potencial para fatura pró-forma**.
 
 ## <a name="full"></a>Total 
 A implementação Despesa Total fornece uma aplicação completa de políticas que inclui a capacidade de criar políticas, tais como:

@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 212b80a7fde8368eedd7572dd5f9278cc53fae98
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082371"
 ---
 # <a name="review-proposed-resources"></a>Analisar recursos propostos
 
@@ -32,11 +31,11 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 Os gestores de recursos podem propor um recurso ao gestor de projeto utilizando um pedido de recurso.
 
 1. A partir da grelha de pedido ou do próprio pedido, selecione **Localizar Recursos**.
-2. Na página **Assistente da Agenda**, selecione o recurso e, em seguida, no painel **Criar Reserva de Recursos**, no campo **Estado da Reserva**, selecione **Reservar**.
+2. Na página **Assistente da Agenda** , selecione o recurso e, em seguida, no painel **Criar Reserva de Recursos** , no campo **Estado da Reserva** , selecione **Reservar**.
 
 Ocorrem as seguintes atualizações de estado:
 
-- Na página **Assistente da Agenda**, os indicadores de estado são atualizados para indicar que a reserva é proposta, e não reservada de forma fixa.
+- Na página **Assistente da Agenda** , os indicadores de estado são atualizados para indicar que a reserva é proposta, e não reservada de forma fixa.
 - No pedido de recurso, o estado é alterado para **Necessita de Revisão**.
 - No separador **Equipa** do projeto, o valor **Estado do Pedido** do membro da equipa genérico é alterado para **Necessita de Revisão**.
 
@@ -72,9 +71,9 @@ Uma vez a vista **Utilização de Recursos** é baseada no Quadro da Agenda, pod
 
 A grelha requer que defina uma utilização de destino na função ou no recurso individual. Para efetuar esta configuração, aceda a **Recursos** \> **Funções do recurso**.
 
-Além disso, deve ser atribuída uma função predefinida a cada recurso reservável. Aceda a **Recursos** \> **Recursos**. No separador **Project Service**, verifique se está definida uma função de recurso e se o campo **É Predefinição** está definido como **Sim**. Pode adicionar funções adicionais em que **É Predefinição = Não**. A função em que **É Predefinição = Sim** é utilizada para avaliar a utilização do recurso relativamente ao alvo dessa função.
+Além disso, deve ser atribuída uma função predefinida a cada recurso reservável. Aceda a **Recursos** \> **Recursos**. No separador **Project Service** , verifique se está definida uma função de recurso e se o campo **É Predefinição** está definido como **Sim**. Pode adicionar funções adicionais em que **É Predefinição = Não**. A função em que **É Predefinição = Sim** é utilizada para avaliar a utilização do recurso relativamente ao alvo dessa função.
 
-No separador **Project Service**, também pode definir uma utilização de destino individual para o recurso. Em seguida, o cálculo da utilização utiliza essa utilização de destino para avaliar o destino do recurso em vez do destino da função predefinida do recurso.
+No separador **Project Service** , também pode definir uma utilização de destino individual para o recurso. Em seguida, o cálculo da utilização utiliza essa utilização de destino para avaliar o destino do recurso em vez do destino da função predefinida do recurso.
 
 A utilização é mostrada para um recurso apenas se esse recurso tiver aprovado, um tempo faturável durante o período mostrado na grelha.
 

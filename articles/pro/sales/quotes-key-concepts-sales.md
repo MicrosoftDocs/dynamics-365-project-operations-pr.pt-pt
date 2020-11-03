@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082328"
 ---
 # <a name="project-quote-key-concepts"></a>Conceitos chave da proposta de projeto
 
@@ -78,7 +78,7 @@ Os negócios com vários clientes ocorrem quando existe mais de um cliente para 
 
 ## <a name="invoice-schedules"></a>Agendas de faturação
 
-As agendas de faturação são específicas de cada linha de proposta e também são opcionais. As agendas de faturação são criadas com base em determinadas datas de início e de fim, e frequência da fatura. As agendas de faturação são utilizadas na fase de contrato quando o processo automático de criação de faturas está configurado. Na fase de proposta, as agendas são opcionais. Quando as agendas da faturação são criadas na fase **Proposta**, são copiadas para o contrato de projeto que é criado quando uma proposta de projeto é ganha.
+As agendas de faturação são específicas de cada linha de proposta e também são opcionais. As agendas de faturação são criadas com base em determinadas datas de início e de fim, e frequência da fatura. As agendas de faturação são utilizadas na fase de contrato quando o processo automático de criação de faturas está configurado. Na fase de proposta, as agendas são opcionais. Quando as agendas da faturação são criadas na fase **Proposta** , são copiadas para o contrato de projeto que é criado quando uma proposta de projeto é ganha.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Alterações da proposta do Dynamics 365 Sales:
 

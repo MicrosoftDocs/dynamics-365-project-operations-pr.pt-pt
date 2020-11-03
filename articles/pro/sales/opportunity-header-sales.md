@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906287"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082332"
 ---
 # <a name="opportunity-header"></a>Cabeçalho de oportunidade
 
@@ -27,7 +27,7 @@ A tabela seguinte inclui os campos numa oportunidade baseada em projetos que sã
 
 | **Campo** | **Localização** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
 | --- | --- | --- | --- |
-| Tipo | Separador Geral (oculto) | Este campo do conjunto de opções tem as seguintes opções:</br>- Baseado em trabalho (disponível apenas com o Project Operations)</br>- Baseado em item (disponível apenas quando o Project Operations e o Sales estão instalados)</br>- Baseado em manutenção do serviço (disponível quando o Field Service estiver instalado) | Quando utiliza o Project Operations, este valor de campo é definido automaticamente como **Baseado em trabalho**, que classifica a Oportunidade como baseada em projetos. Uma oportunidade deve ser baseada em projetos para ativar todas as funcionalidades e extensões específicas do projeto no processo de vendas a jusante para este negócio. |
+| Tipo | Separador Geral (oculto) | Este campo do conjunto de opções tem as seguintes opções:</br>- Baseado em trabalho (disponível apenas com o Project Operations)</br>- Baseado em item (disponível apenas quando o Project Operations e o Sales estão instalados)</br>- Baseado em manutenção do serviço (disponível quando o Field Service estiver instalado) | Quando utiliza o Project Operations, este valor de campo é definido automaticamente como **Baseado em trabalho** , que classifica a Oportunidade como baseada em projetos. Uma oportunidade deve ser baseada em projetos para ativar todas as funcionalidades e extensões específicas do projeto no processo de vendas a jusante para este negócio. |
 | Contacto | Separador Geral | Referência ao contacto principal do cliente para este negócio. | |
 | Conta | Separador Geral | Referência ao registo da conta ou empresa do cliente. | |
 | Gestor de Contas | Separador Geral | O nome do Gestor de conta para esta oportunidade baseada em projetos. | O Gestor de conta é responsável pela gestão da relação com o cliente até à conclusão deste projeto. Baseado no registo de recurso reservável associado ao Gestor de conta, a unidade de contratação é assumida por predefinição. |

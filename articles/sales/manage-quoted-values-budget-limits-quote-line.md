@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906291"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082271"
 ---
 # <a name="project-based-quote-lines"></a>Linhas de proposta baseadas em projetos
 
@@ -47,11 +47,11 @@ A tabela seguinte fornece informações sobre os campos no separador **Geral** d
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regras de validação para os campos no separador Geral das linhas de proposta baseadas em projetos
 
-**Regra 1**: uma determinada classe de transações no projeto selecionado só pode ser incluída numa linha de proposta baseada em projetos de uma proposta.
+**Regra 1** : uma determinada classe de transações no projeto selecionado só pode ser incluída numa linha de proposta baseada em projetos de uma proposta.
 
-**Regra 2**: se uma oportunidade tiver várias proposta, poderá haver linhas de proposta de diferentes propostas em que todas referenciam o mesmo projeto e incluem a mesma classe de transações.
+**Regra 2** : se uma oportunidade tiver várias proposta, poderá haver linhas de proposta de diferentes propostas em que todas referenciam o mesmo projeto e incluem a mesma classe de transações.
 
-**Regra 3**: se as propostas não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transações.
+**Regra 3** : se as propostas não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transações.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

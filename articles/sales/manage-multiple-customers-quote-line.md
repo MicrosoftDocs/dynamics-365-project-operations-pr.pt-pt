@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965860"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082280"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Gerir vários clientes em linhas de proposta baseadas em projetos
+
+_**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
 As linhas de proposta baseadas em projetos suportam cenários em que cada linha de proposta tem uma lista de clientes que a estão a pagar. Esta lista de clientes na linha de proposta baseada em projetos pode ser a mesma que a lista de clientes na proposta. Também pode alterar a lista de clientes para ser diferente. Para criar o eventual contrato de projeto quando uma proposta do projeto é ganha, a lista de clientes na linha de proposta baseada em projetos é copiada para o item de contrato baseado em projetos correspondente. Os clientes na proposta baseada em projetos são copiados para o contrato de projeto.
 
@@ -31,11 +33,11 @@ A tabela seguinte mostra os campos no registo de cliente da linha de proposta de
 
 | Campo | Localização | Descrição e orientação | Impacto a jusante |
 | --- | --- | --- | --- |
-| **Conta** | Uma grelha editável no separador **Clientes da Linha de Proposta**, o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | Lista todas as contas ativas. Este campo é bloqueado após a criação do registo. Se precisar de atualizar o campo, elimine e recrie o registo. Se registou valores reais, não poderá eliminar o registo. | Quando escolhe uma conta a partir da lista de contas principal a adicionar, o cliente da linha de Proposta também é adicionado como um Cliente de proposta. Os clientes da linha de proposta também são copiados para os clientes de item de contrato do projeto quando uma proposta é ganha. |
-| **Percentagem de divisão de faturação** | Uma grelha editável no separador **Clientes da Linha de Proposta**, o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | Representa a percentagem de cada transação de vendas não faturada que será atribuída a este cliente da linha de proposta. | Copiado para os clientes de item de contrato de projeto. |
-| **Limite a não exceder** | Uma grelha editável no separador **Clientes da Linha de Proposta**, o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | Indica se existe um limite negociado ou um máximo para o valor global que será faturado a este cliente para esta linha de proposta. | Copiado para os clientes de item de contrato de projeto quando uma proposta é ganha. |
-| **Empresa proprietária** | Uma grelha editável no separador **Clientes da Linha de Proposta**, o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | A entidade legal em que este cliente está configurado no módulo **Gestão de projetos e contabilística**. Este campo é só de leitura e está definido para a empresa proprietária da própria proposta. A lista de clientes a adicionar no campo **Conta** já está filtrada para a lista da empresa proprietária no módulo **Gestão de projetos e contabilística** do Project Operations. | A empresa proprietária equivale ao conceito de entidade legal. Todos os custos e receitas decorrentes deste projeto são contabilizados no Razão geral da empresa proprietária. |
-| **É arredondamento** | Uma grelha editável no separador **Clientes da Linha de Proposta**, o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | Indica se este cliente é um cliente de arredondamento predefinido para esta linha de proposta baseada em projetos. | Copiado para os clientes de contrato de projeto quando uma proposta é ganha. |
+| **Conta** | Uma grelha editável no separador **Clientes da Linha de Proposta** , o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | Lista todas as contas ativas. Este campo é bloqueado após a criação do registo. Se precisar de atualizar o campo, elimine e recrie o registo. Se registou valores reais, não poderá eliminar o registo. | Quando escolhe uma conta a partir da lista de contas principal a adicionar, o cliente da linha de Proposta também é adicionado como um Cliente de proposta. Os clientes da linha de proposta também são copiados para os clientes de item de contrato do projeto quando uma proposta é ganha. |
+| **Percentagem de divisão de faturação** | Uma grelha editável no separador **Clientes da Linha de Proposta** , o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | Representa a percentagem de cada transação de vendas não faturada que será atribuída a este cliente da linha de proposta. | Copiado para os clientes de item de contrato de projeto. |
+| **Limite a não exceder** | Uma grelha editável no separador **Clientes da Linha de Proposta** , o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | Indica se existe um limite negociado ou um máximo para o valor global que será faturado a este cliente para esta linha de proposta. | Copiado para os clientes de item de contrato de projeto quando uma proposta é ganha. |
+| **Empresa proprietária** | Uma grelha editável no separador **Clientes da Linha de Proposta** , o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | A entidade legal em que este cliente está configurado no módulo **Gestão de projetos e contabilística**. Este campo é só de leitura e está definido para a empresa proprietária da própria proposta. A lista de clientes a adicionar no campo **Conta** já está filtrada para a lista da empresa proprietária no módulo **Gestão de projetos e contabilística** do Project Operations. | A empresa proprietária equivale ao conceito de entidade legal. Todos os custos e receitas decorrentes deste projeto são contabilizados no Razão geral da empresa proprietária. |
+| **É arredondamento** | Uma grelha editável no separador **Clientes da Linha de Proposta** , o formulário principal e o formulário de criação rápida para um cliente da linha de proposta. | Indica se este cliente é um cliente de arredondamento predefinido para esta linha de proposta baseada em projetos. | Copiado para os clientes de contrato de projeto quando uma proposta é ganha. |
 
 ## <a name="edit-billing-split-percentages"></a>Editar percentagens de divisão de faturação
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961180"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082264"
 ---
 # <a name="approvals-overview"></a>Descrição geral das aprovações
 
@@ -27,7 +27,7 @@ Quando cria e envia uma entrada de hora ou despesa, é criada uma entrada de apr
 ## <a name="approve-an-entry"></a>Aprovar uma entrada
 O formulário **Aprovações** permite-lhe alternar entre diferentes vistas para poder ver os diferentes tipos de aprovação.
   
-1. Vá para o formulário **Aprovações** e selecione **Despesas**, **Tempo** ou **Recuperações**.
+1. Vá para o formulário **Aprovações** e selecione **Despesas** , **Tempo** ou **Recuperações**.
 2. Reveja cada aprovação e selecione as que pretende aprovar.
 3. Selecione **Aprovar** para aprovar as entradas selecionadas.
 O sistema processará estas entradas e criará os valores reais ou uma reserva.
@@ -47,7 +47,7 @@ A dada altura, poderá ter de recuperar uma entrada submetida. Se a entrada não
 Cada projeto tem vários membros da equipa do projeto. Pode especificar os membros da equipa que também são Aprovadores do projeto.
 
 1. Vá para o formulário **Projetos** e abra o projeto a partir da lista.
-2. No separador **Equipa**, selecione o membro da equipa que será Aprovador do projeto e, em seguida, selecione **Editar**.
+2. No separador **Equipa** , selecione o membro da equipa que será Aprovador do projeto e, em seguida, selecione **Editar**.
 3. Defina o campo **Aprovador do Projeto** como **Sim**.
 4. Selecione **Guardar**.
 5. Repita os passos 2 a 4 para adicionar Aprovadores do projeto adicionais.
@@ -55,7 +55,7 @@ Cada projeto tem vários membros da equipa do projeto. Pode especificar os membr
 ## <a name="configure-the-users-manager"></a>Configurar o gestor do utilizador
 
 1. Aceda a **Definições** > **Segurança** > **Utilizadores**.
-2. Selecione o utilizador a quem está a atribuir um gestor e, na área **Informações da Organização**, selecione o gestor a partir da lista. 
+2. Selecione o utilizador a quem está a atribuir um gestor e, na área **Informações da Organização** , selecione o gestor a partir da lista. 
 3. Selecione **Guardar**.
 
 

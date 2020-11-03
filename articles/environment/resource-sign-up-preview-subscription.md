@@ -3,17 +3,17 @@ title: Inscreva-se nas subscrições de pré-visualização do Project Operation
 description: Este tópico fornece informações sobre como subscrever e implementar o Project Operations para cenários baseados em recursos/não armazenados.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949022"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082290"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Inscreva-se nas subscrições de pré-visualização do Project Operations para os cenários de recursos/não armazenados
 
@@ -29,48 +29,53 @@ Este tópico explica como subscrever a oferta pré-visualizar/parceiro e impleme
 
 ## <a name="subscribe"></a>Subscrever
 
-Quando o seu [pedido de pré-visualização](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) for aprovado, receberá duas ofertas da Microsoft por e-mail. Estas ofertas permitem implementar a Pré-visualização do Project Operations:
+Quando o seu [pedido de pré-visualização](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) for aprovado, receberá três ofertas da Microsoft por e-mail. Estas ofertas permitem implementar a Pré-visualização do Project Operations:
 
-- Dynamics 365 Project Operations – Avaliação da Pré-visualização
-- Avaliação da Pré-visualização do Dynamics 365 for Finance and Operations.
+- Dynamics 365 Project Operations (CRM) – Avaliação da Pré-visualização
+- Office 365 Project Operations – Avaliação da Pré-visualização
+- Dynamics 365 Finance – Avaliação da Pré-visualização
 
 > [!IMPORTANT]
 > Só uma pessoa, o administrador inquilino, numa organização precisa de executar esta tarefa. Se não for subscritor desta versão, aguarde até a sua organização estar inscrita e receber as suas credenciais de utilizador.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Avaliação da pré-visualização
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Avaliação da Pré-visualização 
 
-1. Resgate a primeira oferta, **Avaliação do Dynamics 365 Project Operations**, com o URL fornecido no seu e-mail de boas-vindas.
+Antes de começar, certifique-se de que está a iniciar sessão num browser com a conta de profissional de utilizador no inquilino onde pretende a pré-visualização do Project Operations.
 
-![Primeira Oferta](./media/1FirstOffer.png)
+1. Resgate o primeiro código de oferta, **Dynamics 365 Project Operations (CRM) - Pré-visualização da Avaliação** , colando-o no URL do browser.
 
-2. Verifique se tem sessão iniciada como o utilizador que pertence à organização que irá subscrever o serviço.
-3. Prossiga com o resgate da oferta. 
-4. Selecione **Sim, adicioná-la à minha conta**.
+![Resgatar Oferta](./media/16RedeemFirstOfferNew.png)
 
-![Resgatar Oferta](./media/2RedeemFirstOffer.png)
+2. Confirme a encomenda.
 
-![Confirmar Oferta](./media/3ConfirmFirstOffer.png)
+![Confirme a encomenda](./media/17ConfirmOrderNew.png)
 
-![Oferta Resgatada](./media/4OfferSuccessfulyRedeemed.png)
+Verá que a oferta de confirmação foi resgatada com sucesso.
+
+![Confirmação](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Avaliação da Pré-visualização
+
+Repita os mesmos passos que com o primeiro código de oferta. Certifique-se de que adiciona o segundo código de oferta usando a mesma conta de utilizador que foi usada com o código da primeira oferta.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Avaliação da pré-visualização do Dynamics 365 Finance
 
-Repita os mesmos passos com a segunda oferta do e-mail de boas-vindas.
+Repita os mesmos passos com a última oferta do e-mail de boas-vindas.
 
-## <a name="assign-licenses"></a>Atribuir Licenças
+## <a name="assign-licenses"></a>Atribuir licenças
 
 > [!IMPORTANT]
-> Necessitará de acesso administrativo ao Portal Office 365 da sua organização para concluir os seguintes passos.
+> Necessitará de acesso administrativo ao Portal Microsoft 365 da sua organização do para concluir os seguintes passos.
 
-1. Vá para o [Centro de administração do Microsoft 365](https://portal.office.com/) para atribuir licenças aos seus utilizadores.
+1. Vá para o [Centro de administração do Microsoft 365](https://portal.office.com/) para atribuir as licenças aos seus utilizadores.
 
-![Portal de Administração do Office](./media/5OfficeAdminPortal.png)
+![Home page do centro de administração](./media/14AdminPortal.png)
 
-2. Na página **Utilizadores ativos**, selecione os utilizadores aos quais pretende atribuir uma licença.
+2. Na página **Utilizadores ativos** , selecione os utilizadores aos quais pretende atribuir uma licença.
 
-![Atribuir Licenças](./media/6AssignLicenses.png)
+![Atribuir Licenças](./media/15AssignLicenses.png)
 
-3. Verifique se a licença do Project Operations foi selecionada e selecione **Guardar alterações**. 
+3. Verifique se as licenças **Pré-visualização do Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations – Pré-visualização** foram selecionadas, e selecione **Guardar alterações**.
 
 > [!NOTE]
 > A oferta de avaliação do Finance não precisa de ser atribuída a um utilizador.
@@ -85,9 +90,9 @@ Para concluir esta tarefa, siga os passos na tópico, [Adicionar uma subscriçã
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementar o ambiente de demonstração do Finance com o Project Operations para cenários de recursos/non armazenados
 
-Siga as orientações no tópico [Aprovisionar um novo ambiente](resource-provision-new-environment.md) para concluir a implementação. Utilize o tipo de implementação do [ambiente de demonstração](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para pré-visualização.
+Siga as orientações no tópico [Aprovisionar um novo ambiente](resource-provision-new-environment.md) para concluir a implementação. Utilize o tipo de implementação do [ambiente de demonstração](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para pré-visualização. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalar dados de configuração do CDS
 
 Instale os dados de configuração do CDS descritos no tópico [Configurar e aplicar dados de configuração no Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Complete este passo apenas após a implementação do ambiente de demonstração do Finance e os dados de demonstração no FO estarem prontos.

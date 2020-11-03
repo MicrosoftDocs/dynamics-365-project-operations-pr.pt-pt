@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908461"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082257"
 ---
 # <a name="edit-a-resource-requirement"></a>Editar um requisito de recurso
 
@@ -26,7 +26,7 @@ Depois de definido um requisito de recurso pela ação **Gerar Requisito** na gr
 Como Gestor de projeto, conclua os passos seguintes para editar o requisito de recursos de um membro da equipa.
 
 1. Vá para a grelha de membros da equipa, localize o membro da equipa na lista e selecione a ligação para os requisitos de recursos associados.
-2. No formulário **Detalhes de Requisito**, atualize os seguintes atributos conforme necessário.
+2. No formulário **Detalhes de Requisito** , atualize os seguintes atributos conforme necessário.
 
 - Competências
 - Funções

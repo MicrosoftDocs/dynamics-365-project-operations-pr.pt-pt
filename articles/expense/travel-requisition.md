@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906288"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082273"
 ---
 # <a name="travel-requisitions"></a>Requisições de viagens
 
@@ -33,7 +33,7 @@ As Requisições de Viagens podem ser configurados como "obrigatórios" ao ativa
 
 1. Vá para **As Minhas Despesas: Requisição de viagens** e selecione **Nova requisição de viagens**.
 2. Introduza o objetivo e o destino para a requisição.
-3. No campo **Descrição da viagem**, introduza quaisquer informações adicionais. 
+3. No campo **Descrição da viagem** , introduza quaisquer informações adicionais. 
 4. Para cada uma das despesas esperadas, como Voo, refeições ou aluguer de automóvel, crie um item de despesas. Inclua a data estimada, o valor estimado e a moeda para cada despesa. 
 5. Quando terminar de adicionar as despesas esperadas, selecione **Guardar**.
 6. Quando estiver pronto para submeter a requisição de viagens, selecione **Fluxo de trabalho** > **Submeter**.

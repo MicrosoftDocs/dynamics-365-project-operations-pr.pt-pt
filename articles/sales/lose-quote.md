@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928597"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082281"
 ---
 # <a name="copy-project-based-quotes"></a>Copiar propostas baseadas em projetos
 
@@ -21,7 +21,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 Pode criar facilmente uma nova Proposta de projeto ao copiar uma existente. 
 
-- Para copiar uma Proposta de projeto, na página da lista **Propostas de Projeto** ou na página de detalhes **Proposta de Projeto**, selecione a Proposta de projeto que pretende copiar e, em seguida, selecione **Copiar**.
+- Para copiar uma Proposta de projeto, na página da lista **Propostas de Projeto** ou na página de detalhes **Proposta de Projeto** , selecione a Proposta de projeto que pretende copiar e, em seguida, selecione **Copiar**.
 
 Isto abrirá uma página de diálogo onde poderá introduzir os parâmetros da cópia. A tabela seguinte lista os campos incluídos na página de diálogo. Consoante os valores que selecionar, o processo de cópia poderá mudar.
 

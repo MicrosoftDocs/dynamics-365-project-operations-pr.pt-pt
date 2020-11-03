@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908467"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082279"
 ---
 # <a name="opportunity-headersummary"></a>Cabeçalho/resumo da oportunidade
 
@@ -28,7 +28,7 @@ A tabela seguinte inclui os campos numa oportunidade baseada em projetos que sã
 
 | **Campo** | **Localização** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
 | --- | --- | --- | --- |
-| Tipo | Separador Geral (oculto) | Este campo do conjunto de opções tem as seguintes opções:</br>- Baseado em trabalho (disponível apenas com o Project Operations)</br>- Baseado em item (disponível apenas quando o Project Operations e o Sales estão instalados)</br>- Baseado em manutenção do serviço (disponível quando o Field Service estiver instalado) | Quando utiliza o Project Operations, este valor de campo é definido automaticamente como **Baseado em trabalho**, que classifica a Oportunidade como baseada em projetos. Uma oportunidade deve ser baseada em projetos para ativar todas as funcionalidades e extensões específicas do projeto no processo de vendas a jusante para este negócio. |
+| Tipo | Separador Geral (oculto) | Este campo do conjunto de opções tem as seguintes opções:</br>- Baseado em trabalho (disponível apenas com o Project Operations)</br>- Baseado em item (disponível apenas quando o Project Operations e o Sales estão instalados)</br>- Baseado em manutenção do serviço (disponível quando o Field Service estiver instalado) | Quando utiliza o Project Operations, este valor de campo é definido automaticamente como **Baseado em trabalho** , que classifica a Oportunidade como baseada em projetos. Uma oportunidade deve ser baseada em projetos para ativar todas as funcionalidades e extensões específicas do projeto no processo de vendas a jusante para este negócio. |
 | Empresa Proprietária | Separador Geral | Esta é a empresa ou entidade legal que entregará o projeto ao cliente. | Estas informações do campo serão copiadas para o campo correspondente na proposta do Projeto que é criada a partir desta Oportunidade. |
 | Contacto | Separador Geral | Referência ao contacto principal do cliente para este negócio. | |
 | Conta | Separador Geral | Referência ao registo da conta ou empresa do cliente. | |

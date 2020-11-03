@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966843"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082308"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimar uma linha de proposta baseada no projeto
 
@@ -30,7 +30,7 @@ Para estimar uma linha de proposta baseada em projetos, na linha de proposta bas
 
 Para criar uma estimativa numa linha de proposta baseada em projetos, selecione o separador **Detalhe de Linha de Proposta**. O item que criar neste separador resumirá o valor proposto para esta linha de proposta. 
 
-Para criar detalhes da linha de proposta, selecione **+ Novo detalhe da linha de proposta** na subgrelha **Detalhes de Linha de Proposta**. É aberto o controlo de deslize de criação rápida. Os seguintes campos no formulário **Linha de Proposta**:
+Para criar detalhes da linha de proposta, selecione **+ Novo detalhe da linha de proposta** na subgrelha **Detalhes de Linha de Proposta**. É aberto o controlo de deslize de criação rápida. Os seguintes campos no formulário **Linha de Proposta** :
 
 | **Campo** | **Localização** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Para criar detalhes da linha de proposta, selecione **+ Novo detalhe da linha de
 
 ## <a name="update-prices-on-quote-line-details"></a>Atualizar preços nos detalhes da linha de proposta
 
-Se alterou os preços na lista de preços do projeto que está anexada à proposta, ou na lista de preços de custo da unidade de contratação, pode selecionar **Recalcular** na página **Proposta** para atualizar os preços nos detalhes da linha de proposta individual para refletir esta alteração. Quando selecionar **Recalcular**, é gerado um aviso que o informa que os preços nos detalhes da linha de proposta para todas as linhas de proposta desta proposta serão repostos. Selecione **Sim** para atualizar os preços tanto das vendas e os detalhes da linha de proposta de custos.
+Se alterou os preços na lista de preços do projeto que está anexada à proposta, ou na lista de preços de custo da unidade de contratação, pode selecionar **Recalcular** na página **Proposta** para atualizar os preços nos detalhes da linha de proposta individual para refletir esta alteração. Quando selecionar **Recalcular** , é gerado um aviso que o informa que os preços nos detalhes da linha de proposta para todas as linhas de proposta desta proposta serão repostos. Selecione **Sim** para atualizar os preços tanto das vendas e os detalhes da linha de proposta de custos.
 
 ## <a name="access-quote-line-details-for-cost"></a>Aceder aos detalhes da linha de proposta para o custo
 
-No separador **Detalhes de Linha de Proposta**, selecione uma linha na grelha para ativar algumas ações na barra de ferramentas da subgrelha. A primeira ação na barra de ferramentas da subgrelha quando um detalhe da linha de proposta é selecionado é **Abrir Detalhe de Custo**. Selecione **Abrir Detalhe de Custo** para ver a taxa de custo relacionada e o montante desta linha de proposta.
+No separador **Detalhes de Linha de Proposta** , selecione uma linha na grelha para ativar algumas ações na barra de ferramentas da subgrelha. A primeira ação na barra de ferramentas da subgrelha quando um detalhe da linha de proposta é selecionado é **Abrir Detalhe de Custo**. Selecione **Abrir Detalhe de Custo** para ver a taxa de custo relacionada e o montante desta linha de proposta.
 
 > [!NOTE]
 > Alterar os valores da unidade de atribuição de recursos, quantidade, datas, função ou categoria no detalhe da linha de proposta para o custo alterará os valores correspondentes nos detalhes da linha de proposta para as vendas.

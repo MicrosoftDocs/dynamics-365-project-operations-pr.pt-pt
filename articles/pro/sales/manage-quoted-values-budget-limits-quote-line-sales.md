@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908475"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082334"
 ---
 # <a name="project-based-quote-lines-pro"></a>Linhas de proposta baseadas em projetos (Pro)
 
@@ -49,15 +49,15 @@ A tabela seguinte fornece informações sobre os campos no separador **Geral** d
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regras de validação para os campos no separador Geral das linhas de proposta baseadas em projetos
 
-**Regra 1**: se o campo **Tarefas Incluídas** estiver em branco ou se estiver definido como **Todas as tarefas do projeto**, é incluído um projeto na linha de proposta.
+**Regra 1** : se o campo **Tarefas Incluídas** estiver em branco ou se estiver definido como **Todas as tarefas do projeto** , é incluído um projeto na linha de proposta.
 
-**Regra 2**: se o campo **Tarefas Incluídas** estiver em branco, ou se estiver definido como **Todas as tarefas do projeto**, um projeto e uma determinada classe de transações só podem ser incluídos numa linha de proposta baseada em projetos de uma proposta.
+**Regra 2** : se o campo **Tarefas Incluídas** estiver em branco, ou se estiver definido como **Todas as tarefas do projeto** , um projeto e uma determinada classe de transações só podem ser incluídos numa linha de proposta baseada em projetos de uma proposta.
 
-**Regra 3**: se o campo **Tarefas Incluídas** estiver definido como **Apenas tarefas selecionadas do projeto**, um projeto e uma determinada classe de transações só podem ser incluídos em várias linhas de proposta baseadas em projetos de uma proposta.
+**Regra 3** : se o campo **Tarefas Incluídas** estiver definido como **Apenas tarefas selecionadas do projeto** , um projeto e uma determinada classe de transações só podem ser incluídos em várias linhas de proposta baseadas em projetos de uma proposta.
 
-**Regra 4**: se uma oportunidade tiver várias proposta, poderá haver linhas de proposta de diferentes propostas em que todas referenciam o mesmo projeto e incluem a mesma classe de transações.
+**Regra 4** : se uma oportunidade tiver várias proposta, poderá haver linhas de proposta de diferentes propostas em que todas referenciam o mesmo projeto e incluem a mesma classe de transações.
 
-**Regra 5**: se as propostas não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transações.
+**Regra 5** : se as propostas não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transações.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

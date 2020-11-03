@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964921"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082296"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapear projetos e tarefas para uma linha de proposta baseada no projeto
 
@@ -42,13 +42,13 @@ Pode associar tarefas a linhas de proposta a partir das seguintes localizações
 A página **Projeto** proporciona a experiência ideal para associar tarefas a linhas de proposta. Pode utilizar esta página para selecionar várias tarefas e associar todas, bem com as respetivas tarefas subordinadas, à linha de proposta selecionada.
 
 1. No separador **Geral** de uma linha de proposta baseada em projetos, verifique se o campo **Projeto** está preenchido.
-2. No campo **Tarefas incluídas**, selecione **Apenas tarefas selecionadas**.
+2. No campo **Tarefas incluídas** , selecione **Apenas tarefas selecionadas**.
 3. Guarde a linha de proposta baseada em projetos. Quando o formulário é atualizado, é apresentado o separador **Tarefas Faturáveis**.
-4. No separador **Geral**, selecione a ligação para o projeto a partir do campo **Projeto**.
-5. Na página **Projeto**, selecione o separador **Faturação de Tarefas**.
+4. No separador **Geral** , selecione a ligação para o projeto a partir do campo **Projeto**.
+5. Na página **Projeto** , selecione o separador **Faturação de Tarefas**.
 6. Na segunda grelha, que se aplica à configuração da faturação específica da tarefa, selecione uma ou mais tarefas e, em seguida, selecione **Associar linhas de proposta**.
 7. Na página de diálogo apresentada, selecione uma linha de proposta que apresente linhas de proposta baseadas em projetos na proposta.
-8. No campo **Tipo de faturação**, indique se estas tarefas são faturáveis ou não faturáveis.
+8. No campo **Tipo de faturação** , indique se estas tarefas são faturáveis ou não faturáveis.
 9. Selecione a caixa de verificação para indicar se a associação deve incluir as tarefas subordinadas das tarefas selecionadas. Selecionar a caixa irá associar as tarefas subordinadas das tarefas selecionadas à linha de proposta.
 10. Selecione **OK** para fechar a caixa de diálogo.
 
@@ -57,13 +57,13 @@ A página **Projeto** proporciona a experiência ideal para associar tarefas a l
 Pode associar tarefas de projeto a linhas de proposta a partir do separador **Tarefas Faturáveis** na página **Linha de proposta**.
 
 >[!NOTE]
->O local ideal para associar tarefas de projeto a linhas de proposta é o separador **Faturação de tarefas** na página **Projeto**. Se associar tarefas a partir do separador **Tarefas Faturáveis** na página **Linha de proposta**, tem de associar manualmente cada projeto.
+>O local ideal para associar tarefas de projeto a linhas de proposta é o separador **Faturação de tarefas** na página **Projeto**. Se associar tarefas a partir do separador **Tarefas Faturáveis** na página **Linha de proposta** , tem de associar manualmente cada projeto.
 
 1. No separador **Geral** de uma linha de proposta baseada em projetos, verifique se existe um projeto selecionado no campo **Projeto**.
-2. No campo **Tarefas incluídas**, selecione **Apenas tarefas selecionadas**.
+2. No campo **Tarefas incluídas** , selecione **Apenas tarefas selecionadas**.
 3. Guarde a linha de proposta baseada em projetos. Quando o formulário é atualizado, é apresentado o separador **Tarefas Faturáveis**.
-4. No separador **Tarefas Faturáveis**, selecione **Adicionar uma tarefa de linha de proposta**.
-5. Na página **Tarefa da Linha de Proposta**, no campo **Tarefas**, selecione a tarefa e, no campo **Tipo de faturação**, selecione **Guardar**. 
+4. No separador **Tarefas Faturáveis** , selecione **Adicionar uma tarefa de linha de proposta**.
+5. Na página **Tarefa da Linha de Proposta** , no campo **Tarefas** , selecione a tarefa e, no campo **Tipo de faturação** , selecione **Guardar**. 
 6. Feche a página. A tarefa selecionada está agora associada à linha de proposta.
 
 ## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Desassociar tarefas a partir de linhas de proposta baseadas em projetos
@@ -72,8 +72,8 @@ Pode associar tarefas de projeto a linhas de proposta a partir do separador **Ta
 
 Este método proporciona a melhor experiência para desassociar as tarefas das linhas de proposta. Pode selecionar várias tarefas e desassociar todas, bem com as respetivas tarefas subordinadas, da linha de proposta selecionada.
 
-1. No separador **Geral** de uma linha de proposta baseada em projetos, no campo **Projeto**, selecione a ligação do projeto.
-2. Na página **Projeto**, selecione o separador **Faturação de Tarefas**.
+1. No separador **Geral** de uma linha de proposta baseada em projetos, no campo **Projeto** , selecione a ligação do projeto.
+2. Na página **Projeto** , selecione o separador **Faturação de Tarefas**.
 3. Na segunda grelha, que se aplica à configuração da faturação específica da tarefa, selecione uma ou mais tarefas e, em seguida, selecione **Desassociar linhas de proposta**.
 4. Na página de diálogo apresentada, selecione uma linha de proposta.
 5. Selecione a caixa de verificação para indicar se a associação também deve ser removida das tarefas subordinadas das tarefas selecionadas. Selecionar a caixa irá desassociar as tarefas subordinadas das tarefas selecionadas à linha de proposta.
@@ -84,7 +84,7 @@ Este método proporciona a melhor experiência para desassociar as tarefas das l
 
 Também pode desassociar tarefas de projeto de linhas de proposta a partir do separador **Tarefas Faturáveis** na página **Linha de proposta**.
 
-1. No separador **Tarefas Faturáveis**, selecione **Eliminar uma tarefa de linha de proposta**.
+1. No separador **Tarefas Faturáveis** , selecione **Eliminar uma tarefa de linha de proposta**.
 2. Selecione **OK**. Uma mensagem de aviso informa-o de que, se remover esta associação, quaisquer valores reais registados anteriormente na tarefa poderão ser revertidos. 
 3. Selecione **OK** para continuar e remover a associação entre a tarefa e a linha de proposta baseada em projetos.
 
