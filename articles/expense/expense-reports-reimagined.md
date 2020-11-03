@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,66 +15,66 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd0d415b9cc85bac91de8fb9427da290ae0c6108
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897150"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082470"
 ---
-# <a name="expense-reports-reimagined"></a>Relatórios de despesas reinventados
+# <a name="expense-reports-reimagined"></a><span data-ttu-id="ce50a-103">Relatórios de despesas reinventados</span><span class="sxs-lookup"><span data-stu-id="ce50a-103">Expense reports reimagined</span></span>
 
-A introdução de relatórios de despesas foi reformulada para simplificar o processo e reduzir o tempo necessário para concluir um relatório. Seguem-se os principais componentes da nova experiência de despesas:
+<span data-ttu-id="ce50a-104">A introdução de relatórios de despesas foi reformulada para simplificar o processo e reduzir o tempo necessário para concluir um relatório.</span><span class="sxs-lookup"><span data-stu-id="ce50a-104">Expense report entry has been redesigned to simplify the process and reduce the time needed to complete a report.</span></span> <span data-ttu-id="ce50a-105">Seguem-se os principais componentes da nova experiência de despesas:</span><span class="sxs-lookup"><span data-stu-id="ce50a-105">Here are the major components of the new expense experience:</span></span>
 
-- Uma nova área de trabalho de gestão de despesas que permite aceder às despesas do seu delegado.
-- Uma nova experiência de correspondência de recibos para mostrar melhor os recibos a nível do cabeçalho e simplificar o processo de anexação de recibos às linhas de despesa.
-- Uma nova grelha só de leitura que permite ver muito mais linhas de despesa e colunas de dados adicionais. Agora pode ver todas as linhas discriminadas e divididas, juntamente com as respetivas despesas principais.
-- Um painel simplificado para editar despesas.
-- Mensagens de erro, aviso e política reformuladas para fornecer o contexto e a compreensão corretos do problema, e como resolvê-lo. Removemos várias das mensagens que apareciam antes de os utilizadores poderem concluir as suas tarefas e resolver os problemas.
-- Uma nova página para especificar os campos obrigatórios, os campos opcionais e os campos que não devem ser incluídos. Esta página ajuda a reduzir o número de campos que têm de ser definidos.
-- Um novo aspeto e funcionalidade dos relatórios de despesas para os relatórios já não parecerem como se fossem concebidos para contabilistas.
+- <span data-ttu-id="ce50a-106">Uma nova área de trabalho de gestão de despesas que permite aceder às despesas do seu delegado.</span><span class="sxs-lookup"><span data-stu-id="ce50a-106">A new expense management workspace that lets you access your delegate's expenses.</span></span>
+- <span data-ttu-id="ce50a-107">Uma nova experiência de correspondência de recibos para mostrar melhor os recibos a nível do cabeçalho e simplificar o processo de anexação de recibos às linhas de despesa.</span><span class="sxs-lookup"><span data-stu-id="ce50a-107">A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</span></span>
+- <span data-ttu-id="ce50a-108">Uma nova grelha só de leitura que permite ver muito mais linhas de despesa e colunas de dados adicionais.</span><span class="sxs-lookup"><span data-stu-id="ce50a-108">A new read-only grid that lets you view many more expense lines and additional columns of data.</span></span> <span data-ttu-id="ce50a-109">Agora pode ver todas as linhas discriminadas e divididas, juntamente com as respetivas despesas principais.</span><span class="sxs-lookup"><span data-stu-id="ce50a-109">You can now see all itemized and split lines, together with their parent expenses.</span></span>
+- <span data-ttu-id="ce50a-110">Um painel simplificado para editar despesas.</span><span class="sxs-lookup"><span data-stu-id="ce50a-110">A simplified pane for editing expenses.</span></span>
+- <span data-ttu-id="ce50a-111">Mensagens de erro, aviso e política reformuladas para fornecer o contexto e a compreensão corretos do problema, e como resolvê-lo.</span><span class="sxs-lookup"><span data-stu-id="ce50a-111">Redesigned error, warning, and policy messages to provide the correct context and understanding of the issue and how to resolve it.</span></span> <span data-ttu-id="ce50a-112">Removemos várias das mensagens que apareciam antes de os utilizadores poderem concluir as suas tarefas e resolver os problemas.</span><span class="sxs-lookup"><span data-stu-id="ce50a-112">We have removed several of the messages that appeared before users could complete their tasks and address the issues.</span></span>
+- <span data-ttu-id="ce50a-113">Uma nova página para especificar os campos obrigatórios, os campos opcionais e os campos que não devem ser incluídos.</span><span class="sxs-lookup"><span data-stu-id="ce50a-113">A new page to specify required fields, optional fields, and the fields that should not be included.</span></span> <span data-ttu-id="ce50a-114">Esta página ajuda a reduzir o número de campos que têm de ser definidos.</span><span class="sxs-lookup"><span data-stu-id="ce50a-114">This page helps to reduce the number of fields that must be set.</span></span>
+- <span data-ttu-id="ce50a-115">Um novo aspeto e funcionalidade dos relatórios de despesas para os relatórios já não parecerem como se fossem concebidos para contabilistas.</span><span class="sxs-lookup"><span data-stu-id="ce50a-115">A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</span></span>
 
-Para ativar a nova experiência, utilize a área de trabalho **Gestão de funcionalidades** para ativar a funcionalidade **Relatórios de despesas reinventados**. Quando ativa esta funcionalidade, ocorrem as seguintes ações:
+<span data-ttu-id="ce50a-116">Para ativar a nova experiência, utilize a área de trabalho **Gestão de funcionalidades** para ativar a funcionalidade **Relatórios de despesas reinventados**.</span><span class="sxs-lookup"><span data-stu-id="ce50a-116">To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined** feature.</span></span> <span data-ttu-id="ce50a-117">Quando ativa esta funcionalidade, ocorrem as seguintes ações:</span><span class="sxs-lookup"><span data-stu-id="ce50a-117">When you turn on this feature, the following actions occur:</span></span>
 
-- A área de trabalho de despesas existente é substituída pela nova área de trabalho.
-- Um novo item de menu para visibilidade do campo de despesas é adicionado.
-- Não são removidos itens de menu existentes para relatórios de despesas (a página existente) ou campos de relatório de despesas.
-- Fluxos de trabalho e quaisquer aprovações ainda o levam à página de relatórios de despesas existentes.
+- <span data-ttu-id="ce50a-118">A área de trabalho de despesas existente é substituída pela nova área de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ce50a-118">The existing expense workspace is replaced with the new workspace.</span></span>
+- <span data-ttu-id="ce50a-119">Um novo item de menu para visibilidade do campo de despesas é adicionado.</span><span class="sxs-lookup"><span data-stu-id="ce50a-119">A new menu item for expense field visibility is added.</span></span>
+- <span data-ttu-id="ce50a-120">Não são removidos itens de menu existentes para relatórios de despesas (a página existente) ou campos de relatório de despesas.</span><span class="sxs-lookup"><span data-stu-id="ce50a-120">No existing menu items for expense reports (the existing page) or expense report fields are removed.</span></span>
+- <span data-ttu-id="ce50a-121">Fluxos de trabalho e quaisquer aprovações ainda o levam à página de relatórios de despesas existentes.</span><span class="sxs-lookup"><span data-stu-id="ce50a-121">Workflows and any approvals still take you to the existing expense reports page.</span></span>
 
-## <a name="getting-started-video-for-new-users"></a>Vídeo de introdução para novos utilizadores
+## <a name="getting-started-video-for-new-users"></a><span data-ttu-id="ce50a-122">Vídeo de introdução para novos utilizadores</span><span class="sxs-lookup"><span data-stu-id="ce50a-122">Getting started video for new users</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
-A [Experiência de despesas no vídeo Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrado acima) está incluída na lista de reprodução [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+<span data-ttu-id="ce50a-123">A [Experiência de despesas no vídeo Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrado acima) está incluída na lista de reprodução [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.</span><span class="sxs-lookup"><span data-stu-id="ce50a-123">The [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
 
-## <a name="new-features"></a>Novas funcionalidades
+## <a name="new-features"></a><span data-ttu-id="ce50a-124">Novas funcionalidades</span><span class="sxs-lookup"><span data-stu-id="ce50a-124">New features</span></span>
 
-| Nova funcionalidade | Descrição |
+| <span data-ttu-id="ce50a-125">Nova funcionalidade</span><span class="sxs-lookup"><span data-stu-id="ce50a-125">New feature</span></span> | <span data-ttu-id="ce50a-126">Descrição</span><span class="sxs-lookup"><span data-stu-id="ce50a-126">Description</span></span> |
 |---|----|
-| Visibilidade do campo de despesas | Uma nova página de configuração permite especificar quais os campos que devem ser desativados para uma organização, quais os campos que devem ser obrigatórios e quais os campos recomendados. |
-| Campos necessários | A nova configuração simples permite tornar alguns campos obrigatórios sem ter de utilizar o quadro da política. |
-| Campos opcionais | É adicionada uma segunda página para campos opcionais. Desta forma, os colaboradores não se sentirão como se tivessem de definir os campos, mas os campos ainda estão facilmente acessíveis. |
-| Adicionar recibos não anexados | A capacidade para adicionar recibos não anexados ao relatório de despesas é mais visível a partir da área de trabalho e no relatório de despesas. |
-| Mensagens melhoradas | Existe melhor visibilidade das linhas de despesas que têm avisos ou erros. |
-| Redução das mensagens na barra de mensagens| O número de mensagens do Infolog foi reduzido e foi feito um esforço para evitar que aparecessem mensagens duplicadas em muitos casos. |
-| Ações comuns agrupadas | A interface foi limpa com a inclusão de um novo botão de ações para a maioria das ações comuns a nível da linha, e a adição de um botão de reticências (...) para o cabeçalho e outras ações menos frequentes. |
-| Nova área de trabalho para aumentar a visibilidade | Uma nova área de trabalho unifica as funcionalidades e as ligações que permitem aos utilizadores moverem-se para diferentes áreas. |
-| Adicionar as despesas e recibos existentes durante a criação de despesas | Quando cria relatórios de despesas, pode adicionar todos recibos ou despesas, ou os selecionados. |
-| Calculadora de taxa de câmbio | É adicionada uma calculadora de taxa de câmbio que permite calcular a taxa de câmbio das transações multidivisa de despesas correntes. |
-| Guardar e adicionar novas linhas de despesa | Os botões **Guardar** e **Novo** estão disponíveis quando são introduzidas novas despesas para o ajudar a introduzir rapidamente linhas de despesa. |
-| Melhor visibilidade sobre as linhas divididas e discriminadas | As linhas discriminadas e divididas são adicionadas diretamente à lista de despesas para aumentar a visibilidade e ajudá-lo a determinar facilmente se existem erros. |
-| Mostrar recibos durante a discriminação | Os recibos podem ser mostrados durante a discriminação. |
+| <span data-ttu-id="ce50a-127">Visibilidade do campo de despesas</span><span class="sxs-lookup"><span data-stu-id="ce50a-127">Expense field visibility</span></span> | <span data-ttu-id="ce50a-128">Uma nova página de configuração permite especificar quais os campos que devem ser desativados para uma organização, quais os campos que devem ser obrigatórios e quais os campos recomendados.</span><span class="sxs-lookup"><span data-stu-id="ce50a-128">A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</span></span> |
+| <span data-ttu-id="ce50a-129">Campos necessários</span><span class="sxs-lookup"><span data-stu-id="ce50a-129">Required fields</span></span> | <span data-ttu-id="ce50a-130">A nova configuração simples permite tornar alguns campos obrigatórios sem ter de utilizar o quadro da política.</span><span class="sxs-lookup"><span data-stu-id="ce50a-130">New simple configuration lets you make some fields required without having to use the policy framework.</span></span> |
+| <span data-ttu-id="ce50a-131">Campos opcionais</span><span class="sxs-lookup"><span data-stu-id="ce50a-131">Optional fields</span></span> | <span data-ttu-id="ce50a-132">É adicionada uma segunda página para campos opcionais.</span><span class="sxs-lookup"><span data-stu-id="ce50a-132">A second page for optional fields is added.</span></span> <span data-ttu-id="ce50a-133">Desta forma, os colaboradores não se sentirão como se tivessem de definir os campos, mas os campos ainda estão facilmente acessíveis.</span><span class="sxs-lookup"><span data-stu-id="ce50a-133">In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</span></span> |
+| <span data-ttu-id="ce50a-134">Adicionar recibos não anexados</span><span class="sxs-lookup"><span data-stu-id="ce50a-134">Add unattached receipts</span></span> | <span data-ttu-id="ce50a-135">A capacidade para adicionar recibos não anexados ao relatório de despesas é mais visível a partir da área de trabalho e no relatório de despesas.</span><span class="sxs-lookup"><span data-stu-id="ce50a-135">The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</span></span> |
+| <span data-ttu-id="ce50a-136">Mensagens melhoradas</span><span class="sxs-lookup"><span data-stu-id="ce50a-136">Improved messaging</span></span> | <span data-ttu-id="ce50a-137">Existe melhor visibilidade das linhas de despesas que têm avisos ou erros.</span><span class="sxs-lookup"><span data-stu-id="ce50a-137">There is better visibility into expense lines that have warnings or errors.</span></span> |
+| <span data-ttu-id="ce50a-138">Redução das mensagens na barra de mensagens</span><span class="sxs-lookup"><span data-stu-id="ce50a-138">Reduction in messages in the message bar</span></span>| <span data-ttu-id="ce50a-139">O número de mensagens do Infolog foi reduzido e foi feito um esforço para evitar que aparecessem mensagens duplicadas em muitos casos.</span><span class="sxs-lookup"><span data-stu-id="ce50a-139">The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</span></span> |
+| <span data-ttu-id="ce50a-140">Ações comuns agrupadas</span><span class="sxs-lookup"><span data-stu-id="ce50a-140">Grouped together common actions</span></span> | <span data-ttu-id="ce50a-141">A interface foi limpa com a inclusão de um novo botão de ações para a maioria das ações comuns a nível da linha, e a adição de um botão de reticências (...) para o cabeçalho e outras ações menos frequentes.</span><span class="sxs-lookup"><span data-stu-id="ce50a-141">The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</span></span> |
+| <span data-ttu-id="ce50a-142">Nova área de trabalho para aumentar a visibilidade</span><span class="sxs-lookup"><span data-stu-id="ce50a-142">New workspace to increase visibility</span></span> | <span data-ttu-id="ce50a-143">Uma nova área de trabalho unifica as funcionalidades e as ligações que permitem aos utilizadores moverem-se para diferentes áreas.</span><span class="sxs-lookup"><span data-stu-id="ce50a-143">A new workspace unifies features and links that let users move to different areas.</span></span> |
+| <span data-ttu-id="ce50a-144">Adicionar as despesas e recibos existentes durante a criação de despesas</span><span class="sxs-lookup"><span data-stu-id="ce50a-144">Add existing expenses and receipts during expense creation</span></span> | <span data-ttu-id="ce50a-145">Quando cria relatórios de despesas, pode adicionar todos recibos ou despesas, ou os selecionados.</span><span class="sxs-lookup"><span data-stu-id="ce50a-145">When you create expense reports, you can add all or selected expenses and receipts.</span></span> |
+| <span data-ttu-id="ce50a-146">Calculadora de taxa de câmbio</span><span class="sxs-lookup"><span data-stu-id="ce50a-146">Exchange rate calculator</span></span> | <span data-ttu-id="ce50a-147">É adicionada uma calculadora de taxa de câmbio que permite calcular a taxa de câmbio das transações multidivisa de despesas correntes.</span><span class="sxs-lookup"><span data-stu-id="ce50a-147">An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</span></span> |
+| <span data-ttu-id="ce50a-148">Guardar e adicionar novas linhas de despesa</span><span class="sxs-lookup"><span data-stu-id="ce50a-148">Save and add new expense lines</span></span> | <span data-ttu-id="ce50a-149">Os botões **Guardar** e **Novo** estão disponíveis quando são introduzidas novas despesas para o ajudar a introduzir rapidamente linhas de despesa.</span><span class="sxs-lookup"><span data-stu-id="ce50a-149">**Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines.</span></span> |
+| <span data-ttu-id="ce50a-150">Melhor visibilidade sobre as linhas divididas e discriminadas</span><span class="sxs-lookup"><span data-stu-id="ce50a-150">Better visibility into split and itemized lines</span></span> | <span data-ttu-id="ce50a-151">As linhas discriminadas e divididas são adicionadas diretamente à lista de despesas para aumentar a visibilidade e ajudá-lo a determinar facilmente se existem erros.</span><span class="sxs-lookup"><span data-stu-id="ce50a-151">Itemized and split lines are added directly to the list of expenses to increase visibility and help you easily determine whether there are any errors.</span></span> |
+| <span data-ttu-id="ce50a-152">Mostrar recibos durante a discriminação</span><span class="sxs-lookup"><span data-stu-id="ce50a-152">Show receipts during itemization</span></span> | <span data-ttu-id="ce50a-153">Os recibos podem ser mostrados durante a discriminação.</span><span class="sxs-lookup"><span data-stu-id="ce50a-153">Receipts can be shown during itemization.</span></span> |
 
-A versão inicial está focada em cenários de introdução de despesas. Qualquer cenário de revisão ou aprovação de relatório de despesas continuará a utilizar a página de introdução de despesas existente.
+<span data-ttu-id="ce50a-154">A versão inicial está focada em cenários de introdução de despesas.</span><span class="sxs-lookup"><span data-stu-id="ce50a-154">The initial release is focused on expense entry scenarios.</span></span> <span data-ttu-id="ce50a-155">Qualquer cenário de revisão ou aprovação de relatório de despesas continuará a utilizar a página de introdução de despesas existente.</span><span class="sxs-lookup"><span data-stu-id="ce50a-155">Any expense report review or approval scenario will continue to use the existing expense entry page.</span></span>
 
-As seguintes funcionalidades estão presentes na página existente, mas ainda não estão presentes na nova página. Estas funcionalidades serão reintroduzidas ao longo dos vários lançamentos seguintes:
+<span data-ttu-id="ce50a-156">As seguintes funcionalidades estão presentes na página existente, mas ainda não estão presentes na nova página.</span><span class="sxs-lookup"><span data-stu-id="ce50a-156">The following features are present on the existing page but aren't yet present on the new page.</span></span> <span data-ttu-id="ce50a-157">Estas funcionalidades serão reintroduzidas ao longo dos vários lançamentos seguintes:</span><span class="sxs-lookup"><span data-stu-id="ce50a-157">These features will be reintroduced over the next several releases:</span></span>
 
-- Aprovações
-- Aprovações de contas a pagar e a capacidade para editar a contabilidade
-- Vários pontos de entrada
-- Integração de requisição de viagem
-- Entidade de dados para a visibilidade do campo de despesas
-- Introdução para subsídio diário
-- Fluxo de trabalho a nível da linha
-- Suporte do aprovador provisório
-- Discriminação avançada
+- <span data-ttu-id="ce50a-158">Aprovações</span><span class="sxs-lookup"><span data-stu-id="ce50a-158">Approvals</span></span>
+- <span data-ttu-id="ce50a-159">Aprovações de contas a pagar e a capacidade para editar a contabilidade</span><span class="sxs-lookup"><span data-stu-id="ce50a-159">Accounts payable approvals and the ability to edit the accounting</span></span>
+- <span data-ttu-id="ce50a-160">Vários pontos de entrada</span><span class="sxs-lookup"><span data-stu-id="ce50a-160">Multiple entry points</span></span>
+- <span data-ttu-id="ce50a-161">Integração de requisição de viagem</span><span class="sxs-lookup"><span data-stu-id="ce50a-161">Travel requisition integration</span></span>
+- <span data-ttu-id="ce50a-162">Entidade de dados para a visibilidade do campo de despesas</span><span class="sxs-lookup"><span data-stu-id="ce50a-162">Data entity for expense field visibility</span></span>
+- <span data-ttu-id="ce50a-163">Introdução para subsídio diário</span><span class="sxs-lookup"><span data-stu-id="ce50a-163">Entry for per-diem expenses</span></span>
+- <span data-ttu-id="ce50a-164">Fluxo de trabalho a nível da linha</span><span class="sxs-lookup"><span data-stu-id="ce50a-164">Line-level workflow</span></span>
+- <span data-ttu-id="ce50a-165">Suporte do aprovador provisório</span><span class="sxs-lookup"><span data-stu-id="ce50a-165">Interim approver support</span></span>
+- <span data-ttu-id="ce50a-166">Discriminação avançada</span><span class="sxs-lookup"><span data-stu-id="ce50a-166">Advanced itemization</span></span>

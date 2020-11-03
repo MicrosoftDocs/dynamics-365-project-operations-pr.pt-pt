@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,27 +15,27 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c6a721849bfe556fb637f21898c0fa00083760dd
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896880"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082405"
 ---
-# <a name="manage-delegation"></a>Gerir delegação
-Um delegado de despesas pode criar e gerir relatórios de despesas para outro funcionário.
+# <a name="manage-delegation"></a><span data-ttu-id="0acbc-103">Gerir delegação</span><span class="sxs-lookup"><span data-stu-id="0acbc-103">Manage delegation</span></span>
+<span data-ttu-id="0acbc-104">Um delegado de despesas pode criar e gerir relatórios de despesas para outro funcionário.</span><span class="sxs-lookup"><span data-stu-id="0acbc-104">An expense delegate can create and manage expense reports for another employee.</span></span>
 
-## <a name="configuring-expense-delegation"></a>Configurar delegação de despesas
+## <a name="configuring-expense-delegation"></a><span data-ttu-id="0acbc-105">Configurar delegação de despesas</span><span class="sxs-lookup"><span data-stu-id="0acbc-105">Configuring expense delegation</span></span>
 
-Para configurar um utilizador como delegado de despesas, conclua os seguintes passos. 
-1. Vá para **Gestão de despesas** > **Configurar** > **Geral** > **Delegados**. 
-2. Na página **Delegados**, selecione **Novo** e selecione o funcionário que terá um delegado definido. 
-3. Introduza o pseudónimo do utilizador delegado e as datas de início e de fim para o período de delegação.
+<span data-ttu-id="0acbc-106">Para configurar um utilizador como delegado de despesas, conclua os seguintes passos.</span><span class="sxs-lookup"><span data-stu-id="0acbc-106">To set up a user as an expense delegate, complete the following steps.</span></span> 
+1. <span data-ttu-id="0acbc-107">Vá para **Gestão de despesas** > **Configurar** > **Geral** > **Delegados**.</span><span class="sxs-lookup"><span data-stu-id="0acbc-107">Go to **Expense management** > **Setup** > **General** > **Delegates**.</span></span> 
+2. <span data-ttu-id="0acbc-108">Na página **Delegados** , selecione **Novo** e selecione o funcionário que terá um delegado definido.</span><span class="sxs-lookup"><span data-stu-id="0acbc-108">On the **Delegates** page, select **New** and then select the employee that will have a delegate defined.</span></span> 
+3. <span data-ttu-id="0acbc-109">Introduza o pseudónimo do utilizador delegado e as datas de início e de fim para o período de delegação.</span><span class="sxs-lookup"><span data-stu-id="0acbc-109">Enter the alias of the delegate user, and the start and end date for the delegation period.</span></span>
 
-## <a name="manage-expenses-on-behalf-of-another-employee"></a>Gerir despesas em nome de outro funcionário
+## <a name="manage-expenses-on-behalf-of-another-employee"></a><span data-ttu-id="0acbc-110">Gerir despesas em nome de outro funcionário</span><span class="sxs-lookup"><span data-stu-id="0acbc-110">Manage expenses on behalf of another employee</span></span>
 
-Se a chave de gestão de funcionalidades da página da lista **Ativar delegados de despesas** estiver ativada, a página da lista **Despesas delegadas em mim** estará disponível. Vá para **Gestão de despesas** > **As minhas despesas** > **Despesas delegadas em mim**.
+<span data-ttu-id="0acbc-111">Se a chave de gestão de funcionalidades da página da lista **Ativar delegados de despesas** estiver ativada, a página da lista **Despesas delegadas em mim** estará disponível.</span><span class="sxs-lookup"><span data-stu-id="0acbc-111">If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available.</span></span> <span data-ttu-id="0acbc-112">Vá para **Gestão de despesas** > **As minhas despesas** > **Despesas delegadas em mim**.</span><span class="sxs-lookup"><span data-stu-id="0acbc-112">Go to **Expense management** > **My expenses** > **Expenses delegated to me**.</span></span>
 
-Um delegado pode filtrar e pesquisar rapidamente os relatórios de despesas existentes que lhe foram delegados. O delegado também pode criar rapidamente um novo relatório de despesas para os outros utilizadores ao selecionar **Novo relatório de despesas**.
+<span data-ttu-id="0acbc-113">Um delegado pode filtrar e pesquisar rapidamente os relatórios de despesas existentes que lhe foram delegados.</span><span class="sxs-lookup"><span data-stu-id="0acbc-113">A delegate can quickly filter and search on existing expense reports that have been delegated to them.</span></span> <span data-ttu-id="0acbc-114">O delegado também pode criar rapidamente um novo relatório de despesas para os outros utilizadores ao selecionar **Novo relatório de despesas**.</span><span class="sxs-lookup"><span data-stu-id="0acbc-114">The delegate can also quickly create a new expense report for other users by selecting **New expense report**.</span></span>
 
-Os delegados podem criar e gerir relatórios de despesas para os outros colaboradores em **Gestão de despesas** > **As minhas despesas** > **Relatórios de despesas** e selecionar **Abrir as despesas de outro utilizador**.
+<span data-ttu-id="0acbc-115">Os delegados podem criar e gerir relatórios de despesas para os outros colaboradores em **Gestão de despesas** > **As minhas despesas** > **Relatórios de despesas** e selecionar **Abrir as despesas de outro utilizador**.</span><span class="sxs-lookup"><span data-stu-id="0acbc-115">Delegates can create and manage expense reports for other employees by going to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.</span></span>

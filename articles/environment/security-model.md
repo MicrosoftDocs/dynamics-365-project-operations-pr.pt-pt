@@ -8,71 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082289"
 ---
-# <a name="security-model"></a>Modelo de Segurança
+# <a name="security-model"></a><span data-ttu-id="35a32-103">Modelo de Segurança</span><span class="sxs-lookup"><span data-stu-id="35a32-103">Security Model</span></span>
 
-_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
+<span data-ttu-id="35a32-104">_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_</span><span class="sxs-lookup"><span data-stu-id="35a32-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-O Microsoft Dynamics 365 Project Operations contém um modelo de segurança exclusivo que permite um modelo de segurança empresarial baseado em funções que colabora com Grupos do Microsoft Office. 
+<span data-ttu-id="35a32-105">O Microsoft Dynamics 365 Project Operations contém um modelo de segurança exclusivo que permite um modelo de segurança empresarial baseado em funções que colabora com Grupos do Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="35a32-105">Microsoft Dynamics 365 Project Operations contains a unique security model that allows for a role-based business security model that collaborates with Microsoft Office Groups.</span></span> 
 
 
-## <a name="security-roles"></a>Funções de segurança
-As capacidades front-end do Project Operations incluem as seguintes funções:
+## <a name="security-roles"></a><span data-ttu-id="35a32-106">Funções de segurança</span><span class="sxs-lookup"><span data-stu-id="35a32-106">Security roles</span></span>
+<span data-ttu-id="35a32-107">As capacidades front-end do Project Operations incluem as seguintes funções:</span><span class="sxs-lookup"><span data-stu-id="35a32-107">Project Operations front-end capabilities include the following roles:</span></span>
 
-| Função                          | Descrição                                                                                                                                                                 | Scope |
+| <span data-ttu-id="35a32-108">Função</span><span class="sxs-lookup"><span data-stu-id="35a32-108">Role</span></span>                          | <span data-ttu-id="35a32-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="35a32-109">Description</span></span>                                                                                                                                                                 | <span data-ttu-id="35a32-110">Scope</span><span class="sxs-lookup"><span data-stu-id="35a32-110">Scope</span></span> |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| Gestor de práticas              | Suporta relatórios entre projetos.                                                                                                            | Unidade de negócio              |
-| Aprovador do projeto              | Aprova tempo e despesas para um projeto (Project Service)                                                                                                                              | Unidade de negócio |
-| Administrador de faturação do projeto | Cria a proposta de fatura.                                                                                                                                                 | Unidade de negócio |
-| Gestor de projeto               | Cria o plano de projeto e solicita recursos.                                                                                                                              | Unidade de negócio |
-| Recurso de Projeto              | Membros da equipa que podem ser reservados e reportar o tempo.                                                                                                          | Unidade de negócio|
-| Gestor de recursos              | Todas as funções de gestão de recursos, como satisfazer os pedidos de recursos e reservas, são separadas para suportar uma configuração híbrida de Gestor de projeto + Gestor de recursos e uma única e centralizada função de Gestor de recursos. | Unidade de negócio |
+| <span data-ttu-id="35a32-111">Gestor de práticas</span><span class="sxs-lookup"><span data-stu-id="35a32-111">Practice manager</span></span>              | <span data-ttu-id="35a32-112">Suporta relatórios entre projetos.</span><span class="sxs-lookup"><span data-stu-id="35a32-112">Supports cross-project reporting.</span></span>                                                                                                            | <span data-ttu-id="35a32-113">Unidade de negócio</span><span class="sxs-lookup"><span data-stu-id="35a32-113">Business unit</span></span>              |
+| <span data-ttu-id="35a32-114">Aprovador do projeto</span><span class="sxs-lookup"><span data-stu-id="35a32-114">Project approver</span></span>              | <span data-ttu-id="35a32-115">Aprova tempo e despesas para um projeto (Project Service)</span><span class="sxs-lookup"><span data-stu-id="35a32-115">Approves time and expenses against a project.</span></span>                                                                                                                              | <span data-ttu-id="35a32-116">Unidade de negócio</span><span class="sxs-lookup"><span data-stu-id="35a32-116">Business unit</span></span> |
+| <span data-ttu-id="35a32-117">Administrador de faturação do projeto</span><span class="sxs-lookup"><span data-stu-id="35a32-117">Project billing administrator</span></span> | <span data-ttu-id="35a32-118">Cria a proposta de fatura.</span><span class="sxs-lookup"><span data-stu-id="35a32-118">Creates the invoice proposal.</span></span>                                                                                                                                                 | <span data-ttu-id="35a32-119">Unidade de negócio</span><span class="sxs-lookup"><span data-stu-id="35a32-119">Business unit</span></span> |
+| <span data-ttu-id="35a32-120">Gestor de projeto</span><span class="sxs-lookup"><span data-stu-id="35a32-120">Project manager</span></span>               | <span data-ttu-id="35a32-121">Cria o plano de projeto e solicita recursos.</span><span class="sxs-lookup"><span data-stu-id="35a32-121">Creates the project plan and requests resources.</span></span>                                                                                                                              | <span data-ttu-id="35a32-122">Unidade de negócio</span><span class="sxs-lookup"><span data-stu-id="35a32-122">Business unit</span></span> |
+| <span data-ttu-id="35a32-123">Recurso de Projeto</span><span class="sxs-lookup"><span data-stu-id="35a32-123">Project resource</span></span>              | <span data-ttu-id="35a32-124">Membros da equipa que podem ser reservados e reportar o tempo.</span><span class="sxs-lookup"><span data-stu-id="35a32-124">Team members who can be booked and report time.</span></span>                                                                                                          | <span data-ttu-id="35a32-125">Unidade de negócio</span><span class="sxs-lookup"><span data-stu-id="35a32-125">Business unit</span></span>|
+| <span data-ttu-id="35a32-126">Gestor de recursos</span><span class="sxs-lookup"><span data-stu-id="35a32-126">Resource manager</span></span>              | <span data-ttu-id="35a32-127">Todas as funções de gestão de recursos, como satisfazer os pedidos de recursos e reservas, são separadas para suportar uma configuração híbrida de Gestor de projeto + Gestor de recursos e uma única e centralizada função de Gestor de recursos.</span><span class="sxs-lookup"><span data-stu-id="35a32-127">All resource management functions, such as fulfill resource requests and bookings, separated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role.</span></span> | <span data-ttu-id="35a32-128">Unidade de negócio</span><span class="sxs-lookup"><span data-stu-id="35a32-128">Business unit</span></span> |
 
 
-O Microsoft Project for the Web inclui as seguintes funções:
-| Função                          | Descrição                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Utilizador do projeto | Utilizador colaborativo do Project que é capaz de criar os seus próprios projetos e ver quaisquer projetos partilhados com ele.| Utilizador|
-| Sistema de projetos | Função usada para o contexto da aplicação. Os clientes não devem utilizar esta função do sistema. | Global|
+<span data-ttu-id="35a32-129">O Microsoft Project for the Web inclui as seguintes funções:</span><span class="sxs-lookup"><span data-stu-id="35a32-129">Microsoft Project for the Web includes the following roles:</span></span>
 
-## <a name="security-enforcement"></a>Aplicação da segurança
-As ações que são executadas a nível do projeto são executadas no contexto do utilizador com sessão iniciada. Isto significa que, para criar, abrir ou eliminar um projeto, o utilizador tem de ter acesso disponível no CDS. O acesso no CDS pode ser concedido através de qualquer um dos mecanismos possíveis incluídos na plataforma. Por exemplo, um utilizador com um âmbito mais alargado pode aceder ao projeto ou se tiver sido executada uma ação de partilha de projeto explícita que conceda acesso ao utilizador.
+| <span data-ttu-id="35a32-130">Função</span><span class="sxs-lookup"><span data-stu-id="35a32-130">Role</span></span>           | <span data-ttu-id="35a32-131">Descrição</span><span class="sxs-lookup"><span data-stu-id="35a32-131">Description</span></span>                                                                                                        | <span data-ttu-id="35a32-132">Scope</span><span class="sxs-lookup"><span data-stu-id="35a32-132">Scope</span></span>  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| <span data-ttu-id="35a32-133">Utilizador do projeto</span><span class="sxs-lookup"><span data-stu-id="35a32-133">Project user</span></span>   | <span data-ttu-id="35a32-134">Utilizador colaborativo do Projeto que é capaz de criar os seus próprios projetos e ver quaisquer projetos partilhados com ele.</span><span class="sxs-lookup"><span data-stu-id="35a32-134">Collaborative user of Project   who is able to create their own projects and view any projects shared with   them.</span></span> | <span data-ttu-id="35a32-135">Utilizador</span><span class="sxs-lookup"><span data-stu-id="35a32-135">User</span></span>   |
+| <span data-ttu-id="35a32-136">Sistema de projetos</span><span class="sxs-lookup"><span data-stu-id="35a32-136">Project system</span></span> | <span data-ttu-id="35a32-137">Função usada para o contexto da aplicação.</span><span class="sxs-lookup"><span data-stu-id="35a32-137">Role used for application   context.</span></span> <span data-ttu-id="35a32-138">Os clientes não devem utilizar esta função do sistema.</span><span class="sxs-lookup"><span data-stu-id="35a32-138">Customers should not use this system role.</span></span>                                    | <span data-ttu-id="35a32-139">Global</span><span class="sxs-lookup"><span data-stu-id="35a32-139">Global</span></span> |
 
-É importante ter isto em consideração ao criar projetos no Project Operations.
+## <a name="security-enforcement"></a><span data-ttu-id="35a32-140">Aplicação da segurança</span><span class="sxs-lookup"><span data-stu-id="35a32-140">Security enforcement</span></span>
+<span data-ttu-id="35a32-141">As ações que são executadas a nível do projeto são executadas no contexto do utilizador com sessão iniciada.</span><span class="sxs-lookup"><span data-stu-id="35a32-141">Actions that are performed at the project level are performed in the context of the logged in user.</span></span> <span data-ttu-id="35a32-142">Isto significa que, para criar, abrir ou eliminar um projeto, o utilizador tem de ter acesso disponível no CDS.</span><span class="sxs-lookup"><span data-stu-id="35a32-142">This means that in order to create, open, or delete a project, the user is required to have access available in CDS.</span></span> <span data-ttu-id="35a32-143">O acesso no CDS pode ser concedido através de qualquer um dos mecanismos possíveis incluídos na plataforma.</span><span class="sxs-lookup"><span data-stu-id="35a32-143">Access in CDS may be granted through any of the possible mechanisms included in the platform.</span></span> <span data-ttu-id="35a32-144">Por exemplo, um utilizador com um âmbito mais alargado pode aceder ao projeto ou se tiver sido executada uma ação de partilha de projeto explícita que conceda acesso ao utilizador.</span><span class="sxs-lookup"><span data-stu-id="35a32-144">For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.</span></span>
 
-## <a name="modern-group-collaboration-with-project-operations"></a>Colaboração em grupo moderna com Project Operations
-O Project para a Web e o Project Operations suportam grupos modernos para a colaboração. Os utilizadores adicionados ao projeto através de um grupo são capazes de editar o plano do projeto.
+<span data-ttu-id="35a32-145">É importante ter isto em consideração ao criar projetos no Project Operations.</span><span class="sxs-lookup"><span data-stu-id="35a32-145">It's important to consider this when creating projects in Project Operations.</span></span>
 
-O Project para a Web adiciona utilizadores ao grupo automaticamente após a atribuição.
+## <a name="modern-group-collaboration-with-project-operations"></a><span data-ttu-id="35a32-146">Colaboração em grupo moderna com Project Operations</span><span class="sxs-lookup"><span data-stu-id="35a32-146">Modern group collaboration with Project Operations</span></span>
+<span data-ttu-id="35a32-147">O Project para a Web e o Project Operations suportam grupos modernos para a colaboração.</span><span class="sxs-lookup"><span data-stu-id="35a32-147">Project for the Web and Project Operations support modern groups for collaboration.</span></span> <span data-ttu-id="35a32-148">Os utilizadores adicionados ao projeto através de um grupo são capazes de editar o plano do projeto.</span><span class="sxs-lookup"><span data-stu-id="35a32-148">Users added to the project through a group are able to edit the project plan.</span></span>
 
-Os grupos permitem trabalhar de forma colaborativa nas permissões do projeto e nos artefactos de colaboração de suporte. O diagrama seguinte representa os eventos e alterações de estado que ocorrem durante o processo de atribuição de grupo.
+<span data-ttu-id="35a32-149">O Project para a Web adiciona utilizadores ao grupo automaticamente após a atribuição.</span><span class="sxs-lookup"><span data-stu-id="35a32-149">Project for the Web adds users to the group automatically upon assignment.</span></span>
 
-O Project Operations não cria um grupo através de uma ação implícita e só o faz através da ação explícita de premir nos grupos.
+<span data-ttu-id="35a32-150">Os grupos permitem trabalhar de forma colaborativa nas permissões do projeto e nos artefactos de colaboração de suporte.</span><span class="sxs-lookup"><span data-stu-id="35a32-150">Groups allow the permissions of the project and supporting collaboration artifacts to be worked on collaboratively.</span></span> <span data-ttu-id="35a32-151">O diagrama seguinte representa os eventos e alterações de estado que ocorrem durante o processo de atribuição de grupo.</span><span class="sxs-lookup"><span data-stu-id="35a32-151">The following diagram depicts the events and state changes that happen during the group assignment process.</span></span>
 
-A pesquisa de membros do grupo na caixa de diálogo **Gestão de grupos** está limitada àqueles que estão definidos como parte do grupo de segurança do ambiente. Para mais informações, consulte [Controlar o acesso de utilizadores a ambientes: grupos de segurança e licenças](https://docs.microsoft.com/power-platform/admin/control-user-access)
+<span data-ttu-id="35a32-152">O Project Operations não cria um grupo através de uma ação implícita e só o faz através da ação explícita de premir nos grupos.</span><span class="sxs-lookup"><span data-stu-id="35a32-152">Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.</span></span>
 
-1. O Projeto é criado e é propriedade do Utilizador que o cria.
-2. O proprietário do Projeto é atualizado para a equipa.
-3. A Equipa proprietária é mapeada para o Grupo do Office especificado ou criado.
-4. O proprietário original do Projeto é adicionado ao Grupo do Office.
+<span data-ttu-id="35a32-153">A pesquisa de membros do grupo na caixa de diálogo **Gestão de grupos** está limitada àqueles que estão definidos como parte do grupo de segurança do ambiente.</span><span class="sxs-lookup"><span data-stu-id="35a32-153">Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group.</span></span> <span data-ttu-id="35a32-154">Para mais informações, consulte [Controlar o acesso de utilizadores a ambientes: grupos de segurança e licenças](https://docs.microsoft.com/power-platform/admin/control-user-access)</span><span class="sxs-lookup"><span data-stu-id="35a32-154">For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).</span></span>
 
-## <a name="deployment-recommendation"></a>Recomendações de implementação
-À medida que o modelo de colaboração do grupo do Office evolui, a funcionalidade será adicionada para proporcionar um controlo mais detalhado ao longo do tempo. Os clientes que implementam atualmente o Project Operations são encorajados a concentrarem-se num modelo de segurança tradicional do Microsoft Dynamics 365.
+![Modo de grupo](./media/groupsmode.png)
 
-Para mais informações, consulte [Segurança no Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+1. <span data-ttu-id="35a32-156">O Projeto é criado e é propriedade do Utilizador que o cria.</span><span class="sxs-lookup"><span data-stu-id="35a32-156">The Project is created and owned by the creating User.</span></span>
+2. <span data-ttu-id="35a32-157">O proprietário do Projeto é atualizado para a equipa.</span><span class="sxs-lookup"><span data-stu-id="35a32-157">The Project owner is updated to the team.</span></span>
+3. <span data-ttu-id="35a32-158">A Equipa proprietária é mapeada para o Grupo do Office especificado ou criado.</span><span class="sxs-lookup"><span data-stu-id="35a32-158">The Owner team is mapped to the specified or created Office Group.</span></span>
+4. <span data-ttu-id="35a32-159">O proprietário original do Projeto é adicionado ao Grupo do Office.</span><span class="sxs-lookup"><span data-stu-id="35a32-159">The original owner of the Project is added to the Office Group.</span></span>
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Segurança do Microsoft Dynamics 365 Finance e Project Operations
-O Project Operations inclui as seguintes funções:
+## <a name="deployment-recommendation"></a><span data-ttu-id="35a32-160">Recomendações de implementação</span><span class="sxs-lookup"><span data-stu-id="35a32-160">Deployment recommendation</span></span>
+<span data-ttu-id="35a32-161">À medida que o modelo de colaboração do grupo do Office evolui, a funcionalidade será adicionada para proporcionar um controlo mais detalhado ao longo do tempo.</span><span class="sxs-lookup"><span data-stu-id="35a32-161">As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time.</span></span> <span data-ttu-id="35a32-162">Os clientes que implementam atualmente o Project Operations são encorajados a concentrarem-se num modelo de segurança tradicional do Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="35a32-162">Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.</span></span>
 
-- Gestor de projeto
-- Gestão contabilística do projeto
+<span data-ttu-id="35a32-163">Para mais informações, consulte [Segurança no Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span><span class="sxs-lookup"><span data-stu-id="35a32-163">For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span></span>
 
-Para mais informações sobre segurança no Finance, consulte [Acesso baseado na segurança](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a><span data-ttu-id="35a32-164">Segurança do Microsoft Dynamics 365 Finance e Project Operations</span><span class="sxs-lookup"><span data-stu-id="35a32-164">Project Operations and Microsoft Dynamics 365 Finance security</span></span>
+<span data-ttu-id="35a32-165">O Project Operations inclui as seguintes funções:</span><span class="sxs-lookup"><span data-stu-id="35a32-165">Project Operations includes the following roles:</span></span>
+
+- <span data-ttu-id="35a32-166">Gestor de projeto</span><span class="sxs-lookup"><span data-stu-id="35a32-166">Project manager</span></span>
+- <span data-ttu-id="35a32-167">Gestão contabilística do projeto</span><span class="sxs-lookup"><span data-stu-id="35a32-167">Project accountant</span></span>
+
+<span data-ttu-id="35a32-168">Para mais informações sobre segurança no Finance, consulte [Acesso baseado na segurança](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span><span class="sxs-lookup"><span data-stu-id="35a32-168">For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span></span>
 
 

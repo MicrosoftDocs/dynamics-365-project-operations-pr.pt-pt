@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,224 +15,224 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897060"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082406"
 ---
-# <a name="expense-using-mobile"></a>Despesas com dispositivo móvel
+# <a name="expense-using-mobile"></a><span data-ttu-id="5131f-103">Despesas com dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="5131f-103">Expense using mobile</span></span>
 
-_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
+<span data-ttu-id="5131f-104">_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_</span><span class="sxs-lookup"><span data-stu-id="5131f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Este tópico fornece informações sobre a área de trabalho móvel da **gestão de despesas**. Esta área de trabalho permite que os utilizadores recolham e carreguem um recibo, para que possam anexá-lo a um relatório de despesas mais tarde. Os utilizadores também podem criar rapidamente uma linha de despesas usando um recibo anexo, e criar e gerir os seus relatórios de despesas. Além disso, os aprovadores podem usar a área de trabalho móvel da **gestão de despesas** para visualizar relatórios de despesas que lhes são atribuídos, e aprovar ou rejeitar esses relatórios de despesas.
+<span data-ttu-id="5131f-105">Este tópico fornece informações sobre a área de trabalho móvel da **gestão de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-105">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="5131f-106">Esta área de trabalho permite que os utilizadores recolham e carreguem um recibo, para que possam anexá-lo a um relatório de despesas mais tarde.</span><span class="sxs-lookup"><span data-stu-id="5131f-106">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="5131f-107">Os utilizadores também podem criar rapidamente uma linha de despesas usando um recibo anexo, e criar e gerir os seus relatórios de despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-107">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="5131f-108">Além disso, os aprovadores podem usar a área de trabalho móvel da **gestão de despesas** para visualizar relatórios de despesas que lhes são atribuídos, e aprovar ou rejeitar esses relatórios de despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-108">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
-Esta área de trabalho móvel destina-se a ser utilizada com a aplicação móvel Dynamics 365 Unified Ops.
+<span data-ttu-id="5131f-109">Esta área de trabalho móvel destina-se a ser utilizada com a aplicação móvel Dynamics 365 Unified Ops.</span><span class="sxs-lookup"><span data-stu-id="5131f-109">This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.</span></span>
 
-Muitas organizações exigem que uma cópia de um recibo seja anexada a um relatório de despesas relacionado com viagens ou com negócios que um funcionário submete para reembolso. A área de trabalho móvel da **gestão de despesas** permite aos utilizadores criar rapidamente novas linhas de despesas no dispositivo móvel à sua escolha, utilizando uma foto anexa de um recibo. Em alternativa, os utilizadores podem recolher uma foto de um recibo e depois anexá-la a um relatório de despesas mais tarde. Os colaboradores também podem criar e gerir os seus relatórios de despesas e, em seguida, submetê-los para aprovação e reembolso utilizando o seu dispositivo móvel.
+<span data-ttu-id="5131f-110">Muitas organizações exigem que uma cópia de um recibo seja anexada a um relatório de despesas relacionado com viagens ou com negócios que um funcionário submete para reembolso.</span><span class="sxs-lookup"><span data-stu-id="5131f-110">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="5131f-111">A área de trabalho móvel da **gestão de despesas** permite aos utilizadores criar rapidamente novas linhas de despesas no dispositivo móvel à sua escolha, utilizando uma foto anexa de um recibo.</span><span class="sxs-lookup"><span data-stu-id="5131f-111">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="5131f-112">Em alternativa, os utilizadores podem recolher uma foto de um recibo e depois anexá-la a um relatório de despesas mais tarde.</span><span class="sxs-lookup"><span data-stu-id="5131f-112">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="5131f-113">Os colaboradores também podem criar e gerir os seus relatórios de despesas e, em seguida, submetê-los para aprovação e reembolso utilizando o seu dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="5131f-113">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
-Especificamente, a área de trabalho móvel da **gestão de despesas** permite que os utilizadores executem estas tarefas:
+<span data-ttu-id="5131f-114">Especificamente, a área de trabalho móvel da **gestão de despesas** permite que os utilizadores executem estas tarefas:</span><span class="sxs-lookup"><span data-stu-id="5131f-114">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Tirar uma foto a um recibo. Carregar a foto do recibo e anexá-la a um relatório de despesas mais tarde.
-- Carregar um ficheiro como recibo fotografado. Em seguida, pode anexar esse ficheiro a um relatório de despesas mais tarde.
-- Criar uma nova linha de despesas utilizando um recibo anexo. Em seguida, pode adicionar o item da linha a um relatório de despesas mais tarde, e submetê-lo para aprovação e reembolso.
+- <span data-ttu-id="5131f-115">Tirar uma foto a um recibo.</span><span class="sxs-lookup"><span data-stu-id="5131f-115">Take a photo of a receipt.</span></span> <span data-ttu-id="5131f-116">Carregar a foto do recibo e anexá-la a um relatório de despesas mais tarde.</span><span class="sxs-lookup"><span data-stu-id="5131f-116">Upload the receipt photo and attach it to an expense report later.</span></span>
+- <span data-ttu-id="5131f-117">Carregar um ficheiro como recibo fotografado.</span><span class="sxs-lookup"><span data-stu-id="5131f-117">Upload a file as a captured receipt.</span></span> <span data-ttu-id="5131f-118">Em seguida, pode anexar esse ficheiro a um relatório de despesas mais tarde.</span><span class="sxs-lookup"><span data-stu-id="5131f-118">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="5131f-119">Criar uma nova linha de despesas utilizando um recibo anexo.</span><span class="sxs-lookup"><span data-stu-id="5131f-119">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="5131f-120">Em seguida, pode adicionar o item da linha a um relatório de despesas mais tarde, e submetê-lo para aprovação e reembolso.</span><span class="sxs-lookup"><span data-stu-id="5131f-120">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Também poderá utilizar estas características:
+<span data-ttu-id="5131f-121">Também poderá utilizar estas características:</span><span class="sxs-lookup"><span data-stu-id="5131f-121">You can also use these features:</span></span>
 
-- Criar um novo relatório de despesas.
-- Anexar transações de cartões de crédito e outras despesas previamente criadas a um relatório de despesas.
-- Criar novas despesas para um relatório de despesas.
-- Anexar um recibo a qualquer despesa para um relatório de despesas, quer tirando uma foto ao recibo, quer enviando um ficheiro como recibo fotografado.
-- Dependendo da política de despesas da empresa, adicione a lista de convidados a uma despesa.
-- Dependendo da política de despesas da empresa, discrimine as despesas.
-- Apresente um relatório de despesas para aprovação e reembolso.
-- Aprove ou rejeite relatórios de despesas para os quais é um aprovador atribuído.
+- <span data-ttu-id="5131f-122">Criar um novo relatório de despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-122">Create a new expense report.</span></span>
+- <span data-ttu-id="5131f-123">Anexar transações de cartões de crédito e outras despesas previamente criadas a um relatório de despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-123">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="5131f-124">Criar novas despesas para um relatório de despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-124">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="5131f-125">Anexar um recibo a qualquer despesa para um relatório de despesas, quer tirando uma foto ao recibo, quer enviando um ficheiro como recibo fotografado.</span><span class="sxs-lookup"><span data-stu-id="5131f-125">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="5131f-126">Dependendo da política de despesas da empresa, adicione a lista de convidados a uma despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-126">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="5131f-127">Dependendo da política de despesas da empresa, discrimine as despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-127">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="5131f-128">Apresente um relatório de despesas para aprovação e reembolso.</span><span class="sxs-lookup"><span data-stu-id="5131f-128">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="5131f-129">Aprove ou rejeite relatórios de despesas para os quais é um aprovador atribuído.</span><span class="sxs-lookup"><span data-stu-id="5131f-129">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Pré-requisitos
-Os pré-requisitos variam consoante a versão que foi implementada para a sua organização.
+## <a name="prerequisites"></a><span data-ttu-id="5131f-130">Pré-requisitos</span><span class="sxs-lookup"><span data-stu-id="5131f-130">Prerequisites</span></span>
+<span data-ttu-id="5131f-131">Os pré-requisitos variam consoante a versão que foi implementada para a sua organização.</span><span class="sxs-lookup"><span data-stu-id="5131f-131">The prerequisites vary, based on the version that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Pré-requisitos se utilizar o Dynamics 365 Finance 
-Se o Finance foi implementado para a sua organização, o administrador de sistema tem de publicar a área de trabalho móvel da **gestão de despesas**. 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a><span data-ttu-id="5131f-132">Pré-requisitos se utilizar o Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="5131f-132">Prerequisites if you use Dynamics 365 Finance</span></span> 
+<span data-ttu-id="5131f-133">Se o Finance foi implementado para a sua organização, o administrador de sistema tem de publicar a área de trabalho móvel da **gestão de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-133">If Finance has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> 
 
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se utilizar a versão 1611 com a atualização 3 da plataforma ou posterior
-Se a versão 1611 com a atualização 3 da plataforma ou posterior tiver sido implementada para a sua organização, o administrador de sistema tem de satisfazer os seguintes pré-requisitos. 
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="5131f-134">Pré-requisitos se utilizar a versão 1611 com a atualização 3 da plataforma ou posterior</span><span class="sxs-lookup"><span data-stu-id="5131f-134">Prerequisites if you use version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="5131f-135">Se a versão 1611 com a atualização 3 da plataforma ou posterior tiver sido implementada para a sua organização, o administrador de sistema tem de satisfazer os seguintes pré-requisitos.</span><span class="sxs-lookup"><span data-stu-id="5131f-135">If version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Pré-requisito</th>
-<th>Função</th>
-<th>Descrição</th>
+<th><span data-ttu-id="5131f-136">Pré-requisito</span><span class="sxs-lookup"><span data-stu-id="5131f-136">Prerequisite</span></span></th>
+<th><span data-ttu-id="5131f-137">Função</span><span class="sxs-lookup"><span data-stu-id="5131f-137">Role</span></span></th>
+<th><span data-ttu-id="5131f-138">Descrição</span><span class="sxs-lookup"><span data-stu-id="5131f-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Implementar KB 4019015.</td>
-<td>Administrador de sistema</td>
-<td>O KB 4019015 é uma atualização de is X++ ou correção de metadados que contém a área de trabalho móvel da <strong>gestão de despesas</strong>. Para implementar o KB 4019015, o seu administrador de sistema tem de seguir estes passos.
+<td><span data-ttu-id="5131f-139">Implementar KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="5131f-139">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="5131f-140">Administrador de sistema</span><span class="sxs-lookup"><span data-stu-id="5131f-140">System administrator</span></span></td>
+<td><span data-ttu-id="5131f-141">O KB 4019015 é uma atualização de is X++ ou correção de metadados que contém a área de trabalho móvel da <strong>gestão de despesas</strong>.</span><span class="sxs-lookup"><span data-stu-id="5131f-141">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="5131f-142">Para implementar o KB 4019015, o seu administrador de sistema tem de seguir estes passos.</span><span class="sxs-lookup"><span data-stu-id="5131f-142">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Descarregue atualizações do Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instale a correção de metadados</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implementável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong> e, em seguida, carregue o pacote implementável para o LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implementável</a>.</li>
+<li><span data-ttu-id="5131f-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Descarregue atualizações do Lifecycle Services</a>.</span><span class="sxs-lookup"><span data-stu-id="5131f-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates from Lifecycle Services</a>.</span></span></li>
+<li><span data-ttu-id="5131f-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instale a correção de metadados</a>.</span><span class="sxs-lookup"><span data-stu-id="5131f-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="5131f-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implementável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong> e, em seguida, carregue o pacote implementável para o LCS.</span><span class="sxs-lookup"><span data-stu-id="5131f-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="5131f-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implementável</a>.</span><span class="sxs-lookup"><span data-stu-id="5131f-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Publique a área de trabalho móvel da <strong>gestão de despesas</strong>.</td>
-<td>Administrador de sistema</td>
-<td>Consulte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar uma área de trabalho móvel</a>.</td>
+<td><span data-ttu-id="5131f-147">Publique a área de trabalho móvel da <strong>gestão de despesas</strong>.</span><span class="sxs-lookup"><span data-stu-id="5131f-147">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="5131f-148">Administrador de sistema</span><span class="sxs-lookup"><span data-stu-id="5131f-148">System administrator</span></span></td>
+<td><span data-ttu-id="5131f-149">Consulte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar uma área de trabalho móvel</a>.</span><span class="sxs-lookup"><span data-stu-id="5131f-149">See <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops
-Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops:
+## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a><span data-ttu-id="5131f-150">Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops</span><span class="sxs-lookup"><span data-stu-id="5131f-150">Download and install the Dynamics 365 Unified Ops mobile app</span></span>
+<span data-ttu-id="5131f-151">Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops:</span><span class="sxs-lookup"><span data-stu-id="5131f-151">Download and install the Dynamics 365 Unified Ops mobile app:</span></span>
 
-- [Para telemóveis Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="5131f-152">Para telemóveis Android</span><span class="sxs-lookup"><span data-stu-id="5131f-152">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="5131f-153">Para iPhones</span><span class="sxs-lookup"><span data-stu-id="5131f-153">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Iniciar sessão na aplicação móvel
-1. Inicie a aplicação no seu dispositivo móvel.
-2. Introduza o seu URL do Dynamics 365.
-4. Quando iniciar sessão pela primeira vez, ser-lhe-á solicitado o nome de utilizador e a palavra-passe. Introduza as suas credenciais.
-5. Depois de iniciar sessão, são mostradas as áreas de trabalho disponíveis para a sua empresa. Se o seu administrador de sistema publicar uma nova área de trabalho mais tarde, terá de atualizar a lista de áreas de trabalho móveis.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="5131f-154">Iniciar sessão na aplicação móvel</span><span class="sxs-lookup"><span data-stu-id="5131f-154">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="5131f-155">Inicie a aplicação no seu dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="5131f-155">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="5131f-156">Introduza o seu URL do Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="5131f-156">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="5131f-157">Quando iniciar sessão pela primeira vez, ser-lhe-á solicitado o nome de utilizador e a palavra-passe.</span><span class="sxs-lookup"><span data-stu-id="5131f-157">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="5131f-158">Introduza as suas credenciais.</span><span class="sxs-lookup"><span data-stu-id="5131f-158">Enter your credentials.</span></span>
+5. <span data-ttu-id="5131f-159">Depois de iniciar sessão, são mostradas as áreas de trabalho disponíveis para a sua empresa.</span><span class="sxs-lookup"><span data-stu-id="5131f-159">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="5131f-160">Se o seu administrador de sistema publicar uma nova área de trabalho mais tarde, terá de atualizar a lista de áreas de trabalho móveis.</span><span class="sxs-lookup"><span data-stu-id="5131f-160">If your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Recolha um recibo utilizando a área de trabalho móvel de gestão de despesas
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="5131f-161">Recolha um recibo utilizando a área de trabalho móvel de gestão de despesas</span><span class="sxs-lookup"><span data-stu-id="5131f-161">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. No seu dispositivo móvel, abra a área de trabalho da **gestão de despesas**.
-2. Selecione **Recolha de recibo**.
-3. Selecione **Tirar fotografia** ou **Escolher imagem**.
-4. Siga um destes passos:
+1. <span data-ttu-id="5131f-162">No seu dispositivo móvel, abra a área de trabalho da **gestão de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-162">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="5131f-163">Selecione **Recolha de recibo**.</span><span class="sxs-lookup"><span data-stu-id="5131f-163">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="5131f-164">Selecione **Tirar fotografia** ou **Escolher imagem**.</span><span class="sxs-lookup"><span data-stu-id="5131f-164">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="5131f-165">Siga um destes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-165">Follow one of these steps:</span></span>
 
-   - Se selecionar **Tirar fotografia**, siga estes passos:
+   - <span data-ttu-id="5131f-166">Se selecionar **Tirar fotografia** , siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-166">If you selected **Take photo** , follow these steps:</span></span>
 
-      1. É levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo. 
-      2. Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.
-      3. Opcional: Introduza um nome para a fotografia e introduza quaisquer notas.
+      1. <span data-ttu-id="5131f-167">É levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo.</span><span class="sxs-lookup"><span data-stu-id="5131f-167">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> 
+      2. <span data-ttu-id="5131f-168">Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.</span><span class="sxs-lookup"><span data-stu-id="5131f-168">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+      3. <span data-ttu-id="5131f-169">Opcional: Introduza um nome para a fotografia e introduza quaisquer notas.</span><span class="sxs-lookup"><span data-stu-id="5131f-169">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Se selecionar **Escolher fotografia**, siga estes passos:
+    - <span data-ttu-id="5131f-170">Se selecionar **Escolher fotografia** , siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-170">If you selected **Choose image** , follow these steps:</span></span>
 
-        1. Selecione uma imagem na lista.
-        2. Opcional: Introduza um nome para a imagem e introduza quaisquer notas.
+        1. <span data-ttu-id="5131f-171">Selecione uma imagem na lista.</span><span class="sxs-lookup"><span data-stu-id="5131f-171">Select an image in the list.</span></span>
+        2. <span data-ttu-id="5131f-172">Opcional: Introduza um nome para a imagem e introduza quaisquer notas.</span><span class="sxs-lookup"><span data-stu-id="5131f-172">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Selecione **Concluído**.
+5. <span data-ttu-id="5131f-173">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-173">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Introduzir rapidamente as despesas utilizando a área de trabalho móvel de gestão de despesas
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="5131f-174">Introduzir rapidamente as despesas utilizando a área de trabalho móvel de gestão de despesas</span><span class="sxs-lookup"><span data-stu-id="5131f-174">Quickly enter expenses by using the Expense management mobile workspace</span></span>
 
-1. No seu dispositivo móvel, abra a área de trabalho da **gestão de despesas**.
-2. Selecione **Entrada rápida de despesas**.
-3. Selecione a categoria da despesa. Vê uma lista de categorias de despesas que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se a sua categoria não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por categoria de despesa ou mude para a pesquisa por tipo de despesa.
-4. Insira a data de transação da despesa.
-5. Opcional: Insira o comerciante para as despesas.
-6. Introduza o montante da despesa.
-7. Selecionar a moeda da despesa. Vê uma lista dos códigos de moeda que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 400 moedas, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se a sua moeda não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por moeda ou mude para a pesquisa por nome de categoria.
-8. Selecione **Tirar fotografia** ou **Escolher imagem**.
-9. Siga um destes passos:
+1. <span data-ttu-id="5131f-175">No seu dispositivo móvel, abra a área de trabalho da **gestão de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-175">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="5131f-176">Selecione **Entrada rápida de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-176">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="5131f-177">Selecione a categoria da despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-177">Select the expense category.</span></span> <span data-ttu-id="5131f-178">Vê uma lista de categorias de despesas que são carregadas na sua aplicação para utilização offline.</span><span class="sxs-lookup"><span data-stu-id="5131f-178">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="5131f-179">Por predefinição, são carregados 50 itens, mas um programador pode alterar este número.</span><span class="sxs-lookup"><span data-stu-id="5131f-179">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="5131f-180">Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="5131f-180">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="5131f-181">Se a sua categoria não estiver na lista, selecione **Procurar** para fazer uma pesquisa online.</span><span class="sxs-lookup"><span data-stu-id="5131f-181">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="5131f-182">Procure por categoria de despesa ou mude para a pesquisa por tipo de despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-182">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="5131f-183">Insira a data de transação da despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-183">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="5131f-184">Opcional: Insira o comerciante para as despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-184">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="5131f-185">Introduza o montante da despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-185">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="5131f-186">Selecionar a moeda da despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-186">Select the currency of the expense.</span></span> <span data-ttu-id="5131f-187">Vê uma lista dos códigos de moeda que são carregadas na sua aplicação para utilização offline.</span><span class="sxs-lookup"><span data-stu-id="5131f-187">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="5131f-188">Por predefinição, são carregados 400 moedas, mas um programador pode alterar este número.</span><span class="sxs-lookup"><span data-stu-id="5131f-188">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="5131f-189">Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="5131f-189">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="5131f-190">Se a sua moeda não estiver na lista, selecione **Procurar** para fazer uma pesquisa online.</span><span class="sxs-lookup"><span data-stu-id="5131f-190">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="5131f-191">Procure por moeda ou mude para a pesquisa por nome de categoria.</span><span class="sxs-lookup"><span data-stu-id="5131f-191">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="5131f-192">Selecione **Tirar fotografia** ou **Escolher imagem**.</span><span class="sxs-lookup"><span data-stu-id="5131f-192">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="5131f-193">Siga um destes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-193">Follow one of these steps:</span></span>
 
-    - Se selecionou **Tirar fotografia**, é levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo. Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.
-    - Se selecionou **Escolher a imagem**, selecione uma imagem na lista.
+    - <span data-ttu-id="5131f-194">Se selecionou **Tirar fotografia** , é levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo.</span><span class="sxs-lookup"><span data-stu-id="5131f-194">If you selected **Take photo** , you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="5131f-195">Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.</span><span class="sxs-lookup"><span data-stu-id="5131f-195">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="5131f-196">Se selecionou **Escolher a imagem** , selecione uma imagem na lista.</span><span class="sxs-lookup"><span data-stu-id="5131f-196">If you selected **Choose image** , select an image in the list.</span></span>
 
-10. Selecione **Concluído**.
+10. <span data-ttu-id="5131f-197">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-197">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Aprovar um relatório de despesas utilizando a área de trabalho móvel de gestão de despesas (se utilizar a atualização de julho de 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="5131f-198">Aprovar um relatório de despesas utilizando a área de trabalho móvel de gestão de despesas (se utilizar a atualização de julho de 2017)</span><span class="sxs-lookup"><span data-stu-id="5131f-198">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. No seu dispositivo móvel, abra a área de trabalho da **gestão de despesas**.
-2. A **aprovação das despesas** mostra o número de relatórios de despesas que lhe são atribuídos para aprovação. O número é atualizado aproximadamente a cada 30 minutos. Selecione **aprovações de despesas**.
+1. <span data-ttu-id="5131f-199">No seu dispositivo móvel, abra a área de trabalho da **gestão de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-199">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="5131f-200">A **aprovação das despesas** mostra o número de relatórios de despesas que lhe são atribuídos para aprovação.</span><span class="sxs-lookup"><span data-stu-id="5131f-200">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="5131f-201">O número é atualizado aproximadamente a cada 30 minutos.</span><span class="sxs-lookup"><span data-stu-id="5131f-201">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="5131f-202">Selecione **aprovações de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-202">Select **Expense approvals**.</span></span>
 
-    A lista de relatórios de despesas que lhe são atribuídos para aprovação é apresentada.
+    <span data-ttu-id="5131f-203">A lista de relatórios de despesas que lhe são atribuídos para aprovação é apresentada.</span><span class="sxs-lookup"><span data-stu-id="5131f-203">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Selecione um relatório de despesas para ver os detalhes das despesas para o mesmo.
-4. Selecione uma despesa para ver os detalhes da mesma. A informação que é mostrada para uma despesa inclui qualquer recibo, convidado e detalhes de discriminação.
-5. De volta à página do **relatório de despesas**, selecione para aprovar ou rejeitar o relatório de despesas.
-6. Insira quaisquer comentários para a ação de aprovação.
-7. Selecione **Concluído**.
+3. <span data-ttu-id="5131f-204">Selecione um relatório de despesas para ver os detalhes das despesas para o mesmo.</span><span class="sxs-lookup"><span data-stu-id="5131f-204">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="5131f-205">Selecione uma despesa para ver os detalhes da mesma.</span><span class="sxs-lookup"><span data-stu-id="5131f-205">Select an expense to view the details for it.</span></span> <span data-ttu-id="5131f-206">A informação que é mostrada para uma despesa inclui qualquer recibo, convidado e detalhes de discriminação.</span><span class="sxs-lookup"><span data-stu-id="5131f-206">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="5131f-207">De volta à página do **relatório de despesas** , selecione para aprovar ou rejeitar o relatório de despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-207">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="5131f-208">Insira quaisquer comentários para a ação de aprovação.</span><span class="sxs-lookup"><span data-stu-id="5131f-208">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="5131f-209">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-209">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Crie um novo relatório de despesas e entregue-o para aprovação utilizando a área de trabalho móvel de gestão de despesas (se utilizar a atualização de julho de 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="5131f-210">Crie um novo relatório de despesas e entregue-o para aprovação utilizando a área de trabalho móvel de gestão de despesas (se utilizar a atualização de julho de 2017)</span><span class="sxs-lookup"><span data-stu-id="5131f-210">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. No seu dispositivo móvel, abra a área de trabalho da **gestão de despesas**.
-2. Selecione **Entrada de despesas**.
-3. Selecione **Novo relatório** ou selecione um relatório de despesas na lista.
-4. Para novos relatórios de despesas, insira o objetivo e qualquer informação adicional disponível. Esta informação varia, dependendo da forma que a gestão de despesas estiver configurada para a sua empresa.
-5. Selecione **Concluído**.
-6. Para adicionar as despesas existentes, como transações de cartões de crédito, ao relatório de despesas, selecione **Anexar**.
-7. Selecionar uma ou mais despesas na lista.
-8. Selecione **Concluído**.
-9. Para adicionar uma nova despesa ao relatório de despesas, selecione **Novas despesas**.
-10. Selecione a categoria para a despesa. Vê uma lista de categorias de despesas que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se a sua categoria não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por categoria de despesa ou mude para a pesquisa por tipo de despesa.
-11. Opcional: Insira o comerciante para as despesas.
-12. Insira a data de transação da despesa.
-13. Introduza o montante da despesa.
-14. Selecionar a moeda da despesa. Vê uma lista dos códigos de moeda que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 400 moedas, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se a sua moeda não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por moeda ou mude para a pesquisa por nome de categoria.
-15. Selecione **Concluído**.
-16. Para adicionar mais detalhes à despesa, selecione **Adicionar mais detalhes**. Os campos disponíveis dependem da configuração da gestão de despesas para a sua empresa.
-17. Se a política da empresa exigir um recibo para as despesas, selecione **Recibos**, e siga estes passos:
+1. <span data-ttu-id="5131f-211">No seu dispositivo móvel, abra a área de trabalho da **gestão de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-211">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="5131f-212">Selecione **Entrada de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-212">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="5131f-213">Selecione **Novo relatório** ou selecione um relatório de despesas na lista.</span><span class="sxs-lookup"><span data-stu-id="5131f-213">Select **New report** , or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="5131f-214">Para novos relatórios de despesas, insira o objetivo e qualquer informação adicional disponível.</span><span class="sxs-lookup"><span data-stu-id="5131f-214">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="5131f-215">Esta informação varia, dependendo da forma que a gestão de despesas estiver configurada para a sua empresa.</span><span class="sxs-lookup"><span data-stu-id="5131f-215">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="5131f-216">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-216">Select **Done**.</span></span>
+6. <span data-ttu-id="5131f-217">Para adicionar as despesas existentes, como transações de cartões de crédito, ao relatório de despesas, selecione **Anexar**.</span><span class="sxs-lookup"><span data-stu-id="5131f-217">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="5131f-218">Selecionar uma ou mais despesas na lista.</span><span class="sxs-lookup"><span data-stu-id="5131f-218">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="5131f-219">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-219">Select **Done**.</span></span>
+9. <span data-ttu-id="5131f-220">Para adicionar uma nova despesa ao relatório de despesas, selecione **Novas despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-220">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="5131f-221">Selecione a categoria para a despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-221">Select the category for the expense.</span></span> <span data-ttu-id="5131f-222">Vê uma lista de categorias de despesas que são carregadas na sua aplicação para utilização offline.</span><span class="sxs-lookup"><span data-stu-id="5131f-222">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="5131f-223">Por predefinição, são carregados 50 itens, mas um programador pode alterar este número.</span><span class="sxs-lookup"><span data-stu-id="5131f-223">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="5131f-224">Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="5131f-224">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="5131f-225">Se a sua categoria não estiver na lista, selecione **Procurar** para fazer uma pesquisa online.</span><span class="sxs-lookup"><span data-stu-id="5131f-225">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="5131f-226">Procure por categoria de despesa ou mude para a pesquisa por tipo de despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-226">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="5131f-227">Opcional: Insira o comerciante para as despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-227">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="5131f-228">Insira a data de transação da despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-228">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="5131f-229">Introduza o montante da despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-229">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="5131f-230">Selecionar a moeda da despesa.</span><span class="sxs-lookup"><span data-stu-id="5131f-230">Select the currency of the expense.</span></span> <span data-ttu-id="5131f-231">Vê uma lista dos códigos de moeda que são carregadas na sua aplicação para utilização offline.</span><span class="sxs-lookup"><span data-stu-id="5131f-231">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="5131f-232">Por predefinição, são carregados 400 moedas, mas um programador pode alterar este número.</span><span class="sxs-lookup"><span data-stu-id="5131f-232">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="5131f-233">Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="5131f-233">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="5131f-234">Se a sua moeda não estiver na lista, selecione **Procurar** para fazer uma pesquisa online.</span><span class="sxs-lookup"><span data-stu-id="5131f-234">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="5131f-235">Procure por moeda ou mude para a pesquisa por nome de categoria.</span><span class="sxs-lookup"><span data-stu-id="5131f-235">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="5131f-236">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-236">Select **Done**.</span></span>
+16. <span data-ttu-id="5131f-237">Para adicionar mais detalhes à despesa, selecione **Adicionar mais detalhes**.</span><span class="sxs-lookup"><span data-stu-id="5131f-237">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="5131f-238">Os campos disponíveis dependem da configuração da gestão de despesas para a sua empresa.</span><span class="sxs-lookup"><span data-stu-id="5131f-238">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="5131f-239">Se a política da empresa exigir um recibo para as despesas, selecione **Recibos** , e siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-239">If company policy requires a receipt for the expense, select **Receipts** , and then follow these steps:</span></span>
 
-    1. Selecione o **recibo de recolha** ou **Anexar recibo**.
-    2. Siga um destes passos:
+    1. <span data-ttu-id="5131f-240">Selecione o **recibo de recolha** ou **Anexar recibo**.</span><span class="sxs-lookup"><span data-stu-id="5131f-240">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="5131f-241">Siga um destes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-241">Follow one of these steps:</span></span>
 
-        - Se selecionar **Recibo de recolha**, siga estes passos:
+        - <span data-ttu-id="5131f-242">Se selecionar **Recibo de recolha** , siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-242">If you selected **Capture receipt** , follow these steps:</span></span>
 
-            1. Selecione **Tirar fotografia** ou **Escolher imagem**.
-            2. Siga um destes passos:
+            1. <span data-ttu-id="5131f-243">Selecione **Tirar fotografia** ou **Escolher imagem**.</span><span class="sxs-lookup"><span data-stu-id="5131f-243">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="5131f-244">Siga um destes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-244">Follow one of these steps:</span></span>
 
-                - Se selecionar **Tirar fotografia**, siga estes passos:
+                - <span data-ttu-id="5131f-245">Se selecionar **Tirar fotografia** , siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-245">If you selected **Take photo** , follow these steps:</span></span>
 
-                    1. É levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo. Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.
-                    2. Opcional: Introduza um nome para a fotografia e introduza quaisquer notas.
+                    1. <span data-ttu-id="5131f-246">É levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo.</span><span class="sxs-lookup"><span data-stu-id="5131f-246">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="5131f-247">Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.</span><span class="sxs-lookup"><span data-stu-id="5131f-247">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="5131f-248">Opcional: Introduza um nome para a fotografia e introduza quaisquer notas.</span><span class="sxs-lookup"><span data-stu-id="5131f-248">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Se selecionar **Escolher fotografia**, siga estes passos:
+                - <span data-ttu-id="5131f-249">Se selecionar **Escolher fotografia** , siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-249">If you selected **Choose image** , follow these steps:</span></span>
 
-                    1. Selecione uma imagem na lista.
-                    2. Opcional: Introduza um nome para a imagem e introduza quaisquer notas.
+                    1. <span data-ttu-id="5131f-250">Selecione uma imagem na lista.</span><span class="sxs-lookup"><span data-stu-id="5131f-250">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="5131f-251">Opcional: Introduza um nome para a imagem e introduza quaisquer notas.</span><span class="sxs-lookup"><span data-stu-id="5131f-251">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Selecione **Concluído**.
+            3.  <span data-ttu-id="5131f-252">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-252">Select **Done**.</span></span>
 
-        - Se selecionar **Anexar recibo**, siga estes passos:
+        - <span data-ttu-id="5131f-253">Se selecionar **Anexar recibo** , siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-253">If you selected **Attach receipt** , follow these steps:</span></span>
 
-            1.  Selecione uma ou mais imagens na lista.
-            2.  Selecione **Concluído**.
+            1.  <span data-ttu-id="5131f-254">Selecione uma ou mais imagens na lista.</span><span class="sxs-lookup"><span data-stu-id="5131f-254">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="5131f-255">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-255">Select **Done**.</span></span>
 
-    3. Selecione o botão **Anterior** para voltar aos detalhes das despesas.
+    3. <span data-ttu-id="5131f-256">Selecione o botão **Anterior** para voltar aos detalhes das despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-256">Select the **Back** button to return to the expense details.</span></span>
 
-18. Se a política da empresa exigir convidados para as despesas, selecione **Convidados**, e siga estes passos:
+18. <span data-ttu-id="5131f-257">Se a política da empresa exigir convidados para as despesas, selecione **Convidados** , e siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-257">If company policy requires guests for the expense, select **Guests** , and then follow these steps:</span></span>
 
-    1. Selecione **Convidado**, **Convidados anteriores** ou **Colegas de trabalho**.
-    2. Siga um destes passos:
+    1. <span data-ttu-id="5131f-258">Selecione **Convidado** , **Convidados anteriores** ou **Colegas de trabalho**.</span><span class="sxs-lookup"><span data-stu-id="5131f-258">Select **Guest** , **Previous guests** , or **Coworkers**.</span></span>
+    2. <span data-ttu-id="5131f-259">Siga um destes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-259">Follow one of these steps:</span></span>
 
-        - Se selecionou **Convidado**, siga estes passos:
+        - <span data-ttu-id="5131f-260">Se selecionou **Convidado** , siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-260">If you selected **Guest** , follow these steps:</span></span>
 
-            1. Introduza o nome do convidado.
-            2. Opcional: Insira a organização e/ou o país do convidado.
-            3. Opcional: Introduzir o cargo do convidado.
-            4. Selecione **Concluído**.
+            1. <span data-ttu-id="5131f-261">Introduza o nome do convidado.</span><span class="sxs-lookup"><span data-stu-id="5131f-261">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="5131f-262">Opcional: Insira a organização e/ou o país do convidado.</span><span class="sxs-lookup"><span data-stu-id="5131f-262">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="5131f-263">Opcional: Introduzir o cargo do convidado.</span><span class="sxs-lookup"><span data-stu-id="5131f-263">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="5131f-264">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-264">Select **Done**.</span></span>
 
-        - Se selecionar **Convidados anteriores**, siga estes passos:
+        - <span data-ttu-id="5131f-265">Se selecionar **Convidados anteriores** , siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-265">If you selected **Previous guests** , follow these steps:</span></span>
 
-            1. Selecione um ou mais convidados anteriores na lista. Vê uma lista de convidados anteriores que adicionou aos relatórios de despesas anteriores que são carregados na sua aplicação para uso offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se o seu convidado anterior não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por nome ou mude para a pesquisa por organização, país, ou cargo.
-            2. Selecione **Concluído**.
+            1. <span data-ttu-id="5131f-266">Selecione um ou mais convidados anteriores na lista.</span><span class="sxs-lookup"><span data-stu-id="5131f-266">Select one or more previous guests in the list.</span></span> <span data-ttu-id="5131f-267">Vê uma lista de convidados anteriores que adicionou aos relatórios de despesas anteriores que são carregados na sua aplicação para uso offline.</span><span class="sxs-lookup"><span data-stu-id="5131f-267">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="5131f-268">Por predefinição, são carregados 50 itens, mas um programador pode alterar este número.</span><span class="sxs-lookup"><span data-stu-id="5131f-268">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="5131f-269">Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="5131f-269">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="5131f-270">Se o seu convidado anterior não estiver na lista, selecione **Procurar** para fazer uma pesquisa online.</span><span class="sxs-lookup"><span data-stu-id="5131f-270">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="5131f-271">Procure por nome ou mude para a pesquisa por organização, país, ou cargo.</span><span class="sxs-lookup"><span data-stu-id="5131f-271">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="5131f-272">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-272">Select **Done**.</span></span>
 
-        - Se selecionou **Colega de trabalho**, siga estes passos:
+        - <span data-ttu-id="5131f-273">Se selecionou **Colega de trabalho** , siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-273">If you selected **Coworkers** , follow these steps:</span></span>
 
-            1. Selecione um ou mais colegas de trabalho na lista. Vê uma lista de colegas de trabalho que são carregados na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se o seu colega de trabalho não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por nome ou mude para a pesquisa por empresa ou cargo.
-            2. Selecione **Concluído**.
+            1. <span data-ttu-id="5131f-274">Selecione um ou mais colegas de trabalho na lista.</span><span class="sxs-lookup"><span data-stu-id="5131f-274">Select one or more coworkers in the list.</span></span> <span data-ttu-id="5131f-275">Vê uma lista de colegas de trabalho que são carregados na sua aplicação para utilização offline.</span><span class="sxs-lookup"><span data-stu-id="5131f-275">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="5131f-276">Por predefinição, são carregados 50 itens, mas um programador pode alterar este número.</span><span class="sxs-lookup"><span data-stu-id="5131f-276">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="5131f-277">Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="5131f-277">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="5131f-278">Se o seu colega de trabalho não estiver na lista, selecione **Procurar** para fazer uma pesquisa online.</span><span class="sxs-lookup"><span data-stu-id="5131f-278">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="5131f-279">Procure por nome ou mude para a pesquisa por empresa ou cargo.</span><span class="sxs-lookup"><span data-stu-id="5131f-279">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="5131f-280">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-280">Select **Done**.</span></span>
 
-    3. Selecione o botão **Anterior** para voltar aos detalhes das despesas.
+    3. <span data-ttu-id="5131f-281">Selecione o botão **Anterior** para voltar aos detalhes das despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-281">Select the **Back** button to return to the expense details.</span></span>
 
-19. Se a política da empresa exigir que a despesa seja discriminada, selecione **Discriminar**, e siga estes passos:
+19. <span data-ttu-id="5131f-282">Se a política da empresa exigir que a despesa seja discriminada, selecione **Discriminar** , e siga estes passos:</span><span class="sxs-lookup"><span data-stu-id="5131f-282">If company policy requires that the expense be itemized, select **Itemize** , and then follow these steps:</span></span>
 
-    1. Selecione a primeira data para discriminar.
-    2. Selecione **Adicionar discriminação**.
-    3. Selecione a subcategoria para a discriminação das despesas. Vê uma lista de subcategorias de despesas que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se a sua subcategoria não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por nome da subcategoria de despesas.
-    4. Introduza o valor da transação para a discriminação.
-    5. Edite a data de transação, se necessário.
-    6. Selecione **Concluído**.
-    7. Repita os passos anteriores até terminar de adicionar todas as discriminações para a data selecionada.
-    8. Para dias adicionais, pode selecionar **Copiar para o dia seguinte** para copiar as discriminações para o dia seguinte. Em alternativa, pode selecionar a data para discriminar e, em seguida, adicionar itens como fez na primeira data.
-    9. Depois de ter terminado de item a despesa, selecione o botão **Anterior** para voltar aos detalhes das despesas.
+    1. <span data-ttu-id="5131f-283">Selecione a primeira data para discriminar.</span><span class="sxs-lookup"><span data-stu-id="5131f-283">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="5131f-284">Selecione **Adicionar discriminação**.</span><span class="sxs-lookup"><span data-stu-id="5131f-284">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="5131f-285">Selecione a subcategoria para a discriminação das despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-285">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="5131f-286">Vê uma lista de subcategorias de despesas que são carregadas na sua aplicação para utilização offline.</span><span class="sxs-lookup"><span data-stu-id="5131f-286">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="5131f-287">Por predefinição, são carregados 50 itens, mas um programador pode alterar este número.</span><span class="sxs-lookup"><span data-stu-id="5131f-287">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="5131f-288">Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="5131f-288">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="5131f-289">Se a sua subcategoria não estiver na lista, selecione **Procurar** para fazer uma pesquisa online.</span><span class="sxs-lookup"><span data-stu-id="5131f-289">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="5131f-290">Procure por nome da subcategoria de despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-290">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="5131f-291">Introduza o valor da transação para a discriminação.</span><span class="sxs-lookup"><span data-stu-id="5131f-291">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="5131f-292">Edite a data de transação, se necessário.</span><span class="sxs-lookup"><span data-stu-id="5131f-292">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="5131f-293">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-293">Select **Done**.</span></span>
+    7. <span data-ttu-id="5131f-294">Repita os passos anteriores até terminar de adicionar todas as discriminações para a data selecionada.</span><span class="sxs-lookup"><span data-stu-id="5131f-294">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="5131f-295">Para dias adicionais, pode selecionar **Copiar para o dia seguinte** para copiar as discriminações para o dia seguinte.</span><span class="sxs-lookup"><span data-stu-id="5131f-295">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="5131f-296">Em alternativa, pode selecionar a data para discriminar e, em seguida, adicionar itens como fez na primeira data.</span><span class="sxs-lookup"><span data-stu-id="5131f-296">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="5131f-297">Depois de ter terminado de item a despesa, selecione o botão **Anterior** para voltar aos detalhes das despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-297">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Selecione o botão **Anterior** para voltar à página **Relatório de despesas**.
-21. Repita os passos anteriores até terminar de adicionar todas as despesas.
-22. Selecione **Submeter**.
-23. Insira quaisquer comentários para o aprovador.
-24. Selecione **Concluído**.
+20. <span data-ttu-id="5131f-298">Selecione o botão **Anterior** para voltar à página **Relatório de despesas**.</span><span class="sxs-lookup"><span data-stu-id="5131f-298">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="5131f-299">Repita os passos anteriores até terminar de adicionar todas as despesas.</span><span class="sxs-lookup"><span data-stu-id="5131f-299">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="5131f-300">Selecione **Submeter**.</span><span class="sxs-lookup"><span data-stu-id="5131f-300">Select **Submit**.</span></span>
+23. <span data-ttu-id="5131f-301">Insira quaisquer comentários para o aprovador.</span><span class="sxs-lookup"><span data-stu-id="5131f-301">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="5131f-302">Selecione **Concluído**.</span><span class="sxs-lookup"><span data-stu-id="5131f-302">Select **Done**.</span></span>

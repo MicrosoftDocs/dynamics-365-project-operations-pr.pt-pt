@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,110 +17,110 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082501"
 ---
-# <a name="products"></a>Produtos
+# <a name="products"></a><span data-ttu-id="700c7-103">Produtos</span><span class="sxs-lookup"><span data-stu-id="700c7-103">Products</span></span>
 
-_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
+<span data-ttu-id="700c7-104">_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_</span><span class="sxs-lookup"><span data-stu-id="700c7-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Os produtos são espinha a dorsal do seu negócio. O catálogo de produtos no Dynamics 365 Sales Professional é uma coleção de produtos e informações sobre os preços. Faça com que seja mais fácil para os seus representantes de vendas aumentarem as respetivas vendas, criando um catálogo de produtos rapidamente.
+<span data-ttu-id="700c7-105">Os produtos são espinha a dorsal do seu negócio.</span><span class="sxs-lookup"><span data-stu-id="700c7-105">Products are the backbone of your business.</span></span> <span data-ttu-id="700c7-106">O catálogo de produtos no Dynamics 365 Sales Professional é uma coleção de produtos e informações sobre os preços.</span><span class="sxs-lookup"><span data-stu-id="700c7-106">The product catalog in Dynamics 365 Sales Professional is a collection of products and pricing information.</span></span> <span data-ttu-id="700c7-107">Faça com que seja mais fácil para os seus representantes de vendas aumentarem as respetivas vendas, criando um catálogo de produtos rapidamente.</span><span class="sxs-lookup"><span data-stu-id="700c7-107">Make it easier for your sales reps to increase their sales by creating a product catalog quickly.</span></span>
 
-## <a name="add-a-product"></a>Adicionar um produto
+## <a name="add-a-product"></a><span data-ttu-id="700c7-108">Adicionar um produto</span><span class="sxs-lookup"><span data-stu-id="700c7-108">Add a product</span></span>
 
-1.  Certifique-se de que possui a função de Gestor de vendas profissional ou Administrador de sistema para que possa adicionar produtos no Dynamics 365 Sales Professional.
-2.  No mapa do site, em **Configuração**, selecione **Produtos**.
-3.  Selecione **Adicionar Produto** e preencha as seguintes informações:
+1.  <span data-ttu-id="700c7-109">Certifique-se de que possui a função de Gestor de vendas profissional ou Administrador de sistema para que possa adicionar produtos no Dynamics 365 Sales Professional.</span><span class="sxs-lookup"><span data-stu-id="700c7-109">Make sure you have the Sales Manager Professional or a System Administrator role so you can add products in Dynamics 365 Sales Professional.</span></span>
+2.  <span data-ttu-id="700c7-110">No mapa do site, em **Configuração** , selecione **Produtos**.</span><span class="sxs-lookup"><span data-stu-id="700c7-110">In the site map, under **Setup** , select **Products**.</span></span>
+3.  <span data-ttu-id="700c7-111">Selecione **Adicionar Produto** e preencha as seguintes informações:</span><span class="sxs-lookup"><span data-stu-id="700c7-111">Select **Add Product** and fill in the following information:</span></span>
 
-    -  **Nome**
-    -  **ID do Produto**
-    -  **Principal**: Selecione uma família de produtos principal para o produto. Se estiver a criar um produto subordinado numa família de produtos, o nome da família de produtos principal é preenchido aqui. Isto não pode ser alterado depois de o registo ser guardado.
-    -  **Válido De**/**Válido Até**: Definir o período de tempo durante o qual o produto é válido, selecionando uma data **Válido De** e uma data **Válido Até**.
-    -  **Grupo de Unidades**: Selecione um grupo de unidades. Um grupo de unidades é uma coleção de mais unidades de um produto é vendido e define como os itens individuais são agrupados em quantidades maiores. Por exemplo, se estiver a adicionar sementes como produto, podia ter criado um grupo de unidades denominado “Sementes” e definido a unidade primária como “pacote”.
-    -  **Unidade Predefinida**: Selecione a unidade mais comum na qual o produto será vendido. As unidades são as quantidades ou medidas em que vende os produtos. Por exemplo, adicionar sementes como produto, pode vendê-las em pacotes, caixas ou paletes. Cada um destes torna-se uma unidade do produto. Se as sementes são vendidas na maior parte dos grupos, selecione como a que unidade.
-    -  **Lista de Preços Predefinida**: No caso de se tratar de um produto novo, este campo é só de leitura. Para poder selecionar uma lista de preços predefinida, primeiro tem de preencher todos os campos necessários e guardar o registo. Apesar de a lista de preços predefinida não ser obrigatória, após guardar o registo de produto é aconselhável definir uma lista de preços predefinida para cada produto. Em seguida, se um registo de cliente não contiver uma lista de preços, o Sales poderá utilizar a lista de preços predefinida para gerar propostas, encomendas e faturas.
-    -  **Decimais Suportados**: Introduza um número inteiro entre 0 e 5. Se não for possível dividir o produto em quantidades fracionais, introduza o valor 0. A precisão do campo **Quantidade** no registo da proposta, encomenda ou fatura do produto é validado de acordo com o valor neste campo, caso o produto não tenha uma lista de preços associada.
-    -  **Assunto**: Associe este produto a um assunto. Pode utilizar assuntos para categorizar os produtos e filtrar relatórios.
+    -  <span data-ttu-id="700c7-112">**Nome**</span><span class="sxs-lookup"><span data-stu-id="700c7-112">**Name**</span></span>
+    -  <span data-ttu-id="700c7-113">**ID do Produto**</span><span class="sxs-lookup"><span data-stu-id="700c7-113">**Product ID**</span></span>
+    -  <span data-ttu-id="700c7-114">**Principal** : Selecione uma família de produtos principal para o produto.</span><span class="sxs-lookup"><span data-stu-id="700c7-114">**Parent** : Select a parent product family for the product.</span></span> <span data-ttu-id="700c7-115">Se estiver a criar um produto subordinado numa família de produtos, o nome da família de produtos principal é preenchido aqui.</span><span class="sxs-lookup"><span data-stu-id="700c7-115">If you're creating a child product in a product family, the name of the parent product family is populated here.</span></span> <span data-ttu-id="700c7-116">Isto não pode ser alterado depois de o registo ser guardado.</span><span class="sxs-lookup"><span data-stu-id="700c7-116">This can't be changed after the record is saved.</span></span>
+    -  <span data-ttu-id="700c7-117">**Válido De**/**Válido Até** : Definir o período de tempo durante o qual o produto é válido, selecionando uma data **Válido De** e uma data **Válido Até**.</span><span class="sxs-lookup"><span data-stu-id="700c7-117">**Valid From**/**Valid To** : Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.</span></span>
+    -  <span data-ttu-id="700c7-118">**Grupo de Unidades** : Selecione um grupo de unidades.</span><span class="sxs-lookup"><span data-stu-id="700c7-118">**Unit Group** : Select a unit group.</span></span> <span data-ttu-id="700c7-119">Um grupo de unidades é uma coleção de mais unidades de um produto é vendido e define como os itens individuais são agrupados em quantidades maiores.</span><span class="sxs-lookup"><span data-stu-id="700c7-119">A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities.</span></span> <span data-ttu-id="700c7-120">Por exemplo, se estiver a adicionar sementes como produto, podia ter criado um grupo de unidades denominado “Sementes” e definido a unidade primária como “pacote”.</span><span class="sxs-lookup"><span data-stu-id="700c7-120">For example, if you're adding seeds as a product, you might have created a unit group called "Seeds" and defined its primary unit as "packet."</span></span>
+    -  <span data-ttu-id="700c7-121">**Unidade Predefinida** : Selecione a unidade mais comum na qual o produto será vendido.</span><span class="sxs-lookup"><span data-stu-id="700c7-121">**Default Unit** : Select the most common unit in which the product will be sold.</span></span> <span data-ttu-id="700c7-122">As unidades são as quantidades ou medidas em que vende os produtos.</span><span class="sxs-lookup"><span data-stu-id="700c7-122">Units are the quantities or measurements that you sell your products in.</span></span> <span data-ttu-id="700c7-123">Por exemplo, adicionar sementes como produto, pode vendê-las em pacotes, caixas ou paletes.</span><span class="sxs-lookup"><span data-stu-id="700c7-123">For example, if you're adding seeds as a product, you can sell it in packets, boxes, or pallets.</span></span> <span data-ttu-id="700c7-124">Cada um destes torna-se uma unidade do produto.</span><span class="sxs-lookup"><span data-stu-id="700c7-124">Each of these becomes a unit of the product.</span></span> <span data-ttu-id="700c7-125">Se as sementes são vendidas na maior parte dos grupos, selecione como a que unidade.</span><span class="sxs-lookup"><span data-stu-id="700c7-125">If seeds are mostly sold in packets, select that as the unit.</span></span>
+    -  <span data-ttu-id="700c7-126">**Lista de Preços Predefinida** : No caso de se tratar de um produto novo, este campo é só de leitura.</span><span class="sxs-lookup"><span data-stu-id="700c7-126">**Default Price List** : If this is a new product, this field is read-only.</span></span> <span data-ttu-id="700c7-127">Para poder selecionar uma lista de preços predefinida, primeiro tem de preencher todos os campos necessários e guardar o registo.</span><span class="sxs-lookup"><span data-stu-id="700c7-127">Before you can select a default price list, you must complete all the required fields and then save the record.</span></span> <span data-ttu-id="700c7-128">Apesar de a lista de preços predefinida não ser obrigatória, após guardar o registo de produto é aconselhável definir uma lista de preços predefinida para cada produto.</span><span class="sxs-lookup"><span data-stu-id="700c7-128">Although the default price list is not required, after you save the product record, it is a good idea to set a default price list for each product.</span></span> <span data-ttu-id="700c7-129">Em seguida, se um registo de cliente não contiver uma lista de preços, o Sales poderá utilizar a lista de preços predefinida para gerar propostas, encomendas e faturas.</span><span class="sxs-lookup"><span data-stu-id="700c7-129">Then, if a customer record does not contain a price list, Sales can use the default price list for generating quotes, orders, and invoices.</span></span>
+    -  <span data-ttu-id="700c7-130">**Decimais Suportados** : Introduza um número inteiro entre 0 e 5.</span><span class="sxs-lookup"><span data-stu-id="700c7-130">**Decimals Supported** : Enter a whole number between 0 and 5.</span></span> <span data-ttu-id="700c7-131">Se não for possível dividir o produto em quantidades fracionais, introduza o valor 0.</span><span class="sxs-lookup"><span data-stu-id="700c7-131">If the product can't be divided into fractional quantities, enter 0.</span></span> <span data-ttu-id="700c7-132">A precisão do campo **Quantidade** no registo da proposta, encomenda ou fatura do produto é validado de acordo com o valor neste campo, caso o produto não tenha uma lista de preços associada.</span><span class="sxs-lookup"><span data-stu-id="700c7-132">The precision of the **Quantity** field in the quote, order, or invoice product record is validated against the value in this field if the product does not have an associated price list.</span></span>
+    -  <span data-ttu-id="700c7-133">**Assunto** : Associe este produto a um assunto.</span><span class="sxs-lookup"><span data-stu-id="700c7-133">**Subject** : Associate this product with a subject.</span></span> <span data-ttu-id="700c7-134">Pode utilizar assuntos para categorizar os produtos e filtrar relatórios.</span><span class="sxs-lookup"><span data-stu-id="700c7-134">You can use subjects to categorize your products and to filter reports.</span></span>
 
-4.  Selecione **Guardar**.
-5.  No separador **Detalhes adicionais**, na secção **Itens da lista de preços**, selecione o ícone **Mais comandos** e, em seguida, selecione **Adicionar novo item da lista de preços**.
-7.  No separador **Detalhes adicionais**, na secção **Relação de produtos**, selecione o ícone **Mais comandos** e, em seguida, selecione **Adicionar nova relação de produtos**.
-8.  No formulário **Nova relação de produtos**, introduza os seguintes detalhes e, na barra de comandos, selecione **Guardar e Fechar**:
+4.  <span data-ttu-id="700c7-135">Selecione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="700c7-135">Select **Save**.</span></span>
+5.  <span data-ttu-id="700c7-136">No separador **Detalhes adicionais** , na secção **Itens da lista de preços** , selecione o ícone **Mais comandos** e, em seguida, selecione **Adicionar novo item da lista de preços**.</span><span class="sxs-lookup"><span data-stu-id="700c7-136">On the **Additional Details** tab, in the **Price List Items** section, select **More commands** , and then select **Add New Price List Item**.</span></span>
+7.  <span data-ttu-id="700c7-137">No separador **Detalhes adicionais** , na secção **Relação de produtos** , selecione o ícone **Mais comandos** e, em seguida, selecione **Adicionar nova relação de produtos**.</span><span class="sxs-lookup"><span data-stu-id="700c7-137">On the **Additional Details** tab, in the **Product Relationship** section, select the **More commands** icon, and then select **Add New Product Relationship.**</span></span>
+8.  <span data-ttu-id="700c7-138">No formulário **Nova relação de produtos** , introduza os seguintes detalhes e, na barra de comandos, selecione **Guardar e Fechar** :</span><span class="sxs-lookup"><span data-stu-id="700c7-138">In the **New Product Relationship** form, enter the following details, and on the command bar, select **Save and Close** :</span></span>
 
-    -   **Produto relacionado**: Selecione um produto que pretende adicionar como produto relacionado com o registo de produto existente que está a trabalhar neste.
-    -   **Tipo de relação de venda**: Selecione se pretende adicionar o produto como uma venda, acima- entre uma venda, um anexo, ou um produto de substituição.
-    -   **Direção**: Selecione se a relação entre os produtos será unidirecional ou bidirecional. Quando seleciona unidirecional, o produto que selecionou em **Produto relacionado** será mostrado como recomendação do produto existente mas não vice-versa.
+    -   <span data-ttu-id="700c7-139">**Produto relacionado** : Selecione um produto que pretende adicionar como produto relacionado com o registo de produto existente que está a trabalhar neste.</span><span class="sxs-lookup"><span data-stu-id="700c7-139">**Related Product** : Select a product that you want to add as a related product to the existing product record you're working on.</span></span>
+    -   <span data-ttu-id="700c7-140">**Tipo de relação de venda** : Selecione se pretende adicionar o produto como uma venda, acima- entre uma venda, um anexo, ou um produto de substituição.</span><span class="sxs-lookup"><span data-stu-id="700c7-140">**Sales Relation Type** : Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product.</span></span>
+    -   <span data-ttu-id="700c7-141">**Direção** : Selecione se a relação entre os produtos será unidirecional ou bidirecional.</span><span class="sxs-lookup"><span data-stu-id="700c7-141">**Direction** :Select whether the relationship between the products will be unidirectional or bidirectional.</span></span> <span data-ttu-id="700c7-142">Quando seleciona unidirecional, o produto que selecionou em **Produto relacionado** será mostrado como recomendação do produto existente mas não vice-versa.</span><span class="sxs-lookup"><span data-stu-id="700c7-142">When you select unidirectional, the product that you select in **Related Product** will be shown as a recommendation for the existing product but not vice versa.</span></span>
 
-9.  No formulário do Produto, selecione **Guardar**.
+9.  <span data-ttu-id="700c7-143">No formulário do Produto, selecione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="700c7-143">On the Product form, select **Save**.</span></span>
 
-## <a name="import-products"></a>Importar produtos
+## <a name="import-products"></a><span data-ttu-id="700c7-144">Importar produtos</span><span class="sxs-lookup"><span data-stu-id="700c7-144">Import products</span></span>
 
-Pode utilizar os modelos de importação para trazer dados de produtos em massa para o Dynamics 365 Sales.
+<span data-ttu-id="700c7-145">Pode utilizar os modelos de importação para trazer dados de produtos em massa para o Dynamics 365 Sales.</span><span class="sxs-lookup"><span data-stu-id="700c7-145">You can use import templates to bring bulk product data into Dynamics 365 Sales.</span></span>
 
-## <a name="revise-a-product"></a>Rever um produto
+## <a name="revise-a-product"></a><span data-ttu-id="700c7-146">Rever um produto</span><span class="sxs-lookup"><span data-stu-id="700c7-146">Revise a product</span></span>
 
-Mantenha o inventário de produto atualizar rapidamente revisando propriedades para os produtos, conforme necessário e republishing informações de que os agentes de vendas possam ver as alterações posteriores ao inventário.
+<span data-ttu-id="700c7-147">Mantenha o inventário de produto atualizar rapidamente revisando propriedades para os produtos, conforme necessário e republishing informações de que os agentes de vendas possam ver as alterações posteriores ao inventário.</span><span class="sxs-lookup"><span data-stu-id="700c7-147">Keep the product inventory updated by quickly revising properties for the products, as required, and republishing the information so that your sales agents can see the latest changes to the inventory.</span></span>
 
-1.  Certifique-se de que um dos direitos de acesso seguintes ou permissões equivalentes: Administrador de Sistema, Personalizador de Sistemas, Gestor de Vendas, Vice-Presidente de Vendas, Vice-Presidente de Marketing ou CEO-Gestor Empresarial.
-2.  No mapa do site, selecione **Produtos**.
-3.  Abra um produto ativo que pretende alterar e, na barra de comandos, selecione **Rever**.
-4.  Na caixa de diálogo **Confirmar Revisão** selecione **Confirmar**. Isto altera o estado do produto a **Na revisão**.
-5.  Depois de efetuar as alterações, na barra de comandos, selecione **Publicar**.
+1.  <span data-ttu-id="700c7-148">Certifique-se de que um dos direitos de acesso seguintes ou permissões equivalentes: Administrador de Sistema, Personalizador de Sistemas, Gestor de Vendas, Vice-Presidente de Vendas, Vice-Presidente de Marketing ou CEO-Gestor Empresarial.</span><span class="sxs-lookup"><span data-stu-id="700c7-148">Make sure that you have one of the following security roles or equivalent permissions: System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager.</span></span>
+2.  <span data-ttu-id="700c7-149">No mapa do site, selecione **Produtos**.</span><span class="sxs-lookup"><span data-stu-id="700c7-149">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="700c7-150">Abra um produto ativo que pretende alterar e, na barra de comandos, selecione **Rever**.</span><span class="sxs-lookup"><span data-stu-id="700c7-150">Open an active product that you want to change, and on the command bar, select **Revise**.</span></span>
+4.  <span data-ttu-id="700c7-151">Na caixa de diálogo **Confirmar Revisão** selecione **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="700c7-151">In the **Confirm Revise** dialog box, select **Confirm**.</span></span> <span data-ttu-id="700c7-152">Isto altera o estado do produto a **Na revisão**.</span><span class="sxs-lookup"><span data-stu-id="700c7-152">This will change the product status to **Under Revision**.</span></span>
+5.  <span data-ttu-id="700c7-153">Depois de efetuar as alterações, na barra de comandos, selecione **Publicar**.</span><span class="sxs-lookup"><span data-stu-id="700c7-153">After you're done making changes, on the command bar, select **Publish**.</span></span>
 
     > [!TIP]
-    > Para reverter as alterações e continuar com a última versão ativa do produto, selecione **Reverter**. Isto altera o estado do produto da **Ativo**.
+    > <span data-ttu-id="700c7-154">Para reverter as alterações e continuar com a última versão ativa do produto, selecione **Reverter**.</span><span class="sxs-lookup"><span data-stu-id="700c7-154">To revert the changes and continue with the last active version of the product, select **Revert**.</span></span> <span data-ttu-id="700c7-155">Isto altera o estado do produto da **Ativo**.</span><span class="sxs-lookup"><span data-stu-id="700c7-155">This changes the status of the product back to **Active**.</span></span>
 
-## <a name="clone-a-product"></a>Clonar um produto 
+## <a name="clone-a-product"></a><span data-ttu-id="700c7-156">Clonar um produto</span><span class="sxs-lookup"><span data-stu-id="700c7-156">Clone a product</span></span> 
 
-Quando estiver a criar um novo produto, poupe tempo clonando um existente. Cria uma cópia do registo original com todos os detalhes exceto nome e ID
+<span data-ttu-id="700c7-157">Quando estiver a criar um novo produto, poupe tempo clonando um existente.</span><span class="sxs-lookup"><span data-stu-id="700c7-157">When you're creating a new product, save time by cloning an existing one.</span></span> <span data-ttu-id="700c7-158">Cria uma cópia do registo original com todos os detalhes exceto nome e ID</span><span class="sxs-lookup"><span data-stu-id="700c7-158">This creates a copy of the original record with all the details except for the name and ID.</span></span>
 
-1.  Certifique-se de que um dos direitos de acesso seguintes ou permissões equivalentes: Administrador de Sistema, Personalizador de Sistemas, Gestor de Vendas, Vice-Presidente de Vendas, Vice-Presidente de Marketing ou CEO-Gestor Empresarial.
-2.  No mapa do site, selecione **Produtos**.
-3.  Selecione o registo de um produto que pretende clonar e, na barra de comandos, selecione **Clonar**. É apresentada uma caixa de diálogo de confirmação.
-4.  Selecione **Confirmar**.
+1.  <span data-ttu-id="700c7-159">Certifique-se de que um dos direitos de acesso seguintes ou permissões equivalentes: Administrador de Sistema, Personalizador de Sistemas, Gestor de Vendas, Vice-Presidente de Vendas, Vice-Presidente de Marketing ou CEO-Gestor Empresarial.</span><span class="sxs-lookup"><span data-stu-id="700c7-159">Make sure that you have one of the following security roles or equivalent permissions: System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager.</span></span>
+2.  <span data-ttu-id="700c7-160">No mapa do site, selecione **Produtos**.</span><span class="sxs-lookup"><span data-stu-id="700c7-160">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="700c7-161">Selecione o registo de um produto que pretende clonar e, na barra de comandos, selecione **Clonar**.</span><span class="sxs-lookup"><span data-stu-id="700c7-161">Select a product record that you want to clone, and on the command bar, select **Clone**.</span></span> <span data-ttu-id="700c7-162">É apresentada uma caixa de diálogo de confirmação.</span><span class="sxs-lookup"><span data-stu-id="700c7-162">A confirmation dialog box appears.</span></span>
+4.  <span data-ttu-id="700c7-163">Selecione **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="700c7-163">Select **Confirm**.</span></span>
 
-Um novo registo de produto abre-se com os mesmos detalhes do original, à exceção do nome e ID.
+<span data-ttu-id="700c7-164">Um novo registo de produto abre-se com os mesmos detalhes do original, à exceção do nome e ID.</span><span class="sxs-lookup"><span data-stu-id="700c7-164">A new product record opens with the same details as the original one except for the name and ID.</span></span>
 
-## <a name="retire-a-product"></a>Extinguir um produto 
+## <a name="retire-a-product"></a><span data-ttu-id="700c7-165">Extinguir um produto</span><span class="sxs-lookup"><span data-stu-id="700c7-165">Retire a product</span></span> 
 
-Se a sua organização não vender um produto, extinga-o para que o produto já não esteja disponível para os agentes de vendas.
+<span data-ttu-id="700c7-166">Se a sua organização não vender um produto, extinga-o para que o produto já não esteja disponível para os agentes de vendas.</span><span class="sxs-lookup"><span data-stu-id="700c7-166">If your organization doesn't sell a product anymore, retire it so that the product is no longer available to your sales agents.</span></span>
 
-1.  Certifique-se de que tem a função de Administrador de Sistema ou Gestor do Sales Professional ou permissões equivalentes.
-2.  No mapa do site, selecione **Produtos**.
-3.  Abra um produto ativo que pretende extinguir e, na barra de comandos, selecione **Extinguir**.
-4.  Na caixa de diálogo **Confirmar Extinguir** selecione **Confirmar**.
+1.  <span data-ttu-id="700c7-167">Certifique-se de que tem a função de Administrador de Sistema ou Gestor do Sales Professional ou permissões equivalentes.</span><span class="sxs-lookup"><span data-stu-id="700c7-167">Make sure that you have the System Administrator or Sales Professional Manager role or equivalent permissions.</span></span>
+2.  <span data-ttu-id="700c7-168">No mapa do site, selecione **Produtos**.</span><span class="sxs-lookup"><span data-stu-id="700c7-168">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="700c7-169">Abra um produto ativo que pretende extinguir e, na barra de comandos, selecione **Extinguir**.</span><span class="sxs-lookup"><span data-stu-id="700c7-169">Open an active product that you want to retire, and on the command bar, select **Retire**.</span></span>
+4.  <span data-ttu-id="700c7-170">Na caixa de diálogo **Confirmar Extinguir** selecione **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="700c7-170">In the **Confirm Retire** dialog box, select **Confirm**.</span></span>
 
 
-## <a name="delete-a-product"></a>Eliminar um produto
+## <a name="delete-a-product"></a><span data-ttu-id="700c7-171">Eliminar um produto</span><span class="sxs-lookup"><span data-stu-id="700c7-171">Delete a product</span></span>
 
-Para parar a vender um produto, elimine-o.
+<span data-ttu-id="700c7-172">Para parar a vender um produto, elimine-o.</span><span class="sxs-lookup"><span data-stu-id="700c7-172">To stop selling a product, delete it.</span></span>
 
 > [!IMPORTANT]
-> Não é possível recuperar registos eliminados.
+> <span data-ttu-id="700c7-173">Não é possível recuperar registos eliminados.</span><span class="sxs-lookup"><span data-stu-id="700c7-173">You can't recover a deleted record.</span></span>
 
-1.  Certifique-se de que tem a função de Administrador de Sistema ou Gestor do Sales Professional ou permissões equivalentes.
-2.  No mapa do site, selecione **Produtos**.
-3.  Selecione o registo de um produto que pretende eliminar e, na barra de comandos, selecione **Eliminar**.
-4.  Na caixa de diálogo **Confirmar Eliminar**, selecione **Continuar**.
+1.  <span data-ttu-id="700c7-174">Certifique-se de que tem a função de Administrador de Sistema ou Gestor do Sales Professional ou permissões equivalentes.</span><span class="sxs-lookup"><span data-stu-id="700c7-174">Make sure that you have the System Administrator or Sales Professional Manager role or equivalent permissions.</span></span>
+2.  <span data-ttu-id="700c7-175">No mapa do site, selecione **Produtos**.</span><span class="sxs-lookup"><span data-stu-id="700c7-175">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="700c7-176">Selecione o registo de um produto que pretende eliminar e, na barra de comandos, selecione **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="700c7-176">Select a product record you want to delete, and on the command bar, select **Delete**.</span></span>
+4.  <span data-ttu-id="700c7-177">Na caixa de diálogo **Confirmar Eliminar** , selecione **Continuar**.</span><span class="sxs-lookup"><span data-stu-id="700c7-177">In the **Confirm Deletion** dialog box, select **Continue**.</span></span>
  
- ## <a name="quantity-factors-for-products"></a>Fatores de quantidade para produtos
+ ## <a name="quantity-factors-for-products"></a><span data-ttu-id="700c7-178">Fatores de quantidade para produtos</span><span class="sxs-lookup"><span data-stu-id="700c7-178">Quantity factors for products</span></span>
 
-Fatores de quantidade suportam a venda de produtos baseados em subscrições. Para produtos baseados em subscrições, a quantidade na proposta ou item de contrato do projeto é expressa como o número de meses do utilizador.
+<span data-ttu-id="700c7-179">Fatores de quantidade suportam a venda de produtos baseados em subscrições.</span><span class="sxs-lookup"><span data-stu-id="700c7-179">Quantity factors support the sale of subscription-based products.</span></span> <span data-ttu-id="700c7-180">Para produtos baseados em subscrições, a quantidade na proposta ou item de contrato do projeto é expressa como o número de meses do utilizador.</span><span class="sxs-lookup"><span data-stu-id="700c7-180">For subscription-based products, the quantity on the quote or project contract line is expressed as the number of user months.</span></span>
 
-Normalmente, o preço do software de subscrição é armazenado no catálogo como o preço por utilizador, por mês. No entanto, pode utilizar outras descrições de tempo. Durante o processo de vendas, o preço na linha de proposta é, normalmente, o preço por utilizador e por mês negociado e descontado pelo agente de vendas de TI. Cada negócio tem um número diferente de utilizadores e um número diferente de meses de subscrição. A quantidade que é utilizada para calcular o montante da linha de proposta é um produto do número de utilizadores e do número de meses de subscrição.
+<span data-ttu-id="700c7-181">Normalmente, o preço do software de subscrição é armazenado no catálogo como o preço por utilizador, por mês.</span><span class="sxs-lookup"><span data-stu-id="700c7-181">Usually, the price of subscription software is stored in the catalog as the price per user per month.</span></span> <span data-ttu-id="700c7-182">No entanto, pode utilizar outras descrições de tempo.</span><span class="sxs-lookup"><span data-stu-id="700c7-182">However, you can use other time descriptions instead.</span></span> <span data-ttu-id="700c7-183">Durante o processo de vendas, o preço na linha de proposta é, normalmente, o preço por utilizador e por mês negociado e descontado pelo agente de vendas de TI.</span><span class="sxs-lookup"><span data-stu-id="700c7-183">During the sales process, the price on the quote line is usually the per-user, per-month price that was negotiated and discounted by the IT sales agent.</span></span> <span data-ttu-id="700c7-184">Cada negócio tem um número diferente de utilizadores e um número diferente de meses de subscrição.</span><span class="sxs-lookup"><span data-stu-id="700c7-184">Each deal has a different number of users and a different number of subscription months.</span></span> <span data-ttu-id="700c7-185">A quantidade que é utilizada para calcular o montante da linha de proposta é um produto do número de utilizadores e do número de meses de subscrição.</span><span class="sxs-lookup"><span data-stu-id="700c7-185">The quantity that is used to compute the amount of the quote line is a product of the number of users and the number of subscription months.</span></span>
 
-Os fatores de quantidade dependem dos atributos do produto. Quando configura propriedades específicas para um produto, pode sinalizar um subconjunto dessas propriedades, ou todas as propriedades, como fatores de quantidade.
+<span data-ttu-id="700c7-186">Os fatores de quantidade dependem dos atributos do produto.</span><span class="sxs-lookup"><span data-stu-id="700c7-186">Quantity factors rely on product attributes.</span></span> <span data-ttu-id="700c7-187">Quando configura propriedades específicas para um produto, pode sinalizar um subconjunto dessas propriedades, ou todas as propriedades, como fatores de quantidade.</span><span class="sxs-lookup"><span data-stu-id="700c7-187">When you configure specific properties for a product, you can flag a subset of those properties, or all the properties, as quantity factors.</span></span>
 
-O sistema valida que apenas as propriedades numéricas ou as propriedades de produto que têm um tipo de dados numérico são sinalizadas como fatores de quantidade. Quando um produto para o qual os fatores de quantidade estão configurados é adicionado a uma linha de proposta, o campo **Quantidade** na linha da proposta passa a ser um campo só de leitura. Depois de introduzir valores para propriedades de produto que são fatores de quantidade, é calculada a quantidade da linha de proposta.
+<span data-ttu-id="700c7-188">O sistema valida que apenas as propriedades numéricas ou as propriedades de produto que têm um tipo de dados numérico são sinalizadas como fatores de quantidade.</span><span class="sxs-lookup"><span data-stu-id="700c7-188">The system validates that only numeric properties or product properties that have a numeric data type are flagged as quantity factors.</span></span> <span data-ttu-id="700c7-189">Quando um produto para o qual os fatores de quantidade estão configurados é adicionado a uma linha de proposta, o campo **Quantidade** na linha da proposta passa a ser um campo só de leitura.</span><span class="sxs-lookup"><span data-stu-id="700c7-189">When a product that quantity factors are configured for is added to a quote line, the **Quantity** field on the quote line becomes a read-only field.</span></span> <span data-ttu-id="700c7-190">Depois de introduzir valores para propriedades de produto que são fatores de quantidade, é calculada a quantidade da linha de proposta.</span><span class="sxs-lookup"><span data-stu-id="700c7-190">After you enter values for product properties that are quantity factors, the quantity of the quote line is calculated.</span></span>
 
-Por exemplo, se existirem as seguintes propriedades: 
+<span data-ttu-id="700c7-191">Por exemplo, se existirem as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="700c7-191">For example, if there are the following properties:</span></span> 
 
-- **N.º de utilizadores**: O número de utilizadores 
-- **N.º de Meses**: O número de meses da subscrição
-- **SKU do Produto** 
+- <span data-ttu-id="700c7-192">**N.º de utilizadores** : O número de utilizadores</span><span class="sxs-lookup"><span data-stu-id="700c7-192">**No of users** : The number of users</span></span> 
+- <span data-ttu-id="700c7-193">**N.º de Meses** : O número de meses da subscrição</span><span class="sxs-lookup"><span data-stu-id="700c7-193">**No of Months** : The number of subscription months</span></span>
+- <span data-ttu-id="700c7-194">**SKU do Produto**</span><span class="sxs-lookup"><span data-stu-id="700c7-194">**Product SKU**</span></span> 
 
-O **N.º de Utilizadores** e **N.º de Meses** podem ser sinalizadas como fatores de quantidade editando as propriedades da linha de produto. 
+<span data-ttu-id="700c7-195">O **N.º de Utilizadores** e **N.º de Meses** podem ser sinalizadas como fatores de quantidade editando as propriedades da linha de produto.</span><span class="sxs-lookup"><span data-stu-id="700c7-195">The **No of Users** and **No of Months** properties can be flagged as quantity factors by editing the properties of the product line.</span></span> 
