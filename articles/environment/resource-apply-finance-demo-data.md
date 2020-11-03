@@ -8,73 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949025"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096636"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicar dados de demonstração do Project Operations a um ambiente alojado no Finance Cloud
+# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a><span data-ttu-id="0be2e-103">Aplicar dados de demonstração do Project Operations a um ambiente alojado no Finance Cloud</span><span class="sxs-lookup"><span data-stu-id="0be2e-103">Apply Project Operations demo data to a Finance Cloud-hosted environment</span></span>
 
-_**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
+<span data-ttu-id="0be2e-104">_**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_</span><span class="sxs-lookup"><span data-stu-id="0be2e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
->[Importante] Este tópico só é aplicável ao Microsoft Dynamics 365 Finance versão 10.0.13 e só pode ser executado num ambiente alojado na Cloud. Conclua os passos neste tópico **ANTES** de aplicar atualizações de qualidade ao ambiente.
+> [!IMPORTANT]
+> <span data-ttu-id="0be2e-105">Este tópico só é aplicável ao Microsoft Dynamics 365 Finance versão 10.0.13 e só pode ser executado num ambiente alojado na Cloud.</span><span class="sxs-lookup"><span data-stu-id="0be2e-105">This topic is only applicable only Microsoft Dynamics 365 Finance version 10.0.13 and can be performed only on a Cloud-hosted environment.</span></span> <span data-ttu-id="0be2e-106">Conclua os passos neste tópico **ANTES** de aplicar atualizações de qualidade ao ambiente.</span><span class="sxs-lookup"><span data-stu-id="0be2e-106">Complete the steps in this topic **BEFORE** you apply quality updates to the environment.</span></span>
 
-1. No seu projeto LCS, abra a página **Detalhes do ambiente**. Note que inclui os detalhes necessários para ligar ao ambiente através do Protocolo RDP (Remote Desktop Protocol).
+1. <span data-ttu-id="0be2e-107">No seu projeto LCS, abra a página **Detalhes do ambiente**.</span><span class="sxs-lookup"><span data-stu-id="0be2e-107">In your LCS project, open the **Environment details** page.</span></span> <span data-ttu-id="0be2e-108">Note que inclui os detalhes necessários para ligar ao ambiente através do Protocolo RDP (Remote Desktop Protocol).</span><span class="sxs-lookup"><span data-stu-id="0be2e-108">Notice that it includes the details needed to connect to the environment by using Remote Desktop Protocol (RDP).</span></span>
 
 ![Detalhes do ambiente ](./media/1EnvironmentDetails.png)
 
-O primeiro conjunto de credenciais realçadas são as credenciais da conta local e contêm uma hiperligação à ligação de ambiente de trabalho remoto. As credenciais incluem o nome de utilizador e a palavra-passe do administrador do ambiente. O segundo conjunto de credenciais é utilizado para iniciar sessão no SQL Server neste ambiente.
+<span data-ttu-id="0be2e-110">O primeiro conjunto de credenciais realçadas são as credenciais da conta local e contêm uma hiperligação à ligação de ambiente de trabalho remoto.</span><span class="sxs-lookup"><span data-stu-id="0be2e-110">The first set of highlighted credentials are the local account credentials and contain a hyperlink to the remote desktop connection.</span></span> <span data-ttu-id="0be2e-111">As credenciais incluem o nome de utilizador e a palavra-passe do administrador do ambiente.</span><span class="sxs-lookup"><span data-stu-id="0be2e-111">The credentials include the environment admin username and password.</span></span> <span data-ttu-id="0be2e-112">O segundo conjunto de credenciais é utilizado para iniciar sessão no SQL Server neste ambiente.</span><span class="sxs-lookup"><span data-stu-id="0be2e-112">The second set of credentials are used to log in to SQL Server in this environment.</span></span>
 
-2. Ligue-se remotamente ao ambiente pela hiperligação em **Contas Locais** e utilize as **Credenciais de Conta Local** autenticar.
-3. Vá para **Serviços de Informação Internet** > **Conjuntos Aplicacionais** > **AOSService** e pare o serviço. Está a parar o serviço neste momento para poder continuar a substituir a base de dados SQL.
+2. <span data-ttu-id="0be2e-113">Ligue-se remotamente ao ambiente pela hiperligação em **Contas Locais** e utilize as **Credenciais de Conta Local** autenticar.</span><span class="sxs-lookup"><span data-stu-id="0be2e-113">Remote to the environment by the hyperlink in **Local Accounts** , and use the **Local Account credentials** to authenticate.</span></span>
+3. <span data-ttu-id="0be2e-114">Vá para **Serviços de Informação Internet** > **Conjuntos Aplicacionais** > **AOSService** e pare o serviço.</span><span class="sxs-lookup"><span data-stu-id="0be2e-114">Go to **Internet Information Services** > **Application Pools** > **AOSService** and stop the service.</span></span> <span data-ttu-id="0be2e-115">Está a parar o serviço neste momento para poder continuar a substituir a base de dados SQL.</span><span class="sxs-lookup"><span data-stu-id="0be2e-115">You are stopping the service at this point so that you can continue to replace the SQL database.</span></span>
 
 ![Parar AOS](./media/2StopAOS.png)
 
-4. Vá para **Serviços** e pare os seguintes dois itens:
+4. <span data-ttu-id="0be2e-117">Vá para **Serviços** e pare os seguintes dois itens:</span><span class="sxs-lookup"><span data-stu-id="0be2e-117">Go to **Services** and stop the following two items:</span></span>
 
-- Microsoft Dynamics 365 Unified Operations: Serviço de Gestão em Lote
-- Microsoft Dynamics 365 Unified Operations: Quadro de Importação/Exportação de Dados
+- <span data-ttu-id="0be2e-118">Microsoft Dynamics 365 Unified Operations: Serviço de Gestão em Lote</span><span class="sxs-lookup"><span data-stu-id="0be2e-118">Microsoft Dynamics 365 Unified Operations: Batch Management Service</span></span>
+- <span data-ttu-id="0be2e-119">Microsoft Dynamics 365 Unified Operations: Quadro de Importação/Exportação de Dados</span><span class="sxs-lookup"><span data-stu-id="0be2e-119">Microsoft Dynamics 365 Unified Operations: Data Import Export Framework</span></span>
 
 ![Parar Serviços](./media/3StopServices.png)
 
-5. Abra o Microsoft SQL Server Management Studio. Inicie sessão com as credenciais de SQL Server e utilize o utilizador axdbadmin e a palavra-passe da página **Detalhes do ambiente** do LCS.
+5. <span data-ttu-id="0be2e-121">Abra o Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="0be2e-121">Open Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="0be2e-122">Inicie sessão com as credenciais de SQL Server e utilize o utilizador axdbadmin e a palavra-passe da página **Detalhes do ambiente** do LCS.</span><span class="sxs-lookup"><span data-stu-id="0be2e-122">Log in with SQL server credentials and use the axdbadmin user and password from the LCS **Environments details** page.</span></span>
 
 ![SQL Server Management Studio](./media/4SSMS.png)
 
-6. No Explorador de Objetos, **Bases de Dados** e localize **AXDB**. Irá substituir a base de dados por uma nova base de dados que está localizada no [Centro de Transferências](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
-7. Copie o ficheiro zip para a VM à qual está ligado remotamente e extraia o conteúdo do zip.
-8. No SQL Server Management Studio, clique com o botão direito do rato em **AxDB** e, em seguida, selecione **Tarefas** > **Repor** > **Base de Dados**.
+6. <span data-ttu-id="0be2e-124">No Explorador de Objetos, **Bases de Dados** e localize **AXDB**.</span><span class="sxs-lookup"><span data-stu-id="0be2e-124">In Object Explorer, **Databases** and locate **AXDB**.</span></span> <span data-ttu-id="0be2e-125">Irá substituir a base de dados por uma nova base de dados que está localizada no [Centro de Transferências](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span><span class="sxs-lookup"><span data-stu-id="0be2e-125">You will replace database with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip).</span></span> 
+7. <span data-ttu-id="0be2e-126">Copie o ficheiro zip para a VM à qual está ligado remotamente e extraia o conteúdo do zip.</span><span class="sxs-lookup"><span data-stu-id="0be2e-126">Copy the zip file to the VM you are remoted into and extract zip contents.</span></span>
+8. <span data-ttu-id="0be2e-127">No SQL Server Management Studio, clique com o botão direito do rato em **AxDB** e, em seguida, selecione **Tarefas** > **Repor** > **Base de Dados**.</span><span class="sxs-lookup"><span data-stu-id="0be2e-127">In SQL Server Management Studio, right-click **AxDB** , and then select **Tasks** > **Restore** > **Database**.</span></span>
 
 ![Repor Base de Dados](./media/5RestoreDatabase.png)
 
-9. Selecione **Dispositivo de Origem** navegue para o ficheiro extraído do ficheiro zip que copiou.
+9. <span data-ttu-id="0be2e-129">Selecione **Dispositivo de Origem** navegue para o ficheiro extraído do ficheiro zip que copiou.</span><span class="sxs-lookup"><span data-stu-id="0be2e-129">Select **Source Device** and navigate to the file extracted from zip you copied.</span></span>
 
 ![Dispositivos de Origem](./media/6SourceDevice.png)
 
-10. Selecione **Opções** e, em seguida, selecione **Substituir a base de dados existente** e **Fechar ligações existentes à base de dados de destino**. 
-11. Selecione **OK**.
+10. <span data-ttu-id="0be2e-131">Selecione **Opções** e, em seguida, selecione **Substituir a base de dados existente** e **Fechar ligações existentes à base de dados de destino**.</span><span class="sxs-lookup"><span data-stu-id="0be2e-131">Select **Options** , and then select **Overwrite the existing database** and **Close existing connections to destination database**.</span></span> 
+11. <span data-ttu-id="0be2e-132">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="0be2e-132">Select **OK**.</span></span>
 
 ![Repor Definições](./media/7RestoreSetting.png)
 
-Receberá a confirmação de que a reposição do AXDB foi concluída com êxito. Depois de receber esta confirmação, poderá fechar o SQL Services Management Studio.
+<span data-ttu-id="0be2e-134">Receberá a confirmação de que a reposição do AXDB foi concluída com êxito.</span><span class="sxs-lookup"><span data-stu-id="0be2e-134">You will receive confirmation that the AXDB restore was successful.</span></span> <span data-ttu-id="0be2e-135">Depois de receber esta confirmação, poderá fechar o SQL Services Management Studio.</span><span class="sxs-lookup"><span data-stu-id="0be2e-135">After you receive this confirmation, you can close SQL Services Management Studio.</span></span>
 
-12. Vá para **Serviços de Informação Internet** > **Conjuntos Aplicacionais** > **AOSService** e inicie o AOSService.
-13. Vá para **Serviços** e inicie os dois serviços que parou anteriormente.
+12. <span data-ttu-id="0be2e-136">Vá para **Serviços de Informação Internet** > **Conjuntos Aplicacionais** > **AOSService** e inicie o AOSService.</span><span class="sxs-lookup"><span data-stu-id="0be2e-136">Go back to **Internet Information Services** > **Application Pools** > **AOSService** and start the AOSService.</span></span>
+13. <span data-ttu-id="0be2e-137">Vá para **Serviços** e inicie os dois serviços que parou anteriormente.</span><span class="sxs-lookup"><span data-stu-id="0be2e-137">Go to **Services** and start the two services you stopped earlier.</span></span>
 
-14. Localize a ferramenta AdminUserProvisioning nesta VM. Procure em K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.
-15. Execute o ficheiro .ext através do seu endereço de utilizador no campo **Endereço de E-mail**. 
-16. Selecione **Submeter**.
+14. <span data-ttu-id="0be2e-138">Localize a ferramenta AdminUserProvisioning nesta VM.</span><span class="sxs-lookup"><span data-stu-id="0be2e-138">Locate the AdminUserProvisioning tool on this VM.</span></span> <span data-ttu-id="0be2e-139">Procure em K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span><span class="sxs-lookup"><span data-stu-id="0be2e-139">Look under, K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.</span></span>
+15. <span data-ttu-id="0be2e-140">Execute o ficheiro .ext através do seu endereço de utilizador no campo **Endereço de E-mail**.</span><span class="sxs-lookup"><span data-stu-id="0be2e-140">Run the .ext file using your user address in the **Email Address** field.</span></span> 
+16. <span data-ttu-id="0be2e-141">Selecione **Submeter**.</span><span class="sxs-lookup"><span data-stu-id="0be2e-141">Select **Submit**.</span></span>
 
 ![Aprovisionamento de Utilizadores Administradores](./media/8AdminUserProvisioning.png)
 
-Isto demora alguns minutos a concluir. Deve receber uma mensagem de confirmação de que o Utilizador administrador foi atualizado com sucesso.
+<span data-ttu-id="0be2e-143">Isto demora alguns minutos a concluir.</span><span class="sxs-lookup"><span data-stu-id="0be2e-143">This takes a couple of minutes to complete.</span></span> <span data-ttu-id="0be2e-144">Deve receber uma mensagem de confirmação de que o Utilizador administrador foi atualizado com sucesso.</span><span class="sxs-lookup"><span data-stu-id="0be2e-144">You should receive a confirmation message that the Admin user was successfully updated.</span></span>
 
-17. Por último, execute a Linha de Comandos como Administrador e execute iisreset
+17. <span data-ttu-id="0be2e-145">Por último, execute a Linha de Comandos como Administrador e execute iisreset</span><span class="sxs-lookup"><span data-stu-id="0be2e-145">Lastly, run Command Prompt as Administrator and perform iisreset</span></span>
 
 ![Reposição do IIS](./media/9IISReset.png)
 
-18. Feche a sessão de ambiente de trabalho remota e utilize a página **Detalhes do ambiente** do LCS para iniciar sessão no ambiente para confirmar que está a funcionar conforme esperado.
+18. <span data-ttu-id="0be2e-147">Feche a sessão de ambiente de trabalho remota e utilize a página **Detalhes do ambiente** do LCS para iniciar sessão no ambiente para confirmar que está a funcionar conforme esperado.</span><span class="sxs-lookup"><span data-stu-id="0be2e-147">Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.</span></span>
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
