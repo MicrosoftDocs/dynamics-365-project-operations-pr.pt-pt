@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949025"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096636"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicar dados de demonstração do Project Operations a um ambiente alojado no Finance Cloud
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
->[Importante] Este tópico só é aplicável ao Microsoft Dynamics 365 Finance versão 10.0.13 e só pode ser executado num ambiente alojado na Cloud. Conclua os passos neste tópico **ANTES** de aplicar atualizações de qualidade ao ambiente.
+> [!IMPORTANT]
+> Este tópico só é aplicável ao Microsoft Dynamics 365 Finance versão 10.0.13 e só pode ser executado num ambiente alojado na Cloud. Conclua os passos neste tópico **ANTES** de aplicar atualizações de qualidade ao ambiente.
 
 1. No seu projeto LCS, abra a página **Detalhes do ambiente**. Note que inclui os detalhes necessários para ligar ao ambiente através do Protocolo RDP (Remote Desktop Protocol).
 
