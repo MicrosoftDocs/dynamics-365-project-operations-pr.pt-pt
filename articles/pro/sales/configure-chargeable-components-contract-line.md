@@ -34,7 +34,7 @@ Um subconjunto dos componentes incluídos pode ser marcado como faturável utili
 
 Os componentes faturáveis podem ser definidos nas categorias de tarefas, funções e transações.
 
-A capacidade de faturação é definida em tarefas para um item de contrato de projeto e aplica-se a todas as classes de transação incluídas no item. Se o campo **Incluir Tarefas** num item de contrato estiver em branco ou definido para * *Todo o projeto* , o separador **Tarefas faturáveis** não estará disponível.
+A capacidade de faturação é definida em tarefas para um item de contrato de projeto e aplica-se a todas as classes de transação incluídas no item. Se o campo **Incluir Tarefas** num item de contrato estiver em branco ou definido para * *Todo o projeto* *, o separador **Tarefas faturáveis** não estará disponível.
 
 A capacidade de faturação definida nas funções de um item de contrato de projeto aplica-se apenas à classe de transação **Tempo**. Se o campo **Incluir Tempo** num item de contrato estiver definido para **Não** , o separador **Funções faturáveis** não estará disponível.
 
