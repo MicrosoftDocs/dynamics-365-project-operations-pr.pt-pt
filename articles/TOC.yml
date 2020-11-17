@@ -1,26 +1,32 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Introdução
+- name: Começar
   items:
     - name: Determinar o tipo de implementação
       href: environment/determine-deployment-type.md
+    - name: Atualizações do Project Operations
+      href: whats-new/project-operations-updates.md
 - name: Project Operations para cenários baseados em recursos/não armazenados
   items:
-    - name: Introdução
+    - name: Começar
       items:
-        - name: Inscrever-se numa subscrição de pré-visualização (baseada em recursos/não armazenada)
+        - name: Descrição geral da implementação do Project Operations para cenários baseados em recursos/não armazenados
+          href: environment/project-operations-integrated-deployment-overview.md
+        - name: Inscrever-se para obter uma subscrição de pré-visualização
           href: environment/resource-sign-up-preview-subscription.md
+        - name: Navegar no Project Operations
+          href: environment/navigate-project-operations.md
         - name: Configurar pré-requisitos
           items:
             - name: Iniciar um novo projeto LCS
               href: environment/create-lcs-project.md
-            - name: Adicionar uma subscrição do Azure ao projeto LCS
+            - name: Adicionar uma subscrição do Azure a um projeto LCS
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Aplicar dados de demonstração
           items:
-            - name: Aplicar dados de demonstração do Project Operations a um ambiente alojado no Finance Cloud
+            - name: Aplicar dados de demonstração a um ambiente alojado na cloud no Finance
               href: environment/resource-apply-finance-demo-data.md
-            - name: Aplicar dados de configuração no Common Data Service para Project Operations
+            - name: Aplicar dados de configuração no Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Implementar ambientes
           items:
@@ -30,11 +36,15 @@
               href: environment/security-model.md
             - name: Configurar a integração do Project Operations por entidade legal
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: Processo de vendas
+    - name: Novidades
       items:
-        - name: Descrição geral das vendas
+        - name: Novembro de 2020 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-nov-2020-resource-based.md
+    - name: Processos de vendas do projeto
+      items:
+        - name: Descrição geral do processo de vendas do projeto
           href: sales/sales-overview.md
-        - name: Configuração
+        - name: Configurar
           items:
             - name: Produtos
               href: sales/sales-products.md
@@ -42,94 +52,104 @@
               href: sales/sales-units-unit-groups.md
             - name: Moeda
               href: sales/sales-currency.md
-        - name: Gerir oportunidades potenciais
+        - name: Gerir oportunidades potenciais do projeto
           href: sales/manage-leads.md
-        - name: Gerir oportunidades
+        - name: Gerir oportunidades do projeto
           items:
-            - name: Gerir oportunidades baseadas em projetos
+            - name: Descrição geral da gestão de oportunidades do projeto
               href: sales/manage-project-based-opportunities.md
-            - name: Cabeçalho de oportunidade
+            - name: Definições de oportunidades baseadas em projetos
               href: sales/opportunity-header.md
-            - name: Itens baseados em projetos
+            - name: Itens de oportunidade baseados em projetos
               href: sales/project-based-lines.md
-            - name: Copiar oportunidades baseadas em projetos
-              href: sales/copy-project-based-opportunity.md
             - name: Criar propostas do projeto a partir de oportunidades
               href: sales/link-quotes-opportunities.md
-            - name: Fechar uma oportunidade
+            - name: Copiar oportunidades baseadas em projetos
+              href: sales/copy-project-based-opportunity.md
+            - name: Fechar uma oportunidade de projeto
               href: sales/close-opportunity.md
-        - name: Gerir propostas
+        - name: Gerir propostas do projeto
           items:
-            - name: Principais conceitos
+            - name: Descrição geral da gestão de propostas do projeto
+              href: pro/sales/manage-quotes-sales.md
+            - name: Conceitos de propostas do projeto
               href: sales/quotes-key-concepts.md
-            - name: Informações de resumo numa proposta de projeto
+            - name: Definições de propostas do projeto
               href: sales/quote-values-budget-limits-contract.md
-            - name: Gerir vários clientes numa proposta
+            - name: Gerir vários clientes numa proposta do projeto
               href: sales/manage-multiple-customers-quote.md
-            - name: Linhas de proposta baseadas em produtos
-              item:
-                - name: Custo das linhas de proposta baseadas em produtos
-                  href: sales/costing-product-based-quote-lines.md
-                - name: Gerir unidades complexas para linhas de proposta baseadas em produtos
-                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Gerir listas de preços de projetos numa proposta
+              href: sales/managing-project-price-lists.md
             - name: Linhas de proposta baseadas em projetos
               items:
-                - name: Gerir listas de preços de projetos
-                  href: sales/managing-project-price-lists.md
+                - name: Descrição geral das linhas de proposta baseadas em projetos
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Gerir vários clientes em linhas de proposta baseadas em projetos
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Configurar os componentes faturáveis de uma linha de proposta do projeto
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Criar estimativas numa linha de proposta
                   href: sales/create-estimate-quote-line.md
-                - name: Importar estimativas do projeto para uma linha de proposta baseada no projeto
+                - name: Importar estimativas a partir de um projeto para uma linha de proposta baseada no projeto
                   href: sales/import-estimate-quote-line.md
-                - name: 'Gerir valores das propostas, orçamentos de clientes e limites a não exceder'
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Agendas de faturação nas linhas de proposta baseadas no projeto
                   href: sales/invoice-schedule-quote-line.md
-            - name: Copiar propostas baseadas em projetos
+            - name: Copiar propostas de projetos
               href: sales/lose-quote.md
-            - name: Fechar uma proposta
+            - name: Fechar propostas do projeto
               href: sales/win-quote.md
-        - name: Gerir contratos
+        - name: Gerir contratos de projetos
           items:
-            - name: Conceitos chave - Contratos de projeto
+            - name: Descrição geral da gestão de contratos de projetos
+              href: pro/sales/manage-contracts-sales.md
+            - name: Conceitos de contratos de projetos
               href: sales/contracts-key-concepts.md
             - name: Definições do contrato de projeto
               href: sales/project-contract-settings.md
+            - name: Gerir listas de preços de projetos em contratos de projetos
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Gerir vários clientes em contratos de projetos
+              href: sales/contracts-manage-project-price-lists.md
             - name: Itens de contrato baseados em projetos
               items:
+                - name: Descrição geral dos itens de contrato baseados em projetos
+                  href: sales/manage-contract-values-project-based.md
+                - name: Gerir vários clientes em itens de contratos baseados em projetos
+                  href: sales/manage-multiple-customers-contract-line.md
                 - name: Configurar componentes faturáveis de um item de contrato baseado em projetos
                   href: sales/configure-chargeable-contract-line.md
-                - name: Importar uma estimativa para um item de contrato baseado no projeto
+                - name: Estimar um item de contrato baseado no projeto
+                  href: sales/create-estimate-contract-line.md
+                - name: Importar estimativas a partir de um projeto para um item de contrato baseado no projeto
                   href: sales/import-estimate-project-contract-line.md
-                - name: Criar uma agenda de faturação num item de contrato baseado no projeto
+                - name: Criar agendas de faturação em itens de contrato baseado no projeto
                   href: sales/invoice-schedules-contract-line.md
             - name: Confirmar um contrato de projeto
               href: pro/sales/confirm-contract-sales.md
+            - name: Copiar um contrato de projeto
+              href: pro/sales/copy-project-contracts-sales.md
     - name: Preços e custos
       items:
-        - name: Configurar listas de preços
-          href: pricing-costing/price-list-setup.md
-        - name: Listas de preços de produtos
-          href: pricing-costing/product-price-list.md
-        - name: Listas de preços de projetos
+        - name: Configuração da lista de preços
           items:
-            - name: Configuração da lista de preços para vendas
-              items:
-                - name: Configurar lista de preços de vendas
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Configurar taxas de faturação de mão de obra
-                  href: pricing-costing/set-up-labor-bill-rate.md
-                - name: Configurar taxas de custo de mão de obra
-                  href: pricing-costing/set-up-labor-cost-rate.md
-                - name: Configurar taxas de custo e de venda para despesas
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Listas de preços predefinidas
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Resolução dos preços de custo para estimativas e valores reais
-                  href: pricing-costing/cost-price-resolution.md
+            - name: Configurar listas de preços
+              href: pricing-costing/price-list-setup.md
+            - name: Listas de preços de produtos
+              href: pricing-costing/product-price-list.md
+            - name: Configurar taxas de faturação de mão de obra
+              href: pricing-costing/set-up-labor-bill-rate.md
+            - name: Configurar taxas de custo de mão de obra
+              href: pricing-costing/set-up-labor-cost-rate.md
+            - name: Configurar taxas de custo e de venda para despesas
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Predefinições e substituições
           items:
+            - name: Listas de preços predefinidas
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Substituir listas de preços de vendas de projetos
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Resolver preços de custo para estimativas e valores reais
+              href: pricing-costing/cost-price-resolution.md
             - name: Resolver preços de venda para estimativas e valores reais
               href: pricing-costing/sales-price-resolution.md
             - name: Copiar listas de preços
@@ -138,9 +158,11 @@
           items:
             - name: Descrição geral das dimensões de preços
               href: pricing-costing/pricing-dimensions-overview.md
-            - name: Utilizar um campo existente como dimensão de preços
-              href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Personalizar campos como dimensões de preços
+            - name: Utilizar campos existentes como dimensões de preços
+              items:
+                - name: Campos do Project Operations como dimensões de definição de preços
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Campos personalizados como dimensões de preços
               items:
                 - name: Criar campos e entidades personalizados como dimensões de preços
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
@@ -156,7 +178,7 @@
           href: project-management/project-management-overview.md
         - name: Fases do projeto
           href: project-management/project-stages.md
-        - name: Navegar na IU
+        - name: Navegar na interface de utilizador
           href: project-management/navigate-ui.md
         - name: Compreender o estado do projeto
           href: project-management/understand-project-status.md
@@ -202,7 +224,7 @@
       items:
         - name: Principais conceitos
           href: resource-management/resource-management-key-concepts.md
-        - name: Reservas versus Atribuições
+        - name: Reservas versus atribuições
           href: resource-management/booking-vs-assignment.md
         - name: Descrição geral dos modos de gestão de recursos
           href: resource-management/resource-management-mode-overview.md
@@ -222,7 +244,7 @@
               href: resource-management/review-proposed-resources.md
         - name: Reserva de recursos descentralizada (híbrido)
           items:
-            - name: Adicionar membros da equipa a partir da grelha Membro da equipa
+            - name: Adicionar membros da equipa a partir da grelha Membro da Equipa
               href: resource-management/add-team-members-grid.md
             - name: Cumprimento de requisitos genéricos dos recursos
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -242,13 +264,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Gerir fusos horários
               href: resource-management/manage-multiple-time-zones.md
+        - name: Utilização de recursos
+          items:
+            - name: Descrição geral da utilização de recursos
+              href: resource-management/resource-utilization-overview.md
     - name: Tempo
       items:
         - name: Descrição geral do tempo
           href: time/time-entry-overview.md
         - name: Criar entradas de tempo
           items:
-            - name: Comportamento da interface do utilizador de entrada de tempo
+            - name: Interface do utilizador de entrada de tempo
               href: time/ui-behavior-time.md
         - name: Notas do programador
           items:
@@ -306,6 +332,10 @@
       items:
         - name: Descrição geral das aprovações
           href: approvals/approvals-overview.md
+        - name: Notas do programador
+          items:
+            - name: Notas do programador para Aprovações
+              href: approvals/dev-notes-approvals.md
     - name: Valores Reais
       items:
         - name: Descrição geral dos valores reais
@@ -316,39 +346,53 @@
               href: actuals/create-confirm-correction-journals.md
     - name: Faturação pró-forma
       items:
-        - name: Gerir o registo de tarefas pendentes de faturação
+        - name: Gerir registo de tarefas pendentes de faturação de projetos
           href: proforma-invoicing/manage-billing-backlog.md
-        - name: Criar uma fatura pró-forma manual
+        - name: Gerir estado a não exceder e validações
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Criar uma fatura pró-forma manualmente
           href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Confirmar uma fatura pró-forma
+        - name: Gerir uma fatura pró-forma do projeto
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Confirmar uma fatura pró-forma do projeto
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Faturas corrigidas
-          href: proforma-invoicing/corrective-invoices.md
-        - name: Configurar a criação automática de faturas
+        - name: Configurar a automatização de faturas do projeto
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Gestão contabilística do projeto
       items:
+        - name: Dimensão financeira predefinida
+          href: project-accounting/financial-dimension-defaults.md
         - name: Configurar categorias do projeto
           href: project-accounting/configure-project-categories.md
         - name: Configurar gestão contabilística para projetos internos
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Configurar gestão contabilística para projetos faturáveis
           href: project-accounting/configure-accounting-billable-projects.md
+        - name: Diário de integração no Project Operations
+          href: project-accounting/project-operations-integration-journal.md
 - name: Implementação leve - oportunidade potencial para fatura pró-forma
   items:
-    - name: Introdução
+    - name: Começar
       items:
-        - name: Inscrever-se para obter uma subscrição de pré-visualização (lite)
+        - name: Descrição geral da implementação leve
+          href: pro/project-operations-overview-lite.md
+        - name: Inscrever-se para obter uma subscrição de pré-visualização - leve
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Executar implementação do Project Operations Lite – oportunidade potencial para fatura pró-forma
+        - name: Implementar o Project Operations - leve
           href: environment/lite-deployment.md
-        - name: Aplicar dados de configuração da demonstração
+        - name: Aplicar dados de configuração da demonstração - leve
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Modelo de segurança
           href: environment/security-model.md
-    - name: Processo de vendas
+    - name: Novidades
       items:
-        - name: Configuração
+        - name: Novidades de novembro de 2020 - implementação leve - oportunidade potencial para fatura pró-forma
+          href: pro/whats-new/whats-new-nov-2020-lite.md
+    - name: Processos de vendas do projeto
+      items:
+        - name: Descrição geral do processo de vendas do projeto
+          href: sales/sales-overview.md
+        - name: Configurar
           items:
             - name: Produtos
               href: sales/sales-products.md
@@ -356,119 +400,149 @@
               href: sales/sales-units-unit-groups.md
             - name: Moeda
               href: sales/sales-currency.md
-        - name: Gerir oportunidades potenciais
+        - name: Gerir oportunidades potenciais do projeto
           href: pro/sales/managing-leads-sales.md
-        - name: Gerir oportunidades
+        - name: Gerir oportunidades do projeto
           items:
-            - name: Gerir oportunidades baseadas em projetos
+            - name: Descrição geral das oportunidades do projeto
               href: sales/manage-project-based-opportunities.md
-            - name: Cabeçalho de oportunidade
+            - name: Definições de oportunidades do projeto
               href: pro/sales/opportunity-header-sales.md
-            - name: Itens baseados em projetos
+            - name: Gerir itens de oportunidade baseados em produtos
+              href: pro/sales/product-based-lines-sales.md
+            - name: Gerir itens de oportunidade baseados em projetos
               href: pro/sales/project-based-lines-sales.md
+            - name: Criar propostas a partir de oportunidades de projetos
+              href: sales/link-quotes-opportunities.md
             - name: Copiar oportunidades baseadas em projetos
               href: sales/copy-project-based-opportunity.md
-            - name: Criar propostas do projeto a partir de oportunidades
-              href: sales/link-quotes-opportunities.md
-            - name: Itens de oportunidade baseados em produtos
-              href: pro/sales/product-based-lines-sales.md
-            - name: Fechar uma oportunidade
+            - name: Fechar uma oportunidade de projeto
               href: sales/close-opportunity.md
-        - name: Gerir propostas
+        - name: Gerir propostas baseadas em projetos
           items:
-            - name: Conceitos chave da proposta de projeto
+            - name: Descrição geral das propostas baseadas em projetos
+              href: pro/sales/manage-quotes-sales.md
+            - name: Conceitos de proposta de projeto
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Informações de resumo numa proposta de projeto (Vendas)
+            - name: Definições de proposta do projeto
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Gerir vários clientes em propostas do projeto
+            - name: Vários clientes em propostas do projeto
               href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Listas de preços de projetos em propostas do projeto
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Linhas de proposta baseadas em produtos
               items:
+                - name: Descrição geral das linhas de proposta baseadas em produtos
+                  href: pro/sales/product-based-quote-lines-sales.md
                 - name: Custo das linhas de proposta baseadas em produtos
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: 'Gerir unidades complexas, tais como por utilizador, por mês para linhas de proposta baseadas em produtos'
+                - name: Gerir unidades complexas para linhas de proposta baseadas em produtos
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
             - name: Linhas de proposta baseadas em projetos
               items:
-                - name: Gerir listas de preços de projetos em propostas do projeto
-                  href: pro/sales/manage-project-price-lists-sales.md
-                - name: Gerir vários clientes em linhas de proposta baseadas em projetos
+                - name: Descrição geral das linhas de proposta baseadas em projetos
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Gerir vários clientes
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Mapear projetos e tarefas para uma linha de proposta baseada no projeto
+                - name: Mapear projetos e tarefas
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Configurar componentes faturáveis
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Estimar uma linha de proposta baseada no projeto
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Linhas de proposta baseadas em projetos (vendas)
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Importar estimativas do projeto para uma linha de proposta baseada no projeto
+                - name: Importar estimativa a partir de um projeto
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Agendas de faturação nas linhas de proposta baseadas no projeto
+                - name: Gerir agendas de faturação
                   href: sales/invoice-schedule-quote-line.md
-                - name: Configurar os componentes faturáveis de uma linha de proposta
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Copiar propostas baseadas em projetos
-          href: sales/lose-quote.md
-        - name: Fechar uma proposta
-          href: pro/sales/win-quote-sales.md
-    - name: Gerir contratos
-      items:
-        - name: Conceitos chave de contratos de projeto
-          href: pro/sales/contracts-key-concepts-sales.md
-        - name: Informações e campos de contrato de projeto
-          href: pro/sales/project-contract-settings-sales.md
-        - name: Itens de contrato baseados em produtos
+            - name: Copiar propostas baseadas em projetos
+              href: sales/lose-quote.md
+            - name: Fechar propostas baseadas em projetos
+              href: pro/sales/win-quote-sales.md
+        - name: Gerir contratos baseados em projetos
           items:
-            - name: Descrição geral dos itens de contrato baseados em produtos
-              href: pro/sales/product-based-contract-lines-overview-sales.md
-            - name: Custo dos itens de contrato baseados em produtos
-              href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: Itens de contrato baseados em projetos
-          items:
-            - name: Configurar componentes faturáveis de um item de contrato baseado em projetos
-              href: pro/sales/configure-chargeable-components-contract-line.md
-            - name: Importar uma estimativa para um item de contrato baseado no projeto
-              href: pro/sales/import-estimate-project-contract-line-sales.md
-            - name: Criar agendas de faturação num item de contrato baseado no projeto
-              href: pro/sales/invoice-schedules-contract-line-sales.md
-        - name: Copiar contratos de projeto
-          href: pro/sales/copy-project-contracts-sales.md
-        - name: Confirmar um contrato de projeto
-          href: pro/sales/confirm-contract-sales.md
-        - name: Adiantamentos e contratos baseados em sinais
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+            - name: Descrição geral de contratos baseados em projetos
+              href: pro/sales/manage-contracts-sales.md
+            - name: Conceitos de contrato do projeto
+              href: pro/sales/contracts-key-concepts-sales.md
+            - name: Definições do contrato de projeto
+              href: pro/sales/project-contract-settings-sales.md
+            - name: Vários clientes em contratos de projetos
+              href: pro/sales/manage-multiple-customers-contract-sales.md
+            - name: Listas de preços de projeto em contratos de projetos
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Itens de contrato baseados em produtos
+              items:
+                - name: Descrição geral dos itens de contrato baseados em produtos
+                  href: pro/sales/product-based-contract-lines-overview-sales.md
+                - name: Custo dos itens de contrato baseados em produtos
+                  href: pro/sales/cost-product-based-contract-lines-sales.md
+                - name: Gerir unidades complexas para itens de contrato baseados em produtos
+                  href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+            - name: Itens de contrato baseados em projetos
+              items:
+                - name: Descrição geral dos itens de contrato baseados em projetos
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: Gerir vários clientes do contrato
+                  href: pro/sales/manage-multiple-customers-contract-line-sales.md
+                - name: Mapear projetos e tarefas para um item de contrato do projeto
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Configurar componentes faturáveis num item de contrato do projeto
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Estimar um item de contrato baseado no projeto
+                  href: pro/sales/create-estimate-project-contract-line-sales.md
+                - name: Importar estimativas de um projeto para um item de contrato do projeto
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Gerir agendas de faturação num item de contrato do projeto
+                  href: pro/sales/invoice-schedules-contract-line-sales.md
+            - name: Copiar contratos do projeto
+              href: pro/sales/copy-project-contracts-sales.md
+            - name: Confirmar um contrato de projeto
+              href: pro/sales/confirm-contract-sales.md
+            - name: Adiantamentos e sinais
+              items:
+                - name: Contratos baseados em adiantamentos e sinais - leve
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Configurar uma agenda de sinais - leve
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Criar um adiantamento ad hoc num contrato - leve
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Preços e custos
       items:
-        - name: Configurar listas de preços
-          href: pricing-costing/price-list-setup.md
-        - name: Listas de preços de projetos
+        - name: Configuração da lista de preços
           items:
-            - name: Configuração da lista de preços para vendas
-              items:
-                - name: Configurar lista de preços de vendas
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Configurar taxas de faturação de mão de obra
-                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-                - name: Configurar taxas de custo de mão de obra
-                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-                - name: Configurar taxas de custo e de venda para produtos de catálogo
-                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-                - name: Configurar taxas de custo e de venda para despesas
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Listas de preços predefinidas
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Resolução dos preços de custo em estimativas e valores reais
-                  href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: Configurar listas de preços
+              href: pricing-costing/price-list-setup.md
+            - name: Configurar lista de preços de vendas
+              href: pricing-costing/sales-price-list-setup.md
+            - name: Configurar taxas de faturação de mão de obra - leve
+              href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+            - name: Configurar taxas de custo de mão de obra - leve
+              href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: Configurar taxas de custo e de venda para produtos de catálogo - leve
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+            - name: Configurar taxas de custo e de venda para despesas
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Predefinições e substituições
           items:
-            - name: Resolução de preços de venda para estimativas e valores reais
+            - name: Listas de preços predefinidas
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Substituir listas de preços de vendas de projetos
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Resolver preços de custo em estimativas e valores reais - leve
+              href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: Resolver preços de venda para estimativas e valores reais - leve
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Copiar listas de preços
               href: pricing-costing/copy-price-lists.md
         - name: Dimensões de preços
           items:
-            - name: Utilizar um campo existente como dimensão de preços
-              href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Personalizar campos como dimensão de preços
+            - name: Descrição geral das dimensões de preços
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Utilizar campos existentes como dimensões de preços
+              items:
+                - name: Utilizar um campo existente como dimensão de preços
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Campos personalizados como dimensões de preços
               items:
                 - name: Criar campos e entidades personalizados como dimensões de preços
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
@@ -526,7 +600,7 @@
       items:
         - name: Principais conceitos
           href: resource-management/resource-management-key-concepts.md
-        - name: Reservas versus Atribuições
+        - name: Reservas versus atribuições
           href: resource-management/booking-vs-assignment.md
         - name: Descrição geral dos modos de gestão de recursos
           href: resource-management/resource-management-mode-overview.md
@@ -546,7 +620,7 @@
               href: resource-management/review-proposed-resources.md
         - name: Reserva de recursos descentralizada (híbrido)
           items:
-            - name: Adicionar membros da equipa a partir da grelha Membro da equipa
+            - name: Adicionar membros da equipa a partir da grelha Membro da Equipa
               href: resource-management/add-team-members-grid.md
             - name: Cumprimento de requisitos genéricos dos recursos
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -566,13 +640,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Gerir fusos horários
               href: resource-management/manage-multiple-time-zones.md
+        - name: Utilização de recursos
+          items:
+            - name: Descrição geral da utilização de recursos
+              href: resource-management/resource-utilization-overview.md
     - name: Tempo
       items:
         - name: Descrição geral do tempo
           href: time/time-entry-overview.md
         - name: Criar entradas de tempo
           items:
-            - name: Comportamento da interface do utilizador de entrada de tempo
+            - name: Interface do utilizador de entrada de tempo
               href: time/ui-behavior-time.md
         - name: Notas do programador
           items:
@@ -582,12 +660,16 @@
       items:
         - name: Descrição geral da despesa
           href: expense/expense-overview.md
-        - name: Entrada de despesas (lite)
+        - name: Entrada de despesas (leve)
           href: expense/basic-expense.md
     - name: Aprovações
       items:
         - name: Descrição geral das aprovações
           href: approvals/approvals-overview.md
+        - name: Notas do programador
+          items:
+            - name: Notas do programador para Aprovações
+              href: approvals/dev-notes-approvals.md
     - name: Valores Reais
       items:
         - name: Descrição geral dos valores reais
@@ -596,20 +678,32 @@
           items:
             - name: Criar e confirmar Diários de correção
               href: actuals/create-confirm-correction-journals.md
-        - name: Faturação pró-forma
-          items:
-            - name: Gerir o registo de tarefas pendentes de faturação
-              href: proforma-invoicing/manage-billing-backlog.md
-            - name: Criar uma fatura pró-forma manual
-              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-            - name: Faturar um sinal ou um adiantamento
-              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Faturas corrigidas
-              href: proforma-invoicing/corrective-invoices.md
-            - name: Configurar a criação automatizada de faturas
-              href: proforma-invoicing/configure-automated-invoice-creation.md
-- name: Project Operations para cenários baseados em Stock/Produção
+    - name: Faturação pró-forma
+      items:
+        - name: Gerir registo de tarefas pendentes de faturação de projetos
+          href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+        - name: Gerir estado a não exceder e validações
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Criar uma fatura pró-forma manualmente
+          href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+        - name: Gerir uma fatura pró-forma do projeto
+          href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+        - name: Faturar um sinal ou um adiantamento
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+        - name: Confirmar uma fatura pró-forma do projeto
+          href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+        - name: Criar faturas de correção do projeto
+          href: pro/proforma-invoicing/corrective-invoices-sales.md
+        - name: Configurar a automatização de faturas do projeto
+          href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+- name: Project Operations para cenários baseados produção/armazenados
   items:
+    - name: Novidades
+      items:
+        - name: Novidades de novembro de 2020 - Project Operations para cenários baseados em produção/armazenados
+          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+    - name: Descrição geral da implementação do Project Operations para cenários baseados em produção/armazenados
+      href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Descrição geral da gestão de projetos e contabilística
       href: prod-pma/overview-project-management-accounting.md
     - name: Faturação entre empresas
@@ -734,12 +828,14 @@
       href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: Descrição geral do Project Service Automation
+    - name: Project Service Automation
       href: psa/overview.md
     - name: Novidades
       items:
         - name: Agenda de Versão de Atualização do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades e alterações na Atualização da Versão 25, V3'
+          href: psa/whats-new-ur-25.md
         - name: 'Novidades e alterações na Atualização da Versão 24, V3'
           href: psa/whats-new-ur-24.md
         - name: 'Novidades e alterações na Atualização da Versão 23, V3'
@@ -770,76 +866,88 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Novidades ou alterações no Project Service Automation V3
           href: psa/whats-new-changed-v3.md
-    - name: Implementar o Project Service Automation 3.x
+    - name: Planear a implementação (versão 3.x da aplicação)
       items:
-        - name: Descrição geral da implementação
+        - name: Instalação de dados de exemplo
           href: psa/install-sample-data-3-x.md
-    - name: Atualizar
+        - name: Manual de planeamento e monitorização do projeto
+          href: psa/implementation-guides/project-planning-tracking.md
+        - name: 'Manual de cotação, definição de preços e faturação básicas.'
+          href: psa/implementation-guides/begin-quoting-pricing-billing.md
+        - name: 'Manual de cotação, definição de preços e faturação avançadas'
+          href: psa/implementation-guides/adv-quoting-pricing-billing.md
+        - name: Manual de gestão de recursos
+          href: psa/implementation-guides/resource-management-guide.md
+        - name: Manual de relatórios
+          href: psa/implementation-guides/reporting-guide.md
+    - name: Atualização do Project Service Automation (versão 3.x da aplicação)
       items:
-        - name: Atualização do Project Service Automation (3.x)
+        - name: Atualização do Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: Considerações de atualização - versão 2.x ou 1.x para a versão 3
           href: psa/upgrade-v3.md
         - name: Desenvolvimento (3.x)
-          href: psa/developer-guides/overview-dev-notes-v3.x.md
-        - name: Alterações de entidade
-          href: psa/developer-guides/entity-changes-v3.x.md
-        - name: Tempo e despesa
-          href: psa/developer-guides/time-expense-changes-v3.x.md
-        - name: Gestão de recursos
-          href: psa/developer-guides/resource-management-changes-v3.x.md
-        - name: Recursos Web preteridos no Project Service Automation v3.x
-          href: psa/developer-guides/web-resources-deprecated-v3.x.md
-    - name: Planeamento de projeto
-      items:
-        - name: Descrição geral do planeamento de projeto
-          href: psa/project-planning.md
-        - name: Agendas do projeto
-          href: psa/project-creating.md
-        - name: Custos e receita do projeto
-          href: psa/project-estimating.md
-        - name: Estimativas e projetos de vendas
-          href: psa/project-leveraging.md
-        - name: Progresso e consumo de custo do projeto
-          href: psa/project-tracking.md
-        - name: Modelos de projeto
-          href: psa/project-templates.md
-        - name: Fases do projeto
-          href: psa/project-stages.md
-        - name: Definições do projeto
-          href: psa/project-settings.md
-    - name: Dimensões de definição de preços e custos
-      items:
-        - name: Descrição geral das dimensões de definição de preços e custos
-          href: psa/pricing-costing-dimensions.md
-        - name: Criar uma solução para dimensões de preços personalizadas
-          href: psa/custompricingdimensionssolution.md
-        - name: Criar campos e entidades personalizados
-          href: psa/create-custom-fields-entities.md
-        - name: Adicionar campos personalizados às entidades de configuração de preços e transacionais
-          href: psa/field-references.md
-        - name: Configurar campos personalizados como dimensões de definição de preços
-          href: psa/set-up-pricing-dimensions.md
-        - name: Atualizar atributos de plug-in para incluir novas dimensões de definição de preços
-          href: psa/update-plug-in-attributes.md
-        - name: Reutilizar elementos como dimensões de preços
           items:
-            - name: Utilizar um campo existente no Project Service como dimensão de definição de preços
-              href: psa/use-existing-field.md
-            - name: Utilizar recurso reservável como dimensão de definição de preços
-              href: psa/bookable-resource-pricing-dimension.md
-            - name: Utilizar categoria de transação como dimensão de definição de preços
-              href: psa/transaction-category-pricing-dimension.md
-        - name: Recurso reservável com várias funções num projeto
-          href: psa/bookable-resource-multiple-roles.md
-        - name: Desativar uma dimensão de definição de preços
-          href: psa/turn-off-pricing-dimension.md
-    - name: 'Criação de propostas, definição de preços e faturação'
+            - name: Desenvolvimento (versão 3.x da aplicação)
+              href: psa/developer-guides/overview-dev-notes-v3.x.md
+            - name: Alterações de entidade
+              href: psa/developer-guides/entity-changes-v3.x.md
+            - name: Tempo e despesa
+              href: psa/developer-guides/time-expense-changes-v3.x.md
+            - name: Gestão de recursos
+              href: psa/developer-guides/resource-management-changes-v3.x.md
+            - name: Recursos Web preteridos no Project Service Automation v3.x
+              href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation (3.x)
       items:
-        - name: 'Descrição geral da criação de propostas, definição de preços e faturação'
-          href: psa/quote-bill-price.md
-        - name: Criação de Proposta
+        - name: Planeamento de projeto
           items:
+            - name: Home page do planeamento de projeto
+              href: psa/project-planning.md
+            - name: Agendas do projeto
+              href: psa/project-creating.md
+            - name: Custos e receita do projeto
+              href: psa/project-estimating.md
+            - name: Estimativas e projetos de vendas
+              href: psa/project-leveraging.md
+            - name: Progresso e consumo de custo do projeto
+              href: psa/project-tracking.md
+            - name: Modelos de projeto
+              href: psa/project-templates.md
+            - name: Fases do projeto
+              href: psa/project-stages.md
+            - name: Definições do projeto
+              href: psa/project-settings.md
+        - name: Dimensões de definição de preços e custos
+          items:
+            - name: Home page das dimensões de definição de preços e custos
+              href: psa/pricing-costing-dimensions.md
+            - name: Criar uma solução para dimensões de preços personalizadas
+              href: psa/custompricingdimensionssolution.md
+            - name: Criar campos e entidades personalizados
+              href: psa/create-custom-fields-entities.md
+            - name: Adicionar campos personalizados às entidades de configuração de preços e transacionais
+              href: psa/field-references.md
+            - name: Configurar campos personalizados como dimensões de definição de preços
+              href: psa/set-up-pricing-dimensions.md
+            - name: Atualizar atributos de plug-in para incluir novas dimensões de definição de preços
+              href: psa/update-plug-in-attributes.md
+            - name: Utilizar um campo existente como dimensão de preços
+              items:
+                - name: Utilizar um campo existente no Project Service como dimensão de definição de preços
+                  href: psa/use-existing-field.md
+                - name: Utilizar recurso reservável como dimensão de definição de preços
+                  href: psa/bookable-resource-pricing-dimension.md
+                - name: Utilizar categoria de transação como dimensão de definição de preços
+                  href: psa/transaction-category-pricing-dimension.md
+            - name: Recurso reservável com várias funções num projeto
+              href: psa/bookable-resource-multiple-roles.md
+            - name: Desativar uma dimensão de definição de preços
+              href: psa/turn-off-pricing-dimension.md
+        - name: 'Criação de propostas, definição de preços e faturação'
+          items:
+            - name: 'Home page da criação de propostas, definição de preços e faturação'
+              href: psa/quote-bill-price.md
             - name: Processos de vendas
               href: psa/basic-sales-process.md
             - name: Grupos de unidades e unidades
@@ -850,21 +958,15 @@
               href: psa/basic-quote-lines.md
             - name: Linhas de proposta baseadas em produtos
               href: psa/product-based-quote-lines.md
-            - name: Análise de propostas do projeto
-              href: psa/basic-analyzing-quotes.md
-        - name: Preços
-          items:
             - name: Definição de preços do projeto
               href: psa/basic-pricing.md
             - name: Definição de preços do catálogo de produtos
-              hreF: psa/product-catalog-pricing.md
+              href: psa/product-catalog-pricing.md
             - name: Transações comerciais
               href: psa/basic-business-transactions.md
             - name: Estimativas
               href: psa/estimates.md
-        - name: Faturação
-          items:
-            - name: Análise de propostas do projeto
+            - name: Analisar propostas do projeto
               href: psa/basic-analyzing-quotes.md
             - name: Recuperar entradas de tempo ou despesa aprovadas anteriormente
               href: psa/recall-approved.md
@@ -880,73 +982,73 @@
               href: psa/invoicing.md
             - name: Cenários de várias moedas
               href: psa/advanced-currency.md
-    - name: Projetos de atribuição de recursos
-      items:
-        - name: Descrição geral de projetos de atribuição de recursos
-          href: psa/resource-management.md
-        - name: Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recursos
-          href: psa/assign-generic-bookable-resource.md
-        - name: Reservar recursos reserváveis nomeados para uma equipa do projeto e atribuir tarefa
-          href: psa/assign-named-bookable-resource.md
-        - name: Atribuir um recurso a uma tarefa
-          href: psa/FAQ-assign-resources-to-tasks.md
-        - name: Reservar recursos nomeados a partir de requisitos de recursos
-          href: psa/book-named-resource.md
-        - name: Reservas de recursos e como se relacionam com as atribuições de tarefas
-          href: psa/FAQ-bookings-and-assignments.md
-        - name: Submeter um pedido de recurso
-          href: psa/submit-resource-request.md
-        - name: Aceitar ou rejeitar um recurso proposto
-          href: psa/accept-reject-proposed-resource.md
-        - name: Ver a utilização faturável para recursos
-          href: psa/FAQ-utilization-view.md
+        - name: Projetos de atribuição de recursos
+          items:
+            - name: Home page de projetos de atribuição de recursos
+              href: psa/resource-management.md
+            - name: Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recursos
+              href: psa/assign-generic-bookable-resource.md
+            - name: Reservar recursos reserváveis nomeados para uma equipa do projeto e atribuir uma tarefa
+              href: psa/assign-named-bookable-resource.md
+            - name: Atribuir um recurso a uma tarefa
+              href: psa/FAQ-assign-resources-to-tasks.md
+            - name: Reservar recursos nomeados a partir de requisitos de recursos
+              href: psa/book-named-resource.md
+            - name: Reservas de recursos e como se relacionam com as atribuições de tarefas
+              href: psa/FAQ-bookings-and-assignments.md
+            - name: Submeter um pedido de recurso
+              href: psa/submit-resource-request.md
+            - name: Aceitar ou rejeitar um recurso proposto
+              href: psa/accept-reject-proposed-resource.md
+            - name: Ver a utilização faturável para recursos
+              href: psa/FAQ-utilization-view.md
         - name: Reconciliar reservas e atribuições do recurso
           href: psa/reconcile-booking-assignment.md
-    - name: Gestão de recursos
+        - name: Gestão de recursos
+          items:
+            - name: Home page da gestão de recursos
+              href: psa/resource-management-home-page.md
+            - name: Gerir recursos
+              href: psa/manage-resources.md
+            - name: Principais conceitos
+              href: psa/reports-key-concepts.md
+            - name: Cumprir pedidos de recursos
+              href: psa/resource-management-fulfill-requests.md
+            - name: Recursos propostos
+              href: psa/resource-management-propose-resources.md
+            - name: Reservar recursos
+              href: psa/resource-management-book-resources-scheduleboard.md
+            - name: Métodos de alocação de reservas
+              href: psa/FAQ-allocation-methods.md
+            - name: Efetuar reserva flexível de requisitos
+              href: psa/resource-management-softbook-requirements.md
+            - name: Efetuar reserva flexível de um recurso
+              href: psa/FAQ-soft-book.md
+            - name: Criar uma reserva de projeto no Quadro da agenda
+              href: psa/FAQ-project-booking-schedule-board.md
+            - name: Modelos de competências e proficiência
+              href: psa/resource-management-skills-proficiency.md
+            - name: FAQ sobre gestão de recursos
+              href: psa/resource-management-faq.md
+        - name: Relatórios
+          items:
+            - name: Home page dos relatórios
+              href: psa/reports-reporting-dynamics-365-project-service.md
+            - name: Dashboards
+              href: psa/reports-dashboards.md
+            - name: Módulo de dados do Project Service Automation
+              href: psa/reports-working-project-service-data-model.md
+        - name: Entradas de hora
+          items:
+            - name: Criar entradas de tempo
+              href: psa/time-entries.md
+            - name: Calendário de entradas de hora
+              href: psa/time-entry-calendar.md
+            - name: Personalizar entrada de hora semanal
+              href: psa/time-entry-extensibility-v3.md
+    - name: FAQ e resolução de problemas (3.x)
       items:
-        - name: Home page da gestão de recursos
-          href: psa/resource-management-home-page.md
-        - name: Gerir recursos
-          href: psa/manage-resources.md
-        - name: Principais conceitos
-          href: psa/reports-key-concepts.md
-        - name: Cumprir pedidos de recursos
-          href: psa/resource-management-fulfill-requests.md
-        - name: Propor recursos
-          href: psa/resource-management-propose-resources.md
-        - name: Reservar recursos
-          href: psa/resource-management-book-resources-scheduleboard.md
-        - name: Métodos de alocação de reservas
-          href: psa/FAQ-allocation-methods.md
-        - name: Efetuar reserva flexível de requisitos
-          href: psa/resource-management-softbook-requirements.md
-        - name: Efetuar reserva flexível de um recurso
-          href: psa/FAQ-soft-book.md
-        - name: Criar uma reserva de projeto no Quadro da agenda
-          href: psa/FAQ-project-booking-schedule-board.md
-        - name: Modelos de competências e proficiência
-          href: psa/resource-management-skills-proficiency.md
-        - name: FAQ sobre gestão de recursos
-          href: psa/resource-management-faq.md
-    - name: Relatórios
-      items:
-        - name: Descrição geral de relatórios
-          href: psa/reports-reporting-dynamics-365-project-service.md
-        - name: Dashboards
-          href: psa/reports-dashboards.md
-        - name: Trabalhar com o modelo de dados do Project Service Automation
-          href: psa/reports-working-project-service-data-model.md
-    - name: Entrada de hora
-      items:
-        - name: Criar entradas de tempo
-          href: psa/time-entries.md
-        - name: Calendário de entradas de hora
-          href: psa/time-entry-calendar.md
-        - name: Personalizar entrada de hora semanal
-          href: psa/time-entry-extensibility-v3.md
-    - name: FAQ e resolução de problemas
-      items:
-        - name: Porque é que o preço predefinido do valor real do custo da despesa é zero?
+        - name: Por razão o preço predefinido do valor real do custo da despesa é zero?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Porque é que o preço predefinido do valor real da despesa de venda é zero?
           href: psa/FAQ-zero-price-expense-sales-actuals.md
@@ -971,60 +1073,62 @@
         - name: Documentos técnicos
           href: psa/white-papers.md
         - name: Guia do administrador
-          href: psa/admin-guide.md
-        - name: Instalar e personalizar
-          href: psa/install-customize.md
-        - name: Utilizar dados de demonstração
-          href: psa/use-demo-data.md
-        - name: Configurar o Project Service Automation
           items:
-            - name: Configurar a aplicação Project Service Automation
-              href: psa/configure.md
-            - name: Configurar unidades de tempo
-              href: psa/set-up-time-units.md
-            - name: Configurar moedas e taxas de câmbio
-              href: psa/set-up-currencies-exchange-rates.md
-            - name: Criar unidades organizacionais
-              href: psa/create-organizational-units.md
-            - name: Configurar frequências de faturação
-              href: psa/set-up-invoice-frequencies.md
-            - name: Configurar categorias de transação
-              href: psa/configure-transaction-categories.md
-            - name: Configurar categorias de despesas
-              href: psa/configure-expense-categories.md
-            - name: Criar itens de catálogo de produtos
-              href: psa/create-product-catalog-items.md
-            - name: Criar uma lista de preços
-              href: psa/create-price-list.md
-        - name: Recursos
-          items:
+            - name: Guia do administrador (Project Service)
+              href: psa/admin-guide.md
+            - name: Instalar e personalizar
+              href: psa/install-customize.md
+            - name: Utilizar dados de demonstração
+              href: psa/use-demo-data.md
+            - name: Configurar a aplicação Project Service
+              items:
+                - name: Configurar o Project Service
+                  href: psa/configure.md
+                - name: Configurar unidades de tempo
+                  href: psa/set-up-time-units.md
+                - name: Configurar moedas e taxas de câmbio
+                  href: psa/set-up-currencies-exchange-rates.md
+                - name: Criar unidades organizacionais
+                  href: psa/create-organizational-units.md
+                - name: Configurar frequências de faturação
+                  href: psa/set-up-invoice-frequencies.md
+                - name: Configurar categorias de transação
+                  href: psa/configure-transaction-categories.md
+                - name: Configurar categorias de despesas
+                  href: psa/configure-expense-categories.md
+                - name: Criar itens de catálogo de produtos
+                  href: psa/create-product-catalog-items.md
+                - name: Criar uma lista de preços
+                  href: psa/create-price-list.md
             - name: Configurar recursos
-              href: psa/set-up-resources.md
-            - name: Adicionar recursos
-              href: psa/add-resources.md
-            - name: Adicionar competências de recursos
-              href: psa/add-resource-skills.md
-            - name: Configurar modelos de proficiência
-              href: psa/set-up-proficiency-models.md
-            - name: Adicionar funções de recursos
-              href: psa/add-resource-roles.md
-            - name: Configurar funções de recursos
-              href: psa/configure-resource-roles.md
-            - name: Associar competências a recursos
-              href: psa/associate-skills-with-resources.md
-            - name: Associar competências a funções de recursos
-              href: psa/associate-skills-with-resource-roles.md
-            - name: Criar um modelo de horas de trabalho
-              href: psa/create-work-hours-template.md
-            - name: Aplicar um calendário a um recurso
-              href: psa/apply-calendar-resource.md
-            - name: Configurar definições adicionais
-              href: psa/configure-additional-parameters-settings.md
-            - name: Ativar Project Finder Mobile
-              href: psa/enable-project-finder-mobile-app-features.md
-        - name: Gestão de recursos
+              items:
+                - name: Configurar recursos (Project Service)
+                  href: psa/set-up-resources.md
+                - name: Adicionar recursos
+                  href: psa/add-resources.md
+                - name: Adicionar competências de recursos
+                  href: psa/add-resource-skills.md
+                - name: Configurar modelos de proficiência
+                  href: psa/set-up-proficiency-models.md
+                - name: Adicionar funções de recursos
+                  href: psa/add-resource-roles.md
+                - name: Configurar funções de recursos
+                  href: psa/configure-resource-roles.md
+                - name: Associar competências a recursos
+                  href: psa/associate-skills-with-resources.md
+                - name: Associar competências a funções de recursos
+                  href: psa/associate-skills-with-resource-roles.md
+                - name: Criar um modelo de horas de trabalho
+                  href: psa/create-work-hours-template.md
+                - name: Aplicar um calendário a um recurso
+                  href: psa/apply-calendar-resource.md
+                - name: Configurar definições adicionais
+                  href: psa/configure-additional-parameters-settings.md
+                - name: Ativar o Project Finder Mobile
+                  href: psa/enable-project-finder-mobile-app-features.md
+        - name: Manual do gestor de recursos
           items:
-            - name: Manual do gestor de recursos
+            - name: Manual do gestor de recursos (Project Service)
               href: psa/resource-manager-guide.md
             - name: Gerir pedidos de recursos
               href: psa/manage-resource-requests.md
@@ -1036,9 +1140,9 @@
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
               href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
-        - name: Gestão do projeto
+        - name: Manual do gestor de projeto
           items:
-            - name: Manual do gestor de projeto
+            - name: Manual do gestor de projeto (Project Service)
               href: psa/project-manager-guide.md
             - name: Apresentar estimativas de trabalho
               href: psa/provide-estimates-project-during-sales-process.md
@@ -1074,9 +1178,9 @@
               href: psa/view-dashboards-reports.md
             - name: Utilizar o suplemento para planear o trabalho no Microsoft Project
               href: psa/add-plan-work-microsoft-project.md
-        - name: Gestão de contas
+        - name: Manual do gestor de contas
           items:
-            - name: Manual do gestor de contas
+            - name: Manual do gestor de conta (Project Service)
               href: psa/account-manager-guide.md
             - name: Criar uma conta de cliente
               href: psa/create-customer-account.md
@@ -1086,9 +1190,9 @@
               href: psa/create-project-quote.md
             - name: Criar um contrato de projeto
               href: psa/create-project-contract.md
-        - name: Tempo e despesa
+        - name: 'Tempo, despesa e colaboração'
           items:
-            - name: 'Tempo, despesa e colaboração'
+            - name: 'Guia de tempo, despesas e colaboração (Project Service)'
               href: psa/time-expense-collaboration-guide.md
             - name: Obter as aplicações
               href: psa/get-apps.md
@@ -1106,12 +1210,13 @@
               href: psa/allow-someone-else-enter-time-entry-expense.md
             - name: Agendar licença
               href: psa/schedule-time-off.md
-            - name: 'Colaborar através dos Grupos do Office 365](collaborate-project-team-members-office-365-groups.md'
+            - name: Colaborar através dos Grupos do Office 365
+              href: psa/collaborate-project-team-members-office-365-groups.md
             - name: Localizar projetos com o Project Finder Mobile
               href: psa/find-next-project-finder-mobile-app.md
             - name: Manual do Hub de Recursos do Projeto
               href: psa/project-resource-hub-users-guide.md
-        - name: Notas do programador
+        - name: Notas para os programadores (versão 2.x da aplicação)
           items:
             - name: Adicionar formulários personalizados para entidades
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
