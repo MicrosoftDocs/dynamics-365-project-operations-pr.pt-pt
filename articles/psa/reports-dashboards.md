@@ -3,7 +3,7 @@ title: Dashboards
 description: Este tópico fornece informações sobre os dashboards de relatórios incluídos no Dynamics 365 Project Service Automation.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,23 +18,23 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 69c295e2bf8f19a573f1d97f37931624a2d7f70c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5f3a667823ac2b789bb106a1831cb7b6a56baf4c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082449"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120422"
 ---
-# <a name="dashboards"></a><span data-ttu-id="45496-103">Dashboards</span><span class="sxs-lookup"><span data-stu-id="45496-103">Dashboards</span></span>
+# <a name="dashboards"></a><span data-ttu-id="c6dfc-103">Dashboards</span><span class="sxs-lookup"><span data-stu-id="c6dfc-103">Dashboards</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="45496-104">O Dynamics 365 Project Service Automation inclui dois dashboards do sistema: **Gestor de Práticas** e **Gestor de Recursos**.</span><span class="sxs-lookup"><span data-stu-id="45496-104">Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.</span></span>
+<span data-ttu-id="c6dfc-104">O Dynamics 365 Project Service Automation inclui dois dashboards do sistema: **Gestor de Práticas** e **Gestor de Recursos**.</span><span class="sxs-lookup"><span data-stu-id="c6dfc-104">Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.</span></span>
 
-## <a name="practice-manager"></a><span data-ttu-id="45496-105">Gestor de Práticas</span><span class="sxs-lookup"><span data-stu-id="45496-105">Practice Manager</span></span> 
+## <a name="practice-manager"></a><span data-ttu-id="c6dfc-105">Gestor de Práticas</span><span class="sxs-lookup"><span data-stu-id="c6dfc-105">Practice Manager</span></span> 
 
-<span data-ttu-id="45496-106">O dashboard **Gestor de Práticas** permite que os gestores de práticas tenham uma experiência gráfica no dashboard para monitorizar custos, vendas, margem bruta e utilização.</span><span class="sxs-lookup"><span data-stu-id="45496-106">The **Practice Manager** dashboard gives practice managers a graphical dashboard experience for tracking costs, sales, and gross margin and utilization.</span></span> <span data-ttu-id="45496-107">Também permite que os gestores de práticas dividam as informações em várias dimensões, como cliente, projeto ou função de recurso.</span><span class="sxs-lookup"><span data-stu-id="45496-107">It also lets practice managers slice the information by various dimensions, such as customer, project, or resource role.</span></span> <span data-ttu-id="45496-108">Para mais informações sobre como criar e personalizar dashboards, consulte [Criar ou editar dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span><span class="sxs-lookup"><span data-stu-id="45496-108">For more information about how to create and customize dashboards, see [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span></span>
+<span data-ttu-id="c6dfc-106">O dashboard **Gestor de Práticas** permite que os gestores de práticas tenham uma experiência gráfica no dashboard para monitorizar custos, vendas, margem bruta e utilização.</span><span class="sxs-lookup"><span data-stu-id="c6dfc-106">The **Practice Manager** dashboard gives practice managers a graphical dashboard experience for tracking costs, sales, and gross margin and utilization.</span></span> <span data-ttu-id="c6dfc-107">Também permite que os gestores de práticas dividam as informações em várias dimensões, como cliente, projeto ou função de recurso.</span><span class="sxs-lookup"><span data-stu-id="c6dfc-107">It also lets practice managers slice the information by various dimensions, such as customer, project, or resource role.</span></span> <span data-ttu-id="c6dfc-108">Para mais informações sobre como criar e personalizar dashboards, consulte [Criar ou editar dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span><span class="sxs-lookup"><span data-stu-id="c6dfc-108">For more information about how to create and customize dashboards, see [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span></span>
 
-## <a name="resource-manager"></a><span data-ttu-id="45496-109">Gestor de Recursos</span><span class="sxs-lookup"><span data-stu-id="45496-109">Resource Manager</span></span> 
+## <a name="resource-manager"></a><span data-ttu-id="c6dfc-109">Gestor de Recursos</span><span class="sxs-lookup"><span data-stu-id="c6dfc-109">Resource Manager</span></span> 
 
-<span data-ttu-id="45496-110">O dashboard **Gestor de Recursos** fornece aos gestores de recursos uma experiência gráfica no dashboard para monitorizar pedidos de recursos, bem como a utilização e procura de recursos.</span><span class="sxs-lookup"><span data-stu-id="45496-110">The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization.</span></span> <span data-ttu-id="45496-111">Também permite que os gestores de recursos dividam as informações monitorizadas por várias dimensões.</span><span class="sxs-lookup"><span data-stu-id="45496-111">It also lets resource managers slice the monitored information by various dimensions.</span></span>
+<span data-ttu-id="c6dfc-110">O dashboard **Gestor de Recursos** fornece aos gestores de recursos uma experiência gráfica no dashboard para monitorizar pedidos de recursos, bem como a utilização e procura de recursos.</span><span class="sxs-lookup"><span data-stu-id="c6dfc-110">The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization.</span></span> <span data-ttu-id="c6dfc-111">Também permite que os gestores de recursos dividam as informações monitorizadas por várias dimensões.</span><span class="sxs-lookup"><span data-stu-id="c6dfc-111">It also lets resource managers slice the monitored information by various dimensions.</span></span>

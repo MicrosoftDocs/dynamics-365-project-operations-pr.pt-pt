@@ -3,7 +3,7 @@ title: Novidades ou alterações na Versão da Atualização 17.5 do Project Ser
 description: Este tópico lista as funcionalidades e correções disponíveis no Project Service Automation V3, Versão da Atualização 17.5, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
 ms.topic: article
@@ -17,28 +17,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 359eb8f8ca41d69d4f30dd44497a4deb6a6c4f8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 235a27d45b3c82303d4ef5434c779b3c11421586
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082359"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118802"
 ---
-# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="c923d-103">Versão da Atualização 17.5 do Project Service Automation, V3</span><span class="sxs-lookup"><span data-stu-id="c923d-103">Project Service Automation Update Release 17.5, V3</span></span>
+# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="299cc-103">Versão da Atualização 17.5 do Project Service Automation, V3</span><span class="sxs-lookup"><span data-stu-id="299cc-103">Project Service Automation Update Release 17.5, V3</span></span>
 
-<span data-ttu-id="c923d-104">Temos o prazer de anunciar a mais recente atualização à aplicação Project Service Automation para Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="c923d-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="c923d-105">Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização.</span><span class="sxs-lookup"><span data-stu-id="c923d-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="c923d-106">Esta versão é compatível com o Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="c923d-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="c923d-107">Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização.</span><span class="sxs-lookup"><span data-stu-id="c923d-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="c923d-108">Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="c923d-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="299cc-104">Temos o prazer de anunciar a mais recente atualização à aplicação Project Service Automation para Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="299cc-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="299cc-105">Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização.</span><span class="sxs-lookup"><span data-stu-id="299cc-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="299cc-106">Esta versão é compatível com o Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="299cc-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="299cc-107">Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização.</span><span class="sxs-lookup"><span data-stu-id="299cc-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="299cc-108">Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="299cc-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="c923d-109">Este tópico lista as funcionalidades e correções novas ou alteradas para o V3, Versão da Atualização 17.5.</span><span class="sxs-lookup"><span data-stu-id="c923d-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="c923d-110">Esta versão tem um número de compilação de V3.10.7.32 e está geralmente disponível através de uma auto-atualização em março de 2020.</span><span class="sxs-lookup"><span data-stu-id="c923d-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
-
-
-## <a name="update-release-175"></a><span data-ttu-id="c923d-111">Versão da Atualização 17.5</span><span class="sxs-lookup"><span data-stu-id="c923d-111">Update Release 17.5</span></span>
-
-### <a name="bug-fixes"></a><span data-ttu-id="c923d-112">Correções de erros</span><span class="sxs-lookup"><span data-stu-id="c923d-112">Bug fixes</span></span>
+<span data-ttu-id="299cc-109">Este tópico lista as funcionalidades e correções novas ou alteradas para o V3, Versão da Atualização 17.5.</span><span class="sxs-lookup"><span data-stu-id="299cc-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="299cc-110">Esta versão tem um número de compilação de V3.10.7.32 e está geralmente disponível através de uma auto-atualização em março de 2020.</span><span class="sxs-lookup"><span data-stu-id="299cc-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
 
 
-<span data-ttu-id="c923d-113">**Gestão de Projetos**</span><span class="sxs-lookup"><span data-stu-id="c923d-113">**Project Management**</span></span>
+## <a name="update-release-175"></a><span data-ttu-id="299cc-111">Versão da Atualização 17.5</span><span class="sxs-lookup"><span data-stu-id="299cc-111">Update Release 17.5</span></span>
 
-- <span data-ttu-id="c923d-114">Corrigido: foram corrigidos os problemas de sincronização do lado do servidor que ocorrem com tarefas de longa duração.</span><span class="sxs-lookup"><span data-stu-id="c923d-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
-- <span data-ttu-id="c923d-115">Corrigido: foram corrigidos os modelos de horas de trabalho de 24 horas que adicionaram incorretamente um dia adicional às tarefas.</span><span class="sxs-lookup"><span data-stu-id="c923d-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
-- <span data-ttu-id="c923d-116">Corrigido: foi corrigido o problema dos modelos de horas de trabalho +13 GMT que mudavam incorretamente as taregas um dia para a frente.</span><span class="sxs-lookup"><span data-stu-id="c923d-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="299cc-112">Correções de erros</span><span class="sxs-lookup"><span data-stu-id="299cc-112">Bug fixes</span></span>
+
+
+<span data-ttu-id="299cc-113">**Gestão de Projetos**</span><span class="sxs-lookup"><span data-stu-id="299cc-113">**Project Management**</span></span>
+
+- <span data-ttu-id="299cc-114">Corrigido: foram corrigidos os problemas de sincronização do lado do servidor que ocorrem com tarefas de longa duração.</span><span class="sxs-lookup"><span data-stu-id="299cc-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
+- <span data-ttu-id="299cc-115">Corrigido: foram corrigidos os modelos de horas de trabalho de 24 horas que adicionaram incorretamente um dia adicional às tarefas.</span><span class="sxs-lookup"><span data-stu-id="299cc-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
+- <span data-ttu-id="299cc-116">Corrigido: foi corrigido o problema dos modelos de horas de trabalho +13 GMT que mudavam incorretamente as taregas um dia para a frente.</span><span class="sxs-lookup"><span data-stu-id="299cc-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
 
