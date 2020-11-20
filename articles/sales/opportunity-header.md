@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082279"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181241"
 ---
-# <a name="opportunity-headersummary"></a>Cabeçalho/resumo da oportunidade
+# <a name="opportunity-settings"></a>Definições de oportunidade
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
@@ -26,9 +26,9 @@ As oportunidades baseadas em projetos no Dynamics 365 Project Operations são ex
 
 A tabela seguinte inclui os campos numa oportunidade baseada em projetos que são exclusivos do Project Operations ou têm algumas alterações importantes no comportamento das Oportunidades em Vendas.
 
-| **Campo** | **Localização** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Localização** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
-| Tipo | Separador Geral (oculto) | Este campo do conjunto de opções tem as seguintes opções:</br>- Baseado em trabalho (disponível apenas com o Project Operations)</br>- Baseado em item (disponível apenas quando o Project Operations e o Sales estão instalados)</br>- Baseado em manutenção do serviço (disponível quando o Field Service estiver instalado) | Quando utiliza o Project Operations, este valor de campo é definido automaticamente como **Baseado em trabalho** , que classifica a Oportunidade como baseada em projetos. Uma oportunidade deve ser baseada em projetos para ativar todas as funcionalidades e extensões específicas do projeto no processo de vendas a jusante para este negócio. |
+| Tipo | Separador Geral (oculto) | Este campo do conjunto de opções tem as seguintes opções:</br>- Baseado em trabalho (disponível apenas com o Project Operations)</br>- Baseado em item (disponível apenas quando o Project Operations e o Sales estão instalados)</br>- Baseado em manutenção do serviço (disponível quando o Field Service estiver instalado) | Quando utiliza o Project Operations, este valor de campo é definido automaticamente como **Baseado em trabalho**, que classifica a Oportunidade como baseada em projetos. Uma oportunidade deve ser baseada em projetos para ativar todas as funcionalidades e extensões específicas do projeto no processo de vendas a jusante para este negócio. |
 | Empresa Proprietária | Separador Geral | Esta é a empresa ou entidade legal que entregará o projeto ao cliente. | Estas informações do campo serão copiadas para o campo correspondente na proposta do Projeto que é criada a partir desta Oportunidade. |
 | Contacto | Separador Geral | Referência ao contacto principal do cliente para este negócio. | |
 | Conta | Separador Geral | Referência ao registo da conta ou empresa do cliente. | |

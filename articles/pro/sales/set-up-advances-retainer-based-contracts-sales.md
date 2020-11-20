@@ -1,21 +1,21 @@
 ---
-title: Adiantamentos e contratos baseados em sinais
+title: Adiantamentos e contratos baseados em sinais – lite
 description: Este tópico fornece informações sobre modelos de contratação baseados em sinais e adiantamentos no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088051"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180881"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Adiantamentos e contratos baseados em sinais 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Adiantamentos e contratos baseados em sinais – lite
 
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
@@ -33,7 +33,7 @@ Além de um agenda periódica baseada em sinais, o Project Operations pode regis
 
 O sinal no Project Operations não está disponível para utilização até que seja faturado ao cliente. Isto é indicado pelos seguintes campos na subgrelha para adiantamentos e sinais.
 
-| Campo | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Descrição | Impacto a jusante |
 | --- | --- | --- |
 | Valor disponível | O montante disponível para ser utilizado no registo de sinal ou adiantamento. | Até que o adiantamento ou sinal seja faturado, não está disponível para ser usado, o que significa que o valor disponível será zero. |
 | Montante usado | O montante já utilizado no sinal ou adiantamento. | Um adiantamento ou sinal pode ser parcialmente reconciliado numa fatura com valores reais de custos que terão alguma parte marcada como já utilizada ou consumida. O resto do montante de adiantamento ou de sinal está disponível para conciliar numa futura fatura com os valores reais dos custos. |

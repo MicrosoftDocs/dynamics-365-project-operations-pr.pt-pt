@@ -1,21 +1,21 @@
 ---
-title: Itens de oportunidade baseados em projetos (Pro)
+title: Linhas de oportunidade baseadas em projetos – lite
 description: Este tópico fornece informação sobre as linhas de oportunidade baseadas em projetos. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082329"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181027"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Itens de oportunidade baseados em projetos (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Linhas de oportunidade baseadas em projetos – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -25,7 +25,7 @@ As linhas de oportunidade baseadas em projetos são os itens que serão entregue
 
 Abaixo são mostrados os campos numa linha de oportunidade baseada em projetos:
 
-| **Campo** | **Localização** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Localização** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Tipo de Produto | Separador Geral (oculto) | Pode selecionar uma das seguintes opções:</br>- Serviço baseado em projetos (disponível apenas quando o Dynamics 365 Project Operations está instalado)</br>- Produto (disponível apenas quando o Project Operations e o Dynamics 365 Sales estão instalados) | O valor deste campo está definido como **Serviço baseado em projetos** quando cria uma linha de oportunidade baseada em projetos a partir da grelha de linhas baseada em projetos na Oportunidade. <br> Se alterar ou substituir este valor, a funcionalidade do projeto não será ativada nos itens baseados em projetos. |
 | Oportunidade | Separador Geral | Este campo é só de leitura e referencia o registo de Oportunidade principal a que este item pertence. | Este campo não tem impacto a jusante. |

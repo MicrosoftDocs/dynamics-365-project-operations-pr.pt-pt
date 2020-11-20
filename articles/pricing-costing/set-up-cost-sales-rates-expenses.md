@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082323"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180296"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurar taxas de custo e de vendas para despesas
 
@@ -24,17 +24,17 @@ Pode configurar preços de custo e de vendas para categorias de transações no 
 Para configurar as taxas de custo e de vendas para categorias de transações, complete os seguintes passos. 
 
 1. Crie uma lista de preços com base no cabeçalho da lista de preços. 
-2. Em **Preços da Categoria** , no menu da subgrelha, selecione **+ Novo Preço da Categoria**. 
-3. Na página **Criação Rápida** , insira a categoria de transação e a unidade para as quais está a criar o novo preço.
+2. No menu **Categoria de Preços**, no menu da subgrelha, selecione **+ Preço da Nova Categoria**. 
+3. Na página **Criação Rápida**, insira a categoria de transação e a unidade para as quais está a criar o novo preço.
 
 A tabela a seguir lista os campos no separador **Geral** e a página **Criação Rápida** de uma linha de preço de categoria que deve ter em mente à medida que cria preços de categoria numa lista de preços de vendas ou de custos.
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
 | Categoria de Transação | Separador **Geral** e páginas **Criação Rápida** | Selecione a categoria de transação para a qual está a criar um preço de vendas ou de custo. | A categoria de transação na estimativa de entrada ou real para Despesas será igualada contra esta linha para assumir a predefinição da taxa de custo ou de vendas da categoria de transação. |
 | Agenda de Unidades | Separador **Geral** e páginas **Criação Rápida** | A agenda da unidade assume a predefinição da agenda da unidade da categoria de transação. | Este campo não tem impacto a jusante. |
 | Unidade | Separador **Geral** e páginas **Criação Rápida** | Selecione a unidade para a qual as taxas estão a ser configuradas. | A unidade na estimativa de entrada ou real é igualada com a unidade nesta linha para assumir a predefinição da taxa na estimativa ou real de despesas. |
-| Método de Definição de Preços | Separador **Geral** e páginas **Criação Rápida** | Os valores possíveis do campo **Método de Definição de Preços** são **Preço por Unidade** , **Custo** e **Margem de Lucro Sobre o Custo**. | Durante a configuração do preço, a seleção de **Preço Por Unidade** bloqueia o campo **Percentagem** na linha de preço da categoria. Se **A custo** for selecionado, os campos **Preço** e **Percentagem** são bloqueados na lista de preços de vendas. A seleção de **Margem de Lucro Sobre o Custo** bloqueia o campo **Preço** na lista de preços de vendas. Numa linha real de entrada de despesas, o método de definição de preços **A custo** ou **Margem de Lucro Sobre o Custo** resulta na correspondente linha de vendas não faturada a ser atribuída um preço igual ao preço sobre o custo real ou calculado como uma margem de lucro acima do preço. |
+| Método de Definição de Preços | Separador **Geral** e páginas **Criação Rápida** | Os valores possíveis do campo **Método de Definição de Preços** são **Preço por Unidade**, **Custo** e **Margem de Lucro Sobre o Custo**. | Durante a configuração do preço, a seleção de **Preço Por Unidade** bloqueia o campo **Percentagem** na linha de preço da categoria. Se **A custo** for selecionado, os campos **Preço** e **Percentagem** são bloqueados na lista de preços de vendas. A seleção de **Margem de Lucro Sobre o Custo** bloqueia o campo **Preço** na lista de preços de vendas. Numa linha real de entrada de despesas, o método de definição de preços **A custo** ou **Margem de Lucro Sobre o Custo** resulta na correspondente linha de vendas não faturada a ser atribuída um preço igual ao preço sobre o custo real ou calculado como uma margem de lucro acima do preço. |
 | Preço | Separador **Geral** e páginas **Criação Rápida** | Configurar uma taxa por unidade para a categoria de transação e a combinação de unidades. Por exemplo, a taxa de quilometragem é de 10 USD por milha e 8 USD por quilómetro. | A taxa de quilometragem será a taxa que assume a predefinição no preço ou custo por unidade da estimativa de entrada ou linha real para uma classe de transação de despesas.|
 | Percentagem | Separador **Geral** e páginas **Criação Rápida** | Configurar percentagem sobre o custo para a categoria de transação e a combinação de unidades. Por exemplo, a taxa de vendas de tarifa aérea deve ser marcada em 10 por cento acima do custo das despesas com tarifas aéreas incorridas. | Esta percentagem da margem de lucro sobre o custo é aplicável apenas à lista de preços de vendas quando o método de definição de preços selecionado é **Margem de Lucro Sobre o Custo**. |
 | Moeda | Separador **Geral** e páginas **Criação Rápida** | Por predefinição, este valor cambial provém da moeda no cabeçalho da lista de preços. Para o preço da categoria de transação, a moeda não pode ser substituída. | Esta moeda assume a predefinição no preço por unidade de entrada de linha real para a classe de transação de despesas para custo e vendas. |

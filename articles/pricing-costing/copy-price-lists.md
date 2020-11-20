@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082443"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181511"
 ---
 # <a name="copy-price-lists"></a>Copiar listas de preços
 
@@ -26,12 +26,12 @@ Para fazer uma cópia da lista de preços, complete os seguintes passos.
 1. Abra a lista de preços que pretende copiar e selecione **Copiar**.
 2. Insira todas as informações necessárias para copiar a lista de preços. A tabela a seguir mostra considerações a ter em mente ao introduzir informações.
 
-| Campo | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Descrição | Impacto a jusante |
 | --- | --- | --- |
 | Nome | O nome da lista de preços de origem com a **-cópia** anexado. | A lista de preços inclui este valor em todas as páginas da lista e opções pendente. |
 | Contexto | Insira o contexto que deseja para a lista de preços de destino. | Uma lista de preços com o contexto definido para **Custos** é usada para pesquisar o preço para estimativas de custos e custos reais. Uma lista de preços com o contexto definido para **Vendas** é usada para pesquisar o preço para estimativas de vendas e vendas reais. Apenas as listas de preços que têm o contexto definido para **Vendas** podem ser anexadas a uma lista de preços para um cliente, propostas ou contratos. |
-| Data de Início | A data de início do período em que se encontra a lista de preços é efetiva. | Juntamento com **Data de Fim** , este campo é utilizado para determinar qual a lista de preços aplicável a uma determinada estimativa ou linha real. |
-| Data de Fim | A data de fim do período em que se encontra a lista de preços é efetiva. | Juntamento com **Data de Início** , este campo é utilizado para determinar qual a lista de preços aplicável a uma determinada estimativa ou linha real. |
+| Data de Início | A data de início do período em que se encontra a lista de preços é efetiva. | Juntamento com **Data de Fim**, este campo é utilizado para determinar qual a lista de preços aplicável a uma determinada estimativa ou linha real. |
+| Data de Fim | A data de fim do período em que se encontra a lista de preços é efetiva. | Juntamento com **Data de Início**, este campo é utilizado para determinar qual a lista de preços aplicável a uma determinada estimativa ou linha real. |
 | Moeda | A moeda da lista de preços de origem. Isto pode ser alterado. | Quando isto é alterado, todas as linhas de preços resultantes para mão de obra, despesas e itens de catálogo de produtos são convertidas para a moeda de destino da lista de preços durante a cópia. |
 | Unidade de Tempo | A moeda da lista de preços de origem. Isto pode ser alterado. | Quando isto é alterado, todas as linhas de preços resultantes para mão de obra são convertidas para a unidade de destino da lista de preços durante a cópia. É utilizada a conversão da configuração da unidade para a unidade de tempo da lista de preços de origem e a unidade de tempo da lista de preços de destino. |
 | Descrição | Uma descrição da lista de preços de origem com **-cópia** anexado. Este é um campo de texto e permite-lhe ter uma descrição de várias linhas da lista de preços. | Este campo é mostrado nas vistas **Associadas** na lista de preços em várias entidades que têm listas de preços relacionadas. |
@@ -40,6 +40,6 @@ Para fazer uma cópia da lista de preços, complete os seguintes passos.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Atualize uma lista de preços aplicando uma margem de lucro a todos os preços
 
-1. Nos separadores **Função** , **Categoria** e **Item de Lista de Preços** de uma lista de preços, pode selecionar **Atualizar Preços** para aplicar uma margem de lucro a todos os preços na subgrelha. 
+1. Nos separadores **Função**, **Categoria** e **Item de Lista de Preços** de uma lista de preços, pode selecionar **Atualizar Preços** para aplicar uma margem de lucro para todos os preços na subgrelha. 
 2. Na página de diálogo que abre, introduza uma margem de lucro. Também pode introduzir uma percentagem de margem de lucro negativa para diminuir os preços em uma certa percentagem. 
 3. Selecione **OK** na página de diálogo e, em seguida, verifique se os preços na subgrelha refletem as alterações efetuadas.

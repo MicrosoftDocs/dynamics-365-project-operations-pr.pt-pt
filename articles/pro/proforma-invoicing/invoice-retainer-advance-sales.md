@@ -1,21 +1,21 @@
 ---
-title: Faturar um sinal ou adiantamento
+title: Faturar um sinal ou um adiantamento – lite
 description: Este tópico fornece informações sobre como faturar um sinal ou um adiantamento no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088054"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180566"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Faturar um sinal ou adiantamento
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Faturar um sinal ou um adiantamento – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -24,7 +24,7 @@ O Dynamics 365 Project Operations suporta contratos baseados em sinais e adianta
 Conclua os seguintes passos para faturar um sinal ou um adiantamento.
 
 1. Selecione **Vendas** > **Faturação** > **Sinais e Adiantamentos**. 
-2. Na página **Adiantamentos e Sinais** , utilize o filtro para selecionar o sinal específico ou adiantamento a faturar e marque-o como **Pronto a Faturar**.
+2. Na página **Adiantamentos e Sinais**, utilize o filtro para selecionar o sinal específico ou adiantamento a faturar e marque-o como **Pronto a Faturar**.
 3. Crie uma fatura manualmente a partir da lista **Contrato do Projeto** ou da página de detalhes. O sinal ou adiantamento é mostrado na fatura de rascunho na secção **Adiantamentos e Sinais** na página **Fatura**.
 4. Confirme a fatura. Isto irá disponibilizar o sinal ou adiantamento para utilização. Pode verificar a fatura na página de lista **Sinais e Adiantamentos**. Para um Adiantamento ou Sinal faturado, o valor disponível é indicado na grelha.
 
@@ -32,8 +32,8 @@ Conclua os seguintes passos para faturar um sinal ou um adiantamento.
 
 Pode criar um sinal ou um adiantamento diretamente numa fatura.
 
-1. Numa fatura de rascunho, na subgrelha **Adiantamento e Sinais** , selecione **Novo** para criar um novo sinal ou adiantamento. 
-2. Na página **Criação Rápida** , adicione as informações necessárias e, em seguida, selecione **Guardar**. O sinal ou adiantamento é criado no contrato do projeto relacionado com a fatura. O sinal ou adiantamento é automaticamente marcado como **Pronto a Faturar** e, em seguida, adicionado à subgrelha **Adiantamentos e Sinais** na página **Fatura**.
+1. Numa fatura de rascunho, na subgrelha **Adiantamento e Sinais**, selecione **Novo** para criar um novo sinal ou adiantamento. 
+2. Na página **Criação Rápida**, adicione as informações necessárias e, em seguida, selecione **Guardar**. O sinal ou adiantamento é criado no contrato do projeto relacionado com a fatura. O sinal ou adiantamento é automaticamente marcado como **Pronto a Faturar** e, em seguida, adicionado à subgrelha **Adiantamentos e Sinais** na página **Fatura**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Reconciliar um sinal ou adiantamento faturado
 
@@ -43,7 +43,7 @@ Em cada fatura gerada para um contrato de projeto que tenha faturado sinais ou a
 
 Isto pode ser visto na grelha **Sinais e Adiantamentos Aplicados** na página **Fatura**. A tabela seguinte fornece informações sobre os campos na grelha **Sinais e Adiantamentos Aplicadas** da página **Fatura do Projeto**.
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
 | Descrição | Grelha **Adiantamentos e Sinais Aplicados** na página **Fatura do Projeto** |Este campo só de leitura fornece uma descrição do sinal ou adiantamento utilizado nesta fatura. Não é possível alterar este valor na fatura. Este valor pode ser atualizado na subgrelha na página **Contrato do Projeto**. | Este campo pode ser apresentado ao cliente na fatura impressa para indicar qual o sinal ou adiantamento que é aplicado na fatura. |
 | Entregue Em | Grelha **Adiantamentos e Sinais Aplicados** na página **Fatura do Projeto**  | Este campo só de leitura fornece a data de faturação do sinal ou adiantamento utilizado nesta fatura. Não é possível alterar este valor na fatura. Este valor pode ser atualizado na subgrelha na página **Contrato do Projeto**. | Este campo pode ser apresentado ao cliente na fatura impressa para indicar a data em que o sinal ou adiantamento foi faturado pela primeira vez ao cliente. |

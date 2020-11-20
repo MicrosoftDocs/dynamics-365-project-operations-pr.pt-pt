@@ -1,21 +1,21 @@
 ---
-title: Gerir oportunidades potenciais (Pro)
+title: Gerir oportunidades potenciais – lite
 description: Este tópico fornece informações sobre como gerir as oportunidades potenciais baseadas em projetos (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082333"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180521"
 ---
-# <a name="manage-leads-pro"></a>Gerir oportunidades potenciais (Pro)
+# <a name="manage-leads---lite"></a>Gerir oportunidades potenciais – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -23,7 +23,7 @@ As oportunidades potenciais baseadas em projetos podem ser geridas e qualificada
 
 ## <a name="list-of-project-sales-leads"></a>LIsta de oportunidades potenciais baseadas em projetos
 
-Na secção **Vendas** , no painel de navegação esquerdo, abra a página da lista **Oportunidades Potenciais** para ver uma lista de todos os registos de oportunidades potenciais no sistema. A lista de oportunidades potenciais baseia-se no trabalho e noutros tipos de oportunidades potenciais que podem ser criados se também tiver as aplicações do Dynamics 365 Sales ou do Dynamics 365 Field Service.
+Na secção **Vendas**, no painel de navegação esquerdo, abra a página da lista **Oportunidades Potenciais** para ver uma lista de todos os registos de oportunidades potenciais no sistema. A lista de oportunidades potenciais baseia-se no trabalho e noutros tipos de oportunidades potenciais que podem ser criados se também tiver as aplicações do Dynamics 365 Sales ou do Dynamics 365 Field Service.
 
 Pode criar um vista filtrada para ver apenas as oportunidades potenciais pistas baseadas em projetos ao criar um filtro no valor **Tipo**. Por exemplo, pode selecionar para mostrar apenas as oportunidades potenciais baseadas no trabalho.
 
@@ -38,7 +38,7 @@ Para uma oportunidade potencial qualificada criar automaticamente uma oportunida
 
 A tabela seguinte inclui informações de campos importantes para uma oportunidade potencial e as implicações a jusante desses campos.
 
-| **Campo** | **Localização** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Localização** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Tópico | Separador Geral | Este campo de texto deve conter uma breve descrição do negócio. | O tópico da oportunidade potencial assume por predefinição o tópico da Oportunidade e o contrato Nome da Proposta e do Projeto. |
 | Tipo | Separador Geral | Este campo do conjunto de opções tem as seguintes opções:</br>- Baseado em trabalho (disponível apenas quando o Project Operations está instalado)</br>- Baseado em item (disponível apenas quando o Project Operations e o Sales estão instalados)</br>- Baseado em manutenção do serviço (disponível quando o Field Service estiver instalado) | Quando o valor deste campo é definido como **Baseado em trabalho** na oportunidade potencial, a oportunidade potencial é qualificada para criar uma Oportunidade Baseada em Projetos. É necessária uma oportunidade baseada em projetos para ativar todas as funcionalidades e extensões específicas do projeto no processo de vendas a jusante para este negócio. |
@@ -53,7 +53,7 @@ As oportunidades potenciais que têm o valor **Tipo** definido como **Baseado em
 
 - Uma conta que utiliza o campo **Empresa** a partir da oportunidade potencial.
 - Um registo de contacto associado à conta baseado nos valores nos campos **Nome Próprio** e **Apelido** na oportunidade potencial.
-- Uma oportunidade baseada em projetos que tem o campo **Tipo** definido como &quot;**Baseado em trabalho**.
+- Uma oportunidade baseada em projetos que tem o campo **Tipo** definido como **Baseado em trabalho**.
 
 Para obter informações mais detalhadas sobre como qualificar oportunidades potenciais, consulte [Qualificar ou converter oportunidades potenciais](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

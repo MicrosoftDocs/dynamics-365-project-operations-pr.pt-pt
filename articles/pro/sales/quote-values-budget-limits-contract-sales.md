@@ -1,21 +1,21 @@
 ---
-title: Informações de resumo numa proposta de projeto (Vendas)
+title: Informações de resumo numa proposta de projeto – lite
 description: Este tópico fornece informações sobre as informações e definições aplicáveis às propostas do projeto e que as afetam. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082335"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180970"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Informações de resumo numa proposta de projeto (Vendas)
+# <a name="summary-information-on-a-project-quote---lite"></a>Informações de resumo numa proposta de projeto – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -23,7 +23,7 @@ Este artigo explica as informações aplicáveis a uma proposta de projeto. Isto
 
 A tabela seguinte lista os campos de informações de resumo de uma proposta de projeto que são exclusivos do Dynamics 365 Project Operations ou têm algumas alterações importantes no comportamento das propostas do Dynamics 365 Sales.
 
-| **Campo** | **Localização** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Localização** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Tipo | Separador Resumo (oculto) | Este campo do conjunto de opções tem as seguintes opções:</br>- Baseado em trabalho (disponível apenas quando o Project Operations está instalado)</br>- Baseado em item (disponível apenas quando o Project Operations e o Sales estão instalados)</br>- Baseado em manutenção do serviço (disponível quando o Dynamics 365 Field Service está instalado) | Quando utiliza as aplicações do Project Operations, o valor deste campo é definido automaticamente como **Baseado em trabalho**. Isto classifica a proposta como uma proposta baseada em projetos. Uma proposta deve ser baseada em projetos para ativar todas as extensões e funcionalidades específicas do projeto. |
 | Cliente Potencial | Separador Resumo | Referência ao registo da conta ou empresa do cliente. Quando uma proposta é criada a partir de uma oportunidade, este campo é copiado a partir do campo correspondente na oportunidade. | A moeda na proposta de projeto assume por predefinição a moeda do cliente. Isto pode, no entanto, ser alterado antes de a proposta ser guardada. |
@@ -36,7 +36,7 @@ A tabela seguinte lista os campos de informações de resumo de uma proposta de 
 
 Abaixo estão os separadores e os KPIs disponíveis numa proposta de projeto que são exclusivos do Project Operations ou têm algumas alterações importantes no comportamento das propostas de Vendas:
 
-| **Campo** | **Localização** | **Relevância, finalidade e orientação** |
+| **Campo** | **Localização** | **Descrição** |
 | --- | --- | --- |
 | Análise de rentabilidade | Separador na Proposta | O separador mostra as métricas seguintes:</br>- Custo faturável total</br></br>- Custo não faturável total</br>- Receitas totais</br>- Receitas totais (base)</br>- Margem bruta</br>- Margem bruta ajustada|
 | Comparação com as Expectativas do Cliente | Separador na Proposta | Este separador mostra as métricas seguintes:</br>- Conclusão estimada</br>- Conclusão pretendida</br>- Orçamento do cliente</br>- Valor da proposta |

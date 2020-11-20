@@ -1,21 +1,21 @@
 ---
-title: Linhas de proposta baseadas em projetos (Pro)
+title: Descrição geral de linhas de proposta baseadas em projetos – lite
 description: Este tópico fornece informações sobre como utilizar linhas de proposta baseadas no projeto para o trabalho de projeto. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082334"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181106"
 ---
-# <a name="project-based-quote-lines-pro"></a>Linhas de proposta baseadas em projetos (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Descrição geral de linhas de proposta baseadas em projetos – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -31,7 +31,7 @@ As linhas de proposta baseadas em projetos foram concebidas para ajudar a estima
 
 A tabela seguinte fornece informações sobre os campos no separador **Geral** da linha de proposta baseada em projetos. Estes campos ajudam a configurar a base para uma estimativa de raiz detalhada para o trabalho de projeto.
 
-| **Campo** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- |
 | Nome | O nome da linha de proposta que deve ajudá-lo a identificar o componente discreto da proposta que está a ser estimada. | Copiada para o item de contrato do projeto que é criada a partir desta linha de proposta quando a proposta é ganha. |
 | Método de Faturação | Numa proposta criada a partir de uma oportunidade, este valor é copiado a partir do campo correspondente na linha de oportunidade. Este campo inclui os dois principais modelos de contratação suportados pelo Dynamics 365 Project Operations:</br>- Preço fixo</br>- Tempo e material.| Este valor do campo é copiado para o item de contrato do projeto que é criado a partir desta linha de proposta quando a proposta é ganha. |
@@ -49,15 +49,15 @@ A tabela seguinte fornece informações sobre os campos no separador **Geral** d
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regras de validação para os campos no separador Geral das linhas de proposta baseadas em projetos
 
-**Regra 1** : se o campo **Tarefas Incluídas** estiver em branco ou se estiver definido como **Todas as tarefas do projeto** , é incluído um projeto na linha de proposta.
+**Regra 1**: se o campo **Tarefas Incluídas** estiver em branco ou se estiver definido como **Todas as tarefas do projeto**, é incluído um projeto na linha de proposta.
 
-**Regra 2** : se o campo **Tarefas Incluídas** estiver em branco, ou se estiver definido como **Todas as tarefas do projeto** , um projeto e uma determinada classe de transações só podem ser incluídos numa linha de proposta baseada em projetos de uma proposta.
+**Regra 2**: se o campo **Tarefas Incluídas** estiver em branco, ou se estiver definido como **Todas as tarefas do projeto**, um projeto e uma determinada classe de transações só podem ser incluídos numa linha de proposta baseada em projetos de uma proposta.
 
-**Regra 3** : se o campo **Tarefas Incluídas** estiver definido como **Apenas tarefas selecionadas do projeto** , um projeto e uma determinada classe de transações só podem ser incluídos em várias linhas de proposta baseadas em projetos de uma proposta.
+**Regra 3**: se o campo **Tarefas Incluídas** estiver definido como **Apenas tarefas selecionadas do projeto**, um projeto e uma determinada classe de transações só podem ser incluídos em várias linhas de proposta baseadas em projetos de uma proposta.
 
-**Regra 4** : se uma oportunidade tiver várias proposta, poderá haver linhas de proposta de diferentes propostas em que todas referenciam o mesmo projeto e incluem a mesma classe de transações.
+**Regra 4**: se uma oportunidade tiver várias proposta, poderá haver linhas de proposta de diferentes propostas em que todas referenciam o mesmo projeto e incluem a mesma classe de transações.
 
-**Regra 5** : se as propostas não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transações.
+**Regra 5**: se as propostas não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transações.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

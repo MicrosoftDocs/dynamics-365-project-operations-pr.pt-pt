@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082281"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181826"
 ---
 # <a name="copy-project-based-quotes"></a>Copiar propostas baseadas em projetos
 
@@ -21,11 +21,11 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 Pode criar facilmente uma nova Proposta de projeto ao copiar uma existente. 
 
-- Para copiar uma Proposta de projeto, na página da lista **Propostas de Projeto** ou na página de detalhes **Proposta de Projeto** , selecione a Proposta de projeto que pretende copiar e, em seguida, selecione **Copiar**.
+- Para copiar uma Proposta de projeto, na página da lista **Propostas de Projeto** ou na página de detalhes **Proposta de Projeto**, selecione a Proposta de projeto que pretende copiar e, em seguida, selecione **Copiar**.
 
 Isto abrirá uma página de diálogo onde poderá introduzir os parâmetros da cópia. A tabela seguinte lista os campos incluídos na página de diálogo. Consoante os valores que selecionar, o processo de cópia poderá mudar.
 
-| **Campo** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- |
 | Tópico | Introduza o tópico relevante, ou o nome, da proposta-alvo. Quando a caixa de diálogo é aberta, o sistema irá defini-la para o tópico da proposta de origem com **-copy** anexado. | |
 | Cliente Potencial | Referência ao registo da conta ou empresa do cliente. Quando a caixa de diálogo é aberta, o sistema irá defini-la para a conta na proposta de origem. | Este campo é o cliente principal na proposta. |

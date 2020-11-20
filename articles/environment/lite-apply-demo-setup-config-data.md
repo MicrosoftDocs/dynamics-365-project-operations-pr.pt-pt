@@ -1,23 +1,30 @@
 ---
-title: Aplicar dados de configuração da demonstração
+title: Aplicar dados de configuração da demonstração – lite
 description: Este tópico fornece informações sobre como aplicar dados de configuração da demonstração para o Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082269"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401277"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Aplicar os dados de configuração da demonstração para a a implementação do Project Operations lite - oportunidade potencial para fatura pró-forma
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicar dados de configuração de demonstração para Project Operations – lite 
 
 _**Implementação leve - oportunidade potencial para fatura pró-forma_
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+Antes de iniciar a configuração, tem de ter um ambiente Common Data Service (CDS) aprovisionado para o Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Instruções
 
 1. Transferir o [Pacote de Dados Mestres](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Navegue para a pasta *ProjOpsDemoDataSetupAndMaster - Integrated CMT* e execute o ficheiro executável *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Implementação leve - oportunidade potencial para fatura pró-forma_
 10. A importação será executada durante aproximadamente 2 a 10 minutos, consoante a velocidade da sua rede. Depois de concluída, saia do Assistente de CMT. 
 11. Contacte a sua organização para obter dados nas seguintes 20 entidades:
 
-- Moeda
-- Unidade Organizacional
-- Contacto
-- Grupo de Impostos
-- Grupo de Clientes
-- Unidade
-- Grupo de Unidades
-- Lista de Preços
-- Lista de Preços do Parâmetro do Projeto
-- Frequência da Fatura
-- Detalhe de Frequência de Fatura
-- Categoria de Recurso Reservável
-- Categoria de Transação
-- Categoria de Despesa
-- Preço da Função
-- Preço de Categoria de Transação
-- Característica
-- Recurso Reservável
-- Associação de categorias de recurso reservável
-- Característica de Recurso Reservável
+-   Moeda
+-   Conta
+-   Unidade Organizacional
+-   Contacto
+-   Grupo de Impostos
+-   Grupo de Clientes
+-   Unidade
+-   Grupo de Unidades
+-   Lista de Preços
+-   Lista de Preços do Parâmetro do Projeto 
+-   Frequência da Fatura
+-   Categoria de Recurso Reservável
+-   Categoria de Transação
+-   Categoria de Despesa
+-   Preço da Função
+-   Preço de Categoria de Transação
+-   Característica
+-   Recurso Reservável
+-   Associação de categorias de recurso reservável
+-   Característica de Recurso Reservável
 
 ![Concluir Importação](./media/6CompleteImport.png)

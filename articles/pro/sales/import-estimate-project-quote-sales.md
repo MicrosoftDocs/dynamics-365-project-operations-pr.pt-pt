@@ -1,28 +1,28 @@
 ---
-title: Importar estimativas do projeto para uma linha de proposta baseada no projeto
+title: Importar estimativas do projeto para uma linha de proposta baseada no projeto – lite
 description: Este tópico fornece informações sobre como importar estimativas de um projeto para uma linha de proposta.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082306"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177750"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimativas do projeto para uma linha de proposta baseada no projeto
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importar estimativas do projeto para uma linha de proposta baseada no projeto – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
 Se um projeto for criado durante a fase de pré-venda, poderá selecionar para importar a estimativa financeira a partir do projeto para a linha de proposta baseada no projeto.
 
 1. Certifique-se de que a linha de proposta baseada em projetos tem a informação do projeto no campo **Projeto**.
-2. No separador **Detalhes de linha de proposta** , selecione **Importar a partir da Estimativa do Projeto**.
+2. No separador **Detalhes de linha de proposta**, selecione **Importar a partir da Estimativa do Projeto**.
 3. Na caixa de diálogo que é aberta, selecione uma das seguintes opções de resumo.
 
   - **Classe de transação**
@@ -30,7 +30,7 @@ Se um projeto for criado durante a fase de pré-venda, poderá selecionar para i
   - **Função** 
   - **Tarefa de projeto**
 
-Baseada na sua seleção, é copiada a estimativa a partir do projeto para todas as classes de transações incluídas nesta linha de proposta. Para verificar quais as classes de transações incluídas, selecione o separador **Geral** na linha de proposta baseada no projeto e verifique os valores de **Incluir Tempo** , **Incluir Despesas** e **Incluir Taxas**.  Para verificar que tarefas estão incluídas, selecione o separador **Tarefas Faturáveis** na linha de proposta.
+Baseada na sua seleção, é copiada a estimativa a partir do projeto para todas as classes de transações incluídas nesta linha de proposta. Para verificar quais as classes de transações incluídas, selecione o separador **Geral** na linha de proposta baseada no projeto e verifique os valores de **Incluir Tempo**, **Incluir Despesas** e **Incluir Taxas**.  Para verificar que tarefas estão incluídas, selecione o separador **Tarefas Faturáveis** na linha de proposta.
 
 Consoante as Tarefas associadas e incluídas nas classes de transações as estimativas para essas combinações de tarefas e classe de transação são importadas para a linha de proposta.
 

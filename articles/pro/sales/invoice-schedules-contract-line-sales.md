@@ -1,74 +1,76 @@
 ---
-title: Criar agendas de faturação num item de contrato baseado no projeto
-description: Este tópico fornece informações sobre como criar marcos e agendas de faturação em itens de contrato.
+title: Criar agendas de faturação num item de contrato baseado no projeto – lite
+description: Este tópico fornece informações sobre a criação de agendas e marcos de faturação.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4082638"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180341"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Criar agendas de faturação num item de contrato baseado no projeto
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Criar agendas de faturação num item de contrato baseado no projeto – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
+Pode anexar uma agenda de faturação num item de contrato baseado no projeto. A faturação só é permitida após o contrato ser ganho para criar um contrato de Projeto. As agendas de faturação permitem a criação automática de faturas de rascunho para um item de contrato baseado em projetos. Se planeia criar sempre faturas manualmente, pode ignorar a criação de agendas de faturação num item de contrato baseado em projetos ou um item de contrato.
 
-Pode criar uma agenda de faturação para um item de contrato baseado em projeto. A faturação só é permitida depois do contrato ser ganho e estar a criar um contrato de projeto. Uma agenda de faturação permite a elaboração automática de faturas de rascunho para um item de contrato baseado em projetos. No entanto, se só cria faturas manualmente, pode ignorar a criação de agendas de faturação em itens de contrato.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Criar uma agenda de faturação de tempo e material para um item de contrato
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Criar uma agenda de faturação de tempo e material para um item de contrato baseado em projetos
 
 Quando um item de contrato baseado em projetos tiver um método de faturação de tempo e material, pode criar uma agenda de faturação baseada na data. Para gerar automaticamente uma agenda de faturação baseada na data, conclua os seguintes passos.
 
-1. Vá para **Definições** > **Frequências de faturação** e configure uma frequência de faturação.
-2. Aceda ao registo do contrato do projeto e, no separador **Resumo** , no campo **Data de Entrega Solicitada** , selecione uma data.
-3. Abra o item de contrato **Tempo e Material** para a qual está a criar a agenda de faturação baseada na data. 
-4. No separador **Agenda de Faturação** , selecione a data de início da faturação e a frequência da faturação.
-5. Na subgrelha, selecione **Gerar Agenda de Faturação**. A agenda de faturação é gerada com os campos **Data de Execução da Fatura** , **Data Limite da Transação** e **Estado da Execução** da seguinte forma:
+1. Aceda a **Definições** > **Frequências de Fatura** para configurar a frequência da fatura.
+2. Abra o contrato do projeto e no separador **Resumo**, defina a data de entrega solicitada.
+3. Abra o item de contrato de tempo e material para o qual pretende criar uma agenda de faturação baseada em datas. 
+4. No separador **Agenda de Faturação**, selecione uma data de início de faturação e a frequência da fatura. 
+5. Na subgrelha, selecione **Gerar Agenda de Faturação**.
 
-    - **Data de Execução da Fatura** : esta data é ditada pela frequência de faturação.
-    - **Data Limite da Transação** : o dia anterior à data de execução da fatura.
-    - **Estado da Execução** : definido automaticamente como **Não Executar**. Quando a tarefa de criação automática de faturas é executada para uma determinada data de execução da faturação, este campo é atualizado para **Execução com Êxito** ou **Falha na Execução**.
+    O sistema gera a agenda de faturação com as seguintes informações de campo:
 
+    - A **Data de Execução da Fatura** está marcada para a data com base na frequência da fatura.
+    - A **Data Limite da Transação** está definida para o dia anterior à **Data de Execução da Fatura**.
+    - O **Estado da Execução** é definido automaticamente como **Não Executar**. Quando a tarefa de criação automática de faturas é executada para uma determinada **Data de Execução da Fatura**, este campo é atualizado para **Execução com Êxito** ou **Falha na Execução**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Criar uma agenda de faturação de preço fixo para um item de contrato
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Criar uma agenda de faturação de preço fixo para um item de contrato baseado em projetos
 
-Quando o item de contrato tem um método de faturação fixo, pode criar uma agenda de faturação baseada em marcos. Conclua os seguintes passos para gerar uma agenda de faturação baseada em marco para um conjunto fixo de marcos distribuídos igualmente para o período de calendário.
+Quando um item de contrato baseado em projetos tem um método de faturação de preço fixo, pode criar uma agenda de faturação baseada em marcos. Complete os seguintes passos para gerar automaticamente uma agenda de faturação baseada em marcos para um conjunto fixo de marcos que distribuem igualmente para o período de calendário.
 
-1. Vá para **Definições** > **Frequências de faturação** e configure uma frequência de faturação.
-2. Aceda ao registo do contrato do projeto e, no separador **Resumo** , no campo **Data de Entrega Solicitada** , selecione uma data.
-3. Abra o item de contrato **Preço Fixo** para a qual está a criar uma agenda de marcos. No separador **Marcos de Faturação** , selecione a data de início da faturação e a frequência da faturação. 
-4. Na subgrelha, selecione **Gerar Marcos Periódicos**. A agenda de faturação é gerada com os campos **Nome do Marco** , **Data do Marco** e **Montante do Marco** definidos da seguinte forma:
+1. Aceda a **Definições** > **Frequências de Fatura** para configurar a frequência da fatura.
+2. Abra o contrato do projeto e no separador **Resumo**, defina a data de entrega solicitada.
+3. Abra o item de contrato de preço fixo no qual precisa de criar uma agenda de marcos. 
+4. No separador **Agenda de Faturação (Marcos de Faturação)**, selecione a data de início de faturação e a frequência da fatura. 
+5. Na subgrelha, selecione **Gerar Marcos Periódicos**.
 
-    - **Nome do Marco** : esta data é ditada pela frequência de faturação.
-    - **Data do Marco** : esta data é ditada pela frequência de faturação.
-    - **Montante do Marco** : este montante é calculado ao dividir o montante do contrato no item de contrato pelo número de marcos, conforme ditados pela frequência, pelo início de faturação e as datas de entrega pretendidas.
+    O sistema gera a agenda de faturação com as seguintes informações de marco.
 
-    Se o item de contrato tem um valor no campo **Montante do Imposto Estimado** , este campo também é repartido para cada marco igualmente ao gerar marcos periódicos.
+    - O **Nome do Marco** está definido para a data que é ditada com base na frequência de faturação.
+    - A **Data do Marco** está definido para a data que é ditada com base na frequência de faturação.
+    - O **Montante do Marco** é calculado dividindo o valor do contrato no item de contrato baseado em projetos pelo número de marcos ditados pela frequência, início da faturação e datas de entrega solicitadas.
+    - Se o item de contrato tiver um valor no campo **Montante Estimado do Imposto**, este campo também é repartido para cada marco igualmente ao gerar marcos periódicos.
 
-Os marcos da faturação devem ser iguais ao valor contratado do item de contrato. Caso não o façam, receberá um erro na página **Item de Contrato**. Pode corrigir o erro verificando se os marcos de faturação totalizam o valor contratado da linha, criando, editando ou eliminando marcos. Depois de efetuar as alterações, atualize a página para remover o erro.
+Os marcos de faturação devem ser iguais ao valor contratado do item de contrato baseado em projetos. Se não forem iguais, ocorre um erro. Pode corrigir esse erro verificando se os marcos de faturação totalizam o valor contratado do item através da criação, edição ou eliminação de marcos. Depois de efetuadas as alterações, atualize a página.
 
 ### <a name="manually-create-milestones"></a>Criar marcos manualmente
 
-Pode gerar manualmente marcos de preço fixo quando não são divididos periodicamente. Conclua os seguintes passos para criar manualmente um marco.
+Os marcos de preço fixo podem ser gerados manualmente quando não são divididos periodicamente. Para criar um marco manualmente, complete os seguintes passos.
 
-1. Abra o item de contrato de preço fixo para o qual está a criar um marco e, no separador **Agenda de Faturação** , na subgrelha, selecione **+ Criar novo marco de Item de contrato**. 
-2. Na página **Criação de Marco** , insira as informações necessárias com base na tabela seguinte.
+1. Abra o item de contrato de preço fixo no qual pretende criar um marco. 
+2. No separador **Agenda de Faturação**, na subgrelha, selecione **+ Criar novo marco do Item de contrato**.
+3. No formulário **Criação do Marco**, insira as informações necessárias com base na tabela seguinte. 
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
-| Nome do Marco | Criação Rápida | Campo de texto para o nome do marco. | Isto é transportado para o marco do item de contrato do projeto e para a fatura. |
-| Tarefa de Projeto | Criação Rápida | Se o marco estiver associado à tarefa do projeto, utilize esta referência para adicionar lógica personalizada para definir o estado do marco baseado no estado da tarefa. | A aplicação não tem qualquer impacto a jusante desta referência a uma tarefa. |
-| Data do Marco | Criação Rápida | Defina a data em que o processo automático de criação de faturas deve procurar o estado deste marco para considerá-lo para faturação. | Isto é transportado para o marco do item de contrato do projeto e para a fatura. |
-| Estado da Fatura | Criação Rápida | Quando um marco é criado, este estado está sempre definido como **Não Pronto para Faturação** ou **Não Começado**. | Isto é transportado para o marco do item de contrato do projeto e para a fatura. |
-| Montante de Linha | Criação Rápida | Montante ou valor do marco que será faturado ao cliente. | Isto é transportado para o marco do item de contrato do projeto e para a fatura. |
-| Imposto | Criação Rápida | O valor do imposto aplicado ao marco. | Isto é transportado para o marco do item de contrato do projeto e para a fatura. |
+| Nome do Marco | Criação Rápida | Campo de texto para o nome do marco. | Este campo está incluído no marco do item de contrato do projeto e na fatura. |
+| Tarefa de Projeto | Criação Rápida | Se o marco estiver ligado a uma tarefa do projeto, utilize esta referência para adicionar lógica personalizada e defina um marco com base no estado da tarefa. | Não há qualquer impacto a jusante desta referência para uma tarefa. |
+| Data do Marco | Criação Rápida | A data em que o processo automático de criação de faturas deve procurar o estado deste marco para considerá-lo para faturação. | Este está incluído no marco do item de contrato do projeto e na fatura. |
+| Estado da Fatura | Criação Rápida | Quando o marco é criado, este estado está sempre definido para **Não está pronto para faturação** ou **Não iniciado**. | Este está incluído no marco do item de contrato do projeto e na fatura. |
+| Montante de Linha | Criação Rápida | O montante ou valor do marco que será faturado ao cliente. | Este campo está incluído no marco do item de contrato do projeto e na fatura. |
+| Imposto | Criação Rápida | O valor do imposto aplicado ao marco. | Este está incluído no marco do item de contrato do projeto e na fatura. |
 
-3. Selecione **Guardar e Fechar**.
-| Montante da Linha | Criação rápida | Montante ou Valor do Marca que será faturado ao cliente | Isto é propagado para o Marco do item de contrato do Projeto e para a Fatura | | Imposto | Criação rápida | Montante fiscal que será aplicado ao Marco | Isto é propagado para o Marco do item de contrato do Projeto e para a Fatura |
+4. Selecione **Guardar e Fechar**.

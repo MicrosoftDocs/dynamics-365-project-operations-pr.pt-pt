@@ -3,17 +3,17 @@ title: Determinar o tipo de implementação
 description: Este tópico fornece informações que o vão ajudar a determinar o tipo de implementação correto do Project Operations para a sua empresa.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082408"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401232"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o tipo de implementação
 
@@ -25,11 +25,11 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clientes existentes do Dynamics que utilizam o Dynamics 365 Project Service Automation
-O Project Operations inclui as capacidades que foram enviadas com o Project Service Automation. Será lançado um caminho de atualização para estes clientes no futuro.
+O Project Operations inclui as capacidades que foram enviadas com o Project Service Automation. Será lançada um percurso de atualização de versão para estes clientes na vaga 1 da versão de 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes do Dynamics 365 Finance que utilizam a Gestão de projetos e contabilística 
 
-Os clientes existentes do Finance que utilizam a funcionalidade Gestão de projetos e contabilística podem continuar a utilizá-lo tal como está. Consulte [Project Operations para cenários de encomenda em stock/de produção](#pma).
+Os clientes existentes d Finance que utilizam a funcionalidade de Gestão e contabilidade de projetos podem continuar a usá-lo como está. Consulte [Project Operations para cenários de encomenda em stock/de produção](#pma).
 
 
 ## <a name="deployment-types"></a>Tipo de implementação
@@ -47,12 +47,13 @@ O Project Operations suporta cenários de encomenda em stock/de produção e cen
 
 A implementação leve inclui as seguintes capacidades:
 
+- Processo de vendas para projetos que alarga experiências de aplicação do Dynamics 365 Sales
 - Planeamento de projetos com o Microsoft Project para a Web
 - Preços multidimensionais
-- Gestão de Recursos Unificados
-- Monitorização do Tempo
-- Despesas Básicas
-- Proposta de Fatura
+- Gestão de recursos unificados
+- Monitorização do tempo
+- Despesas básicas
+- Faturação pró-forma e virada para o cliente 
 
 #### <a name="deployment-steps"></a>Passos de implementação
 Determine o melhor modelo de implementação do Project Operations através do [Questionário de implementação](https://aka.ms/provisionprojectoperations).
@@ -62,16 +63,17 @@ Para esta implementação, consulte [Inscrever-se em subscrições de pré-visua
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations para cenários baseados em recursos/não em stock
 O Project Operations para cenários baseados em recursos/não em stock incluem as seguintes capacidades:
-  
+ 
+- Processo de vendas para projetos que alarga a aplicação do Dynamics 365 Sales
 - Planeamento de projetos com o Microsoft Project para a Web
 - Preços multidimensionais
-- Gestão de Recursos Unificados
-- Monitorização do Tempo
-- Despesas Básicas
-- Despesa Total
+- Gestão de recursos unificados
+- Monitorização do tempo
+- Despesas básicas
+- Despesa total
 - OCR de recibos
-- Faturação Completa
-- Reconhecimento de Receitas
+- Faturação pró-forma e virada para o cliente 
+- Reconhecimento de receitas para projetos
 
 #### <a name="deployment-steps"></a>Passos de implementação
 Determine o melhor modelo de implementação do Project Operations através do [Questionário de implementação](https://aka.ms/provisionprojectoperations).

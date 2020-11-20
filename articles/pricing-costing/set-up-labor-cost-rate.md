@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082301"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180611"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurar taxas de custo de mão de obra
 
@@ -22,13 +22,13 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 Cada lista de preços tem um conjunto de taxas de mão de obra (preços de função) que se alinham com o conteúdo e a data de efetividade da lista de preços.
 
-1. Crie uma lista de preços e, no separador **Preço de Função** , na subgrelha, selecione **Nova Função**.
-2. Na página **Criação Rápida** , selecione a função e a unidade de organização.
+1. Crie uma lista de preços e, no separador **Preço de Função**, na subgrelha, selecione **Nova Função**.
+2. Na página **Criação Rápida**, selecione a função e a unidade de organização.
 3. Introduza quaisquer outras informações de campo necessárias.
 
 A tabela a seguir inclui alguns dos campos que são importantes na criação de taxas de mão de obra numa lista de preços de custo.
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
 | Função | Separador **Geral** e páginas **Criação Rápida** | Selecione a função a que a taxa de custo se aplica. | A função na estimativa de entrada ou real será igualada contra esta linha para assumir a predefinição do custo da função. |
 | Empresa de Recursos | Separador **Geral** e páginas **Criação Rápida** | Selecione a entidade legal a que a função é atribuída. Por exemplo, um programador da Fabrikam India ou um programador da Fabrikam USA. | A empresa de atribuição de recursos na estimativa de entrada ou real será igualada contra esta linha para assumir a predefinição da taxa de custo da função. |

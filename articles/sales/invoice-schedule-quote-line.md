@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082337"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180836"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Agendas de faturação nas linhas de proposta baseadas no projeto
 
@@ -28,11 +28,11 @@ Globalmente, o objetivo das agendas de faturação consiste em permitir a criaç
 Quando o método de faturação para uma linha de proposta baseada no projeto for Tempo e material, o sistema gera uma agenda de faturação baseada na data. Para gerar automaticamente uma agenda de faturação baseada na data, conclua os seguintes passos.
 
 1. Vá para **Definições** > **Frequências de faturação** e configure uma frequência de faturação.
-2. Na página **Propostas** , abra a Proposta do projeto e, no separador **Resumo** , defina uma data de entrega pretendida.
+2. Na página **Propostas**, abra a Proposta do projeto e, no separador **Resumo**, defina uma data de entrega pretendida.
 3. Abra a linha de proposta de tempo e material para a qual precisa de criar uma agenda de faturação baseada na data. 
-4. No separador **Agenda de Faturação** , selecione os valores nos campos **Início da faturação** e **Frequência da Faturação**. 
+4. No separador **Agenda de Faturação**, selecione os valores nos campos **Início da faturação** e **Frequência da Faturação**. 
 5. Na subgrelha, selecione **Gerar Agenda de Faturação**.
-6. A aplicação gera a agenda de faturação com os campos **Data de Execução da Fatura** , **Data Limite da Transação** e **Estado da Execução** da seguinte forma:
+6. A aplicação gera a agenda de faturação com os campos **Data de Execução da Fatura**, **Data Limite da Transação** e **Estado da Execução** da seguinte forma:
 
     - A **Data de Execução da Fatura** está definida para a data ditada com base na frequência de faturação.
     - A **Data limite da transação** está definida para o dia anterior à **Data de Execução da Fatura**.
@@ -40,12 +40,12 @@ Quando o método de faturação para uma linha de proposta baseada no projeto fo
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Criar uma agenda de faturação de Preço fixo para uma linha de proposta baseada no projeto
 
-Quando a linha de proposta baseada no projeto tem um método de faturação **Fixo** , o sistema cria uma agenda de faturação baseada em marcos. Conclua os seguintes passos para gerar automaticamente esta agenda para um conjunto fixo de marcos que são distribuídos igualmente para o período de calendário.
+Quando a linha de proposta baseada no projeto tem um método de faturação **Fixo**, o sistema cria uma agenda de faturação baseada em marcos. Conclua os seguintes passos para gerar automaticamente esta agenda para um conjunto fixo de marcos que são distribuídos igualmente para o período de calendário.
 
 1. Vá para **Definições** > **Frequências de faturação** e configure uma frequência de faturação.
-2. Na página **Propostas** , abra a Proposta do projeto e, no separador **Resumo** , defina uma data de entrega pretendida.
+2. Na página **Propostas**, abra a Proposta do projeto e, no separador **Resumo**, defina uma data de entrega pretendida.
 3. Abra a linha de proposta de preço fixo para a qual precisa de criar uma agenda de marcos. 
-4. No separador **Agenda de Faturação** , selecione os valores nos campos **Início da faturação** e **Frequência da Faturação**. 
+4. No separador **Agenda de Faturação**, selecione os valores nos campos **Início da faturação** e **Frequência da Faturação**. 
 5. Na subgrelha, selecione **Gerar Marcos Periódicos**.
 6. A aplicação gera a agenda de faturação com um nome, data e valor do marco.
 
@@ -58,9 +58,9 @@ Quando a linha de proposta baseada no projeto tem um método de faturação **Fi
 
 Também podem ser gerados manualmente marcos de preço fixo quando não são divididos periodicamente. Para criar um marco manualmente:
 
-Abra a Linha de proposta de preço fixo onde precisa de criar um marco. No separador **Agenda de Faturação** , na subgrelha, selecione **+ Crie um novo marco da linha de proposta** e introduza as informações necessárias baseado na seguinte tabela.
+Abra a Linha de proposta de preço fixo onde precisa de criar um marco. No separador **Agenda de Fatura**, na subgrelha, selecione **+ Criar novo marco da linha de proposta** e introduza as informações necessárias com base na tabela seguinte.
 
-| **Campo** | **Localização** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Localização** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Nome do marco | Criação rápida | O nome do marco. | Isto é propagado para o marco do item de contrato do projeto e para a fatura |
 | Tarefa de Projeto | Criação rápida | Se o marco estiver associado à tarefa do projeto, poderá utilizar esta referência para adicionar lógica personalizada e definir o estado do marco baseado no estado da tarefa. | A aplicação não tem qualquer impacto a jusante desta referência a uma tarefa. |

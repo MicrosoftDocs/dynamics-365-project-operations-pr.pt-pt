@@ -1,21 +1,21 @@
 ---
-title: Conceitos chave da proposta de projeto
+title: Propostas – Conceitos chave – lite
 description: Este tópico fornece informações sobre como utilizar propostas de projeto no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082328"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178020"
 ---
-# <a name="project-quote-key-concepts"></a>Conceitos chave da proposta de projeto
+# <a name="quotes---key-concepts---lite"></a>Propostas – Conceitos chave – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -78,7 +78,7 @@ Os negócios com vários clientes ocorrem quando existe mais de um cliente para 
 
 ## <a name="invoice-schedules"></a>Agendas de faturação
 
-As agendas de faturação são específicas de cada linha de proposta e também são opcionais. As agendas de faturação são criadas com base em determinadas datas de início e de fim, e frequência da fatura. As agendas de faturação são utilizadas na fase de contrato quando o processo automático de criação de faturas está configurado. Na fase de proposta, as agendas são opcionais. Quando as agendas da faturação são criadas na fase **Proposta** , são copiadas para o contrato de projeto que é criado quando uma proposta de projeto é ganha.
+As agendas de faturação são específicas de cada linha de proposta e também são opcionais. As agendas de faturação são criadas com base em determinadas datas de início e de fim, e frequência da fatura. As agendas de faturação são utilizadas na fase de contrato quando o processo automático de criação de faturas está configurado. Na fase de proposta, as agendas são opcionais. Quando as agendas da faturação são criadas na fase **Proposta**, são copiadas para o contrato de projeto que é criado quando uma proposta de projeto é ganha.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Alterações da proposta do Dynamics 365 Sales:
 
