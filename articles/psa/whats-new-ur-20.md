@@ -3,7 +3,7 @@ title: Novidades ou alterações na Versão da Atualização 20 do Project Servi
 description: Este tópico lista as funcionalidades e correções disponíveis na Versão da Atualização 20 do Project Service Automation, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082353"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126767"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versão da Atualização 20 do Project Service Automation, V3
 
@@ -48,7 +48,7 @@ Foram corrigidos os seguintes problemas:
 
 Foram corrigidos os seguintes problemas:
 
-- No formulário **Contrato** , clicar duas vezes com o botão direito do rato em **Criar Fatura** cria duas faturas para um único registo real.
+- No formulário **Contrato**, clicar duas vezes com o botão direito do rato em **Criar Fatura** cria duas faturas para um único registo real.
 - No Internet Explorer 11, os utilizadores são incapazes de criar entradas de despesas.
 - A reversão do Custo e a reversão de Valores Reais de Vendas Não Faturáveis não estão ligados.
 - O botão **Atualizar Valores Reais** no formulário **Projeto** não atualiza as **Horas Reais da Tarefa**.
@@ -59,4 +59,4 @@ Foram corrigidos os seguintes problemas:
 - Os valores de unidade e de grupo de unidades não são predefinidos corretamente para as categorias de despesas nos formulários **Detalhes do Item de Contrato** e **Detalhes do Item de Proposta**.
 - As listas de **Preço de Custo da Unidade Organizacional** permitem sobreposições na efetividade da data.
 - Os utilizadores não estão autorizados a alterar **OrgUnit** quando o tipo de encomenda não é baseado no trabalho, pois irá conduzir a um erro de exceção de referência nulo.
-- Ao tentar navegar a partir do formulário **Detalhes do Item de Proposta** , regresse ao separador **Proposta** , o formulário atualiza e apresenta o separador **Resumo**.
+- Ao tentar navegar a partir do formulário **Detalhes do Item de Proposta**, regresse ao separador **Proposta**, o formulário atualiza e apresenta o separador **Resumo**.

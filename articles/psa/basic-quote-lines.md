@@ -3,7 +3,7 @@ title: Propostas e linhas de proposta
 description: Este tópico fornece informações sobre propostas e linhas de proposta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082519"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129467"
 ---
 # <a name="quotes-and-quote-lines"></a>Propostas e linhas de proposta
 
@@ -35,7 +35,7 @@ No Dynamics 365 Project Service Automation, existem dois tipos de propostas: pro
 - Uma proposta de vendas suporta a ativação e revisões. Uma proposta de projeto não suporta esses processos.
 - Pode anexar várias encomendas a uma proposta de vendas. Só pode anexar um contrato de projeto a uma proposta do projeto.
 - Pode ganhar uma proposta de vendas e manter a oportunidade relacionada aberta. Depois de uma proposta de projeto ser ganha, a oportunidade relacionada é fechada.
-- Uma proposta de vendas não inclui alguns campos e conceitos que estão incluídos numa proposta de projeto com campos. Os campos incluem **Unidade de Contratação** , **Gestor de Contas** e **Nome do Contacto para Faturação**.  
+- Uma proposta de vendas não inclui alguns campos e conceitos que estão incluídos numa proposta de projeto com campos. Os campos incluem **Unidade de Contratação**, **Gestor de Contas** e **Nome do Contacto para Faturação**.  
 - As propostas de vendas e as propostas do projeto também são identificadas por um campo baseado no conjunto de opções com o nome **Tipo**. Para uma proposta de vendas, este campo tem o valor **Baseado em item**. Para uma proposta do projeto, tem o valor **Baseado em trabalho**.
 
 Este tópico irá concentrar-se nos detalhes das propostas do projeto.
@@ -76,7 +76,7 @@ O PSA suporta os três tipos de agendas de faturação para as linhas de propost
 Normalmente, as organizações de serviços profissionais propõem e faturam os seus clientes por classificação de custos. No PSA, os custos são representados pelas seguintes classificações de transação:
 
 - **Tempo** – Esta classificação representa o custo de trabalho ou o tempo dos recursos humanos num projeto.
-- **Despesa** : – Esta classificação representa todos os outros tipos de despesas num projeto. Uma vez que as despesas podem ser amplamente classificadas, a maioria das organizações cria subcategorias, tais como viagens, aluguer de automóveis, hotel ou material de escritório.
+- **Despesa**: – Esta classificação representa todos os outros tipos de despesas num projeto. Uma vez que as despesas podem ser amplamente classificadas, a maioria das organizações cria subcategorias, tais como viagens, aluguer de automóveis, hotel ou material de escritório.
 - **Taxa** – Esta classificação representa despesas gerais diversas, penalizações e outros itens que são cobrados ao cliente. 
 - **Imposto** – Esta classificação representa os montantes de imposto que os utilizadores adicionam enquanto introduzem as despesas.
 - **Transação de material** – Esta classificação representa os valores reais a partir de linhas de produto numa fatura do projeto confirmada.
@@ -91,7 +91,7 @@ Por exemplo, uma proposta poderá conter as seguintes duas linhas de proposta:
 - Despesas de viagens relacionadas que utilizam um método de faturação de preço Fixo. Por exemplo, todas as despesas de viagem para o projeto de exemplo de **Implementação do Dynamics AX** são faturadas a um valor monetário fixo.
 
 > [!NOTE]
-> A combinação das classificações de projeto e transação de **Tempo** , **Despesa** e **Taxa** que estão associadas a uma linha de proposta ou item de contrato tem de ser exclusiva. Se a mesma combinação de projeto e classe de transação estiver associada a mais de um item de contrato ou linha de proposta, o PSA não funciona corretamente.
+> A combinação das classificações de projeto e transação de **Tempo**, **Despesa** e **Taxa** que estão associadas a uma linha de proposta ou item de contrato tem de ser exclusiva. Se a mesma combinação de projeto e classe de transação estiver associada a mais de um item de contrato ou linha de proposta, o PSA não funciona corretamente.
 
 ## <a name="billing-types"></a>Tipos de faturação
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4082634"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128072"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Criar uma fatura pró-forma manual
 
@@ -44,17 +44,17 @@ Em vez disso, pode utilizar um sistema financeiro ou de contabilidade para criar
 
 ### <a name="manually-create-project-invoices"></a>Criar manualmente faturas do projeto 
 
-A partir da página da lista de **Contratos do Projeto** , pode criar faturas do projeto separadamente para cada contrato do projeto ou pode criar faturas em massa para vários contratos do projeto.
+A partir da página da lista de **Contratos do Projeto**, pode criar faturas do projeto separadamente para cada contrato do projeto ou pode criar faturas em massa para vários contratos do projeto.
 
 Siga este passo para criar uma fatura para um contrato do projeto específico.
 
-- Na página da lista de **Contratos do Projeto** , abra um contrato do projeto e, em seguida, selecione **Criar Fatura**.
+- Na página da lista de **Contratos do Projeto**, abra um contrato do projeto e, em seguida, selecione **Criar Fatura**.
 
     É gerada uma fatura para todas as transações referentes ao contrato do projeto selecionado que têm um estado de **Pronto para Faturar**. Estas transações incluem o tempo, as despesas, os marcos e os itens de contrato baseados no produto.
 
 Siga estes passos para criar faturas em massa.
 
-1. Na página da lista de **Contratos do Projeto** , selecione um ou mais contratos do projeto para os quais tem de criar uma fatura e, em seguida, selecione **Criar Faturas do Projeto**.
+1. Na página da lista de **Contratos do Projeto**, selecione um ou mais contratos do projeto para os quais tem de criar uma fatura e, em seguida, selecione **Criar Faturas do Projeto**.
 
     Uma mensagem de aviso informa-o de que poderá haver um atraso antes da criação das faturas. O processo também é mostrado.
 
@@ -70,8 +70,8 @@ Siga estes passos para configurar a execução de fatura automatizada.
 
 1. Aceda a **Definições** \> **Tarefas de lote**.
 2. Crie uma tarefa de lote e atribua-lhe o nome **Criar faturas nas operações do Projeto**. O nome da tarefa de lote tem de incluir o termo "Criar Faturas."
-3. No campo **Tipo de tarefa** , selecione **Nenhum**. Por predefinição, as opções **Frequência Diária** e **Está Ativo** estão definidas como **Sim**.
-4. Selecione **Executar Fluxo de Trabalho**. Na caixa de diálogo **Pesquisar Registo** , verá três fluxos de trabalho:
+3. No campo **Tipo de tarefa**, selecione **Nenhum**. Por predefinição, as opções **Frequência Diária** e **Está Ativo** estão definidas como **Sim**.
+4. Selecione **Executar Fluxo de Trabalho**. Na caixa de diálogo **Pesquisar Registo**, verá três fluxos de trabalho:
 
     - ProcessRunCaller
     - ProcessRunner
@@ -80,11 +80,11 @@ Siga estes passos para configurar a execução de fatura automatizada.
 5. Selecione **ProcessRunCaller** e, em seguida, selecione **Adicionar**.
 6. Na caixa de diálogo seguinte, selecione **OK**. Um fluxo de trabalho de **Suspensão** é seguido por um fluxo de trabalho do **Processo**.
 
-    Também pode selecionar **ProcessRunner** no passo 5. Em seguida, quando selecionar **OK** , um fluxo de trabalho do **Processo** é seguido por um fluxo de trabalho de **Suspensão**.
+    Também pode selecionar **ProcessRunner** no passo 5. Em seguida, quando selecionar **OK**, um fluxo de trabalho do **Processo** é seguido por um fluxo de trabalho de **Suspensão**.
 
 Os fluxos de trabalho **ProcessRunCaller** e **ProcessRunner** criam faturas. O **ProcessRunCaller** chama o **ProcessRunner**. **ProcessRunner** é o fluxo de trabalho que, na realidade, cria as faturas. Passa por todos os itens de contrato para os quais é necessário criar faturas e cria faturas para essas linhas. Para determinar os itens de contrato para os quais devem ser criadas faturas, a tarefa examina as datas de execução da fatura para os itens de contrato. Se os itens de contrato que pertencem a um contrato tiverem a mesma data de execução da fatura, as transações são combinadas numa fatura que tem duas linhas de fatura. Se não houver transações para as quais criar faturas, a tarefa ignorará a criação da fatura.
 
-Depois de **ProcessRunner** ter terminado a execução, chama o **ProcessRunCaller** , fornece a hora de fim e é fechado. **ProcessRunCaller** em seguida, inicia um temporizador que funciona durante 24 horas a partir da hora de fim especificada. No final do temporizador, o **ProcessRunCaller** é fechado.
+Depois de **ProcessRunner** ter terminado a execução, chama o **ProcessRunCaller**, fornece a hora de fim e é fechado. **ProcessRunCaller** em seguida, inicia um temporizador que funciona durante 24 horas a partir da hora de fim especificada. No final do temporizador, o **ProcessRunCaller** é fechado.
 
 A tarefa de processamento em lote para criar faturas é uma tarefa recorrente. Se este processamento em lote for executado muitas vezes, são criadas várias instâncias da tarefa e causam erros. Consequentemente, deverá iniciar o processamento em lote apenas uma vez, e só deverá reiniciá-lo se parar de ser executado.
 
@@ -99,7 +99,7 @@ Quando cria um rascunho da fatura do projeto, todas as transações de vendas n�
 - Edite e ajuste a quantidade e o tipo de faturação.
 - Adicione diretamente o tempo, a despesa e as taxas como transações na fatura. Pode utilizar esta funcionalidade se a linha da fatura estiver mapeada para um item de contrato que permita estas classes de transação.
 
-Selecione **Confirmar** para confirmar uma fatura. A ação de Confirmação é uma ação unilateral. Quando seleciona **Confirmar** , o sistema efetua a faturação só de leitura e cria valores reais de vendas faturadas a partir de cada detalhe de linha de fatura para cada linha de fatura. Se o detalhe de linha de fatura referenciar um valor real de vendas não faturadas, o sistema também reverte o valor real de vendas não faturadas. (Qualquer detalhe de linha de fatura que tenha sido criado a partir de uma entrada de tempo ou despesa irá referenciar um valor real de vendas não faturadas.) Os sistemas de integração do razão geral podem utilizar esta reversão para reverter o trabalho do projeto em curso (WIP) para fins de contabilidade.
+Selecione **Confirmar** para confirmar uma fatura. A ação de Confirmação é uma ação unilateral. Quando seleciona **Confirmar**, o sistema efetua a faturação só de leitura e cria valores reais de vendas faturadas a partir de cada detalhe de linha de fatura para cada linha de fatura. Se o detalhe de linha de fatura referenciar um valor real de vendas não faturadas, o sistema também reverte o valor real de vendas não faturadas. (Qualquer detalhe de linha de fatura que tenha sido criado a partir de uma entrada de tempo ou despesa irá referenciar um valor real de vendas não faturadas.) Os sistemas de integração do razão geral podem utilizar esta reversão para reverter o trabalho do projeto em curso (WIP) para fins de contabilidade.
 
 ### <a name="correct-a-confirmed-invoice"></a>Corrigir uma fatura confirmada
 

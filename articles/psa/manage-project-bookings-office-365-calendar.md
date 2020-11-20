@@ -3,7 +3,7 @@ title: Gerir projetos e reservas no seu calendário do Office 365
 description: Como gerir projetos e reservas no seu calendário do Office 365
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082438"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129062"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gerir projetos e reservas no seu calendário (Project Service)
 
@@ -60,7 +60,7 @@ Veja os compromissos pessoais, as reservas de trabalho do projeto e atribuiçõe
   
 3.  Clique no separador **Sincronização**.  
   
-4.  Em **Selecionar a ativação ou não da sincronização das reservas de recursos com o** , selecione **Sincronizar reservas de recursos com o Outlook**.  
+4.  Em **Selecionar a ativação ou não da sincronização das reservas de recursos com o**, selecione **Sincronizar reservas de recursos com o Outlook**.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>Ativar sincronização para o seu perfil de utilizador (tarefa de utilizador)  
   
@@ -70,7 +70,7 @@ Veja os compromissos pessoais, as reservas de trabalho do projeto e atribuiçõe
   
 3.  Clique no separador **Sincronização**.  
   
-4.  Em **Sincronização de reservas de recursos com o Outlook** , selecione **Sincronização de reservas de recursos com o Outlook**.  
+4.  Em **Sincronização de reservas de recursos com o Outlook**, selecione **Sincronização de reservas de recursos com o Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>Importar os seus compromissos pessoais (tarefa de utilizador)  
  Poderá importar os seus compromissos pessoais a partir do seu calendário para a vista de entrada de hora do Project Service Automation.  
@@ -83,7 +83,7 @@ Veja os compromissos pessoais, as reservas de trabalho do projeto e atribuiçõe
   
 4. Selecione o compromisso que pretende adicionar à vista de entrada de hora Project Service Automation.  
   
-5. Na caixa de pop-up **Entrada de Hora** , selecione as opções adequadas para converter o compromissos numa vista de entrada de hora do Project Service Automation.  
+5. Na caixa de pop-up **Entrada de Hora**, selecione as opções adequadas para converter o compromissos numa vista de entrada de hora do Project Service Automation.  
   
 6. Clique em **Guardar**.  
   

@@ -3,7 +3,7 @@ title: Configurar funções de recursos
 description: Como configurar funções de recursos no Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082402"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129152"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurar funções de recursos (Project Service)
 
@@ -41,13 +41,13 @@ As funções têm um papel importante no planeamento do projeto, na determinaç�
   
 2.  Clique em **Novo**.  
   
-3.  Na área **Geral** , introduza o nome da função em **Nome** e preencha os outros campos conforme for necessário.  
+3.  Na área **Geral**, introduza o nome da função em **Nome** e preencha os outros campos conforme for necessário.  
   
 4.  Clique em **Guardar** para criar o registo para poder continuar a editá-lo.  
   
-5.  Na área **Competências** , clique em **+** para adicionar uma competência.  
+5.  Na área **Competências**, clique em **+** para adicionar uma competência.  
   
-6.  No painel **Requisito de competência da função** , clique no campo **Competência** , clique no botão **Procurar** e, em seguida, selecione uma competência.  
+6.  No painel **Requisito de competência da função**, clique no campo **Competência**, clique no botão **Procurar** e, em seguida, selecione uma competência.  
   
 7.  Selecione uma proficiência para essa competência e clique em **Guardar**.  
   

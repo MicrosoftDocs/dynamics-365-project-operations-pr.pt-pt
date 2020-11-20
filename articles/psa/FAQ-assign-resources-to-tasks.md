@@ -3,7 +3,7 @@ title: Atribuir um recurso a uma tarefa
 description: Este tópico fornece informações sobre como atribuir recursos a tarefas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082593"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125147"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Atribuir um recurso a uma tarefa
 
@@ -33,9 +33,9 @@ Existem três formas de atribuir um recurso a uma tarefa no Microsoft Dynamics 3
 
 Pode adicionar um recurso à equipa do projeto e, em seguida, atribuir o recurso a tarefas na agenda do projeto.
 
-1. No separador **Membro da Equipa** , adicione um membro da equipa novo selecionando **Novo**. 
+1. No separador **Membro da Equipa**, adicione um membro da equipa novo selecionando **Novo**. 
 
-2. Abre-se o painel **Criação Rápida de Membros da Equipa** , onde pode selecionar o nome de recurso reservável e definir uma função. 
+2. Abre-se o painel **Criação Rápida de Membros da Equipa**, onde pode selecionar o nome de recurso reservável e definir uma função. 
 
     Escolha um dos seguintes métodos de alocação para a reserva do recurso:
 
@@ -45,10 +45,10 @@ Pode adicionar um recurso à equipa do projeto e, em seguida, atribuir o recurso
     - **Carregamento no Início Por Horas** reserva o recurso para um número especificado de horas carregando inicialmente as horas por dia ao longo das datas de e para especificadas.
     - **Nenhum** adiciona o recurso à equipa, mas não cria quaisquer reservas que absorvam a sua capacidade.
 
-3. Na grelha **Agenda** para uma tarefa, selecione o ícone **Recurso** na célula de recursos e, em seguida, em **Membros da Equipa** , selecione o membro da equipa que acabou de adicionar. 
+3. Na grelha **Agenda** para uma tarefa, selecione o ícone **Recurso** na célula de recursos e, em seguida, em **Membros da Equipa**, selecione o membro da equipa que acabou de adicionar. 
 
 > [!NOTE]
-> Nos separadores **Membro da Equipa** e **Reconciliação** , o recurso mostra as horas reservadas e as horas atribuídas. As horas devem ser iguais, mas não têm de ser, uma vez que as reservas e as atribuições não estão totalmente ligadas. O separador **Reconciliação** oferece-lhe detalhes quando forem diferentes, por exemplo, quando atribui a um recurso mais horas mais do que as que reservou. Se necessário, poderá corrigir as informações através da expansão das reservas do recurso ou da alteração da atribuição.
+> Nos separadores **Membro da Equipa** e **Reconciliação**, o recurso mostra as horas reservadas e as horas atribuídas. As horas devem ser iguais, mas não têm de ser, uma vez que as reservas e as atribuições não estão totalmente ligadas. O separador **Reconciliação** oferece-lhe detalhes quando forem diferentes, por exemplo, quando atribui a um recurso mais horas mais do que as que reservou. Se necessário, poderá corrigir as informações através da expansão das reservas do recurso ou da alteração da atribuição.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Criar um membro da equipa genérico através de atribuição da tarefa
 
@@ -58,7 +58,7 @@ Quando cria um membro da equipa genérico através de atribuição da tarefa, cr
 
 2. Escreva um nome para servir como o nome do recurso de marcador de posição. Por exemplo, Gestor do Programa.
 
-3. Selecione **Criar** e no campo **Criação Rápida de Membro da Equipa do Projeto** , defina a função do recurso genérico.
+3. Selecione **Criar** e no campo **Criação Rápida de Membro da Equipa do Projeto**, defina a função do recurso genérico.
 
 4. Pode continuar a atribuir tarefas a este recurso de marcador de posição selecionando o recurso no **Seletor de Recursos** para a tarefa. Estão listados em **Membros da Equipa**.
 

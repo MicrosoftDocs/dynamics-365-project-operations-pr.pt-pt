@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082295"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127442"
 ---
 # <a name="project-team-members"></a>Membros da equipa do projeto
 
@@ -47,16 +47,16 @@ A tabela que se segue lista os atributos chave de um membro da equipa do projeto
 
 A partir da grelha de membros da equipa, podem ser executadas as seguintes ações:
 
-- **Reservar** : para as organizações que executam ao tirarem partido da metodologia de reservas híbridas, a ação de reserva permitirá aos utilizadores reservar um recurso nomeado baseado nos requisitos exigidos gerados pelo membro da equipa genérica
-- **Gerar Requisito** : esta ação gera o requisito.
-- **Especificar Padrão** : permite aos gestores de projetos ajustar os perfis dos requisitos de recursos a nível granular. Os gestores de projetos podem adaptar-se às necessidades específicas do projeto nas instâncias em que a distribuição por predefinição não se ajusta.
-- **Submeter Pedido** : para as organizações que utilizam a metodologia de reservas centrais.
-- **Editar** : os atributos dos membros da equipa podem ser editados, incluindo a unidade organizacional, a função e o nome de posição.
-- **Manter Reservas** : quando as reservas de recursos precisam de ser atualizadas, manter as reservas permite ao gestor de projetos ajustar:
+- **Reservar**: para as organizações que executam ao tirarem partido da metodologia de reservas híbridas, a ação de reserva permitirá aos utilizadores reservar um recurso nomeado baseado nos requisitos exigidos gerados pelo membro da equipa genérica
+- **Gerar Requisito**: esta ação gera o requisito.
+- **Especificar Padrão**: permite aos gestores de projetos ajustar os perfis dos requisitos de recursos a nível granular. Os gestores de projetos podem adaptar-se às necessidades específicas do projeto nas instâncias em que a distribuição por predefinição não se ajusta.
+- **Submeter Pedido**: para as organizações que utilizam a metodologia de reservas centrais.
+- **Editar**: os atributos dos membros da equipa podem ser editados, incluindo a unidade organizacional, a função e o nome de posição.
+- **Manter Reservas**: quando as reservas de recursos precisam de ser atualizadas, manter as reservas permite ao gestor de projetos ajustar:
 
     - Iniciar
     - Fim
     - Alocação de esforço total
 
-- **Novo** : além de adicionar recursos diretamente a partir da agenda, os Gestores de projetos podem adicionar novos membros da equipa nomeados ou genéricos a partir da grelha de membros da equipa.
-- **Eliminar** : ao selecionar um ou vários membros da equipa, o gestor de projeto pode eliminar os recursos que já não vão participar no projeto. A eliminação de um membro da equipa também eliminará todas as atribuições de recursos associadas e cancelará todas as reservas existentes.
+- **Novo**: além de adicionar recursos diretamente a partir da agenda, os Gestores de projetos podem adicionar novos membros da equipa nomeados ou genéricos a partir da grelha de membros da equipa.
+- **Eliminar**: ao selecionar um ou vários membros da equipa, o gestor de projeto pode eliminar os recursos que já não vão participar no projeto. A eliminação de um membro da equipa também eliminará todas as atribuições de recursos associadas e cancelará todas as reservas existentes.

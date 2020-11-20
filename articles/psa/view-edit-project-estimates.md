@@ -3,7 +3,7 @@ title: Ver e editar estimativas do projeto
 description: Como ver e editar estimativas do projeto no Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082480"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125867"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Ver e editar estimativas do projeto (Project Service)
 
@@ -37,7 +37,7 @@ Com as capacidades do [!INCLUDE[pn_project_service_auto](../includes/pn-project-
   
 3.  Na barra na parte superior do ecrã, selecione a seta para baixo junto ao nome do projeto e, em seguida, clique em **Estimativas do Projeto**.  
   
-4.  Em **Faseamento no Tempo Por** , selecione **Esforço** , **Custo** ou **Vendas** para alterar as estimativas do projeto a apresentar.  
+4.  Em **Faseamento no Tempo Por**, selecione **Esforço**, **Custo** ou **Vendas** para alterar as estimativas do projeto a apresentar.  
   
 5.  Para adicionar ou eliminar despesas, clique em **Mostrar Vista de Grelha**. Para criar uma nova despesa, clique em **Nova Despesa**. Para eliminar uma despesa, selecione-a e clique em **Eliminar Despesa**. Quando terminar de adicionar ou eliminar despesas, clique em **Guardar**.  
   

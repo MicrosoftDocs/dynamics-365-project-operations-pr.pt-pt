@@ -3,7 +3,7 @@ title: Agendar um projeto com uma estrutura hierárquica do trabalho
 description: Como agendar um projeto com uma estrutura hierárquica do trabalho no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082586"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127892"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Agendar um projeto com uma estrutura hierárquica do trabalho (Project Service)
 
@@ -86,14 +86,14 @@ Utilize os seguintes tipos de tarefa quando criar a sua estrutura hierárquica d
   
 ### <a name="schedule-attributes"></a>Agendar atributos
 
- - Atribua valores a **Horas de Esforço** , **Número de recursos** , **Data de início** , **Data de fim** e **Duração** para determinar a agenda da tarefa. 
+ - Atribua valores a **Horas de Esforço**, **Número de recursos**, **Data de início**, **Data de fim** e **Duração** para determinar a agenda da tarefa. 
  - **Esforço** é uma estimativa das horas que demora a concluir a tarefa.
  - **Número de recursos** é uma estimativa que o gestor do projeto coloca na tarefa para ajudar a determinar a melhor agenda possível. 
  - **Duração** (dias) indica o número de dias de trabalho que demorará a concluir a tarefa.  
   
 ### <a name="staffing-attributes"></a>Atributos do pessoal
 
- - **Função** , **Unidade organizacional do recurso** , **Número de recursos** e **Recursos** descrevem os requisitos de pessoal para a tarefa. 
+ - **Função**, **Unidade organizacional do recurso**, **Número de recursos** e **Recursos** descrevem os requisitos de pessoal para a tarefa. 
  - **Função** descreve o tipo de recurso necessário para executar a tarefa. 
  - **Unidade organizacional do recurso** indica a unidade organizacional na qual os recursos devem receber pessoal para essa tarefa; isto também tem impacto na estimativa de custo e vendas da tarefa, uma vez que é contabilizado para quando determinar o preço de venda da unidade do recurso. 
  - **Recursos** contém um recurso genérico ou um recurso nomeado quando é encontrado um.  

@@ -3,7 +3,7 @@ title: Gerir pedidos de recursos
 description: Como gerir pedidos de recursos no Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082403"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129017"
 ---
 # <a name="manage-resource-requests-project-service"></a>Gerir pedidos de recursos (Project Service)
 
@@ -37,11 +37,11 @@ Os gestores de conta e os gestores de projeto pedem regularmente recursos para o
   
     Execute um dos seguintes procedimentos para otimizar a sua pesquisa:  
   
-   -   Selecione uma vista ou sequência de ordenação na parte superior do ecrã. Também poderá selecionar se pretende mostrar a disponibilidade no **Dia** , **Semana** ou **Mês** e utilizar as setas para ver o período de tempo anterior ou seguinte. Utilize a caixa de pesquisa para localizar um recurso específico.  
+   -   Selecione uma vista ou sequência de ordenação na parte superior do ecrã. Também poderá selecionar se pretende mostrar a disponibilidade no **Dia**, **Semana** ou **Mês** e utilizar as setas para ver o período de tempo anterior ou seguinte. Utilize a caixa de pesquisa para localizar um recurso específico.  
   
    -   Clique em **Opções** para alterar o que é apresentado. Por exemplo, pode mostrar uma legenda que mostra o esquema de cores dos diferentes tipos de reservas ou pode optar por mostrar apenas um determinado tipo de reserva (por exemplo, reserva fixa ou reserva flexível).  
   
-   -   Clique em **Filtrar** para apresentar o painel **Filtrar** , que permite filtrar os seus resultados por unidade organizacional, função, competência ou outros atributos.  
+   -   Clique em **Filtrar** para apresentar o painel **Filtrar**, que permite filtrar os seus resultados por unidade organizacional, função, competência ou outros atributos.  
   
        ![Ecrã de Pedidos de Recurso do Project Service](../psa/media/project-service-resource-request-screen.png "Ecrã de Pedidos de Recurso do Project Service")  
   

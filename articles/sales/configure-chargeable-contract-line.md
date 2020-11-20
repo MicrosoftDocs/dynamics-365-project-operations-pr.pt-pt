@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082341"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128709"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurar componentes faturáveis de um item de contrato baseado em projetos
 
@@ -35,13 +35,13 @@ A capacidade de faturação definida nas categorias de transação de um item de
 
 Uma função pode ser faturável ou não faturável num item de contrato baseado em projetos específico.
 
-No separador **Funções faturáveis** de um item de contrato baseado em projetos, na subgrelha **Categorias Faturáveis** , no campo **Tipo de Faturação** , atualize o tipo de faturação para uma função.
+No separador **Funções faturáveis** de um item de contrato baseada em projeto, na subgrelha **Categorias Faturáveis**, no campo **Tipo de Faturação**, atualize o tipo de faturação para uma função.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Atualizar uma categoria de transação como faturável ou não faturável
 
 Uma categoria de transação pode ser faturável ou não faturável num item de contrato baseado em projetos específico.
 
-No separador **Categorias Faturáveis** de um item de contrato baseado em projetos, na subgrelha **Categorias Faturáveis** , no campo **Tipo de Faturação** , atualize o tipo de faturação para uma transação.
+No separador **Categorias Faturáveis** de um item de contrato baseada em projeto, na subgrelha **Categorias Faturáveis**, no campo **Tipo de Faturação**, atualize o tipo de faturação para uma transação.
 
 ### <a name="resolve-chargeability"></a>Resolver a capacidade de faturação
 

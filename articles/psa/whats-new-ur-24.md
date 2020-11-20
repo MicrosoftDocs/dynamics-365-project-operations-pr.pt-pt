@@ -3,7 +3,7 @@ title: Novidades ou alterações na Versão da Atualização 24 do Project Servi
 description: Este tópico lista as funcionalidades e correções disponíveis no Project Service Automation V3, Versão da Atualização 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082356"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126587"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Versão da Atualização 24 do Project Service Automation, V3
 
@@ -67,7 +67,7 @@ Foram corrigidos os seguintes problemas:
 
 Foram corrigidos os seguintes problemas:
 
-- Na **Agenda do Projeto** , ao mudar de **Manual** para **Automático** , a atualização automática não é concluída.
+- Na **Agenda do Projeto**, ao mudar de **Manual** para **Automático**, a atualização automática não é concluída.
 - Os custos de despesas não contam para a variância na **Grelha de Monitorização do Projeto**.
 - Comportamento inconsistente para colunas de **Etiqueta de estimativas** durante o carregamento vs. alterar o tipo **Fase de Tempo**.
 - O custo real de um projeto pode não refletir os totais de **Atuais**.

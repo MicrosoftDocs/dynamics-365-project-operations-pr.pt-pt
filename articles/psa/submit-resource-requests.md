@@ -3,7 +3,7 @@ title: Submeter pedidos de recursos
 description: Como submeter pedidos de recursos no Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082496"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126902"
 ---
 # <a name="submit-resource-requests-project-service"></a>Submeter pedidos de recursos (Project Service)
 
@@ -41,11 +41,11 @@ Quando ganha um contrato de projeto, precisa de equipar o seu projeto. A estrutu
   
 5.  Para fazer uma reserva flexível, selecione a função e, em seguida, clique em **Reserva Fixa**. É mostrada uma vista de calendário de todos os recursos e respetiva disponibilidade, com códigos de cor que fornecem uma vista visual do estado do registo de um recurso. Execute um dos seguintes procedimentos para otimizar a sua pesquisa:  
   
-    -   Selecione uma vista ou sequência de ordenação na parte superior do ecrã. Também poderá selecionar se pretende mostrar a disponibilidade no **Dia** , **Semana** ou **Mês** e utilizar as setas para ver o período de tempo anterior ou seguinte. Utilize a caixa de pesquisa para localizar um recurso específico.  
+    -   Selecione uma vista ou sequência de ordenação na parte superior do ecrã. Também poderá selecionar se pretende mostrar a disponibilidade no **Dia**, **Semana** ou **Mês** e utilizar as setas para ver o período de tempo anterior ou seguinte. Utilize a caixa de pesquisa para localizar um recurso específico.  
   
     -   Clique em **Opções** para alterar o que é apresentado. Por exemplo, pode mostrar uma legenda que mostra o esquema de cores dos diferentes tipos de reservas ou pode optar por mostrar apenas um determinado tipo de reserva (por exemplo, reserva fixa ou reserva flexível).  
   
-    -   Clique em **Filtrar** para apresentar o painel **Filtrar** , que permite filtrar os seus resultados por unidade organizacional, função, competência ou outros atributos.  
+    -   Clique em **Filtrar** para apresentar o painel **Filtrar**, que permite filtrar os seus resultados por unidade organizacional, função, competência ou outros atributos.  
   
     -   No calendário do recurso que pretende reservar, selecione o período de tempo para reservar o recurso e, em seguida, clique em **Reservar** para reservar o recurso ou em **Propor Reserva** para propor a reserva e o requerente a aprovar.  
   

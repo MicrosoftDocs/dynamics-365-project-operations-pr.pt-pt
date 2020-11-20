@@ -3,7 +3,7 @@ title: Processos de vendas
 description: Este tópico fornece informações sobre os processos de vendas básicos.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082518"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129332"
 ---
 # <a name="sales-processes"></a>Processos de vendas
 
@@ -70,12 +70,12 @@ Estas seis fases são representadas por divisas (\>) que seleciona para expandir
  
 A sua organização poderá utilizar entidades diferentes para representar o mesmo negócio à medida que evoluir. No início do processo de vendas, um negócio é representado pela entidade Oportunidade. À medida que o tempo passa e surgem mais detalhes, poderá utilizar estimativas de alto nível para criar uma ou mais propostas. Se uma destas propostas for revista por intervenientes internos e dos clientes, a entidade Proposta representa o negócio. Depois de o cliente aceitar a proposta, um contrato do projeto ou uma SOW representa o negócio. Para suportar este comportamento, os BPFs são estruturados de modo a que cada fase no processo esteja associada a uma tabela de base de dados diferente.
 
-A fase **Qualificar** no processo de vendas pode ser apoiada por uma entidade Oportunidade. As fases **Estimativa** e **Revisão Interna** podem ser apoiadas por uma entidade Proposta. As fases **Contrato** , **Entrega** e **Fechar** podem ser apoiadas por uma entidade Contrato do Projeto.
+A fase **Qualificar** no processo de vendas pode ser apoiada por uma entidade Oportunidade. As fases **Estimativa** e **Revisão Interna** podem ser apoiadas por uma entidade Proposta. As fases **Contrato**, **Entrega** e **Fechar** podem ser apoiadas por uma entidade Contrato do Projeto.
 
 À medida que os negócios avançam pelas fases, é-lhe pedido para criar o registo de entidade apropriado para o ajudar e orientar ao longo do processo. As fases podem ser condicionais. Por exemplo, se necessitar de uma revisão interna de uma proposta apenas se a proposta utilizar uma lista de preços personalizada, poderá configurar essa condição na fase apropriada do processo de negócio. A fase **Revisão Interna** é mostrada apenas para as propostas que utilizam uma lista de preços personalizada. Para todos os outros negócios e propostas, a fase **Estimativa** é seguida pela fase **Contrato**.
 
 > [!NOTE]
-> O PSA tem páginas específicas para as entidades Oportunidade, Proposta, Encomenda e Fatura. Tem de criar oportunidades de serviço do projeto, propostas, encomendas e faturas utilizando as páginas de informação do projeto para estas entidades. Se utilizar outra página para criar um registo, não conseguirá abrir o registo a partir da página **Informações do Projeto**. Se pretender abrir um registo a partir da página **Informações do Projeto** , tem de eliminar o registo e recriá-lo utilizando a página **Informações do Projeto**. Na página **Informações do projeto** , a lógica de negócio para cada um destes tipos de entidade assegura que o campo **Tipo** do registo está definido corretamente e que todos os conceitos obrigatórios são inicializados corretamente.
+> O PSA tem páginas específicas para as entidades Oportunidade, Proposta, Encomenda e Fatura. Tem de criar oportunidades de serviço do projeto, propostas, encomendas e faturas utilizando as páginas de informação do projeto para estas entidades. Se utilizar outra página para criar um registo, não conseguirá abrir o registo a partir da página **Informações do Projeto**. Se pretender abrir um registo a partir da página **Informações do Projeto**, tem de eliminar o registo e recriá-lo utilizando a página **Informações do Projeto**. Na página **Informações do projeto**, a lógica de negócio para cada um destes tipos de entidade assegura que o campo **Tipo** do registo está definido corretamente e que todos os conceitos obrigatórios são inicializados corretamente.
 
 > ![Informações do projeto para uma nova encomenda](media/basic-guide-4.png)
  

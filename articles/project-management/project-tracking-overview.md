@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082255"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127377"
 ---
 # <a name="project-tracking-overview"></a>Descrição geral da monitorização do projeto
 
@@ -25,9 +25,9 @@ A necessidade de monitorizar o progresso relativamente a uma agenda varia de aco
 
 A vista **Controlo do Esforço** monitoriza o progresso das tarefas na agenda ao comparar as horas de esforço reais gastas numa tarefa com as horas de esforço planeadas da tarefa. O Dynamics 365 Project Operations utiliza as seguintes fórmulas para calcular as métricas de monitorização:
 
-- **Percentagem de progresso** : Esforço real gasto até à data ÷ Estimativa na conclusão (EAC) 
+- **Percentagem de progresso**: Esforço real gasto até à data ÷ Estimativa na conclusão (EAC) 
 - **Estimativa para conclusão (ETC)** Esforço planeado – Esforço real gasto até à data 
-- **EAC** : Esforço restante + Esforço real gasto até à data 
+- **EAC**: Esforço restante + Esforço real gasto até à data 
 - **Desvio do esforço projetado** Esforço planeado – EAC
 
 O Project Operations mostra uma projeção do desvio do esforço na tarefa. Se a EAC for superior ao esforço planeado, a tarefa está projetada para demorar mais tempo do que planeado originalmente e está atrasada. Se a EAC for inferior ao esforço planeado, a tarefa está projetada para demorar menos tempo do planeado originalmente e está adiantada.
@@ -60,10 +60,10 @@ A vista **Controlo dos custos** compara o custo real gasto numa tarefa com o cus
 > [!NOTE]
 > Esta vista mostra apenas os custos de mão de obra e não inclui os custos das estimativas de despesas. O Project Operations utiliza as seguintes fórmulas para calcular as métricas de monitorização:
 
-- **Percentagem do custo consumido** : Custo real gasto até à data ÷ Custo estimado na conclusão
-- **Custo para conclusão (CTC)** : Custo planeado – Custo real gasto até à data
-- **EAC** : Custo Restante + Custo real gasto até à data
-- **Desvio de custo projetado** : Custo planeado – EAC
+- **Percentagem do custo consumido**: Custo real gasto até à data ÷ Custo estimado na conclusão
+- **Custo para conclusão (CTC)**: Custo planeado – Custo real gasto até à data
+- **EAC**: Custo Restante + Custo real gasto até à data
+- **Desvio de custo projetado**: Custo planeado – EAC
 
 Uma projeção do desvio de custo é mostrada na tarefa. Se a EAC for superior ao custo planeado, a tarefa é projetada para custar mais do que o planeado originalmente. Portanto, está acima do orçamento. Se a EAC for inferior ao custo planeado, a tarefa é projetada para custar menos do que o planeado originalmente. Portanto, está abaixo do orçamento.
 

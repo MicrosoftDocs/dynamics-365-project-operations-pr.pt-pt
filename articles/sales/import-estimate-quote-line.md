@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082320"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125597"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimativas de um projeto para a linha de proposta baseada no projeto
 
@@ -23,7 +23,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 Se um projeto for criado durante a fase de pré-venda, poderá selecionar para importar a estimativa financeira a partir do projeto para a linha de proposta baseada no projeto.
 
 1. Certifique-se de que a linha de proposta baseada em projetos tem a informação do projeto no campo **Projeto**.
-2. No separador **Detalhes de linha de proposta** , selecione **Importar a partir da Estimativa do Projeto**.
+2. No separador **Detalhes de linha de proposta**, selecione **Importar a partir da Estimativa do Projeto**.
 3. Na caixa de diálogo que é aberta, selecione uma das seguintes opções de resumo:
 
   - **Classe de transação**
@@ -31,7 +31,7 @@ Se um projeto for criado durante a fase de pré-venda, poderá selecionar para i
   - **Função** 
   - **Tarefa de projeto**
 
-Baseada na sua seleção, é copiada a estimativa a partir do projeto para todas as classes de transações incluídas nesta linha de proposta. Para verificar quais as classes de transações incluídas, selecione o separador **Geral** na linha de proposta baseada no projeto e verifique os valores de **Incluir Tempo** , **Incluir Despesas** e **Incluir Taxas**.
+Baseada na sua seleção, é copiada a estimativa a partir do projeto para todas as classes de transações incluídas nesta linha de proposta. Para verificar quais as classes de transações incluídas, selecione o separador **Geral** na linha de proposta baseada no projeto e verifique os valores de **Incluir Tempo**, **Incluir Despesas** e **Incluir Taxas**.
 
 Quando importa estimativas, o sistema assumirá por predefinição os preços baseado nas listas de preços do projeto anexadas à proposta e o tipo de faturação configurado na linha de proposta baseada no projeto. Se uma função ou categoria for configurada na linha de proposta baseada no projeto como não faturável, a linha de estimativa importada será definida como não faturável e não será somada ao valor proposto da linha de proposta.
 

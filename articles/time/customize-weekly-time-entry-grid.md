@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082303"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124652"
 ---
 # <a name="extending-time-entries"></a>Expandir entradas de hora
 
@@ -33,7 +33,7 @@ O Dynamics 365 Project Operations inclui um controlo personalizado de hora expan
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Adicione entradas de hora personalizadas para o seu uso próprio
 
-As entradas de hora são uma entidade de núcleo utilizada em vários cenários. Na Vaga 1 de abril de 2020, foi introduzida a solução de núcleo TESA. A TESA fornece uma entidade **Definições** e um novo direito de acesso **Utilizador de Entrada de Hora**. Também foram incluídos os novos campos, **msdyn_start** e **msdyn_end** , que têm uma relação direta com **msdyn_duration**. A nova entidade, o direito de acesso e os campos permitem uma abordagem mais unificada ao tempo através de vários produtos.
+As entradas de hora são uma entidade de núcleo utilizada em vários cenários. Na Vaga 1 de abril de 2020, foi introduzida a solução de núcleo TESA. A TESA fornece uma entidade **Definições** e um novo direito de acesso **Utilizador de Entrada de Hora**. Também foram incluídos os novos campos, **msdyn_start** e **msdyn_end**, que têm uma relação direta com **msdyn_duration**. A nova entidade, o direito de acesso e os campos permitem uma abordagem mais unificada ao tempo através de vários produtos.
 
 
 ### <a name="time-source-entity"></a>Entidade de origem de hora
@@ -103,13 +103,13 @@ Personalizar a vista **As Minhas Entradas de Hora Semanais** e adicionar o campo
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Criar uma nova entrada de hora personalizada predefinida
 
-Esta vista deve conter os campos **Descrição** e **Comentários Externos** , além das colunas que pretende ter na grelha. 
+Esta vista deve conter os campos **Descrição** e **Comentários Externos**, além das colunas que pretende ter na grelha. 
 
 1. Escolha a posição, o tamanho e a sequência de ordenação predefinida da grelha ao editar essas propriedades na vista. 
 2. Configure o controlo personalizado para esta vista para que seja um controlo **Grelha de Entrada de Hora**. 
 3. Adicione este controlo à vista e selecione-o para Web, telefone e tablet. 
 4. Configure os parâmetros para a grelha de entrada de hora semanal. 
-5. Defina o campo **Data de Início** para **msdyn_date** , defina o campo **Duração** para **msdyn_duration** e defina o campo **Estado** para **msdyn_entrystatus**. 
+5. Defina o campo **Data de Início** para **msdyn_date**, defina o campo **Duração** para **msdyn_duration** e defina o campo **Estado** para **msdyn_entrystatus**. 
 6. Para a vista predefinida, o campo **Lista de Estado Apenas de Leitura** está definido para **192350002,192350003,192350004**. O campo **Fluxo de Tarefas de Edição de Linhas** está definido para **msdyn_timeentryrowedit**. O campo **Fluxo de Tarefas de Edição de Células** está definido para **msdyn_timeentryedit**. 
 7. Pode personalizar estes campos para adicionar ou remover o estado só de leitura ou para utilizar uma experiência baseada em tarefas diferente (TBX) para a edição de linhas ou células. Estes campos estão agora vinculados a um valor estático.
 
@@ -117,14 +117,14 @@ Esta vista deve conter os campos **Descrição** e **Comentários Externos** , a
 > [!NOTE] 
 > Ambas as opções irão remover algumas filtragens fornecidas com o programa nas entidades **Projeto** e **Tarefa do Projeto** para que todas as vistas de pesquisa das entidades sejam visíveis. Fornecidas com o programa, apenas as vistas de pesquisa relevantes são visíveis.
 
-Determine o fluxo de tarefas apropriado para o campo personalizado. Se adicionou o campo à grelha, deve entrar no fluxo de tarefas de edição de linhas que é utilizado para os campos que se aplicam a toda a linha de entradas de tempo. Se o campo personalizado tiver um valor exclusivo todos os dias, tal como um campo personalizado para **Hora de Fim** , este deverá entrar no fluxo de tarefas de edição de células.
+Determine o fluxo de tarefas apropriado para o campo personalizado. Se adicionou o campo à grelha, deve entrar no fluxo de tarefas de edição de linhas que é utilizado para os campos que se aplicam a toda a linha de entradas de tempo. Se o campo personalizado tiver um valor exclusivo todos os dias, tal como um campo personalizado para **Hora de Fim**, este deverá entrar no fluxo de tarefas de edição de células.
 
 Para adicionar o campo personalizado a um fluxo de tarefas, arraste um elemento **Campo** para a posição apropriada na página e, em seguida, defina as propriedades do campo. Defina a propriedade **Origem** como **Entrada de Hora** e defina a propriedade **Campo de Dados** como o campo personalizado. A propriedade **Campo** especifica o nome a apresentar na página de TBX. Selecione **Aplicar** para guardar as suas alterações no campo e, em seguida, selecione **Atualizar** para guardar as suas alterações à página.
 
-Para utilizar uma nova página de TBX personalizada, crie um novo processo. Defina a categoria como **Fluxo do Processo de Negócio** , defina a entidade como **Entrada de Tempo** e defina o tipo de processo de negócio como **Executar processo como fluxo de tarefas**. Em **Propriedades** , a propriedade **Nome da página** deve ser definida como o nome a apresentar da página. Adicione todos os campos relevantes à página de TBX. Guarde e ative o processo. Atualize a propriedade de controlo personalizado para o fluxo de tarefas relevante para o valor **Nome** no processo.
+Para utilizar uma nova página de TBX personalizada, crie um novo processo. Defina a categoria como **Fluxo do Processo de Negócio**, defina a entidade como **Entrada de Tempo** e defina o tipo de processo de negócio como **Executar processo como fluxo de tarefas**. Em **Propriedades**, a propriedade **Nome da página** deve ser definida como o nome a apresentar da página. Adicione todos os campos relevantes à página de TBX. Guarde e ative o processo. Atualize a propriedade de controlo personalizado para o fluxo de tarefas relevante para o valor **Nome** no processo.
 
 ### <a name="add-new-option-set-values"></a>Adicionar novos valores do conjunto de opções
-Para adicionar valores do conjunto de opções a um campo fornecido com o programa, abra a página de edição para o campo e, em **Tipo** , selecione **Editar** junto do conjunto de opções. Adicione uma nova opção que tenha uma etiqueta e cor personalizadas. Se pretender adicionar um novo estado de entrada de tempo, o campo fornecido com o programa é denominado **Estado de Entrada** , e não **Estado**.
+Para adicionar valores do conjunto de opções a um campo fornecido com o programa, abra a página de edição para o campo e, em **Tipo**, selecione **Editar** junto do conjunto de opções. Adicione uma nova opção que tenha uma etiqueta e cor personalizadas. Se pretender adicionar um novo estado de entrada de tempo, o campo fornecido com o programa é denominado **Estado de Entrada**, e não **Estado**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designar um novo estado de entrada de tempo como só de leitura
 Para designar um novo estado de entrada de hora como só de leitura, adicione o novo valor de entrada de hora à propriedade **Estado de Lista Só de Leitura**. A parte editável da grelha de entrada de tempo será bloqueada para as linhas que tenham o novo estado.

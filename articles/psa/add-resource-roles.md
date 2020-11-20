@@ -3,7 +3,7 @@ title: Adicionar funções de recursos
 description: Como atribuir uma função aos recursos do Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082600"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129602"
 ---
 # <a name="add-resource-roles-project-service"></a>Adicionar funções de recursos (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082600"
 
 Defina taxas de utilização alvo para cada função. Estas definições determinam a disponibilidade e utilização dos recursos quando está a atribuir equipas aos projetos e a analisar os valores reais.  
   
-1.  Vá para a função do recurso para a qual pretende configurar a utilização ( **Project Service > Função do Recurso** ).  
+1.  Vá para a função do recurso para a qual pretende configurar a utilização (**Project Service > Função do Recurso**).  
   
 2.  Clique na seta para baixo junto à função do recurso na parte superior do ecrã.  
   
@@ -39,7 +39,7 @@ Defina taxas de utilização alvo para cada função. Estas definições determi
   
 4.  Clique em **Adicionar Nova Utilização da Função**.  
   
-5.  Na área **Geral** , preencha os campos conforme for necessário.  
+5.  Na área **Geral**, preencha os campos conforme for necessário.  
   
 6.  Clique em **Guardar** ou em **Guardar e Fechar**.  
   

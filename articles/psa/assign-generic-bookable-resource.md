@@ -3,7 +3,7 @@ title: Atribuir recursos reserváveis genéricos a uma equipa de tarefas e proje
 description: Este tópico fornece informações sobre a reserva de recursos genéricos para equipas de tarefas e projetos.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082419"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127082"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recursos 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082419"
 
 Além da reserva e da atribuição de recursos nomeados ou reais ao seu projeto, pode atribuir recursos genéricos a tarefas do projeto. Estes recursos podem servir como marcadores de posição para os recursos nomeados até estar pronto para definir a equipa para o seu projeto com os recursos nomeados. 
 
-1. No Project Service Automation (PSA), abra a página **Projeto** e no separador **Agenda** , introduza o nome da posição do recurso genérico na célula **Recurso** da agenda. Alternativamente, clique no ícone **Recurso** na célula para abrir o seletor de recursos e, em seguida, introduza o nome do recurso genérico que pretende criar.
+1. No Project Service Automation (PSA), abra a página **Projeto** e no separador **Agenda**, introduza o nome da posição do recurso genérico na célula **Recurso** da agenda. Alternativamente, clique no ícone **Recurso** na célula para abrir o seletor de recursos e, em seguida, introduza o nome do recurso genérico que pretende criar.
 
 ![Criar e atribuir um membro da equipa genérico](media/RM-how-to-9.png)
 

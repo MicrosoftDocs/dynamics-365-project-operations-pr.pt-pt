@@ -3,7 +3,7 @@ title: Controlar o estado de um projeto
 description: Como monitorizar o estado de um projeto no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082490"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127847"
 ---
 # <a name="track-a-projects-status-project-service"></a>Monitorizar o estado de um projeto (Project Service)
 
@@ -40,7 +40,7 @@ Utilize as capacidades do [!INCLUDE[pn_dyn_365_project_service_auto](../includes
 |  **Proposta**   |      Quando associa um projeto a uma proposta ou o cria a partir de uma proposta, a fase de projeto é definida como **Proposta** e datas de início e de fim estimadas também são atualizadas. Quando o projeto está na fase de proposta, os detalhes da proposta são apresentados no separador **Vendas** na página **Projeto**.      |
 |   **Planear**   |                                     Quando ganha uma proposta associada a um projeto e quando a cativação progride para a fase de contrato, a fase do projeto é atualizada para **Plano**. Os detalhes do contrato são apresentados no separador **Vendas** na página **Projeto**.                                      |
 | **Concluída** |                    Quando o trabalho do projeto é concluído, pode mudar a fase para **Concluído**. Quando a fase do projeto é definida como concluído, entende-se que o trabalho está 100% concluído, mas o projeto é mantido aberto para serem registadas quaisquer horas ou despesas pendentes.                     |
-|  **Fechar**   |           Depois de registadas todas as transações no projeto e não espera que sejam registadas mais, pode definir manualmente a fase como **Fecho**. Quando o projeto é definido como **Fecho** , não é possível registar mais transações no projeto e este passa a ser só de leitura.           |
+|  **Fechar**   |           Depois de registadas todas as transações no projeto e não espera que sejam registadas mais, pode definir manualmente a fase como **Fecho**. Quando o projeto é definido como **Fecho**, não é possível registar mais transações no projeto e este passa a ser só de leitura.           |
 
 ## <a name="to-track-a-projects-status"></a>Para controlar o estado de um projeto  
 

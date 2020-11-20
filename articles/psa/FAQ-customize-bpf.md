@@ -2,7 +2,7 @@
 title: Como posso personalizar o fluxo do processo do Project Stages?
 description: Uma descrição geral para personalizar o fluxo do processo de negócio das Fases do Projeto.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082590"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125057"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Como posso personalizar o fluxo do processo do Project Stages?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Não existe uma limitação conhecida em versões anteriores da aplicação Project Service em que os nomes das fases no fluxo do processo de negócio no Project Stages devem corresponder exatamente aos nomes de inglês esperados ( **Quote** , **Plan** , **Close** ). Caso contrário, a lógica de negócio, que utiliza os nomes de fase em inglês, não funciona conforme esperado. É por essa razão que não vê ações familiares tal como **Alternar Processo** ou **Editar Processo** disponíveis no formulário de projeto e personalizar o fluxo do processo de negócio não é recomendável. 
+Não existe uma limitação conhecida em versões anteriores da aplicação Project Service em que os nomes das fases no fluxo do processo de negócio no Project Stages devem corresponder exatamente aos nomes de inglês esperados (**Quote**, **Plan**, **Close**). Caso contrário, a lógica de negócio, que utiliza os nomes de fase em inglês, não funciona conforme esperado. É por essa razão que não vê ações familiares tal como **Alternar Processo** ou **Editar Processo** disponíveis no formulário de projeto e personalizar o fluxo do processo de negócio não é recomendável. 
 
 Esta limitação foi resolvida na versão 2.4.5.48 e posterior. Se necessitar de personalizar o fluxo do processo de negócio predefinido em versões anteriores, este artigo fornece soluções sugeridas.  
 
@@ -38,7 +38,7 @@ Esta limitação foi resolvida na versão 2.4.5.48 e posterior. Se necessitar de
 O fluxo do processo de negócio do Project Stages inclui lógica de negócio que aciona os seguintes comportamentos na aplicação:
 - Quando o projeto está associado a uma proposta, o código define fluxo do processo de negócio para a fase **Quote**.
 - Quando o projeto está associado a um contrato, o código define fluxo do processo de negócio para a fase **Plan**.
-- Quando o fluxo do processo de negócio é avançado para a fase **Close** , o registo de projeto é desativado. Quando do projeto é desativado, o formulário de projeto e a estrutura hierárquica do trabalho (WBS) são definidos como só de leitura, as reservas de recurso nomeadas são libertadas e quaisquer listas de preços associadas são desativadas.
+- Quando o fluxo do processo de negócio é avançado para a fase **Close**, o registo de projeto é desativado. Quando do projeto é desativado, o formulário de projeto e a estrutura hierárquica do trabalho (WBS) são definidos como só de leitura, as reservas de recurso nomeadas são libertadas e quaisquer listas de preços associadas são desativadas.
 
 Esta lógica de negócio utiliza os nomes em inglês para as fases de projeto. Este dependência nos nomes de fase em inglês é o principal motivo por que a personalização do fluxo do processo de negócio do Project Stages não é encorajada, assim como, o motivo porque não visualiza as ações comuns do fluxo do processo de negócio como **Alternar Proces** ou **Editar Processo** na entidade do projeto.
 
@@ -48,7 +48,7 @@ Na versão 1.x da aplicação Project Service na plataforma 8.2, quando os nomes
 
 Na versão 2.4.4.30 da aplicação Project Service ou anterior na plataforma 9.0, ocorreu uma alteração significativa na arquitetura dos fluxos de processo de negócio, que necessitou de uma nova programação da lógica de negócio do fluxo de processo de negócio. Consequentemente, se os nomes de fase do processo não corresponderem aos nomes em inglês esperados, irá receber uma mensagem de erro. 
 
-Por conseguinte, se pretender personalizar o fluxo do processo de negócio do Project Stages para a entidade de projeto, só pode adicionar novas fases ao fluxo do processo de negócio predefinido para a entidade de projeto e manter as fases **Quote** , **Plan** e **Fases** tal como estão. Esta restrição assegura que não tem erros da lógica de negócio que espera os nomes de fase em inglês no fluxo do processo de negócio.
+Por conseguinte, se pretender personalizar o fluxo do processo de negócio do Project Stages para a entidade de projeto, só pode adicionar novas fases ao fluxo do processo de negócio predefinido para a entidade de projeto e manter as fases **Quote**, **Plan** e **Fases** tal como estão. Esta restrição assegura que não tem erros da lógica de negócio que espera os nomes de fase em inglês no fluxo do processo de negócio.
 
 Na versão 2.4.5.48 ou posterior, a lógica de negócio descrita neste artigo foi removida do fluxo do processo de negócio predefinido para a entidade de projeto. Atualizar para essa versão ou posterior permitirá personalizar ou substituir o fluxo do processo de negócio predefinido com um dos seus. 
 
@@ -56,12 +56,12 @@ Na versão 2.4.5.48 ou posterior, a lógica de negócio descrita neste artigo fo
 
 Se a atualização não for uma opção, pode personalizar o fluxo do processo de negócio do Project Stages para a entidade de projeto de uma destas duas formas:
 
-1. Adicionar fases adicionais à configuração predefinida, mantendo os nomes de fase em inglês para **Quote** , **Plan** e **Close**.
+1. Adicionar fases adicionais à configuração predefinida, mantendo os nomes de fase em inglês para **Quote**, **Plan** e **Close**.
 
 
 ![Captura de ecrã de adição de fases à configuração predefinida](media/FAQ-Customize-BPF-1.png)
  
-2. Criar o seu próprio fluxo do processo de negócio e torná-lo o fluxo do processo de negócio principal para a entidade de projeto, o que lhe permite ter os nomes de fase que pretender. No entanto, se quiser utilizar as mesmas fases de projeto padrão **Quote** , **Plan** e **Close** , necessita de efetuar algumas personalizações que partem dos nomes de fase personalizados. A lógica mais complexa está no encerramento do projeto, o qual ainda poderá acionar bastando desativar o registo de projeto.
+2. Criar o seu próprio fluxo do processo de negócio e torná-lo o fluxo do processo de negócio principal para a entidade de projeto, o que lhe permite ter os nomes de fase que pretender. No entanto, se quiser utilizar as mesmas fases de projeto padrão **Quote**, **Plan** e **Close**, necessita de efetuar algumas personalizações que partem dos nomes de fase personalizados. A lógica mais complexa está no encerramento do projeto, o qual ainda poderá acionar bastando desativar o registo de projeto.
 
 ![Personalização do BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Para criar o seu próprio fluxo do processo de negócio para a entidade de proje
 
   ![Criar processo](media/FAQ-Customize-BPF-3.png)
 
-2. Utilize o Designer de Processo para criar os nomes de fase pretendidos. Se pretender a mesma funcionalidade das fases predefinidas para **Quote** , **Plan** e **Close** , terá de criar isso com base nos nomes de fase do seu fluxo processo de negócio personalizados.
+2. Utilize o Designer de Processo para criar os nomes de fase pretendidos. Se pretender a mesma funcionalidade das fases predefinidas para **Quote**, **Plan** e **Close**, terá de criar isso com base nos nomes de fase do seu fluxo processo de negócio personalizados.
 
    ![Captura de ecrã do Designer de Processo utilizado para personalizar BPF](media/FAQ-Customize-BPF-4.png) 
 
