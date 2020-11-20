@@ -3,7 +3,7 @@ title: Grupos de unidades e unidades
 description: Este tópico fornece informações sobre grupos de unidades e unidades.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082420"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130592"
 ---
 # <a name="unit-groups-and-units"></a>Grupos de unidades e unidades
 
@@ -33,16 +33,16 @@ Os grupos de unidades e as unidades são entidades básicas do Microsoft Dynamic
 
 Seguem-se alguns exemplos de unidades e grupos de unidades:
  
-- **Grupo de unidades** : Distância 
-    - **Unidades** : Milha, Quilómetro, etc.
-- **Grupo de unidades** : Tempo
-    - **Unidades** : Hora, dia, semana, etc. 
+- **Grupo de unidades**: Distância 
+    - **Unidades**: Milha, Quilómetro, etc.
+- **Grupo de unidades**: Tempo
+    - **Unidades**: Hora, dia, semana, etc. 
 
 Quando configura várias unidades num grupo de unidades, também tem de configurar um fator de conversão entre as mesmas, designando a primeira unidade que configurou como predefinida ou a unidade primária para o grupo de unidades. 
 
-Por exemplo, num grupo de unidades **Tempo** , se configurar a **Hora** como a primeira unidade, o sistema designará a **Hora** como a unidade predefinida. Se a próxima unidade que configurar for **Dia** , tem de configurar um fator de conversão de **Dia** para **Hora**. Se, em seguida adicionar **Semana** como uma terceira unidade, tem de configurar um fator de conversão de **Semana** em termos de **Dia** ou **Hora**. 
+Por exemplo, num grupo de unidades **Tempo**, se configurar a **Hora** como a primeira unidade, o sistema designará a **Hora** como a unidade predefinida. Se a próxima unidade que configurar for **Dia**, tem de configurar um fator de conversão de **Dia** para **Hora**. Se, em seguida adicionar **Semana** como uma terceira unidade, tem de configurar um fator de conversão de **Semana** em termos de **Dia** ou **Hora**. 
 
-A imagem seguinte mostra uma configuração de exemplo para a unidade **Dia** , em que o campo **Quantidade** mostra o número de horas num dia e uma **Semana** , em que o campo **Quantidade** mostra o número de dias que se encontram numa semana.
+A imagem seguinte mostra uma configuração de exemplo para a unidade **Dia**, em que o campo **Quantidade** mostra o número de horas num dia e uma **Semana**, em que o campo **Quantidade** mostra o número de dias que se encontram numa semana.
 
 > ![Grupo de unidades: página de informações](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ O Dynamics 365 Project Service Automation utiliza unidades e grupos de unidades 
 
 Para as despesas, cada categoria de despesa tem um grupo de unidades e uma unidade predefinidos. Estes valores são introduzidos como valores predefinidos nas entradas da lista de preços para as categorias de despesa. 
 
-Por exemplo, tem uma categoria de despesa com o nome **Quilometragem**. Tem um grupo de unidades com nome **Distância** e uma unidade predefinida com o nome **Milha**. Se configurar o grupo de unidades **Distância** para que tenha duas unidades ( **Milha** e **Quilómetro** ), pode definir dois preços para a categoria **Quilometragem** numa lista de preços: preço por milha e preço por quilómetro.
+Por exemplo, tem uma categoria de despesa com o nome **Quilometragem**. Tem um grupo de unidades com nome **Distância** e uma unidade predefinida com o nome **Milha**. Se configurar o grupo de unidades **Distância** para que tenha duas unidades (**Milha** e **Quilómetro**), pode definir dois preços para a categoria **Quilometragem** numa lista de preços: preço por milha e preço por quilómetro.
 
 | Categoria de despesa  | Grupo de unidades  | Unidade      | Método de definição de preços  | Preço unitário  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ As linhas de estimativa para o campo **Tempo na Proposta** podem ser expressas e
 O exemplo que se segue mostra como o PSA utiliza o grupo de unidades, as unidades e os fatores de conversão.
 - Unidades
 
-   - **Grupo de unidades** : Tempo 
-   - **Unidades** : Hora 
+   - **Grupo de unidades**: Tempo 
+   - **Unidades**: Hora 
     
     - **Dia** - Fator de conversão: 8 horas       
     - **Semana** - Fator de conversão: 40 horas  
         
 - Configuração da lista de preços no projeto A:
 
-    - **Nome** : preços de venda no Reino Unido 2016 
-    - **Unidade de tempo predefinida** : Dia 
-    - **Moeda** : GBP
+    - **Nome**: preços de venda no Reino Unido 2016 
+    - **Unidade de tempo predefinida**: Dia 
+    - **Moeda**: GBP
 
 | Função      | Grupo de unidades | Unidade | Unidade organizacional | Preço   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Em alguns países ou regiões, existe um requisito legal de que as taxas de fatu
 Não. Atualmente, a estimativa de agendamento está restrita às horas e não pode ser alterada.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>As unidades e os grupos de unidades podem ser editados, eliminados e adicionados?
-Sim. Com exceção do grupo de unidades **Tempo** e a unidade **Hora** , todas as unidades podem ser eliminadas ou editadas, e é possível adicionar novas unidades. No PSA, o grupo de unidades **Tempo** e a unidade **Hora** não podem ser eliminados. No entanto, podem ser atualizados com um texto traduzido para o campo **Nome**.
+Sim. Com exceção do grupo de unidades **Tempo** e a unidade **Hora**, todas as unidades podem ser eliminadas ou editadas, e é possível adicionar novas unidades. No PSA, o grupo de unidades **Tempo** e a unidade **Hora** não podem ser eliminados. No entanto, podem ser atualizados com um texto traduzido para o campo **Nome**.

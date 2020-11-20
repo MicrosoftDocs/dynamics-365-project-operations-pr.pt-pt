@@ -3,7 +3,7 @@ title: Permitir que outra pessoa proceda à entrada de hora ou despesa
 description: Como permitir que outra pessoa proceda à entrada de hora ou despesa no Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082377"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130396"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Permitir que outra pessoa proceda à entrada de hora ou despesa (Project Service)
 
@@ -37,13 +37,13 @@ Configure um delegado para permitir a outra pessoa criar entradas de hora ou des
   
 2.  Na barra de comandos, clique em **Novo**.  
   
-3. **Nome** : Introduza o nome para o registo.  
+3. **Nome**: Introduza o nome para o registo.  
   
-4. **Tipo** : selecione se o delegado pode proceder à entrada de horas ou despesas em seu nome.  
+4. **Tipo**: selecione se o delegado pode proceder à entrada de horas ou despesas em seu nome.  
   
-5. **Delegado** : selecione o nome da pessoa que pretende que seja o delegado.  
+5. **Delegado**: selecione o nome da pessoa que pretende que seja o delegado.  
   
-6. **Dadas de início e de fim** : escolha as datas quando a delegação iniciar ou terminar.  
+6. **Dadas de início e de fim**: escolha as datas quando a delegação iniciar ou terminar.  
   
 7.  Quando terminar, clique em **Guardar e Fechar**.  
   
@@ -55,7 +55,7 @@ Configure um delegado para permitir a outra pessoa criar entradas de hora ou des
   
 3.  Na barra de comandos, clique em **Desativar**.  
   
-4.  Na caixa de diálogo **Confirmar Desativação** , clique em **Desativar**.  
+4.  Na caixa de diálogo **Confirmar Desativação**, clique em **Desativar**.  
   
 ## <a name="enter-time-for-someone-else"></a>Introduzir horas para outra pessoa  
   

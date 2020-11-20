@@ -1,21 +1,21 @@
 ---
-title: Itens de oportunidade baseados em produtos
+title: Itens de oportunidade baseados em produtos – lite
 description: Este tópico fornece informações sobre os itens da oportunidade baseada em produtos no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082330"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176354"
 ---
-# <a name="product-based-opportunity-lines"></a>Itens de oportunidade baseados em produtos
+# <a name="product-based-opportunity-lines---lite"></a>Itens de oportunidade baseados em produtos – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -25,4 +25,4 @@ As linhas baseadas no produto podem ser itens de catálogo ou produtos acrescent
 
 Um conceito sobre as linhas de oportunidade baseadas em produtos específicas para oportunidades baseadas em projetos é **Orçamento do Cliente**. Utilize este campo para monitorizar o montante que o cliente está disposto a pagar pelo item.
 
-Se o método de receitas do Resumo da oportunidade for definido como **Calculada pelo Sistema** , os valores do orçamento do cliente nas linhas baseadas em produtos e projetos são resumidos para calcular as receitas estimadas.
+Se o método de receitas do Resumo da oportunidade for definido como **Calculada pelo Sistema**, os valores do orçamento do cliente nas linhas baseadas em produtos e projetos são resumidos para calcular as receitas estimadas.

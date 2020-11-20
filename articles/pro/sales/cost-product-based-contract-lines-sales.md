@@ -1,26 +1,26 @@
 ---
-title: Custo dos itens de contrato baseados em produtos
+title: Custo dos itens de contrato baseados em produtos – lite
 description: Este tópico fornece informações sobre como criar
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4082635"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177255"
 ---
-# <a name="costing-product-based-contract-lines"></a>Custo dos itens de contrato baseados em produtos
+# <a name="cost-product-based-contract-lines---lite"></a>Custo dos itens de contrato baseados em produtos – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
 
-Os itens de contrato baseados em produtos no Dynamics 365 Project Operations incluem o campo **Preço de Custo** , que armazena o preço de custo do produto para cálculos de rentabilidade a jusante.
+Os itens de contrato baseados em produtos no Dynamics 365 Project Operations incluem o campo **Preço de Custo**, que armazena o preço de custo do produto para cálculos de rentabilidade a jusante.
 
 Quando um item de contrato baseado em produtos é criado para um produto do catálogo, o custo do item de contrato baseado em produtos assume a predefinição o valor do campo **Custo Padrão** no catálogo de produtos. O campo **Custo Padrão** no catálogo de produtos está configurado na moeda base da Organização. Quando o custo unitário assume a predefinição no item de contrato, é convertido na moeda de venda do contrato.
 

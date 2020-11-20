@@ -3,7 +3,7 @@ title: Agendar recursos para um projeto
 description: Como agendar recursos para um projeto no Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082610"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132164"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Agendar recursos para um projeto (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082610"
 
 Pode verificar a disponibilidade de recursos para obter uma visão global das reservas dos seus recursos ou filtrar a vista por competências, equipa, localização, entre outras opções.  
   
-O quadro da agenda mostra a lista de recursos e a respetiva disponibilidade. Selecione um modo de vista para mostrar a disponibilidade por **Horas** , **Dia** , **Semana** ou **Mês**.  
+O quadro da agenda mostra a lista de recursos e a respetiva disponibilidade. Selecione um modo de vista para mostrar a disponibilidade por **Horas**, **Dia**, **Semana** ou **Mês**.  
   
 Antes de utilizar o quadro da agenda, é importante configurá-lo. Para mais informações, consulte [Configurar o quadro da agenda (Field Service ou Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -43,13 +43,13 @@ Se estiver a utilizar uma versão mais antiga, para a disponibilidade de recurso
 > 1. No menu principal, selecione **Agendamento de Recursos** > **Administração**.  
 > 2. Clique em **Parâmetros de agendamento**.  
 > 3. Abra o registo e desloque-se para baixo para a secção **Resource Scheduling Optimization**.  
-> 4. No campo **Ligar a Mapas** , escolha **Sim**.  
+> 4. No campo **Ligar a Mapas**, escolha **Sim**.  
 > 5. Aceitar termos e guardar o registo.  
 > 6. No menu principal, selecione **Project Service** > **Quadro da agenda**. A partir daqui, existem várias formas de agendar manualmente um requisito de reserva. Escolha o método que funciona para si.
   
 ## <a name="find-available-resources"></a>Localizar recursos disponíveis
 
-1.  A partir da lista **Requisitos de Reserva** , clique com o botão direito do rato numa reserva não agendada e escolha uma das seguintes opções:  
+1.  A partir da lista **Requisitos de Reserva**, clique com o botão direito do rato numa reserva não agendada e escolha uma das seguintes opções:  
   
 - Escolha **Localizar disponibilidade - Recursos Atuais** para localizar um recurso disponível a partir da lista no quadro da agenda.  
 - Escolha **Localizar disponibilidade - Todos os Recursos** para localizar um recurso disponível a partir dos recursos no sistema  
@@ -67,7 +67,7 @@ Se estiver a utilizar uma versão mais antiga, para a disponibilidade de recurso
   
 2.  Clique no nome do recurso que pretende reservar e, em seguida, selecione **Reservar**.  
   
-3.  Na caixa de diálogo **Reserva de recursos (criar)** , escolha o projeto para o qual pretende reservar o recurso, juntamente com o método de reserva e as horas de início e de fim.  
+3.  Na caixa de diálogo **Reserva de recursos (criar)**, escolha o projeto para o qual pretende reservar o recurso, juntamente com o método de reserva e as horas de início e de fim.  
   
 4.  Quando terminar, selecione **Reservar**.  
   

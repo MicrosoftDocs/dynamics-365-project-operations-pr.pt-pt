@@ -3,7 +3,7 @@ title: Estimativas
 description: Este tópico fornece informações sobre estimativas no Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082606"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132796"
 ---
 # <a name="estimates"></a>Estimativas
 
@@ -90,11 +90,11 @@ Se tiver adicionado um campo personalizado aos detalhes de linha de proposta e p
 
     ![Selecionar um passo no plug-in](media/basic-guide-20.png)
 
-5. Na caixa de diálogo **Atualizar Passo Existente** , no campo **Atributos de Filtragem** , selecione o botão de reticências ( **...** ):
+5. Na caixa de diálogo **Atualizar Passo Existente**, no campo **Atributos de Filtragem**, selecione o botão de reticências (**...**):
  
     ![Caixa de diálogo Atualizar Passo Existente](media/basic-guide-21.png)
 
-6. Na caixa de diálogo **Selecionar Atributos** , selecione as caixas de verificação para obter os atributos personalizados.
+6. Na caixa de diálogo **Selecionar Atributos**, selecione as caixas de verificação para obter os atributos personalizados.
 
     ![Caixa de diálogo Selecionar Atributos](media/basic-guide-22.png)
 

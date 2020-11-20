@@ -3,7 +3,7 @@ title: Criar um projeto
 description: Como criar um projeto no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082416"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133112"
 ---
 # <a name="create-a-project-project-service"></a>Criar um projeto (Project Service)
 
@@ -35,7 +35,7 @@ Crie um projeto utilizando as capacidades do [!INCLUDE[pn_project_service_auto](
   
 2.  Clique em **Novo Projeto**.  
   
-3.  Na área **Resumo** , introduza o nome para o projeto e, em seguida, preencha os máximo de detalhes que puder. Os itens marcados com um asterisco vermelho (*) são obrigatórios.  
+3.  Na área **Resumo**, introduza o nome para o projeto e, em seguida, preencha os máximo de detalhes que puder. Os itens marcados com um asterisco vermelho (*) são obrigatórios.  
   
 4.  Clique em **Guardar** para criar o seu projeto para poder continuar a editá-lo.  
   

@@ -3,7 +3,7 @@ title: Criar entradas de tempo
 description: Este tópico fornece informações sobre como criar entradas de tempo.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082495"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131300"
 ---
 # <a name="create-time-entries"></a>Criar entradas de tempo
 
@@ -35,13 +35,13 @@ Nas versões anteriores do Dynamics 365 Project Service Automation, as entradas 
 
 Siga estes passos para criar uma entrada de tempo.
 
-1. Na página **Entradas de Tempo** , selecione **Novo**.
-2. Na caixa de diálogo **Criação Rápida: Entrada de Tempo** , introduza a duração da entrada de tempo em minutos, horas ou dias. A duração tem de ser introduzida no seguinte formato: *x* minutos, *x* horas ou *x* dias. As horas e os dias também podem ser introduzidos utilizando-se valores decimais, como *x.x* horas ou *x.x* dias.
+1. Na página **Entradas de Tempo**, selecione **Novo**.
+2. Na caixa de diálogo **Criação Rápida: Entrada de Tempo**, introduza a duração da entrada de tempo em minutos, horas ou dias. A duração tem de ser introduzida no seguinte formato: *x* minutos, *x* horas ou *x* dias. As horas e os dias também podem ser introduzidos utilizando-se valores decimais, como *x.x* horas ou *x.x* dias.
 3. Selecione o tipo de entrada de tempo e o projeto para o qual está a introduzir a entrada de tempo.
-4. No campo **Tarefa do Projeto** , localize a tarefa referente a esta entrada de tempo.
+4. No campo **Tarefa do Projeto**, localize a tarefa referente a esta entrada de tempo.
 
     > [!NOTE]
-    > Se estiver a criar uma entrada de tempo para uma tarefa que não está atribuída a um utilizador, no campo **Tarefa do Projeto** , selecione o botão **Pesquisar** , selecione **Alterar Vista** e, em seguida, selecione **Todas as Tarefas do Projeto Ativas** para listar todas as tarefas.
+    > Se estiver a criar uma entrada de tempo para uma tarefa que não está atribuída a um utilizador, no campo **Tarefa do Projeto**, selecione o botão **Pesquisar**, selecione **Alterar Vista** e, em seguida, selecione **Todas as Tarefas do Projeto Ativas** para listar todas as tarefas.
 
 5. Introduza uma descrição, se for necessária uma descrição e, em seguida, selecione **Guardar e Fechar**.
 
@@ -56,9 +56,9 @@ Note que as frações de uma hora não são minutos. Consequentemente, 1,5 horas
 
 Depois de terem sido criadas algumas entradas de tempo, pode copiá-las para criar entradas de tempo adicionais em massa.
 
-1. Na página **Entradas de Tempo** , selecione **Copiar Semana**.
-2. No grupo de campos **Do Período** , nos campos **Data de Início** e **Data de Fim** , defina o intervalo de datas a partir do qual pretende copiar entradas de tempo.
-3. No grupo de campos **Até ao período** , no campo **Data de Início** , especifique a data para a qual as entradas de tempo são criadas.
+1. Na página **Entradas de Tempo**, selecione **Copiar Semana**.
+2. No grupo de campos **Do Período**, nos campos **Data de Início** e **Data de Fim**, defina o intervalo de datas a partir do qual pretende copiar entradas de tempo.
+3. No grupo de campos **Até ao período**, no campo **Data de Início**, especifique a data para a qual as entradas de tempo são criadas.
 4. Selecione **Copiar** para criar uma cópia das entradas de tempo que correspondem ao dia da semana especificado no grupo de campos **Até ao Período**. Por exemplo, a entrada de tempo para a segunda-feira da semana passada é copiada para a segunda-feira da semana especificada no grupo de campos **Até ao Período**.
 
 ## <a name="import-data-for-time-entries"></a>Importar dados para entradas de tempo
@@ -67,4 +67,4 @@ Pode importar dados a partir de reservas e atribuições de projetos. Quando imp
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Agrupar por, ordenar, pesquisar e filtrar capacidades
 
-Pode agrupar e filtrar entradas de tempo pelas dimensões especificadas nas colunas. No campo **Agrupar por** , selecione a dimensão a utilizar para filtrar entradas de tempo. Também pode ordenar os registos de entrada de tempo por ordem ascendente ou descendente utilizando a seta de ordenação nos cabeçalhos de coluna. Além disso, pode mostrar ou ocultar entradas selecionando o botão **Filtrar** nos cabeçalhos de coluna e, em seguida, na caixa **Pesquisar** , introduzindo o texto que deve ser utilizado para procurar entradas de tempo por nome de projeto, tarefa de projeto, entrada de tempo ou recurso.
+Pode agrupar e filtrar entradas de tempo pelas dimensões especificadas nas colunas. No campo **Agrupar por**, selecione a dimensão a utilizar para filtrar entradas de tempo. Também pode ordenar os registos de entrada de tempo por ordem ascendente ou descendente utilizando a seta de ordenação nos cabeçalhos de coluna. Além disso, pode mostrar ou ocultar entradas selecionando o botão **Filtrar** nos cabeçalhos de coluna e, em seguida, na caixa **Pesquisar**, introduzindo o texto que deve ser utilizado para procurar entradas de tempo por nome de projeto, tarefa de projeto, entrada de tempo ou recurso.

@@ -1,21 +1,21 @@
 ---
-title: Inscrever-se para obter uma subscrição de pré-visualização
+title: Inscrever-se para obter uma subscrição de pré-visualização – lite
 description: Este tópico fornece informações sobre como subscrever e implementar o Project Operations lite - oportunidade potencial para fatura pró-forma.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082267"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175905"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Inscreva-se numa subscrição de pré-visualização para implementação leve – oportunidade potencial para fatura pró-forma
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Inscrever-se para obter uma subscrição de pré-visualização – lite 
 
 Este tópico explica como subscrever a oferta de parceiros de pré-visualização e implementar a Implementação leve do Dynamics 365 Project Operations - oportunidade potencial para fatura pró-forma.
 
@@ -42,7 +42,7 @@ Quando receber uma aprovação de [pedido de pré-visualização](https://forms.
 
 Antes de começar, certifique-se de que está a iniciar sessão num browser com a conta de profissional de utilizador no inquilino onde pretende a pré-visualização do Project Operations.
 
-1. Resgate o primeiro código de oferta, **Dynamics 365 Project Operations (CRM) - Pré-visualização da Avaliação** , colando-o no URL do browser.
+1. Resgate o primeiro código de oferta, **Dynamics 365 Project Operations (CRM) - Pré-visualização da Avaliação**, colando-o no URL do browser.
 
 ![Resgatar Oferta](./media/16RedeemFirstOfferNew.png)
 
@@ -67,7 +67,7 @@ Repita os mesmos passos que com o primeiro código de oferta. Certifique-se de q
 
 ![Home page do centro de administração](./media/14AdminPortal.png)
 
-2. Na página **Utilizadores ativos** , selecione os utilizadores aos quais pretende atribuir uma licença.
+2. Na página **Utilizadores ativos**, selecione os utilizadores aos quais pretende atribuir uma licença.
 
 ![Atribuir Licenças](./media/15AssignLicenses.png)
 

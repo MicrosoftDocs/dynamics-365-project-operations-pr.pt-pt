@@ -1,21 +1,21 @@
 ---
-title: Adicionar uma subscrição do Azure ao projeto LCS
+title: Adicionar uma subscrição do Azure a um projeto LCS
 description: Este tópico fornece informações sobre como ligar a sua subscrição do Azure a um projeto LCS.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e741f35f9b229d2897cec06054d91ae620397228
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082275"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175815"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Adicionar uma subscrição do Azure ao projeto LCS
+# <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adicionar uma subscrição do Azure a um projeto LCS
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
@@ -23,11 +23,11 @@ Os ambientes alojados na cloud têm de ser implementados através de uma subscri
 
 ## <a name="grant-admin-consent"></a>Conceder consentimento do administrador
 
-1. No seu projeto LCS, na secção **Ambientes** , selecione **Definições do Microsoft Azure**.
+1. No seu projeto LCS, na secção **Ambientes**, selecione **Definições do Microsoft Azure**.
 
 ![Definições do Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Na página **Definições do projeto** , no separador **Conectores do Azure** , selecione **Autorizar**. Isto permite que os ambientes sejam implementados neste projeto.
+2. Na página **Definições do projeto**, no separador **Conectores do Azure**, selecione **Autorizar**. Isto permite que os ambientes sejam implementados neste projeto.
 
 ![Conectores do Azure](./media/2AzureConnectors.png)
 
@@ -57,11 +57,11 @@ A autorização está agora concluída.
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Adicionar um conector de subscrição a um projeto LCS
 
-1. No seu projeto LCS, na página **Definições do Microsoft Azure** , selecione **Adicionar** para adicionar um novo conector.
+1. No seu projeto LCS, na página **Definições do Microsoft Azure**, selecione **Adicionar** para adicionar um novo conector.
 2. Introduza o seu ID de subscrição do Azure. Poderá localizar o seu ID de subscrição do Azure no [Portal do Azure](https://ms.portal.azure.com/), em  **Definições** na parte inferior esquerda do ecrã.
-3. No campo **Configurar para utilizar o Azure Resource Manager** , selecione **Sim**.
+3. No campo **Configurar para utilizar o Azure Resource Manager**, selecione **Sim**.
 4. Certifique-se de que o Domínio do Inquilino do AAD da Subscrição do Azure corresponde à subscrição do Azure proprietária do domínio que está utilizar e selecione **Seguinte**.
-5. No ecrã **Configuração do Microsoft Azure** , selecione **Seguinte** para confirmar. Se receber um erro neste ecrã, volte à secção [Fornecer acesso aos Serviços de Implementação do Dynamics à subscrição do Azure](#provide) neste tópico e certifique-se de que concluiu todos os passos.
+5. No ecrã **Configuração do Microsoft Azure**, selecione **Seguinte** para confirmar. Se receber um erro neste ecrã, volte à secção [Fornecer acesso aos Serviços de Implementação do Dynamics à subscrição do Azure](#provide) neste tópico e certifique-se de que concluiu todos os passos.
 6. Transfira o Certificado de Gestão do Azure para uma pasta local no seu computador e, em seguida, carregue-a para o Portal de Gestão do Azure em **Definições** > **Certificados de Gestão**. Este certificado permitirá que o LCS comunique com a Azure em seu nome. Pode ignorar este passo se o seu utilizador tiver acesso à subscrição.
 7. Selecione **Seguinte**.
 8. Selecione a região do Azure onde fazer a implementação e selecione um centro de dados que esteja perto de onde planeia utilizar este sistema.

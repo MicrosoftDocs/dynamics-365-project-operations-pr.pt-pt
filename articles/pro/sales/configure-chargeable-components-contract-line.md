@@ -1,21 +1,21 @@
 ---
-title: Configurar componentes faturáveis de um item de contrato baseado em projeto
+title: Configurar componentes faturáveis de um item de contrato baseado em projetos – lite
 description: Este tópico fornece informações sobre como adicionar componentes faturáveis a itens de contrato no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082311"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177165"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Configurar componentes faturáveis de um item de contrato baseado em projeto
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Configurar componentes faturáveis de um item de contrato baseado em projetos – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -34,31 +34,31 @@ Um subconjunto dos componentes incluídos pode ser marcado como faturável utili
 
 Os componentes faturáveis podem ser definidos nas categorias de tarefas, funções e transações.
 
-A capacidade de faturação é definida em tarefas para um item de contrato de projeto e aplica-se a todas as classes de transação incluídas no item. Se o campo **Incluir Tarefas** num item de contrato estiver em branco ou definido para * *Todo o projeto* *, o separador **Tarefas faturáveis** não estará disponível.
+A capacidade de faturação é definida em tarefas para um item de contrato de projeto e aplica-se a todas as classes de transação incluídas no item. Se o campo **Incluir Tarefas** num item de contrato estiver em branco ou definido para **Todo o projeto**, o separador **Tarefas faturáveis** não estará disponível.
 
-A capacidade de faturação definida nas funções de um item de contrato de projeto aplica-se apenas à classe de transação **Tempo**. Se o campo **Incluir Tempo** num item de contrato estiver definido para **Não** , o separador **Funções faturáveis** não estará disponível.
+A capacidade de faturação definida nas funções de um item de contrato de projeto aplica-se apenas à classe de transação **Tempo**. Se o campo **Incluir Tempo** num item de contrato estiver definido para **Não**, o separador **Funções faturáveis** não estará disponível.
 
-A capacidade de faturação definida nas categorias de transação de um item de contrato de projeto aplica-se apenas à classe de transação **Despesa**. Se o campo **Incluir Despesas** estiver definido para **Não** , o separador **Categorias faturáveis** não estará disponível.
+A capacidade de faturação definida nas categorias de transação de um item de contrato de projeto aplica-se apenas à classe de transação **Despesa**. Se o campo **Incluir Despesas** estiver definido para **Não**, o separador **Categorias faturáveis** não estará disponível.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Atualizar uma tarefa de projeto como faturável ou não faturável
 
 Uma tarefa do projeto pode ser faturável ou não faturável num item de contrato específico que torna possível a seguinte configuração:
 
-Se um item de contrato baseado em projeto incluir **Tempo** e uma determinada tarefa, **T1** é associado a ela como faturável. Se houver um segundo item de contrato que inclua **Despesas** , pode associar a tarefa T1 ao item de contrato como não faturável. O resultado é que todo o tempo registado na tarefa é faturado e todas as despesas são não faturáveis.
+Se um item de contrato baseado em projeto incluir **Tempo** e uma determinada tarefa, **T1** é associado a ela como faturável. Se houver um segundo item de contrato que inclua **Despesas**, pode associar a tarefa T1 ao item de contrato como não faturável. O resultado é que todo o tempo registado na tarefa é faturado e todas as despesas são não faturáveis.
 
-O tipo de faturação de uma tarefa pode ser configurado no separador **Tarefas Faturáveis** do item de contrato, atualizando o campo **Tipo de Faturação** na subgrelha de tarefas do item de contrato. Em alternativa, pode atualizar o campo **Tipo de Faturação** na subgrelha da configuração de Faturação de um projeto que mostra os itens de contratos associados a uma tarefa.
+O tipo de faturação de uma tarefa pode ser configurado no separador **Tarefas Faturáveis** de um item de contrato, atualizando o campo **Tipo de Faturação** na subgrelha de tarefas do item de contrato. Em alternativa, pode atualizar o campo **Tipo de Faturação** na subgrelha da configuração de Faturação da tarefa de itens de contrato associados a uma tarefa.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Atualizar uma função de projeto como faturável ou não faturável
 
 Uma função pode ser faturável ou não faturável num item de contrato específico.
 
-O tipo de faturação de uma função pode ser configurado no separador **Funções faturáveis** de um item de contrato. Para isso, atualize o campo **Tipo de Faturação** na subgrelha **Funções faturáveis**.
+O tipo de faturação de uma função pode ser configurado no separador **Funções faturáveis** de um item de contrato. Para isso, atualize o campo **Tipo de Faturação** na subgrelha **Funções Faturáveis**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Atualizar uma categoria de transação como faturável ou não faturável
 
 Uma categoria de transação pode ser faturável ou não faturável num item de contrato específico.
 
-O tipo de faturação de uma transação pode ser configurado no separador **Categorias faturáveis** de um item de contrato baseado em projeto. Para isso, atualize o campo **Tipo de Faturação** na subgrelha **Categorias faturáveis**.
+O tipo de faturação de uma transação pode ser configurado no separador **Categorias faturáveis** de um item de contrato baseado em projeto. Para isso, atualize o campo **Tipo de Faturação** na subgrelha **Categorias Faturáveis**.
 
 ### <a name="resolve-chargeability"></a>Resolver a capacidade de faturação
 

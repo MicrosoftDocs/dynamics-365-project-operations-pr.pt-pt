@@ -1,21 +1,21 @@
 ---
-title: Conceitos chave – Contratos de projeto
+title: Conceitos chave – Conceitos chave
 description: Este tópico fornece informações sobre os conceitos chave de contratos de projeto no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082340"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175545"
 ---
-# <a name="key-concepts---project-contracts"></a>Conceitos chave – Contratos de projeto
+# <a name="project-contracts---key-concepts"></a>Conceitos chave – Conceitos chave
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 

@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082326"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131717"
 ---
 # <a name="expense-estimates"></a>Estimativas de despesas
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
@@ -32,9 +32,9 @@ Execute os seguintes passos para ver, adicionar ou eliminar uma despesa do proje
 
 Os seguintes atributos são definidos para cada item da linha de despesa:
 
-- **Categoria** : os agrupamentos comuns utilizados para descrever todas as despesas incorridas num projeto.
-- **Data de Início** : a data em que se prevê que a despesa seja incorrida.
-- **Quantidade** : número estimado de itens de despesa para uma categoria específica.
-- **Preço do Custo Unitário** : o preço unitário utilizado para calcular o custo da despesa.
-- **Preço de Venda Unitário** : o preço unitário utilizado para calcular os preços de venda da despesa.
+- **Categoria**: os agrupamentos comuns utilizados para descrever todas as despesas incorridas num projeto.
+- **Data de Início**: a data em que se prevê que a despesa seja incorrida.
+- **Quantidade**: número estimado de itens de despesa para uma categoria específica.
+- **Preço do Custo Unitário**: o preço unitário utilizado para calcular o custo da despesa.
+- **Preço de Venda Unitário**: o preço unitário utilizado para calcular os preços de venda da despesa.
 

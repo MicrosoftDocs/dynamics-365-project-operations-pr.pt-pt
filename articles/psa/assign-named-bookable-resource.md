@@ -3,7 +3,7 @@ title: Reservar recursos reserváveis nomeados para uma equipa do projeto e atri
 description: Este tópico fornece informações sobre como reservar recursos nomeados para as equipas do projeto e atribui-los a tarefas.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082523"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130187"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Reservar recursos reserváveis nomeados para uma equipa do projeto e atribuir tarefas 
 
@@ -32,11 +32,11 @@ ms.locfileid: "4082523"
 Pode adicionar um recurso nomeado à sua equipa do projeto, reservando-o diretamente para a equipa. Para o fazer, conclua os seguintes passos.
 
 1. No Project Service Automation, aceda a **Projetos** e selecione para abrir o projeto que está a reservar.
-2. Na página **Projeto** , no separador **Equipa** , clique em **Novo**. 
+2. Na página **Projeto**, no separador **Equipa**, clique em **Novo**. 
 
 ![Adicionar um membro da equipa a partir do separador equipa](media/RM-how-to-1.png)
 
-3. Na caixa de diálogo **Criação Rápida de Membro de Equipa do Projeto** , selecione o recurso reservável. O campo **Função** será preenchido com a função predefinida do recurso se tiver atribuído um. Poderá alterar a função, se for necessário. 
+3. Na caixa de diálogo **Criação Rápida de Membro de Equipa do Projeto**, selecione o recurso reservável. O campo **Função** será preenchido com a função predefinida do recurso se tiver atribuído um. Poderá alterar a função, se for necessário. 
 4. Selecione as datas de início e fim, em que o recurso será necessário e selecione o método de alocação da capacidade do recurso. 
 5. Se pretender que o membro da equipa seja um aprovador do projeto, selecione **Sim** no campo **Aprovador do Projeto**. Isto significa que o membro da equipa pode aprovar as entradas de tempo e despesas submetidas para este projeto. 
 6. Clique em **Guardar**.
@@ -44,7 +44,7 @@ Pode adicionar um recurso nomeado à sua equipa do projeto, reservando-o diretam
 ![Adicionar um membro da equipa no formulário criação rápida](media/RM-how-to-2.png)
 
 
-Agora, pode atribuir o recurso reservado a tarefas no projeto. Na página **Projeto** , clique no separador **Agenda** para atribuir tarefas ao novo recurso. O seletor de recursos que é iniciado a partir do campo **Recursos** na grelha de tarefas irá mostrar os membros da equipa que pode selecionar.
+Agora, pode atribuir o recurso reservado a tarefas no projeto. Na página **Projeto**, clique no separador **Agenda** para atribuir tarefas ao novo recurso. O seletor de recursos que é iniciado a partir do campo **Recursos** na grelha de tarefas irá mostrar os membros da equipa que pode selecionar.
 
 ![Atribuir um membro da equipa a uma tarefa no separador agenda](media/RM-how-to-3.png)
 

@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082293"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131582"
 ---
 # <a name="estimate-projects-overview"></a>Descrição geral da estimativa de projetos
 
@@ -74,8 +74,8 @@ Se tiver adicionado um campo personalizado aos detalhes de linha de proposta e p
 2. Selecione **Procurar** e procure o plug-in para atualizar.
 3. Selecione o plug-in e, em seguida, na página principal, clique em **Selecionar**.
 4. Selecione o passo do plug-in a atualizar, clique com o botão direito do rato e, em seguida, selecione **Atualizar**.
-5. Na caixa de diálogo **Atualizar Passo Existente** , no campo **Atributos de Filtragem** , selecione o botão de reticências ( **...** ):
-6. Na caixa de diálogo **Selecionar Atributos** , selecione as caixas de verificação para obter os atributos personalizados.
+5. Na caixa de diálogo **Atualizar Passo Existente**, no campo **Atributos de Filtragem**, selecione o botão de reticências (**...**):
+6. Na caixa de diálogo **Selecionar Atributos**, selecione as caixas de verificação para obter os atributos personalizados.
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, selecione **Atualizar Passo**.
 8. Repita os passos 1 a 7 para o segundo plug-in.
 9. Feche o **PluginRegistrationTool**.
