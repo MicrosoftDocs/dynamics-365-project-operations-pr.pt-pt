@@ -3,7 +3,7 @@ title: Definição de preços de projetos
 description: Este tópico fornece informações sobre como a definição de preços funciona no Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082601"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120782"
 ---
 # <a name="project-pricing"></a>Definição de preços de projetos 
 
@@ -56,7 +56,7 @@ O termo *função do recurso* refere-se a um conjunto de qualificações, compet
 
 Normalmente, o tempo dos recursos humanos é proposto com base na função que um recurso preenche num projeto específico. Para o tempo dos recursos humanos, o PSA suporta os custos e a faturação baseados na função do recurso. O tempo pode ser o preço definido em qualquer unidade no grupo de unidades **Tempo**.
 
-O grupo de unidades **Tempo** é criado quando o PSA é instalado. Tem uma unidade de **Hora** predefinida. Não é possível eliminar, mudar o nome ou editar os atributos do grupo de unidades **Tempo** ou da unidade **Hora**. No entanto, pode adicionar outras unidades ao grupo de unidades **Tempo**. Se tentar eliminar o grupo de unidades **Tempo** ou a unidade **Hora** , poderá causar falhas na lógica de negócio do PSA.
+O grupo de unidades **Tempo** é criado quando o PSA é instalado. Tem uma unidade de **Hora** predefinida. Não é possível eliminar, mudar o nome ou editar os atributos do grupo de unidades **Tempo** ou da unidade **Hora**. No entanto, pode adicionar outras unidades ao grupo de unidades **Tempo**. Se tentar eliminar o grupo de unidades **Tempo** ou a unidade **Hora**, poderá causar falhas na lógica de negócio do PSA.
 
 > ![Configurar preços por função](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ No PSA, é possível criar substituições específicas de um negócio para os p
 
 Por predefinição, um contrato do projeto obtém sempre uma cópia da lista de preços de vendas principal em vez de uma ligação direta para a mesma. Este comportamento ajuda a garantir que os contratos de preços efetuados com um cliente para uma declaração de trabalho (SOW) não sejam alterados se a lista de preços principal for alterada.
 
-No entanto, numa proposta, pode utilizar uma lista de preços principal. Em alternativa, pode copiar uma lista de preços principal e editá-la para criar uma lista de preços personalizada que só se aplica a essa proposta. Para criar uma nova lista de preços específica de uma proposta, na página **Proposta** , selecione **Criar lista de preços personalizada**. Pode aceder à lista de preços do projeto específica do negócio a partir da proposta. 
+No entanto, numa proposta, pode utilizar uma lista de preços principal. Em alternativa, pode copiar uma lista de preços principal e editá-la para criar uma lista de preços personalizada que só se aplica a essa proposta. Para criar uma nova lista de preços específica de uma proposta, na página **Proposta**, selecione **Criar lista de preços personalizada**. Pode aceder à lista de preços do projeto específica do negócio a partir da proposta. 
 
 Quando cria uma lista de preços do projeto personalizada, só são copiados os componentes do projeto da lista de preços. Por outras palavras, uma nova lista de preços criada como cópia da lista de preços do projeto existente que está anexada à proposta e esta nova lista de preços só tem preços de função e preços de categoria de transação relacionados.
 

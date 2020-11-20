@@ -3,7 +3,7 @@ title: Efetuar reserva flexível de requisitos
 description: Este tópico fornece informações sobre como reservar requisitos de forma flexível.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082614"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124112"
 ---
 # <a name="soft-book-requirements"></a>Efetuar reserva flexível de requisitos
 
@@ -31,7 +31,7 @@ Um requisito de recurso pode ser reservado de forma fixa. Uma reserva fixa cria 
 
 ![Estado da reserva definido como Flexível](media/Resource-Management-image77.png)
 
-Quando o separador **Equipa** se encontra na vista **Membros da Equipa Nomeados** , o recurso é apresentado nesse ponto. As horas reservadas de forma flexível são reportadas na coluna **Horas com Reserva Flexível**.
+Quando o separador **Equipa** se encontra na vista **Membros da Equipa Nomeados**, o recurso é apresentado nesse ponto. As horas reservadas de forma flexível são reportadas na coluna **Horas com Reserva Flexível**.
 
 ![Horas reservadas de forma flexível na vista Membros da Equipa Nomeados](media/Resource-Management-image78.png)
 
@@ -39,7 +39,7 @@ Os membros da equipa reservados de forma flexível podem ser atribuídos às tar
 
 ![Membro da equipa reservado de forma flexível atribuído a uma tarefa](media/Resource-Management-image79.png)
 
-No separador **Reconciliação** , não são mostradas reservas para um recurso com reserva flexível, porque o separador **Reconciliação** só considera as reservas fixas.
+No separador **Reconciliação**, não são mostradas reservas para um recurso com reserva flexível, porque o separador **Reconciliação** só considera as reservas fixas.
 
 ![Recurso reservado de forma flexível sem reservas no separador Reconciliação](media/Resource-Management-image80.png)
 
@@ -54,10 +54,10 @@ Para converter uma reserva flexível numa reserva fixa, no Quadro da Agenda, cli
 
 ![Alterar o estado de reserva para Fixa](media/Resource-Management-image82.png)
 
-A reserva é alterada e o estado é alterado no Quadro da Agenda. Uma vez que o estado de reserva é **Fixa** , o recurso é mostrado como reservado e a sua capacidade e disponibilidade são ajustadas.
+A reserva é alterada e o estado é alterado no Quadro da Agenda. Uma vez que o estado de reserva é **Fixa**, o recurso é mostrado como reservado e a sua capacidade e disponibilidade são ajustadas.
 
 Pode utilizar o mesmo método para cancelar uma reserva fixa ou uma reserva flexível a partir do Quadro da Agenda.
 
-Para converter um recurso com reserva flexível em fixa no separador **Equipa** , selecione o recurso e, em seguida, selecione **Confirmar**.
+Para converter um recurso com reserva flexível em fixa no separador **Equipa**, selecione o recurso e, em seguida, selecione **Confirmar**.
 
 ![Comando Confirmar](media/Resource-Management-image83.png)

@@ -3,7 +3,7 @@ title: Agendas do projeto
 description: Este tópico fornece informações sobre como criar uma agenda.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082439"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123256"
 ---
 # <a name="project-schedules"></a>Agendas do projeto 
 
@@ -83,12 +83,12 @@ Os botões **Mover para cima** e **Mover para baixo** alteram a posição de uma
 
 A grelha **Agenda** é totalmente acessível e pode ser utilizada com leitores de ecrã, tais como o Narrator, o JAWS ou o NVDA. Pode percorrer a área de grelha através da utilização das teclas de seta (como no Microsoft Excel), pode utilizar a tecla de tabulação para avançar através dos elementos da IU interativa e pode utilizar a tecla de seta para baixo, a tecla Enter ou a Barra de Espaço para selecionar e invocar os menus pendentes. Os cabeçalhos de coluna também são interativos. Pode ocultar e mostrar colunas, utilizar a tecla de tabulação e as teclas de seta para percorrer os cabeçalhos de coluna e utilizar os botões de ação na barra de ferramentas. Além disso, pode utilizar os seguintes atalhos de teclado:
 
-- **Atualizar** : ALT+SHIFT+F5
-- **Adicionar** : ALT+SHIFT+Insert
-- **Eliminar** : ALT+SHIFT+Delete
-- **Mover para cima/baixo** : ALT+SHIFT+setas para cima/para baixo
-- **Avançar/diminuir avanço** : ALT_SHIFT+setas para a esquerda/direita
-- **Expandir/fechar hierarquias** : ALT+SHIFT+teclas mais/menos
+- **Atualizar**: ALT+SHIFT+F5
+- **Adicionar**: ALT+SHIFT+Insert
+- **Eliminar**: ALT+SHIFT+Delete
+- **Mover para cima/baixo**: ALT+SHIFT+setas para cima/para baixo
+- **Avançar/diminuir avanço**: ALT_SHIFT+setas para a esquerda/direita
+- **Expandir/fechar hierarquias**: ALT+SHIFT+teclas mais/menos
 
 ## <a name="task-attributes"></a>Atributos da tarefa
 
@@ -98,19 +98,19 @@ O nome de uma tarefa descreve o trabalho que tem de ser concluído. No PSA, os a
  
 ### <a name="schedule-attributes"></a>Agendar atributos
 
-Os atributos **Esforço** , **Data de início** , **Data de fim** e **Duração** definem a agenda para a tarefa.
+Os atributos **Esforço**, **Data de início**, **Data de fim** e **Duração** definem a agenda para a tarefa.
 
 Os atributos da agenda adicionais incluem:
 
-- **Horas de esforço** : introduza uma estimativa das horas necessárias para concluir a tarefa. 
-- **Duração** : especifique o número de dias de trabalho que são necessários para concluir a tarefa.
-- **ID da agenda** : o ID gerado automaticamente é utilizado para ordenar tarefas na hierarquia. As dependências entre as tarefas gerem a ordem real na qual as tarefas são trabalhadas.
+- **Horas de esforço**: introduza uma estimativa das horas necessárias para concluir a tarefa. 
+- **Duração**: especifique o número de dias de trabalho que são necessários para concluir a tarefa.
+- **ID da agenda**: o ID gerado automaticamente é utilizado para ordenar tarefas na hierarquia. As dependências entre as tarefas gerem a ordem real na qual as tarefas são trabalhadas.
  
 ### <a name="staffing-attributes"></a>Atributos do pessoal
 
-Os atributos de definição de pessoal são acedidos através do campo **Recursos** na agenda. Pode procurar um recurso existente ou clicar em **Criar** e, no painel **Criação Rápida** , adicionar um membro da equipa do projeto como um novo recurso.
+Os atributos de definição de pessoal são acedidos através do campo **Recursos** na agenda. Pode procurar um recurso existente ou clicar em **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipa do projeto como um novo recurso.
 
-Os campos **Função** , **Unidade de Atribuição de Recursos** e **Nome da Posição** são utilizados para descrever as necessidades de definição de pessoal para a tarefa. Estes atributos de definição de pessoal juntamente com o agendamento da tarefa são utilizados para localizar os recursos disponíveis para efetuar esta tarefa.
+Os campos **Função**, **Unidade de Atribuição de Recursos** e **Nome da Posição** são utilizados para descrever as necessidades de definição de pessoal para a tarefa. Estes atributos de definição de pessoal juntamente com o agendamento da tarefa são utilizados para localizar os recursos disponíveis para efetuar esta tarefa.
 
 **Função** - Especifique o tipo de recurso que é necessário para efetuar a tarefa.
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 866252c1961f359cecdb729ca909d96bcb03b1f4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082368"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124292"
 ---
 # <a name="post-expense-reports"></a>Publicar relatórios de despesas
 
@@ -28,6 +28,6 @@ Após a aprovação e transferência de um relatório de despesas para o diário
 
 Se as despesas num relatório de despesas forem cobradas a uma empresa diferente da empresa que emprega o funcionário, tem de verificar tanto a empresa à qual essas despesas são devidas como a empresa que as deve. Por exemplo, o funcionário que submeteu um relatório de despesas trabalha para a empresa DAT, mas cobrou uma despesa à empresa DIR. Neste caso, a DAT é a empresa à qual a despesa é devida e a DIR é a empresa que deve a despesa. Depois de verificar estas linhas do diário, pode lançar as linhas de despesas no razão geral.
 
-Para lançar um relatório de despesas, na página **Relatórios de despesas aprovados** , selecione o relatório de despesas e, em seguida, no Painel de Ação, selecione **Publicar**.
+Para lançar um relatório de despesas, na página **Relatórios de despesas aprovados**, selecione o relatório de despesas e, em seguida, no Painel de Ação, selecione **Publicar**.
 
 Também pode lançar todos os relatórios de despesas na lista ao mesmo tempo. Selecione todos os relatórios de despesas e, em seguida, selecione **Publicar**.

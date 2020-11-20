@@ -3,7 +3,7 @@ title: Novidades ou alterações na Versão da Atualização 12 do Project Servi
 description: Esta tópico fornece informações sobre o que há de novo na Versão da Atualização 12 do Project Service Automation, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082365"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119972"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Versão da Atualização 12 do Project Service Automation, V3
 Temos o prazer de anunciar a atualização mais recente para a aplicação Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -39,7 +39,7 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o Pr
     - Corrigido: a grelha de hora de entrada e a agenda apresentam corretamente a barra de deslocamento vertical quando necessário.
     - Corrigido: entradas de despesas e de hora submetidas podem ser aprovadas.
     - Corrigido: a mensagem de diálogo Cancelar confirmação de aprovação foi corrigida para refletir o estado da aprovação quando alterado de **Aprovada** para **Submetida**.
-    - Corrigido: os campos **Preço** , **Unidade** e **Quantidade** agora estão bloqueados no registo Despesas depois de terem sido aprovados.
+    - Corrigido: os campos **Preço**, **Unidade** e **Quantidade** agora estão bloqueados no registo Despesas depois de terem sido aprovados.
 
 - Gestão de Projetos
 
@@ -56,5 +56,5 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o Pr
 - Sales
 
     - Corrigido: IDs de objetos duplicados no formulário **Principal do contrato**.
-    - Corrigido: a lógica foi atualizada para tornar visível o separador **Análise de Proposta** , de modo a apresentar a configuração de metadados do separador.
+    - Corrigido: a lógica foi atualizada para tornar visível o separador **Análise de Proposta**, de modo a apresentar a configuração de metadados do separador.
     - Corrigido: a data contabilística do registo real agora provém da data da hora da entrada da hora/despesa e não da data de aprovação.

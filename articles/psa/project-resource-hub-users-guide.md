@@ -3,7 +3,7 @@ title: Manual do utilizador para o Hub de Recursos de Projeto
 description: Manual do utilizador final do Hub de Recursos do Projeto para o Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082395"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123167"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Manual do Utilizador para o Hub de Recursos de Projeto
 
@@ -66,7 +66,7 @@ As secções de Favoritos e Recentemente Utilizados permitem um acesso rápido a
 
 - Para aceder a estas secções, toque no botão **Menu** ![Botão Menu](media/MenuButton.png "Botão Menu") na barra de navegação e, em seguida, toque no botão **Favoritos e Recentes** ![Botão Fav](media/FavButton.png "Botão Fav").
 
-- Para afixar um item como um favorito, na lista de itens **Recentemente Utilizados** , toque no marcador. Isto irá afixar e mover o item para os Favoritos.
+- Para afixar um item como um favorito, na lista de itens **Recentemente Utilizados**, toque no marcador. Isto irá afixar e mover o item para os Favoritos.
 
   ![Itens Favoritos e Recentes](media/Favs_3.png "Itens Favoritos e Recentes")
  
@@ -88,7 +88,7 @@ Introduza as despesas pelo menos semanalmente ou com a frequência pedida pelos 
 
 1. Toque no botão de menu ![Botão Menu](media/MenuButton.png "Botão Menu") e toque em **Despesas**. É apresentado o calendário.
 
-2. Pode mudar para a vista **Dia** , **Semana** ou **Mês** ou navegar para o período de tempo anterior ou seguinte. 
+2. Pode mudar para a vista **Dia**, **Semana** ou **Mês** ou navegar para o período de tempo anterior ou seguinte. 
 
 3. Para introduzir a despesa, toque em **Novo** na barra de comandos. 
 

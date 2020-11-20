@@ -3,7 +3,7 @@ title: Propor recursos do projeto
 description: Este tópico fornece informações sobre propor recursos do projeto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,25 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082623"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120197"
 ---
 # <a name="propose-project-resources"></a>Propor recursos do projeto
 
 Os gestores de recursos podem propor um recurso ao gestor de projeto utilizando um pedido de recurso.
 
 1. A partir da grelha de pedido ou do próprio pedido, selecione **Localizar Recursos**.
-2. Na página **Assistente da Agenda** , selecione o recurso e, em seguida, no painel **Criar Reserva de Recursos** , no campo **Estado da Reserva** , selecione **Reservar**.
+2. Na página **Assistente da Agenda**, selecione o recurso e, em seguida, no painel **Criar Reserva de Recursos**, no campo **Estado da Reserva**, selecione **Reservar**.
 
     ![Recurso proposto selecionado](media/Resource-Management-image62.png)
 
 Ocorrem as seguintes atualizações de estado:
 
-- Na página **Assistente da Agenda** , os indicadores de estado são atualizados para indicar que a reserva é proposta, e não reservada de forma fixa.
+- Na página **Assistente da Agenda**, os indicadores de estado são atualizados para indicar que a reserva é proposta, e não reservada de forma fixa.
 
     ![Indicadores de estado para reservas propostas na página Assistente da Agenda](media/Resource-Management-image63.png)
 
@@ -82,11 +82,11 @@ Uma vez a vista **Utilização de Recursos** é baseada no Quadro da Agenda, pod
 
 A grelha requer que defina uma utilização de destino na função ou no recurso individual. Para efetuar esta configuração, aceda a **Recursos** \> **Funções do recurso**.
 
-Além disso, deve ser atribuída uma função predefinida a cada recurso reservável. Aceda a **Recursos** \> **Recursos**. No separador **Project Service** , verifique se está definida uma função de recurso e se o campo **É Predefinição** está definido como **Sim**. Pode adicionar funções adicionais em que **É Predefinição = Não**. A função em que **É Predefinição = Sim** é utilizada para avaliar a utilização do recurso relativamente ao alvo dessa função.
+Além disso, deve ser atribuída uma função predefinida a cada recurso reservável. Aceda a **Recursos** \> **Recursos**. No separador **Project Service**, verifique se está definida uma função de recurso e se o campo **É Predefinição** está definido como **Sim**. Pode adicionar funções adicionais em que **É Predefinição = Não**. A função em que **É Predefinição = Sim** é utilizada para avaliar a utilização do recurso relativamente ao alvo dessa função.
 
 ![Função predefinida definida](media/Resource-Management-image67.png)
 
-No separador **Project Service** , também pode definir uma utilização de destino individual para o recurso. Em seguida, o cálculo da utilização utiliza essa utilização de destino para avaliar o destino do recurso em vez do destino da função predefinida do recurso.
+No separador **Project Service**, também pode definir uma utilização de destino individual para o recurso. Em seguida, o cálculo da utilização utiliza essa utilização de destino para avaliar o destino do recurso em vez do destino da função predefinida do recurso.
 
 A utilização é mostrada para um recurso apenas se esse recurso tiver aprovado, um tempo faturável durante o período mostrado na grelha.
 

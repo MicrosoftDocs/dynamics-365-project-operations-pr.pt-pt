@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082406"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120917"
 ---
 # <a name="expense-using-mobile"></a>Despesas com dispositivo móvel
 
@@ -105,13 +105,13 @@ Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops:
 3. Selecione **Tirar fotografia** ou **Escolher imagem**.
 4. Siga um destes passos:
 
-   - Se selecionar **Tirar fotografia** , siga estes passos:
+   - Se selecionar **Tirar fotografia**, siga estes passos:
 
       1. É levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo. 
       2. Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.
       3. Opcional: Introduza um nome para a fotografia e introduza quaisquer notas.
 
-    - Se selecionar **Escolher fotografia** , siga estes passos:
+    - Se selecionar **Escolher fotografia**, siga estes passos:
 
         1. Selecione uma imagem na lista.
         2. Opcional: Introduza um nome para a imagem e introduza quaisquer notas.
@@ -130,8 +130,8 @@ Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops:
 8. Selecione **Tirar fotografia** ou **Escolher imagem**.
 9. Siga um destes passos:
 
-    - Se selecionou **Tirar fotografia** , é levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo. Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.
-    - Se selecionou **Escolher a imagem** , selecione uma imagem na lista.
+    - Se selecionou **Tirar fotografia**, é levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo. Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.
+    - Se selecionou **Escolher a imagem**, selecione uma imagem na lista.
 
 10. Selecione **Concluído**.
 
@@ -144,7 +144,7 @@ Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops:
     
 3. Selecione um relatório de despesas para ver os detalhes das despesas para o mesmo.
 4. Selecione uma despesa para ver os detalhes da mesma. A informação que é mostrada para uma despesa inclui qualquer recibo, convidado e detalhes de discriminação.
-5. De volta à página do **relatório de despesas** , selecione para aprovar ou rejeitar o relatório de despesas.
+5. De volta à página do **relatório de despesas**, selecione para aprovar ou rejeitar o relatório de despesas.
 6. Insira quaisquer comentários para a ação de aprovação.
 7. Selecione **Concluído**.
 
@@ -166,60 +166,60 @@ Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops:
 14. Selecionar a moeda da despesa. Vê uma lista dos códigos de moeda que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 400 moedas, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se a sua moeda não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por moeda ou mude para a pesquisa por nome de categoria.
 15. Selecione **Concluído**.
 16. Para adicionar mais detalhes à despesa, selecione **Adicionar mais detalhes**. Os campos disponíveis dependem da configuração da gestão de despesas para a sua empresa.
-17. Se a política da empresa exigir um recibo para as despesas, selecione **Recibos** , e siga estes passos:
+17. Se a política da empresa exigir um recibo para as despesas, selecione **Recibos**, e siga estes passos:
 
     1. Selecione o **recibo de recolha** ou **Anexar recibo**.
     2. Siga um destes passos:
 
-        - Se selecionar **Recibo de recolha** , siga estes passos:
+        - Se selecionar **Recibo de recolha**, siga estes passos:
 
             1. Selecione **Tirar fotografia** ou **Escolher imagem**.
             2. Siga um destes passos:
 
-                - Se selecionar **Tirar fotografia** , siga estes passos:
+                - Se selecionar **Tirar fotografia**, siga estes passos:
 
                     1. É levado para a câmara do seu dispositivo móvel, para que possa tirar uma fotografia ao recibo. Quando terminar de tirar uma fotografia, selecione **OK** para aceitar a foto.
                     2. Opcional: Introduza um nome para a fotografia e introduza quaisquer notas.
 
-                - Se selecionar **Escolher fotografia** , siga estes passos:
+                - Se selecionar **Escolher fotografia**, siga estes passos:
 
                     1. Selecione uma imagem na lista.
                     2. Opcional: Introduza um nome para a imagem e introduza quaisquer notas.
 
             3.  Selecione **Concluído**.
 
-        - Se selecionar **Anexar recibo** , siga estes passos:
+        - Se selecionar **Anexar recibo**, siga estes passos:
 
             1.  Selecione uma ou mais imagens na lista.
             2.  Selecione **Concluído**.
 
     3. Selecione o botão **Anterior** para voltar aos detalhes das despesas.
 
-18. Se a política da empresa exigir convidados para as despesas, selecione **Convidados** , e siga estes passos:
+18. Se a política da empresa exigir convidados para as despesas, selecione **Convidados**, e siga estes passos:
 
-    1. Selecione **Convidado** , **Convidados anteriores** ou **Colegas de trabalho**.
+    1. Selecione **Convidado**, **Convidados anteriores** ou **Colegas de trabalho**.
     2. Siga um destes passos:
 
-        - Se selecionou **Convidado** , siga estes passos:
+        - Se selecionou **Convidado**, siga estes passos:
 
             1. Introduza o nome do convidado.
             2. Opcional: Insira a organização e/ou o país do convidado.
             3. Opcional: Introduzir o cargo do convidado.
             4. Selecione **Concluído**.
 
-        - Se selecionar **Convidados anteriores** , siga estes passos:
+        - Se selecionar **Convidados anteriores**, siga estes passos:
 
             1. Selecione um ou mais convidados anteriores na lista. Vê uma lista de convidados anteriores que adicionou aos relatórios de despesas anteriores que são carregados na sua aplicação para uso offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se o seu convidado anterior não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por nome ou mude para a pesquisa por organização, país, ou cargo.
             2. Selecione **Concluído**.
 
-        - Se selecionou **Colega de trabalho** , siga estes passos:
+        - Se selecionou **Colega de trabalho**, siga estes passos:
 
             1. Selecione um ou mais colegas de trabalho na lista. Vê uma lista de colegas de trabalho que são carregados na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, os programadores deveriam consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se o seu colega de trabalho não estiver na lista, selecione **Procurar** para fazer uma pesquisa online. Procure por nome ou mude para a pesquisa por empresa ou cargo.
             2. Selecione **Concluído**.
 
     3. Selecione o botão **Anterior** para voltar aos detalhes das despesas.
 
-19. Se a política da empresa exigir que a despesa seja discriminada, selecione **Discriminar** , e siga estes passos:
+19. Se a política da empresa exigir que a despesa seja discriminada, selecione **Discriminar**, e siga estes passos:
 
     1. Selecione a primeira data para discriminar.
     2. Selecione **Adicionar discriminação**.

@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082287"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122763"
 ---
 # <a name="cash-advance"></a>Adiantamento de tesouraria
 
@@ -25,16 +25,16 @@ Um adiantamento de tesouraria permite que os colaboradores peçam dinheiro empre
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Criar e submeter um pedido de adiantamento de tesouraria
 
-1. Em **As Minhas Despesas** , selecione **Adiantamentos de tesouraria** > **Novo** para criar um novo adiantamento de tesouraria. 
-2. Na página **Novo pedido de adiantamento de tesouraria** , introduza a finalidade da despesa e selecione a localização onde a despesa será feita.
+1. Em **As Minhas Despesas**, selecione **Adiantamentos de tesouraria** > **Novo** para criar um novo adiantamento de tesouraria. 
+2. Na página **Novo pedido de adiantamento de tesouraria**, introduza a finalidade da despesa e selecione a localização onde a despesa será feita.
 3. Introduza o montante e a moeda do pedido e, em seguida, selecione **Guardar**. 
-4. Quando estiver pronto para submeter o pedido de adiantamento de tesouraria, na página **de adiantamento de tesouraria** , selecione **Fluxo de trabalho** > **Submeter**.
+4. Quando estiver pronto para submeter o pedido de adiantamento de tesouraria, na página **de adiantamento de tesouraria**, selecione **Fluxo de trabalho** > **Submeter**.
 
 ## <a name="modify-a-cash-advance-request"></a>Modificar um pedido de adiantamento de tesouraria
 
 Pode modificar um pedido de adiantamento de tesouraria se não tiver sido submetido para aprovação.
 
-1. Em **As Minhas Despesas: Adiantamentos de Tesouraria** , localize e selecione o adiantamento de tesouraria que pretende editar.
+1. Em **As Minhas Despesas: Adiantamentos de Tesouraria**, localize e selecione o adiantamento de tesouraria que pretende editar.
 2. Selecione **Editar** e faça as alterações necessárias ao pedido de adiantamento de tesouraria. 
 3. Selecione **Guardar e fechar**.
 
@@ -46,7 +46,7 @@ Pode rever a lista de todos os adiantamentos de tesouraria que estão em rascunh
 
 Os gestores ou utilizadores configurados como aprovadores no fluxo de trabalho poderão aprovar os adiantamentos de tesouraria que lhes são submetidos para revisão. 
 
-1. Para aprovar um adiantamento de tesouraria, em **Processar adiantamentos de tesouraria** , selecione **Adiantamentos de tesouraria para minha revisão**.
+1. Para aprovar um adiantamento de tesouraria, em **Processar adiantamentos de tesouraria**, selecione **Adiantamentos de tesouraria para minha revisão**.
 2. Selecione o adiantamento de tesouraria que precisa para rever e selecione **Aprovar**.  
 
 ## <a name="pay-cash-advances"></a>Pagar adiantamentos de tesouraria 

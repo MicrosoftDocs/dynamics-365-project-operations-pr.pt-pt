@@ -3,7 +3,7 @@ title: FAQ de gestão de recursos
 description: Este tópico fornece respostas às perguntas mais frequentes sobre a gestão de recursos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082615"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120152"
 ---
 # <a name="resource-management-faq"></a>FAQ de gestão de recursos
 
@@ -47,7 +47,7 @@ Depois de os recursos serem reservados, selecione **Manter Reservas** para efetu
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Que tipos de recursos suporta o Project Service Automation?
 
-O **Utilizador** e o **Contacto** são os únicos tipos de recursos suportados no Dynamics 365 Project Service Automation. Apesar de poder criar outros tipos de recursos (por exemplo, **Equipamento** e **Grupo** ), nenhum caso de utilização completo é suportado por eles.
+O **Utilizador** e o **Contacto** são os únicos tipos de recursos suportados no Dynamics 365 Project Service Automation. Apesar de poder criar outros tipos de recursos (por exemplo, **Equipamento** e **Grupo**), nenhum caso de utilização completo é suportado por eles.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Qual é a diferença entre uma atribuição e uma reserva?
 

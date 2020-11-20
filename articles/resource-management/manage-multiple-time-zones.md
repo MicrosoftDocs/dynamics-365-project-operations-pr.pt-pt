@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082342"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119837"
 ---
 # <a name="manage-time-zones"></a>Gerir fusos horários
 
@@ -22,7 +22,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 ## <a name="projects"></a>Projetos
 
-Quando um projeto é criado, o fuso horário baseia-se no fuso horário definido no modelo de horas de trabalho aplicado. No **Projeto** , as datas são sempre relativas ao fuso horário do utilizador que tem sessão iniciada em cada separador, exceto o separador **Tarefa**. Quando visualizar a estrutura hierárquica do trabalho, as datas serão sempre apresentadas no fuso horário do projeto.
+Quando um projeto é criado, o fuso horário baseia-se no fuso horário definido no modelo de horas de trabalho aplicado. No **Projeto**, as datas são sempre relativas ao fuso horário do utilizador que tem sessão iniciada em cada separador, exceto o separador **Tarefa**. Quando visualizar a estrutura hierárquica do trabalho, as datas serão sempre apresentadas no fuso horário do projeto.
 
 ## <a name="tasks"></a>Tarefas
 
@@ -30,7 +30,7 @@ Quando uma tarefa é criada, a hora de início, a hora de fim e as horas/dia sã
 
 ## <a name="manage-resources-with-time-zones"></a>Gerir recursos com fusos horários
 
-Para obter resultados precisos e previsíveis ao utilizar **Expandir Reserva** , existem dois pré-requisitos chave que têm de ser cumpridos:  
+Para obter resultados precisos e previsíveis ao utilizar **Expandir Reserva**, existem dois pré-requisitos chave que têm de ser cumpridos:  
 
 - O utilizador tem de configurar o fuso horário do dispositivo para fazer corresponder ao fuso horário definido nas **Definições de Personalização** do sistema.
  
@@ -57,7 +57,7 @@ A tabela seguinte mostra:
 |Recurso C  |  ![Calendário do Recurso C](media/reconcile-assignments-08.png) |
 |Recurso D  | ![Calendário do Recurso D](media/reconcile-assignments-09.png)  |
  
-Quando navega para a vista **Reconciliação** , são apresentadas as atribuições de recursos e as faltas de reservas associadas.
+Quando navega para a vista **Reconciliação**, são apresentadas as atribuições de recursos e as faltas de reservas associadas.
 
 ![Vista de reconciliação antes da extensão](media/reconcile-assignments-10.png)
 

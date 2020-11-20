@@ -3,7 +3,7 @@ title: Novidades ou alterações na Versão da Atualização 18 do Project Servi
 description: Este tópico lista as funcionalidades e correções disponíveis no Project Service Automation V3, Versão da Atualização 18, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082358"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119882"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Versão da Atualização 18 do Project Service Automation, V3
 
@@ -36,7 +36,7 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o Pr
 
 **Tempo e Despesa**
 
-- Corrigido: os fluxos **Revocar** , **Pedir** e **Cancelar Aprovação** lançam exceções com mensagens de erro ambíguas.
+- Corrigido: os fluxos **Revocar**, **Pedir** e **Cancelar Aprovação** lançam exceções com mensagens de erro ambíguas.
 - Corrigido: quando **Cancelar Aprovação** falha para uma despesa, um erro de exceção relevante não é lançado.
 - Corrigido: a grelha Entrada de Hora processa incorretamente dias não úteis na Austrália após a mudança para a hora de verão (DST) em outubro.
 - Corrigido: a lógica de definição incorreta impede o envio de despesas.
@@ -60,4 +60,4 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o Pr
 
 **Sales**
 
-- Corrigido: quando as entradas de hora são reaprovadas ( **Aprovar > Cancelar >** são aprovadas novamente), é criado um valor real não cobrável duplicado.
+- Corrigido: quando as entradas de hora são reaprovadas (**Aprovar > Cancelar >** são aprovadas novamente), é criado um valor real não cobrável duplicado.

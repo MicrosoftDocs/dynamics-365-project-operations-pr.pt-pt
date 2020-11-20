@@ -3,7 +3,7 @@ title: Reconciliar reservas e atribuições
 description: Este tópico fornece informações sobre os valores reais.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082450"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120467"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Reconciliar reservas e atribuições
 
@@ -35,7 +35,7 @@ Devido à ligação fraca de reservas de projetos e atribuições de tarefas, é
 
 Para cada membro da equipa nomeado, o separador **Reconciliação** mostra reservas e atribuições até à atribuição de tarefas individuais. Mostra horas nas células que podem representar períodos de meses a dias.
 
-No campo **Escala temporal** , pode selecionar **Mês** , **Semana** ou **Dia**. Por predefinição, está selecionado **Semana**. No entanto, pode alterar o valor predefinido selecionando o botão **Definições**. Quando o separador **Reconciliação** é aberto, mostra a data atual, mas pode utilizar o controlo de calendário para avançar ou retroceder no tempo. Quando um projeto tem uma data de início no futuro, o separador mostra essa data quando é aberto. O controlo de calendário também tem opções que lhe permitem mover para as datas de início e de fim do projeto.
+No campo **Escala temporal**, pode selecionar **Mês**, **Semana** ou **Dia**. Por predefinição, está selecionado **Semana**. No entanto, pode alterar o valor predefinido selecionando o botão **Definições**. Quando o separador **Reconciliação** é aberto, mostra a data atual, mas pode utilizar o controlo de calendário para avançar ou retroceder no tempo. Quando um projeto tem uma data de início no futuro, o separador mostra essa data quando é aberto. O controlo de calendário também tem opções que lhe permitem mover para as datas de início e de fim do projeto.
 
 Pode utilizar os controlos de expansão em cada recurso para mostrar os detalhes das reservas do recurso. Também pode expandir as atribuições de cada recurso para o nível da tarefa individual.
 
@@ -47,9 +47,9 @@ A parte inferior do separador **Reconciliação** mostra um total líquido globa
 > [!NOTE]
 > A legenda para estas condições poderá estar oculta para deixar mais espaço para a grelha. Neste caso, pode tornar a legenda visível selecionando o botão **Definições**.
 
-Em alguns casos, quando o campo **Escala temporal** está definido como um nível superior a **Dia** , as diferenças podem ser calculadas como 0 (zero). Por exemplo, no nível **Mês** , a diferença líquida de um recurso poderá ser 0 (zero) para indicar que as reservas são iguais às atribuições. No entanto, se observar o nível **Semana** , poderá ver que existem atribuições de 0 (zero) horas e reservas de 40 horas na primeira semana do mês, e atribuições de 40 horas e reservas de 0 (zero) horas na segunda semana do mês. Apesar de o total de reservas e atribuições para o mês serem iguais, são diferentes por semana.
+Em alguns casos, quando o campo **Escala temporal** está definido como um nível superior a **Dia**, as diferenças podem ser calculadas como 0 (zero). Por exemplo, no nível **Mês**, a diferença líquida de um recurso poderá ser 0 (zero) para indicar que as reservas são iguais às atribuições. No entanto, se observar o nível **Semana**, poderá ver que existem atribuições de 0 (zero) horas e reservas de 40 horas na primeira semana do mês, e atribuições de 40 horas e reservas de 0 (zero) horas na segunda semana do mês. Apesar de o total de reservas e atribuições para o mês serem iguais, são diferentes por semana.
 
-Quando visualiza níveis de tempo superiores, o separador **Reconciliação** mostra um indicador de célula para notificá-lo de que existem diferenças em níveis de tempo inferiores. Por exemplo, na ilustração seguinte, é apresentado um indicador de célula na célula para o mês de outubro de 2018 relativamente ao recurso com o nome Gabriela Gomes. Consequentemente, pode ver que, apesar de as reservas e as atribuições do recurso serem iguais quando são agregadas no nível **Mês** , não correspondem nos níveis inferiores.
+Quando visualiza níveis de tempo superiores, o separador **Reconciliação** mostra um indicador de célula para notificá-lo de que existem diferenças em níveis de tempo inferiores. Por exemplo, na ilustração seguinte, é apresentado um indicador de célula na célula para o mês de outubro de 2018 relativamente ao recurso com o nome Gabriela Gomes. Consequentemente, pode ver que, apesar de as reservas e as atribuições do recurso serem iguais quando são agregadas no nível **Mês**, não correspondem nos níveis inferiores.
 
 ![Reservas e atribuições desajustadas a nível mensal](media/reconcile-assignments-01.JPG)
 

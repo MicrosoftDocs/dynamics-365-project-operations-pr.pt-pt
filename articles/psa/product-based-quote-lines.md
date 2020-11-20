@@ -3,7 +3,7 @@ title: Linhas de proposta baseadas em produtos
 description: Este tópico fornece informações sobre linhas de proposta baseadas em produtos.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082584"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123222"
 ---
 # <a name="product-based-quote-lines"></a>Linhas de proposta baseadas em produtos
 
@@ -54,9 +54,9 @@ Se uma linha de proposta for baseada num catálogo de produtos, pode definir man
 - Definir preço manualmente  
 - Utilizar predefinição
 
-Se definir este campo como **Definir preço manualmente** , o Dynamics 365 não define um preço predefinido. Tem de introduzir um preço para o produto na linha de proposta. Se definir este campo para **Utilizar predefinição** , o Dynamics 365 utiliza o preço de venda predefinido e bloqueia o campo para impedir a edição.
+Se definir este campo como **Definir preço manualmente**, o Dynamics 365 não define um preço predefinido. Tem de introduzir um preço para o produto na linha de proposta. Se definir este campo para **Utilizar predefinição**, o Dynamics 365 utiliza o preço de venda predefinido e bloqueia o campo para impedir a edição.
 
-Depois de instalar o PSA, os preços de venda predefinidos são introduzidos nos itens baseados em produtos numa proposta. O campo **Definição de Preços** é definido para **Definir preço manualmente** , para que possa editar o preço predefinido nas linhas de proposta.
+Depois de instalar o PSA, os preços de venda predefinidos são introduzidos nos itens baseados em produtos numa proposta. O campo **Definição de Preços** é definido para **Definir preço manualmente**, para que possa editar o preço predefinido nas linhas de proposta.
 
 > ![Definir preço manualmente](media/basic-guide-10.png)
  

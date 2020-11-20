@@ -3,7 +3,7 @@ title: Guia de tempo, despesa e colaboração
 description: Um manual para tempo, despesa e colaboração para o Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3404642bf20ee23000202b3447f3167aeb4dee27
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4f975a248c6224bdea72ca1ecdb8a299f0f9254c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082493"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120062"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Manual de tempo, despesa e colaboração (Project Service)
 
@@ -59,7 +59,7 @@ Clique numa hiperligação abaixo para saber mais sobre o que pode fazer com o [
   
 -   [Permitir que outra pessoa proceda à entrada de hora ou despesa](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [Agendar licença ](../psa/schedule-time-off.md)  
+-   [Agendar licença](../psa/schedule-time-off.md)  
   
 -   [Colaborar com os membros da equipa do projeto com os Grupos do Office 365](../psa/collaborate-project-team-members-office-365-groups.md)  
   

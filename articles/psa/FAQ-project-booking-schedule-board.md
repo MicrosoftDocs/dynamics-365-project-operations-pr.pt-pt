@@ -3,7 +3,7 @@ title: Criar uma reserva de projeto no quadro da Agenda
 description: Este tópico fornece informações sobre como criar uma reserva de projeto a partir do quadro da agenda.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082421"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122312"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Criar uma reserva de projeto no quadro da Agenda
 
@@ -81,7 +81,7 @@ Conclua os seguintes passos para reservar a partir de um novo requisito de recur
 
 1. Aceda a **Requisitos de Recursos** e, em seguida, selecione **Novo** para criar um novo requisito de recurso.
 
-2. No separador **Projeto** , selecione um projeto para associar o requisito ao projeto.
+2. No separador **Projeto**, selecione um projeto para associar o requisito ao projeto.
  
     No quadro da Agenda, este novo requisito é apresentado como um **Requisito Aberto** que pode preencher.
 

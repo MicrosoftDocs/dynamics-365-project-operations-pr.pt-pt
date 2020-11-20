@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096766"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122897"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurar a integração do Project Operations por entidade legal 
 
@@ -26,7 +26,7 @@ Este tópico percorre os passos necessários para configurar o Dynamics 365 Proj
 Complete os seguintes passos para ativar as funcionalidades necessárias.
 
 1. No Dynamics 365 Finance, vá para a área de trabalho **Gestão de Funcionalidades**.
-2. Na **Lista de funcionalidades** , encontre e ative as seguintes funcionalidades:
+2. Na **Lista de funcionalidades**, encontre e ative as seguintes funcionalidades:
   
     - **Ativar vários itens de contrato para um projeto**
     - **Ativar o Project Operations no Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Pode ativar o Project Operations no Dynamics 365 Customer Engagement ao nível d
 
 Cada entidade legal que utiliza o Project Operations no Dynamics 365 Customer Engagement necessita de um conjunto de parâmetros predefinidos. Estes parâmetros estão configurados no separador **Project Operations** na página **Parâmetros da Gestão de projetos e contabilística**. Os parâmetros são:
 
-  - **Predefinições do tipo de faturação** : O Project Operations utilizam um conjunto fixo de predefinições do tipo de faturação que devem ser mapeados para as propriedades de linha Finanças. Criar um registo para cada tipo de faturação: **Não especificado** , **Faturável** , **Não faturável** , **Complementar** e **Não disponível**.
-  - **Predefinições de categoria do projeto** : Selecione as categorias de projeto predefinidas a utilizar para cada tipo de transação. Estas predefinições serão utilizadas no **Diário de Integração do Project Operations** e em estimativas onde não é especificada nenhuma categoria de transação para o valor real do projeto.
-  - **Previsões** : Selecione o modelo de previsão a utilizar para estimativas de tempo e despesas.
+  - **Predefinições do tipo de faturação**: O Project Operations utilizam um conjunto fixo de predefinições do tipo de faturação que devem ser mapeados para as propriedades de linha Finanças. Criar um registo para cada tipo de faturação: **Não especificado**, **Faturável**, **Não faturável**, **Complementar** e **Não disponível**.
+  - **Predefinições de categoria do projeto**: Selecione as categorias de projeto predefinidas a utilizar para cada tipo de transação. Estas predefinições serão utilizadas no **Diário de Integração do Project Operations** e em estimativas onde não é especificada nenhuma categoria de transação para o valor real do projeto.
+  - **Previsões**: Selecione o modelo de previsão a utilizar para estimativas de tempo e despesas.

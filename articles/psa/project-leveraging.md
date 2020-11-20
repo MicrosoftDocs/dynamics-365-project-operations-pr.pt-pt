@@ -3,7 +3,7 @@ title: Estimativas e projetos de vendas
 description: Este tópico fornece informações sobre como tirar partido da agenda e das estimativas no processo de vendas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eafe60362003198a223026526f56261de414bb4a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8bb380519759659dc1b4151b62228a626ee7a26
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082422"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120692"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimativas e projetos de vendas
 
@@ -51,4 +51,4 @@ Pode definir o esforço de trabalho e agendar estimativas utilizando os campos n
 
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importar estimativas de um projeto para uma proposta
 
-Depois de definir as estimativas do projeto, pode importá-las para a linha de proposta. Na página **Detalhes de Linha de Proposta** , selecione **Importar a partir da estimativa** a partir de estimativas no friso para resumir as estimativas de projeto por tipo de transação, função ou nível de tarefa.
+Depois de definir as estimativas do projeto, pode importá-las para a linha de proposta. Na página **Detalhes de Linha de Proposta**, selecione **Importar a partir da estimativa** a partir de estimativas no friso para resumir as estimativas de projeto por tipo de transação, função ou nível de tarefa.

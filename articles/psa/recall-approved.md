@@ -3,7 +3,7 @@ title: Recuperar entradas de tempo ou despesa aprovadas
 description: Este tópico fornece informações sobre como recuperar uma transação de tempo ou despesa aprovada anteriormente.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082451"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120557"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Recuperar entradas de tempo ou despesa aprovadas
 
@@ -60,13 +60,13 @@ Siga estes passos para pedir uma recuperação de uma entrada de tempo ou de des
 Siga estes passos para aprovar ou rejeitar um pedido de recuperação.
 
 1. Aceda a **Projetos** \> **O Meu Trabalho** \> **Aprovações**.
-2. Na página da lista de **Aprovações** , altere a vista para **Pedidos de recuperação para aprovação**. É apresentada uma lista de pedidos de recuperação submetidos.
+2. Na página da lista de **Aprovações**, altere a vista para **Pedidos de recuperação para aprovação**. É apresentada uma lista de pedidos de recuperação submetidos.
 3. Selecione uma ou mais entradas e, em seguida, selecione **Aprovar** ou **Rejeitar**.
-4. Se tiver selecionado **Aprovar** , receberá uma mensagem de aviso que explica o impacto da aprovação. Selecione **OK** para confirmar a operação. O pedido de recuperação é aprovado.
+4. Se tiver selecionado **Aprovar**, receberá uma mensagem de aviso que explica o impacto da aprovação. Selecione **OK** para confirmar a operação. O pedido de recuperação é aprovado.
 
     –ou–
 
-    Se tiver selecionado **Rejeitar** , o pedido de recuperação é rejeitado.
+    Se tiver selecionado **Rejeitar**, o pedido de recuperação é rejeitado.
 
 > [!NOTE]
 > Como quando uma nova recuperação é pedida, quando uma recuperação é aprovada, o sistema verifica a existência de qualquer atividade de faturação nas entradas de tempo ou despesa. Se uma entrada já tiver sido faturada, ou se estiver numa fatura de rascunho, o aprovador receberá uma mensagem de erro que indica que não é possível aprovar o tempo ou a despesa para a recuperação, porque já estava faturado.
@@ -77,7 +77,7 @@ Quando uma aprovação é recuperada, existe um impacto operacional e um impacto
 
 ### <a name="operational-impact"></a>Impacto operacional
 
-Se um pedido de recuperação for aprovado, o registo de aprovação é marcado como **Rejeitado**. O estado da entrada é alterado para **Devolvido** ou **Rejeitado** , dependendo de se é uma entrada de tempo ou uma entrada de despesa.
+Se um pedido de recuperação for aprovado, o registo de aprovação é marcado como **Rejeitado**. O estado da entrada é alterado para **Devolvido** ou **Rejeitado**, dependendo de se é uma entrada de tempo ou uma entrada de despesa.
 
 O membro da equipa do projeto pode ver as entradas, editá-las e, em seguida, voltar a submetê-las ou eliminá-las por completo.
 

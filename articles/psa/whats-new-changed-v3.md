@@ -2,7 +2,7 @@
 title: Novidades ou alterações no Project Service Automation versão 3
 description: Este tópico inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082366"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120017"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novidades ou alterações no Project Service Automation versão 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ As estimativas foram divididas em dois separadores, **Atribuição de recurso** 
 
 ![Separador de atribuições de recursos a mostrar estimativas de esforço e atribuições do recurso para as tarefas](media/resource-assignments-tab-02.png)
 
-O separador **Estimativas** mostra os valores de custo e vendas das atribuições do recurso. Os valores são só de leitura. Agora, a definição de preços de custo e venda é derivada das atribuições do membro da equipa na agenda. Isto significa que, se houver uma tarefa sem nenhuma atribuição, ela será apresentada sob o registo não atribuído. Isto também significa que, sem **função** , que é uma dimensão de definição de preços predefinida, não haverá nenhuma estimativa de custo ou vendas se houver um cliente ou um contrato/uma proposta associado ao projeto. 
+O separador **Estimativas** mostra os valores de custo e vendas das atribuições do recurso. Os valores são só de leitura. Agora, a definição de preços de custo e venda é derivada das atribuições do membro da equipa na agenda. Isto significa que, se houver uma tarefa sem nenhuma atribuição, ela será apresentada sob o registo não atribuído. Isto também significa que, sem **função**, que é uma dimensão de definição de preços predefinida, não haverá nenhuma estimativa de custo ou vendas se houver um cliente ou um contrato/uma proposta associado ao projeto. 
 
 ![Separador Estimativas a mostrar valores de custo e vendas](media/estimates-tab-03.png)
   
@@ -105,12 +105,12 @@ As estimativas de despesa podem ser introduzidas na grelha do separador **Estima
 ![Separador Estimativas de despesas a mostrar a grelha de estimativas de despesas](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Gestão de recursos
-No Project Service Automation versão 3, com a nova IU Unificada do Cliente e as alterações nas relações entre reservas e atribuições, a definição da equipa de um projeto com recursos genéricos ou reais foi alterada significativamente em comparação com as versões 2 e 1. Entretanto, os conceitos de recursos reserváveis, **real** e **genérico** , permanecem iguais, assim como os membros da equipa, os requisitos, as atribuições e as reservas.   
+No Project Service Automation versão 3, com a nova IU Unificada do Cliente e as alterações nas relações entre reservas e atribuições, a definição da equipa de um projeto com recursos genéricos ou reais foi alterada significativamente em comparação com as versões 2 e 1. Entretanto, os conceitos de recursos reserváveis, **real** e **genérico**, permanecem iguais, assim como os membros da equipa, os requisitos, as atribuições e as reservas.   
 
 ![Utilizando o seletor de recursos](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Atribuir um recurso reservável real 
-No Project Service Automation versão 3, as reservas e as atribuições de tarefas não estão tão entrelaçados como nas versões anteriores do Project Service Automation. Pode utilizar a grelha da equipa para reservar um membro da equipa **real** , de modo semelhante ao mercado.
+No Project Service Automation versão 3, as reservas e as atribuições de tarefas não estão tão entrelaçados como nas versões anteriores do Project Service Automation. Pode utilizar a grelha da equipa para reservar um membro da equipa **real**, de modo semelhante ao mercado.
 
 Utilizando o seletor de recursos na agenda, pode selecionar o membro da equipa criado na vista da equipa e, em seguida, atribuir tarefas ao mesmo. É possível continuar a atribuir tarefas aos recursos, mesmo depois das suas reservas. Utilize o separador **Reconciliação** para reconciliar membros da equipa que possuem diferenças nas reservas e atribuições.
 
@@ -158,7 +158,7 @@ Clique em **Novo** no friso para abrir uma página de criação rápida de entra
 Os campos de pesquisa são apoiados por vistas do sistema. Por exemplo, depois de introduzir informações do projeto, o campo **Tarefa do projeto** é definido, por predefinição, como a vista **As Minhas Tarefas do Projeto em Aberto**. Para criar entradas de tempo para as tarefas que não foram atribuídas ao utilizador, clique em **Alterar vista** na pesquisa e selecione **Todas as tarefas do projeto Ativas**. Depois de a entrada de tempo ser criada e apresentada na grelha, pode editar todos os valores de linha diretamente na grelha.  
 
 ### <a name="bulk-createcopy"></a>Criar/copiar em massa 
-Após criar algumas entradas de tempo, é possível utilizar a funcionalidade de cópia para criar entradas de tempo adicionais em massa. Clique em **Copiar** para abrir a caixa de diálogo **Copiar**. Em **Do período: Data de Início** , defina o intervalo de datas do qual os períodos de tempo devem ser copiados. Em **Até ao período: Data de Início** , especifique a data em que as entradas devem ser criadas. Clique em **Copiar** para copiar as entradas de tempo no dia da semana correspondente indicado em **Até ao Período**. Por exemplo, a entrada de tempo de segunda-feira da semana passada será copiada na segunda-feira da semana indicada em **Até ao Período**. 
+Após criar algumas entradas de tempo, é possível utilizar a funcionalidade de cópia para criar entradas de tempo adicionais em massa. Clique em **Copiar** para abrir a caixa de diálogo **Copiar**. Em **Do período: Data de Início**, defina o intervalo de datas do qual os períodos de tempo devem ser copiados. Em **Até ao período: Data de Início**, especifique a data em que as entradas devem ser criadas. Clique em **Copiar** para copiar as entradas de tempo no dia da semana correspondente indicado em **Até ao Período**. Por exemplo, a entrada de tempo de segunda-feira da semana passada será copiada na segunda-feira da semana indicada em **Até ao Período**. 
 
 ![Copiar entradas de tempo em massa](media/bulk-copy-time-entry-09.png)
  
@@ -192,7 +192,7 @@ A plataforma Common Data Service não oferece suporte à representação de um u
 A personalização permite que adicione um **Recurso reservável** para criar e editar experiências, o que possibilita que um utilizador atue como delegado, alterando o campo **Reserva de recurso** para outro utilizador para o qual as entradas de tempo e despesa precisam de ser registadas. Os passos a seguir abordam a delegação da entrada de tempo. Estas mesmas informações aplicam-se à delegação da entrada de despesa. 
  
 1.  Certifique-se de que o utilizador delegado possua acesso de segurança global para os projetos e as tarefas dos projetos. 
-1.  Como o **Recurso reservável** , que é um campo na entidade **Entrada de tempo** , não é exposto na página **Criação rápida** , é necessário adicioná-lo.
+1.  Como o **Recurso reservável**, que é um campo na entidade **Entrada de tempo**, não é exposto na página **Criação rápida**, é necessário adicioná-lo.
 
     -ou-
 
@@ -207,7 +207,7 @@ A personalização permite que adicione um **Recurso reservável** para criar e 
 1.  Ao criar uma entrada de tempo na página de criação rápida, introduza os detalhes do Projeto e da Tarefa do projeto e, em seguida, selecione o utilizador no campo **Recurso reservável** para o qual as entradas de tempo devem ser registadas. 
 2.  Por predefinição, este campo utiliza como predefinição o utilizador com sessão iniciada; entretanto, considerando que o utilizador substituiu este campo, a entrada de tempo será criada para o **Recurso reservável** escolhido.
 3.  Quando submete as entradas de tempo que criou para estes registros, elas são colocadas em fila para o aprovador do projeto, conforme esperado. 
-4.  Quando recupera as entradas de tempo do outro utilizador, estas serão devolvidas a um estado de **Rascunho** , com o campo **Recurso reservável** definido para outro utilizador. 
+4.  Quando recupera as entradas de tempo do outro utilizador, estas serão devolvidas a um estado de **Rascunho**, com o campo **Recurso reservável** definido para outro utilizador. 
 5.  Opcionalmente, pode mudar para a vista personalizada para filtrar as entradas de tempo do outro utilizador. 
  
 ### <a name="limitations"></a>Limitações
@@ -229,7 +229,7 @@ Para os clientes do Project Service Automation que pretendem continuar a utiliza
 No Project Service Automation versão 3, os aspetos de configuração e gestão de propostas e contratos foram alterados. As secções a seguir incluem informações mais detalhadas.
 
 ### <a name="set-up-chargeability-options"></a>Configurar opções de exigibilidade
-Nas versões 1 e 2, a configuração de exigibilidade para funções e categorias de propostas e contratos específicos era efetuada utilizando a vista **Exigibilidade** , que estava na navegação superior de uma linha de proposta ou um item de contrato. Este também era o local em que podia configurar os preços para essas funções e categorias de Despesa.
+Nas versões 1 e 2, a configuração de exigibilidade para funções e categorias de propostas e contratos específicos era efetuada utilizando a vista **Exigibilidade**, que estava na navegação superior de uma linha de proposta ou um item de contrato. Este também era o local em que podia configurar os preços para essas funções e categorias de Despesa.
 
 A partir da versão 3, a configuração de opções de exigibilidade por função e categoria de Despesa será feita no nível da linha de proposta ou item de contrato. A configuração de preços é separada da configuração de Exigibilidade. É possível encontrar **Funções faturáveis** e **Categorias faturáveis** como separadores das páginas **Linha de proposta** e **Item de contrato** sem ter de utilizar a navegação superior.
 

@@ -3,7 +3,7 @@ title: Modelos de competências e proficiência
 description: Este tópico fornece informações sobre como utilizar os modelos de competências e proficiência.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082624"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124202"
 ---
 # <a name="skills-and-proficiency-models"></a>Modelos de competências e proficiência
 
@@ -41,8 +41,8 @@ As competências para os recursos são classificadas por modelos de proficiênci
 
 1. Para criar um modelo de proficiência, aceda a **Recursos** \> **Modelos de Proficiência** e selecione **Novo**.
 2. No novo modelo de classificação, especifique o valor mínimo de classificação, o valor máximo de classificação e a entidade que está a ser avaliada.
-3. Na subgrelha **Valores de Classificação** , é possível definir os diferentes valores de classificação, desde o mínimo até ao máximo.
+3. Na subgrelha **Valores de Classificação**, é possível definir os diferentes valores de classificação, desde o mínimo até ao máximo.
 
 > ![Classificações mínimas e máximas definidas](media/Resource-Management-image85.png)
 
-Estes valores de classificação são apresentados nos filtros **Requisitos de Recursos** , **Quadro da Agenda** e **Assistente da Agenda**.
+Estes valores de classificação são apresentados nos filtros **Requisitos de Recursos**, **Quadro da Agenda** e **Assistente da Agenda**.

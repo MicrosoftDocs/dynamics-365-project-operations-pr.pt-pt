@@ -3,7 +3,7 @@ title: Apresentar estimativas de trabalho para um projeto durante o processo de 
 description: Como apresentar estimativas de trabalho para um projeto durante o processo de vendas no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ddb7f8c0ff8c7fd7e51edb42f9d227f2b91a811b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bd83b6872d437f1d074d6ea2336c751bdfdd9e6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082454"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120602"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>Apresentar estimativas de trabalho para um projeto durante o processo de vendas (Project Service)
 
@@ -46,7 +46,7 @@ Durante o processo de vendas, poderá determinar as estimativas de vendas de rai
 ## <a name="import-estimates-from-a-project-into-a-quote"></a>Importar estimativas de um projeto para uma proposta  
  Quando tiver as estimativas do projeto no projeto, poderá importá-las para linha de proposta:  
   
--   Em **Detalhes de Linha de Proposta** , clique em **Importar a partir da estimativa**. 
+-   Em **Detalhes de Linha de Proposta**, clique em **Importar a partir da estimativa**. 
 
 -   Selecione se pretende importar as estimativas do projeto resumidas por nível de nó da estrutura hierárquica do trabalho, tipo de transação ou função.  
   

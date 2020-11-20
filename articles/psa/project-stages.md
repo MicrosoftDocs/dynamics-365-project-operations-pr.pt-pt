@@ -3,7 +3,7 @@ title: Tipos de fases do projeto
 description: Este tópico fornece informações sobre as fases do projeto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082455"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123076"
 ---
 # <a name="project-stage-types"></a>Tipos de fases do projeto 
 
@@ -46,11 +46,11 @@ Quando cria um projeto, a fase do projeto é definida como **Novo**. Se o projet
 
 ## <a name="quote"></a>Proposta
 
-Quando associa um projeto a uma proposta ou quando cria um projeto a partir de uma proposta, a fase de projeto é definida como **Proposta** e as datas de início e de fim estimadas também são atualizadas. Quando o projeto está na fase **Proposta** , o separador **Vendas** na página **Entidade do Projeto** mostra os detalhes da proposta.
+Quando associa um projeto a uma proposta ou quando cria um projeto a partir de uma proposta, a fase de projeto é definida como **Proposta** e as datas de início e de fim estimadas também são atualizadas. Quando o projeto está na fase **Proposta**, o separador **Vendas** na página **Entidade do Projeto** mostra os detalhes da proposta.
 
 ## <a name="plan"></a>Planear
 
-Quando ganha uma proposta associada a um projeto e quando o projeto é movido para a fase **Contrato** , a fase do projeto é atualizada para **Plano**. Quando o projeto está na fase **Plano** , a página **Entidade do Projeto** mostra os detalhes do contrato.
+Quando ganha uma proposta associada a um projeto e quando o projeto é movido para a fase **Contrato**, a fase do projeto é atualizada para **Plano**. Quando o projeto está na fase **Plano**, a página **Entidade do Projeto** mostra os detalhes do contrato.
 
 ## <a name="deliver"></a>Entregar
 
@@ -58,7 +58,7 @@ Quando o plano do projeto estiver concluído, e estiver pronto para iniciar o pr
 
 ## <a name="complete"></a>Concluído 
 
-Quando o trabalho do projeto estiver concluído, o gestor de projeto poderá atualizar a fase para **Concluído**. Ao atualizar a fase do projeto para **Concluído** , o gestor de projeto indica que o trabalho está 100% concluído, mas que o projeto está a ser mantido aberto para que qualquer entrada de tempo ou despesa pendente possa ser registada.
+Quando o trabalho do projeto estiver concluído, o gestor de projeto poderá atualizar a fase para **Concluído**. Ao atualizar a fase do projeto para **Concluído**, o gestor de projeto indica que o trabalho está 100% concluído, mas que o projeto está a ser mantido aberto para que qualquer entrada de tempo ou despesa pendente possa ser registada.
 
 ## <a name="close"></a>Fechar
 

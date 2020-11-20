@@ -3,7 +3,7 @@ title: Criar uma lista de preços
 description: Como criar uma lista de preços no Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082440"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122042"
 ---
 # <a name="create-a-price-list-project-service"></a>Criar uma lista de preços (Project Service)
 
@@ -39,33 +39,33 @@ As listas de preços baseiam-se nas funções e nas categorias de despesas, pelo
   
 2.  Clique em **Novo**.  
   
-3.  Em **Contexto** , selecione se esta lista de preços é para **Custo** , **Compra** ou **Vendas**.  
+3.  Em **Contexto**, selecione se esta lista de preços é para **Custo**, **Compra** ou **Vendas**.  
   
-4.  Em **Nome** , introduza o nome da lista de preços.  
+4.  Em **Nome**, introduza o nome da lista de preços.  
   
-5.  Em **Moeda** , selecione a moeda que vai utilizar para faturação ou definição de custos.  
+5.  Em **Moeda**, selecione a moeda que vai utilizar para faturação ou definição de custos.  
   
-6.  Em **Unidade de Tempo** , especifique o período de tempo durante o qual o preço é aplicado, por exemplo, dia ou hora.  
+6.  Em **Unidade de Tempo**, especifique o período de tempo durante o qual o preço é aplicado, por exemplo, dia ou hora.  
   
-7.  Preencha a **Data de Início** , **Data de Fim** e **Descrição** , conforme for necessário.  
+7.  Preencha a **Data de Início**, **Data de Fim** e **Descrição**, conforme for necessário.  
   
 8.  Clique em **Guardar** para criar o registo para poder continuar a editá-lo.  
   
 9. Para adicionar uma função de preços à lista de preços, clique em **+** em **Preços da função**.  
   
-10. No painel **Preço da Função** , preencha os detalhes e, em seguida, clique em **Guardar**. Continue a adicionar preços da função, conforme for necessário. Quando terminar, clique em **Guardar** no canto inferior direito do ecrã.  
+10. No painel **Preço da Função**, preencha os detalhes e, em seguida, clique em **Guardar**. Continue a adicionar preços da função, conforme for necessário. Quando terminar, clique em **Guardar** no canto inferior direito do ecrã.  
   
 11. Para adicionar um preço da categoria de despesas à lista de preços, clique em **+** em **Preços de categoria**.  
   
-12. No painel **Preço de Categoria de Transação** , preencha os detalhes e, em seguida, clique em **Guardar**. Continue a adicionar preços de categoria, conforme for necessário. Quando terminar, clique em **Guardar** no canto inferior direito do ecrã.  
+12. No painel **Preço de Categoria de Transação**, preencha os detalhes e, em seguida, clique em **Guardar**. Continue a adicionar preços de categoria, conforme for necessário. Quando terminar, clique em **Guardar** no canto inferior direito do ecrã.  
   
 13. Para adicionar itens da lista de preços à lista de preços, clique em **+** em **Itens da lista de preços**.  
   
-14. No painel **Item da Lista de Preços** , preencha os detalhes e, em seguida, clique em **Guardar**. Continue a adicionar itens da lista de preços, conforme for necessário. Quando terminar, clique em **Guardar** no canto inferior direito do ecrã.  
+14. No painel **Item da Lista de Preços**, preencha os detalhes e, em seguida, clique em **Guardar**. Continue a adicionar itens da lista de preços, conforme for necessário. Quando terminar, clique em **Guardar** no canto inferior direito do ecrã.  
   
 15. Para adicionar relações de território à lista de preços, clique em **+** em **Relações de Territórios**.  
   
-16. Na janela **Nova Ligação** , preencha os detalhes e, em seguida, clique em **Guardar**. Continue a adicionar relações de território, conforme for necessário. Quando terminar, clique em **Guardar** no canto inferior direito do ecrã.  
+16. Na janela **Nova Ligação**, preencha os detalhes e, em seguida, clique em **Guardar**. Continue a adicionar relações de território, conforme for necessário. Quando terminar, clique em **Guardar** no canto inferior direito do ecrã.  
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar Project Service Automation](../psa/configure.md)
