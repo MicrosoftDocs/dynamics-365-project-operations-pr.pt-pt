@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novidades
       items:
+        - name: Dezembro de 2020 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Novembro de 2020 - Project Operations para cenários baseados em recursos/não armazenados
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Processos de vendas do projeto
@@ -87,7 +89,7 @@
                 - name: Gerir vários clientes em linhas de proposta baseadas em projetos
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Configurar os componentes faturáveis de uma linha de proposta do projeto
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Criar estimativas numa linha de proposta
                   href: sales/create-estimate-quote-line.md
                 - name: Importar estimativas a partir de um projeto para uma linha de proposta baseada no projeto
@@ -109,7 +111,7 @@
             - name: Gerir listas de preços de projetos em contratos de projetos
               href: sales/contracts-manage-project-price-lists.md
             - name: Gerir vários clientes em contratos de projetos
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Itens de contrato baseados em projetos
               items:
                 - name: Descrição geral dos itens de contrato baseados em projetos
@@ -122,12 +124,20 @@
                   href: sales/create-estimate-contract-line.md
                 - name: Importar estimativas a partir de um projeto para um item de contrato baseado no projeto
                   href: sales/import-estimate-project-contract-line.md
-                - name: Criar agendas de faturação em itens de contrato baseado no projeto
+                - name: Criar agendas de faturação em itens de contrato baseados no projeto
                   href: sales/invoice-schedules-contract-line.md
             - name: Confirmar um contrato de projeto
               href: pro/sales/confirm-contract-sales.md
             - name: Copiar um contrato de projeto
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Adiantamentos e sinais
+              items:
+                - name: Contratos baseados em adiantamentos e sinais - leve
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Configurar uma agenda de sinais - leve
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Criar um adiantamento ad hoc num contrato - leve
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Preços e custos
       items:
         - name: Configuração da lista de preços
@@ -158,10 +168,18 @@
           items:
             - name: Descrição geral das dimensões de preços
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Criar uma solução para dimensões de preços personalizadas
+              href: sales/create-solution-custompd.md
             - name: Utilizar campos existentes como dimensões de preços
               items:
-                - name: Campos do Project Operations como dimensões de definição de preços
+                - name: Campos do Project Operations como dimensões de preços
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Utilizar um recurso reservável como dimensão de preços
+                  href: sales/use-br-as-pd.md
+                - name: Utilizar Categoria de Transação como dimensão de preços
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Recurso reservável com várias funções num projeto
+                  href: sales/br-playing-multiple-roles.md
             - name: Campos personalizados como dimensões de preços
               items:
                 - name: Criar campos e entidades personalizados como dimensões de preços
@@ -170,9 +188,11 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Configurar campos personalizados como dimensões de definição de preços
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-            - name: Desativar uma dimensão de definição de preços
+                - name: Atualizar atributos de plug-in para incluir novas dimensões de preços
+                  href: pricing-costing/update-plugin-attributes-pd.md
+            - name: Desativar uma dimensão de preços
               href: pricing-costing/turning-off-pricing-dimension.md
-    - name: Gestão do projeto
+    - name: Gestão de projetos
       items:
         - name: Descrição geral da gestão do projeto
           href: project-management/project-management-overview.md
@@ -250,13 +270,19 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administração de recursos
           items:
+            - name: Criar recursos
+              href: resource-management/create-resources.md
             - name: Definir competências e proficiências
               href: resource-management/define-skills-proficiencies.md
+            - name: Definir funções
+              href: resource-management/define-roles.md
             - name: Definir calendários de recursos
               href: resource-management/define-resource-calendars.md
         - name: Métodos de alocação de reservas
           href: resource-management/booking-allocation-methods.md
-        - name: Modelos de competências e proficiência
+        - name: Estados de reservas
+          href: resource-management/booking-status.md
+        - name: Modelos de competências e proficiências
           href: resource-management/skills-proficiency-models.md
         - name: Reconciliação de recursos
           items:
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Gerir uma fatura pró-forma do projeto
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Faturar um sinal ou um adiantamento
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Confirmar uma fatura pró-forma do projeto
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Configurar a automatização de faturas do projeto
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Diário de integração no Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Faturação entre empresas
+          items:
+            - name: Descrição geral da faturação entre empresas
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurar faturação entre empresas
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Criar faturas de clientes e fornecedores entre empresas
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Criar transações entre empresas
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Reconhecimento de receitas
+      items:
+        - name: Descrição geral do reconhecimento de receitas
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Configurar reconhecimento de receitas
+          items:
+            - name: Configurar tipos de período
+              href: project-accounting/period-types.md
+            - name: Configurar modelos de custo
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Gerir estimativas de receitas
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Projetos de estimativa de receitas de preço fixo
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Métodos de custo da conclusão
+          href: revenue-recognition/cost-complete-methods.md
 - name: Implementação leve - oportunidade potencial para fatura pró-forma
   items:
     - name: Começar
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Novidades
       items:
+        - name: Novidades de dezembro de 2020 - implementação leve - oportunidade potencial para fatura pró-forma
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Novidades de novembro de 2020 - implementação leve - oportunidade potencial para fatura pró-forma
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Processos de vendas do projeto
@@ -538,10 +594,18 @@
           items:
             - name: Descrição geral das dimensões de preços
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Criar uma solução para dimensões de preços personalizadas
+              href: sales/create-solution-custompd.md
             - name: Utilizar campos existentes como dimensões de preços
               items:
-                - name: Utilizar um campo existente como dimensão de preços
+                - name: Campos do Project Operations como dimensões de preços
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Utilizar um recurso reservável como dimensão de preços
+                  href: sales/use-br-as-pd.md
+                - name: Utilizar Categoria de Transação como dimensão de preços
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Recurso reservável com várias funções num projeto
+                  href: sales/br-playing-multiple-roles.md
             - name: Campos personalizados como dimensões de preços
               items:
                 - name: Criar campos e entidades personalizados como dimensões de preços
@@ -550,9 +614,11 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Configurar campos personalizados como dimensões de definição de preços
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-            - name: Desativar uma dimensão de definição de preços
+                - name: Atualizar atributos de plug-in para incluir novas dimensões de preços
+                  href: pricing-costing/update-plugin-attributes-pd.md
+            - name: Desativar uma dimensão de preços
               href: pricing-costing/turning-off-pricing-dimension.md
-    - name: Gestão do projeto
+    - name: Gestão de projetos
       items:
         - name: Descrição geral da gestão do projeto
           href: project-management/project-management-overview.md
@@ -626,13 +692,19 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administração de recursos
           items:
+            - name: Criar recursos
+              href: resource-management/create-resources.md
             - name: Definir competências e proficiências
               href: resource-management/define-skills-proficiencies.md
+            - name: Definir funções
+              href: resource-management/define-roles.md
             - name: Definir calendários de recursos
               href: resource-management/define-resource-calendars.md
         - name: Métodos de alocação de reservas
           href: resource-management/booking-allocation-methods.md
-        - name: Modelos de competências e proficiência
+        - name: Estados de reservas
+          href: resource-management/booking-status.md
+        - name: Modelos de competências e proficiências
           href: resource-management/skills-proficiency-models.md
         - name: Reconciliação de recursos
           items:
@@ -832,8 +904,10 @@
       href: psa/overview.md
     - name: Novidades
       items:
-        - name: Agenda de Versão de Atualização do Project Service 3.x
+        - name: Agenda de Atualização da Versão do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades e alterações na Atualização da Versão 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Novidades e alterações na Atualização da Versão 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Novidades e alterações na Atualização da Versão 24, V3'
@@ -930,7 +1004,7 @@
               href: psa/field-references.md
             - name: Configurar campos personalizados como dimensões de definição de preços
               href: psa/set-up-pricing-dimensions.md
-            - name: Atualizar atributos de plug-in para incluir novas dimensões de definição de preços
+            - name: Atualizar atributos de plug-in para incluir novas dimensões de preços
               href: psa/update-plug-in-attributes.md
             - name: Utilizar um campo existente como dimensão de preços
               items:
@@ -938,11 +1012,11 @@
                   href: psa/use-existing-field.md
                 - name: Utilizar recurso reservável como dimensão de definição de preços
                   href: psa/bookable-resource-pricing-dimension.md
-                - name: Utilizar categoria de transação como dimensão de definição de preços
+                - name: Utilizar categoria de transação como dimensão de preços
                   href: psa/transaction-category-pricing-dimension.md
             - name: Recurso reservável com várias funções num projeto
               href: psa/bookable-resource-multiple-roles.md
-            - name: Desativar uma dimensão de definição de preços
+            - name: Desativar uma dimensão de preços
               href: psa/turn-off-pricing-dimension.md
         - name: 'Criação de propostas, definição de preços e faturação'
           items:
@@ -1026,7 +1100,7 @@
               href: psa/FAQ-soft-book.md
             - name: Criar uma reserva de projeto no Quadro da agenda
               href: psa/FAQ-project-booking-schedule-board.md
-            - name: Modelos de competências e proficiência
+            - name: Modelos de competências e proficiências
               href: psa/resource-management-skills-proficiency.md
             - name: FAQ sobre gestão de recursos
               href: psa/resource-management-faq.md
