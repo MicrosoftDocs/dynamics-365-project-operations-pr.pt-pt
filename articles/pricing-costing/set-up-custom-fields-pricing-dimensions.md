@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119432"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650238"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de definição de preços
 
@@ -41,9 +41,15 @@ Esta tópico fornece informações sobre a configuração de dimensões de defin
 Para que um campo se torne uma dimensão de definição de preços, tem de ser:
 
 - Criado como um campo nas entidades **Preço da Função** e **Margem de Lucro do Preço da Função**. Para mais informações sobre como fazer isso, consulte [Adicionar campos personalizados às entidades de configuração de preços e transacionais](add-custom-fields-price-setup-transactional-entities.md).
+
 - Criado como uma linha na tabela **Dimensões de Definição de Preços**. Por exemplo, adicione linhas de dimensão de definição de preços, conforme mostrado no gráfico seguinte. 
 
+![Linhas de Dimensão de Definição de Preços Baseada no Montante](media/Amt-based-PD.png)
+
 As horas de Trabalho do Recurso (**msdyn_resourceworkhours**) são adicionadas como uma dimensão baseada na margem de lucro e foram adicionadas à grelha no separador **Dimensão de Definição de Preços Baseada na Margem de Lucro**.
+
+![Linhas de Dimensão de Definição de Preços Baseada na Margem de Lucro](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Qualquer alteração nos dados da dimensão de definição de preços nesta tabela, existente ou nova, é propagada para a lógica de negócio de definição de preços apenas após a atualização da cache. O tempo de atualização da cache poderá demorar até 10 minutos. Aguarde esse período de tempo para ver as alterações na lógica de predefinição de preços que devem resultar das alterações efetuadas nos dados de Dimensão de Definição de Preços.

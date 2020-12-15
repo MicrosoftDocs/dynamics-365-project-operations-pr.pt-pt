@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180791"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513938"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Criar uma agenda de faturação num item de contrato baseado em projeto 
 
@@ -49,7 +49,7 @@ Conclua os seguintes passos para gerar uma agenda de faturação baseada em marc
 3. Abra o item de contrato **Preço Fixo** para a qual está a criar uma agenda de marcos. No separador **Marcos de Faturação**, selecione a data de início da faturação e a frequência da faturação. 
 4. Na subgrelha, selecione **Gerar Marcos Periódicos**. A agenda de faturação é gerada com os campos **Nome do Marco**, **Data do Marco** e **Montante do Marco** definidos da seguinte forma:
 
-    - **Nome do Marco**: esta data é ditada pela frequência de faturação.
+    - **Nome do Marco**: este nome é ditado pela frequência da faturação.
     - **Data do Marco**: esta data é ditada pela frequência de faturação.
     - **Montante do Marco**: este montante é calculado ao dividir o montante do contrato no item de contrato pelo número de marcos, conforme ditados pela frequência, pelo início de faturação e as datas de entrega pretendidas.
 

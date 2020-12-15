@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082538"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642647"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar os contratos do projetos e os projetos diretamente do Project Service Automation para o Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico descreve o modelo e as tarefas subjacentes que são utilizados para sincronizar os contratos de projeto e os projetos diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 
@@ -133,9 +135,9 @@ Se tiver de utilizar o Power Query, siga estas diretrizes:
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelos na Integração de dados
 
 > [!NOTE] 
-> Os campos **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** e **AddressZipCode** não estão incluídos no mapeamento predefinido para contratos de projeto. Pode adicionar os mapeamentos se necessitar que estes dados sejam sincronizados para contratos de projeto.
+> Os campos **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** e **AddressZipCode** não estão incluídos no mapeamento predefinido para contratos de projeto. Pode adicionar os mapeamentos se necessitar que estes dados sejam sincronizados para contratos de projeto.
 >
-> Os campos **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** e **ProjectType** não estão incluídos no mapeamento predefinido para projetos. Pode adicionar os mapeamentos se necessitar que estes dados sejam sincronizados para projetos.
+> Os campos **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** e **ProjectType** não estão incluídos no mapeamento predefinido para projetos. Pode adicionar os mapeamentos se necessitar que estes dados sejam sincronizados para projetos.
 
 As seguintes ilustrações mostram exemplos dos mapeamentos de tarefas do modelo na Integração de Dados. O mapeamento mostra as informações do campo que serão sincronizadas do Project Service Automation para Finance.
 

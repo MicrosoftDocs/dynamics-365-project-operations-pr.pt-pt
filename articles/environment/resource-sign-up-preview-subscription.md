@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121142"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642986"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Inscreva-se nas subscrições de pré-visualização do Project Operations para os cenários de recursos/não armazenados
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico explica como subscrever a oferta pré-visualizar/parceiro e implementar o ambiente do Project Operations para os cenários baseados em recursos/não armazenados.
 
@@ -42,7 +44,7 @@ Quando o seu [pedido de pré-visualização](https://forms.office.com/FormsPro/P
 
 Antes de começar, certifique-se de que está a iniciar sessão num browser com a conta de profissional de utilizador no inquilino onde pretende a pré-visualização do Project Operations.
 
-1. Resgate o primeiro código de oferta, **Dynamics 365 Project Operations (CRM) - Pré-visualização da Avaliação**, colando-o no URL do browser.
+1. Resgate o primeiro código de oferta, **Dynamics 365 Project Operations (CRM) – Avaliação da Pré-visualização**, colando-o no URL do browser.
 
 ![Resgatar Oferta](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Repita os mesmos passos com a última oferta do e-mail de boas-vindas.
 
 ![Atribuir Licenças](./media/15AssignLicenses.png)
 
-3. Verifique se as licenças **Pré-visualização do Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations – Pré-visualização** foram selecionadas, e selecione **Guardar alterações**.
+3. Verifique se as licenças **Pré-visualização do Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations – Pré-visualização** foram selecionadas e selecione **Guardar alterações**.
 
 > [!NOTE]
 > A oferta de avaliação do Finance não precisa de ser atribuída a um utilizador.

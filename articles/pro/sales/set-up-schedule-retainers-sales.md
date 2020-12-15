@@ -1,5 +1,5 @@
 ---
-title: Configurar uma agenda de sinais – lite
+title: Configurar uma agenda de sinais
 description: Este tópico fornece informações sobre como configurar uma agenda de sinais no Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181286"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596386"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Configurar uma agenda de sinais – lite
+# <a name="set-up-a-retainer-schedule"></a>Configurar uma agenda de sinais
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
 As agendas de sinais são configuradas na página do **Contrato de Projeto** no Dynamics 365 Project Operations.
 

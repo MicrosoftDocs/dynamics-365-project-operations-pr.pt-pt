@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130997"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590915"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Adicionar campos personalizados obrigatórios às entidades de configuração de preços e transacionais
 
@@ -49,6 +49,8 @@ Quando uma dimensão de definição de preços personalizada é baseada em conju
 > [!IMPORTANT]
 > Quando adicionar um campo a mais de uma entidade, utilize o mesmo nome de campo em todas as entidades. 
 
+> ![Adicionar Localização de Trabalho do Recurso ao Preço da Função](media/RWL-Field.png)
+
 Nas fases de vendas e estimativas de um projeto, as estimativas do esforço de trabalho necessário para concluir o trabalho **Local** e **No Local**, nas **Horas normais** e nas **Horas extraordinárias** são utilizadas para estimar o valor da Proposta/Projeto. Os campos **Localização de Trabalho do Recurso** e **Horas de Trabalho do Recurso** serão adicionados às entidades de estimativa, **Detalhe de Linha de Proposta**, **Detalhe de Item de Contrato**, **Membro da Equipa do Projeto** e **Linha de Estimativa**.
 
 1. Nas operações do Projeto, selecione **Definições** > **Soluções** e, de seguida, faça clique duplo nas dimensões de preços do **\<your organization name>**. 
@@ -58,6 +60,8 @@ Nas fases de vendas e estimativas de um projeto, as estimativas do esforço de t
 5. Selecione **Utilizar um conjunto de opções existente** e **Localização de Trabalho do Recurso** e, em seguida, selecione **Guardar**.
 6. Repita os passos 1 a 5 para adicionar este campo às entidades **Detalhe de Item de Contrato do Projeto**, **Membro da Equipa do Projeto** e **Linha de Estimativa**.
 7. Repita os passos 1 a 6 para o conjunto de opções de **Horas de Trabalho do Recurso**. 
+
+> ![Adicionar Localização de Trabalho do Recurso à Linha de Estimativa](media/RWL-Default-Value.png)
 
 Para a entrega e a faturação, o trabalho concluído tem de ter um preço definido com precisão para selecionar se foi efetuado **Localmente** ou **No Local** e se foi concluído durante as **Horas normais** ou nas **Horas Extraordinárias** nos Valores Reais do Projeto. Os campos **Localização de Trabalho do Recurso** e **Horas de Trabalho do Recurso** devem ser adicionados às entidades **Entrada de Tempo**, **Valor Real**, **Detalhe de Linha de Fatura** e **Linha do Diário**.
 
@@ -69,6 +73,8 @@ Para a entrega e a faturação, o trabalho concluído tem de ter um preço defin
 6. Repita os passos 1 a 5 para adicionar este campo às entidades **Valor Real**, **Detalhe de Linha de Fatura** e **Linha do Diário**.
 7. Repita os passos 1 a 6 para o conjunto de opções de **Horas de Trabalho do Recurso**. 
 
+> ![Adicionar Localização de Trabalho do Recurso à Entrada de Tempo](media/RWL-time-entry.png)
+
 Isto conclui as alterações de esquema necessárias para as dimensões personalizadas baseadas em conjuntos de opções.
 
 ## <a name="entity-based-custom-pricing-dimensions"></a>Dimensões de definição de preços personalizadas baseadas em entidades
@@ -79,6 +85,8 @@ Quando a dimensão de definição de preços personalizada for uma entidade, ir�
 2. No Explorador de Soluções, no painel de navegação esquerdo, selecione **Entidades > Título Padrão**.
 3. Expanda a entidade **Título Padrão** e selecione **Relações 1:N**.
 4. Selecione **Novo** para criar uma nova relação 1:N denominada **Título Padrão para Recurso Reservável**. Introduza as informações necessárias e selecione **Guardar**.
+
+> ![Adicionar Título Padrão como campo de referência ao Recurso Reservável](media/ST-BR.png)
 
 Também será necessário adicionar o Título Padrão às entidades definição de preços, **Preço da Função** e **Margem de Lucro do Preço da Função**. Esta opção também é concluída através da utilização de relações 1:N entre as entidades **Título Padrão** e **Preço da Função** e as entidades **Título Padrão** e **Margem de Lucro do Preço da Função**.
 
@@ -96,9 +104,13 @@ Nas fases de vendas e estimativa do projeto, para definir o preço da Proposta/P
 
 5. Repita os passos 1 a 5 para criar relações 1:N a partir do **Título Padrão** para o **Detalhe de Linha de Proposta**, **Detalhe de Item de Contrato do Projeto**, **Membro da Equipa do Projeto** e **Linha de Estimativa**.
 
+> ![Adicionar Título Padrão como campo de referência à Linha de Estimativa](media/ST-Estimate-Line.png)
+
   Nas fases Entrega e Faturação, o trabalho concluído por cada título padrão deve ter o preço definido com precisão nos Valores Reais do Projeto. Isto significa que precisa de haver relações 1:N a partir das entidades **Título Padrão** para a **Entrada de Tempo**, **Valor Real**, **Detalhe de Linha de Fatura** e **Linha do Diário**.
 
 6. Repita os passos 1 a 6 para criar relações 1:N a partir das entidades **Título Padrão** para a **Entrada de Tempo**, **Valor Real**, **Detalhe de Linha de Fatura** e **Linha do Diário**.
+
+> ![Adicionar Título Padrão como campo de referência à Entrada de Tempo](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configurar a predefinição do valor Dimensão utilizando as funcionalidades de mapeamento da plataforma
 Para a Entrada de Tempo, seria útil que o sistema predefini-se o título padrão na Entrada de Tempo a partir do Recurso Reservável que está a registar a entrada de tempo. Utilize os seguintes passos para adicionar mapeamentos de campos na relação 1:N a partir do **Recurso Reservável** para a **Entrada de Tempo**.
@@ -107,6 +119,8 @@ Para a Entrada de Tempo, seria útil que o sistema predefini-se o título padrã
 2. Expanda a entidade **Título Padrão** e selecione **Relações 1:N**.
 3. Faça duplo clique em **Recurso Reservável para Entrada de Tempo**. Na página **Relação**, selecione **Utilizar mapeamentos de campos**. 
 4. Selecione **Novo** para criar um novo mapeamento de campos entre o campo **Título Padrão** na entidade **Recurso Reservável** para o campo de referência **Título Padrão** na entidade **Entrada de Tempo**. 
+
+> ![Configurar mapeamentos de campos para predefinição do Título Padrão a partir do Recurso Reservável para a Entrada de Tempo](media/ST-Mapping2.png)
 
 Isto conclui as alterações de esquema necessárias para as dimensões personalizadas baseadas em entidades.
 

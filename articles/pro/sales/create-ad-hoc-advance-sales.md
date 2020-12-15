@@ -1,5 +1,5 @@
 ---
-title: Criar um adiantamento ad hoc num contrato – lite
+title: Criar um adiantamento ad hoc num contrato
 description: Este tópico fornece informações sobre a criação de um adiantamento num contrato, se necessário.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181376"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596024"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Criar um adiantamento ad hoc num contrato – lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Criar um adiantamento ad hoc num contrato
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-O Microsoft Dynamics 365 Project Operations suporte cenários de faturação que envolvem pré-pagamentos e adiantamentos. O processo de utilização **Adiantamentos** no **Project Operations** é semelhante aos contratos de **Sinal**. 
+O Microsoft Dynamics 365 Project Operations suporta cenários de faturação que envolvem pré-pagamentos e adiantamentos. O processo de utilização **Adiantamentos** no **Project Operations** é semelhante aos contratos de **Sinal**. 
 
 Conclua os seguintes passos para faturar o cliente por um adiantamento.
 

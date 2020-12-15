@@ -2,8 +2,9 @@
 title: Agenda de versão de atualização do Project Service 3.x
 description: Esta tópico fornece informações sobre as próximas versões disponíveis e futuras do Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 11/01/2020
+ms.date: 12/07/2020
 ms.reviewer: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -23,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf1203884cb4e49e0982bffb3092730122b2be9c
-ms.sourcegitcommit: 2848a8a654df601911593da8e2f9b6ffd6adc702
+ms.openlocfilehash: 8e9a29b05e07bb59ade00c8f4acdf0275538d5bd
+ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "4404829"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689469"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Agenda de versão de atualização do Project Service 3.x
 
@@ -36,7 +37,7 @@ ms.locfileid: "4404829"
 
 | Solução  | Versão mais recente |
 |-------|----|
-| Project Service Automation    | 3.10.43.76 |
+| Project Service Automation    | 3.10.44.59 |
 | Suplemento de ambiente de trabalho do Project Service Automation                | 3.15          |
 
 Para obter informações sobre atualizações ao Project Service, consulte os [planos de versão do Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -44,27 +45,27 @@ Para obter informações sobre atualizações ao Project Service, consulte os [p
 | Estação  | Região | Versão atual | Versão seguinte |  Data agendada
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Estação 1</strong> | |  |  | |
-| | <i>Primeira Versão</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 20 de Novembro de 2020
+| | <i>Primeira Versão</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 8 de Janeiro de 2021
 |<strong>Estação 2</strong> | |  |  | |
-| | <i>América do Sul</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 de Novembro de 2020
-| | <i>Canadá</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 de Novembro de 2020 
-| | <i>Índia</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 de Novembro de 2020
-| | <i>França</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 de Novembro de 2020
-| | <i>Emirados Árabes Unidos</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 de Novembro de 2020
-| | <i>África do Sul</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 de Novembro de 2020
-| | <i>Alemanha</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 de Novembro de 2020
+| | <i>América do Sul</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 de Janeiro de 2021
+| | <i>Canadá</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 de Janeiro de 2021
+| | <i>Índia</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 de Janeiro de 2021
+| | <i>França</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 de Janeiro de 2021
+| | <i>Emirados Árabes Unidos</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 de Janeiro de 2021
+| | <i>África do Sul</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 de Janeiro de 2021
+| | <i>Alemanha</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 de Janeiro de 2021
 |<strong>Estação 3</strong> | |  |  | |
-| | <i>Japão</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 de Dezembro 2020
-| | <i>Ásia Pacífico</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 de Dezembro 2020
-| | <i>Grã-Bretanha</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 de Dezembro 2020
-| | <i>Oceânia</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 de Dezembro 2020
+| | <i>Japão</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 de Dezembro 2020
+| | <i>Ásia Pacífico</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 de Dezembro 2020
+| | <i>Grã-Bretanha</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 de Dezembro 2020
+| | <i>Oceânia</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 de Dezembro 2020
 |<strong>Estação 4</strong> | |  |  | |
-| | <i>Europa</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 13 de Novembro de 2020
+| | <i>Europa</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 18 de Dezembro 2020
 |<strong>Estação 5</strong> | |  |  | |
-| | <i>América do Norte</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 de Novembro de 2020
+| | <i>América do Norte</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 de Janeiro de 2021
 |<strong>Estação 6</strong> | |  |  | |
-| | <i>Nuvem da Administração Pública</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 de Novembro de 2020
-| | <i>Grupos de Dimensionamento Dedicados</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 27 de Novembro de 2020
+| | <i>Nuvem da Administração Pública</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 de Janeiro de 2021
+| | <i>Grupos de Dimensionamento Dedicados</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 15 de Janeiro de 2021
 
 >[!Note]
 > - As datas em todas as regiões, com exceção da Nuvem da Comunidade Governamental (GCC), indicam o calendário da próxima atualização automática. As datas no GCC indicam a disponibilidade de versão; neste momento, não existe uma atualização automática para estas regiões.

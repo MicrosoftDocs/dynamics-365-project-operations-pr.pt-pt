@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121187"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642999"
 ---
 # <a name="provision-a-new-environment"></a>Aprovisionar um novo ambiente
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico fornece informações sobre como aprovisionar um novo ambiente do Dynamics 365 Project Operations para cenários baseados em recursos/não armazenados.
 
@@ -120,7 +122,7 @@ A manutenção do ambiente vai demorar algum tempo. Depois de concluída, o ambi
 
 ![Aplicar Soluções](./media/13ApplySolutions.png)
 
-5. Selecione as duas soluções, **Mapa de Entidades de Escrita Dupla do Dynamics 365 Finance and Operations** e **Mapas de Entidades de Escrita Dupla do Dynamics 365 Project Operations**, e selecione **Aplicar**.
+5. Selecione ambas as soluções, **Mapa de Entidade de Escrita Dupla do Dynamics 365 Finance and Operations** e **Mapas de Entidade de Escrita Dupla do Dynamics 365 Project Operations** e, em seguida, selecione **Aplicar**.
 
 ![Confirmar Soluções](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ A atualização vai demorar aproximadamente 20 minutos. Receberá um alerta quan
 | --- | --- | --- | --- | --- | --- |
 | **Funções de Recursos de Projeto para Todas as Empresas (bookableresourcecategories)** | No | Sim | Common Data Service | No | N/A |
 | **Entidades legais (cdm\_empresas)** | No | Sim | Aplicações do Finance and Operations | No | N/A |
+| **Livro razão (msdyn_ledgers)** | No | Sim | Aplicações do Finance and Operations | Sim | Sim, aplicações do Finance and Operations |
 | **Valores reais de integração com o Project Operations (msdyn\_valores reais)** | No | No | N/A | Sim | No |
 | **Itens de contrato do projeto (salesorderdetails)** | No | No | N/A | No | No |
 | **Entidade de integração para as relações de transações do projeto (msdyn\_transactionconnections)** | No | No | N/A | No | N/A |

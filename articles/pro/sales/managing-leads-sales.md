@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180521"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513803"
 ---
 # <a name="manage-leads---lite"></a>Gerir oportunidades potenciais – lite
 
@@ -23,7 +23,7 @@ As oportunidades potenciais baseadas em projetos podem ser geridas e qualificada
 
 ## <a name="list-of-project-sales-leads"></a>LIsta de oportunidades potenciais baseadas em projetos
 
-Na secção **Vendas**, no painel de navegação esquerdo, abra a página da lista **Oportunidades Potenciais** para ver uma lista de todos os registos de oportunidades potenciais no sistema. A lista de oportunidades potenciais baseia-se no trabalho e noutros tipos de oportunidades potenciais que podem ser criados se também tiver as aplicações do Dynamics 365 Sales ou do Dynamics 365 Field Service.
+Na secção **Vendas**, no painel de navegação esquerdo, abra a página da lista **Oportunidades Potenciais** para ver uma lista de todos os registos de oportunidades potenciais no sistema. As oportunidades potenciais da lista são baseadas no trabalho e outros tipos de oportunidades potenciais que podem ser criadas se também tiver as aplicações do Dynamics 365 Sales ou Dynamics 365 Field Service.
 
 Pode criar um vista filtrada para ver apenas as oportunidades potenciais pistas baseadas em projetos ao criar um filtro no valor **Tipo**. Por exemplo, pode selecionar para mostrar apenas as oportunidades potenciais baseadas no trabalho.
 

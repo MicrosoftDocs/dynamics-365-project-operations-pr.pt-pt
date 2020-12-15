@@ -1,5 +1,5 @@
 ---
-title: Adiantamentos e contratos baseados em sinais – lite
+title: Adiantamentos e contratos baseados em sinais
 description: Este tópico fornece informações sobre modelos de contratação baseados em sinais e adiantamentos no Project Operations.
 author: rumant
 manager: Annbe
@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180881"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596116"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Adiantamentos e contratos baseados em sinais – lite
+# <a name="advances-and-retainer-based-contracts"></a>Adiantamentos e contratos baseados em sinais
 
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
 O Dynamics 365 Project Operations suporta contratos baseados em sinais. Um contrato baseado em sinais é um conjunto negociado de pagamentos igualmente distribuídos que o cliente será faturado durante toda a duração de um projeto. Este tipo de contrato é normalmente utilizado para modelos de faturação baseados em tempo e material ou consumo, onde é necessário dar ao cliente uma fatura e horário de pagamento previsíveis. Os valores reais de receitas acumuladas em cada período são reconciliados com o pagamento recebido pelo cliente no início do período. De acordo com o conceito do modelo de faturação de tempo e material, os valores de receita acumulados em cada período podem variar com os custos incorridos. Se as receitas acumuladas forem superiores ao montante recebido no início do período, a empresa de entrega do projeto poderá:
 

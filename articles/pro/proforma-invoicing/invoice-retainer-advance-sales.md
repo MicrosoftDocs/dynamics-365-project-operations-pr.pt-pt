@@ -1,5 +1,5 @@
 ---
-title: Faturar um sinal ou um adiantamento – lite
+title: Faturar um sinal ou adiantamento
 description: Este tópico fornece informações sobre como faturar um sinal ou um adiantamento no Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180566"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596206"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Faturar um sinal ou um adiantamento – lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Faturar um sinal ou um adiantamento
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-O Dynamics 365 Project Operations suporta contratos baseados em sinais e adiantamentos únicos. Num contrato de projeto, pode registar uma agenda de sinais ou adiantamento único. No entanto, o registo ao nível do contrato do projeto não disponibiliza imediatamente um sinal ou adiantamento para utilização. Para utilizar um sinal ou adiantar uma fatura que realmente cobra ao cliente, o sinal ou adiantamento deve ser faturado primeiro.
+Dynamics 365 Project Operations suporta contratos baseados em sinais e adiantamentos únicos. Num contrato de projeto, pode registar uma agenda de sinais ou adiantamento único. No entanto, o registo ao nível do contrato do projeto não disponibiliza imediatamente um sinal ou adiantamento para utilização. Para utilizar um sinal ou adiantar uma fatura que realmente cobra ao cliente, o sinal ou adiantamento deve ser faturado primeiro.
 
 Conclua os seguintes passos para faturar um sinal ou um adiantamento.
 
