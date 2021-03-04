@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082445"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151312"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de definição de preços e custos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 As dimensões utilizadas para definir os preços do trabalho e os custos em organizações baseadas em projetos são influenciadas pelos seguintes atributos:
 
@@ -38,7 +40,7 @@ Dada a natureza típica destes attrubutes do trabalho e das pessoas necessárias
 
 ## <a name="pricing-dimensions"></a>Dimensões de preços
 
-O PSA é fornecido com um conjunto predefinido de dimensões de definição de preços. Pode visualizá-lo acedendo a **Project Service** > **Parâmetros**. No registo de parâmetro, no separador **Dimensões de definição de preços baseadas em montantes** , verifique se a função, **msdyn_resourcecategory** e a unidade organizacional de atribuição de recursos, **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Isto irá permitir-lhe configurar o preço e o custo de cada combinação de função e unidade organizacional.
+O PSA é fornecido com um conjunto predefinido de dimensões de definição de preços. Pode visualizá-lo acedendo a **Project Service** > **Parâmetros**. No registo de parâmetro, no separador **Dimensões de definição de preços baseadas em montantes**, verifique se a função, **msdyn_resourcecategory** e a unidade organizacional de atribuição de recursos, **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Isto irá permitir-lhe configurar o preço e o custo de cada combinação de função e unidade organizacional.
 
 ![Captura de ecrã dos parâmetros do Project Service com "Aplicável às Vendas" destacado](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Se precisar de definir o preço ou o custo dos seus recursos utilizando atributo
 ## <a name="pricing-human-resource-time"></a>Definir preço do tempo dos recursos humanos
 A forma como uma organização define o preço do tempo de um recurso humano é, normalmente, uma consideração estratégica importante que afeta diretamente a rentabilidade da organização. Trabalhe com as equipas de finanças e pratique os chefes quando a sua organização estiver pronta para identificar como pretende definir taxas de faturação e custo para o tempo de recursos humanos.
 
-As outras considerações para definição de preços incluem a reutilização de campos ou entidades que, no momento, não são dimensões de definição de preços, mas que se aplicam como uma dimensão de definição de preços para a sua organização. Campos como **Categoria de Transação** ( **msdyn_transactioncategory** ) e **Recurso Reservável** ( **bookableresource** ) são exemplos de dimensões candidatas. 
+As outras considerações para definição de preços incluem a reutilização de campos ou entidades que, no momento, não são dimensões de definição de preços, mas que se aplicam como uma dimensão de definição de preços para a sua organização. Campos como **Categoria de Transação** (**msdyn_transactioncategory**) e **Recurso Reservável** (**bookableresource**) são exemplos de dimensões candidatas. 
 
 Considere se a dimensão de definição de preços deve ser uma tabela ou um conjunto de opções. Se prever alterações nos valores de uma dimensão que excederão 10 ou 12 e necessitar de atributos adicionais nestes valores, criar uma entidade em vez de um conjunto de opções. A manutenção de um conjunto de opções, como a adição ou a remoção de valores, requer um administrador ou programador, ao passo que a adição de novas linhas a uma tabela pode ser efetuada pela maior parte dos utilizadores empresariais.
 
