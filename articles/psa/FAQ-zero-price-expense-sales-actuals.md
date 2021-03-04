@@ -3,6 +3,7 @@ title: Porque é que o preço padrão é zero em despesas de vendas em valores r
 description: As seguintes três verificações irão ajudá-lo a resolver o motivo pelo qual os preços estão como padrão a 0 para despesas de vendas em valores reais.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122087"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146317"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Porque é que o preço padrão é zero em despesas de vendas em valores reais?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Este FAQ é aplicável às despesas de valores reais onde a classe de transaçã
 
 Localize o projeto no campo do projeto do valor real e aceda à página do projeto. Em seguida, vá ao separador Vendas. Na grelha de Itens de Contrato do Projeto, clique na ligação no campo Contrato do Projeto. Abre a página de Contrato do Projeto. Na página Contrato do Projeto, vá para o separador Listas de Preços do Projeto. Verifique se existe, pelo menos, uma lista de preços anexada aqui.
 
-Se não houver nenhuma lista de preços anexada na grelha de Listas de Preços do Contrato do Projeto, faça o seguinte:
+Se não houver nenhuma lista de preços anexada na grelha de Listas de Preços do Contrato do Projeto:
 
 - Anexe uma lista de preços à grelha de Listas de Preços do Projeto. As listas de preços permitidas a ser anexadas aqui deverão ter o campo de contexto definido como Vendas e o campo de moeda na lista de preços deve corresponder ao campo no contrato do projeto. Depois de efetuadas as correções necessárias, recrie a entrada de despesa, aprove-a e verifique se as vendas em valores reais não faturadas mostram um preço válido.
 - Se tiver uma ou mais listas de preços anexadas na grelha de Listas de Preços do Contrato do Projeto, vá para a Verificação 2.
@@ -47,7 +50,7 @@ Para o Project Service ter em consideração uma lista de preços para o preço 
 - Comece por verificar se as datas de início e de fim do separador geral para as listas de preços associadas não estão vazias. Se as datas de início e de fim nas listas de preços identificadas acima estão vazias, localizou o problema. 
 - Anote o campo de data de início nas suas despesas em valores reais e verifique se qualquer uma das listas de preços identificadas é aplicável para essa data. Por exemplo, a data de despesas em valores reais deve estar dentro da data de início e data de fim na lista de preços. 
     - Se não houver nenhuma lista de preços que abranja essa data nas despesas em valores reais, localizou o problema. Modifique as datas de início e de fim da lista de preços para assegurar que a lista de preços abrange a data de despesas em valores reais. 
-    - Se houver mais do que uma lista de preços que abranja essa data nas despesas em valores reais, localizou o problema. Pode corrigir isto editando as datas de início e de fim da(s) lista(s) de preços para que exista apenas uma lista de preços que abranja a data de despesas em valores reais. 
+    - Se houver mais do que uma lista de preços que abranja essa data nas despesas em valores reais, localizou o problema. Editar as datas de início e de fim da(s) lista(s) de preços para que exista apenas uma lista de preços que abranja a data de despesas em valores reais. 
     - Se tiver apenas uma lista de preços que abrange essa data das despesas em valores reais, vá para a Verificação 3.
 Depois de efetuadas as correções necessárias, recrie a entrada de despesa, aprove-a e verifique se as vendas em valores reais não faturadas mostram um preço válido.
 
@@ -55,7 +58,7 @@ Depois de efetuadas as correções necessárias, recrie a entrada de despesa, ap
 
 Se tiver concluído com êxito a Verificação 1 e 2, deverá agora ter apenas uma lista de preços de projeto que é aplicável para a data de despesas em valores reais. Abra a Lista de Preços do Projeto e vá para o separador Categoria de Preços. Certifique-se de que existe uma linha na grelha para a categoria de despesas específica nas Despesas em valores reais.
  
-- Se não houver nenhuma linha, localizou o problema. Crie uma linha na grelha de Categoria de preços para a categoria nas suas despesas em valores reais. Feito isto, recrie uma entrada de despesas, aprove-a e verifique se as vendas não faturadas em valores reais mostram um preço válido. 
+- Se não houver nenhuma linha, localizou o problema. Crie uma linha na grelha de Categoria de preços para a categoria nas suas despesas em valores reais. Depois, recrie uma entrada de despesas, aprove-a e verifique se as vendas não faturadas em valores reais mostram um preço válido. 
 - Se existir uma linha para a categoria de despesas na grelha de preços de categoria, verifique se tem um preço válido.
 
 Para compreender o que é um preço válido, utilize estes métodos:
