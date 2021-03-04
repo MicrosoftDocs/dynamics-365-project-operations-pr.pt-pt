@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 825b6c131c8a65b99d5b7ebdadcd6389886f2d11
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d6b9d4fa0f69b4b0fe4bd1786958d22e5580a321
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082553"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960891"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>Despesas pessoais num relatório de despesas
-
-[!include [banner](../includes/banner.md)]
 
 Durante as viagens de negócios, os trabalhadores podem, por vezes, cobrar despesas pessoais aos seus cartões de crédito corporativos. Se não definir um processo de tratamento de despesas pessoais, o processo de aprovação dos relatórios de despesas poderá ser interrompido quando os trabalhadores apresentarem os seus relatórios de despesas discriminados. 
 

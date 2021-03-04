@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 537a50f5bc10a0293ed70ba6dc769a09ec6287f5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 177e0a6f676000c148346f7f7b7a2391326bc78b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082554"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960036"
 ---
 # <a name="per-diem-rules"></a>Regras diárias
-
-[!include [banner](../includes/banner.md)]
 
 Um subsídio *diário* é um subsídio que é pago a um trabalhador que viaja em trabalho. Na Gestão de despesas, pode criar regras de subsídio diário para várias situações de viagem. As tarifas de subsídio diário podem basear-se na época do ano, na localização da viagem ou em ambas. Ao criar uma regra de subsídio diário, pode especificar que uma percentagem da tarifa do subsídio diário será retida se um trabalhador receber refeições ou serviços gratuitos. Também pode definir um número mínimo e máximo de horas para as quais a tarifa do subsídio por dia pode aplicar-se à viagem de um trabalhador.
 

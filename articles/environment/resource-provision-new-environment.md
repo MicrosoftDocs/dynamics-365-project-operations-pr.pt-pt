@@ -3,17 +3,18 @@ title: Aprovisionar um novo ambiente
 description: Este tópico fornece informações sobre como aprovisionar um novo ambiente do Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642999"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727804"
 ---
 # <a name="provision-a-new-environment"></a>Aprovisionar um novo ambiente
 
@@ -60,17 +61,15 @@ Utilize os seguintes passos para ativar o fluxo de aprovisionamento automatizado
 
 ![Consentimento de Implementação](./media/2DeploymentConsent.png)
 
-7. Preencha os campos obrigatórios restantes no assistente e confirme a implementação. O tempo de aprovisionamento do ambiente varia com base no tipo de ambiente. O aprovisionamento pode demorar até seis horas.
+7. Opcional - Aplicar dados de demonstração ao ambiente. Vá a **definições avançadas**, selecione **Personalizar a configuração da base de dados SQL** e defina **Especificar um conjunto de dados para a base de dados de aplicações** para **demonstração**.
+
+8. Preencha os campos obrigatórios restantes no assistente e confirme a implementação. O tempo de provisão do ambiente varia com base no tipo de ambiente. O aprovisionamento pode demorar até seis horas.
 
   Depois de a implementação ser concluída com êxito, o ambiente será mostrado como **Implementado**.
 
-8. Para confirmar que o ambiente foi implementado com êxito, selecione **Iniciar sessão** e inicie sessão no ambiente para confirmar.
+9. Para confirmar que o ambiente foi implementado com sucesso, selecione **Iniciar sessão** e inicie sessão no ambiente para confirmar.
 
 ![Detalhes do ambiente ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Aplicar dados de demonstração do Project Operations Finance (passo opcional)
-
-Aplique os dados de demonstração do Project Operations Finance à versão de serviço 10.0.13 do Cloud Hosted Environment, tal como descrito [neste artigo](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplicar atualizações ao ambiente do Finance
 
@@ -151,6 +150,21 @@ Depois de aplicadas as entidades, todos os mapeamentos disponíveis são listado
 A atualização vai demorar aproximadamente 20 minutos. Receberá um alerta quando estiver concluída.
 
 ![Atualizar Confirmar](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Atualizar as definições de segurança no Project Operations em Dataverse
+
+1. Ir a Project Operations no seu ambiente Dataverse. 
+2. Aceda a **Definições** > **Segurança** > **Funções de Acesso**. 
+3. Na página de **Funções de segurança**, na lista de funções, selecione **utilizador de aplicações de dupla escrita** e selecione o separador **Entidades Personalizadas**.  
+4. Verifique se a função tem permissões de **leitura** e **acrescentar a** para:
+      
+      - **Tipo de taxa de cambio de moeda**
+      - **Tabela de contas**
+      - **Calendário Fiscal**
+      - **Livro-razão**
+
+5. Após o direito de acesso ser atualizado, vá a **Definições** > **Segurança** > **Equipas** e selecione a equipa predefinida na vista da equipa do **Proprietário de Negócios Local**.
+6. Selecione **Gerir Funções** e verifique se o privilégio de segurança do **utilizador de aplicações de dupla escrita** é aplicado a esta equipa.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Executar mapas de Escrita Dupla do Project Operations
 

@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082562"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960306"
 ---
 # <a name="expense-receipt-processing"></a>Processamento de recibos de despesas
-
-[!include [banner](../includes/banner.md)]
 
 A entrada de despesas foi reforçada através da introdução do processamento de reconhecimento de caracteres óticos (OCR) para obter receitas. Esta funcionalidade destina-se a melhorar a experiência do utilizador ao criar relatórios de despesas.
 
@@ -39,17 +37,17 @@ A entrada de despesas foi reforçada através da introdução do processamento d
 Para anexar automaticamente recibos que incluam transações de cartões de crédito quando um relatório de despesas é criado, faça o seguinte:
 
   1. Abra área de trabalho da **gestão de despesas**.
-  2. No separador **Recibos** , verifique se existem recibos não anexados. Também pode carregar recibos no separador **Recibos**.
-  3. No separador **Despesas** , verifique se existem despesas não anexadas. Normalmente, o Administrador de despesas importa estas despesas do cartão de crédito do prestador.
+  2. No separador **Recibos**, verifique se existem recibos não anexados. Também pode carregar recibos no separador **Recibos**.
+  3. No separador **Despesas**, verifique se existem despesas não anexadas. Normalmente, o Administrador de despesas importa estas despesas do cartão de crédito do prestador.
   4. Selecione **novo relatório de despesas**. Note que agora também pode incluir despesas e recibos quando criar um relatório de despesas. Se adicionar despesas e recibos, é desencadeada uma correspondência automática dos recibos com as despesas.
 
 Para criar uma despesa, ou fazer corresponder a uma despesa de um recibo, faça o seguinte:
 
-  1. Num relatório de despesas, no separador **Recibos** , anexe um recibo selecionando **Adicionar recibos**.
+  1. Num relatório de despesas, no separador **Recibos**, anexe um recibo selecionando **Adicionar recibos**.
   2. Por baixo da imagem carregada do recibo, observe as opções **Criar** e **Corresponder**.
 
       - Selecione **Criar** para criar uma transação de despesas inserida manualmente e preencher os valores extraídos do recibo.
-      - Se selecionar **Corresponder** , o sistema tenta corresponder uma despesa existente ao recibo.
+      - Se selecionar **Corresponder**, o sistema tenta corresponder uma despesa existente ao recibo.
 
 ## <a name="installation"></a>Instalação
 
@@ -65,7 +63,7 @@ Para utilizar estas capacidades de despesas avançadas, instale o suplemento do 
 6. Siga o guia de instalação e concorde com os termos e condições.
 7. Selecione **Instalar**.
 
-Na área de trabalho de **Gestão de recursos** , ligue as seguintes funcionalidades:
+Na área de trabalho de **Gestão de recursos**, ligue as seguintes funcionalidades:
 
 - Relatórios de despesas reinventados
 - Correspondência automática e criar despesas a partir do recibo
