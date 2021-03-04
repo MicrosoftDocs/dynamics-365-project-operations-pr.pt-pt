@@ -74,3 +74,6 @@ Foram corrigidos os seguintes problemas:
 - Ao selecionar uma linha baseada em projeto em proposta ou contrato, o botão **Sugestão** só deve ser visível ao selecionar uma linha baseada no produto associada a um produto existente.
 - Divida o privilégio **Create_Product** do privilégio **Create_ProjectContract**.
 - A eliminação de uma linha de fatura causa falha de referência nula em **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -200,3 +200,6 @@ Quando visualiza o tempo em níveis superiores, as células no separador **Recon
 Se tiver atribuições de tarefas para um recurso, mas não tiver reservas, no formulário **Projetos**, no separador **Reconciliação**, selecione a falta de reserva e, em seguida, selecione **Expandir Reserva**. É apresentada a caixa de diálogo **Falta de Reserva** e mostra a reserva necessária para resolver a falta do recurso. A caixa de diálogo também mostra as reservas existentes do recurso em todos os projetos ou outras entidades agendáveis. Se selecionar **OK** para criar a reserva para o recurso, independentemente da disponibilidade do recurso, poderá causar uma reserva em excesso.
 
 Em seguida, o Gestor de projeto ou o Gestor de recursos pode utilizar o Quadro da Agenda para gerir qualquer situação em que um recurso tenha uma reserva em excesso além da sua capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

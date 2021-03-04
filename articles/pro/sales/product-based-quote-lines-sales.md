@@ -46,3 +46,6 @@ Quando uma linha de proposta for baseada num catálogo de produtos, pode definir
 Se selecionar **Definir Preço Manualmente**, o preço predefinido não está definido. Em vez disso, tem de introduzir um preço para o produto na linha de proposta. Se selecionar **Utilizar Predefinição**, o preço de vendas predefinido é utilizado e o campo está bloqueado para edição.
 
 Os preços de vendas predefinidos são introduzidos nas linhas baseadas em produtos de uma proposta. O campo **Preços** é definido para **Definir Preço Manualmente**, para que possa editar o preço predefinido nas linhas de proposta. Esta é uma definição manual específica do Project Operations do comportamento das linhas baseadas em produtos no Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

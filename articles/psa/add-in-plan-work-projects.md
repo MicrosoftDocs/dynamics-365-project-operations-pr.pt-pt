@@ -242,3 +242,6 @@ A tabela que se segue descreve como os dados da entidade de dependências de tar
 
 ### <a name="additional-resources"></a>Recursos adicionais
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

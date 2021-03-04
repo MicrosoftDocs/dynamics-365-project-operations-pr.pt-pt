@@ -143,3 +143,6 @@ Para ver a fatura antes de publicar, limpe a caixa de verificação de **Publica
 Além da página de **propostas de fatura**, as propostas de fatura podem também ser publicadas através da execução do trabalho periódico, **publicar propostas de fatura**. Para encontrar este trabalho, vá à **gestão de projetos e contabilidade** > **Periódico** > **Faturas do projeto** > **Publicar propostas de fatura**.
 
 Esta página mostra todas as propostas de fatura que estão prontas para publicar. Pode agendar propostas de fatura de publicação selecionando **Lote**. Defina o **parâmetro de processamento do Lote** para **Sim** e defina a periodicidade do processamento do lote selecionando **Periodicidade**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Proj
 | **Gestão de oportunidades** | 2040713 | Corrigiu o erro de script que ocorre ao criar uma fatura a partir de um contrato e o Field Service é instalado. |
 | **Planeamento e Monitorização de Projetos** | 2090202 | Regras comerciais marcadas que já não são usadas como **Preteridas**. |
 | **Tempo e Despesa** | 2091249 | Controlos mais apertados para que os utilizadores não possam alterar a tarefa numa entrada de tempo que tenha sido aprovada ou submetida. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

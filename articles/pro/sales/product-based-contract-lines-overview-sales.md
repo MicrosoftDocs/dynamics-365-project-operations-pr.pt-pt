@@ -46,3 +46,6 @@ Se um item de contrato for baseado num catálogo de produtos, pode definir manua
 Se definir o campo como **Definir preço**, para **Definir preço manualmente**, o preço predefinido não é definido. Introduza um preço para o produto no item de contrato. Se definir o campo para **Utilizar predefinição**, o preço de vendas predefinido é utilizado e o campo não pode ser editado.
 
 Depois de instalar o Project Operations, os preços de venda predefinidos são introduzidos nos itens baseados em produtos num contrato. O campo **Definir preço** é definido para **Definir preço manualmente**, para que possa editar o preço predefinido nos itens de contrato. Esta é uma definição manual específica do Project Operations ao comportamento de linhas baseadas em produtos no Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

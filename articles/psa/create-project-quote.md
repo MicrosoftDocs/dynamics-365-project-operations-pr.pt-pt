@@ -55,3 +55,6 @@ A criação de uma proposta é semelhante à criação de uma oportunidade. Enqu
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

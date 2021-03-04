@@ -45,3 +45,6 @@ Quando seleciona **OK** na página de diálogo, o sistema cria uma cópia da pro
 > - Referência de projeto no projeto, Linhas da proposta baseada, Informações do orçamento do cliente
 >
 >Como esta informação é muito específica de cada proposta, estes campos e registos não são copiados. São copiadas as linhas de proposta para projetos e produtos, as estimativas sobre os detalhes da linha de proposta e os valores que não devem ser ultrapassados a nível da proposta. As predefinições de preço e taxa de custo dependem da opção **Copiar definição de preços** selecionada na página de diálogo **Copiar parâmetros**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Os seguintes tópicos fornecem informações sobre as tarefas que precisam de se
 - [Desempenho do agendamento de recursos do projeto](project-scheduling-performance.md)
 - [Configurar funções em modelos de estrutura hierárquica do trabalho](set-up-roles-wbs-template.md)
 - [Execução de recursos para recursos planeados](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

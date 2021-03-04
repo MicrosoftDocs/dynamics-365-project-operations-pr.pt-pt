@@ -34,3 +34,6 @@ Todos os custos, vendas e preços de transferência podem ser configurados para 
 1. Na página **Preço de venda (hora)** , selecione **Novo** e introduza uma data efetiva.
 2. Na coluna **Função** , selecione uma função.
 3. Na coluna **Preços** , introduza um preço para a função de recurso selecionada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

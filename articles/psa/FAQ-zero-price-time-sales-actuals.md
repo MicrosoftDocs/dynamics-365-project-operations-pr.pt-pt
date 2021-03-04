@@ -57,3 +57,6 @@ Se não houver nenhuma linha na grelha de preços para as dimensões de preço n
 
 Se ainda não visualizar um preço válido nas suas vendas de valores reais depois de seguir as três verificações acima, submeta um pedido de suporte. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

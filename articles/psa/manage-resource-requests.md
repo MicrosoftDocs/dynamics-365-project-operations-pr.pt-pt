@@ -51,3 +51,6 @@ Os gestores de conta e os gestores de projeto pedem regularmente recursos para o
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Resource Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

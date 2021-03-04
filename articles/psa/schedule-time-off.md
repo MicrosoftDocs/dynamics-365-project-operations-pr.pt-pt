@@ -57,3 +57,6 @@ Agende o tempo de férias ou licenças da mesma forma como introduz o tempo para
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

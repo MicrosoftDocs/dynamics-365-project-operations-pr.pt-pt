@@ -69,3 +69,6 @@ Os cálculos de rentabilidade convertem os montantes dos detalhes do item de con
 
 > [!NOTE]
 > Podem ocorrer erros de arredondamento de moeda e margens alteradas devido à falta de taxas de câmbio efetivas da data. Utilize estes cálculos em contratos de projeto apenas como aproximações e não para relatórios estatutários ou outros que exijam maior precisão de arredondamento e sensibilização para a efetividade da data para as taxas de câmbio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ O sinal no Project Operations não está disponível para utilização até que 
 | --- | --- | --- |
 | Valor disponível | O montante disponível para ser utilizado no registo de sinal ou adiantamento. | Até que o adiantamento ou sinal seja faturado, não está disponível para ser usado, o que significa que o valor disponível será zero. |
 | Montante usado | O montante já utilizado no sinal ou adiantamento. | Um adiantamento ou sinal pode ser parcialmente reconciliado numa fatura com valores reais de custos que terão alguma parte marcada como já utilizada ou consumida. O resto do montante de adiantamento ou de sinal está disponível para conciliar numa futura fatura com os valores reais dos custos. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ Os membros da equipa do projeto criam e submetem entradas de horas para aprovaç
 
 Para obter informações sobre como criar, submeter ou recuperar uma entrada, e outras ferramentas para ajudar a concluir o seu relatório, consulte [Comportamento do utilizador de entrada de hora](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

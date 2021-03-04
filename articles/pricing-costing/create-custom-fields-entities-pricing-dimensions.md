@@ -77,3 +77,6 @@ Pode criar manualmente dados para as dimensões baseadas em entidades ou atravé
 5. Repita os passos 1 a 3 para criar outro título padrão para o "Engenheiro de Sistemas Sénior".
 
 > ![Dados de exemplo para a entidade Título Padrão](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

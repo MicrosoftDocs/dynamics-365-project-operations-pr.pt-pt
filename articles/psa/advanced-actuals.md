@@ -34,3 +34,6 @@ ms.locfileid: "5145732"
 Todas as transações financeiras que ocorrem durante um projeto são registadas. Estas transações são registadas como **reais**. A tabela seguinte mostra os diferentes tipos de valores reais criados, dependendo do facto de o projeto ser um projeto de tempo e material, de preço fixo ou interno, ou se encontrar na fase pré-venda.
 
 > ![Tabela que mostra a forma como os valores reais são registados](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

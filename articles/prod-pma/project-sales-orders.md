@@ -41,3 +41,6 @@ Pode criar ordens de venda baseadas em projetos de duas formas:
 - Vá para o próprio projeto. No Painel de Ação, selecione **Gerir > Tarefas do item > Ordem de venda**. A informação do projeto assumirá por predefinição a ordem de venda do projeto. Se o contrato de projeto tiver mais de uma fonte de financiamento, terá de selecionar a fonte de financiamento para definir o cliente para a ordem de venda. Se existir apenas uma fonte de financiamento para o projeto, o cliente será definido automaticamente.
 - Vá para a página da lista **Todas as ordens de venda** e crie uma nova ordem de venda. Terá de selecionar o projeto para a ordem de venda. Depois de selecionado o projeto, o cliente será definido a partir da fonte de financiamento ou terá de selecionar a fonte de financiamento se o contrato de projeto tiver múltiplas fontes de financiamento.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

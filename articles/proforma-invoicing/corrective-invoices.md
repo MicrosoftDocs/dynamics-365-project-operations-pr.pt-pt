@@ -36,3 +36,6 @@ Quando confirma uma fatura corretiva, o valor real de vendas faturadas originais
 
 - Um valor real de vendas faturadas durante seis horas.
 - Uma valor real de vendas não faturadas para as duas horas restantes. Esta transação pode ser faturada mais tarde ou marcada como não faturável, dependendo das negociações com o cliente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

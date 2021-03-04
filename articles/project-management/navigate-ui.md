@@ -102,3 +102,6 @@ Segue-se uma breve descrição geral dos controlos típicos encontrados nos vár
 **Adicionar coluna**: permite ao utilizador definir as colunas visíveis na grelha. Só as colunas de configuração inicial podem ser adicionadas às grelhas no formulário **Planeamento de projeto**.
 
 ![Botão Adicionar coluna](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

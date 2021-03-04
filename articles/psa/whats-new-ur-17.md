@@ -57,3 +57,6 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o PS
 - Corrigido: quando a classe de transação é **Hora**, **UnitGroup** é não editável para todas as entidades, incluindo, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** e **ContractLineDetails**. No entanto, **Unidade** é não editável apenas para **JournalLine** e **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

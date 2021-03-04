@@ -85,3 +85,6 @@ Depois de criadas algumas entradas de hora, os utilizadores podem várias entrad
 
 ## <a name="import"></a>Importação
 O mesmo processo básico é utilizado para importar reservas, atribuições e trocas. Pode especificar o intervalo de datas a partir do qual as reservas são importadas e, em seguida, selecionar explicitamente as reservas que devem ser copiadas para entradas de hora de rascunho. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

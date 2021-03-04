@@ -74,3 +74,6 @@ Pode gerar manualmente marcos de preço fixo quando não são divididos periodic
 | Imposto | Criação Rápida | O valor do imposto aplicado ao marco. | Isto é transportado para o marco do item de contrato do projeto e para a fatura. |
 
 3. Selecione **Guardar e Fechar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

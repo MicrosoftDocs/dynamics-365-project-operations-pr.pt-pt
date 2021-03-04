@@ -48,3 +48,6 @@ A tabela seguinte lista os tipos de fluxos de trabalho que pode criar em **Gest�
 |       <strong>Requisição de viagens</strong>       |          Criar aprovação de fluxos de trabalho para requisições de viagem.           |
 |      <strong>Pedido de adiantamento de dinheiro</strong>      |         Criar aprovação de fluxos de trabalho para pedidos de adiantamento de dinheiro.          |
 |        <strong>Recuperação da taxa de IVA</strong>        | Criar aprovação de fluxos de trabalho para a recuperação do imposto sobre o valor acrescentado (IVA).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

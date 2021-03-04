@@ -167,3 +167,6 @@ Se a sua empresa operar como uma unidade com uma lista de preços de custo, não
 Quando um projeto é criado sozinho, a unidade de contratação predefinida do projeto baseia-se no utilizador que o cria. Esse utilizador também é o gestor de projeto predefinido. Se o projeto estiver mapeado para uma entidade de vendas, tal como uma proposta ou um contrato do projeto, a unidade de contratação do projeto será baseada na entidade de vendas. Neste caso, as estimativas do projeto poderão ser recalculadas porque a lista de preços de custo é utilizada para calcular as alterações de estimativa de custos se a unidade de contratação for alterada. A lista de preços de vendas é utilizada para calcular as estimativas de vendas que serão alteradas de modo a serem sincronizadas com a lista de preços do projeto na proposta.
 
 Os campos **Unidade de Contratação** e **Moeda** no projeto estão bloqueados para edição, porque têm de estar em sincronização com os valores na entidade de vendas (proposta ou contrato do projeto) para a qual o projeto está mapeado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

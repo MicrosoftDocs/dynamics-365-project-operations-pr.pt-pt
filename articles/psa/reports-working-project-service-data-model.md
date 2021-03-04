@@ -123,3 +123,6 @@ Quando está a trabalhar com a entidade **Valor Real**, é importante que compre
 A entidade **Origem da Transação** regista a origem do registo **Valor Real** e a entidade **Ligação da Transação** regista os registos relacionados para o registo **Valor Real**. Além disso, o registo **Valor Real** contém referências ao projeto, ao contrato do projeto (encomenda), ao recurso reservável e ao cliente.
 
 ![Diagrama que mostra as relações da ligação, da origem e dos valores reais](media/PS-Reporting-image6.png "Diagrama que mostra as relações da ligação, da origem e dos valores reais")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Após a conclusão das tarefas anteriores, pode concluir as seguintes tarefas, c
 - Executar pedidos de recursos.
 - Pedir um recurso com pessoal de uma WBS.
 - ReservAr recursos para um projeto sem ter um pedido de recurso com pessoal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

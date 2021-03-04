@@ -635,3 +635,6 @@ Não é Válido </p>
     </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

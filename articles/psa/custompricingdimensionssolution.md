@@ -68,3 +68,6 @@ Terá de adicionar as seguintes entidades do Project Service à Solução de Def
 > ![Não incluir todos os componentes relacionados](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

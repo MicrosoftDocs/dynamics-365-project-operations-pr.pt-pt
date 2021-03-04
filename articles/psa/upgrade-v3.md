@@ -110,3 +110,6 @@ Para as tarefas atribuídas a uma função com uma unidade organizacional difere
  
 Alteração na predefinição de unidades organizacionais de atribuição de recursos diferentes em membros da equipa não-gerados é o motivo pelo qual recomendamos que gere ou gere novamente a equipa em cada projeto que contém recursos genéricos antes da atualização, de modo a que as atribuições da unidade organizacional não sejam perdidas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

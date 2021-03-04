@@ -33,3 +33,6 @@ Existem dois métodos para processar despesas pessoais de um trabalhador:
 - **Pago pela empresa** – A sua organização paga a conta total do cartão de crédito corporativo e depois debita a conta do trabalhador para as despesas pessoais.
 
 Pode selecionar o método que a sua organização utiliza na página **Parâmetros de gestão de despesas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

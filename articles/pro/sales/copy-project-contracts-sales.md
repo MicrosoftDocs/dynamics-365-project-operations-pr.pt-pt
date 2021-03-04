@@ -45,3 +45,6 @@ As seguintes informações não são copiadas a partir da **Origem** para o **Co
   - Informações de orçamento do cliente
 
 Como estas informações são específicas de cada contrato, estes campos e registos não são copiados. São copiadas os itens de contrato para projetos e produtos, as estimativas e detalhes de itens de contrato e os valores que não devem ser ultrapassados a nível do contrato. A taxa de preço e custo assume a predefinição consoante a seleção no campo **Copiar definição de preços** na página de diálogo **Copiar Parâmetros**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

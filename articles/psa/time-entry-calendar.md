@@ -42,3 +42,6 @@ O calendário não suporta ações em itens de calendário individuais e não po
 ## <a name="extensibility"></a>Extensibilidade
 
 Na página **Entradas de Tempo** que tem a grelha de entrada de tempo, pode adicionar campos personalizados, configurar campos de pesquisa e criar vistas personalizadas. Também pode configurar a lógica de negócio personalizada baseada nos valores selecionados ou introduzidos nos campos personalizados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Como Gestor de projetos, pode precisar de reservar um recurso para um projeto, m
 
 > [!NOTE]
 > Este método não cria quaisquer reservas para o recurso. Em vez disso, adiciona o recurso à equipa. Depois de o membro da equipa ser adicionado ao projeto, o gestor de projetos pode utilizar a opção para manter as reservas ou prolongar as reservas para adicionar as reservas necessárias ao recurso.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -440,3 +440,6 @@ Após o cálculo do extrato, pode ver as seguintes informações nos vários sep
 -   **Consumo** – informação sobre o consumo de horas, itens, despesas e transações de pagamento.
 -   **Fatura** – informação sobre faturas e faturação em conta.
 -   **Taxa Horária** – as tarifas horárias para as horas que são lançadas nas contas de receitas e custos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

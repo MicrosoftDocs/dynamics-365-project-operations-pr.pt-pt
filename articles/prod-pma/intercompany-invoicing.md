@@ -113,3 +113,6 @@ Quando a entidade jurídica de prestadora, a USSI, lança a fatura do cliente en
 Para mais informações, consulte [Configurar a faturação de projetos entre empresas](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

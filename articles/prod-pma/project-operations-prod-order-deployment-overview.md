@@ -43,3 +43,6 @@ Selecione este tipo de implementação para utilizar o Dynamics 365 Project Oper
 - Um motor de impostos de venda rico e de classe empresarial e de taxa de câmbio para gerar faturas viradas para o cliente para projetos.
 - Um sistema de reconhecimento de receitas e contabilidade de projetos em conformidade com as normas IFRS (International Financial Reporting Standards).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

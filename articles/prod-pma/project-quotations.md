@@ -41,3 +41,6 @@ Se o cliente aprovar a cotação de projeto, pode copiar a informação na cota�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Foram corrigidos os seguintes problemas:
 - Fechar a proposta como ganha não navega para o contrato criado se um BPF anexado à proposta estiver na fase final.
 - Reverter **Vendas não fatutradas** está associado ao custo original quando uma entrada de tempo é recuperada.
 - Depois de selecionar o botão **Confirmar**, o estado da fatura não muda para **Confirmado** a menos que a fatura seja atualizada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

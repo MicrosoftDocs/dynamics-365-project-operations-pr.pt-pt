@@ -106,3 +106,6 @@ Quando uma ou mais atualizações são feitas para a estrutura hierárquica do t
   - Sistema do Project Operations
   - Sistema do projeto
   - Sistema de Escrita Dupla do Project Operations (Esta função é necessária se estiver a implementar o cenário baseado em recursos/não armazenados do Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

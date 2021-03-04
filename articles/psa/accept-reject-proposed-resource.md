@@ -45,3 +45,6 @@ Para rejeitar a proposta, clique em **Rejeitar Recurso**.
 ![Aceitar uma proposta do recurso](media/RM-how-to-20.png) 
 
 Tal como a execução direta de um pedido de recurso genérico com um recurso nomeado, o recurso genérico será substituído e as tarefas atribuídas serão atualizadas com o membro da equipa nomeado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

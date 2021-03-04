@@ -43,3 +43,6 @@ O diagrama que se segue ilustra a faturação interempresa no que diz respeito a
 - [Configurar faturação interempresa](configure-intercompany-invoicing.md)
 - [Registar transações interempresa](create-intercompany-transactions.md)
 - [Criar faturas de clientes e fornecedores interempresa](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

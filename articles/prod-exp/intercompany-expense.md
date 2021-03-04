@@ -35,3 +35,6 @@ Antes que um trabalhador possa criar e submeter despesas interempresa, deve ativ
 
 Antes de poder utilizar grupos fiscais associados à entidade legal de empréstimo (fonte) em vez da entidade legal de empréstimo (destino) no seu relatório de despesas, deve ativar a funcionalidade na configuração do imposto geral sobre as vendas. Quando a entidade jurídica para o parâmetro de **Entidade legal para publicação fiscal interempresa** estiver definida para **Fonte** e **Aplicar regras de tributação de impostos sobre vendas** estiver definida como **N.º**, é usada a combinação fiscal para a entidade legal de empréstimo. Quando o mesmo parâmetro for definido como **Destino**, a combinação fiscal para a entidade legal emprestada será utilizada. Para as entidades jurídicas nos Estados Unidos, quando o parâmetro for definido para **Origem**, o campo **Imposto de vendas a receber** também deve ser configurado na nova página **Grupos de publicação do livro razão**. O motor contabilístico utilizará as informações deste campo para a entrada contabilística relacionada com os impostos.   
 O comportamento é consistente para linhas de despesas publicadas com ou sem projeto.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

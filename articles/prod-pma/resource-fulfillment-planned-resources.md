@@ -40,3 +40,6 @@ Um gestor de projeto pode planear as funções de recursos necessárias para um 
 7. Selecione um trabalhador e, em seguida, selecione **Atribuir**.
 8. Verifique se a linha para **Programador de software 1** foi removida para o projeto **Fase de Atualização 2 XYZ**.
 9. No separador **Equipa do projeto e agendamento** , para o projeto **Fase de Atualização 2 XYZ** , verifique se o trabalhador que selecionou no passo anterior foi adicionado como **Programador de software**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

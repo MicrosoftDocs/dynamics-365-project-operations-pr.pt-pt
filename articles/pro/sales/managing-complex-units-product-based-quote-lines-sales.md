@@ -45,3 +45,6 @@ Para criar Fatores de quantidade a partir das Propriedades do produto, siga este
 6. Guarde e feche o formulário. Repita estes passos para todas as propriedades a utilizar para calcular a quantidade da linha de proposta baseada no produto.
 
 Quando cria uma linha de proposta baseada em produtos para um produto, a quantidade da linha de proposta será bloqueada. A quantidade será calculada como um produto dos valores de propriedade que introduzir para essa linha de proposta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

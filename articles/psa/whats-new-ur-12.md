@@ -61,3 +61,6 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o Pr
     - Corrigido: IDs de objetos duplicados no formulário **Principal do contrato**.
     - Corrigido: a lógica foi atualizada para tornar visível o separador **Análise de Proposta**, de modo a apresentar a configuração de metadados do separador.
     - Corrigido: a data contabilística do registo real agora provém da data da hora da entrada da hora/despesa e não da data de aprovação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

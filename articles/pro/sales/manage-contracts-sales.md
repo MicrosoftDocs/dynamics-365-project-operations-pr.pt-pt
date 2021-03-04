@@ -33,3 +33,6 @@ Uma lista de todos os contratos do projeto pode ser vista na página de lista **
 2. Selecione o **Alternador de vistas** (a seta pendente ao lado do nome da vista) para selecionar outras vistas filtradas. Pode criar as suas próprias vistas com critérios de filtro personalizados.
 
 Os contratos podem ser criados ou eliminados a partir desta página de lista ou páginas de detalhes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

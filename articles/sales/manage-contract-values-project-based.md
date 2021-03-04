@@ -57,3 +57,6 @@ Regra: Um projeto e uma determinada classe de transações só podem ser incluí
 | C1       | CL2           | P1      | No           | Sim             | No          | Válido           | O tempo e as taxas do projeto P1 estão incluídos no CL1. As Despesas no projeto P1 estão incluídas no CL2. </br>   Não há sobreposição no que está a ser incluído em cada item de contrato e, por conseguinte, é válido.  |
 | C1       | CL1           | P1      | Sim          | Sim             | Sim         | Não é válido       | Viola a regra. O tempo, as despesas e as taxas no projeto P1 estão incluídos nos itens dos dois contratos.                                                                                               |
 | CL2      | CL2           | P1      | Sim          | Sim             | Sim         | Não é válido       | Viola a regra. O tempo, as despesas e as taxas no projeto P1 estão incluídos nos itens dos dois contratos.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

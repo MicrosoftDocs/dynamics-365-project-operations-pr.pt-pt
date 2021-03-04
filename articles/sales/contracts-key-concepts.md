@@ -88,3 +88,6 @@ As agendas de faturação são específicas de cada item de contrato e são nece
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Alterações das Encomendas do Dynamics 365 Sales
 
 Os contratos do Project Operations são criados em Encomendas no Dynamics 365 Sales. No entanto, existem desvios e diferenças importantes na funcionalidade. Os contratos têm um formulário e elementos de IU, regras de negócio, lógica de negócio em plug-ins e scripts do lado do cliente próprios que as tornam únicos das Encomendas. Por estas razões, não use uma encomenda de Vendas e um contrato do Project Operations alternadamente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Os parâmetros controlam o comportamento geral na gestão de Despesas.
 | <strong>Mensagem anticorrupção para o submissor</strong> |                                                                                             Introduza o texto que será apresentado ao colaborador ao criar um novo relatório de despesas. Clique no botão <strong>Traduções</strong> para introduzir texto específico do idioma que será mostrado, consoante o idioma do utilizador.                                                                                             |
 | <strong>Mensagem anticorrupção para o aprovador</strong>  |                                                                                             Introduza o texto que será apresentado ao aprovador ao criar um novo relatório de despesas. Clique no botão <strong>Traduções</strong> para introduzir texto específico do idioma que será mostrado, consoante o idioma do utilizador.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

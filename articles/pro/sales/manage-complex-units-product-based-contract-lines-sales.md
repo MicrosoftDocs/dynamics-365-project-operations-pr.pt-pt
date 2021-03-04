@@ -46,3 +46,6 @@ Para criar fatores de quantidade a partir de propriedades do produto, complete o
 7. Repita os passos 2-6 para todas as propriedades que, em conjunto, compõem a quantidade do item de contrato baseado em produtos.
 
 Com os fatores de quantidade configurados, quando o utilizador cria um item de contrato para este produto, a quantidade do item de contrato é bloqueado. A quantidade é então calculada como um produto dos valores de propriedade para esse item de contrato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

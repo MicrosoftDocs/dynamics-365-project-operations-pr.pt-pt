@@ -101,3 +101,6 @@ Se não está a ver utilização faturável, eis alguns aspetos que pode verific
   - A função do item de contrato do projeto que apoia o projeto foi definida como não faturável.
   - O projeto não tem um item de contrato associado.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

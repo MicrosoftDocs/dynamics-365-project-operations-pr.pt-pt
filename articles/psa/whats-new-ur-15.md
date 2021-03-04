@@ -63,3 +63,6 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o PS
   - Corrigido: já não obtém uma mensagem de erro na **Pesquisa de projeto** no formulário **Linha da Proposta** quando existem mais de 1000 projetos.
   - Corrigido: a grelha **Estimativas** para estimativas de mão-de-obra e estimativas de despesas apresenta agora o símbolo de moeda correto.
   - Corrigido: depois de uma organização atualizar o PSA da Versão da Atualização 14 para a Versão da Atualização 15, o separador **Agenda** deixa de aparecer como em branco no formulário **Projeto**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

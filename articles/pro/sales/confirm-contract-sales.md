@@ -35,3 +35,6 @@ Se o contrato de projeto que está fechado como referências perdidas um projeto
 
 > [!NOTE]
 > No Dynamics 365 Project Operations, fechar um contrato de projeto como perdido não terá impacto nesse estado da oportunidade associada. A oportunidade permanecerá aberta e deve ser fechada manualmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

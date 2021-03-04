@@ -26,3 +26,6 @@ Os Grupos do Office permitem-lhe partilhar um projeto com outros membros da equi
 > [!NOTE] 
 > Os utilizadores só são adicionados ao grupo se premir **Grupos** e os adicionar. Isto é diferente do comportamento do Project na Web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

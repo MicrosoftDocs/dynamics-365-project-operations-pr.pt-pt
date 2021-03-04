@@ -61,3 +61,6 @@ Quando uma equipa do projeto é copiada a partir do projeto de origem, são copi
 Quando o projeto é copiado, são copiadas as linhas de estimativa de recursos e despesas a partir do projeto de origem. 
 
 Para obter informações sobre como aceder programaticamente a Copiar Projeto, consulte [Programar modelos de projeto com Copiar Projeto](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

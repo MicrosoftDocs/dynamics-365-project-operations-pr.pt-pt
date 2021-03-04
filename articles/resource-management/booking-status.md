@@ -20,3 +20,6 @@ ms.locfileid: "4514570"
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
 Pode utilizar a funcionalidade fornecida no Universal Resource Scheduling para o Dynamics 365 Field Service para configurar estados de reserva para a sua organização. Para obter informações sobre como completar esta configuração, consulte [Configurar estados de reserva](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Os seguintes tópicos fornecem informações que irão ajudar os gestores de pro
 - [Modelos de projeto](project-templates.md)
 - [Fases do projeto](project-stages.md)
 - [Definições do projeto](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

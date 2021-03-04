@@ -20,3 +20,6 @@ ms.locfileid: "4514571"
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
 Pode utilizar a funcionalidade fornecida no Dynamics 365 Field Service para definir as funções no seu ambiente do Dynamics 365 Project Operations. Para completar esta configuração, consulte [Configurar categorias de recursos reserváveis](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

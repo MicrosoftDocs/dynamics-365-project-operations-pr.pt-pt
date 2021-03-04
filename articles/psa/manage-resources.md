@@ -344,3 +344,6 @@ Se tiver atribuições de tarefas para um recurso, mas não tiver reservas, na p
 ![Caixa de diálogo Expandir Reserva](media/Resource-Management-image58.png)
 
 Em seguida, o gestor de projeto ou o gestor de recursos pode utilizar o Quadro da Agenda para gerir qualquer situação em que um recurso tenha uma reserva em excesso além da sua capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

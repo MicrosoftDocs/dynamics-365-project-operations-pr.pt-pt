@@ -55,3 +55,6 @@ Por exemplo, um programador da divisão de Robótica da Fabrikam India que traba
     | Programador | Fabrikam US | Fabrikam US – Robótica | 150 $ |
 
 3. Anexar a lista de preços de vendas, **Taxas de faturação da Fabrikam US** para a lista de preços do projeto do contrato do projeto ou a uma determinada conta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ O dashboard **Gestor de Práticas** permite que os gestores de práticas tenham 
 ## <a name="resource-manager"></a>Gestor de Recursos 
 
 O dashboard **Gestor de Recursos** fornece aos gestores de recursos uma experiência gráfica no dashboard para monitorizar pedidos de recursos, bem como a utilização e procura de recursos. Também permite que os gestores de recursos dividam as informações monitorizadas por várias dimensões.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

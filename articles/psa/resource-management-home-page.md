@@ -41,3 +41,6 @@ Os recursos são o ativo mais importante de uma organização baseada em serviç
 - [Efetuar reserva flexível de requisitos](resource-management-softbook-requirements.md)
 - [Modelos de competências e proficiência](resource-management-skills-proficiency.md)
 - [FAQ de gestão de recursos](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Por predefinição, se a tarefa de nós de folha não tiver antecessores, a sua 
 ### <a name="manual-scheduling"></a>Agendamento manual
 
 Se as regras do agendamento automático não corresponderem aos seus requisitos, pode definir o modo de tarefa para que a tarefa seja **Agendada Manualmente**. Esta definição para o motor de agendamento para o cálculo dos valores de outros atributos de agendamento. Independentemente do modo de tarefa, se definir os antecessores nas tarefas, afeta sempre a data de início da tarefa dependente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Selecione **Reservar** para o recurso genérico e, em seguida, pode utilizar o q
 Quando o recurso genérico é preenchido com um recurso nomeado, o recurso genérico é removido da equipa e as atribuições de tarefas para o recurso genérico são atribuídas ao recurso nomeado que preencheu o requisito de recurso genérico do recurso.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

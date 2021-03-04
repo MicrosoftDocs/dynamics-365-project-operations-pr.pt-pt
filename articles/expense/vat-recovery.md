@@ -66,3 +66,6 @@ Quando Arnie estiver pronto para enviar os dados do relatório de despesas para 
 Arnie tem de verificar se as transações de relatórios de despesas são elegíveis para recuperação do IVA e se os recibos digitais são anexados aos relatórios. Para começar a processar as despesas elegíveis para recuperação interna, Arnie abre a página **Recuperação de impostos de despesas** e seleciona o relatório de despesas que necessita de verificação. Ele verifica se os recibos estão em nome da empresa, em vez do empregado. (Para recuperação do IVA, os recibos têm de estar no nome da empresa.) Em seguida, Arnie verifica se foram introduzidos o grupo de impostos sobre vendas e os códigos de imposto sobre as vendas de produtos corretos.
 
 Quando Arnie recebe os recibos em papel, altera o estado do relatório de despesas para **Pronto para recuperação**. Em seguida, pode apresentar a declaração junto da autoridade tributária competente. Neste caso, a autoridade tributária competente nos Estados Unidos é a direção geral de impostos (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

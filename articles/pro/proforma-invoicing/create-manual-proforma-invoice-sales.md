@@ -35,3 +35,6 @@ Todas as faturas do projeto criadas estão disponíveis na página **Fatura** na
 Uma fatura proforma também pode ser criada a partir da página de detalhes do **Contrato de Projeto**. O sistema verifica que o contrato do projeto tem uma tarefa pendente de **Pronto a Faturar** com data anterior à data de hoje. A partir destes contratos, o sistema cria faturas pró-forma de rascunho com base no número de clientes em cada item de contrato.
 
 Quando há uma única fatura pró-forma criada, a página **Fatura** abre. Se forem criadas várias faturas para esse contrato de projeto, a página da lista de **Faturas** abre-se para mostrar todas as faturas criadas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

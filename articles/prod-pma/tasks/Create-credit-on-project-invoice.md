@@ -39,3 +39,6 @@ ms.locfileid: "4082381"
 10. Clique em OK. 
 
 Após este passo, a Nota de Crédito estará disponível para Proposta de Fatura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

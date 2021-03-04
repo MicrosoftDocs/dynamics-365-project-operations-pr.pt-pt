@@ -74,3 +74,6 @@ Quando expandir a linha desse registo de Membro da Equipa, pode ver atribuiçõe
 Ao navegar para a grelha **Estimativas**, notará que ambas as atribuições para o mesmo recurso têm um preço diferente.
 A atribuição do recurso na Tarefa A tem o preço utilizando o valor de atributo **Função** de **Líder de Consultoria**. A atribuição do mesmo recurso na Tarefa B tem o preço utilizando o valor de atributo **Função** de **Técnico de Rede**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

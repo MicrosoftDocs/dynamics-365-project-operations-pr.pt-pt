@@ -41,3 +41,6 @@ Se decidir exigir vários aprovadores de relatórios de despesas, pode adicionar
 
     1. O gestor do funcionário aprova o relatório de despesas.
     2. O proprietário do orçamento aprova o relatório de despesas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

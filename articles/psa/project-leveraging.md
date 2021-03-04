@@ -54,3 +54,6 @@ Pode definir o esforço de trabalho e agendar estimativas utilizando os campos n
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importar estimativas de um projeto para uma proposta
 
 Depois de definir as estimativas do projeto, pode importá-las para a linha de proposta. Na página **Detalhes de Linha de Proposta**, selecione **Importar a partir da estimativa** a partir de estimativas no friso para resumir as estimativas de projeto por tipo de transação, função ou nível de tarefa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

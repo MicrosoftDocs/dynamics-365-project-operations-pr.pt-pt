@@ -63,3 +63,6 @@ Quando o trabalho do projeto estiver concluído, o gestor de projeto poderá atu
 
 Quando todas as transações são registadas para o projeto, o gestor de projeto pode atualizar a fase para **Fechar**. Nesta altura, não é possível registar nenhuma transação e o projeto está definido como só de leitura.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

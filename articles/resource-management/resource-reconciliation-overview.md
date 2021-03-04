@@ -48,3 +48,6 @@ Se tiver atribuições de tarefas para um recurso, mas não tiver reservas, sele
 As reservas que são criadas através da ação **Prolongar reserva** estão associadas à exigência do projeto primário. Quando uma extensão é iniciada, o requisito específico que deve ser estendido não pode ser determinado, porque o recurso pode estar associado a mais de um requisito para o projeto.
 
 Em seguida, o gestor de projeto ou o gestor de recursos podem utilizar o quadro da agenda para gerir qualquer situação em que um recurso tenha uma reserva em excesso além da sua capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

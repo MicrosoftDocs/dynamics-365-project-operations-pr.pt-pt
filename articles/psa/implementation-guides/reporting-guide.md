@@ -41,3 +41,6 @@ A ligação do PDF que estava anteriormente neste tópico foi removida e o conte
 
 > [!NOTE]
 > Este tópico será removido numa atualização de documentação futura. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

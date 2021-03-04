@@ -40,3 +40,6 @@ Se a citação do projeto que está fechada como Perdido refere um projeto em qu
 
 > [!NOTE]
 > No Project Operations, fechar uma proposta como Ganha ou Perdida não afetará esse estado da Oportunidade, que permanecerá aberta até ser fechada manualmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

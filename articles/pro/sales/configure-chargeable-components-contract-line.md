@@ -79,3 +79,6 @@ Uma estimativa ou um valor real criado para despesas apenas é considerado fatur
 | No            | Sim              | Todo o projeto | Não pode ser definido   | Não faturável | Faturação num valor real de Tempo: **Não disponível**</br> Tipo de faturação em valor real de Despesas: **Não Faturável**     |
 | Sim           | No               | Todo o projeto | Faturável     | Não pode ser definido   | Faturação num valor real de Tempo: **Faturável** </br> Tipo de faturação em valor real de Despesas: **Não disponível**        |
 | Sim           | No               | Todo o projeto | Não faturável | Não pode ser definido   | Faturação num valor real de Tempo: **Não Faturável** </br>Tipo de faturação em valor real de Despesas: **Não disponível**   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

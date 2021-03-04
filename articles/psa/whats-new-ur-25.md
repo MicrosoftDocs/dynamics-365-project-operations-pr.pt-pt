@@ -70,3 +70,6 @@ Foram corrigidos os seguintes problemas:
 - Manuseamento de erros melhorado para resolver Exceções de Referência Nulas geradas pelo **Copiar Projeto: Estimativa de Gestão do HelperResource**.
 - **Não está pronto a Faturar** num **Registo de Tarefas Pendentes de Faturação de Tempo e Material** não limpa o estado da faturação.
 - Corrigida a colocação errada de etiquetas dos botões **Preços** no separador **Preço de Função** e **Itens de Catálogo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

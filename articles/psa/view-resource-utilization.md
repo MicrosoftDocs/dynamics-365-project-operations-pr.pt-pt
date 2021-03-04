@@ -43,3 +43,6 @@ Poderá verificar a utilização de recursos para determinar os níveis de utili
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Resource Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

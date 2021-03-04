@@ -35,3 +35,6 @@ Para rever os projetos de estimativas de receitas de preços fixos, complete os 
 
   O custo do projeto, o perfil da receita, o modelo de custos e o código de período podem ser definidos manualmente. Se não forem definidos manualmente, os valores assumem a predefinição durante o primeiro cálculo de estimativa para o projeto utilizando as regras configuradas para o custo do projeto e perfis de receitas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

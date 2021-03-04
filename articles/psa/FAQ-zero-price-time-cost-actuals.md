@@ -66,3 +66,6 @@ Se ainda não visualizar um preço válido nas seus custos de valores reais depo
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

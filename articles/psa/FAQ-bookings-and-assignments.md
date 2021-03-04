@@ -68,3 +68,6 @@ A **Vista de Reconciliação** permite ao gestor de projeto ver as reservas e at
 > [!NOTE]
 > Se mover uma tarefa para a qual tenha sido você a criar os contornos, estes contornos não são mantidos. Os contornos são regenerados de acordo com o calendário do projeto para dar conta de alterações nas horas de trabalho e férias. Isto é propositado uma vez que o sistema não conhece o objetivo do contorno original e não pode determinar se faz sentido manter esse contorno num período de tempo novo. Uma vez que as reservas e as atribuições estão desligadas, as reservas retêm os contornos da reserva original. Neste caso, terá de cancelar e recusar para o novo contorno de atribuição.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

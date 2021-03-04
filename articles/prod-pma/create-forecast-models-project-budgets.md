@@ -57,3 +57,6 @@ Este tópico descreve como criar um modelo de previsão para os restantes orçam
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

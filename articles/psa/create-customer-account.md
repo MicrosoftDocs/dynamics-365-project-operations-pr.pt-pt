@@ -47,3 +47,6 @@ Crie uma conta para cada cliente com quem está a trabalhar, quer esteja a citar
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

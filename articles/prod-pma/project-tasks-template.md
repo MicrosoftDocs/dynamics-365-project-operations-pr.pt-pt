@@ -83,3 +83,6 @@ Se tiver de utilizar o Power Query, siga esta diretriz:
 A seguinte ilustração mostra um exemplo dos mapeamentos de tarefas do modelo na Integração de Dados. O mapeamento mostra as informações do campo que serão sincronizadas do Project Service Automation para Finance.
 
 [![Mapeamento de modelos](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

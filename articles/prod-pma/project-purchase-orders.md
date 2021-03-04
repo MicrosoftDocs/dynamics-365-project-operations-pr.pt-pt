@@ -76,3 +76,6 @@ Pode utilizar um dos seguintes métodos para criar uma nota de encomenda em Gest
 
 Para mais informações, consulte [Receber itens na nota de encomenda a partir do requisito do item](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

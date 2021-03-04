@@ -46,3 +46,6 @@ O Assistente da Agenda é apresentado e filtrado pelos requisitos. Selecione o r
 > ![Recurso selecionado](media/Resource-Management-image61.png)
 
 O membro da equipa genérico é substituído pelo recurso nomeado reservado de forma fixa na equipa do projeto e pelas atribuições de tarefas na agenda do projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

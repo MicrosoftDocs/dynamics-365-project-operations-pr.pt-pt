@@ -78,3 +78,6 @@ As seguintes funcionalidades estão presentes na página existente, mas ainda n�
 - Fluxo de trabalho a nível da linha
 - Suporte do aprovador provisório
 - Discriminação avançada
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Se tiver valores reais que chegaram após a criação da fatura, pode incluir es
 No Project Operations, pode criar linhas de fatura para produtos que não se aplicam a nenhum projeto ou a todos os projetos, juntamente com linhas de fatura baseadas em projetos. Estas linhas de fatura são criadas como itens de contrato baseados em produtos e depois de marcados como pronto a faturar, são adicionados como linhas de fatura baseadas em produtos.
 
 Depois de ter adicionado linhas de fatura baseadas em produtos, não podem ser alteradas. Podem, no entanto, ser eliminadas da fatura pró-forma de rascunho.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

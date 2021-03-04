@@ -82,3 +82,6 @@ As propriedades **N.º de Utilizadores** e **N.º de Meses** podem ser sinalizad
 
 > ![Sinalizar N.º de Utilizadores e N.º de Meses como fatores de qualidade](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

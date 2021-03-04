@@ -47,3 +47,6 @@ Enquanto estava a adicionar funções de recursos, provavelmente já lhes associ
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

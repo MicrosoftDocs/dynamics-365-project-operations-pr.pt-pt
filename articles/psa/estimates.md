@@ -106,3 +106,6 @@ Se tiver adicionado um campo personalizado aos detalhes de linha de proposta e p
 
 8. Repita os passos 1 a 7 para o segundo plug-in.
 9. Feche o PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

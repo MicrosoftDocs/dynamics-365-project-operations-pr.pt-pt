@@ -81,3 +81,6 @@ Foram corrigidos os seguintes problemas:
 - O botão **Atualizar Atuais** calcula incorretamente as tarefas resumidas.
 - Microsoft Project Add-in: Corrigir um erro de referência nulo se algum membro da equipa tiver uma unidade de recursos vazia.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

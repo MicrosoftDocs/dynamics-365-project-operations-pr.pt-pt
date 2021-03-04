@@ -72,3 +72,6 @@ O processo de negócio Da Oportunidade Potencial à Oportunidade suporta as segu
 | Desenvolver | Oportunidade | Desenvolva a oportunidade para adicionar mais informações sobre o trabalho envolvido, os principais intervenientes e a concorrência. |
 | Propor | Oportunidade | Desenvolva a proposta e obtenha a aprovação da equipa de revisão interna. |
 | Fechar | Oportunidade | Ganhe a oportunidade de fechar o negócio. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

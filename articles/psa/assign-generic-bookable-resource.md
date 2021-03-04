@@ -59,3 +59,6 @@ Também pode clicar na ligação **Requisito de recurso** na grelha de equipa pa
 
 ![Requisito de recurso](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

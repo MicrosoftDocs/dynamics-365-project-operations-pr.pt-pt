@@ -63,3 +63,6 @@ Pode utilizar o mesmo método para cancelar uma reserva fixa ou uma reserva flex
 Para converter um recurso com reserva flexível em fixa no separador **Equipa**, selecione o recurso e, em seguida, selecione **Confirmar**.
 
 ![Comando Confirmar](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

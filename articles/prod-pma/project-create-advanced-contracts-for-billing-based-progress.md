@@ -103,3 +103,6 @@ Categorias de orçamento são utilizadas para calcular automaticamente os montan
 8. Opcional: Atribua a regra de faturação a projetos adicionais. No Separador Rápido **Projeto** , na secção **Projetos disponíveis** , selecione um projeto e, em seguida, selecione o botão de seta para a direita para adicionar o projeto à secção **Projetos selecionados**.
 9. Opcional: Calcule o montante percentual que o cliente retém dos pagamentos numa fatura. No Separador Rápido **Termos de sinal de pagamento** , selecione a origem do financiamento e, em seguida, no campo **Percentagem de sinal** , insira a percentagem de sinal.
 10. Repita estes passos para criar regras adicionais de faturação para o contrato do projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

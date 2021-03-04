@@ -42,3 +42,6 @@ Quando efetua uma seleção, o recurso é adicionado à equipa do projeto e atri
 Pode utilizar a capacidade de expansão da reserva do separador **Reconciliação** ou o **Quadro da Agenda** para reservar a capacidade do recurso para o projeto.
 
 Depois de um membro da equipa ficar reservado no seu projeto, pode utilizar **Manter reservas** ou o **Quadro da Agenda** diretamente para gerir as respetivas reservas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

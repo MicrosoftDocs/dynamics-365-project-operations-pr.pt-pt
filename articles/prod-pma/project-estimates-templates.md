@@ -170,3 +170,6 @@ As seguintes ilustrações mostram exemplos dos mapeamentos de tarefas do modelo
 [![Mapeamento do modelo das transações de estimativa de despesas](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mapeamento do modelo das estimativas de despesas](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o V3
 - Corrigido: foram corrigidos os modelos de horas de trabalho de 24 horas que adicionaram incorretamente um dia adicional às tarefas.
 - Corrigido: foi corrigido o problema dos modelos de horas de trabalho +13 GMT que mudavam incorretamente as taregas um dia para a frente.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

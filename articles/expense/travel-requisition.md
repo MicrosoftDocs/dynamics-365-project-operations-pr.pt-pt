@@ -56,3 +56,6 @@ Selecione a requisição de viagens que pretende aprovar e, em seguida, selecion
 
 > [!NOTE]
 > Quando mapeia um relatório de despesas para uma requisição de viagens aprovada, o valor da transação não pode ser superior ao valor autorizado. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

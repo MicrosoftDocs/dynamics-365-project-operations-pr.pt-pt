@@ -124,3 +124,6 @@ A seguinte ilustração mostra um exemplo do mapeamento de tarefas do modelo na 
 > O mapeamento mostra as informações do campo que serão sincronizadas do Project Service Automation para Finance.
 
 [![Mapeamento do modelo do Project Service Automation para o Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

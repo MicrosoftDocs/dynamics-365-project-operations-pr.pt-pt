@@ -53,3 +53,6 @@ A tabela seguinte é uma lista abrangente de formulários e vistas fornecidos co
 2. Na página **Parâmetros**, no separador **Dimensões de Definição de Preços Baseada no Montante**, note que a grelha no separador mostra os registos na entidade **Dimensões de Definição de Preços**.
 3. Adicione **Categoria de Transação** à lista e defina os campos **Aplicável ao Custo** e **Aplicável às Vendas** como **Sim**.
 4. No campo **Tipo de Dimensão**, selecione **Baseado no Montante** e, em seguida, selecione a prioridade para a **Categoria de Transação** relacionada com o custo e as vendas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

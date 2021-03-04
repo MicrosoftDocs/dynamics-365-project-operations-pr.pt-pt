@@ -140,3 +140,6 @@ As seguintes ilustrações mostram exemplos dos mapeamentos de tarefas do modelo
 [![Mapeamento de modelos – Atualização de valores reais](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mapeamento de modelos – Atualização de transação](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

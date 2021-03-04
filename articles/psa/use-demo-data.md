@@ -55,3 +55,6 @@ Para mais informações, consulte este [blogue](https://blogs.msdn.microsoft.com
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)   
  [Guia do Resource Manager](../psa/resource-manager-guide.md)   
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

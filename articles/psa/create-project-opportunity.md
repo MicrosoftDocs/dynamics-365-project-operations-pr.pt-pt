@@ -55,3 +55,6 @@ As oportunidades são oportunidades potenciais interessadas dos clientes que est
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

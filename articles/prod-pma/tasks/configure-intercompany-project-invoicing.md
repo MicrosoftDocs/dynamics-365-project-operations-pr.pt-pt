@@ -64,3 +64,6 @@ Este tópico mostra como configuração a faturação de projetos entre duas emp
 32. No campo **Preços** , introduza um número.
 33. Selecione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

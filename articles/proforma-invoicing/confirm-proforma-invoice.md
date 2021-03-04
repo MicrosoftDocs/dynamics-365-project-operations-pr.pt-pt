@@ -198,3 +198,6 @@ Um valor real de vendas faturado para o montante de marco no marco original no i
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

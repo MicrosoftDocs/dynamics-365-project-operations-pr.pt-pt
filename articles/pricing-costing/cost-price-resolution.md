@@ -35,3 +35,6 @@ Após uma lista de preços de custo ser resolvida, o sistema utiliza os campos *
 As linhas de estimativa para Despesa referem-se aos detalhes de item de contrato e de proposta para despesas e as linhas de estimativa de despesa num projeto.
 
 Após uma lista de preços de custo ser resolvida, o sistema utiliza uma combinação dos campos **Categoria** e **Unidade** na linha de estimativa para uma despesa, para corresponder às linhas **Preços de Categoria** na lista de preços resolvidas. Se o sistema encontrar uma linha de preço de categoria que tenha uma taxa de custo para a combinação de campos **Categoria** e **Unidade**, essa taxa de custo assume a predefinição. Se o sistema não conseguir corresponder os valores **Categoria** e **Unidade**, ou se for capaz de encontrar uma linha de preço de categoria correspondente, mas o método de preços não é **Preço Por Unidade**, a taxa de custo assume a predefinição zero (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

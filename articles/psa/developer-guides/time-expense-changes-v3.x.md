@@ -32,3 +32,6 @@ No Dynamics 365 Project Service Automation versão 3.0, as vistas Tempo e Despes
 Anteriormente, as vistas de calendário e grelha para Tempo e Despesa foram implementadas como controlos de DHTMLX. Os artefactos relacionados com essa implementação das vistas de calendário e grelha são obsoletos (preterido).
 
 Para obter a lista completa de recursos preteridos, consulte [Recursos Web preteridos no Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ As listas de preços de custo não assumem a predefinição de nenhuma entidade 
 5. Em seguida, o sistema analisa então a efetividade da data das listas de preços que correspondem à data da estimativa de entrada ou linha real. 
 6. Se existirem várias listas de preços que são efetivas para a data na estimativa de entrada ou real, a lista de preços criada mais recentemente é selecionada.
 7. Se não houver listas de preços de custo anexadas aos parâmetros do projeto que correspondam à moeda e à data efetiva, o sistema predefine a taxa de custo para zero (0) na estimativa de entrada ou na linha real.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Este tipo de implementação deve ser escolhido se a expetativa do Project Opera
 - Requerem um motor de impostos de venda rico e de classe empresarial e de taxa de câmbio para gerar faturas viradas para o cliente para projetos.
 - Um sistema de reconhecimento de receitas e contabilidade de projetos em conformidade com as normas IFRS (International Financial Reporting Standards).
 - Aplicações Finance ou Supply Chain Management e integração de transações baseadas em projetos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ Pode submeter um requisito de recurso gerado como um pedido de recurso. Em segui
 O estado do pedido do membro da equipa genérico será alterado para **Submetido**.
 
 Depois de o pedido ser concluído, o recurso genérico é substituído por um recurso nomeado se o gestor de recursos concluir o pedido ao reservar um recurso nomeado. Caso contrário, se o gestor de recursos propuser um recurso nomeado, o recurso genérico permanece na equipa e o estado do pedido será alterado para **Necessita de Revisão**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

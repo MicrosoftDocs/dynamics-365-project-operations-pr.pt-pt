@@ -78,3 +78,6 @@ O registo de dimensão de preços para **msydn_bookableresource** tem de ser not
 5. Adicione **msdyn_bookableresourceid** ao **Nome do Campo**.
 
  ![Formulário Novo nome do campo de dimensão de definição de preços](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

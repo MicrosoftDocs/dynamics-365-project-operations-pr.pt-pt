@@ -73,3 +73,6 @@ Pode criar manualmente dados para as dimensões baseadas em entidades ou atravé
 > ![Dados de Exemplo para a Entidade Título Padrão ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

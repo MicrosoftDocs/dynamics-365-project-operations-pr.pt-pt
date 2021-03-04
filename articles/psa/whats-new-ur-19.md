@@ -66,3 +66,6 @@ Foram corrigidos os seguintes problemas:
 - Os clientes podem experimentar um desempenho degradado ao criar um projeto porque **GetBookableResourceIdFromUser** recupera todas as colunas de recursos reservados em vez de apenas o ID primário.
 - A entidade **TransactionType** que não tem o plug-in de atualização de pré-validação para impedir que os utilizadores entrem em **Unidades** e **GruposUnitários** que não são válidos para tipos de transação.
 - O passo **Remover** não funciona para a importação de entrada de tempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

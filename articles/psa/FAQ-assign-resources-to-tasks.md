@@ -82,3 +82,6 @@ Os recursos atribuídos desta forma são adicionados à equipa sem quaisquer res
 
 3. Selecione o recurso que pretende atribuir à tarefa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Agora que ganhou a proposta para o seu projeto, chegou o momento de criar um con
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ No PSA, não é possível monitorizar as revisões efetuadas numa proposta. Em v
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Monitorizar comentários e aprovações de propostas e contratos do projeto
 Pode gerir a revisão e aprovação de propostas e contratos do projeto utilizando a mural de registo e as publicações. A sua organização pode criar fluxos de trabalho e plug-ins personalizados para atribuir, redirecionar, escalar e gerir notificações de itens de trabalho de revisão e aprovação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

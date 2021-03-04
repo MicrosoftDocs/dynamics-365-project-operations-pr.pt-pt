@@ -62,3 +62,6 @@ O Android será compatível com a Platform update 16, quando estiver disponível
 13. Opcional: introduza linhas adicionais da folha de horas.
 
 14. Depois de concluir a introdução das linhas da folha de horas, selecione a ação **Fluxo de trabalho** \> **Submeter** para submeter a sua folha de horas ao processo de aprovação do fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

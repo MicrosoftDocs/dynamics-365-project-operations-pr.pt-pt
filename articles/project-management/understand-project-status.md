@@ -29,3 +29,6 @@ A secção **Estado** na página **Entidade do Projeto** fornece um resumo o est
 - O campo **Comentários** permite que o gestor de projeto introduza comentários específicos sobre o estado. 
 - O campo **Estado atualizado em** não é editável. O valor neste campo é um carimbo de data/hora que indica quando o estado foi atualizado pela última vez.
 - Os campos **Desempenho de Agendamento** e **Desempenho de Custos** são definidos a partir da grelha de monitorização. Quando os desvios da agenda e de custo do nó raiz na vista **Controlo do esforço** são positivos, estes campos são atualizados para **Adiantado**. Quando a variação da agenda e do custo para o nó raiz é negativa, estes campos são definidos como **Atrasado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

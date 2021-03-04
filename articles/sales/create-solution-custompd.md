@@ -64,3 +64,6 @@ Adicione as seguintes entidades do Project Service à sua solução de preços p
 5.  Quando solicitado para incluir quaisquer entidades dependentes para as entidades selecionadas, selecione **Não, não incluir componentes necessários.**
 
     ![Incluindo entidades dependentes](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

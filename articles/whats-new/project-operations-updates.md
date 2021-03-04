@@ -77,3 +77,6 @@ As datas de versão direcionadas estão sujeitas a alterações. Para mais infor
 | --- | --- |
 | 10.0.17 | 19 de Março de 2021 |
 | 10.0.18 | 16 de abril de 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

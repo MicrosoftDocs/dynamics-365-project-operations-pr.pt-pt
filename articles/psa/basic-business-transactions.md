@@ -149,3 +149,6 @@ A tabela seguinte mostra os registos na entidade Ligação da transação para o
 | Correção de Faturas de Rascunho       | GUID da Transação de Linha de Fatura | Substituição          | msdyn_invoicelinetransaction | GUID de Vendas Faturadas            | Original           | msdyn_actual       |
 | Confirmar Correção de Faturas     | GUID de Estorno de Vendas Faturadas    | Estorno          | msdyn_actual                 | GUID de Vendas Faturadas            | Original           | msdyn_actual       |
 | GUID do Valor Real de Vendas Não Faturadas Novas | Substituição                     | msdyn_actual       | GUID de Vendas Faturadas            | Original                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

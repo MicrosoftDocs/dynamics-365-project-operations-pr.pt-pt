@@ -101,3 +101,6 @@ No exemplo seguinte, a Contoso Robotics USA (USPM) é a entidade legal de contra
           - **Empresa de atribuição de recursos** = **Contoso Robotics UK**
           - **Taxa de faturação** = **200 USD**
       9. Vá a **Vendas** > **Contratos do projeto** e anexe a lista de preços **Taxas de faturação da Adventure Works** à lista de preços do projeto Adventure Works do contrato do projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

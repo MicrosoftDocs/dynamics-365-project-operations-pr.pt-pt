@@ -44,3 +44,6 @@ Depois de um orçamento ou revisão orçamental ter sido alocada, pode rever os 
 10. Quando a alocação estiver como pretende, clique em Submeter na página Orçamento do projeto para enviar o orçamento ou as revisões orçamentais para o fluxo de trabalho de aprovação.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

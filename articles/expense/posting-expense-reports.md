@@ -31,3 +31,6 @@ Se as despesas num relatório de despesas forem cobradas a uma empresa diferente
 Para lançar um relatório de despesas, na página **Relatórios de despesas aprovados**, selecione o relatório de despesas e, em seguida, no Painel de Ação, selecione **Publicar**.
 
 Também pode lançar todos os relatórios de despesas na lista ao mesmo tempo. Selecione todos os relatórios de despesas e, em seguida, selecione **Publicar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

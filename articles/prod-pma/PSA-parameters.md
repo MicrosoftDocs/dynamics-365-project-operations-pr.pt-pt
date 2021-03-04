@@ -47,3 +47,6 @@ Para abrir a página **Parâmetros de integração do Project Service Automation
 | Valores predefinidos do tipo de faturação  | Tipo de faturação         | Clique em **Novo** para adicionar uma linha onde pode selecionar o tipo de faturação para o qual definir a propriedade de linha predefinida. Um tipo de faturação específico só pode ser selecionado uma vez na configuração. |
 |                        | Propriedade da linha        | Selecione a propriedade da linha predefinida para o tipo de faturação selecionado. Quando são sincronizadas novas estimativas de horas, novas estimativas de despesas ou novos valores reais a partir do Project Service Automation, o campo **Propriedade da linha** é estabelecido para o valor predefinido para o tipo de faturação. |
 | Bloqueio de funcionalidades  | Não aplicável       | Selecione a funcionalidade para desativar no Finance para projetos e contratos com origem no Project Service Automation. Por exemplo, pode desativar a capacidade de editar contratos e projetos, criar estruturas hierárquicas de trabalho e introduzir folhas de horas no Finance. Os campos relacionados com a contabilidade continuarão a estar ativados, mesmo que sejam indisponibilizados pela definição de parâmetros. Por predefinição, todas as funcionalidades estão ativadas. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

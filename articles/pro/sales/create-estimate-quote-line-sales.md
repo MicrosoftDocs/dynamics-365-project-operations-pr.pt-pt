@@ -67,3 +67,6 @@ A moeda no detalhe da linha de proposta para o custo assume por predefinição a
 Os cálculos de rentabilidade convertem o montante nos detalhes da linha de proposta para o custo e as vendas na moeda base do ambiente para reportar a margem estimada global na proposta.
 
 Isto pode resultar em erros de arredondamento da moeda e na alteração das margens, dada a falta de taxas de câmbio em vigor na data. Utilize estes cálculos nas Propostas do Projeto apenas como aproximações e não como relatórios legais ou de outro tipo que exigem uma maior precisão de arredondamento e conhecimento da data efetiva para as taxas de câmbio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

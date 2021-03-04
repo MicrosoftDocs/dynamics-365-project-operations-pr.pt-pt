@@ -50,3 +50,6 @@ A tabela que se segue lista todos os formulários e vistas de origem, por entida
 2. Na página **Parâmetros**, no separador **dimensões de preços Baseada no Montante**, verifique que a grelha no separador mostra os registos na entidade **dimensões de preços**.
 3. Adicione **Categoria de Transação** à lista e defina os campos **Aplicável ao Custo** e **Aplicável às Vendas** como **Sim**.
 4. No campo **Tipo de Dimensão**, selecione **Baseado no Montante** e, em seguida, selecione a prioridade para a **Categoria de Transação** que se relaciona com o custo e as vendas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

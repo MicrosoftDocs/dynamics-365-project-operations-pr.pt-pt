@@ -131,3 +131,6 @@ Assim como as taxas de faturação, as taxas de custo de recursos humanos també
     1. A lista de preços de custo associada à unidade organizacional.
     2. A lista de preços de custo é anexada aos parâmetros do serviço do projeto. Visto que as listas de preços de custo em muitas moedas diferentes podem ser anexadas aos parâmetros do serviço do projeto, o PSA faz uma correspondência de moeda entre a moeda da unidade organizacional de contratação do projeto, o contrato ou a proposta e a moeda da lista de preços de custo.
     3. Quanto às despesas, os métodos de definição de preços de custo e margem de lucro sobre o custo não se aplicam às listas de preços de custo. Mesmo que estes métodos de definição de preços sejam utilizados em linhas da lista de preços de custo para configurar os custos da categoria de transação, o sistema ignora-os e não é introduzido nenhum preço de custo predefinido.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

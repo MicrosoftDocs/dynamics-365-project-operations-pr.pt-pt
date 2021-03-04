@@ -125,3 +125,6 @@ As seguintes atualizações aos privilégios de segurança para as entidades sã
  
  ![Sincronização do mapa de livros](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

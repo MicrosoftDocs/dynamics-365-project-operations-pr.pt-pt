@@ -51,3 +51,6 @@ Cada entidade legal que utiliza o Project Operations no Dynamics 365 Customer En
   - **Predefinições do tipo de faturação**: O Project Operations utilizam um conjunto fixo de predefinições do tipo de faturação que devem ser mapeados para as propriedades de linha Finanças. Criar um registo para cada tipo de faturação: **Não especificado**, **Faturável**, **Não faturável**, **Complementar** e **Não disponível**.
   - **Predefinições de categoria do projeto**: Selecione as categorias de projeto predefinidas a utilizar para cada tipo de transação. Estas predefinições serão utilizadas no **Diário de Integração do Project Operations** e em estimativas onde não é especificada nenhuma categoria de transação para o valor real do projeto.
   - **Previsões**: Selecione o modelo de previsão a utilizar para estimativas de tempo e despesas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

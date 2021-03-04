@@ -81,3 +81,6 @@ Em resumo, os seguintes métodos de alocação levam ao excesso de reservas se o
 - Distribuir Horas Uniformemente
 
 Quando utiliza um destes três métodos de alocação, não será notificado que o recurso está com excesso de reservas. Para corrigir o excesso de reservas, terá de utilizar o quadro da Agenda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Após a utilização da funcionalidade Expandir Reserva para cada recurso, as re
 Note que um olhar mais atento aos detalhes das reservas mostra diferenças na hora de início das reservas. As reservas não começam antes da hora de início do perfil da atribuição e não antes da hora de início disponível do recurso.
 
 ![Novas reservas dos recursos no quadro da agenda](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

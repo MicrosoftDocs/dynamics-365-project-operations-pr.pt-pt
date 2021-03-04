@@ -98,3 +98,6 @@ Siga as orientações no tópico [Aprovisionar um novo ambiente](resource-provis
 
 Instale os dados de configuração do CDS descritos no tópico [Configurar e aplicar dados de configuração no Common Data Service](resource-apply-pro-setup-config-data.md).
 Complete este passo apenas após a implementação do ambiente de demonstração do Finance e os dados de demonstração no FO estarem prontos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Recomendamos que utilize um lote. As opções estão disponíveis durante a sinc
     | Data de fim    | Introduza a data de fim para o processo de sincronização para acumulações de capacidade de recursos. |
 
 [![Processo de sincronização](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

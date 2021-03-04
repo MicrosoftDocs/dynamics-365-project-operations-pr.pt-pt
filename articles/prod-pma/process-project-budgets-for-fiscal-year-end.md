@@ -98,3 +98,6 @@ Quando processa os montantes orçamentais restantes, pode criar transações no 
 5. Para cada projeto que pretende processar, selecione a opção no início da linha para o projeto. 
 6. Selecione **Processar** para transferir os montantes orçamentais restantes para os projetos selecionados para o ano fiscal selecionado.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

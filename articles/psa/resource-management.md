@@ -53,3 +53,6 @@ Pode definir para o seu projeto uma equipa de recursos genéricos ou nomeados no
 - [Reservar recursos nomeados a partir de requisitos de recursos](book-named-resource.md)
 - [Submeter um pedido de recurso](submit-resource-request.md)
 - [Aceitar ou rejeitar um recurso de projeto proposto a partir de um pedido de recurso](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

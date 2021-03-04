@@ -44,3 +44,6 @@ Este guia de tarefas mostra-lhe como ajustar uma transação num projeto. No ent
 13. Na lista, marque a linha selecionada. 
 14. No campo Preço de custo, introduza um número. 
 15. Clique em Publicar. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

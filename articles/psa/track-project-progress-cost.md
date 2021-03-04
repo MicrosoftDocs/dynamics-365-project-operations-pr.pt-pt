@@ -40,3 +40,6 @@ Por vezes poderá necessitar de rever as estimativas originais de uma tarefa. A 
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

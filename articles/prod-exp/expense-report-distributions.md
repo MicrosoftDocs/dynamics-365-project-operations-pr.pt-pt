@@ -37,3 +37,6 @@ Como a Bárbara trabalhou em dois projetos separados quando ela estava em Frankf
 |Hotel         |725 EUR              |557 EUR                        |168 EUR                          |
 |Refeições         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

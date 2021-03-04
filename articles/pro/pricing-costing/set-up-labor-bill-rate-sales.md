@@ -55,3 +55,6 @@ Por exemplo, um programador da Fabrikam India que trabalha num projeto dos EUA �
     | Programador | Fabrikam US | 150 $ |
 
 3. Anexar a lista de preços de vendas, **Taxas de Faturação da Fabrikam US** para a lista de preços do projeto do contrato do projeto ou a uma determinada conta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

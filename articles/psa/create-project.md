@@ -48,3 +48,6 @@ Em seguida, crie uma estrutura hierárquica do trabalho do projeto para definir 
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o Pr
      - Corrigido: Botões adicionais para **Nova Oportunidade**, **Proposta**, **Linha de Encomendas** e **Adicionar Produto** estão visíveis nos comandos de Oportunidades, Propostas, Produtos de Encomenda e a subgrelha das Linhas baseadas em projetos.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

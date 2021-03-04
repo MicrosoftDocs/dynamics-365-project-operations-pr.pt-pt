@@ -36,3 +36,6 @@ Para utilizar o assistente, siga estes passos.
 1. Vá para **Gestão de projetos e contabilística** > **Propostas** > **Propostas do projeto**.
 2. Selecione a proposta que pretende transferir e, no separador **Dar seguimento** , no grupo **Modificar** , selecione **Transferir para projeto**.
 3. Siga o assistente **Transferir proposta para projeto** para associar e transferir a proposta com um projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

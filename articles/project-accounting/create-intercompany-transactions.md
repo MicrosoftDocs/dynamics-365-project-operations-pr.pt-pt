@@ -113,3 +113,6 @@ Eduarda Lopes, programadora empregada na GBPM, regista 10 horas de trabalho num 
     - Crédito: Projeto – 120 USD de Receitas Imputadas
 
     O sistema está agora pronto para criar uma fatura de cliente interempresa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

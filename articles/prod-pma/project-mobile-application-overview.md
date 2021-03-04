@@ -49,3 +49,6 @@ As minhas folhas de horas (Otimizadas para telemóveis) e as Folhas de horas par
 - [Entrada de hora do projeto]( project-time-entry-mobile-workspace.md)
 - [Folhas de horas do projeto num dispositivo móvel](Mobile-timesheets.md)
 - [Implementar campos personalizados para a aplicação móvel Microsoft Dynamics 365 Project Timesheet em iOS e Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

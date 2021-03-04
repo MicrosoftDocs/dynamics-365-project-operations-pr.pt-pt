@@ -58,3 +58,6 @@ As entidades Oportunidade, Proposta e Contrato do Projeto utilizam a seguinte or
 Por predefinição, o campo **Produto** na linha de proposta lista todos os produtos ativos na lista de preços do produto da proposta. Se um produto tiver sido inativado, ou se for um produto de rascunho, o mesmo não está listado, mesmo que esteja na lista de preços. 
 
 As linhas do catálogo de produtos são adicionadas como linhas de fatura na primeira fatura que é criada para um contrato do projeto. Numa fatura de rascunho, essas linhas de fatura podem ser eliminadas. Neste caso, as linhas serão apresentadas numa fatura subsequente até serem faturadas, ou até a fatura ser enviada para o cliente. Não é possível faturar uma quantidade parcial de uma linha de fatura do produto. Quando as linhas de produto do contrato do projeto são faturadas, os valores reais são criados. No entanto, esses valores reais não estão associados à entidade do projeto relacionada. Por outras palavras, os itens de contrato do projeto baseados em produtos são independentes de qualquer utilização baseada no projeto. O consumo de material nos projetos não é monitorizado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

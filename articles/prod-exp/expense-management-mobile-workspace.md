@@ -240,3 +240,6 @@ Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops:
 22. Selecione **Submeter**.
 23. Insira quaisquer comentários para o aprovador.
 24. Selecione **Concluído**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Além disso, se tiver algum módulo de aplicação personalizado que inclua todo
 
 ### <a name="currently-extended-time-entry-changes"></a>Alterações a entradas de tempo expandidas atualmente
 Para minimizar o impacto sobre os utilizadores atuais da entrada de tempo, esta alteração de função é a única exigência básica necessária para continuar a utilizar a entrada de tempo. Se tiver criado vistas personalizadas ou experiências de entrada de tempo separadas, tem de definir os campos **Definição de Entrada de Tempo** para o valor correto do PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

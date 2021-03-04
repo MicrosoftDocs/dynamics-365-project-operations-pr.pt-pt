@@ -95,3 +95,6 @@ Atualmente, os Estados Unidos são compatíveis.
 A contabilidade entrará em contacto com os Serviços Cognitivos para extrair os dados de campo. Os Serviços Cognitivos conservarão uma cópia do seu recibo durante 24 horas enquanto ocorre o processamento. Após o processamento estar concluído, os Serviços Cognitivos removerão o recibo. Os recibos ainda estão guardados na Contabilidade.
 
 Para obter mais informações, consulte [Ativar o compreensão do recibo com a nova capacidade do Reconhecedor de Formato](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

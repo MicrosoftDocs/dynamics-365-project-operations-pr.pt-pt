@@ -82,3 +82,6 @@ Esta é a experiência mais ideal para desassociar tarefas de itens de contrato.
 4. Na página de diálogo que abre, selecione um item de contrato a partir do menu pendente.
 5. Selecione a caixa de verificação para indicar se a associação também deve ser removida de quaisquer tarefas subordinadas das tarefas selecionadas. A verificação da caixa também desassociará as tarefas subordinadas das tarefas selecionadas do item de contrato.
 6. Selecione **OK**. Uma mensagem de aviso indica que remover esta associação pode resultar na inversão de quaisquer valores reais previamente registados na tarefa. Selecione **OK** no diálogo de aviso para remover a associação entre a tarefa e o item de contrato baseado em projetos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

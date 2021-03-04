@@ -28,3 +28,6 @@ O **Orçamento do cliente** é um conceito específico para linhas de oportunida
 
 Quando o método de receita do resumo de Oportunidade é **Calculado pelo sistema**, os valores orçamentais do cliente através das linhas de oportunidade são resumidos para calcular as receitas estimadas. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

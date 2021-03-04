@@ -37,3 +37,6 @@ A tabela que se segue lista as atualizações para o Project Operations na vers�
 | Entrada de tempo e de despesas rápidas | 2047499          | O botão **Novo** na página Entrada de Tempo abre a página **Nova Assinatura de E-mail**.                                                                                               |
 | Entrada de tempo e de despesas rápidas | 2059859          | Pop-up inesperado abre ao criar uma entrada de despesas.                                                                                                                         |
 | Outros                        | 2044181          | [Desinstalação de NE] – O erro, "Registo indisponível" ocorre quando tenta desinstalar **msdyn_ProjectServiceCore_Patch** e as soluções principais msdyn do Project Service.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

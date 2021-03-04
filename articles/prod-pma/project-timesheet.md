@@ -96,3 +96,6 @@ Clique em **Enviar** para enviar a folha de horas para o fluxo de trabalho de ap
 ## <a name="review-timesheets"></a>Rever folhas de horas
 
 Está disponível no menu uma lista das folhas de horas que é necessário rever. Esta opção só está disponível se tiver sido designado como um aprovador do fluxo de trabalho. É suportada a aprovação do cabeçalho e da linha. A aprovação a nível da linha oferece a capacidade de marcar uma ou mais linhas para aprovação. Depois de rever as informações da folha de horas, clique em **Aprovar** , **Delegar** ou **Voltar** para prosseguir com o fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Foram adicionadas opções adicionais na WBS para melhorar a utilização da fun
     > Não receberá um aviso de que o recurso especificado é agora 2, porque o número de recursos permanece 1.
 
 14. Na página **Estrutura hierárquica do trabalho** , valide a atribuição de recursos na WBS e selecione **Guardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

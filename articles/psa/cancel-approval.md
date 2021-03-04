@@ -62,3 +62,6 @@ Um projeto também é afetado financeiramente quando uma aprovação é cancelad
 Em seguida, as entradas de estorno são criadas na tabela Valores Reais. Para criar entradas de estorno, o sistema copia os valores dos campos a partir dos valores reais originais. Os únicos valores que não são copiados são os valores de quantidade. Em vez disso, estes valores são revertidos. Os valores reais estornados são criados para os valores reais de **Custo** e **Vendas Não Faturadas**. O campo **Estado de Ajuste** nos valores reais estornados é definido como **Não ajustável** e o estado da faturação é definido como **Cancelado**.
 
 Depois de estas alterações serem efetuadas, o valor que é registado como gasto no projeto e o registo de tarefas pendentes de receita no projeto contabilizarão mais os valores que estes valores reais representam.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

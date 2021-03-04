@@ -36,3 +36,6 @@ Existem duas formas de um gestor de projeto poder reprojetar o esforço nas tare
 - Substitua a percentagem de progresso predefinida por uma nova estimativa do verdadeiro progresso na tarefa.
 
 Cada uma destas abordagens causa um novo cálculo da ETC, da EAC e da estimativa a completar (EAC) e percentagem de progresso da tarefa e o desvio do esforço projetado numa tarefa. A EAC, a ETC e a percentagem de progresso das tarefas de resumo são recalculadas e produzem uma nova projeção de variância do esforço.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Depois de ter listas de preços de projeto predefinidas específicas do cliente 
 
 1. No separador **Proposta do Projeto**, no separador **Lista de Preços do Projeto**, certifique-se na subgrelha que não está selecionado nenhum registo da lista de preços específico.
 2. Selecione **Criar Lista de Preços Personalizada**. Isto fará cópias de todas as listas de preços padrão atualmente associadas à proposta e associará estas cópias à proposta. As associações existentes às listas de preços predefinidas serão removidas. O vendedor pode então começar a fazer edições aos preços nestas cópias. Estes preços alterados serão aplicáveis apenas a esta proposta de projeto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

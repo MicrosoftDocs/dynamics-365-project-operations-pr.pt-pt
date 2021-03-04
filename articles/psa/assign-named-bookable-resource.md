@@ -68,3 +68,6 @@ Pode utilizar a capacidade de expansão da reserva do separador **Reconciliaçã
 ![Expandir reservas para um membro da equipa no separador reconciliação de recursos](media/RM-how-to-7.png)
 
 Depois de um membro da equipa ficar reservado no seu projeto, pode manter as reservas ou utilizar o Quadro da Agenda diretamente para gerir as respetivas reservas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ As listas de preços baseiam-se nas funções e nas categorias de despesas, pelo
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

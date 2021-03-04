@@ -49,3 +49,6 @@ Os dashboards e relatórios permitem compreender o estado do seu negócio. O das
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

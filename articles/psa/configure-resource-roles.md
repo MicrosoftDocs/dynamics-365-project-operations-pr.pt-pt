@@ -59,3 +59,6 @@ As funções têm um papel importante no planeamento do projeto, na determinaç�
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Nas Operações do projeto, não é possível monitorizar as revisões efetuadas
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Monitorizar comentários e aprovações de propostas e contratos do projeto
 Pode gerir a revisão e aprovação de propostas e contratos do projeto utilizando a mural de registo e as publicações. A sua organização pode criar fluxos de trabalho e suplementos personalizados para atribuir, redirecionar, escalar e gerir notificações de itens de trabalho de revisão e aprovação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

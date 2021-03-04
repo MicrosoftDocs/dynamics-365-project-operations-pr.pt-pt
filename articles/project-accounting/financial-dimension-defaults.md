@@ -62,3 +62,6 @@ Os projetos são criados e mantidos no CDS. Os atributos contabilísticos para o
 4. Defina as predefinições da dimensão financeira. Note que as dimensões financeiras assumem a predefinição da conta do cliente. Se o projeto estiver associado a um item de contrato com vários clientes de contratos de projeto, o cliente principal é utilizado para predefinir dimensões financeiras.
 
 As dimensões financeiras predefinidas do projeto são usadas para predefinir linhas de diário para tempo, despesas e transações de taxas no **Diário de Integração do Project Operations** e em linhas de fatura de projeto relacionadas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

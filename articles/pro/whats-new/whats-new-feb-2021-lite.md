@@ -38,3 +38,6 @@ Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Proj
 | **Planeamento e Monitorização de Projetos** | 2164035 | Problemas solucionados com a função **Copiar**. |
 | **Entrada de hora** | 2129161 | São aplicadas restrições mais apertadas para garantir que os utilizadores não podem alterar e atualizar uma entrada de tempo que tenha sido submetida ou aprovada. |
 | **Entrada de hora** | 2103572 | A aprovação do tempo para as entradas no tempo não-projeto não deve estar à procura de um papel aprovador do projeto. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

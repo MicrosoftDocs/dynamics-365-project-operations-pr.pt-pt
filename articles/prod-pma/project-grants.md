@@ -79,3 +79,6 @@ Pode criar uma concessão introduzindo todos os detalhes num novo registo, ou po
 2. Selecione a concessão a modificar.
 3. No Painel de Ação, no separador **Concessão** , no grupo **Manter** , selecione **Editar**.
 4. Reveja os detalhes da concessão e faça quaisquer alterações que sejam necessárias.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

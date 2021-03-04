@@ -45,3 +45,6 @@ Além disso, deve ser atribuída uma função predefinida a cada recurso reserv�
 No separador **Project Service**, também pode definir uma utilização de destino individual para o recurso. Em seguida, o cálculo da utilização utiliza essa utilização de destino para avaliar o destino do recurso em vez do destino da função predefinida do recurso.
 
 A utilização é apenas mostrada para um recurso se esse recurso tiver aprovado, um tempo faturável durante o período mostrado na grelha.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

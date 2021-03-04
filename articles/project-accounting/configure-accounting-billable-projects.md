@@ -125,3 +125,6 @@ Preço Fixo – percentagem de conclusão
 As regras de perfis de custos e receitas do projeto determinam o perfil de custos e receitas do Projeto que tem de ser usado ao processar quaisquer transações de projetos faturáveis. Defina as regras em **Gestão de projetos e contabilística** \> **Configurar** \> **Lançar** \> **Regras de perfis de custos e receitas do projeto**.
 
 As regras podem ser definidas por contrato de projeto, grupo de projetos ou por um projeto específico. O sistema escolherá sempre primeiro a regra de maior granularidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

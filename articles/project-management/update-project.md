@@ -48,3 +48,6 @@ Abaixo é apresentado um resumo dos campos que podem ser atualizados num projeto
 - **Estado Geral do Projeto**: o estado global do projeto fornecido pelo Gestor de projeto.
 - **Comentários**: uma narrativa sobre o estado atual do projeto fornecido pelo Gestor de projeto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

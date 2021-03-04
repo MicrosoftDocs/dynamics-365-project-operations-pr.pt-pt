@@ -152,3 +152,6 @@ Utilize os seguintes tipos de tarefa quando criar a sua estrutura hierárquica d
   
 ### <a name="see-also"></a>Consulte Também  
  [Manual do gestor de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

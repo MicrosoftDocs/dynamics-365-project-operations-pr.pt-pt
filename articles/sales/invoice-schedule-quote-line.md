@@ -68,3 +68,6 @@ Abra a Linha de proposta de preço fixo onde precisa de criar um marco. No separ
 | Estado da fatura | Criação rápida | Quando um marco é criado, este estado está sempre definido como **Não pronto para faturação**. | Isto é propagado para o marco do item de contrato do projeto e para a fatura. |
 | Montante de Linha | Criação rápida | Montante ou valor do marco que será faturado ao cliente. | Isto é propagado para o marco do item de contrato do projeto e para a fatura. |
 | Imposto | Criação rápida | Montante de imposto que será aplicado ao marco. | Isto é propagado para o marco do item de contrato do projeto e para a fatura. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

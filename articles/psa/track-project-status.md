@@ -58,3 +58,6 @@ Utilize as capacidades do [!INCLUDE[pn_dyn_365_project_service_auto](../includes
 
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

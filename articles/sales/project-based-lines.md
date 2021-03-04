@@ -33,3 +33,6 @@ Abaixo são mostrados os campos numa linha de oportunidade baseada em projetos:
 | Nome | Separador Geral | Este é um campo de texto editável que pode ser usado para dar uma identidade curta a este item | Este valor é transportado para a linha de proposta quando cria uma proposta a partir desta oportunidade |
 | Orçamento do Cliente | Separador Geral | Este campo de moeda editável pode ser utilizado para monitorizar o montante que o cliente está disposto a gastar para este item. | Este valor é transportado para o campo correspondente na linha de proposta quando cria uma proposta a partir desta oportunidade |
 | Método de Faturação | Separador Geral | Este campo editável tem os seguintes valores:</br>- Tempo e Material</br>- Preço Fixo | Este valor é transportado para o campo correspondente na linha de proposta quando cria uma proposta a partir desta oportunidade. Após a criação da linha de proposta, o campo é bloqueado e não pode ser alterado. Atribua este valor de campo com a maior precisão possível. Se precisar de alterar o valor deste campo na linha de proposta, elimine e volte a criar a linha de proposta. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

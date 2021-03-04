@@ -69,3 +69,6 @@ Para ativar o melhoramento do desempenho do agendamento de recursos, complete os
 
 > [!NOTE]
 > Isto irá distribuir dados gerais para a tabela **ResRollup** em todas as empresas do seu ambiente, pelo que a tarefa de lote só precisa de ser executado numa entidade legal. Esta tarefa de lote é necessária para todas as vistas **Disponibilidade de Recursos**. Se esta tarefa de lote não for executada, os dados **ResRollup** serão gerados no momento, o que pode levar tempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Conclua os seguintes passos para corrigir uma ou mais entradas de despesa.
 8. Na página do projeto, no separador **Valores Reais**, reveja a **Vista Associada de Valor Real**. São listadas as entradas originais e as entradas corrigidas. O gráfico seguinte mostra os montantes de entrada de despesa originais e os montantes de entrada de despesa corrigidos correspondentes. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

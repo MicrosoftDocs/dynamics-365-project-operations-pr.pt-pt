@@ -70,3 +70,6 @@ Pode importar dados a partir de reservas e atribuições de projetos. Quando imp
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Agrupar por, ordenar, pesquisar e filtrar capacidades
 
 Pode agrupar e filtrar entradas de tempo pelas dimensões especificadas nas colunas. No campo **Agrupar por**, selecione a dimensão a utilizar para filtrar entradas de tempo. Também pode ordenar os registos de entrada de tempo por ordem ascendente ou descendente utilizando a seta de ordenação nos cabeçalhos de coluna. Além disso, pode mostrar ou ocultar entradas selecionando o botão **Filtrar** nos cabeçalhos de coluna e, em seguida, na caixa **Pesquisar**, introduzindo o texto que deve ser utilizado para procurar entradas de tempo por nome de projeto, tarefa de projeto, entrada de tempo ou recurso.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

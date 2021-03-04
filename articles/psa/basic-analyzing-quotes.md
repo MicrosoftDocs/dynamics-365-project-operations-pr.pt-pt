@@ -60,3 +60,6 @@ Pode analisar as propostas e gerar gráficos para obter as expectativas do clien
 A análise das expectativas do cliente sobre a agenda é efetuada comparando a data de fim mais recente do detalhe da linha de proposta com a data de entrega pretendida em todas as linhas de proposta na proposta.
 
 A análise das expectativas do cliente sobre o orçamento é efetuada através da comparação da soma do orçamento total do cliente com o montante proposto em todas as linhas de proposta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

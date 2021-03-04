@@ -132,3 +132,6 @@ Deve utilizar validações de plug-ins para quaisquer validações que exijam ma
 
 > [!IMPORTANT] 
 > Atualmente, um problema conhecido nas páginas de TBX impede os utilizadores de corrigir informações e selecionar novamente Concluído quando uma atualização falha na validação de plug-in. Como solução alternativa, configure as validações de regras de negócio para evitar esta situação o máximo possível.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Para criar modelos de custos, siga estes passos:
 7. No separador **Categorias**, selecione as categorias de projeto a incluir na linha do modelo de custos.
 8. No separador **Geral**, selecione se esta linha será incluída na percentagem de cálculo de conclusão.
 9. Selecione o custo para completar o método a utilizar no cálculo da percentagem de conclusão.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

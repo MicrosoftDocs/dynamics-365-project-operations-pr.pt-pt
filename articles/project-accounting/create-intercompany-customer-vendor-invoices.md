@@ -61,3 +61,6 @@ Pode criar várias faturas interempresa ao mesmo tempo para todas as entidades l
 ## <a name="post-the-intercompany-vendor-invoice"></a>Publicar a fatura de fornecedor interempresa
 
 Um contabilista de projeto na entidade legal de contração pode rever faturas de fornecedor interempresa pendentes quando a fatura do cliente interempresa correspondente for publicada. No Finance, na entidade legal de contração, vá a **Contas a pagar** > **Faturas** > **Fatura de fornecedor pendentes**. O número da fatura pendente corresponderá ao número da fatura do cliente interempresa. Verifique se a fatura está correta e, em seguida, publique a fatura. A fatura do fornecedor interempresa cria um sub-livro razão do projeto e uma transação de livro razão geral que reflete os custos de transação na entidade legal de contração.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

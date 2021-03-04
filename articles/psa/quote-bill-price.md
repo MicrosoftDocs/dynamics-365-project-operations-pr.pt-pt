@@ -44,3 +44,6 @@ Os seguintes tópicos fornecem mais informações sobre a funcionalidade de cria
 - [Grupos de unidades e unidades](advanced-units.md)
 - [Moeda de várias unidades](advanced-currency.md)
 - [Registar valores reais](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

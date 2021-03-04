@@ -90,3 +90,6 @@ Também pode desassociar tarefas de projeto de linhas de proposta a partir do se
 
 >[!NOTE]
 > Este procedimento não elimina a tarefa do projeto. Apenas remove a associação da tarefa da linha de proposta baseada em projetos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

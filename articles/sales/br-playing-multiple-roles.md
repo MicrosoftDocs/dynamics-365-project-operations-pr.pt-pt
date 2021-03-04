@@ -106,3 +106,6 @@ Quando expandires a linha para esse registo de membro da equipa, pode ver atribu
 ### <a name="estimates-grid"></a>Grelha Estimativas 
 
 Na grelha **Estimativas**, ambas as atribuições para o mesmo recurso têm um preço diferente. A atribuição do recurso na **Tarefa A** tem o preço utilizando o valor de atributo **Função** de **Líder de Consultoria**. A atribuição do mesmo recurso na **Tarefa B** tem o preço utilizando o valor de atributo **Função** de **Técnico de Rede**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

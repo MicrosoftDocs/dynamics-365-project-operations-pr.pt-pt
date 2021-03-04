@@ -60,3 +60,6 @@ A partir da grelha de membros da equipa, podem ser executadas as seguintes açõ
 
 - **Novo**: além de adicionar recursos diretamente a partir da agenda, os Gestores de projetos podem adicionar novos membros da equipa nomeados ou genéricos a partir da grelha de membros da equipa.
 - **Eliminar**: ao selecionar um ou vários membros da equipa, o gestor de projeto pode eliminar os recursos que já não vão participar no projeto. A eliminação de um membro da equipa também eliminará todas as atribuições de recursos associadas e cancelará todas as reservas existentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

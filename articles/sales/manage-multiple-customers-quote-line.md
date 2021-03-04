@@ -44,3 +44,6 @@ A tabela seguinte mostra os campos no registo de cliente da linha de proposta de
 Pode editar as percentagens de divisão de faturação na linha. Quando as percentagens de divisão de faturação não totalizam 100%, ocorre um erro. Depois de editar as percentagens de divisão de faturação, atualize a página da linha de proposta para remover o erro.
 
 Utilize a ação de distribuição uniforme na subgrelha dos clientes da linha de proposta para alocar divisões de faturação a todos os clientes de linha de proposta. Se existir um fator de arredondamento, ele será adicionado ao cliente arredondamento. Um dos clientes da linha de proposta é sempre sinalizado como o cliente arredondamento, o que significa que o registo do cliente da linha de proposta tem o sinalizador de arredondamento definida como **Sim**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

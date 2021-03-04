@@ -71,3 +71,6 @@ Antes de iniciar este procedimento, verifique se o seu direito de acesso inclui 
 
 > [!IMPORTANT]
 >  Não pode eliminar as moedas que estão em utilização por outros registos; apenas pode desativá-las. A desativação dos registos de moeda não remove as informações de moeda armazenadas nos registos existentes, tais como oportunidades ou encomendas. No entanto, não poderá selecionar a moeda desativada para novas transações.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

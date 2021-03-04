@@ -112,3 +112,6 @@ Não. Atualmente, a estimativa de agendamento está restrita às horas e não po
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>As unidades e os grupos de unidades podem ser editados, eliminados e adicionados?
 Sim. Com exceção do grupo de unidades **Tempo** e a unidade **Hora**, todas as unidades podem ser eliminadas ou editadas, e é possível adicionar novas unidades. No PSA, o grupo de unidades **Tempo** e a unidade **Hora** não podem ser eliminados. No entanto, podem ser atualizados com um texto traduzido para o campo **Nome**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

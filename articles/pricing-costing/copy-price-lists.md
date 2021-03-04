@@ -43,3 +43,6 @@ Para fazer uma cópia da lista de preços, complete os seguintes passos.
 1. Nos separadores **Função**, **Categoria** e **Item de Lista de Preços** de uma lista de preços, pode selecionar **Atualizar Preços** para aplicar uma margem de lucro para todos os preços na subgrelha. 
 2. Na página de diálogo que abre, introduza uma margem de lucro. Também pode introduzir uma percentagem de margem de lucro negativa para diminuir os preços em uma certa percentagem. 
 3. Selecione **OK** na página de diálogo e, em seguida, verifique se os preços na subgrelha refletem as alterações efetuadas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

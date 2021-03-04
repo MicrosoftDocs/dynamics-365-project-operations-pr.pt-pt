@@ -429,3 +429,6 @@ A entrada de uma categoria de projeto predefinida nas entradas da folha de horas
 1. A aplicação tenta colocar a categoria predefinida a partir do recurso do projeto. Esta categoria predefinida é definida nos métodos **getCurrentUserResource** e **getDelegatedResourcesForCurrentUser** na classe **TSTimesheetSettingsService**.
 2. Se a categoria predefinida não for fornecida a nível do recurso do projeto, a aplicação tenta obtê-la a partir da atividade do projeto. Esta categoria predefinida é definida no método **getActivitiesForProject** na classe **TSTimesheetProjectService**.
 3. Se a categoria predefinida não for fornecida a nível da atividade do projeto, a categoria predefinida é obtida a partir dos parâmetros do projeto. Esta categoria predefinida é definida no método **getProjectDetailsbyRule** na classe **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

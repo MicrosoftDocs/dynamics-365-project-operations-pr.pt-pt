@@ -273,3 +273,6 @@ Um valor real de vendas faturado para a linha do produto com a quantidade e mont
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

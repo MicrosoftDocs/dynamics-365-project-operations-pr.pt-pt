@@ -107,3 +107,6 @@ Para criar o seu próprio fluxo do processo de negócio para a entidade de proje
 
    ![Captura de ecrã de modificação de vistas de Entidade de projeto](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

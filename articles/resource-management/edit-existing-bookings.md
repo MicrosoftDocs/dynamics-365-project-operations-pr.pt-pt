@@ -33,3 +33,6 @@ A partir da grelha **Membro da equipa**, um gestor de projeto pode destacar um r
 ## <a name="schedule-board"></a>Quadro da Agenda
 
 Do **Quadro da Agenda**, o gestor de recursos tem uma visão de portfólio de todas as reservas em toda uma organização. A partir desta perspetiva, o gestor de recursos pode estender, encurtar ou mover reservas existentes semelhantes às capacidades oferecidas em **Manter reservas**. O gestor de recursos também pode substituir os recursos existentes atribuídos a uma reserva específica clicando no direito da reserva e selecionando **Substituir recurso**. Os gestores de recursos também podem editar os contornos das reservas existentes clicando no botão direito da reserva e selecionando **Editar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

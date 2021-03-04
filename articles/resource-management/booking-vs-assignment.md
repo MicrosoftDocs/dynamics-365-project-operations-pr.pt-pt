@@ -26,3 +26,6 @@ Ao contrários das reservas, as atribuições são a alocação de recursos às 
 Normalmente, a soma das reservas para um recurso será igual à soma das atribuições do recurso numa ou muitas tarefas. No entanto, o Project Operations não impõe este contrato. A vista de **Reconciliação** mostra o Gestor de projeto em que as reservas e as atribuições de um recurso não concordam.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

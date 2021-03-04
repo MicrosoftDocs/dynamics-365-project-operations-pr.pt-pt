@@ -71,3 +71,6 @@ O exemplo que se segue mostra taxas de faturação que são configuradas com bas
 | ----------------|-------------|----------|----------:|----------|
 | A minha empresa_Faixa 1 | Contoso EUA  |Hour | 145|USD     |
 | A minha empresa_Faixa 2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

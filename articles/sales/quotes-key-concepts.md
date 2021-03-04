@@ -128,3 +128,6 @@ Para uma linha de proposta de preço fixo, pode utilizar a grelha **Agenda de Fa
 - Para criar marcos de faturação igualmente divididos, selecione uma frequência de faturação, introduza a data de início da faturação na linha de proposta e selecione **Data de Conclusão Pretendida** para a proposta na secção **Resumo** do cabeçalho da proposta. Em seguida, selecione **Gerar Marcos Periódicos** para criar marcos igualmente divididos com base na frequência de faturação selecionada. 
 - Para criar um marco de faturação de montante único, crie um marco e, em seguida, introduza o valor da linha de proposta como o montante do marco.
 - Para criar marcos de faturação baseados em tarefas específicas no plano do projeto, crie um marco e mapeie-o para o elemento de agenda do projeto na IU do marco de faturação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

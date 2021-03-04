@@ -59,3 +59,6 @@ Cada item de contrato do projeto com um método de faturação de preço fixo te
 Para analisar os marcos de faturação, aceda a **Vendas** \> **Faturação** \> **Marcos de Preço Fixo**. Selecione os marcos que estão prontos para serem faturados e, em seguida, selecione **Pronto para faturar**. O estado de faturação destes marcos é alterado para **Pronto para Faturar**.
 
 ![Marcos de preço fixo](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

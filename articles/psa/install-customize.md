@@ -55,3 +55,6 @@ As capacidades do [!INCLUDE[pn_project_service_auto](../includes/pn-project-serv
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)   
  [Guia do Resource Manager](../psa/resource-manager-guide.md)   
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

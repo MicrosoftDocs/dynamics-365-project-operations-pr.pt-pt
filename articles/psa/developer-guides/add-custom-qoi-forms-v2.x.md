@@ -96,3 +96,6 @@ Siga estes passos para criar uma versão personalizada do formulário **Informa�
     ```
 
 6. Guarde e publique as personalizações.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

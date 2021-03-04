@@ -32,3 +32,6 @@ A sua organização pode exigir que seja submetida uma requisição de viagem an
 As políticas e requisições de viagens poderão ser utilizados para ajudar com o controlo orçamental. Por exemplo, se a sua organização estiver a trabalhar num projeto de preço fixo que exija viagens, as despesas de viagem dos membros da equipa do projeto têm de enquadrar-se no orçamento para o projeto. Ao exigir que as despesas de viagem sejam aprovadas antes de serem incorridas, a organização pode ajudar a garantir que o projeto cumpre o orçamento.
 
 Pode configurar políticas de requisições de viagem a partir da página **Requisição de viagem**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Se a configuração de preços para a categoria de despesas não for válida, en
 Se ainda não visualizar um preço válido nas suas despesas em valores reais depois de efetuar as três verificações acima, submeta um pedido de suporte.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

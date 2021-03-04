@@ -150,3 +150,6 @@ A tabela seguinte fornece uma lista abrangente de formulários e vistas fornecid
 |  Real|• Informação<br>• Valores Reais Ativos|• Vista associada de Valor Real|
 
 Os campos personalizados também poderão ter de ser adicionados às regras de negócio consoante o que tiver definido. Um exemplo fornecido com o programa destina-se à regra de negócio **Capacidade de Edição da Entrada de Tempo baseada no Estado**. Esta regra define quais campos têm de ser bloqueados quando a Entrada de Tempo se encontra num estado não editável, tal como **Aprovado**. Adicione campos a esta regra de negócio, para que os campos fiquem bloqueados para edição quando a Entrada de Tempo estiver num estado diferente de **Rascunho** ou **Devolvido**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

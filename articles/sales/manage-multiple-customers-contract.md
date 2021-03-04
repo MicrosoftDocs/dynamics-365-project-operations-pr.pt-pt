@@ -47,3 +47,6 @@ O cliente potencial no separador **Resumo** do contrato do projeto é o cliente 
 É possível editar as percentagens de divisão de faturação ao editar na grelha. Quando as percentagens de divisão de faturação não totalizam 100 por cento, ocorre um erro. Depois de editar um percentagem de divisão de faturação, atualize a página **Contrato do Projeto** para remover o erro.
 
 Também pode selecionar **Distribuir Uniformemente** na subgrelha de clientes do contrato do projeto. As divisões de faturação são alocadas uniformemente por todos os clientes do contrato do projeto. Se houver algum fator de arredondamento, o fator será adicionado ao cliente de arredondamento. Um dos clientes do contrato tem sempre o sinalizador **Arredondar** definida como **Sim**. Esse cliente é o cliente de arredondamento. Normalmente, o cliente de arredondamento é também o principal cliente do contrato, mas isso não é necessário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

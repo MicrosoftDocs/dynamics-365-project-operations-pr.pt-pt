@@ -32,3 +32,6 @@ Para relatórios de despesas, pode desagregar de uma transação para o relatór
 Para desagregar para o relatório de despesas original em que uma transação apareceu, selecione a transação e, em seguida, selecione **Documento original**.
 
 Quando vê transações individuais, também pode ver quaisquer dados adicionais que estão anexados a uma transação. Por exemplo, para uma despesa de hotel detalhada, pode ver uma lista detalhada de despesas, tais como acesso à internet, chamadas telefónicas e serviço de quarto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Um cliente do contrato pode ser criado, atualizado ou eliminado do separador **C
 As faturação de percentagens divididas pode ser editada usando a experiência de edição da grelha inline. Quando as percentagens de divisão de faturação não totalizam 100 por cento, receberá um erro. Depois de editar as percentagens de divisão de faturação, atualize a página para dispensar o erro.
 
 Também pode selecionar **Distribuição Uniformemente** na subgrelha **Clientes do Contrato** para alocar divisões de faturação uniformemente a todos os clientes do contrato. Se houver um fator de arredondamento, será adicionado ao cliente de arredondamento. Um dos clientes do contrato é sempre etiquetado como o cliente de **arredondamento**, o que significa que o registo do cliente do contrato tem a bandeira de arredondamento definida como **Sim**. Normalmente, este é o cliente principal do contrato, mas também pode ser alterado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

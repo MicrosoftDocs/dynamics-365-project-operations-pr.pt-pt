@@ -94,3 +94,6 @@ Definir a prioridade da dimensão ajuda os preços do Project Service a apresent
 
 - **Prioridade ao Custo**: o valor da prioridade de custo de uma dimensão irá indicar o peso dessa dimensão quando comparado com a configuração dos preços de custo. O valor de **Prioridade ao Custo** tem de ser exclusivo nas dimensões **Aplicáveis ao Custo**.
 - **Prioridade às Vendas**: o valor da prioridade de vendas de uma dimensão irá indicar o peso dessa dimensão quando comparado com a configuração dos preços de venda ou taxas de faturação. O valor de **Prioridade às Vendas** tem de ser exclusivo nas dimensões **Aplicáveis às Vendas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

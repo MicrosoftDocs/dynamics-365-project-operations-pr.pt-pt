@@ -63,3 +63,6 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o Pr
 **Sales**
 
 - Corrigido: quando as entradas de hora são reaprovadas (**Aprovar > Cancelar >** são aprovadas novamente), é criado um valor real não cobrável duplicado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

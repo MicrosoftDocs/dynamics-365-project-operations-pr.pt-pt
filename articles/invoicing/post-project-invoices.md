@@ -30,3 +30,6 @@ O gestor do Projeto pode rever as transações de vendas não faturadas utilizan
 Pode [criar manualmente uma fatura proforma](../proforma-invoicing/create-manual-proforma-invoice.md) ou utilizar um [processo periódico](../proforma-invoicing/configure-automated-invoice-creation.md). O gestor do Projeto pode [ajustar uma fatura proforma](../proforma-invoicing/manage-proforma-invoice.md) conforme necessário e, em seguida, confirmá-la.
 
 A fatura proforma confirmada é enviada para o **Módulo de gestão e contabilidade do projeto** em Finanças. O Projeto de Contabilista forma e atualiza a proposta de fatura do projeto e, em seguida, publica e imprime o documento. As faturas do projeto registadas são registadas no livro geral, bem como nos sub-livros razão de clientes e projetos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

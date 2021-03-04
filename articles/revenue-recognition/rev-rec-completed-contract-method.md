@@ -90,3 +90,6 @@ A estimativa altera o estado para **Eliminado**.
 Utilize esta página para reverter todas as eliminações com uma data de estimativa especificada e com um estado de estimativa de **Eliminada**. O estado de transação muda depois de selecionar os campos apropriados.
 
 Isto também altera automaticamente o estado do projeto para **Em processo** se a fase do projeto estiver definida para Concluída. O estado de estimativa do período de projeto volta a **Publicado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

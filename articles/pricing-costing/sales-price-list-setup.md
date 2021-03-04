@@ -59,3 +59,6 @@ Num contrato do projeto, a seguinte ordem de precedência é usada para definir 
 Quando uma lista de preços do projeto é introduzida por predefinição, o sistema valida que a moeda corresponde com a moeda do cliente e que as listas de preços predefinidas que foram introduzidas têm um contexto de **Vendas**.
 
 Pode associar várias listas de preços do projeto às entidades Cliente, Oportunidade, Proposta e Contrato do Projeto. Esta capacidade suporta preços predefinidos específicos de data para um contrato do projeto de execução demorada, onde poderá necessitar de mais de uma lista de preços para contabilizar as atualizações de preços que ocorrem devido à inflação. No entanto, se as listas de preços associadas è entidade Cliente, Oportunidade, Proposta ou Contrato do Projeto tiverem a data efetiva sobreposta, os preços predefinidos poderão estar incorretos. Consequentemente, deve certificar-se de que as listas de preços do projeto que têm a data efetiva sobreposta não estão associadas a essas entidades.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

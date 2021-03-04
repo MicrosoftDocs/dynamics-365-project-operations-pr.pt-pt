@@ -30,3 +30,6 @@ Quando uma linha de contrato baseada em produtos é criada para um produto de ca
 Ter um custo unitário num item de contrato baseado em produtos permite custos diferentes para produtos para cada venda de uma unidade. Embora nem sempre seja necessário, existem certos cenários em que o custo do produto pode ser descontado para o cliente pelo fornecedor. Considere o seguinte cenário:
 
 A Fabrikam Robotics está a instalar braços robóticos nas linhas de montagem da Adatum Corporation. A Fabrikam presta serviços de instalação, mas os braços robóticos são da Trey Research. Se a instalação de braços robóticos na Adatum Corporation abrir uma nova indústria vertical para a Trey Research, pode oferecer um desconto especial para este negócio à Fabrikam. Neste caso, a Fabrikam cria uma linha de contrato baseada em produtos para braços robóticos. É celebrado um custo por unidade para este contrato. O custo é diferente do custo dos braços robóticos da Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

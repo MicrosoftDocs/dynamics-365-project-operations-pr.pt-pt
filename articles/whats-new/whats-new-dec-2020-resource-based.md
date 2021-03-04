@@ -109,3 +109,6 @@ Estão incluídas nesta versão as seguintes funcionalidades:
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
 Para obter informações sobre atualizações regulamentares para aplicações Finance and Operations, consulte [Atualizações regulamentares](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

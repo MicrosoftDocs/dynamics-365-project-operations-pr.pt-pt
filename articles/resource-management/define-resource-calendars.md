@@ -43,3 +43,6 @@ Cada recurso reservável que trabalhe num projeto tem de ter um calendário de h
 2. A partir da vista da grelha, selecione até 25 **Recursos Reserváveis** para atualizar.
 3. Ao selecionar **Definir Calendário**, é aberta uma caixa de diálogo que apresenta uma lista dos modelos de horas de trabalho disponíveis.
 4. Selecione o modelo que pretende utilizar e, em seguida, selecione **Aplicar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

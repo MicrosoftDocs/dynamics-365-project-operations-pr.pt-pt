@@ -54,3 +54,6 @@ Depois de uma lista de preços para vendas ser resolvida, o sistema completa os 
     | &nbsp; | Margem de Lucro Sobre o Custo | Aplicar uma margem de lucro como definida pela linha de preço da categoria na taxa de custo da unidade do valor real do custo relacionado |
 
 4. Se o sistema não conseguir corresponder aos valores de campo **Categoria** e **Unidade**, a taxa de vendas assume a predefinição zero (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

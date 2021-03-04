@@ -34,3 +34,6 @@ Para criar e trabalhar com tipos de períodos, complete os seguintes passos:
 4. Selecione o registo do tipo de período e, em seguida, selecione **Gerar períodos** para criar períodos para o tipo de período. Com base na frequência de período que selecionou, poderá ter a opção de especificar uma data de início ou o número de períodos a gerar.
 5. Selecione **Períodos** para rever os períodos gerados.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Poderá atribuir recursos a unidades organizacionais se necessitar de ter difere
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

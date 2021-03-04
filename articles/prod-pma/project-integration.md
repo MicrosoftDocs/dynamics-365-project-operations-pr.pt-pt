@@ -127,3 +127,6 @@ Para criar uma nova estrutura hierárquica do trabalho ao utilizar o Microsoft P
 8.  Selecione o **Calendário** a utilizar para a atribuição de recursos.
 
 11. Clique em **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

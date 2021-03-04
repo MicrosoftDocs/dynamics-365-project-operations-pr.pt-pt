@@ -48,3 +48,6 @@ A tabela seguinte define os principais conceitos que são utilizados na aplicaç
 | Contorno                    | Tarefa, requisito ou horas de atribuição, conforme são divididos numa distribuição diária. Por exemplo, uma tarefa de cinco dias e 40 horas pode ser contornada em oito horas por dia durante cinco dias. |
 | Vista de reconciliação        | Uma vista que mostra as reservas e as atribuições para cada membro da equipa do projeto. Esta vista permite que o gestor de projeto procure qualquer incompatibilidade entre reservas e atribuições e tome as ações corretivas se ocorrer alguma incompatibilidade. |
 | Horas de trabalho                 | Uma entidade que é utilizada para identificar a capacidade do recurso, bem como as horas de trabalho e de descanso. Esta entidade também é referida como o calendário de recurso. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

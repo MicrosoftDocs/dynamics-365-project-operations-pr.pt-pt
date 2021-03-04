@@ -31,3 +31,6 @@ Um subsídio diário é um subsídio que é pago a um trabalhador que viaja em t
     
 ## <a name="submit-expenses-using-per-diem"></a>Submeter despesas através do subsídio diário
 Para submeter despesas através do subsídio diário, utilize a categoria de despesa **Subsídio diário** quando criar um relatório de despesas. Introduza a **Data de início do subsídio diário**, **Data de fim do subsídio diário** e a **Localização do subsídio diário**. O montante será calculado com base nas tarifas do subsídio diário para a localização selecionada. A redução de refeições será calculada com base nos níveis de tarifas do subsídio diário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

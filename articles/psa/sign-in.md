@@ -56,3 +56,6 @@ Quando inicia sessão nas aplicações do Dynamics 365, tem de ter as seguintes 
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

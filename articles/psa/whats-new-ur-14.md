@@ -64,3 +64,6 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o PS
      - Corrigido: o preço de vendas total não é calculado até que o utilizador também introduza um preço de custo para estimativa de despesas num projeto.
      - Corrigido: fechar uma proposta como **Ganha** falha se o contrato de projeto associado não estiver num estado de **Rascunho**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

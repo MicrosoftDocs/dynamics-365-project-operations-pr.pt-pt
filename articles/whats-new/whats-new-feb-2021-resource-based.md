@@ -54,3 +54,6 @@ Para obter mais informações sobre gestão e contabilidade de projetos em Dynam
 ## <a name="regulatory-updates"></a>Atualizações regulamentares
 
 Para obter informações sobre atualizações regulamentares para aplicações Finance and Operations, consulte [Atualizações regulamentares](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as atualizações regulamentares é fazer login em Lifecycle Services (LCS) e ver as atualizações regulamentares planeadas usando a ferramenta de pesquisa de problemas. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

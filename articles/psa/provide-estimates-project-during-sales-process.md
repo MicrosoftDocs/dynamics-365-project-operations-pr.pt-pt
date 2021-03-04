@@ -54,3 +54,6 @@ Durante o processo de vendas, poderá determinar as estimativas de vendas de rai
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

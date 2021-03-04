@@ -38,3 +38,6 @@ Este FAQ é aplicável às despesas em valores reais onde a classe de transaçã
 Vá para a entrada de despesas relacionada e certifique-se de que existe um valor no campo de entrada despesas. Se a entrada de despesa não tiver o campo de valor preenchido, então, localizou o problema.
  
 Para resolver este problema, recrie a entrada de despesas com um valor válido e aprove-o.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Abaixo estão os campos no registo do cliente do item de Contrato de um item de 
 As faturação de percentagens divididas pode ser editada na grelha. Quando as percentagens de divisão de faturação não totalizam 100 por cento, ocorrerá um erro. Depois de editar as percentagens de divisão de faturação, atualize a página para remover o erro.
 
 Também pode tentar selecionar **Distribuir Uniformemente** na subgrelha do cliente do item de contrato. Esta ação atribui igualmente divisões de faturação a todos os clientes do item de contrato. Se houver algum fator de arredondamento, será adicionado ao cliente de arredondamento. Um cliente do item de contrato é sempre etiquetado como cliente de **Arredondamento** com a bandeira **Arredondamento** definida como **Sim**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

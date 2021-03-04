@@ -91,3 +91,6 @@ Veja os compromissos pessoais, as reservas de trabalho do projeto e atribuiçõe
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

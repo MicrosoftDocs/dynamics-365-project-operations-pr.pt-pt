@@ -65,3 +65,6 @@ O processo de vendas de Oportunidades no Project Operations é uma extensão ao 
 > Se o seu negócio baseado em projetos começou com uma Oportunidade, o processo de vendas de Oportunidades tem precedência.
 
 Pode editar o fluxo de processo empresarial de produto ou criar os seus próprios fluxos de processo empresarial para monitorizar o seu processo de vendas, conforme necessário. Para mais informações sobre o fluxos do processo empresarial, consulte [Descrição geral de fluxos do processo empresarial](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

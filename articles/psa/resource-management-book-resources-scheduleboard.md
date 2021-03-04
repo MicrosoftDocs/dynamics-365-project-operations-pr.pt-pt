@@ -53,3 +53,6 @@ Antes de poder reservar no Quadro da Agenda, deve criar ou gerar requisitos de r
 O requisito é cumprido através da utilização do recurso selecionado. No painel **Requisitos de Reserva**, note que o requisito foi atualizado e o recurso é mostrado como reservado no projeto.
 
 ![Recurso reservado no projeto](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

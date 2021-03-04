@@ -45,3 +45,6 @@ Estes documentos técnicos foram concebidos para fornecer informações detalhad
 
 ### <a name="see-also"></a>Consulte Também
  [Descrição Geral do Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

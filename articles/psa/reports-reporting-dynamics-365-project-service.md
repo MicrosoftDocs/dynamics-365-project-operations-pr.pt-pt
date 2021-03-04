@@ -52,3 +52,6 @@ Para mais informações sobre a geração de relatórios no PSA, consulte os seg
 - [Trabalhar com o modelo de dados do Project Service](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

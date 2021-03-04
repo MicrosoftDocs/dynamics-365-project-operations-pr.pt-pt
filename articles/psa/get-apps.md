@@ -36,3 +36,6 @@ Se pretende introduzir o tempo e as despesas no dispositivo móvel, [Obter e ins
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

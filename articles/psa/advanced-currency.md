@@ -105,3 +105,6 @@ O Dynamics 365 processa automaticamente as acumulações de montantes em moedas 
 | Despesa           | Vendas não faturadas   | 17 jun | Gonçalo  | Aluguer de Automóvel           | 1 cada     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Para calcular o valor total de vendas não faturadas no projeto, pode criar um campo de acumulação para o campo **Montante** em todos os valores reais de vendas não faturadas relacionados. O campo de acumulação é uma construção do Dynamics 365 que permite fórmulas rápidas sobre os registos relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

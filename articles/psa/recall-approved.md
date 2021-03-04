@@ -107,3 +107,6 @@ A ilustração seguinte mostra as alterações que ocorrem para as entradas de t
 A ilustração seguinte mostra as alterações que ocorrem para as entradas de despesa aprovadas quando são canceladas.
 
 ![Transições de estado de Entrada de Despesa](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

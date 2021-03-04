@@ -257,3 +257,6 @@ O gráfico a seguir é posterior à criação das listas de preços personalizad
 
 > [!NOTE]
 > Um pequeno atraso pode ocorrer entre clicar em **Criar Lista de Preços Personalizada** e a lista de preços personalizada ser criada. É recomendável atualizar a grelha, em vez de clicar várias vezes. Uma lista de preços personalizada será criada se o nome da lista de preços associada tiver o nome da proposta ou o nome do contrato do projeto anexado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

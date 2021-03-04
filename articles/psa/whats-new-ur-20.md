@@ -62,3 +62,6 @@ Foram corrigidos os seguintes problemas:
 - As listas de **Preço de Custo da Unidade Organizacional** permitem sobreposições na efetividade da data.
 - Os utilizadores não estão autorizados a alterar **OrgUnit** quando o tipo de encomenda não é baseado no trabalho, pois irá conduzir a um erro de exceção de referência nulo.
 - Ao tentar navegar a partir do formulário **Detalhes do Item de Proposta**, regresse ao separador **Proposta**, o formulário atualiza e apresenta o separador **Resumo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

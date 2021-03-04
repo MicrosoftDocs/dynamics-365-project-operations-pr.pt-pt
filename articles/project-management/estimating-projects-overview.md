@@ -79,3 +79,6 @@ Se tiver adicionado um campo personalizado aos detalhes de linha de proposta e p
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, selecione **Atualizar Passo**.
 8. Repita os passos 1 a 7 para o segundo plug-in.
 9. Feche o **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

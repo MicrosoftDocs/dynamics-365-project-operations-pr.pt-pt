@@ -52,3 +52,6 @@ Pode utilizar cada uma dessas listas de preços e atualizar os preços de mão d
 Num contrato do projeto, os preços do projeto assumem sempre a predefinição de uma lista de preços personalizada com o nome do contrato e o carimbo de data/hora criado anexado ao nome. Isto é verdade se o contrato foi criado quando a proposta foi ganha ou se o contrato foi criado de raiz. Se necessário, pode remover esta associação à lista de preços personalizada e associar uma lista de preços padrão ao contrato do projeto.
 
 Quando associar uma lista de preços padrão às listas de preços do projeto na proposta ou no contrato, quaisquer alterações efetuadas aos preços na lista de preços terão impacto em todas as propostas e contratos que utilizem a lista de preços.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

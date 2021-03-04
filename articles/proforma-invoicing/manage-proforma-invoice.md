@@ -135,3 +135,6 @@ Se tiver valores reais que chegaram após a criação da fatura, pode incluir es
 2. Abra a fatura pró-forma de rascunho e, na faixa **Ações**, clique em **Atualizar Transações da Linha de Fatura**.
 
   Isto cria detalhes da linha de fatura para qualquer valor real que seja datado e marcado como **Pronto a Faturar**, mas não está incluído na fatura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

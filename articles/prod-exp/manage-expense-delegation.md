@@ -41,3 +41,6 @@ Quando a chave de gestão de funcionalidades **Ativar a página da lista de dele
 Um utilizador delegado pode filtrar e pesquisar rapidamente os relatórios de despesas existentes que lhes foram delegados. Podem também criar um novo relatório de despesas para outros utilizadores selecionando **novo relatório de despesas**.
 
 Os utilizadores delegados também podem criar e gerir relatórios de despesas para outros colaboradores, indo para a **gestão de Despesas** > **As minhas despesas** > **Relatórios de despesas** e selecionando **Abrir despesas de outros utilizadores**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

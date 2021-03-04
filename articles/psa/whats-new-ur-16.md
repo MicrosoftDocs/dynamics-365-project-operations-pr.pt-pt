@@ -64,3 +64,6 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o PS
 
     -   Corrigido: quando os utilizadores fazem a atualização da versão 2.X para 3.X, serão permitidos projetos com um valor NULL para um nome de projeto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

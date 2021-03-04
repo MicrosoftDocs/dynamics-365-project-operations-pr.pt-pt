@@ -73,3 +73,6 @@ Pode efetuar uma reavaliação em massa do estado a não exceder. A reavaliaçã
 Para reavaliar o estado a não exceder, selecione um ou mais valores reais a partir da vista **Registo de Tarefas Pendentes de Faturação de Tempo e Material** ou **Valores Reais** e selecione **Reavaliar Estado a Não Exceder**.
 
 Todos os valores reais selecionados relevantes com um limite a não exceder será avaliado em comparação com a configuração do limite a não exceder. Os valores reais são relevantes para reavaliação do estado a não exceder são valores reais de vendas que não foram faturados, não numa fatura de rascunho, e são marcados como faturáveis. Quaisquer outros valores reais selecionados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

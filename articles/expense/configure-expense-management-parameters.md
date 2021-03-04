@@ -83,3 +83,6 @@ Este tópico descreve os parâmetros que controlam o comportamento geral na Gest
 | Apresentar declaração anticorrupção   | Selecione esta opção para mostrar o texto anticorrupção quando um relatório de despesas é criado. Em seguida, podem ser ativadas categorias de despesas específicas que exigirão que a declaração anticorrupção seja selecionada no relatório de despesas. Por exemplo, uma categoria de ofertas relacionada com uma despesa de funcionário público pode exigir que o colaborador confirme que a despesa cumpra a política da empresa que está relacionada com funcionários públicos. |
 | Mensagem anticorrupção para o submissor | Introduza o texto que deve ser mostrado a um colaborador que está a criar um relatório de despesas. Para introduzir texto específico do idioma que será mostrado, consoante o idioma do utilizador, selecione **Traduções**. |
 | Mensagem anticorrupção para o aprovador  | Introduza o texto que deve ser mostrado ao aprovador quando um relatório de despesas é criado. Para introduzir texto específico do idioma que será mostrado, consoante o idioma do utilizador, selecione **Traduções**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

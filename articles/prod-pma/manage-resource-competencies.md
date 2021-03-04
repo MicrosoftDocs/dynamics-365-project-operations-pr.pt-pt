@@ -53,3 +53,6 @@ Para configurar as competências para um trabalhador, pode utilizar a página da
 5. No campo **Data do nível** , selecione **1-/14/2014**.
 6. No campo **Anos de experiência** , introduza **10**.
 7. Selecione **Guardar** e feche a página.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

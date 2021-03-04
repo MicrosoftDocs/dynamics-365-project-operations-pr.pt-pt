@@ -42,3 +42,6 @@ As competências para os recursos são classificadas por modelos de proficiênci
 
 
 Estes valores de classificação são apresentados nos filtros **Requisitos de Recursos**, **Quadro da Agenda** e **Assistente da Agenda**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

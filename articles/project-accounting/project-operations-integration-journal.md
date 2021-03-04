@@ -55,3 +55,6 @@ Apenas os seguintes atributos contabilísticos podem ser atualizados nas linhas 
 As linhas do diário de integração podem ser eliminadas, no entanto, quaisquer linhas não publicadas serão novamente inseridas no diário depois de voltar a executar o processo periódico **Importar de teste**.
 
 Ao publicar o diário de Integração, são criadas transações de sublivro razão de projeto e de livro razão geral. Estes são utilizados na faturação dos clientes a jusante, no reconhecimento de receitas e nos relatórios financeiros.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

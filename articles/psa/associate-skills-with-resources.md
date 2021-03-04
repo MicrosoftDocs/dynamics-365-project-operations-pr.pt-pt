@@ -45,3 +45,6 @@ No passo anterior, já associou algumas competências a um novo recurso. Periodi
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

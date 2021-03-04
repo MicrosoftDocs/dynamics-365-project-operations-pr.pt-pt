@@ -55,3 +55,6 @@ Foram corrigidos os seguintes problemas:
 - Uma exceção de referência nula é gerada quando o plug-in **GetEstimatesForProject** é invocado.
 - **Marcar como pronta para faturar** na grelha de marca apenas atualiza parcialmente os atributos, com exceção do atributo **Estado de fatura** que é atualizado.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

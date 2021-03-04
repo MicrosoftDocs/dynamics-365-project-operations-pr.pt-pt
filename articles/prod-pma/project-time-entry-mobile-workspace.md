@@ -113,3 +113,6 @@ Transferir e instalar a aplicação móvel Finance and Operations:
 11. Selecione a propriedade da linha.
 12. Opcional: introduza quaisquer comentários externos e internos.
 13. Selecione **Concluído**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

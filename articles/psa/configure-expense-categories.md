@@ -55,3 +55,6 @@ Cada categoria de despesa pode ter uma unidade e grupo de unidade próprio. Pode
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

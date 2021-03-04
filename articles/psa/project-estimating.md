@@ -97,3 +97,6 @@ Na vista de grelha e na vista faseada no tempo, pode selecionar os campos que s�
 ## <a name="expense-estimates"></a>Estimativas de despesas
 
 O botão **Adicionar uma Estimativa de Despesa Nova** na vista de grelha permite-lhe registar quaisquer despesas incorridas no projeto, mas que não estão diretamente relacionadas com a mão de obra. Pode registar as estimativas de despesas para uma tarefa específica ou para todo o projeto. Selecione as categorias de despesa e a data provisória em que espera incorrer na despesa. Se a lista de preços de custo e a lista de preços de venda associadas tiverem preços predefinidos (ou percentagens de margem de lucro definidas para as categorias de despesa), estes serão introduzidos automaticamente na linha de estimativa quando a associação ocorrer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ O modo de tarefa não tem efeito nas atualizações efetuadas nas datas de iníc
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Atalhos de teclado e acessibilidade
 
 A grelha **Agenda** é totalmente acessível e pode ser utilizada com leitores de ecrã, tais como o Narrator, o JAWS ou o NVDA. Pode percorrer a área de grelha através da utilização das teclas de seta (como no Microsoft Excel), pode utilizar a tecla de tabulação para avançar através dos elementos da interface de utilizador interativa e pode utilizar a tecla de seta para baixo, a tecla Enter ou a Barra de Espaço para selecionar e abrir os menus pendentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Os marcos de preço fixo podem ser gerados manualmente quando não são dividido
 | Imposto | Criação Rápida | O valor do imposto aplicado ao marco. | Este está incluído no marco do item de contrato do projeto e na fatura. |
 
 4. Selecione **Guardar e Fechar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

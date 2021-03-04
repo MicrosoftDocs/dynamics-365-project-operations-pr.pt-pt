@@ -44,3 +44,6 @@ Para mais informações, consulte [Entrada de despesas (lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Determinar a Implementação de despesa
 Para determinar se está a executar a implementação da gestão Despesa Básica, verifique se o URL do endereço termina com **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

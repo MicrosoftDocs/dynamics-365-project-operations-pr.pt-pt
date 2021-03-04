@@ -63,3 +63,6 @@ Quando criar e apresentar um relatório de despesas para o adiantamento de dinhe
 ### <a name="example"></a>Exemplo
 Planeia viajar de Seattle para Nova Iorque para uma conferência. Cria um pedido de adiantamento de dinheiro para 3000,00 USD com base no custo estimado do bilhete da conferência, voos, hotel, refeições e táxi. Não será pago a menos que o seu gestor aprove este pedido. Após a aprovação do seu gestor, o adiantamento de tesouraria pedido é pago sob a forma de 3000 USD na sua conta bancária. Participa na conferência. Depois de concluída a viagem, descobre que a despesa total foi de apenas 2790 USD. Selecione **Dinheiro** no campo **Método de pagamento** e submeta as suas despesas de 2790,00 USD. O montante de despesas submetido é ajustado automaticamente em relação ao adiantamento de tesouraria de 3000 USD que lhe foi emprestado. Deve agora um saldo de 210,00 USD (3000,00 - 2790,00), que pode devolver à empresa utilizando a categoria de despesas **Devolução de dinheiro**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

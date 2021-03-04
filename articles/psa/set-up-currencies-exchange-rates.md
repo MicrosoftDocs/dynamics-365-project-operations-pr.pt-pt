@@ -43,3 +43,6 @@ Para criar propostas e faturar os seus clientes no [!INCLUDE[pn_project_service_
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar o Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

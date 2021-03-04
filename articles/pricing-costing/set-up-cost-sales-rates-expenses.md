@@ -55,3 +55,6 @@ Quando este método de definição de preços é selecionado na linha de preços
 
 ### <a name="markup-over-cost"></a>Margem de Lucro Sobre o Custo
 Quando este método de definição de preços é selecionado na linha de preços de categoria que está ligada a uma lista de preços de vendas, o preço assume a predefinição para a categoria e a combinação de unidade apenas para um real das despesas. Por exemplo, valores reais de vendas não faturadas para a classe de transação de despesas. Este preço unitário é definido no valor real de vendas não faturadas para um valor calculado a partir do preço unitário sobre o custo real para essa despesa após a aplicação da percentagem de margem definida. Assumir a predefinição do preço com base no custo não é feito nas estimativas do projeto para despesas ou na linha de proposta e detalhes do item de contrato para despesas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

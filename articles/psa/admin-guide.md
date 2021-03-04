@@ -52,3 +52,6 @@ Este guia orienta-o no processo de instalação e configuração:
  [Guia do Gestor de Contas](../psa/account-manager-guide.md) [Guia do Gestor de Projeto](../psa/project-manager-guide.md)   
  [Guia do Resource Manager](../psa/resource-manager-guide.md)   
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

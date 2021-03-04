@@ -58,3 +58,6 @@ A ajuda adicional está disponível como guias de tarefas. Para aceder aos guias
 ### <a name="videos"></a>Vídeos
 
 Assista aos vídeos de procedimentos que estão agora disponíveis no [canal do YouTube do Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

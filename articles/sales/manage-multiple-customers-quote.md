@@ -51,3 +51,6 @@ Um cliente de proposta pode ser criado, atualizado ou eliminado do separador **C
 Pode editar as percentagens de divisão de faturação através da experiência de edição da grelha em linha. Quando as percentagens de divisão de faturação não totalizam 100%, ocorre um erro. Depois de atualizar as percentagens de divisão de faturação, atualize a página para remover o erro.
 
 Também pode tentar selecionar **Distribuir Uniformemente** na subgrelha dos clientes da proposta. Esta ação distribui divisões de faturação por todos os clientes da proposta. Se existir algum fator de arredondamento, ele será adicionado ao cliente arredondamento. Um dos clientes de proposta é sempre identificado como o cliente de arredondamento. Isto significa que o registo de cliente de proposta tem o sinalizador **Arredondamento** definido como **Sim**. Normalmente, este é o cliente principal da proposta, mas isso pode ser alterado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Navegue para os valores reais do projeto e certifique-se de que esse custo e as 
   
 ### <a name="see-also"></a>Consulte Também  
  [Manual do gestor de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

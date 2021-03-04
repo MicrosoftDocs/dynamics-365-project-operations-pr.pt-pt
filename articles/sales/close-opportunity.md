@@ -24,3 +24,6 @@ As oportunidades de projeto podem ser fechadas como Ganhas ou Perdidas. A caixa 
 Não terá permissão para fechar a oportunidade se existirem propostas ativas a ela associadas. Pode fechar todas as propostas ativas e de rascunho associadas a uma oportunidade ao mesmo tempo. Em seguida, poderá fechar a oportunidade.
 
 Para obter informações mais gerais sobre como fechar oportunidades, consulte [Fechar oportunidades como ganhas ou perdidas](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Agora que adicionou as competências aos projetos dos seus clientes, precisa de 
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

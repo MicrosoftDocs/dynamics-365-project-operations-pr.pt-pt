@@ -32,3 +32,6 @@ As agendas de sinais são configuradas na página do **Contrato de Projeto** no 
 | Número de sinais para criar | Quando introduz o número de sinais a criar, o sistema utiliza a data de início e a frequência para criar o número neste campo. | Quando este campo é atualizado manualmente, o sistema ignora o valor no campo **Fim da Agenda de Sinais** e cria o número específico de sinais ou adiantamentos. |
 | Frequência da Fatura | Com que frequência a aplicação irá criar sinais e adiantamentos. | Este valor influencia diretamente o número de sinais e adiantamentos e as datas criadas. |
 | Montante Total | O montante total é o montante que é dividido nos pagamentos do sinal individual ou do adiantamento que serão criados. | Este campo não tem impacto a jusante. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

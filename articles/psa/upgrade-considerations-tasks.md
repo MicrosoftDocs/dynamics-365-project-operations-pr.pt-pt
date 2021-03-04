@@ -96,3 +96,6 @@ Para garantir uma atualização bem-sucedida, as seguintes relações devem ser 
 
 - Todas as dependências de tarefa do projeto devem estar relacionadas com o mesmo projeto.
 - Uma tarefa não pode ter a mesma dependência referenciada mais de uma vez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

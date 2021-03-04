@@ -89,3 +89,6 @@ As propostas do Project Operations são criadas nas propostas do Dynamics 365 Sa
 - As propostas do Project Operations têm um formulário e elementos de IU, regras de negócio, lógica de negócio em plug-ins e scripts do lado do cliente próprios que as tornam únicos nas propostas de Vendas.
 
 Por estas razões, não é recomendado utilizar uma proposta do Sales e uma proposta do Project Operations indistintamente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

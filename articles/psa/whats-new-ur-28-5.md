@@ -42,3 +42,6 @@ Foram corrigidos os seguintes problemas:
 
 - Agendar a degradação do desempenho da pesquisa de assistência
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

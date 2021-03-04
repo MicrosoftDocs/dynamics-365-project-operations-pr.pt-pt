@@ -51,3 +51,6 @@ Aqui ficam algumas sugestões que podem ajudar na criação de novas políticas 
 ## <a name="when-to-evaluate-policies"></a>Quando avaliar políticas
 
 Nos parâmetros de gestão de despesas, existe uma opção para avaliar as políticas de gestão de despesas quando uma linha é guardada ou quando um relatório de despesas é submetido. Se optar por avaliar quando uma linha é guardada, isto garante que os utilizadores terão visibilidade mais cedo sobre o que precisam de fazer para completar o seu relatório de despesas de uma só vez. Caso contrário, pode atrasar a avaliação da política e economizar tempo se fizer com que a validação ocorra no final, durante a submissão ao fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

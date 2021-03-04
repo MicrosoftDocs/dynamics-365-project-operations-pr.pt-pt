@@ -79,3 +79,6 @@ Isto demora alguns minutos a concluir. Deve receber uma mensagem de confirmaçã
 18. Feche a sessão de ambiente de trabalho remota e utilize a página **Detalhes do ambiente** do LCS para iniciar sessão no ambiente para confirmar que está a funcionar conforme esperado.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

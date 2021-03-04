@@ -37,3 +37,5 @@ Como Gestor de projeto, conclua os passos seguintes para editar o requisito de r
 ## <a name="edit-resource-assignment-contours"></a>Editar perfis de atribuição de recursos
 
 Além de editar os detalhes dos requisitos de recurso, um Gestor de projeto pode atualizar os perfis individuais do requisito de recurso através da funcionalidade **Especificar Padrão**. Quando **Especificar Padrão** é selecionado, é aberta uma página e pode ver os perfis à escala de tempo do dia, semana ou mês. Cada perfil pode ser ajustado para a hora de início, a hora de fim e o esforço total num determinado período.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

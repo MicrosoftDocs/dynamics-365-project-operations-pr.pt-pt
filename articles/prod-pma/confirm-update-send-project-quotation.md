@@ -57,3 +57,6 @@ Para modificar uma proposta de projeto existente, o estado da proposta deve ser 
 
 > [!NOTE]
 > Não é possível modificar uma proposta do projeto depois do estado ser alterado para **Enviada**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

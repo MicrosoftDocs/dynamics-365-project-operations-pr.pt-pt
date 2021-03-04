@@ -76,3 +76,6 @@ Esta ação abre a página **Novo nome do campo de dimensão de definição de p
 5. Adicione **msdyn_projectteam** ao campo **Nome Lógico da Entidade** e **msdyn_bookableresourceid** ao campo **Nome do Campo**. Guarde o registo.
 
  ![Formulário Novo nome do campo de dimensão de definição de preços](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

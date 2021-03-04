@@ -91,3 +91,6 @@ A tarefa de processamento em lote para criar faturas é uma tarefa recorrente. S
 
 > [!NOTE]
 > A faturação do lote no Project Operations só funciona para itens de contrato do projeto que são configurados por horários da fatura. Uma linha de contrato com um método de faturação de preço fixo tem de ter marcos configurados. Uma linha de contrato de projeto com um método de faturação de tempo e material necessitará de uma configuração de agenda de faturamento baseado em datas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

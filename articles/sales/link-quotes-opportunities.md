@@ -56,3 +56,6 @@ Uma proposta existente pode ser associada a uma Oportunidade. Conclua os seguint
    Ao fazer uma oportunidade avançar para esta fase, pode selecionar esta proposta a partir de uma lista de propostas associadas a esta oportunidade. A seleção desta proposta indica que está a avançar com ela.
 
    Todas as outras propostas associadas à Oportunidade continuarão disponíveis e ativas até uma delas ser ganha. Pode fazer retroceder o processo de vendas para a fase anterior **Qualificar** e escolher outra proposta com a qual avançar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

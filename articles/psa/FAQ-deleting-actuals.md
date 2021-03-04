@@ -33,3 +33,6 @@ ms.locfileid: "5148972"
 
 O Project Service Automation (PSA) não permite eliminar valores reais, porque estes servem de fonte de verdade para as transações que têm implicações financeiras nos sistemas a jusante, como o razão geral. Se for possível eliminar os valores reais, a integridade das transações de relatórios financeiros poderá ser questionável. Para estabelecer um registo de auditoria, os clientes devem utilizar diários para criar transações de compensação.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

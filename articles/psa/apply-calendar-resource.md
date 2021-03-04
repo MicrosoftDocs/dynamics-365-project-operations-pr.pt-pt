@@ -45,3 +45,6 @@ Depois de criar um modelo horas de trabalho, tem de atribuí-lo aos recursos par
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

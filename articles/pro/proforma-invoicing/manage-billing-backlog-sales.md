@@ -60,3 +60,6 @@ Os valores reais de vendas não faturados com um estado **A Não Exceder** de **
 Se os itens de contrato de vários clientes tiverem um método de faturação de tempo e material, quando o tempo e as despesas são aprovados, um valor real de vendas não faturado é criado para cada cliente no item de contrato, de acordo com a divisão de percentagem de faturação definida para cada um dos clientes. Na vista **Registo de Tarefas Pendentes de Faturação de Tempo e Material**, verá estes valores reais de vendas não faturados específicos do cliente. Cada um destes registos de valores reais de vendas não faturados pode ser marcado como **Pronto a Faturar** separadamente desta vista.
 
 Um valor real de vendas não faturado que está numa fatura de rascunho é mostrada nesta vista com um estado de faturação de **Fatura do Cliente Criada**. Quando a fatura de rascunho for confirmada, o estado da faturação neste registo é atualizado para **Fatura de Cliente Publicada**. Não atualize este valor de estado utilizando código personalizado. O Project Operations não funciona corretamente quando estes valores de estado são atualizados com código personalizado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Os seus recursos podem utilizar a aplicação Project Finder Mobile no seu telem
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

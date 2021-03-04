@@ -55,3 +55,6 @@ As despesas que ainda não foram submetidas podem ser eliminadas. Para eliminar 
 ## <a name="see-also"></a>Consulte também
 
 - [Descrição geral das aprovações](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

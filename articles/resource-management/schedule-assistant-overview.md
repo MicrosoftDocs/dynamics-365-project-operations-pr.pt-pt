@@ -57,3 +57,6 @@ O painel de filtro mostra opções relacionadas com o trabalho, incluindo:
 -   Empresa de recursos
 -   Tipos de recursos
 -   Recursos preferenciais
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

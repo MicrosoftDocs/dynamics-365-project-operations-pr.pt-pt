@@ -33,3 +33,6 @@ Uma lista de todas as propostas do projeto pode ser vista na página de lista **
 2. Utilize o **Alternador de Vistas** para selecionar outras vistas filtradas das propostas. Utilizando critérios de filtro personalizados, pode configurar as suas próprias vistas e opções de navegação.
 
 As propostas podem ser criadas ou eliminadas a partir desta página de lista ou páginas de detalhes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

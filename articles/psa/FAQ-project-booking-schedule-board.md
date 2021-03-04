@@ -91,3 +91,6 @@ Conclua os seguintes passos para reservar a partir de um novo requisito de recur
 
 4. Agora que o recurso está reservado, tem de atribuir tarefas manualmente.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

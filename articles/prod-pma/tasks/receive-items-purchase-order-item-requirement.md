@@ -56,3 +56,6 @@ Esta tarefa utiliza o conjunto de dados USSI.
 21. No campo **Receção de produto** , digite um valor.
 22. Selecione **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Clique numa hiperligação abaixo para saber mais sobre o que pode fazer com o [
  [Guia do Gestor de Contas](../psa/account-manager-guide.md)   
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)   
  [Guia do Resource Manager](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

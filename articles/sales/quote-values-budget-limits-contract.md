@@ -43,3 +43,6 @@ Abaixo estão os separadores e os KPIs disponíveis numa proposta de projeto que
 | Análise de rentabilidade | Separador na Proposta | O separador mostra as métricas seguintes:</br>- Custo faturável total</br></br>- Custo não faturável total</br>- Receitas totais</br>- Receitas totais (base)</br>- Margem bruta</br>- Margem bruta ajustada|
 | Comparação com as Expectativas do Cliente | Separador na Proposta | Este separador mostra as métricas seguintes:</br>- Conclusão estimada</br>- Conclusão pretendida</br>- Orçamento do cliente</br>- Valor da proposta |
 | Análise de proposta | Separador na Proposta | Este separador resume os seguintes KPsIs principais para uma proposta de projeto</br>- Comparação com as expectativas do cliente em relação ao orçamento e à agenda</br>- Margem bruta</br>- Margem bruta ajustada |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

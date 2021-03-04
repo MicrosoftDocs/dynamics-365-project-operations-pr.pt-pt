@@ -65,3 +65,6 @@ Depois de criar termos de retenção do fornecedor para um fornecedor, pode apli
 6. Se o projeto também tiver termos paga quando pago (PWP) criados para o fornecedor, insira a percentagem de limiar para o projeto no campo **Percentagem de limiar PWP**.
 
 Os termos de retenção do fornecedor também são apresentados em notas de encomenda que cria para o fornecedor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

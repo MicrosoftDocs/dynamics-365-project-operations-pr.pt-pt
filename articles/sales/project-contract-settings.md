@@ -58,3 +58,6 @@ Os seguintes KPIs estão disponíveis no separador **Desempenho do Contrato** de
 | Custo Incorrido | Itens baseados em produtos | A soma de todos os custos reais registados em todos os projetos mapeados para o item de contrato. |
 | Margem Bruta | Itens baseados em projetos | Valor faturado – Custo incorrido até à data / Valor faturado |
 | Margem Esperada | Itens baseados em produtos | (Valor da linha do contrato - Custos estimados para a linha de contrato) / Valor da linha contratual |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

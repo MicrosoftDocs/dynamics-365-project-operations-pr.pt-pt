@@ -105,3 +105,6 @@ Introduza as despesas pelo menos semanalmente ou com a frequência pedida pelos 
  [Descrição Geral do Project Service](../psa/overview.md)   
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
