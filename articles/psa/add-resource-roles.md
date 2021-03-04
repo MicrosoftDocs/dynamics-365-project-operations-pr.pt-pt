@@ -18,30 +18,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 737c36cc7a31b5fa10524e13709ae99751aa1771
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129602"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145912"
 ---
-# <a name="add-resource-roles-project-service"></a><span data-ttu-id="34959-103">Adicionar funções de recursos (Project Service)</span><span class="sxs-lookup"><span data-stu-id="34959-103">Add resource roles (Project Service)</span></span>
+# <a name="add-resource-roles-project-service"></a><span data-ttu-id="39594-103">Adicionar funções de recursos (Project Service)</span><span class="sxs-lookup"><span data-stu-id="39594-103">Add resource roles (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="34959-104">Defina taxas de utilização alvo para cada função.</span><span class="sxs-lookup"><span data-stu-id="34959-104">Set target utilization rates for each role.</span></span> <span data-ttu-id="34959-105">Estas definições determinam a disponibilidade e utilização dos recursos quando está a atribuir equipas aos projetos e a analisar os valores reais.</span><span class="sxs-lookup"><span data-stu-id="34959-105">These settings determine resource availability and utilization when you’re staffing projects and analyzing actuals.</span></span>  
+<span data-ttu-id="39594-104">Defina taxas de utilização alvo para cada função.</span><span class="sxs-lookup"><span data-stu-id="39594-104">Set target utilization rates for each role.</span></span> <span data-ttu-id="39594-105">Estas definições determinam a disponibilidade e utilização dos recursos quando está a atribuir equipas aos projetos e a analisar os valores reais.</span><span class="sxs-lookup"><span data-stu-id="39594-105">These settings determine resource availability and utilization when you’re staffing projects and analyzing actuals.</span></span>  
   
-1.  <span data-ttu-id="34959-106">Vá para a função do recurso para a qual pretende configurar a utilização (**Project Service > Função do Recurso**).</span><span class="sxs-lookup"><span data-stu-id="34959-106">Go to the resource role you want to configure the utilization for (**Project Service > Resource Role**).</span></span>  
+1.  <span data-ttu-id="39594-106">Vá para a função do recurso para a qual pretende configurar a utilização (**Project Service > Função do Recurso**).</span><span class="sxs-lookup"><span data-stu-id="39594-106">Go to the resource role you want to configure the utilization for (**Project Service > Resource Role**).</span></span>  
   
-2.  <span data-ttu-id="34959-107">Clique na seta para baixo junto à função do recurso na parte superior do ecrã.</span><span class="sxs-lookup"><span data-stu-id="34959-107">Click the down arrow next to the resource role at the top of the screen.</span></span>  
+2.  <span data-ttu-id="39594-107">Clique na seta para baixo junto à função do recurso na parte superior do ecrã.</span><span class="sxs-lookup"><span data-stu-id="39594-107">Click the down arrow next to the resource role at the top of the screen.</span></span>  
   
-3.  <span data-ttu-id="34959-108">Clique em **Utilização da Função**.</span><span class="sxs-lookup"><span data-stu-id="34959-108">Click **Role Utilization**.</span></span>  
+3.  <span data-ttu-id="39594-108">Clique em **Utilização da Função**.</span><span class="sxs-lookup"><span data-stu-id="39594-108">Click **Role Utilization**.</span></span>  
   
-4.  <span data-ttu-id="34959-109">Clique em **Adicionar Nova Utilização da Função**.</span><span class="sxs-lookup"><span data-stu-id="34959-109">Click **Add New Role Utilization**.</span></span>  
+4.  <span data-ttu-id="39594-109">Clique em **Adicionar Nova Utilização da Função**.</span><span class="sxs-lookup"><span data-stu-id="39594-109">Click **Add New Role Utilization**.</span></span>  
   
-5.  <span data-ttu-id="34959-110">Na área **Geral**, preencha os campos conforme for necessário.</span><span class="sxs-lookup"><span data-stu-id="34959-110">In the **General** area, fill in the fields as needed.</span></span>  
+5.  <span data-ttu-id="39594-110">Na área **Geral**, preencha os campos conforme for necessário.</span><span class="sxs-lookup"><span data-stu-id="39594-110">In the **General** area, fill in the fields as needed.</span></span>  
   
-6.  <span data-ttu-id="34959-111">Clique em **Guardar** ou em **Guardar e Fechar**.</span><span class="sxs-lookup"><span data-stu-id="34959-111">Click **Save** or **Save & Close**.</span></span>  
+6.  <span data-ttu-id="39594-111">Clique em **Guardar** ou em **Guardar e Fechar**.</span><span class="sxs-lookup"><span data-stu-id="39594-111">Click **Save** or **Save & Close**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="34959-112">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="34959-112">See Also</span></span>  
- [<span data-ttu-id="34959-113">Configurar recursos</span><span class="sxs-lookup"><span data-stu-id="34959-113">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="39594-112">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="39594-112">See Also</span></span>  
+ [<span data-ttu-id="39594-113">Configurar recursos</span><span class="sxs-lookup"><span data-stu-id="39594-113">Set up resources</span></span>](../psa/set-up-resources.md)

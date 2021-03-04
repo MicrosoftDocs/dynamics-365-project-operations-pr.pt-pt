@@ -18,76 +18,78 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2f13e66915a8e05ee3d314af065c03779582d5a4
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130396"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145552"
 ---
-# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="b3af0-103">Permitir que outra pessoa proceda à entrada de hora ou despesa (Project Service)</span><span class="sxs-lookup"><span data-stu-id="b3af0-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
+# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="b8a8a-103">Permitir que outra pessoa proceda à entrada de hora ou despesa (Project Service)</span><span class="sxs-lookup"><span data-stu-id="b8a8a-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="b3af0-104">Configure um delegado para permitir a outra pessoa criar entradas de hora ou despesa em seu nome no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="b3af0-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+<span data-ttu-id="b8a8a-104">Configure um delegado para permitir a outra pessoa criar entradas de hora ou despesa em seu nome no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="b8a8a-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
   
-## <a name="create-a-delegate"></a><span data-ttu-id="b3af0-105">Criar um delegado</span><span class="sxs-lookup"><span data-stu-id="b3af0-105">Create a delegate</span></span>  
+## <a name="create-a-delegate"></a><span data-ttu-id="b8a8a-105">Criar um delegado</span><span class="sxs-lookup"><span data-stu-id="b8a8a-105">Create a delegate</span></span>  
   
-1.  <span data-ttu-id="b3af0-106">No menu principal, clique em **Project Service** > **Delegações**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="b8a8a-106">No menu principal, clique em **Project Service** > **Delegações**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="b3af0-107">Na barra de comandos, clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-107">On the command bar, click **New**.</span></span>  
+2.  <span data-ttu-id="b8a8a-107">Na barra de comandos, clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-107">On the command bar, click **New**.</span></span>  
   
-3. <span data-ttu-id="b3af0-108">**Nome**: Introduza o nome para o registo.</span><span class="sxs-lookup"><span data-stu-id="b3af0-108">**Name**: Enter a name for the record.</span></span>  
+3. <span data-ttu-id="b8a8a-108">**Nome**: Introduza o nome para o registo.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-108">**Name**: Enter a name for the record.</span></span>  
   
-4. <span data-ttu-id="b3af0-109">**Tipo**: selecione se o delegado pode proceder à entrada de horas ou despesas em seu nome.</span><span class="sxs-lookup"><span data-stu-id="b3af0-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
+4. <span data-ttu-id="b8a8a-109">**Tipo**: selecione se o delegado pode proceder à entrada de horas ou despesas em seu nome.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
   
-5. <span data-ttu-id="b3af0-110">**Delegado**: selecione o nome da pessoa que pretende que seja o delegado.</span><span class="sxs-lookup"><span data-stu-id="b3af0-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
+5. <span data-ttu-id="b8a8a-110">**Delegado**: selecione o nome da pessoa que pretende que seja o delegado.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
   
-6. <span data-ttu-id="b3af0-111">**Dadas de início e de fim**: escolha as datas quando a delegação iniciar ou terminar.</span><span class="sxs-lookup"><span data-stu-id="b3af0-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
+6. <span data-ttu-id="b8a8a-111">**Dadas de início e de fim**: escolha as datas quando a delegação iniciar ou terminar.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
   
-7.  <span data-ttu-id="b3af0-112">Quando terminar, clique em **Guardar e Fechar**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-112">When you're done, click **Save & Close**.</span></span>  
+7.  <span data-ttu-id="b8a8a-112">Quando terminar, clique em **Guardar e Fechar**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-112">When you're done, click **Save & Close**.</span></span>  
   
-## <a name="turn-off-delegation"></a><span data-ttu-id="b3af0-113">Desativar delegação</span><span class="sxs-lookup"><span data-stu-id="b3af0-113">Turn off delegation</span></span>  
+## <a name="turn-off-delegation"></a><span data-ttu-id="b8a8a-113">Desativar delegação</span><span class="sxs-lookup"><span data-stu-id="b8a8a-113">Turn off delegation</span></span>  
   
-1.  <span data-ttu-id="b3af0-114">No menu principal, clique em **Project Service** > **Delegações**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="b8a8a-114">No menu principal, clique em **Project Service** > **Delegações**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="b3af0-115">Selecione o registo de delegação que pretende desativar.</span><span class="sxs-lookup"><span data-stu-id="b3af0-115">Select the delegation record you want to turn off.</span></span>  
+2.  <span data-ttu-id="b8a8a-115">Selecione o registo de delegação que pretende desativar.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-115">Select the delegation record you want to turn off.</span></span>  
   
-3.  <span data-ttu-id="b3af0-116">Na barra de comandos, clique em **Desativar**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-116">On the command bar, click **Deactivate**.</span></span>  
+3.  <span data-ttu-id="b8a8a-116">Na barra de comandos, clique em **Desativar**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-116">On the command bar, click **Deactivate**.</span></span>  
   
-4.  <span data-ttu-id="b3af0-117">Na caixa de diálogo **Confirmar Desativação**, clique em **Desativar**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
+4.  <span data-ttu-id="b8a8a-117">Na caixa de diálogo **Confirmar Desativação**, clique em **Desativar**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
   
-## <a name="enter-time-for-someone-else"></a><span data-ttu-id="b3af0-118">Introduzir horas para outra pessoa</span><span class="sxs-lookup"><span data-stu-id="b3af0-118">Enter time for someone else</span></span>  
+## <a name="enter-time-for-someone-else"></a><span data-ttu-id="b8a8a-118">Introduzir horas para outra pessoa</span><span class="sxs-lookup"><span data-stu-id="b8a8a-118">Enter time for someone else</span></span>  
   
-1.  <span data-ttu-id="b3af0-119">No menu principal, clique em **Project Service** > **Entradas de Hora**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
+1.  <span data-ttu-id="b8a8a-119">No menu principal, clique em **Project Service** > **Entradas de Hora**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
   
-2.  <span data-ttu-id="b3af0-120">Na barra de comandos, selecione o menu pendente **NOME DO RECURSO** e selecione o nome da pessoa para a qual está a introduzir horas.</span><span class="sxs-lookup"><span data-stu-id="b3af0-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
+2.  <span data-ttu-id="b8a8a-120">Na barra de comandos, selecione o menu pendente **NOME DO RECURSO** e selecione o nome da pessoa para a qual está a introduzir horas.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
   
-3.  <span data-ttu-id="b3af0-121">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-121">Click **OK**.</span></span>  
+3.  <span data-ttu-id="b8a8a-121">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-121">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="b3af0-122">É apresentado o calendário.</span><span class="sxs-lookup"><span data-stu-id="b3af0-122">This brings up the calendar.</span></span> <span data-ttu-id="b3af0-123">Para ver o calendário da semana anterior ou seguinte, clique em **Anterior** ou **Seguinte**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="b3af0-124">Clique em **Hoje** para voltar à semana atual.</span><span class="sxs-lookup"><span data-stu-id="b3af0-124">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="b8a8a-122">É apresentado o calendário.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-122">This brings up the calendar.</span></span> <span data-ttu-id="b8a8a-123">Para ver o calendário da semana anterior ou seguinte, clique em **Anterior** ou **Seguinte**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="b8a8a-124">Clique em **Hoje** para voltar à semana atual.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-124">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="b3af0-125">Para introduzir o tempo, clique em **Novo** ou faça duplo clique no calendário no dia em que pretende introduzir horas.</span><span class="sxs-lookup"><span data-stu-id="b3af0-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
+5.  <span data-ttu-id="b8a8a-125">Para introduzir o tempo, clique em **Novo** ou faça duplo clique no calendário no dia em que pretende introduzir horas.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
   
-6.  <span data-ttu-id="b3af0-126">Preencha os campos no formulário **Entrada de Hora** e clique em **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
+6.  <span data-ttu-id="b8a8a-126">Preencha os campos no formulário **Entrada de Hora** e clique em **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
   
-7.  <span data-ttu-id="b3af0-127">Continue a introduzir tempo para a semana.</span><span class="sxs-lookup"><span data-stu-id="b3af0-127">Continue entering time for the week.</span></span> <span data-ttu-id="b3af0-128">Quando terminar e tudo estiver correto, clique em **Submeter**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
+7.  <span data-ttu-id="b8a8a-127">Continue a introduzir tempo para a semana.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-127">Continue entering time for the week.</span></span> <span data-ttu-id="b8a8a-128">Quando terminar e tudo estiver correto, clique em **Submeter**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
   
-## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="b3af0-129">Introduzir despesas para outra pessoa</span><span class="sxs-lookup"><span data-stu-id="b3af0-129">Enter expenses for someone else</span></span>  
+## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="b8a8a-129">Introduzir despesas para outra pessoa</span><span class="sxs-lookup"><span data-stu-id="b8a8a-129">Enter expenses for someone else</span></span>  
   
-1.  <span data-ttu-id="b3af0-130">No menu principal, clique em **Project Service** > **Despesas**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
+1.  <span data-ttu-id="b8a8a-130">No menu principal, clique em **Project Service** > **Despesas**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
   
-2.  <span data-ttu-id="b3af0-131">Na barra de comandos, selecione o menu pendente **NOME DO RECURSO** e selecione o nome da pessoa para a qual está a introduzir despesas.</span><span class="sxs-lookup"><span data-stu-id="b3af0-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
+2.  <span data-ttu-id="b8a8a-131">Na barra de comandos, selecione o menu pendente **NOME DO RECURSO** e selecione o nome da pessoa para a qual está a introduzir despesas.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
   
-3.  <span data-ttu-id="b3af0-132">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-132">Click **OK**.</span></span>  
+3.  <span data-ttu-id="b8a8a-132">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-132">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="b3af0-133">Para ver o calendário da semana anterior ou seguinte, clique em **Anterior** ou **Seguinte**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="b3af0-134">Clique em **Hoje** para voltar à semana atual.</span><span class="sxs-lookup"><span data-stu-id="b3af0-134">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="b8a8a-133">Para ver o calendário da semana anterior ou seguinte, clique em **Anterior** ou **Seguinte**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="b8a8a-134">Clique em **Hoje** para voltar à semana atual.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-134">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="b3af0-135">Para introduzir uma despesa, clique em **Novo**</span><span class="sxs-lookup"><span data-stu-id="b3af0-135">To enter an expense, either click **New**</span></span>  
+5.  <span data-ttu-id="b8a8a-135">Para introduzir uma despesa, clique em **Novo**</span><span class="sxs-lookup"><span data-stu-id="b8a8a-135">To enter an expense, either click **New**</span></span>  
   
-6.  <span data-ttu-id="b3af0-136">Preencha os campos no formulário **Nova Despesa**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="b3af0-137">Também pode adicionar recibos.</span><span class="sxs-lookup"><span data-stu-id="b3af0-137">You can also add receipts.</span></span>  
+6.  <span data-ttu-id="b8a8a-136">Preencha os campos no formulário **Nova Despesa**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="b8a8a-137">Também pode adicionar recibos.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-137">You can also add receipts.</span></span>  
   
-7.  <span data-ttu-id="b3af0-138">Quando tiver terminado, clique em **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="b3af0-138">When you’re done, click **Save**.</span></span>  
+7.  <span data-ttu-id="b8a8a-138">Quando tiver terminado, clique em **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="b8a8a-138">When you’re done, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="b3af0-139">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="b3af0-139">See Also</span></span>  
- [<span data-ttu-id="b3af0-140">Guia de Tempo, Despesa e Colaboração</span><span class="sxs-lookup"><span data-stu-id="b3af0-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="b8a8a-139">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="b8a8a-139">See Also</span></span>  
+ [<span data-ttu-id="b8a8a-140">Guia de Tempo, Despesa e Colaboração</span><span class="sxs-lookup"><span data-stu-id="b8a8a-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
