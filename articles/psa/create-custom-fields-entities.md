@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082473"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144877"
 ---
 # <a name="create-custom-fields-and-entities"></a>Criar campos e entidades personalizados 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Conclua os seguintes passos sempre que pretender criar um conjunto de opções ou uma entidade personalizada na plataforma Power Apps.  
 Os procedimentos existentes neste tópico devem ser concluídos utilizando a interface Web do Project Service Automation (PSA).
@@ -64,7 +66,7 @@ Pode criar duas dimensões baseadas em conjuntos de opções. Utilize **Localiza
 Pode criar manualmente dados para as dimensões baseadas em entidades ou através da utilização de chamadas de importação ou de serviço do Microsoft Excel. Utilize os passos indicados neste procedimento para criar dois títulos padrão, o **Engenheiro de Sistemas** e o **Engenheiro de Sistemas Sénior** a partir da dimensão baseada em entidades, **Título Padrão**. Se os dados que pretende criar forem pequenos, como no exemplo seguinte, pode utilizar um formulário padrão.
 
 1. No PSA, clique em **Localização Avançada**. Selecione a entidade **Título Padrão** e, em seguida, clique em **Resultados**. Serão mostradas todas as linhas na entidade **Título Padrão**.
-2. Clique em **Novo**. No campo **Nome** , introduza "Engenheiro de Sistemas" e clique em **Guardar**.
+2. Clique em **Novo**. No campo **Nome**, introduza "Engenheiro de Sistemas" e clique em **Guardar**.
 3. Feche o formulário. 
 4. Repita os passos 1 a 3 para criar outro título padrão para o "Engenheiro de Sistemas Sénior".
 

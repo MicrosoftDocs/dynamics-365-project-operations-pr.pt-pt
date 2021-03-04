@@ -3,6 +3,7 @@ title: Ativar funcionalidades da aplicação Project Finder Mobile
 description: Como ativar funcionalidades da aplicação Project Finder Mobile no Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132977"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144562"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Ativar funcionalidades da aplicação Project Finder Mobile (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Os seus recursos podem utilizar a aplicação Project Finder Mobile no seu telemóvel com o [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para localizar novos projetos em que pretende trabalhar e atualizar os respetivos conjuntos de competências.  
   
  A aplicação está disponível para os telemóveis [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] e [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- É necessário especificar um par opções na definição dos parâmetros para a sua unidade organizacional para permitir aos utilizadores ver os requisitos do recurso dos projetos e atualizar as suas competências.  
+    
+ Para permitir aos utilizadores ver os requisitos do recurso do projeto e atualizar as suas competências, as opções devem ser selecionadas nas definições de parâmetros para a sua unidade organizacional.
   
 > [!NOTE]
 >  A aplicação Project Finder Mobile só funciona com o [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], não com instalações no local.  
@@ -57,8 +60,8 @@ Os seus recursos podem utilizar a aplicação Project Finder Mobile no seu telem
   
 |Destinatário|Evento|  
 |---------------|-----------|  
-|Gestor de projeto|- Quando um recurso se inscreve num projeto com a aplicação Project Finder Mobile.|  
-|Recurso|- Quando o trabalho do projeto em que o recurso se inscreveu já tiver sido concluída por outro recurso.<br />- Quando o pedido de aprovação da competência foi aprovado ou rejeitado.<br />- Quando o pedido de inscrição no projeto foi aprovado ou rejeitado.|  
+|Gestor de projeto|- Um recurso inscreve-se num projeto com a aplicação Project Finder Mobile.|  
+|Recurso|- O trabalho do projeto para os quais o recurso se inscreveu já tiver sido concluída por outro recurso.<br />- O pedido de aprovação da competência foi aprovado ou rejeitado.<br />- O pedido de inscrição no projeto foi aprovado ou rejeitado.|  
   
 ## <a name="privacy-notice"></a>Aviso de privacidade  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
