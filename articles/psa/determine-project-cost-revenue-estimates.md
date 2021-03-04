@@ -3,6 +3,7 @@ title: Determinar estimativas de receitas e custo do projeto
 description: Como determinar estimativas de receitas e custo do projeto no Project Service
 author: ruhercul
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133022"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148837"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Determinar estimativas de receitas e custo do projeto 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,9 +49,9 @@ Se a combinação de função e unidade organizacional não resultar num preço 
  Todas os montantes de custo nas linhas de estimativa de custos estão na moeda da unidade organizacional proprietária.  
   
 ## <a name="sales-price-defaulting"></a>Assumir o valor predefinido do preço venda  
-A lista de preços de venda baseia-se na entidade de vendas a que o projeto está anexado. A lista de preços de venda associada à proposta ou ao contrato determina o preço de venda unitário. Se a proposta ou o contrato tiver uma lista de preços personalizada, esta será a lista de preços de venda predefinida para as estimativas do projeto. Se não existir uma associação às entidades de venda, a lista de preços de venda predefinida nas definições dos parâmetros será a lista de preços de venda predefinida do projeto. Cada linha de estimativa tem uma unidade organizacional do recurso associada para indicar a unidade organizacional a partir da qual os recursos serão reservados para concluir a tarefa. O preço de venda para as funções associadas é determinado ao procurar a combinação de função, unidade e unidade organizacional do recurso na lista de preços de venda para obter o preço de venda correto para a data efetiva nas linhas de estimativa.  
+A lista de preços de venda baseia-se na entidade de vendas a que o projeto está anexado. A lista de preços de venda associada à proposta ou ao contrato determina o preço de venda unitário. Se a proposta ou o contrato tiver uma lista de preços personalizada, será a lista de preços de venda predefinida para as estimativas do projeto. Se não existir uma associação às entidades de venda, a lista de preços de venda predefinida nas definições dos parâmetros será a lista de preços de venda predefinida do projeto. Cada linha de estimativa tem uma unidade organizacional do recurso associada para indicar a unidade organizacional a partir da qual os recursos serão reservados para concluir a tarefa. O preço de venda para as funções associadas é determinado ao procurar a combinação de função, unidade e unidade organizacional do recurso na lista de preços de venda para obter o preço de venda correto para a data efetiva nas linhas de estimativa.  
   
-Se a combinação de função, unidade e unidade organizacional do recurso não resultar num preço de venda a partir da lista de preços de venda, o sistema irá ignorar a unidade e procurar a combinação de função e unidade organizacional do recurso. Se o preço de venda for encontrado, será convertido para a unidade escolhida na linha de estimativa de venda.  
+Se a combinação de função, unidade e unidade organizacional do recurso não resultar num preço de venda a partir da lista de preços de venda, o sistema irá ignorar a unidade e procurar a combinação de função e unidade organizacional do recurso. Se o preço de venda for encontrado, irá ser convertido para a unidade escolhida na linha de estimativa de venda.  
   
 Se o sistema não encontrar o preço para a função, o preço de venda tem de assumir por predefinição 0,00 na linha de estimativa.  
   
@@ -58,7 +61,7 @@ A vista de estimativas tem uma vista de grelha que apresenta uma grelha simples 
 Na vista faseada no tempo para as estimativas do projeto, os dados das estimativas da vista de grelha são articulados por predefinição por função e mostra a propagação dos dados de estimativa ao longo da linha cronológica na escala temporal.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Alocação de estimativas de esforço baseada no modo de tarefa  
-Na vista faseada no tempo, a estimativa de esforço total para a tarefa é distribuída através da alocação de determinado número de horas de esforço por período de tempo unitário da escala temporal escolhida. No Project Service, o modo de tarefa determina a forma como o esforço é alocado ao longo da duração da tarefa. Os dois tipos de alocação são alocação uniforme e alocação baseada nas horas de trabalho  
+Na vista faseada no tempo, a estimativa de esforço total para a tarefa é distribuída através da alocação de determinado número de horas de esforço por período de tempo unitário da escala temporal escolhida. No Project Service, o modo de tarefa determina a forma como o esforço é alocado ao longo da duração da tarefa. Os dois tipos de alocação são alocação uniforme e alocação baseada nas horas de trabalho. 
   
 ## <a name="work-hours-based-allocation"></a>Alocação baseada nas horas de trabalho  
 O modo de tarefa de agendamento automático para uma tarefa regula o facto de, para o número de recursos estimado na tarefa, serem estimados para serem utilizados durante as horas de trabalho completas por dia. Isto aplica-se ao alocar o esforço dividindo-o ao longo da duração das tarefas, também na vista faseada no tempo. Por exemplo, numa escala temporal ‘Dia’, como uma tarefa estimada para ser concluída por um recurso, o esforço alocado por dia não excederá as horas de trabalho por dia definidas no calendário do projeto. Consequentemente, a alocação do esforço assegura sempre que os recursos têm uma estimativa de utilização durante todo o dia.  
@@ -69,12 +72,12 @@ O modo de tarefa agendada manualmente não cumpre as horas de trabalho, o calend
 Desta forma, o modo de tarefa definido na tarefa determina a distribuição do esforço ou a alocação do esforço por período de tempo unitário nas estimativas faseadas no tempo.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Opções de agrupamento e faseamento no tempo  
-Esta vista ajuda a compreender a distribuição do esforço, do custo e das estimativas de venda baseadas no dia, semana, mês ou ano. A opção Agrupar Por permite articular os dados das estimativas em duas outras dimensões: categoria e recurso. Na vista de grelha e na vista faseada no tempo, poderá escolher os campos a apresentar. Os totais para cada um bloco de tempo são apresentados na parte inferior a indicar o total estimado do esforço, custo e vendas para o dia, a semana, o mês ou ano.  
+Esta vista ajuda a compreender a distribuição do esforço, do custo e das estimativas de venda baseadas no dia, semana, mês ou ano. A opção Agrupar Por permite articular os dados das estimativas em duas outras dimensões: categoria e recurso. Na vista de grelha e na vista faseada no tempo, poderá escolher os campos a apresentar. Os totais para cada um bloco de tempo são apresentados na parte inferior a indicar o total estimado do esforço, custo e vendas do dia, semana, mês ou ano.  
   
-A utilização da predefinição para o preço de venda e o custo acontece na data efetiva - quando as taxas para as funções são alteradas, será mais transparente na vista faseada no tempo, durante a visualização dos dados de estimativa articulados no ‘Recurso’ e faseados no tempo por semana.  
+O preço de custo e o preço de venda predefinidos são efetivos para a data. Quando as taxas para as funções são alteradas, será mais transparente na vista faseada no tempo, durante a visualização dos dados de estimativa articulados no ‘Recurso’ e faseados no tempo por semana.  
   
 ## <a name="expense-estimates"></a>Estimativas de despesas  
-Qualquer despesa que for incorrida no projeto que não esteja relacionada diretamente com o trabalho a efetuar pode ser registada nas estimativas do projeto na vista de grelha. Poderá fazê-lo através da opção **Adicionar estimativa de venda** na vista de grelha. As estimativas de venda podem ser registadas para uma tarefa específica ou para todo o projeto; pode escolher as categorias de despesa nestas linhas e escolher uma data provisória quando se espera que a despesa seja incorrida. Se o custo e a lista de preços de venda associados tiverem preços predefinidos, ou percentagens de margem de lucro definidas para as categorias de despesa, será assumido o valor por omissão na linha de estimativa ao efetuar a associação.  
+Qualquer despesa que for incorrida no projeto que não esteja relacionada diretamente com o trabalho a efetuar pode ser registada nas estimativas do projeto na vista de grelha. Poderá fazê-lo através da opção **Adicionar estimativa de venda** na vista de grelha. As estimativas de despesas podem ser registadas para uma tarefa específica ou para todo o projeto. Pode escolher categorias de despesas nestas linhas e escolher uma data provisória quando se espera que se incorra na despesa. Se o custo e a lista de preços de venda associados tiverem preços predefinidos, ou percentagens de margem de lucro definidas para as categorias de despesa, será assumido o valor por omissão na linha de estimativa ao efetuar a associação.  
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Projeto](../psa/project-manager-guide.md)

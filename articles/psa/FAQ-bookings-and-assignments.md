@@ -18,15 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0e4eea87bfb059a3c0be8ccbd2914a4d6c3cf46b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125018"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149962"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Reservas de recursos e como elas se relacionam com atribuições de tarefas
 
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Os recursos nomeados podem ser reservados para uma equipa do projeto e podem ter atribuídas tarefas de projeto de duas maneiras:
 
