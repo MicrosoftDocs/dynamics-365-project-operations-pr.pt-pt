@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novidades
       items:
+        - name: Março de 2021 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Fevereiro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: Janeiro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
@@ -318,52 +320,52 @@
       items:
         - name: Descrição geral da despesa
           href: expense/expense-overview.md
-        - name: Experiência de gestão de despesas para projetos
+        - name: Nova experiência de despesas
           items:
-            - name: Configuração
-              items:
-                - name: Definir políticas
-                  href: expense/set-up-policies.md
-                - name: Configurar fluxos de trabalho
-                  href: expense/set-up-workflows.md
-                - name: Gerir delegação
-                  href: expense/manage-delegation.md
-                - name: Configurar parâmetros de gestão de despesas
-                  href: expense/configure-expense-management-parameters.md
-                - name: Configurar integração de cartão de crédito
-                  href: expense/set-up-credit-card-integration.md
-                - name: Configurar categorias de despesas
-                  href: expense/set-up-expense-categories.md
-            - name: Trabalhar com despesas pessoais num relatório de despesas
-              href: expense/personal-expenses-expense-report.md
-            - name: Criar relatórios de despesas
-              items:
-                - name: Distribuições num relatório de despesas
-                  href: expense/distributions-expense-report.md
-            - name: Aprovar relatórios de despesas
-              items:
-                - name: Relatórios de despesas e vários aprovadores
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Publicar relatórios de despesas
-              href: expense/posting-expense-reports.md
-            - name: Requisição de viagens
-              href: expense/travel-requisition.md
-            - name: Adiantamento de tesouraria
-              href: expense/cash-advance.md
-            - name: Subsídios diários
-              href: expense/per-diems.md
-            - name: Gestão financeira
-              items:
-                - name: Recuperação de IVA
-                  href: expense/vat-recovery.md
-            - name: Nova experiência de despesas
-              items:
-                - name: Relatórios de despesas reinventados
-                  href: expense/expense-reports-reimagined.md
-                - name: Corresponder recibo à despesa com OCR
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Gestão de despesas móvel
-              href: expense/expense-using-mobile.md
+            - name: Relatórios de despesas reinventados
+              href: expense/expense-reports-reimagined.md
+            - name: Capturar um recibo com o OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Configuração
+          items:
+            - name: Configurar políticas
+              href: expense/set-up-policies.md
+            - name: Configurar fluxos de trabalho
+              href: expense/set-up-workflows.md
+            - name: Gerir delegação
+              href: expense/manage-delegation.md
+            - name: Configurar parâmetros de gestão de despesas
+              href: expense/configure-expense-management-parameters.md
+            - name: Configurar integração de cartão de crédito
+              href: expense/set-up-credit-card-integration.md
+            - name: Configurar categorias de despesas
+              href: expense/set-up-expense-categories.md
+        - name: Despesas pessoais
+          href: expense/personal-expenses-expense-report.md
+        - name: Despesas entre empresas
+          href: prod-exp/intercompany-expense.md
+        - name: Criar relatórios de despesas
+          items:
+            - name: Distribuições num relatório de despesas
+              href: expense/distributions-expense-report.md
+        - name: Aprovar relatórios de despesas
+          items:
+            - name: Relatórios de despesas e vários aprovadores
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Publicar relatórios de despesas
+          href: expense/posting-expense-reports.md
+        - name: Requisição de viagens
+          href: expense/travel-requisition.md
+        - name: Adiantamento de tesouraria
+          href: expense/cash-advance.md
+        - name: Subsídios diários
+          href: expense/per-diems.md
+        - name: Aplicação de despesas móvel
+          href: expense/expense-using-mobile.md
+        - name: Gestão financeira
+          items:
+            - name: Recuperação de IVA
+              href: expense/vat-recovery.md
     - name: Aprovações
       items:
         - name: Descrição geral das aprovações
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: Novidades
       items:
+        - name: Novidades de março de 2021 - implementação leve
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Novidades de fevereiro de 2021 - implementação leve
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: Novidades de janeiro de 2021 - implementação leve
@@ -894,44 +898,52 @@
   items:
     - name: Descrição geral da gestão de despesas
       href: prod-exp/expense-management.md
-    - name: Relatórios de despesas reinventados
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Gestão de despesas do plano
-      href: prod-exp/plan-expense-management.md
-    - name: Parâmetros de gestão de despesas
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Área de trabalho móvel de gestão de despesas
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Configurar fluxos de trabalho para a gestão de despesas
-      href: prod-exp/expense-workflows.md
-    - name: Fluxo de trabalho de gestão de despesas
-      href: prod-exp/expense-workflow.md
-    - name: Gerir delegação de despesas
-      href: prod-exp/manage-expense-delegation.md
-    - name: Processamento de recibos de despesas
-      href: prod-exp/expense-receipt-processing.md
-    - name: Importar e manter transações de cartões de crédito
-      href: prod-exp/import-credit-card.md
-    - name: Distribuições num relatório de despesas
-      href: prod-exp/expense-report-distributions.md
+    - name: Nova experiência de despesas
+      items:
+        - name: Relatórios de despesas reinventados
+          href: expense/expense-reports-reimagined.md
+        - name: Capturar um recibo com o OCR
+          href: expense/match-receipt-expense-ocr.md
+    - name: Configuração
+      items:
+        - name: Configurar políticas
+          href: expense/set-up-policies.md
+        - name: Configurar fluxos de trabalho
+          href: expense/set-up-workflows.md
+        - name: Gerir delegação
+          href: expense/manage-delegation.md
+        - name: Configurar parâmetros de gestão de despesas
+          href: expense/configure-expense-management-parameters.md
+        - name: Configurar integração de cartão de crédito
+          href: expense/set-up-credit-card-integration.md
+        - name: Configurar categorias de despesas
+          href: expense/set-up-expense-categories.md
+    - name: Despesas pessoais
+      href: expense/personal-expenses-expense-report.md
     - name: Despesas entre empresas
       href: prod-exp/intercompany-expense.md
-    - name: Definir políticas de despesas
-      href: prod-exp/travel-expense-policies.md
-    - name: Ver um relatório de despesas
-      href: prod-exp/view-expense-report.md
-    - name: Publicar um relatório de despesas
-      href: prod-exp/post-expense.md
-    - name: Relatórios de despesas e vários aprovadores
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: Recuperação do IVA na Gestão de despesas
-      href: prod-exp/VAT-expense-report.md
-    - name: Regras diárias
-      href: prod-exp/per-diem.md
-    - name: Requisições de viagens
-      href: prod-exp/travel-req.md
-    - name: Despesas pessoais num relatório de despesas
-      href: prod-exp/personal-expenses.md
+    - name: Criar relatórios de despesas
+      items:
+        - name: Distribuições num relatório de despesas
+          href: expense/distributions-expense-report.md
+    - name: Aprovar relatórios de despesas
+      items:
+        - name: Relatórios de despesas e vários aprovadores
+          href: expense/expense-reports-multiple-approvers.md
+    - name: Publicar relatórios de despesas
+      href: expense/posting-expense-reports.md
+    - name: Requisição de viagens
+      href: expense/travel-requisition.md
+    - name: Adiantamento de tesouraria
+      href: expense/cash-advance.md
+    - name: Subsídios diários
+      href: expense/per-diems.md
+    - name: Aplicação de despesas móvel
+      href: expense/expense-using-mobile.md
+    - name: Gestão financeira
+      items:
+        - name: Recuperação de IVA
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: Agenda da Atualização da Versão do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades e alterações na Atualização da Versão 29, V3'
+          href: psa/whats-new-ur-29.md
+        - name: 'Novidades e alterações na Atualização da Versão, Correção 28.6, V3'
+          href: psa/whats-new-ur-28-6.md
         - name: 'Novidades e alterações na Atualização da Versão, Correção 28.5, V3'
           href: psa/whats-new-ur-28-5.md
         - name: 'Novidades e alterações na Atualização da Versão 28, V3'
           href: psa/whats-new-ur-28.md
+        - name: 'Novidades e alterações na Atualização da Versão, Correção 27.6, V3'
+          href: psa/whats-new-ur-27-6.md
         - name: 'Novidades e alterações na Atualização da Versão, Correção 27.5, V3'
           href: psa/whats-new-ur-27-5.md
         - name: 'Novidades e alterações na Atualização da Versão 27, V3'
