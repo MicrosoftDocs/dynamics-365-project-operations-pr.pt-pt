@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131537"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286847"
 ---
 # <a name="maintain-team-members"></a>Manter membros da equipa
 
@@ -21,7 +21,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 Pode adicionar um recurso nomeado à sua equipa do projeto, reservando-o diretamente para a equipa.
 
-1. No Dynamics 365 Project Operations, vá para **Projetos** e selecione para abrir o projeto que está a reservar.
+1. No In Dynamics 365 Project Operations, aceda a **Projetos** e selecione para abrir o projeto que está a reservar.
 2. Na página **Projeto**, no separador **Equipa**, selecione **Novo**. 
 3. Na caixa de diálogo **Criação Rápida de Membro de Equipa do Projeto**, selecione o recurso reservável. O campo **Função** será preenchido com a função predefinida do recurso se tiver atribuído um. Pode alterar a função. 
 4. Selecione as datas de início e fim, em que o recurso será necessário e selecione o método de alocação da capacidade do recurso. 

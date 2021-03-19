@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131942"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287522"
 ---
 # <a name="configure-project-categories"></a>Configurar categorias do projeto
 
@@ -37,7 +37,7 @@ As categorias de transações são definidas no módulo Project Operations.
 
 ## <a name="shared-categories"></a>Categorias partilhadas
 
-O Dynamics 365 utiliza o conceito de Categorias partilhadas para categorizar as despesas em diferentes aplicações, como o Dynamics 365 Finance, Dynamics 365 Supply Chain e Dynamics 365 Project Operations. Para cada Categoria de transação criada, o Project Operations cria automaticamente quatro Categorias partilhadas relacionadas: Horas, Despesa, Taxas e Item. Pode rever e ajustar as categorias partilhadas em **Gestão de projetos e contabilística** \> **Configurar** \> **Categorias** \> **Categorias Partilhadas**.
+A Dynamics 365 utiliza o conceito de categorias Partilhadas para categorizar despesas em diferentes aplicações, tais como Dynamics 365 Finance, Dynamics 365 Supply Chain e Dynamics 365 Project Operations. Para cada Categoria de transação criada, o Project Operations cria automaticamente quatro Categorias partilhadas relacionadas: Horas, Despesa, Taxas e Item. Pode rever e ajustar as categorias partilhadas em **Gestão de projetos e contabilística** \> **Configurar** \> **Categorias** \> **Categorias Partilhadas**.
 
 ## <a name="project-categories"></a>Categorias do projeto
 

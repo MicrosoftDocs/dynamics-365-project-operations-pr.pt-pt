@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133416"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287252"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diário de integração no Project Operations
 
@@ -28,9 +28,9 @@ As entradas de tempo e despesas criam transações de **Valor Real** que represe
 Os registos na diário de Integração do Project Operations são criados através de um processo periódico, **Importar da tabela de teste**. Pode executar este processo indo a **Dynamics 365 Finance** > **Gestão de projetos e contabilística** > **Periódica** > **Integração do Project Operations** > **Importar da tabela de teste**. Pode executar o processo de forma interativa ou configurar o processo para ser executado em fundo, se necessário.
 
 Quando o processo periódico decorre, são encontrados quaisquer valores reais que ainda não foram adicionados ao diário de Integração do Project Operations. É criada uma linha do diário para cada transação real.
-O sistema agrupa linhas do diário em diários separados com base no valor selecionado no campo **Unidade de período no diário de Integração do Project Operations** (**Finance** > **Gestão de projetos e contabilística** > **Configuração** > **Parâmetros de gestão de projetos e contabilística**, Project Operations no separador **Dynamics 365 Customer Engagement** _). Os valores possíveis para este campo incluem:
+O sistema agrupa linhas do diário em diários separados com base no valor selecionado no campo **Unidade de período no diário de Integração do Project Operations** (**Finance** > **Gestão de projetos e contabilística** > **Configuração** > **Parâmetros de gestão de projetos e contabilística**, **Project Operations no separador Dynamics 365 Customer Engagement**). Os valores possíveis para este campo incluem:
 
-  - _*Dias**: Os valores reais são agrupados por data de transação. Um diário separado é criado para cada dia.
+  - **Dias**: Os valores reais são agrupados por data de transação. Um diário separado é criado para cada dia.
   - **Meses**: Os valores reais são agrupados por mês civil. Um diário separado é criado para cada mês.
   - **Anos**: Os valores reais são agrupados por ano civil. Um diário separado é criado para cada ano.
   - **Todas**: Todas as transações reais estão incluídas no mesmo diário de integração. Se o diário não estiver disponível quando o processo periódico for executado, por exemplo, se o diário estiver em processo de publicação de transações, é criado um novo diário.

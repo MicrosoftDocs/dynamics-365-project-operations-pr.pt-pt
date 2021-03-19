@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ea04178d4327ccd701ab431f172463a13a55154e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132392"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287612"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Configurar gestão contabilística para projetos internos
 
@@ -24,7 +24,7 @@ Os projetos internos permitem que as empresas monitorizem os custos relacionados
 - Desenvolver um produto, como uma aplicação móvel, e monitorizar o custo associado ao desenvolvimento.
 - Gerir o tempo e as despesas de pré-venda. Este projeto interno de pré-venda pode ser convertido mais tarde para um projeto faturável se a proposta for ganha.
 
-Qualquer projeto não associado a um contrato no Dynamics 365 Project Operations é tratado como interno. Os perfis de custos e receitas do projeto não são utilizados para determinar regras contabilísticas para o projeto. O custo interno do projeto é sempre publicado utilizando princípios de lucros e perdas. As contas de livro razão para publicações são definidas na página **Configuração de publicação do livro razão**.
+Qualquer projeto não associado a um contrato em Dynamics 365 Project Operations é tratado como interno. Os perfis de custos e receitas do projeto não são utilizados para determinar regras contabilísticas para o projeto. O custo interno do projeto é sempre publicado utilizando princípios de lucros e perdas. As contas de livro razão para publicações são definidas na página **Configuração de publicação do livro razão**.
 
 - As transações de tempo são publicadas debitando a conta **Custo** e creditando a conta **Alocação de folha de pagamentos**.
 - As transações de despesas são publicadas debitando a conta **Custo** e creditando a conta **Conta de desfasamento para despesas**.

@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287072"
 ---
 # <a name="expense-estimates"></a>Estimativas de despesas
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Juntamente com a definição das estimativas baseadas em recursos, o Dynamics 365 Project Operations permite aos Gestores de projetos definir despesas baseadas em projetos para cada projeto. Cada item de despesa pode ser associado a uma tarefa de projeto ou categoria de despesa específica. Normalmente, as categorias de despesas são definidas a nível organizacional. Normalmente, os preços para cada categoria de despesa são definidos na seguinte hierarquia:
+Juntamente com a definição de estimativas baseadas em recursos, o Dynamics 365 Project Operations permite que os gestores de projetos definam despesas baseadas em projetos para cada projeto. Cada item de despesa pode ser associado a uma tarefa de projeto ou categoria de despesa específica. Normalmente, as categorias de despesas são definidas a nível organizacional. Normalmente, os preços para cada categoria de despesa são definidos na seguinte hierarquia:
 
 - Organização
 - Cliente
