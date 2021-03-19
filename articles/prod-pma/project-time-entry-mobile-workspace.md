@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288888"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Área de trabalho móvel da entrada de hora do projeto
 
@@ -36,7 +36,7 @@ Esta área de trabalho móvel destina-se a ser utilizada com a aplicação móve
 ## <a name="overview"></a>Descrição Geral
 Como parte do seu trabalho diário, os recursos do projeto estão muitas vezes no local ou a viajar. A área de trabalho móvel **Entrada de hora do projeto** permite que os utilizadores introduzam as horas faturáveis ou não faturáveis para um projeto no dispositivo móvel à sua escolha. Por isso, os recursos do projeto podem registar entradas de hora a qualquer altura e em qualquer lugar. Também podem ver as entradas de hora que já foram registadas. 
 
-Especificamente, na área de trabalho móvel **Entrada de hora do projeto** , os utilizadores podem executar estas tarefas:
+Especificamente, na área de trabalho móvel **Entrada de hora do projeto**, os utilizadores podem executar estas tarefas:
 
 -   Para qualquer data selecionada, introduza o número de horas que gastou numa tarefa específica.
 -   Procure por nome de projeto ou cliente para localizar o projeto para o qual pretende introduzir horas.

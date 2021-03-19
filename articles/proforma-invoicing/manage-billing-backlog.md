@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122357"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287747"
 ---
 # <a name="manage-the-billing-backlog"></a>Gerir o registo de tarefas pendentes de faturação
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-O Dynamics 365 Project Operations tem duas vistas dedicadas para o ajudar a trabalhar e gerir as tarefas pendentes de faturação. São **Marcos de Preço Fixo** e **Tarefas Pendentes de Faturação de Tempo e Material** Para selecionar uma vista, na área **Vendas** do Project Operations, na página de navegação à esquerda, selecione **Faturação**. As ligações às tarefas pendentes de faturação estão guardadas lá.
+O Dynamics 365 Project Operations tem vistas duas dedicadas para ajudar a trabalhar e gerir o registo de tarefas pendentes de faturação. São **Marcos de Preço Fixo** e **Tarefas Pendentes de Faturação de Tempo e Material** Para selecionar uma vista, na área **Vendas** do Project Operations, na página de navegação à esquerda, selecione **Faturação**. As ligações às tarefas pendentes de faturação estão guardadas lá.
 
 ## <a name="fixed-price-milestones"></a>Marcos de Preço Fixo
 

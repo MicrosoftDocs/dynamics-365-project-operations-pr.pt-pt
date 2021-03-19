@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082384"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288663"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar funções em modelos de Estrutura hierárquica do trabalho
 
@@ -33,7 +33,7 @@ Os gestores de projetos podem configurar modelos de Estrutura hierárquica do tr
 
 1. Selecione **Gestão de projetos e contabilística** > **Configurar** > **Projetos** > **Modelos de estrutura hierárquica do trabalho**.
 2. Selecione **Detalhes** para um modelo de WBS selecionado.
-3. Selecione uma tarefa na lista e, em seguida, no campo **Função** , selecione uma função a atribuir à tarefa.
+3. Selecione uma tarefa na lista e, em seguida, no campo **Função**, selecione uma função a atribuir à tarefa.
 
 ## <a name="work-with-a-wbs"></a>Trabalhar com uma WBS
 
@@ -79,7 +79,7 @@ Foram adicionadas opções adicionais na WBS para melhorar a utilização da fun
 </tbody>
 </table>
 
-1. Na página **Todos os projetos** , selecione o projeto **Fase de Atualização 2 XYZ**.
+1. Na página **Todos os projetos**, selecione o projeto **Fase de Atualização 2 XYZ**.
 2. Selecione **Plano** > **Atividades** > **Estrutura hierárquica do trabalho**.
 3. Selecione **Novo** para adicionar as seguintes atividades de nível um à WBS:
 
@@ -93,20 +93,20 @@ Foram adicionadas opções adicionais na WBS para melhorar a utilização da fun
 
     [![Definir as datas e o esforço](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Selecione a linha da tarefa **A iniciar** e, em seguida, no campo **Função** , selecione **Gestor de Projetos Sénior**.
+5. Selecione a linha da tarefa **A iniciar** e, em seguida, no campo **Função**, selecione **Gestor de Projetos Sénior**.
 6. Selecione **Publicar**.
-7. Na mesma linha, no campo **Recursos** , selecione **Daniel Goldschmidt** e, em seguida, selecione **Aceitar**.
-8. Selecione a linha de tarefa **Planeamento** e, em seguida, no campo **Função** , selecione **Analista de negócios**.
+7. Na mesma linha, no campo **Recursos**, selecione **Daniel Goldschmidt** e, em seguida, selecione **Aceitar**.
+8. Selecione a linha de tarefa **Planeamento** e, em seguida, no campo **Função**, selecione **Analista de negócios**.
 9. Selecione **Publicar** e, em seguida, selecione **Gerar automaticamente a equipa**.
 10. Na caixa de mensagem apresentada, selecione **Sim**.
-11. No campo **Recursos** , verifique se o valor é **Analista de negócios 1**.
+11. No campo **Recursos**, verifique se o valor é **Analista de negócios 1**.
 12. Para o recurso **Analista de negócios 1** abra a pesquisa e selecione **Iniciar atribuições de recursos**. Em seguida, selecione um trabalhador para a tarefa.
 13. Selecione **Atribuição flexível** &gt; **Capacidade Total**.
 
     > [!NOTE] 
     > Não receberá um aviso de que o recurso especificado é agora 2, porque o número de recursos permanece 1.
 
-14. Na página **Estrutura hierárquica do trabalho** , valide a atribuição de recursos na WBS e selecione **Guardar**.
+14. Na página **Estrutura hierárquica do trabalho**, valide a atribuição de recursos na WBS e selecione **Guardar**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

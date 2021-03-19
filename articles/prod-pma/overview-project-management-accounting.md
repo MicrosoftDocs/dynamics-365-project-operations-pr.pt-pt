@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082547"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289788"
 ---
 # <a name="project-management-and-accounting-overview"></a>Descrição geral da gestão de projetos e contabilística
 
@@ -116,7 +116,7 @@ Pode criar seis tipos de projeto no Finance. Cada tipo de projeto é configurado
 
 ### <a name="assign-workers-categories-and-resources"></a>Atribuir trabalhadores, categorias e recursos
 
-Pode agendar os recursos dos trabalhadores baseado nos requisitos e na agenda de um projeto, ou nas competências e na disponibilidade dos trabalhadores. Ao utilizar as capacidades de agendamento de recursos, pode implementar os trabalhadores da sua organização de forma eficiente e eficaz. Poderá localizar rapidamente os trabalhadores mais qualificados que estão disponíveis para trabalhar no seu projeto. Também poderá ver facilmente como esses trabalhadores poderão ser utilizados de forma mais eficaz durante o projeto. 
+Pode agendar os recursos dos trabalhadores baseado nos requisitos e na agenda de um projeto, ou nas competências e na disponibilidade dos trabalhadores. Ao utilizar as capacidades de agendamento de recursos, pode implementar os trabalhadores da sua organização de forma eficiente e eficaz. Poderá localizar rapidamente os trabalhadores mais qualificados que estão disponíveis para trabalhar no seu projeto. Também poderá ver facilmente como esses trabalhadores poderão ser utilizados de forma mais eficaz durante o projeto. 
 
 Seguem-se algumas das formas de utilizar a funcionalidade de agendamento de recursos:
 
@@ -128,7 +128,7 @@ Seguem-se algumas das formas de utilizar a funcionalidade de agendamento de recu
 -   Modifique as atribuições de recursos para várias unidades de tempo, como dia, semana ou mês, para otimizar a forma como os trabalhadores são utilizados.
 
 ## <a name="execute-the-project"></a>Executar o projeto
-Durante a execução do projeto, os membros ou os gestores da equipa registam o trabalho e as despesas que incorridos, através de folhas de horas, relatórios de despesas e outros documentos empresariais. Os gestores de projetos têm ferramentas que lhes permitem monitorizar o consumo dos montantes orçamentados para o projeto. Os gestores de projetos também podem encomendar, escolher ou adquirir materiais para projetos através de notas de encomenda e outros documentos empresariais. As faturas são preparadas e aprovadas para os clientes poderem ser faturados para o trabalho em curso. Finalmente, as receitas são reconhecidas durante este processo para afetarem as finanças da organização.
+Durante a execução do projeto, os membros ou os gestores da equipa registam o trabalho e as despesas incorridos, através de folhas de horas, relatórios de despesas e outros documentos empresariais. Os gestores de projetos têm ferramentas que lhes permitem monitorizar o consumo dos montantes orçamentados para o projeto. Os gestores de projetos também podem encomendar, escolher ou adquirir materiais para projetos através de notas de encomenda e outros documentos empresariais. As faturas são preparadas e aprovadas para que os clientes possam ser faturados para o trabalho em curso. Finalmente, as receitas são reconhecidas durante este processo para afetarem as finanças da organização.
 
 ### <a name="manage-work-breakdown-structures"></a>Gerir estruturas hierárquicas do trabalho
 
@@ -205,13 +205,13 @@ Pode encomendar itens do inventário da empresa para consumo num projeto. Em alt
 
 A forma como encomenda itens depende de onde os encomenda:
 
--   Para encomendar itens do inventário da empresa, tem de inserir a encomenda como requisito de item. Se utilizar a página **Requisitos de item** , pode configurar o requisito para que receber os itens como entregas parciais. Assim, pode adiar o consumo de uma quantidade de itens até os itens serem necessários.
+-   Para encomendar itens do inventário da empresa, tem de inserir a encomenda como requisito de item. Se utilizar a página **Requisitos de item**, pode configurar o requisito para que receber os itens como entregas parciais. Assim, pode adiar o consumo de uma quantidade de itens até os itens serem necessários.
 -   Para encomendar itens a um fornecedor externo, tem de criar a encomenda como uma nota de encomenda na página **Nota de encomenda**.
 
 > [!NOTE] 
 > O recibo de entrega para uma ordem de venda relacionada com o projeto não pode ser cancelado se os itens já estiverem marcados para a embalagem. 
 
-A tabela seguinte lista os métodos para encomendar itens e descreve como os itens são consumidos.
+A tabela seguinte lista os métodos para encomendar itens e descreve como os itens são consumidos.
 
 | Método            | Objetivo                                                                                                                                                        | Consumo de transações de itens                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Para obter mais informações sobre como processar faturas de projeto, consulte 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular o custo para concluir um projeto
 
-Quando cria uma estimativa, pode escolher o método utilizado para calcular o custo para concluir o projeto. Selecione um método no campo **Método Custo para conclusão** na página **Criar estimativa**. O método que escolher é aplicado separadamente a cada linha de custo na estimativa de custo. Enquanto uma linha tiver o estado **Criado** , poderá alterar o método que lhe é aplicado na página **Estimativa de custo**. 
+Quando cria uma estimativa, pode escolher o método utilizado para calcular o custo para concluir o projeto. Selecione um método no campo **Método Custo para conclusão** na página **Criar estimativa**. O método que escolher é aplicado separadamente a cada linha de custo na estimativa de custo. Enquanto uma linha tiver o estado **Criado**, poderá alterar o método que lhe é aplicado na página **Estimativa de custo**. 
 
 A tabela seguinte descreve os métodos de cálculo do custo para a conclusão de um projeto.
 
@@ -300,22 +300,22 @@ Baseado na sua configuração, pode prever as entradas de caixa de um projeto se
 -   **Data do projeto:** 5 de março de 2012.
 -   **Data da fatura:** 31 de março de 2012. Esta data é determinada com base na frequência da fatura. Para este exemplo, defina a frequência da fatura para o mês atual. Assim, todas as transações que são lançadas no mês de março são faturadas no último dia do mês.
 -   **Data de vencimento:** 14 de abril de 2012. Esta data é determinada com base nos termos de pagamento que foram definidos para o projeto. Para este exemplo, selecionou as condições de pagamento de 14 dias. Assim, são adicionados 14 dias à data da fatura para chegar à data de vencimento de 14 de abril de 2012.
--   **Data de pagamento de vendas prevista:** 27 de abril de 2012. Esta data é calculada ao adicionar o número de dias no campo **Dias de reserva geral** na página **Parâmetros da Gestão de projetos e contabilística** ao número de dias no campo **Dias de reserva individual** na página **Contratos do projeto** e, em seguida, adicionar o total ao número de dias no campo **Data de vencimento**. Para este exemplo, introduziu **3** no campo **Dias de reserva geral** e **10** no campo **Dias de reserva individual**. Assim, são adicionados 13 dias à data de vencimento para chegar a uma data de pagamento esperada de 27 de abril de 2012.
+-   **Data de pagamento de vendas prevista:** 27 de abril de 2012. Esta data é calculada ao adicionar o número de dias no campo **Dias de reserva geral** na página **Parâmetros da Gestão de projetos e contabilística** ao número de dias no campo **Dias de reserva individual** na página **Contratos do projeto** e, em seguida, adicionar o total ao número de dias no campo **Data de vencimento**. Para este exemplo, introduziu **3** no campo **Dias de reserva geral** e **10** no campo **Dias de reserva individual**. Assim, são adicionados 13 dias à data de vencimento para chegar a uma data de pagamento esperada de 27 de abril de 2012.
 
 Os dias de reserva geral podem substituir os dias de reserva individual ou ser adicionados aos dias de reserva individual:
 
--   Para utilizar os dias de reserva geral como substituição dos dias de reserva individual, introduza o número médio de dias entre a data de vencimento e a data de pagamento real para os clientes.
--   Para adicionar os dias de reserva geral aos dias de reserva individual, no campo **Dias de reserva geral** , introduza a sua estimativa para o número de dias entre o dia em que o cliente envia o pagamento e o dia em que a sua organização recebe o pagamento.
+-   Para utilizar os dias de reserva geral como substituição dos dias de reserva individual, introduza o número médio de dias entre a data de vencimento e a data de pagamento real para os clientes.
+-   Para adicionar os dias de reserva geral aos dias de reserva individual, no campo **Dias de reserva geral**, introduza a sua estimativa para o número de dias entre o dia em que o cliente envia o pagamento e o dia em que a sua organização recebe o pagamento.
 
 Configure os dias de reserva individual no contrato do projeto. Os dias são calculados com base na data de vencimento da fatura de venda e na experiência da sua organização com o padrão de pagamento de um cliente.
 
 #### <a name="actual-cash-inflow"></a>Entrada de caixa real
 
-A entrada de caixa real assemelha-se à previsão, mas pode iniciar os seus cálculos a partir da primeira data da fatura. Segue-se um exemplo:
+A entrada de caixa real assemelha-se à previsão, mas pode iniciar os seus cálculos a partir da primeira data da fatura. Segue-se um exemplo:
 
 -   **Data da fatura:** 2 de março de 2012.
 -   **Data de vencimento:** 16 de março de 2012. Os termos de pagamento são definidas para 14 dias.
--   **Data de pagamento de vendas prevista:** 29 de março de 2012. O cálculo inclui três dias de reserva geral e 10 dias de reserva individual.
+-   **Data de pagamento de vendas prevista:** 29 de março de 2012. O cálculo inclui três dias de reserva geral e 10 dias de reserva individual.
 
 #### <a name="cost-forecasting"></a>Previsão de custos
 
@@ -323,9 +323,9 @@ Com base nos dias definidos, a data de pagamento do custo pode diferir da data d
 
 Por exemplo, a data do projeto da transação é 5 de março de 2012 e são definidos os seguintes termos de pagamento:
 
--   **Horas:** Mês atual ( **M** )
--   **Despesas:** 14 dias ( **D14** )
--   **Itens :** 30 dias ( **D30** )
+-   **Horas:** Mês atual (**M**)
+-   **Despesas:** 14 dias (**D14**)
+-   **Itens :** 30 dias (**D30**)
 
 Com base nestas definições, segue-se a data de pagamento do custo para cada tipo de transação:
 
@@ -364,14 +364,14 @@ Pode monitorizar os custos em que a sua organização incorre durante um projeto
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Ver os montantes orçamentados restantes
 
-Se **Orçamento restante** for selecionado como método de controlo de custos na página **Parâmetros da gestão de projetos e contabilística** , a página **Controlo de custos** calcula custos que não foram lançados como reais ou marcados como consolidados. Especificamente, os montantes no separador **Geral** no painel inferior da página **Controlo de custos** são calculados das seguintes formas:
+Se **Orçamento restante** for selecionado como método de controlo de custos na página **Parâmetros da gestão de projetos e contabilística**, a página **Controlo de custos** calcula custos que não foram lançados como reais ou marcados como consolidados. Especificamente, os montantes no separador **Geral** no painel inferior da página **Controlo de custos** são calculados das seguintes formas:
 
 -   **Custo real** – o montante total que foi gasto no projeto para a linha de custo selecionada. O montante real do custo é calculado na página **Atualizações do livro razão**.
 -   **Custo consolidado** – o montante adicional das despesas que a entidade jurídica se comprometeu a pagar. Os montantes dos custos consolidados específicos são calculados na página **Custos consolidados**.
 -   **Orçamento restante** – o montante do montante orçamentado original que ainda está disponível para a linha de custo selecionada. O montante orçamental restante é calculado na página **Pré-visualização do razão geral**.
 -   **Custo total** – a soma do custo real, custo consolidado e montantes orçamentais restantes.
 
-Na página **Controlo de custos** , no separador **Desvio** , pode ver uma comparação do custo total esperado com o orçamento original. Esta comparação mostra quaisquer diferenças entre estes montantes. Portanto, pode ver onde os dados não coincidem. Os montantes do desvio são calculados das seguintes formas:
+Na página **Controlo de custos**, no separador **Desvio**, pode ver uma comparação do custo total esperado com o orçamento original. Esta comparação mostra quaisquer diferenças entre estes montantes. Portanto, pode ver onde os dados não coincidem. Os montantes do desvio são calculados das seguintes formas:
 
 -   **Orçamento original** – o montante originalmente orçamentado para a linha de custo selecionada. O montante orçamental original é calculado na página **Pré-visualização do razão geral**.
 -   **Custo total** – a soma do custo real, custo comprometido e orçamento restante, conforme comunicado no separador **Geral**.
@@ -381,14 +381,14 @@ Na página **Controlo de custos** , no separador **Desvio** , pode ver uma compa
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Ver os montantes orçamentados totais
 
-Se **Orçamento total** for selecionado como método de controlo de custos na página **Parâmetros da gestão de projetos e contabilística** , a página **Controlo de custos** calcula os custos reais e os custos totais do projeto para o ajudar a detetar qualquer diferença entre os dois. Especificamente, na página **Controlo de custos** , os montantes nas colunas no painel inferior no separador **Geral** são calculados das seguintes formas:
+Se **Orçamento total** for selecionado como método de controlo de custos na página **Parâmetros da gestão de projetos e contabilística**, a página **Controlo de custos** calcula os custos reais e os custos totais do projeto para o ajudar a detetar qualquer diferença entre os dois. Especificamente, na página **Controlo de custos**, os montantes nas colunas no painel inferior no separador **Geral** são calculados das seguintes formas:
 
 -   **Custo total orçamentado** – o montante total orçamentado para a linha de custo selecionada.
 -   **Custo real** – o montante total dos custos que foram incorridos no projeto até à data para as linhas de custo selecionadas.
 -   **Custo consolidado** – o montante total que foi consolidado para a linha de custo selecionada.
 -   **Desvio** – a diferença entre a soma dos custos reais e consolidados, e o custo total. O desvio mostra se têm de ser especificados custos adicionais para o orçamento total.
 
-Na página **Controlo de custos** , no separador **Desvio** , pode ver a diferença entre o orçamento total e o orçamento original ao analisar os seguintes campos:
+Na página **Controlo de custos**, no separador **Desvio**, pode ver a diferença entre o orçamento total e o orçamento original ao analisar os seguintes campos:
 
 -   **Orçamento original** – o montante originalmente orçamentado para a linha de custo. O orçamento original é calculado na página **Pré-visualização do razão geral**.
 -   **Custo total orçamentado** – o custo total originalmente orçamentado para a linha de custo. O Custo total orçamentado é calculado na página **Pré-visualização do razão geral**.
@@ -398,7 +398,7 @@ Na página **Controlo de custos** , no separador **Desvio** , pode ver a diferen
 
 ### <a name="analyze-utilization"></a>Analisar a utilização
 
-A taxa de utilização é a percentagem de tempo em que um trabalhador realiza um trabalho faturado ou produtivo num período de trabalho específico. As horas faturáveis são as horas do trabalhador que podem ser cobradas a um cliente específico. 
+A taxa de utilização é a percentagem de tempo em que um trabalhador realiza um trabalho faturado ou produtivo num período de trabalho específico. As horas faturáveis são as horas do trabalhador que podem ser cobradas a um cliente específico. 
 
 A taxa de utilização de um trabalhador é calculada ao dividir o número de horas faturáveis pelo número de horas de trabalho num período específico. Por exemplo, se um trabalhador tiver 30 horas faturáveis num período, e o número de horas de trabalho no mesmo período for de 40, a taxa de utilização do trabalhador é de 75%. 
 
@@ -414,11 +414,11 @@ Calcule as taxas de utilização na página **Utilização de horas**. Os cálcu
 -   **De acordo com a propriedade da linha** – as propriedades da linha de uma transação de horas específica determinam se as horas são consideradas para a utilização faturável ou eficiente.
 -   **Não incluído** – as horas não contabilizadas para o cálculo da utilização faturável ou de eficiência.
 
-Na página **Utilização de horas** , para além da percentagem da taxa de utilização global para um trabalhador ou projeto, pode ver o número de horas que foram utilizadas para os cálculos da taxa de utilização para cada um dos seguintes tipos de horas:
+Na página **Utilização de horas**, para além da percentagem da taxa de utilização global para um trabalhador ou projeto, pode ver o número de horas que foram utilizadas para os cálculos da taxa de utilização para cada um dos seguintes tipos de horas:
 
 -   **Horas não incluídas** – estas horas não estão incluídas na taxa de utilização de horas.
 -   **Horas incluídas** – estas horas são calculadas ao adicionar as horas de utilização e as horas de carga. Estas horas são incluídas na taxa de utilização.
--   **Horas de carga** – se estiver a calcular uma taxa faturável, estas horas são as mesmas que as horas não cobráveis. Se estiver a calcular uma taxa de eficiência, estas horas são as mesmas que as horas não produtivas.
+-   **Horas de carga** – se estiver a calcular uma taxa faturável, estas horas são as mesmas que as horas não cobráveis. Se estiver a calcular uma taxa de eficiência, estas horas são as mesmas que as horas não produtivas.
 -   **Horas de utilização** – se estiver a calcular uma taxa faturável, estas horas são as mesmas que as horas cobráveis. Se estiver a calcular uma taxa de eficiência, estas horas são as mesmas que as horas produtivas.
 
 Quando calcula a taxa de utilização para um trabalhador, pode utilizar as horas normais ou as horas incluídas. Se utilizar as horas incluídas, terá de assegurar que os trabalhadores registam todo o respetivo tempo de trabalho nos períodos da folha de horas, porque o cálculo é expresso como uma percentagem das horas que são introduzidas. Quando calcula a taxa de utilização de horas para um projeto, contrato de projeto, registo de cliente ou categoria, tem de utilizar as horas incluídas para o seu cálculo.
@@ -432,7 +432,7 @@ Pode criar um extrato do projeto para ver um instantâneo rápida do progresso d
 -   Data do projeto/data do livro razão
 -   Dados
 
-Após o cálculo do extrato, pode ver as seguintes informações nos vários separadores na página **Extratos do projeto** :
+Após o cálculo do extrato, pode ver as seguintes informações nos vários separadores na página **Extratos do projeto**:
 
 -   **Geral** – informação geral sobre a estrutura básica de resultados do projeto.
 -   **Resultados** – informação sobre as receitas acumuladas.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082576"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288753"
 ---
 # <a name="set-up-project-resources"></a>Configurar recursos do projeto
 
@@ -37,11 +37,11 @@ Os seguintes procedimentos explicam como configurar um trabalhador como recurso 
 
 ## <a name="set-up-a-worker-as-a-project-resource"></a>Configurar um trabalhador como recurso do projeto
 
-1. Na página **Trabalhadores** , na lista **Trabalhadores** , selecione o trabalhador que está a adicionar como recurso do projeto e abra o registo do trabalhador.
+1. Na página **Trabalhadores**, na lista **Trabalhadores**, selecione o trabalhador que está a adicionar como recurso do projeto e abra o registo do trabalhador.
 2. No Painel de Ação, selecione **Projeto** &gt; **Configurar** &gt; **Configuração do projeto**.
 3. Selecione um calendário e, em seguida, feche a página.
 
-Também pode especificar projetos predefinidos para um recurso como um tipo de pré-atribuição. As pré-atribuições podem ser utilizadas quando o gestor de recursos ou o gestor de projetos sabe antecipadamente em que projetos o recurso irá trabalhar. As pré-atribuições também podem basear-se no pedido de um patrocinador ou cliente do projeto. Para pré-atribuir um projeto, na página **Atribuir projetos** , no separador **Projetos** , na lista **Projetos restantes** , selecione o projeto adequado.
+Também pode especificar projetos predefinidos para um recurso como um tipo de pré-atribuição. As pré-atribuições podem ser utilizadas quando o gestor de recursos ou o gestor de projetos sabe antecipadamente em que projetos o recurso irá trabalhar. As pré-atribuições também podem basear-se no pedido de um patrocinador ou cliente do projeto. Para pré-atribuir um projeto, na página **Atribuir projetos**, no separador **Projetos**, na lista **Projetos restantes**, selecione o projeto adequado.
 
 ## <a name="set-up-an-intercompany-resource"></a>Configurar um recurso entre empresas
 
@@ -50,16 +50,16 @@ Quando configura um trabalhador como um recurso entre empresas, tem de concluir 
 ### <a name="in-the-lending-company"></a>Na empresa prestadora
 
 1. No Finance, verifique se a empresa prestadora está selecionada e, em seguida, conclua o procedimento na secção anterior: "Configurar um trabalhador como recurso do projeto".
-2. Na página **Gestão contabilística entre empresas** , selecione **Novo**.
-3. No campo **ID da entidade jurídica** , selecione a empresa prestadora. Preencha os campos restantes conforme adequado e, em seguida, selecione **Guardar**.
-4. Na página **Preço de transferência** , selecione **Novo**.
-5. No campo **Entidade jurídica tomadora** , selecione a empresa adequada.
-6. Para emprestar à empresa tomadora apenas o recurso que criou no início desta secção, no campo **Recurso** , selecione o nome do recurso que criou. Para disponibilizar todos os recursos na empresa prestadora à empresa tomadora, deixe o campo **Recursos** em branco.
-7. Na página **Parâmetros da gestão de projetos e contabilística** , no separador **Entre empresas** , defina a opção **Ativar as folhas de horas e o agendamento de recursos entre empresas** para **Sim**.
+2. Na página **Gestão contabilística entre empresas**, selecione **Novo**.
+3. No campo **ID da entidade jurídica**, selecione a empresa prestadora. Preencha os campos restantes conforme adequado e, em seguida, selecione **Guardar**.
+4. Na página **Preço de transferência**, selecione **Novo**.
+5. No campo **Entidade jurídica tomadora**, selecione a empresa adequada.
+6. Para emprestar à empresa tomadora apenas o recurso que criou no início desta secção, no campo **Recurso**, selecione o nome do recurso que criou. Para disponibilizar todos os recursos na empresa prestadora à empresa tomadora, deixe o campo **Recursos** em branco.
+7. Na página **Parâmetros da gestão de projetos e contabilística**, no separador **Entre empresas**, defina a opção **Ativar as folhas de horas e o agendamento de recursos entre empresas** para **Sim**.
 
 ### <a name="in-the-borrowing-company"></a>Na empresa tomadora
 
-- Na página **Lista de recursos** , no filtro de pesquisa, insira o nome do recurso que criou para a empresa prestadora para verificar se o nome está incluído na lista de recursos da empresa tomadora.
+- Na página **Lista de recursos**, no filtro de pesquisa, insira o nome do recurso que criou para a empresa prestadora para verificar se o nome está incluído na lista de recursos da empresa tomadora.
 
 ## <a name="request-project-resources"></a>Pedir recursos de projeto
 A funcionalidade para o agendamento de recursos do projeto só permite que os gestores de recursos distribuam recursos com pessoal em compromissos ou projetos. Para ativar esta funcionalidade, execute as seguintes tarefas ou verifique se foram concluídas:

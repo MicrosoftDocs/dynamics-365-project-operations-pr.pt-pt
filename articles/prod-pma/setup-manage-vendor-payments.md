@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288617"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Configurar e utilizar pagamentos de fornecedor paga quando pago
 
@@ -49,27 +49,27 @@ Ao configurar os termos PWP para um projeto, deve especificar, em percentagem, o
 
 1. Vá para **Gestão de projetos e contabilística** \> **Projetos** \> **Todos os projetos**.
 2. Encontre e abra o projeto para o qual pretende configurar os termos PWP.
-3. No Separador Rápido **Contratos de fornecedor** , selecione **Adicionar linha**.
-3. No campo **Código da conta** , selecione uma das seguintes opções:
+3. No Separador Rápido **Contratos de fornecedor**, selecione **Adicionar linha**.
+3. No campo **Código da conta**, selecione uma das seguintes opções:
 
     - **Tabela** – Os termos PWP aplicam-se a um único fornecedor.
     - **Grupo** – Os termos PWP aplicam-se a todos os fornecedores de um grupo de fornecedores.
     - **Todos** – Os termos PWP aplicam-se a todos os fornecedores.
 
-4. Se selecionou **Tabela** ou **Grupo** no passo anterior, no campo **Fornecedor/Grupo de Fornecedores** , selecione o fornecedor ou grupo de fornecedores a que os termos PWP se aplicam. Se selecionou **Todos** no passo anterior, o campo **Fornecedor/Grupo de Fornecedores** não pode ser editado.
-5. Se forem configurados termos de sinal do fornecedor para o fornecedor no projeto, no campo **Termos de sinal do fornecedor** , selecione o ID da regra para os termos de sinal.
-6. No campo **Percentagens de limiar PWP** , introduza a percentagem de limiar para o projeto. A percentagem que inseriu para o projeto define o valor mínimo que o cliente deve pagar antes de pagar ao vendedor.
+4. Se selecionou **Tabela** ou **Grupo** no passo anterior, no campo **Fornecedor/Grupo de Fornecedores**, selecione o fornecedor ou grupo de fornecedores a que os termos PWP se aplicam. Se selecionou **Todos** no passo anterior, o campo **Fornecedor/Grupo de Fornecedores** não pode ser editado.
+5. Se forem configurados termos de sinal do fornecedor para o fornecedor no projeto, no campo **Termos de sinal do fornecedor**, selecione o ID da regra para os termos de sinal.
+6. No campo **Percentagens de limiar PWP**, introduza a percentagem de limiar para o projeto. A percentagem que inseriu para o projeto define o valor mínimo que o cliente deve pagar antes de pagar ao vendedor.
 
 ## <a name="create-a-po-that-has-pwp-terms"></a>Criar um NE que tenha termos PWP
 
 Quando publica uma fatura de um fornecedor, se o fornecedor estiver sujeito a termos PWP, esses termos são mostrados nas linhas da NE. Para criar uma NE que tenha termos PWP, siga estes passos.
 
 1. Vá à **Aprovisionamento e Fornecimento** \> **Notas de encomenda** \> **Todas as notas de encomenda**.
-2. No Painel de Ação, selecione **Novo**. Em seguida, na caixa de diálogo **Criar nota de encomenda** , introduza as informações necessárias e selecione **OK**.
+2. No Painel de Ação, selecione **Novo**. Em seguida, na caixa de diálogo **Criar nota de encomenda**, introduza as informações necessárias e selecione **OK**.
 
     Em alternativa, abra uma NE existente na página de lista **Todas as notas de encomenda**.
 
-4. Na página **Notas de encomendas** , no Separador Rápido **Linhas de notas de encomenda** , reveja os detalhes da linha de NE para o fornecedor. A opção **Paga quando pago** é selecionada automaticamente e o valor no campo **Percentagem de limiar PWP** é automaticamente copiado do campo **Percentagens de limiar PWP** na página **Projetos**.
+4. Na página **Notas de encomendas**, no Separador Rápido **Linhas de notas de encomenda**, reveja os detalhes da linha de NE para o fornecedor. A opção **Paga quando pago** é selecionada automaticamente e o valor no campo **Percentagem de limiar PWP** é automaticamente copiado do campo **Percentagens de limiar PWP** na página **Projetos**.
 6. Se não quiser aplicar os termos PWP ao fornecedor para uma linha de NE, limpe a opção **Paga quando pago**. Neste caso, o campo **Percentagens de limiar PWP** para a linha de NE será reposto para 0 (zero).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Atualize um pagamento do cliente e pague ao fornecedor
@@ -77,8 +77,8 @@ Quando publica uma fatura de um fornecedor, se o fornecedor estiver sujeito a te
 Quando um fornecedor conclui o seu trabalho num projeto e lhe envia uma fatura, deve rever o estado do projeto e as faturas dos clientes para determinar se os termos PWP foram cumpridos para o projeto. Se os termos PWP para o fornecedor forem cumpridos, pode determinar quais as linhas na fatura do fornecedor a pagar, com base nos pagamentos do cliente para o projeto. Se decidir pagar ao fornecedor mesmo que os termos PWP não tenham sido cumpridos, pode anular os termos PWP na página **Fatura do fornecedor com paga quando pago**.
 
 1. Vá à **Gestão de projetos e contabilística** \> **Inquéritos e relatórios** \> **Inquéritos de sinal** \> **Fatura de fornecedor com paga quando pago**.
-2. Na página **Faturas do fornecedor com paga quando pago** , no campo de pesquisa, introduza valores para encontrar a fatura do fornecedor que pretende rever e, em seguida, selecione **Pesquisar**.
-3. No Separador Rápido **Linhas de fatura do fornecedor** , selecione as linhas que pretende alterar.
+2. Na página **Faturas do fornecedor com paga quando pago**, no campo de pesquisa, introduza valores para encontrar a fatura do fornecedor que pretende rever e, em seguida, selecione **Pesquisar**.
+3. No Separador Rápido **Linhas de fatura do fornecedor**, selecione as linhas que pretende alterar.
 4. Se as condições **Paga quando pago** forem cumpridas para a linha de fatura, selecione **Libertar pagamento ao fornecedor**. A opção **Paga quando pago** é desselecionada e o valor do campo **Pronto para pagamento** é alterado para **Sim**.
 
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288843"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicação móvel Project Timesheet
 
@@ -68,15 +68,15 @@ Pode introduzir informações do projeto ao clicar na ação **Adicionar tempo**
 
 A informação do projeto que é apresentada depende dos parâmetros móveis que definiu na página **Parâmetros da gestão de projetos e contabilística**.
 
-No campo **Entidade jurídica** , selecione a entidade jurídica para a qual executou o trabalho do projeto. O campo **Entidade jurídica** está disponível apenas se foi ativado o suporte de folhas de horas entre empresas para a sua entidade jurídica.
+No campo **Entidade jurídica**, selecione a entidade jurídica para a qual executou o trabalho do projeto. O campo **Entidade jurídica** está disponível apenas se foi ativado o suporte de folhas de horas entre empresas para a sua entidade jurídica.
 
 Selecione o cliente que está associado ao projeto para a folha de horas. Para o lançamento inicial em Android, a entrada pelo cliente não é suportada, porque primeiro tem de selecionar o projeto. Se selecionou o projeto primeiro, o campo **Cliente** é preenchido automaticamente.
 
-No campo **Projeto** , selecione o projeto para o qual está a introduzir tempo. O campo **Cliente** é preenchido automaticamente.
+No campo **Projeto**, selecione o projeto para o qual está a introduzir tempo. O campo **Cliente** é preenchido automaticamente.
 
 As pesquisas de clientes e projetos permitem pesquisar tanto em clientes como em projetos.
 
-Selecione a informação nos campos **Categoria** , **Atividade** , **Propriedade da linha** , **Grupo de impostos sobre vendas** e **Grupo de impostos sobre vendas de itens** , conforme necessário. Estes campos podem ser substituídos.
+Selecione a informação nos campos **Categoria**, **Atividade**, **Propriedade da linha**, **Grupo de impostos sobre vendas** e **Grupo de impostos sobre vendas de itens**, conforme necessário. Estes campos podem ser substituídos.
 
 O campo **Propriedade da linha** será definido com um valor predefinido, baseado nos Parâmetros da Gestão de projetos e contabilística. Quando os parâmetros de projeto/categoria e categoria/recurso estão ativados, o valor **Propriedade da linha** será definido para o valor predefinido que definiu para esta validação. Quando os parâmetros de projeto/categoria e categoria/recurso não estão ativados, o valor **Propriedade da linha** assumirá como predefinição de acordo com o campo **Ativar propriedade da linha predefinida** na página **Parâmetros da gestão de projetos e contabilística**. O valor **Propriedade da linha** pode ser substituído.
 
@@ -95,7 +95,7 @@ Clique em **Enviar** para enviar a folha de horas para o fluxo de trabalho de ap
 
 ## <a name="review-timesheets"></a>Rever folhas de horas
 
-Está disponível no menu uma lista das folhas de horas que é necessário rever. Esta opção só está disponível se tiver sido designado como um aprovador do fluxo de trabalho. É suportada a aprovação do cabeçalho e da linha. A aprovação a nível da linha oferece a capacidade de marcar uma ou mais linhas para aprovação. Depois de rever as informações da folha de horas, clique em **Aprovar** , **Delegar** ou **Voltar** para prosseguir com o fluxo de trabalho.
+Está disponível no menu uma lista das folhas de horas que é necessário rever. Esta opção só está disponível se tiver sido designado como um aprovador do fluxo de trabalho. É suportada a aprovação do cabeçalho e da linha. A aprovação a nível da linha oferece a capacidade de marcar uma ou mais linhas para aprovação. Depois de rever as informações da folha de horas, clique em **Aprovar**, **Delegar** ou **Voltar** para prosseguir com o fluxo de trabalho.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

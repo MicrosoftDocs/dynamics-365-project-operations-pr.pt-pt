@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082535"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289563"
 ---
 # <a name="project-contracts"></a>Contratos de projeto
 
@@ -260,7 +260,7 @@ Pode configurar os seguintes tipos de regras de faturação:
 
 Para todos os tipos de regras de faturação, pode especificar uma percentagem de retenção que é deduzida das faturas do cliente até um projeto atingir uma fase acordada. A percentagem de retenção de pagamentos é especificada no contrato de projeto. O montante é calculado e é subtraído do valor total das linhas numa fatura do cliente. 
 
-Para as regras de faturação **Tempo e material** e **Progresso** , pode atribuir categorias faturáveis. As categorias faturáveis indicam as transações que devem ser incluídas nas faturas dos clientes. 
+Para as regras de faturação **Tempo e material** e **Progresso**, pode atribuir categorias faturáveis. As categorias faturáveis indicam as transações que devem ser incluídas nas faturas dos clientes. 
 
 Quando estiver pronto para faturar o cliente, o montante da faturação do projeto é calculado com base nas regras de faturação e é gerada uma proposta de fatura do projeto. 
 

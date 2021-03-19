@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082465"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289338"
 ---
 # <a name="microsoft-project-client-integration"></a>Integração com o Microsoft Project Client
 
@@ -42,7 +42,7 @@ Para ativar a integração com o Microsoft Project Client, é necessário instal
 •   Clique em **Abrir** e, em seguida, clique em **Executar** quando for solicitado.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Abrir e editar uma estrutura hierárquica do trabalho existente de rascunho no Microsoft Project Client
-Se um projeto no Dynamics 365 Finance já tiver uma estrutura hierárquica do trabalho criada, esta poderá ser aberta na aplicação Microsoft Project Client se a estrutura hierárquica do trabalho estiver no estado de rascunho. Para abrir a partir da página **Projeto** , clique na ligação **Abrir no Microsoft Project** a partir do separador **Plano**. Esta página também pode ser aberta a partir da aplicação Microsoft Project Client ao clicar em **Abrir** no separador **Microsoft Dynamics 365**. Selecione a **Entidade jurídica** e **Projeto** a partir da lista.
+Se um projeto no Dynamics 365 Finance já tiver uma estrutura hierárquica do trabalho criada, esta poderá ser aberta na aplicação Microsoft Project Client se a estrutura hierárquica do trabalho estiver no estado de rascunho. Para abrir a partir da página **Projeto**, clique na ligação **Abrir no Microsoft Project** a partir do separador **Plano**. Esta página também pode ser aberta a partir da aplicação Microsoft Project Client ao clicar em **Abrir** no separador **Microsoft Dynamics 365**. Selecione a **Entidade jurídica** e **Projeto** a partir da lista.
 
 > [!NOTE]
 > Se estiver a utilizar o Internet Explorer como browser, terá de clicar em **Guardar** para abrir manualmente a partir da localização para a qual o ficheiro foi transferido. Ou clique em **Guardar e abrir** para abrir o ficheiro no Microsoft Project Client. Não mude o nome do ficheiro ao guardar.
@@ -82,7 +82,7 @@ Para criar uma nova estrutura hierárquica do trabalho ao utilizar o Microsoft P
 
 1.  Abra o Microsoft Project Client.
 
-2.  No separador **Microsoft Dynamics 365** , clique em **Abrir**.
+2.  No separador **Microsoft Dynamics 365**, clique em **Abrir**.
 
 3.  Selecione a **Entidade jurídica** para o projeto.
 
@@ -99,7 +99,7 @@ Para criar uma nova estrutura hierárquica do trabalho ao utilizar o Microsoft P
 
 2.  Crie a agenda no Microsoft Project Client.
 
-3.  No separador **Microsoft Dynamics 365** , clique em **Guardar alterações** > **Substituir o projeto existente**.
+3.  No separador **Microsoft Dynamics 365**, clique em **Guardar alterações** > **Substituir o projeto existente**.
 
 4.  Selecione a **Entidade jurídica** para o projeto.
 
@@ -114,15 +114,15 @@ Para criar uma nova estrutura hierárquica do trabalho ao utilizar o Microsoft P
 
 2.  Crie a agenda no Microsoft Project Client.
 
-3.  No separador **Microsoft Dynamics 365** , clique em **Guardar alterações** > **Guardar no novo Projeto**.
+3.  No separador **Microsoft Dynamics 365**, clique em **Guardar alterações** > **Guardar no novo Projeto**.
 
 4.  Selecione a **Entidade jurídica** para o projeto.
 
-5.  Introduza o **ID de projeto** , se for necessário.
+5.  Introduza o **ID de projeto**, se for necessário.
 
 6.  Introduza o **Nome do projeto**.
 
-7.  Selecione o **Tipo de projeto** , **Grupo do projeto** e o **ID do contrato de projeto**. Em alternativa, pode criar um novo contrato de projeto ao clicar em **Novo**.
+7.  Selecione o **Tipo de projeto**, **Grupo do projeto** e o **ID do contrato de projeto**. Em alternativa, pode criar um novo contrato de projeto ao clicar em **Novo**.
 
 8.  Selecione o **Calendário** a utilizar para a atribuição de recursos.
 

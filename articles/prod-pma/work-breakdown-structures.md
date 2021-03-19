@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082379"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287972"
 ---
 # <a name="work-breakdown-structures-overview"></a>Descrição geral das estruturas hierárquicas do trabalho
 
@@ -49,8 +49,8 @@ Para criar uma WBS, tem de ser capaz de criar uma agenda de trabalho e estimar o
 Para utilizar todas as capacidades de agendamento das funcionalidades da WBS, execute a seguinte configuração:
 
 1.  Configure um calendário predefinido e um calendário de projeto:
-    1.  Clique em **Gestão de projetos e contabilística** &gt; **Configurar** &gt; **Parâmetros da gestão de projetos e contabilística** &gt; **Agendamento**. No campo **Calendário de trabalho predefinido** , especifique um calendário predefinido. Este será o calendário de trabalho predefinido para qualquer novo projeto que seja criado.
-    2.  Pode alterar o calendário predefinido para um projeto específico. Clique na página de detalhes do projeto e, em seguida, no Separador Rápido **Equipa do projeto e agendamento** , atualize o campo **Calendário de agendamento** ao selecionar outro calendário.
+    1.  Clique em **Gestão de projetos e contabilística** &gt; **Configurar** &gt; **Parâmetros da gestão de projetos e contabilística** &gt; **Agendamento**. No campo **Calendário de trabalho predefinido**, especifique um calendário predefinido. Este será o calendário de trabalho predefinido para qualquer novo projeto que seja criado.
+    2.  Pode alterar o calendário predefinido para um projeto específico. Clique na página de detalhes do projeto e, em seguida, no Separador Rápido **Equipa do projeto e agendamento**, atualize o campo **Calendário de agendamento** ao selecionar outro calendário.
 
 2.  Configure dias de trabalho padrão e o horário de trabalho. O calendário que definir como calendário de trabalho para o seu projeto será utilizado na WBS para determinar as seguintes informações:
 
@@ -89,7 +89,7 @@ Pode concluir as seguintes operações hierárquicas para permitir a criação d
 
 **Nova tarefa** Qualquer nova tarefa que criar é adicionada automaticamente sob o nó raiz e é atribuído automaticamente um número de WBS à tarefa. O número de WBS representa o nível da tarefa na hierarquia. Para as tarefas no primeiro nível sob a tarefa raiz do projeto, é utilizado um esquema de numeração de 1, 2, 3 e assim por diante. Para tarefas sob primeiro nível, é utilizado um esquema de numeração 1.1, 1.2, 1.3 e assim por diante. Para cada nível que é adicionado sob um nível anterior, é adicionada uma nova série de pontos de números. 
 
-Atualmente, não é possível personalizar a numeração da WBS. 
+Atualmente não é possível personalizar a numeração da WBS. 
 
 **Avançar tarefa** Quando avança uma tarefa, torna-se uma subordinada da tarefa que a antecede. O número da WBS da nova tarefa subordinada é recalculada automaticamente com base no número da WBS da nova principal. A tarefa principal é agora uma tarefa de resumo ou contentor, e torna-se uma acumulação das suas tarefas constituintes. 
 
@@ -98,11 +98,11 @@ Atualmente, não é possível personalizar a numeração da WBS.
 
 **Diminuir avanço da tarefa** Quando diminui o avanço de uma tarefa, já não é uma tarefa constituinte da sua principal. O número da WBS desta tarefa é recalculado automaticamente para refletir o novo nível da tarefa na hierarquia. O esforço, o custo e as datas da tarefa principal da tarefa anterior são recalculados para excluir essa tarefa. 
 
-**Mover para cima e Mover para baixo** Quando clica em **Mover para cima** e **Mover para baixo** , pode alterar a posição de uma tarefa na sua hierarquia principal. A posição de uma tarefa não afeta o esforço, o custo, as datas ou a duração da tarefa. No entanto, o número da WBS da tarefa é recalculado automaticamente para refletir a nova posição da tarefa.
+**Mover para cima e Mover para baixo** Quando clica em **Mover para cima** e **Mover para baixo**, pode alterar a posição de uma tarefa na sua hierarquia principal. A posição de uma tarefa não afeta o esforço, o custo, as datas ou a duração da tarefa. No entanto, o número da WBS da tarefa é recalculado automaticamente para refletir a nova posição da tarefa.
 
 ### <a name="schedule-estimation"></a>Estimativa da agenda
 
-Normalmente, a estimativa da agenda é o segundo passo na criação de uma WBS. Como melhor prática, deve concluir a estimativa da agenda depois de criar as tarefas. A página **estrutura hierárquica do trabalho** no Finance tem duas secções. O painel superior destina-se à estimativa da agenda e o painel inferior inclui um separador **Estimativa de custos e receitas** que pode utilizar na estimativa de custos. 
+Normalmente, a estimativa da agenda é o segundo passo na criação de uma WBS. Como melhor prática, deve concluir a estimativa da agenda depois de criar as tarefas. A página **estrutura hierárquica do trabalho** no Finance tem duas secções. O painel superior destina-se à estimativa da agenda e o painel inferior inclui um separador **Estimativa de custos e receitas** que pode utilizar na estimativa de custos. 
 **Dependências de tarefas** Numa WBS, pode criar uma relação antecessora entre tarefas. Quando atribui tarefas antecessoras a uma tarefa, essa tarefa só pode ser iniciada depois de todas as suas tarefas antecessoras terem sido concluídas. A data de início planeada da tarefa é definida automaticamente para a data mais recente de todas as suas antecessoras. 
 
 **Agendamento de tarefas** Os seguintes fatores determinam o agendamento das tarefas do nó de folha:
@@ -253,7 +253,7 @@ O Finance utiliza a regra de ganhos de 0:100 quando traça o valor ganho. Segund
 Quando o valor ganho é calculado, é considerada a percentagem de progresso de cada tarefa. Segundo a regra de ganhos de 0:100, só as tarefas que estão concluídas num determinado período são consideradas para o cálculo do valor ganho no final desse período. O valor ganho no projeto é calculado para todas as tarefas que foram concluídas quando o gráfico é criado. 
 
 > [!NOTE] 
-> Atualmente, o sistema para a monitorização da WBS não tem estruturas de dados para armazenar percentagens de progresso históricas em cada tarefa. Por isso, o valor ganho só pode ser comunicado a partir do momento em que o cubo é processado. Processe o cubo regularmente para atualizar os dados do valor ganho que são mostrados no Centro de Funções. 
+> Atualmente, o sistema para a monitorização da WBS não tem estruturas de dados para armazenar percentagens de progresso históricas em cada tarefa. Por isso, o valor ganho só pode ser comunicado a partir do momento em que o cubo é processado. Processe o cubo regularmente para atualizar os dados do valor ganho que são mostrados no Centro de Funções. 
 
 **Custo real** A EVM estabelece que a linha de custo real representa a taxa a que o dinheiro está a ser gasta no projeto. 
 

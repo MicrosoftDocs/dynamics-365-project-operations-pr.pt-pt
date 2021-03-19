@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128072"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287792"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Criar uma fatura pró-forma manual
 
@@ -30,7 +30,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 A faturação fornece aos gestores de projeto um segundo nível de aprovação antes de criarem faturas para os clientes. O primeiro nível de aprovação é concluído quando as entradas de tempo e de despesa que os membros da equipa do projeto submetem são aprovadas.
 
-As operações do Projeto do Dynamics 365 não foram concebidas para gerar faturas direcionadas para o cliente, pelas seguintes razões:
+O Dynamics 365 Project Operations não foi concebido para gerar faturas direcionadas para o cliente, pelas seguintes razões:
 
 - Não contém informações sobre impostos.
 - Não consegue converter outras moedas na moeda de faturação utilizando as taxas de câmbio configuradas corretamente.

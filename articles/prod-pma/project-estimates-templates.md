@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082532"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289473"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar estimativas do projetos diretamente do Project Service Automation para o Finance and Operations
 
@@ -82,7 +82,7 @@ No modelo de estimativas de horas do projeto, tem de utilizar o Microsoft Power 
 
 Para atualizar o ID de modelo de previsão predefinido no modelo, clique na seta **Mapear** para abrir o mapeamento. Em seguida, selecione a ligação **Consulta e Filtragem Avançadas**.
 
-- Se estiver a utilizar o modelo Estimativas de horas do projeto (PSA para Fin and Ops) predefinido, selecione a **Condição Inserida** na lista de **Passos Aplicados**. Na entrada **Função** , substitua **O\_forecast** pelo nome do ID de modelo de previsão que deve ser utilizado com a integração. O modelo predefinido tem um ID de modelo de previsão dos dados de demonstração.
+- Se estiver a utilizar o modelo Estimativas de horas do projeto (PSA para Fin and Ops) predefinido, selecione a **Condição Inserida** na lista de **Passos Aplicados**. Na entrada **Função**, substitua **O\_forecast** pelo nome do ID de modelo de previsão que deve ser utilizado com a integração. O modelo predefinido tem um ID de modelo de previsão dos dados de demonstração.
 - Se estiver a criar um novo modelo, tem de adicionar esta coluna. No Power Query, selecione **Adicionar Coluna Condicional** e introduza um nome para a nova coluna, como **ModelID**. Introduza a condição para a coluna, onde, se a tarefa do Projeto for não nula, então \<enter the forecast model ID\>; ou então nulo.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrar os registos específicos de recursos
@@ -143,7 +143,7 @@ O modelo Estimativas de despesa do projeto (PSA para Fin and Ops) tem um filtro 
 
 Para atualizar o ID de modelo de previsão predefinido no modelo, selecione a tarefa **Estimativas de despesas** e clique na seta **Mapear** para abrir o mapeamento. Selecione a ligação **Consulta e Filtragem Avançadas**.
 
-- Se estiver a utilizar o modelo Estimativas de despesa do projeto (PSA para Fin and Ops) predefinido, no Power Query, selecione a primeira **Condição Inserida** a partir da secção **Passos Aplicados**. Na entrada **Função** , substitua **O\_forecast** pelo nome do ID de modelo de previsão que deve ser utilizado com a integração. O modelo predefinido tem um ID de modelo de previsão dos dados de demonstração.
+- Se estiver a utilizar o modelo Estimativas de despesa do projeto (PSA para Fin and Ops) predefinido, no Power Query, selecione a primeira **Condição Inserida** a partir da secção **Passos Aplicados**. Na entrada **Função**, substitua **O\_forecast** pelo nome do ID de modelo de previsão que deve ser utilizado com a integração. O modelo predefinido tem um ID de modelo de previsão dos dados de demonstração.
 - Se estiver a criar um novo modelo, tem de adicionar esta coluna. No Power Query, selecione **Adicionar Coluna Condicional** e introduza um nome para a nova coluna, como **ModelID**. Introduza a condição para a coluna, onde, se o ID da linha de Estimativa for não nula, então \<enter the forecast model ID\>; ou então nulo.
 
 #### <a name="transform-the-billing-types"></a>Transformar os tipos de faturação

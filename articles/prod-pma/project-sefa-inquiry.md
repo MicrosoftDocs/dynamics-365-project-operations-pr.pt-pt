@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082388"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288978"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Inquérito da Agenda de Despesas de Inquérito de Prémios Federais
 
@@ -52,23 +52,23 @@ Tem de configurar os números CFDA que podem ser adicionados a concessões e inc
 
 1. Vá a **Gestão e contabilidade de projetos \> Configurar \> Concessões \> números de Catálogo de Apoio Nacional Federal**.
 2. Selecione **Novo** para criar um número CFDA.
-3. Na coluna **Número** , introduza o número CFDA.
+3. Na coluna **Número**, introduza o número CFDA.
 4. Prima a tecla **Tab**.
-5. Na coluna **Descrição** , introduza o título CFDA.
+5. Na coluna **Descrição**, introduza o título CFDA.
 6. Prima a tecla **Tab**.
-7. Opcional: No campo **Cluster do programa** , adicione o cluster CFDA apropriado.
+7. Opcional: No campo **Cluster do programa**, adicione o cluster CFDA apropriado.
 8. Selecione **Guardar** para guardar as alterações.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Configurar concessões para reportar para o inquérito de Agenda de Despesas de Prémios Federais
 
-1. Vá a **Gestão e contabilidade de projetos \> Concessões \> Concessões** , e selecione uma concessão existente.
-2. No Separador Rápido **Configuração** , no campo **Catálogo de Assistência Doméstica Federal** , atribua o número CFDA. O número do CFDA na concessão determina o cluster CFDA a reportar.
-3. No Separador Rápido **Informações de contacto** , insira as informações do concessor seguindo estes passos:
+1. Vá a **Gestão e contabilidade de projetos \> Concessões \> Concessões**, e selecione uma concessão existente.
+2. No Separador Rápido **Configuração**, no campo **Catálogo de Assistência Doméstica Federal**, atribua o número CFDA. O número do CFDA na concessão determina o cluster CFDA a reportar.
+3. No Separador Rápido **Informações de contacto**, insira as informações do concessor seguindo estes passos:
 
-    1. No campo **Cliente da concessão** , insira o cliente responsável pela concessão. Para uma concessão existente, estas informações podem já estar inseridas.
+    1. No campo **Cliente da concessão**, insira o cliente responsável pela concessão. Para uma concessão existente, estas informações podem já estar inseridas.
     2. Indique se o cliente da concessão é o financiador. Se o cliente de concessão for o financiador, deixe a caixa de verificação **Pass-through** por selecionar. Se outro cliente for o financiador, e o cliente da concessão for responsável por gastar e monitorizar o dinheiro, selecione a caixa de verificação **Pass-through**.
 
-4. Se selecionou a caixa de verificação **Pass-through** no passo anterior, no campo **Agência concessora** , insira o cliente que forneceu a concessão. A agência concessora e o cliente não podem ser o mesmo cliente.
+4. Se selecionou a caixa de verificação **Pass-through** no passo anterior, no campo **Agência concessora**, insira o cliente que forneceu a concessão. A agência concessora e o cliente não podem ser o mesmo cliente.
 
 Aqui está um exemplo de uma concessão pass-through:
 
@@ -79,16 +79,16 @@ O governo federal financiou um projeto de infraestrutura para um estado. O gover
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Excluir concessões de relatórios SEFA com base no tipo de concessão
 
-1. Vá para **Gestão e contabilidade de projetos \> Configurar \> Concessões \> Tipos de concessão**.
-2. No Separador Rápido **Informações predefinidas** , selecione a caixa de verificação **Excluir da Agenda de Despesas de Prémios Federais**.
+1. Vá para **Gestão e contabilidade de projetos \> Configurar \> Concessões \> Tipos de concessão**.
+2. No Separador Rápido **Informações predefinidas**, selecione a caixa de verificação **Excluir da Agenda de Despesas de Prémios Federais**.
 3. Selecione **Guardar** para guardar as alterações.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Execute o inquérito da Agenda de Despesas de Inquérito de Prémios Federais
 
 1. Vá à **Gestão e contabilidade de projetos \> Inquéritos e relatórios \> Inquérito de concessão \> Agenda de Despesas de Prémios Federais**.
-2. Na secção **Parâmetros** , siga estes passos:
+2. Na secção **Parâmetros**, siga estes passos:
 
-    1. No campo **Intervalo de datas** , selecione o código para o intervalo de datas. Alternativamente, nos campos **De data** e **Até data** , defina o intervalo de datas.
+    1. No campo **Intervalo de datas**, selecione o código para o intervalo de datas. Alternativamente, nos campos **De data** e **Até data**, defina o intervalo de datas.
     2. Opcional: Para incluir apenas as transações faturadas como receita no inquérito, defina a opção **Incluir apenas receitas faturadas** como **Sim**.
 
 ## <a name="columns"></a>colunas
