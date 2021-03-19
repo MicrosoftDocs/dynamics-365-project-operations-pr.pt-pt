@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5f3f5d196e0d7db4a6d8c4cfe834a335f4ef737c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082392"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289203"
 ---
-# <a name="purchase-orders-for-a-project"></a><span data-ttu-id="d3f4e-104">Notas de encomenda para um projeto</span><span class="sxs-lookup"><span data-stu-id="d3f4e-104">Purchase orders for a project</span></span>
+# <a name="purchase-orders-for-a-project"></a><span data-ttu-id="2d307-104">Notas de encomenda para um projeto</span><span class="sxs-lookup"><span data-stu-id="2d307-104">Purchase orders for a project</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d3f4e-105">Este artigo descreve os vários métodos que pode utilizar para criar notas de encomenda para um projeto.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-105">This article describes the various methods that you can use to create purchase orders for a project.</span></span> <span data-ttu-id="d3f4e-106">O método que utilizar depende do objetivo da nota de encomenda e quando os itens são consumidos e cobrados a um projeto.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-106">The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.</span></span>
+<span data-ttu-id="2d307-105">Este artigo descreve os vários métodos que pode utilizar para criar notas de encomenda para um projeto.</span><span class="sxs-lookup"><span data-stu-id="2d307-105">This article describes the various methods that you can use to create purchase orders for a project.</span></span> <span data-ttu-id="2d307-106">O método que utilizar depende do objetivo da nota de encomenda e quando os itens são consumidos e cobrados a um projeto.</span><span class="sxs-lookup"><span data-stu-id="2d307-106">The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.</span></span>
 
-### <a name="methods-for-creating-a-purchase-order"></a><span data-ttu-id="d3f4e-107">Métodos para criar uma nota de encomenda</span><span class="sxs-lookup"><span data-stu-id="d3f4e-107">Methods for creating a purchase order</span></span>
+### <a name="methods-for-creating-a-purchase-order"></a><span data-ttu-id="2d307-107">Métodos para criar uma nota de encomenda</span><span class="sxs-lookup"><span data-stu-id="2d307-107">Methods for creating a purchase order</span></span>
 
-<span data-ttu-id="d3f4e-108">Pode utilizar um dos seguintes métodos para criar uma nota de encomenda em Gestão de projetos e contabilística.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-108">You can use one of the following methods to create a purchase order in Project management and accounting.</span></span> <span data-ttu-id="d3f4e-109">O objetivo da nota de encomenda é determinar quando nota de encomenda é consumida e, portanto, quando os itens são cobrados a um projeto.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-109">The purpose of the purchase order determines when the purchase order is consumed and, therefore, when items are charged to a project.</span></span>
+<span data-ttu-id="2d307-108">Pode utilizar um dos seguintes métodos para criar uma nota de encomenda em Gestão de projetos e contabilística.</span><span class="sxs-lookup"><span data-stu-id="2d307-108">You can use one of the following methods to create a purchase order in Project management and accounting.</span></span> <span data-ttu-id="2d307-109">O objetivo da nota de encomenda é determinar quando nota de encomenda é consumida e, portanto, quando os itens são cobrados a um projeto.</span><span class="sxs-lookup"><span data-stu-id="2d307-109">The purpose of the purchase order determines when the purchase order is consumed and, therefore, when items are charged to a project.</span></span>
 
 <table>
 <colgroup>
@@ -43,36 +43,39 @@ ms.locfileid: "4082392"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d3f4e-110">Método</span><span class="sxs-lookup"><span data-stu-id="d3f4e-110">Method</span></span></th>
-<th><span data-ttu-id="d3f4e-111">Objetivo</span><span class="sxs-lookup"><span data-stu-id="d3f4e-111">Purpose</span></span></th>
-<th><span data-ttu-id="d3f4e-112">Consumo de itens</span><span class="sxs-lookup"><span data-stu-id="d3f4e-112">Consumption of items</span></span></th>
+<th><span data-ttu-id="2d307-110">Método</span><span class="sxs-lookup"><span data-stu-id="2d307-110">Method</span></span></th>
+<th><span data-ttu-id="2d307-111">Objetivo</span><span class="sxs-lookup"><span data-stu-id="2d307-111">Purpose</span></span></th>
+<th><span data-ttu-id="2d307-112">Consumo de itens</span><span class="sxs-lookup"><span data-stu-id="2d307-112">Consumption of items</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="d3f4e-113">Crie uma nota de encomenda diretamente a partir de um projeto.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-113">Create a purchase order directly from a project.</span></span></td>
-<td><span data-ttu-id="d3f4e-114">Utilize este método para comprar itens a um fornecedor externo para consumo num projeto.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-114">Use this method to purchase items from an external vendor for consumption on a project.</span></span> <span data-ttu-id="d3f4e-115">Pode criar a nota de encomenda de duas formas:</span><span class="sxs-lookup"><span data-stu-id="d3f4e-115">You can create the purchase order in two ways:</span></span>
+<td><span data-ttu-id="2d307-113">Crie uma nota de encomenda diretamente a partir de um projeto.</span><span class="sxs-lookup"><span data-stu-id="2d307-113">Create a purchase order directly from a project.</span></span></td>
+<td><span data-ttu-id="2d307-114">Utilize este método para comprar itens a um fornecedor externo para consumo num projeto.</span><span class="sxs-lookup"><span data-stu-id="2d307-114">Use this method to purchase items from an external vendor for consumption on a project.</span></span> <span data-ttu-id="2d307-115">Pode criar a nota de encomenda de duas formas:</span><span class="sxs-lookup"><span data-stu-id="2d307-115">You can create the purchase order in two ways:</span></span>
 <ul>
-<li><span data-ttu-id="d3f4e-116">A partir do próprio projeto.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-116">From the project itself.</span></span> <span data-ttu-id="d3f4e-117">Neste caso, o projeto já está definido para a nota de encomenda.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-117">In this case, the project is already defined for the purchase order.</span></span></li>
-<li><span data-ttu-id="d3f4e-118">Ao navegar para a nota de encomenda do projeto.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-118">By navigating to the project purchase order.</span></span> <span data-ttu-id="d3f4e-119">Tem de selecionar o fornecedor e o projeto para o qual pretende criar a nota de encomenda.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-119">You must select both the vendor and the project to create the purchase order for.</span></span></li>
+<li><span data-ttu-id="2d307-116">A partir do próprio projeto.</span><span class="sxs-lookup"><span data-stu-id="2d307-116">From the project itself.</span></span> <span data-ttu-id="2d307-117">Neste caso, o projeto já está definido para a nota de encomenda.</span><span class="sxs-lookup"><span data-stu-id="2d307-117">In this case, the project is already defined for the purchase order.</span></span></li>
+<li><span data-ttu-id="2d307-118">Ao navegar para a nota de encomenda do projeto.</span><span class="sxs-lookup"><span data-stu-id="2d307-118">By navigating to the project purchase order.</span></span> <span data-ttu-id="2d307-119">Tem de selecionar o fornecedor e o projeto para o qual pretende criar a nota de encomenda.</span><span class="sxs-lookup"><span data-stu-id="2d307-119">You must select both the vendor and the project to create the purchase order for.</span></span></li>
 </ul></td>
-<td><span data-ttu-id="d3f4e-120">Os itens são consumidos quando a fatura do fornecedor é atualizada.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-120">Items are consumed when the vendor invoice is updated.</span></span></td>
+<td><span data-ttu-id="2d307-120">Os itens são consumidos quando a fatura do fornecedor é atualizada.</span><span class="sxs-lookup"><span data-stu-id="2d307-120">Items are consumed when the vendor invoice is updated.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="d3f4e-121">Crie uma nota de encomenda a partir de uma nota de encomenda.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-121">Create a purchase order from a sales order.</span></span></td>
-<td><span data-ttu-id="d3f4e-122">Utilize este método para comprar itens quando criar uma ordem de venda a partir de um projeto.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-122">Use this method to purchase items when you create a sales order from a project.</span></span></td>
-<td><span data-ttu-id="d3f4e-123">Os itens são consumidos quando a ordem de venda é faturada ao cliente.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-123">Items are consumed when the sales order is invoiced to the customer.</span></span></td>
+<td><span data-ttu-id="2d307-121">Crie uma nota de encomenda a partir de uma nota de encomenda.</span><span class="sxs-lookup"><span data-stu-id="2d307-121">Create a purchase order from a sales order.</span></span></td>
+<td><span data-ttu-id="2d307-122">Utilize este método para comprar itens quando criar uma ordem de venda a partir de um projeto.</span><span class="sxs-lookup"><span data-stu-id="2d307-122">Use this method to purchase items when you create a sales order from a project.</span></span></td>
+<td><span data-ttu-id="2d307-123">Os itens são consumidos quando a ordem de venda é faturada ao cliente.</span><span class="sxs-lookup"><span data-stu-id="2d307-123">Items are consumed when the sales order is invoiced to the customer.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="d3f4e-124">Crie uma nota de encomenda a partir de um requisito de item.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-124">Create a purchase order from an item requirement.</span></span></td>
-<td><span data-ttu-id="d3f4e-125">Utilize este método para comprar itens quando criar um requisito de item a partir de um projeto.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-125">Use this method to purchase items when you create an item requirement from a project.</span></span></td>
-<td><span data-ttu-id="d3f4e-126">Os itens são consumidos quando o recibo de entrega do requisito de item é atualizado.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-126">Items are consumed when the item requirement packing slip is updated.</span></span></td>
+<td><span data-ttu-id="2d307-124">Crie uma nota de encomenda a partir de um requisito de item.</span><span class="sxs-lookup"><span data-stu-id="2d307-124">Create a purchase order from an item requirement.</span></span></td>
+<td><span data-ttu-id="2d307-125">Utilize este método para comprar itens quando criar um requisito de item a partir de um projeto.</span><span class="sxs-lookup"><span data-stu-id="2d307-125">Use this method to purchase items when you create an item requirement from a project.</span></span></td>
+<td><span data-ttu-id="2d307-126">Os itens são consumidos quando o recibo de entrega do requisito de item é atualizado.</span><span class="sxs-lookup"><span data-stu-id="2d307-126">Items are consumed when the item requirement packing slip is updated.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE] 
-> <span data-ttu-id="d3f4e-127">Quando atualiza a fatura do fornecedor ou o recibo de entrega, é-lhe solicitado que atualize o recibo de entrega no requisito de item.</span><span class="sxs-lookup"><span data-stu-id="d3f4e-127">When you update the vendor invoice or packing slip, you're prompted to update the packing slip on the item requirement.</span></span>
+> <span data-ttu-id="2d307-127">Quando atualiza a fatura do fornecedor ou o recibo de entrega, é-lhe solicitado que atualize o recibo de entrega no requisito de item.</span><span class="sxs-lookup"><span data-stu-id="2d307-127">When you update the vendor invoice or packing slip, you're prompted to update the packing slip on the item requirement.</span></span>
 
-<span data-ttu-id="d3f4e-128">Para mais informações, consulte [Receber itens na nota de encomenda a partir do requisito do item](tasks/receive-items-purchase-order-item-requirement.md).</span><span class="sxs-lookup"><span data-stu-id="d3f4e-128">For more information, see [Receive items on purchase order from item requirement](tasks/receive-items-purchase-order-item-requirement.md).</span></span>
+<span data-ttu-id="2d307-128">Para mais informações, consulte [Receber itens na nota de encomenda a partir do requisito do item](tasks/receive-items-purchase-order-item-requirement.md).</span><span class="sxs-lookup"><span data-stu-id="2d307-128">For more information, see [Receive items on purchase order from item requirement](tasks/receive-items-purchase-order-item-requirement.md).</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
