@@ -1,6 +1,6 @@
 ---
 title: Valores Reais
-description: Este tópico fornece informações sobre como trabalhar com valores reais no Microsoft Dynamics 365 Project Operations.
+description: Esta tópico fornece informações sobre como trabalhar com valores reais no Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126328"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291813"
 ---
 # <a name="actuals"></a>Valores Reais 
 
@@ -70,7 +70,7 @@ A entrada baseada em categorias de preços predefinidos por unidade em entradas 
 Poderá utilizar os diários de entrada para registar o custo ou a receita nas classes de material, taxa, hora, despesa ou imposto. Os diários podem ser utilizadas para as finalidades seguintes:
 
 - Registe o custo real dos materiais e vendas num projeto.
-- Mova os valores reais da transação a partir de outro sistema para o Microsoft Dynamics 365 Project Operations.
+- Mover os valores reais da transação a partir de outro sistema para o Microsoft Dynamics 365 Project Operations.
 - Registe os custos que ocorreram noutro sistema. Estes custos podem incluir os custos de aprovisionamento ou subcontratação.
 
 > [!IMPORTANT]

@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175905"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290058"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Inscrever-se para obter uma subscrição de pré-visualização – lite 
 
-Este tópico explica como subscrever a oferta de parceiros de pré-visualização e implementar a Implementação leve do Dynamics 365 Project Operations - oportunidade potencial para fatura pró-forma.
+Este tópico explica como subscrever a oferta do parceiro de pré-visualização e implementar o Dynamics 365 Project Operations lite para faturação proforma.
 
 > [!NOTE]
 > Este processo será alterado nas próximas versões do Project Operations.
@@ -42,7 +42,7 @@ Quando receber uma aprovação de [pedido de pré-visualização](https://forms.
 
 Antes de começar, certifique-se de que está a iniciar sessão num browser com a conta de profissional de utilizador no inquilino onde pretende a pré-visualização do Project Operations.
 
-1. Resgate o primeiro código de oferta, **Dynamics 365 Project Operations (CRM) - Pré-visualização da Avaliação**, colando-o no URL do browser.
+1. Resgate o primeiro código de oferta, **Dynamics 365 Project Operations (CRM) – Avaliação da Pré-visualização**, colando-o no URL do browser.
 
 ![Resgatar Oferta](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Repita os mesmos passos que com o primeiro código de oferta. Certifique-se de q
 
 ![Atribuir Licenças](./media/15AssignLicenses.png)
 
-3. Verifique se as licenças **Pré-visualização do Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations – Pré-visualização** estão selecionadas. 
+3. Verifique se estão selecionadas as licenças de pré-visualização **Dynamics 365 Project Operations (CRM)** e **Office 365Project Operations**. 
 4. Selecione **Guardar alterações**.
 
 ## <a name="create-a-new-cds-environment"></a>Criar um novo ambiente de CDS
@@ -84,7 +84,7 @@ Repita os mesmos passos que com o primeiro código de oferta. Certifique-se de q
 
 ![Adicionar base de dados](./media/20CreateEnvironment1.png)
 
-4. Após a criação do ambiente, instale a solução **Microsoft Dynamics 365 Project Operations**. 
+4. Depois de criar o ambiente, instale a solução **Microsoft Dynamics 365 Project Operations**. 
 
 ![Instalar Solução](./media/21InstallSolution.png)
 
