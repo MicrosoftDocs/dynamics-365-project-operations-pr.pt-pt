@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124697"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277262"
 ---
 # <a name="close-a-quote"></a>Fechar uma proposta
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-Uma proposta de projeto pode ser fechada como Ganha ou Perdida. Como as funções Ativar e Rever não são suportadas em propostas no Microsoft Dynamics 365 Project Operations, pode fechar uma proposta de rascunho.
+Uma proposta de projeto pode ser fechada como Ganha ou Perdida. Uma vez que as funções de Ativação e Revisão não são suportadas em propostas no Microsoft Dynamics 365 Project Operations, pode fechar uma proposta de rascunho.
 
 ## <a name="close-a-quote-as-won"></a>Fechar uma proposta como Ganha
 

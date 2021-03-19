@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180206"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275507"
 ---
 # <a name="set-up-price-lists"></a>Configurar listas de preços
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-As listas de preços no Dynamics 365 Project Operations representam um catálogo de taxas. As taxas expressam custos, vendas e taxas de faturação. Dependendo se a lista de preços expressa taxas de custo ou de vendas e taxas de faturação, o contexto da lista de preços é **Vendas** ou **Custos**.
+As listas de preços no Dynamics 365 Project Operations representam um catálogo de tarifas. As taxas expressam custos, vendas e taxas de faturação. Dependendo se a lista de preços expressa taxas de custo ou de vendas e taxas de faturação, o contexto da lista de preços é **Vendas** ou **Custos**.
 
 As seguintes extensões são específicas para o Project Operations e são aplicadas às listas de preços do Dynamics 365 Sales.
 

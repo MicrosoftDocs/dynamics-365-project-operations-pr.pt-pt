@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181027"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272537"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Linhas de oportunidade baseadas em projetos – lite
 
@@ -27,7 +27,7 @@ Abaixo são mostrados os campos numa linha de oportunidade baseada em projetos:
 
 | **Campo** | **Localização** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
-| Tipo de Produto | Separador Geral (oculto) | Pode selecionar uma das seguintes opções:</br>- Serviço baseado em projetos (disponível apenas quando o Dynamics 365 Project Operations está instalado)</br>- Produto (disponível apenas quando o Project Operations e o Dynamics 365 Sales estão instalados) | O valor deste campo está definido como **Serviço baseado em projetos** quando cria uma linha de oportunidade baseada em projetos a partir da grelha de linhas baseada em projetos na Oportunidade. <br> Se alterar ou substituir este valor, a funcionalidade do projeto não será ativada nos itens baseados em projetos. |
+| Tipo de Produto | Separador Geral (oculto) | Pode selecionar uma das seguintes opções:</br>- Serviço baseado em projetos (disponível apenas quando o Dynamics 365 Project Operations estiver instalado)</br>- Produto (disponível apenas quando o Project Operations e o Dynamics 365 Sales estão instalados) | O valor deste campo está definido como **Serviço baseado em projetos** quando cria uma linha de oportunidade baseada em projetos a partir da grelha de linhas baseada em projetos na Oportunidade. <br> Se alterar ou substituir este valor, a funcionalidade do projeto não será ativada nos itens baseados em projetos. |
 | Oportunidade | Separador Geral | Este campo é só de leitura e referencia o registo de Oportunidade principal a que este item pertence. | Este campo não tem impacto a jusante. |
 | Nome | Separador Geral | Este campo de texto editável pode ser usado para atribuir uma identidade curta ao item. | Este valor é transportado para a linha de proposta quando cria uma proposta a partir desta oportunidade. |
 | Orçamento do Cliente | Separador Geral | Este campo de moeda editável pode ser utilizado para monitorizar o montante que o cliente está disposto a gastar para este item. | Este valor é transportado para o campo correspondente na linha de proposta quando cria uma proposta a partir desta oportunidade. |

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082429"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270647"
 ---
 # <a name="manage-resource-competencies"></a>Gerir competências de recursos
 
@@ -39,19 +39,19 @@ Para configurar as competências para um trabalhador, pode utilizar a página da
 
 ## <a name="set-up-competencies-certificates"></a>Configurar competências: Certificados
 
-1. Na página da lista **Trabalhadores** , selecione a linha para o trabalhador ao qual pretende adicionar informações do certificado.
-2. No Painel de Ação, no separador **Trabalhador** , no grupo **Competências** , selecione **Certificados**.
-3. Selecione **Novo** e, no campo **Tipo e certificado** , selecione **PMP**.
-4. No campo **Data de início** , selecione **1/10/2015** e selecione **Guardar**.
+1. Na página da lista **Trabalhadores**, selecione a linha para o trabalhador ao qual pretende adicionar informações do certificado.
+2. No Painel de Ação, no separador **Trabalhador**, no grupo **Competências**, selecione **Certificados**.
+3. Selecione **Novo** e, no campo **Tipo e certificado**, selecione **PMP**.
+4. No campo **Data de início**, selecione **1/10/2015** e selecione **Guardar**.
 
 ## <a name="set-up-competencies-skills"></a>Configurar competências: Aptidões
 
-1. Na página da lista **Trabalhadores** , certifique-se de que o trabalhador que utilizou no procedimento anterior ainda está selecionado. Em seguida, no Painel de Ação, no separador **Trabalhador** , no grupo **Competências** , selecione **Aptidões**.
+1. Na página da lista **Trabalhadores**, certifique-se de que o trabalhador que utilizou no procedimento anterior ainda está selecionado. Em seguida, no Painel de Ação, no separador **Trabalhador**, no grupo **Competências**, selecione **Aptidões**.
 2. Selecione **Novo**.
-3. No campo **Aptidão** , selecione **Gestão de projetos**.
-4. No campo **Nível** , selecione **5 Especialista**.
-5. No campo **Data do nível** , selecione **1-/14/2014**.
-6. No campo **Anos de experiência** , introduza **10**.
+3. No campo **Aptidão**, selecione **Gestão de projetos**.
+4. No campo **Nível**, selecione **5 Especialista**.
+5. No campo **Data do nível**, selecione **1-/14/2014**.
+6. No campo **Anos de experiência**, introduza **10**.
 7. Selecione **Guardar** e feche a página.
 
 

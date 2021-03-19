@@ -1,6 +1,6 @@
 ---
 title: Descrição geral dos modos de gestão de recursos
-description: Este tópico fornece informações sobre a funcionalidade Gestão de recursos no Dynamics 365 Project Operations.
+description: Este tópico fornece informações sobre a funcionalidade de gestão de recursos no Dynamics 365 Project Operations.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118532"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279467"
 ---
 # <a name="resource-management-modes-overview"></a>Descrição geral dos modos de gestão de recursos
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
 
-O Dynamics 365 Project Operations suporta dois modos para poder executar o fluxo de reservas global. O modo de gestão é definido como um parâmetro de projeto e pode ser modificado se o seu negócio precisar de alteração.    
+O Dynamics 365 Project Operations suporta dois modos para executar o fluxo de reserva global. O modo de gestão é definido como um parâmetro de projeto e pode ser modificado se o seu negócio precisar de alteração.    
 
 ## <a name="central-mode"></a>Modo central
 Para as organizações que centralizam a alocação de recursos para projetos, o modo Central oferece uma forma de assegurar que os Gestores de projeto podem definir os requisitos de recursos a nível do projeto. A conclusão dos requisitos do recurso é delegada num Gestor de recursos. Os gestores de projetos podem aceitar ou rejeitar recursos que são propostos pelo Gestor de recursos.

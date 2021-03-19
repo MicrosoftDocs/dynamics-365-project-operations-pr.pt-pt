@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180251"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277577"
 ---
 # <a name="project-quote-settings"></a>Definições de proposta do projeto
 
@@ -22,7 +22,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 Este artigo explica as informações aplicáveis a uma proposta de projeto. Isto inclui as definições que afetam todas as linhas de proposta e as informações sobre a proposta que são resumidas em todos os itens para impulsionar os KPI da proposta de projeto.
 
-A tabela seguinte lista os campos de informações de resumo de uma proposta de projeto que são exclusivos do Dynamics 365 Project Operations ou têm algumas alterações importantes no comportamento das propostas do Dynamics 365 Sales.
+A tabela que se segue lista os campos de um resumo de informação numa proposta de projeto que são exclusivos do Dynamics 365 Project Operations ou têm algumas mudanças importantes no comportamento das propostas no Dynamics 365 Sales.
 
 | **Campo** | **Localização** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |

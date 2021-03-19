@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147127"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280682"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versão da Atualização 20 do Project Service Automation, V3
 
@@ -42,7 +42,7 @@ Foram corrigidos os seguintes problemas:
 
 - Importar membros da equipa do projeto com um método de alocação que requer horas resulta numa mensagem de erro pouco clara quando as horas especificadas são zero.
 - Os utilizadores recebem um erro incorreto quando o número máximo de carateres foi introduzido no campo **Descrição** para uma tarefa de projeto.
-- A página de **Transferência do suplemento do Microsoft Dynamics 365 Project Service Automation** redireciona para a página de transferência em inglês quando as definições de idioma do utilizador estão definidas para o japonês.
+- A página de **descarregamento do add-in Microsoft Dynamics 365 Project Service Automation** redireciona para a página de descarregamento em inglês quando as definições de idioma do utilizador são definidas para japonês.
 - Quando ocorre um erro do servidor, a etiqueta de sincronização no separador **Agendar** do formulário **Projetos** por vezes permanece.
 - Atualizações de tarefas redundantes são enviadas para o servidor quando uma tarefa é modificada.
 

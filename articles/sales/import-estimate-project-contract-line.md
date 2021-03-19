@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126407"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278387"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importar uma estimativa para um item de contrato baseado no projeto
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-No Dynamics 365 Project Operations, pode importar estimativas de um projeto para um item de contrato baseado em projeto.
+No Dynamics 365 Project Operations, pode importar estimativas a partir de um projeto para um item de contrato baseado no projeto.
 
 1. Verifique se o campo **Projeto** no item de contrato baseado em projeto está preenchido.
 2. No separador **Detalhes do Item de Contrato**, na subgrelha, selecione **Importar a partir da Estimativa do Projeto**. Abre-se uma página de diálogo com opções de resumo. As opções de resumo disponíveis são **Classe de Transação**, **Categoria**, **Função** e **Tarefa do projeto**. Baseada nas seleções de resumo, é copiada a estimativa a partir do projeto para todas as classes de transações incluídas neste item de contrato. 

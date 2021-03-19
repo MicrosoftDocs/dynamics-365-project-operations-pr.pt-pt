@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130952"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275597"
 ---
 # <a name="default-price-lists"></a>Lista de preços predefinida
 
@@ -21,7 +21,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 ## <a name="sales-price-lists"></a>Listas de preços de venda
 
-Cada proposta e contrato de projeto no Dynamics 365 Project Operations contém uma lista de preços de vendas predefinida. 
+Cada cotação e contrato de projeto no Dynamics 365 Project Operations contém uma lista de preços de venda padrão. 
 
 ### <a name="price-list-default-on-project-quotes"></a>A lista de preços é assumida como predefinição nas propostas de projeto
 O sistema completa o seguinte processo para determinar qual a lista de preços a assumir a predefinição numa proposta de projeto:

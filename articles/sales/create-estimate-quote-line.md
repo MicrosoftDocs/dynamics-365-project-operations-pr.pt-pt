@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122942"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278477"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Criar estimativas numa linha de proposta
 
@@ -30,7 +30,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 Numa proposta baseada em projetos, pode utilizar a entidade Detalhe de linha de proposta para estimar o trabalho que é necessário para entregar um projeto. Em seguida, pode partilhar essa estimativa com o cliente.
 
-As linhas de proposta baseadas em projetos não têm de ter detalhes de linha de proposta. Em alternativa, podem ter muitos detalhes de linha de proposta. Os detalhes de linha de proposta são utilizados para estimar o tempo, as despesas ou as taxas. As operações do projeto do Dynamics 365 não permitem estimativas de material em detalhes de linha de proposta. Estes são chamados de classes de transação. Os montantes de imposto estimados também podem ser introduzidos numa classe de transação.
+As linhas de proposta baseadas em projetos não têm de ter detalhes de linha de proposta. Em alternativa, podem ter muitos detalhes de linha de proposta. Os detalhes de linha de proposta são utilizados para estimar o tempo, as despesas ou as taxas. O Dynamics 365 Project Operations não permite estimativas de material em detalhes de linha de proposta. Estes são chamados de classes de transação. Os montantes de imposto estimados também podem ser introduzidos numa classe de transação.
 
 Para além das classes de transação, os detalhes de linha de proposta têm um tipo de transação. Existem dois tipos de transação para obter detalhes de linha de proposta, **Custo** e **Contrato do Projeto**.
 

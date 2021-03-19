@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181196"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274427"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Configurar taxas de faturação de mão de obra – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-Cada lista de preços tem um conjunto de preços de função ou de taxas de mão de obra que estão vigentes com o contexto e a data de efetividade incluídos no cabeçalho da lista de preços. As taxas de faturação para tempo no Dynamics 365 Project Operations podem ser configuradas em apenas uma moeda, que é a moeda no cabeçalho da lista de preços.
+Cada lista de preços tem um conjunto de preços de função ou de taxas de mão de obra que estão vigentes com o contexto e a data de efetividade incluídos no cabeçalho da lista de preços. As taxas de fatura por tempo no Dynamics 365 Project Operations podem ser criadas em apenas uma moeda, que é a moeda no cabeçalho da lista de preços.
 
 1. Para configurar as taxas de faturação de mão de obra para uma lista de preços de vendas, crie uma lista de preços com base no cabeçalho da lista de preços. 
 2. No separador **Preços de Função**, na subgrelha, selecione **+ Novo Preço de Função**. 

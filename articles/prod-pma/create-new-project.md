@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082539"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270737"
 ---
 # <a name="create-a-new-project"></a>Criar um novo projeto
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082539"
 
 Conclua os seguintes passos para criar um novo projeto.
 
-1. Na página **Gestão de projetos** , selecione **Novo projeto** e introduza os seguintes valores:
+1. Na página **Gestão de projetos**, selecione **Novo projeto** e introduza os seguintes valores:
 
     - **Tipo de projeto:** Tempo e material
     - **Nome do projeto:** Fase de Atualização 2 XYZ
@@ -42,10 +42,10 @@ Conclua os seguintes passos para criar um novo projeto.
 
 ## <a name="assign-a-resource-to-a-project"></a>Atribuir um recurso a um projeto
 
-1. Na página **Trabalhadores** , na lista **Trabalhadores** , selecione o registo para o trabalhador para o qual configurou anteriormente competências, e abra o registo do trabalhador.
-2. No Painel de Ação, no separador **Projeto** , no grupo **Configurar** , selecione **Atribuir projetos**.
-3. Na página **Atribuições de projetos de validação de recursos** , no separador **Projetos** , no campo **Adicionar o projeto aos projetos selecionados** , filtre pelo projeto **Fase de Atualização 2 XYZ**.
-4. No painel de **Projetos restantes** , selecione um projeto e, em seguida, selecione o botão de seta para adicioná-lo ao painel **Projetos selecionados**.
+1. Na página **Trabalhadores**, na lista **Trabalhadores**, selecione o registo para o trabalhador para o qual configurou anteriormente competências, e abra o registo do trabalhador.
+2. No Painel de Ação, no separador **Projeto**, no grupo **Configurar**, selecione **Atribuir projetos**.
+3. Na página **Atribuições de projetos de validação de recursos**, no separador **Projetos**, no campo **Adicionar o projeto aos projetos selecionados**, filtre pelo projeto **Fase de Atualização 2 XYZ**.
+4. No painel de **Projetos restantes**, selecione um projeto e, em seguida, selecione o botão de seta para adicioná-lo ao painel **Projetos selecionados**.
 
 Também pode atribuir categorias para um recurso, conforme necessário. O tipo de categoria é **Custo** ou **Receitas**. O tipo de categoria é determinado pela sua organização. Se não forem atribuídas categorias a um recurso, o Finance procura a categoria predefinida nos preços por hora para custos e receitas.
 
@@ -59,26 +59,26 @@ Um gestor de projetos pode utilizar a funcionalidade de atribuição de recursos
 
 Os passos seguintes mostram como o gestor de recursos pode configurar a função de gestor de projetos Sénior e associar características de recursos a ele. Mais tarde, a função pode ser utilizada para procurar recursos disponíveis que correspondam às competências de recursos necessárias.
 
-1. Na página **Configurar funções** , selecione **Novo** e introduza os seguintes valores:
+1. Na página **Configurar funções**, selecione **Novo** e introduza os seguintes valores:
 
     - **ID de função:** Gestor de Projetos Sénior
     - **Descrição:** Gestor de Projetos Sénior
 
 2. Selecione **Criar**.
 3. Selecione a função **Gestor de Projetos Sénior** e, em seguida, selecione **Configurar características**.
-4. No campo **Tipo de características** , selecione **Aptidão**.
-5. No campo **Características disponíveis** , introduza a aptidão a procurar.
-6. No campo **Tipo de característica** , selecione **Certificado**.
-7. No campo **Características disponíveis** , introduza o tipo de certificado a procurar.
+4. No campo **Tipo de características**, selecione **Aptidão**.
+5. No campo **Características disponíveis**, introduza a aptidão a procurar.
+6. No campo **Tipo de característica**, selecione **Certificado**.
+7. No campo **Características disponíveis**, introduza o tipo de certificado a procurar.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Atribuir um recurso de projeto a um projeto
 
-1. Na página **Todos os projetos** , selecione o projeto **Fase de Atualização 2 XYZ**.
-2. No separador **Equipa do projeto e agendamento** , selecione **Adicionar**.
-3. No campo **Função** , selecione **Membro da equipa**.
+1. Na página **Todos os projetos**, selecione o projeto **Fase de Atualização 2 XYZ**.
+2. No separador **Equipa do projeto e agendamento**, selecione **Adicionar**.
+3. No campo **Função**, selecione **Membro da equipa**.
 4. Selecione **Reservar no calendário**.
-5. Na página **Disponibilidade do recurso** , selecione **Ver definições**.
-6. Na página **'Ajustar definições da vista** , introduza os seguintes valores:
+5. Na página **Disponibilidade do recurso**, selecione **Ver definições**.
+6. Na página **'Ajustar definições da vista**, introduza os seguintes valores:
 
     - **Formato para a vista de intervalo de datas:** Dia
     - **Apresentar descrições de disponibilidade:** Sim
@@ -95,15 +95,15 @@ Durante a reserva de recursos, os gestores de projetos podem filtrar os recursos
 
 **Cenário:** foi iniciado um projeto aprovado e a função de de gestor de projetos Sénior foi reservada como recurso planeado durante a fase de planeamento do projeto. O gestor de recursos adquiriu agora um recurso para executar a função Gestor de projetos sénior.
 
-1. Na página **Lista de recursos** , selecione **Daniel Goldschmidt**.
-2. Na página **Função do recurso** , selecione **Novo** e introduza os seguintes valores:
+1. Na página **Lista de recursos**, selecione **Daniel Goldschmidt**.
+2. Na página **Função do recurso**, selecione **Novo** e introduza os seguintes valores:
 
     - **Data Efetiva:** Introduza a data atual.
     - **Expiração:** introduza **Nunca**.
     - **Função:** introduza **Gestor de Projetos Sénior**.
 
 3. Selecione **Guardar** e feche a página.
-4. No separador **Competências** , adicione a aptidão **ProjectMgmt** e o certificado **PMP**.
+4. No separador **Competências**, adicione a aptidão **ProjectMgmt** e o certificado **PMP**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

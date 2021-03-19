@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082430"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270782"
 ---
 # <a name="intercompany-invoicing"></a>Faturação entre empresas
 
@@ -44,12 +44,12 @@ O objetivo é tornar o controlo de custos, o reconhecimento de receitas, os impo
 -   Diferir o reconhecimento de receitas numa entidade jurídica prestadora e quando uma entidade jurídica tomadora deve reconhecer o custo.
 -   Acumule as receitas do trabalho em curso (WIP) na entidade jurídica prestadora.
 -   Defina os preços de transferência que podem basear-se em vários modelos de preços. Seguem-se alguns exemplos:
-    -   **Quantidade** : a quantidade que introduz no campo **Preços** é o custo real por quantidade ou unidade.
-    -   **Montante de encargos** : o preço/custo por transação, acrescido do montante dos encargos que introduz no campo **Preços**.
-    -   **Percentagem de encargos** : o preço de transferência é o preço/custo por transação multiplicado pela percentagem de encargos que introduz no campo **Preços**.
-    -   **Percentagem do preço de venda** : a percentagem do preço de venda que é transferido para a entidade jurídica prestadora.
-    -   **Montante abaixo do preço de venda** : o montante que a entidade jurídica tomadora retém dos preços de venda antes de os transferir para a entidade jurídica prestadora.
-    -   **Rácio de contribuição** : o número que introduzir no campo **Preços** é a relação de contribuição ratio, que é expresso como uma percentagem do preço de venda.
+    -   **Quantidade**: a quantidade que introduz no campo **Preços** é o custo real por quantidade ou unidade.
+    -   **Montante de encargos**: o preço/custo por transação, acrescido do montante dos encargos que introduz no campo **Preços**.
+    -   **Percentagem de encargos**: o preço de transferência é o preço/custo por transação multiplicado pela percentagem de encargos que introduz no campo **Preços**.
+    -   **Percentagem do preço de venda**: a percentagem do preço de venda que é transferido para a entidade jurídica prestadora.
+    -   **Montante abaixo do preço de venda**: o montante que a entidade jurídica tomadora retém dos preços de venda antes de os transferir para a entidade jurídica prestadora.
+    -   **Rácio de contribuição**: o número que introduzir no campo **Preços** é a relação de contribuição ratio, que é expresso como uma percentagem do preço de venda.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Exemplo 1: Configurar parâmetros para a faturação entre empresas
 Neste exemplo, a USSI é uma entidade jurídica prestadora e os seus recursos estão a comunicar tempo a atribuir à entidade jurídica tomadora, a FRSI, que é proprietária do contrato com o cliente final. As horas e as despesas que os colaboradores da USSI comunicam podem ser incluídas na fatura do projeto que a FRSI gera. Além disso, existe uma terceira origem de transações que pode ter origem na entidade jurídica prestadora (USSI neste exemplo) quando presta serviços de fornecedores partilhados a subsidiárias (como a FRSI) e, em seguida, transfere esses custos para os projetos dentro dessas subsidiárias. Todos os documentos de faturação correspondentes e cálculos fiscais são preenchidos pelo Finance. 
@@ -78,7 +78,7 @@ A USSI, a entidade jurídica prestadora, tem de criar e lançar a folha de horas
 
 | Passo | Ponto de entrada                                                                       | Descrição                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Gestão de projetos e contabilística** &gt; **Folhas de horas** &gt; **Todas as folhas de horas** | Crie uma nova folha de horas. Na linha da folha de horas, no campo **Entidade jurídica** , selecione **FRSI**. No campo **ID de Projeto** , selecione o projeto na FRSI. Introduza as horas para cada dia da semana. |
+| A    | **Gestão de projetos e contabilística** &gt; **Folhas de horas** &gt; **Todas as folhas de horas** | Crie uma nova folha de horas. Na linha da folha de horas, no campo **Entidade jurídica**, selecione **FRSI**. No campo **ID de Projeto**, selecione o projeto na FRSI. Introduza as horas para cada dia da semana. |
 | N    | Página **Folha de horas**                                                                | Depois da execução do fluxo de trabalho, lance a folha de horas e anote o número do voucher.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Exemplo 3: Criar e lançar uma fatura de fornecedor entre empresas
@@ -87,7 +87,7 @@ A USSI, a entidade jurídica prestadora, tem de criar e lançar a fatura de forn
 | Passo | Ponto de entrada                                                                                      | Descrição                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Contas a pagar** &gt; **Faturas** &gt; **Faturas de fornecedor abertas** &gt; **Nova fatura de fornecedor** | Crie uma nova fatura de fornecedor e introduza os serviços que foram comprados em nome do projeto da FRSI.                                                                                                                                                                                  |
-| N    | A página **Fatura de fornecedor**                                                                      | Introduza as linhas que representem os serviços subcontratados em nome da FRSI. No Separador Rápido **Detalhes da linha** , no separador **Projeto** para a linha de fatura, no campo **Empresa do projeto** , introduza **FRSI**. Introduza o projeto e a informação correspondente. Em seguida, lance a fatura do fornecedor. |
+| N    | A página **Fatura de fornecedor**                                                                      | Introduza as linhas que representem os serviços subcontratados em nome da FRSI. No Separador Rápido **Detalhes da linha**, no separador **Projeto** para a linha de fatura, no campo **Empresa do projeto**, introduza **FRSI**. Introduza o projeto e a informação correspondente. Em seguida, lance a fatura do fornecedor. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Exemplo 4: Criar e lançar a fatura entre empresas
 A USSI, a entidade jurídica prestadora, tem de criar e lançar a fatura entre empresas. Existem dois pontos de entrada para os passos necessários para esta tarefa.
@@ -95,7 +95,7 @@ A USSI, a entidade jurídica prestadora, tem de criar e lançar a fatura entre e
 | Passo | Ponto de entrada                                                                                             | Descrição                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Gestão de projetos e contabilística** &gt; **Faturas do projeto** &gt; **Fatura do cliente entre empresas**  | Clique em **Novo** para abrir a página **Criar fatura entre empresas**.                                                                                  |
-| N    | **Gestão de projetos e contabilística** &gt; **Faturas do projeto** &gt; **Faturas do cliente entre empresas** | Na página **Criar fatura entre empresas** , introduza a entidade jurídica, especifique a transação que deve ser incluída e clique em **Procurar**. |
+| N    | **Gestão de projetos e contabilística** &gt; **Faturas do projeto** &gt; **Faturas do cliente entre empresas** | Na página **Criar fatura entre empresas**, introduza a entidade jurídica, especifique a transação que deve ser incluída e clique em **Procurar**. |
 | C    | **Gestão de projetos e contabilística** &gt; **Faturas do projeto** &gt; **Faturas do cliente entre empresas** | Selecione as transações a faturar ou clique em **Selecionar tudo** para faturar todas as transações na lista e, em seguida, clique em **OK**.                  |
 | D    | A página **Fatura entre empresas**                                                                       | É mostrada a proposta de fatura do cliente entre empresas.                                                                                             |
 | E    | A página **Fatura entre empresas**                                                                       | Clique em **Lançar**.                                                                                                                                  |

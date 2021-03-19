@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124652"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277172"
 ---
 # <a name="extending-time-entries"></a>Expandir entradas de hora
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-O Dynamics 365 Project Operations inclui um controlo personalizado de hora expansível. Isto controlo inclui as seguintes funcionalidades:
+Dynamics 365 Project Operations inclui um controlo personalizado de entrada de tempo extensível. Isto controlo inclui as seguintes funcionalidades:
 
 - Introduzir o tempo horizontalmente ao longo de uma semana
 - Totais por dia, linha ou semana

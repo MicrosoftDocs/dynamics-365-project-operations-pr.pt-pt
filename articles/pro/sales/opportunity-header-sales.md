@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181060"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272717"
 ---
 # <a name="opportunity-header---lite"></a>Cabeçalho de oportunidade – lite
 
@@ -21,7 +21,7 @@ _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró
 
 O cabeçalho da Oportunidade capta as informações gerais sobre um negócio baseado em projetos que se aplica a todas as linhas na oportunidade baseada em projetos.
 
-As oportunidades baseadas em projetos no Dynamics 365 Project Operations são extensões de oportunidades no Dynamics 365 Sales. Estas extensões fornecem funcionalidades adicionais específicas e necessárias para as oportunidades baseadas em projetos. Estas extensões podem incluir novos campos e ações do friso disponíveis em oportunidades baseadas em projetos. Pode concluir que alguns dos campos, funcionalidades e lógica de predefinição que estão disponíveis em Vendas não estão disponíveis no Project Operations.
+As oportunidades baseadas no Dynamics 365 Project Operations são extensões de oportunidades no Dynamics 365 Sales. Estas extensões fornecem funcionalidades adicionais específicas e necessárias para as oportunidades baseadas em projetos. Estas extensões podem incluir novos campos e ações do friso disponíveis em oportunidades baseadas em projetos. Pode concluir que alguns dos campos, funcionalidades e lógica de predefinição que estão disponíveis em Vendas não estão disponíveis no Project Operations.
 
 A tabela seguinte inclui os campos numa oportunidade baseada em projetos que são exclusivos do Project Operations ou têm algumas alterações importantes no comportamento das Oportunidades em Vendas.
 

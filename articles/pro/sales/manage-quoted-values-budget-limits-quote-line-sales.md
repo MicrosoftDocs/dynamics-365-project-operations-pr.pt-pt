@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181106"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272987"
 ---
 # <a name="project-based-quote-lines-overview---lite"></a>Descrição geral de linhas de proposta baseadas em projetos – lite
 
@@ -34,7 +34,7 @@ A tabela seguinte fornece informações sobre os campos no separador **Geral** d
 | **Campo** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- |
 | Nome | O nome da linha de proposta que deve ajudá-lo a identificar o componente discreto da proposta que está a ser estimada. | Copiada para o item de contrato do projeto que é criada a partir desta linha de proposta quando a proposta é ganha. |
-| Método de Faturação | Numa proposta criada a partir de uma oportunidade, este valor é copiado a partir do campo correspondente na linha de oportunidade. Este campo inclui os dois principais modelos de contratação suportados pelo Dynamics 365 Project Operations:</br>- Preço fixo</br>- Tempo e material.| Este valor do campo é copiado para o item de contrato do projeto que é criado a partir desta linha de proposta quando a proposta é ganha. |
+| Método de Faturação | Numa proposta criada a partir de uma oportunidade, este valor é copiado a partir do campo correspondente na linha de oportunidade. Este campo inclui os dois principais modelos de contratação suportados por Dynamics 365 Project Operations:</br>- Preço fixo</br>- Tempo e material.| Este valor do campo é copiado para o item de contrato do projeto que é criado a partir desta linha de proposta quando a proposta é ganha. |
 | Project | Utilize este campo opcional para identificar o projeto que será utilizado para entregar o trabalho nesta cativação. Quando um projeto é mapeado para uma linha de proposta, ajuda a configurar as tarefas faturáveis e também a trazer uma estimativa baseada em projetos para a linha de proposta como detalhes da linha de proposta. Quando um projeto não é mapeado para uma linha de proposta baseada em projetos, a estimativa deve ser criada manualmente ao criar cada detalhe da linha de proposta. | Este valor do campo é copiado para o item de contrato do projeto que é criado a partir desta linha de proposta quando a proposta é ganha.|
 | Tarefas Incluídas | Indica se esta linha de proposta é utilizada para todas ou algumas tarefas do projeto para o projeto selecionado. Este campo tem os seguintes valores possíveis:</br>- Todas as tarefas do projeto</br>- Apenas tarefas selecionadas do projeto</br>Um valor em branco neste campo é equivalente à opção **Todas as tarefas do projeto**. | Quando **Apenas tarefas selecionadas do projeto** é selecionado na página do projeto, o separador **Configuração de Faturação de Tarefas** permite selecionar tarefas específicas para as associar a esta linha de proposta. Este valor do campo é copiado para o item de contrato do projeto que é criado a partir desta linha de proposta quando a proposta é ganha. |
 | Incluir Tempo | Um sinalizador **Sim**/**Não** indica se as transações de tempo ou os custos de mão de obra no projeto selecionado serão incluídos na estimativa nesta linha de proposta. Um valor **Não** indica que as transações de tempo ou o custo de mão de obra não será incluído na estimativa nesta linha de proposta. Um valor **Sim** indica que as transações de tempo ou o custo de mão de obra será incluído na estimativa nesta linha de proposta. | Este valor do campo é copiado para o item de contrato do projeto que é criado a partir desta linha de proposta quando a proposta é ganha. |

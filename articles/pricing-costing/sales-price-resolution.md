@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119567"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274967"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolver preços de venda para estimativas e valores reais
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-Quando os preços de venda em estimativas e valores reais são resolvidos no Dynamics 365 Project Operations, o sistema utiliza primeiro a data e a moeda da proposta ou contrato de projeto relacionado para resolver a lista de preços de venda. Após a resolução da lista de preços de venda, o sistema resolve a taxa de vendas ou faturação.
+Quando os preços de venda de estimativas e reais são resolvidos no Dynamics 365 Project Operations, o sistema utiliza primeiro a data e a moeda da cotação ou contrato do projeto conexo para resolver a lista de preços de venda. Após a resolução da lista de preços de venda, o sistema resolve a taxa de vendas ou faturação.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Resolver as taxas de venda em linhas de valores reais e de estimativa para o tempo
 

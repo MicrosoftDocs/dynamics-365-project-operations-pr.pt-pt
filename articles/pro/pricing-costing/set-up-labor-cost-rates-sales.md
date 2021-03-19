@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180742"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274382"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Configurar taxas de custo de mão de obra – lite
 
@@ -38,7 +38,7 @@ A tabela a seguir inclui alguns dos campos que são importantes na criação de 
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Preços de transferência e custos para recursos fora da sua divisão ou entidade legal
 
-Em empresas baseadas em projetos, é comum usar funcionários de diferentes entidades jurídicas ou divisões em projetos. Um projeto pode ser executado por uma entidade legal, mas os colaboradores ou consultores que trabalham no projeto podem vir da mesma entidade legal ou de outra, ou pode haver uma combinação de ambos. No Dynamics 365 Project Operations, a entidade legal que detém a entrega do projeto é a **Empresa Proprietária** e a divisão que detém a entrega é a **Unidade Contratante**. Outras entidades jurídicas que fornecem recursos são as **Empresas de Atribuição de Recursos** e divisões que fornecem recursos são as **Unidades de Atribuições de Recursos**. Na maioria dos países, as empresas são obrigadas a garantir que a entidade ou divisão legal de atribuição de recursos cobre à empresa proprietária e a unidade contratante pela utilização dos recursos.
+Em empresas baseadas em projetos, é comum usar funcionários de diferentes entidades jurídicas ou divisões em projetos. Um projeto pode ser executado por uma entidade legal, mas os colaboradores ou consultores que trabalham no projeto podem vir da mesma entidade legal ou de outra, ou pode haver uma combinação de ambos. No Dynamics 365 Project Operations, a entidade jurídica que detém a entrega do projeto é a **Sociedade Proprietária** e a divisão que detém a entrega é a **Unidade Contratante**. Outras entidades jurídicas que fornecem recursos são as **Empresas de Atribuição de Recursos** e divisões que fornecem recursos são as **Unidades de Atribuições de Recursos**. Na maioria dos países, as empresas são obrigadas a garantir que a entidade ou divisão legal de atribuição de recursos cobre à empresa proprietária e a unidade contratante pela utilização dos recursos.
 
 Por exemplo, a corporação Fabrikam deve garantir que a Fabrikam India-Robotics tenha um cartão de taxa de custo negociado com a Fabrikam US-Robotics ou a Fabrikam UK-Robotics.
 

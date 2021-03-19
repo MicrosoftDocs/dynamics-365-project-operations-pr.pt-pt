@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177615"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277397"
 ---
 # <a name="sales-process-overview"></a>Descrição geral do processo de vendas
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Os processos de vendas utilizados numa organização baseada em projetos diferem dos processos de vendas utilizados numa organização baseada em produtos. Esta diferença deve-se ao facto dos ciclos de vendas para as organizações baseadas em projetos são mais demorados e necessitam de técnicas de estimativa personalizadas para analisar e criar propostas para cada negócio. O Dynamics 365 Project Operations utiliza algumas das seguintes funcionalidades utilizadas no processo de vendas:
+Os processos de vendas utilizados numa organização baseada em projetos diferem dos processos de vendas utilizados numa organização baseada em produtos. Esta diferença deve-se ao facto dos ciclos de vendas para as organizações baseadas em projetos são mais demorados e necessitam de técnicas de estimativa personalizadas para analisar e criar propostas para cada negócio. O Dynamics 365 Project Operations utiliza algumas das seguintes funcionalidades que são utilizadas num processo de venda:
 
 - Um registo de uma Oportunidade Potencial é utilizado para monitorizar o processo de vendas.
 - As oportunidades potenciais qualificadas são monitorizadas como oportunidades.

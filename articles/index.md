@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120827"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275912"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-O Microsoft Dynamics 365 Project Operations liga as equipas de vendas, recursos, gestão de projetos e financeira numa única aplicação para ganhar mais negócios, acelerar a entrega dos projetos e maximizar a rentabilidade.
+O Microsoft Dynamics 365 Project Operations conecta as equipas de vendas, recursos, gestão de projetos e finanças numa única aplicação para ganhar mais ofertas, acelerar a entrega de projetos e maximizar a rentabilidade.
 
 -   **Os líderes obtêm insights de negócio** para aumentar a visibilidade em todas as equipas, dados e processos, além das capacidades de IA para tomar decisões de negócio melhores e mais rápidas.
 -   **As vendas estão habilitadas** para ganhar mais negócios e acelerar o ciclo de vendas com propostas rápidas e precisas, preços flexíveis e transições perfeitas da estimativa à execução.
@@ -40,7 +40,7 @@ O Project Operations é potente por si só, mas pode ser expandido pelos nossos 
 Para mais informações, consulte:
 
 - [Descrição Geral do Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Descrição Geral da primeira fase de lançamento do Dynamics 365 Project Operations 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Visão geral da onda de lançamento 1 do Dynamics 365 Project Operations de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

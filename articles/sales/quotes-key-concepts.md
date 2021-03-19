@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121322"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277532"
 ---
 # <a name="quotes---key-concepts"></a>Propostas - Conceitos-chave
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Nas Operações do projeto Dynamics 365, existem dois tipos de propostas, projetos e vendas. Os dois tipos de propostas diferem nas seguintes formas:
+No Dynamics 365 Project Operations, existem dois tipos de propostas e vendas. Os dois tipos de propostas diferem nas seguintes formas:
 
 - **Grelhas para itens de linha**: Numa proposta de venda, existe apenas uma grelha para os itens de linha. Numa proposta do projeto há duas grelhas para os itens de linha. Uma grelha é para linhas de projeto e a outra é para linhas de produtos.
 - **Ativação e revisões**: As propostas de vendas suportam ativação e revisões. Estes processos não são apoiados numa proposta do projeto.

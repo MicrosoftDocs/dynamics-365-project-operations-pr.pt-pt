@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082457"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270692"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eliminar uma estimativa do projeto
 
@@ -34,18 +34,18 @@ As estimativas do projeto fornecem a vista financeira do trabalho estimado e age
 Para eliminar um projeto de estimativa, tem de estar completo. Os seguintes passos explicam como eliminar uma estimativa.
 
 1. Vá para **Gestão de projetos e contabilística** > **Todos os Projetos** e abra o projeto. 
-2. No separador **Gerir** , selecione **Estimativas** e, na página **Estimativa** , selecione **Eliminar**.
-3. Na página **Eliminar estimativa** no separador **Geral** , defina as seguintes opções:
+2. No separador **Gerir**, selecione **Estimativas** e, na página **Estimativa**, selecione **Eliminar**.
+3. Na página **Eliminar estimativa** no separador **Geral**, defina as seguintes opções:
 
-   - **Código do período** : selecione o código do período para escolher os projetos de estimativa adequados. 
-   - **Data de estimativa** : selecione a data de estimativa adequada para a eliminação.
-   - **Eliminar com avisos WIP** : ative esta opção para fornecer notificação quando uma estimativa que está associada a um trabalho em curso (WIP) será eliminada. Quando esta opção não está ativada, a eliminação não pode continuar se existirem transações não estimadas. 
+   - **Código do período**: selecione o código do período para escolher os projetos de estimativa adequados. 
+   - **Data de estimativa**: selecione a data de estimativa adequada para a eliminação.
+   - **Eliminar com avisos WIP**: ative esta opção para fornecer notificação quando uma estimativa que está associada a um trabalho em curso (WIP) será eliminada. Quando esta opção não está ativada, a eliminação não pode continuar se existirem transações não estimadas. 
    > [!NOTE]
-   > Esta opção só está disponível quando a eliminação é aplicada a um projeto de estimativa. Não está disponível se estiver a utilizar publicações periódicas. Esta definição funciona com as definições no separador **Estimativa** na página **Parâmetros do projeto** , no grupo de campos **Permitir a eliminação quando existem transações não estimadas**.
-   - **Definir fase para Terminada** : ative esta opção para definir a fase do projeto de estimativa para **Terminado** depois de executar a eliminação.
-   - **Imprimir lista de estimativas** : selecione as informações a incluir quando a lista de estimativas for impressa.
-   - **Mostrar Infolog** : ative esta opção para exibir o Infolog.
-   - **Data da publicação** : escolha a data de publicação do livro razão da estimativa.
+   > Esta opção só está disponível quando a eliminação é aplicada a um projeto de estimativa. Não está disponível se estiver a utilizar publicações periódicas. Esta definição funciona com as definições no separador **Estimativa** na página **Parâmetros do projeto**, no grupo de campos **Permitir a eliminação quando existem transações não estimadas**.
+   - **Definir fase para Terminada**: ative esta opção para definir a fase do projeto de estimativa para **Terminado** depois de executar a eliminação.
+   - **Imprimir lista de estimativas**: selecione as informações a incluir quando a lista de estimativas for impressa.
+   - **Mostrar Infolog**: ative esta opção para exibir o Infolog.
+   - **Data da publicação**: escolha a data de publicação do livro razão da estimativa.
 
 4.  Selecione **OK**.
 5. Após o processo de eliminação estar concluído, o projeto de estimativa eliminado é apresentado com um valor negativo. 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 7cf4d7853f7fedaeeeba99bc589f39989b924423
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531522"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278927"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projetos de estimativa de receitas de preço fixo 
 

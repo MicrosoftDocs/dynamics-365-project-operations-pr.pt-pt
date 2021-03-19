@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273032"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gerir listas de preços de projetos em propostas do projeto – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-As propostas do projeto foram concebidas para suportar várias listas de preços de venda em vigor em várias datas. Com o Dynamics 365 Project Operations, é adicionada uma nova entidade associada chamada **Listas de preços de projetos**. Esta entidade tem uma relação de 1 para muitos com uma proposta de projeto.
+As propostas do projeto foram concebidas para suportar várias listas de preços de venda em vigor em várias datas. Com o Dynamics 365 Project Operations, é adicionada uma nova entidade associada chamada **Listas de preços do projeto**. Esta entidade tem uma relação de 1 para muitos com uma proposta de projeto.
 
 As listas de preços do projeto são utilizadas para fixar o preço das transações de tempo e despesas num projeto. Quando uma proposta tem uma ou mais listas de preços do projeto, estas listas de preços são utilizadas para definir o preço das estimativas de tempo e despesa, e os valores reais nos projetos associados a uma proposta através da linha de proposta.
 

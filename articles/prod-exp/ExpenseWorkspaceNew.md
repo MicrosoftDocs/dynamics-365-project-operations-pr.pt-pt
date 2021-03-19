@@ -1,6 +1,6 @@
 ---
 title: Relatórios de despesas reformulados
-description: Este tópico fornece informações sobre a experiência reformulada e reinventada para a introdução de relatórios de despesas no Microsoft Dynamics 365 Finance. A nova experiência simplifica o processo de conclusão dos relatórios de despesas e diminui o tempo que é necessário.
+description: Este tópico fornece informações sobre a experiência reformulada e reinventada para a introdução de relatórios de despesas.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960261"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271997"
 ---
 # <a name="redesigned-expense-reports"></a>Relatórios de despesas reformulados
 
@@ -40,12 +40,6 @@ Para ativar a nova experiência, utilize a área de trabalho **Gestão de funcio
 - Um novo item de menu para visibilidade do campo de despesas é adicionado.
 - Não são removidos itens de menu existentes para relatórios de despesas (a página existente) ou campos de relatório de despesas.
 - Fluxos de trabalho e quaisquer aprovações ainda o levam à página de relatórios de despesas existentes.
-
-## <a name="getting-started-video-for-new-users"></a>Vídeo de introdução para novos utilizadores
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-A [Experiência de despesas no vídeo Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrado acima) está incluída na lista de reprodução [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ## <a name="new-features"></a>Novas funcionalidades
 
