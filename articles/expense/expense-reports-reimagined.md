@@ -1,9 +1,9 @@
 ---
 title: Relatórios de despesas reinventados
-description: Este tópico fornece informações sobre a experiência reformulada e reinventada para a introdução de relatórios de despesas.
+description: Este tópico explica a experiência redesenhada e reimaginada para a entrada no relatório de despesas.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122812"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499730"
 ---
 # <a name="expense-reports-reimagined"></a>Relatórios de despesas reinventados
 
@@ -59,25 +59,22 @@ A [Experiência de despesas no vídeo Dynamics 365 for Finance and Operations](h
 | Redução das mensagens na barra de mensagens| O número de mensagens do Infolog foi reduzido e foi feito um esforço para evitar que aparecessem mensagens duplicadas em muitos casos. |
 | Ações comuns agrupadas | A interface foi limpa com a inclusão de um novo botão de ações para a maioria das ações comuns a nível da linha, e a adição de um botão de reticências (...) para o cabeçalho e outras ações menos frequentes. |
 | Nova área de trabalho para aumentar a visibilidade | Uma nova área de trabalho unifica as funcionalidades e as ligações que permitem aos utilizadores moverem-se para diferentes áreas. |
-| Adicionar as despesas e recibos existentes durante a criação de despesas | Quando cria relatórios de despesas, pode adicionar todos recibos ou despesas, ou os selecionados. |
+| Adicionar as despesas e recibos existentes durante a criação de despesas | Quando criar relatórios de despesas, pode adicionar todas as despesas ou selecionar despesas não associadas. As despesas não anexadas são despesas que foram importadas do feed do cartão de crédito corporativo ou despesas que foram criadas manualmente pelo utilizador, mas que não foram anexadas a um relatório de despesas.|
 | Calculadora de taxa de câmbio | É adicionada uma calculadora de taxa de câmbio que permite calcular a taxa de câmbio das transações multidivisa de despesas correntes. |
 | Guardar e adicionar novas linhas de despesa | Os botões **Guardar** e **Novo** estão disponíveis quando são introduzidas novas despesas para o ajudar a introduzir rapidamente linhas de despesa. |
 | Melhor visibilidade sobre as linhas divididas e discriminadas | As linhas discriminadas e divididas são adicionadas diretamente à lista de despesas para aumentar a visibilidade e ajudá-lo a determinar facilmente se existem erros. |
 | Mostrar recibos durante a discriminação | Os recibos podem ser mostrados durante a discriminação. |
+| Seleção de adiantamento de tesouraria | Selecione um ou mais adiantamentos em dinheiro para cumprir uma única transação de despesas. |
+| Saldo de adiantamento de tesouraria | Reveja o saldo antecipado em tempo real quando criar uma entrada de despesas contra adiantamentos aprovados e pagos em dinheiro. |
 
 A versão inicial está focada em cenários de introdução de despesas. Qualquer cenário de revisão ou aprovação de relatório de despesas continuará a utilizar a página de introdução de despesas existente.
 
-As seguintes funcionalidades estão presentes na página existente, mas ainda não estão presentes na nova página. Estas funcionalidades serão reintroduzidas ao longo dos vários lançamentos seguintes:
+As seguintes funcionalidades não são suportadas no espaço de trabalho de despesas reimaginadas:
 
-- Aprovações
-- Aprovações de contas a pagar e a capacidade para editar a contabilidade
-- Vários pontos de entrada
 - Integração de requisição de viagem
-- Entidade de dados para a visibilidade do campo de despesas
-- Introdução para subsídio diário
-- Fluxo de trabalho a nível da linha
+- Entrada de despesas per diem
 - Suporte do aprovador provisório
-- Discriminação avançada
+- Capacidade de ver a história do fluxo de trabalho
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

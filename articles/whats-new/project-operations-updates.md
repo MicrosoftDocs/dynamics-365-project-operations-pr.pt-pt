@@ -3,18 +3,18 @@ title: Atualizações do Project Operations
 description: Este tópico fornece informações sobre as versões lançadas do Dynamics 365 Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 12/07/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
+ms.openlocfilehash: 07ba97377841b1a2d8f96b60a926dc7499e345f1
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141221"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556592"
 ---
 # <a name="project-operations-updates"></a>Atualizações do Project Operations
 
@@ -29,13 +29,16 @@ O Dynamics 365 Project Operations consiste de dois componentes:
 - O Project Operations no ambiente Dataverse cobre capacidades desde a oportunidade até à faturação pró-forma. Dataverse é utilizado na implementação lite e implementação de cenários de Recursos/Não Stock do Project Operations.
 - Gestão de projetos e contabilidade no ambiente Dynamics 365 Finance cobre as capacidades de gestão de despesas, a contabilidade de projetos e o reconhecimento de receitas. O ambiente da aplicação Finance and Operations é utilizado no Project Operations para cenários baseados em Recursos/Não Stock e Project Operations para cenários baseados em Stock/Produção.
 
+## <a name="project-operations-release-notes"></a>Notas de versão do Project Operations
+- Notas de versão mais recentes do Project Operations para cenários de [Recursos/não armazenados](whats-new-mar-2021-resource-based.md).
+- Notas de versão mais recentes do Project Operations para cenários de [implementação lite](../pro/whats-new/whats-new-mar-2021-lite.md).
+- Notas de versão mais recentes do Project Operations para cenários de [armazenado/produção](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
+
 ## <a name="project-operations-latest-version"></a>Versão mais recente do Project Operations
 
 | Project Operations no ambiente Dataverse | Gestão de projetos e contabilística em ambientes de aplicações Finance and Operations |
 | --- | --- |
-| 4.7.0.95 | 10.0.16 |
-
-Notas de versão de janeiro de 2021 do Project Operations para [Recursos/Não armazenado](whats-new-feb-2021-resource-based.md), [Implementação lite](../pro/whats-new/whats-new-feb-2021-lite.md) e cenários de [produção/armazenado](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
+| 4.8.0.91 | 10.0.16 |
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Agenda de lançamento do Project Operations no ambiente Dataverse
 
@@ -44,22 +47,23 @@ As atualizações do Project Operations no ambiente Dataverse estão disponívei
 | Estação   | Região        | Versão atual | Versão seguinte | Disponível geralmente |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Estação 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Primeira Versão |  4.7.0.95       | TBD     | 19-Fev-21           |
+|   &nbsp;  | Primeira Versão |  4.8.0.91       | TBD     | 2 de abril de 2021           |
 | Estação 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | América do Sul |  4.7.0.95       | TBD     | 19-Fev-21           |
-|    &nbsp; | Canadá        |  4.7.0.95       | TBD     | 19-Fev-21           |
-|   &nbsp;  | Índia         |  4.7.0.95       | TBD     | 19-Fev-21           |
-|   &nbsp;  | França         |  4.7.0.95       | TBD     | 19-Fev-21           |
-|   &nbsp;  | Emirados Árabes Unidos         |  4.7.0.95       | TBD     | 19-Fev-21           |
+|   &nbsp;  | América do Sul |  4.8.0.91       | TBD     | 2 de abril de 2021           |
+|    &nbsp; | Canadá        |  4.8.0.91       | TBD     | 2 de abril de 2021           |
+|   &nbsp;  | Índia         |  4.8.0.91       | TBD     | 2 de abril de 2021           |
+|   &nbsp;  | França         |  4.8.0.91       | TBD     | 2 de abril de 2021           |
+|   &nbsp;  | Emirados Árabes Unidos         |  4.8.0.91       | TBD     | 2 de abril de 2021           |
+|   &nbsp;  | África do Sul         |  4.8.0.91       | TBD     | 2 de abril de 2021           |
 | Estação 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japão         |  4.7.0.95       | TBD     | 26-Fev-21           |
-|   &nbsp;  | Ásia-Pacífico  |  4.7.0.95       | TBD     | 26-Fev-21           |
-|   &nbsp;  | Grã-Bretanha |  4.7.0.95       | TBD     | 26-Fev-21           |
-|   &nbsp;  | Oceânia       |  4.7.0.95       | TBD     | 26-Fev-21           |
+|   &nbsp;  | Japão         |  4.8.0.91       | TBD     | 9 de abril de 2021           |
+|   &nbsp;  | Ásia-Pacífico  |  4.8.0.91       | TBD     | 9 de abril de 2021           |
+|   &nbsp;  | Grã-Bretanha |  4.8.0.91       | TBD     | 9 de abril de 2021           |
+|   &nbsp;  | Oceânia       |  4.8.0.91       | TBD     | 9 de abril de 2021           |
 | Estação 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.6.0.161       | 4.7.0.95     | 12-Fev-21           |
+|   &nbsp;  | Europa        |  4.8.0.91       | TBD     | 16 de abril de 2021           |
 | Estação 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | América do Norte |  4.6.0.161       | 4.7.0.95     | 19-Fev-21           |
+|   &nbsp;  | América do Norte |  4.7.0.96       | 4.8.0.91     | 12 março 2021           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Agenda de lançamento para Gestão de projetos e contabilística no ambiente de aplicações Finance and Operations
 
