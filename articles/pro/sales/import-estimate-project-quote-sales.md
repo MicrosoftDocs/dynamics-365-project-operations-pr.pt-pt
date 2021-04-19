@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273437"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858262"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importar estimativas do projeto para uma linha de proposta baseada no projeto – lite
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimativas do projeto para uma linha de proposta baseada no projeto 
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Implementação leve - negociar à faturação pró-forma, Project Operations para cenários baseados em recursos/não armazenados_
 
 Se um projeto for criado durante a fase de pré-venda, poderá selecionar para importar a estimativa financeira a partir do projeto para a linha de proposta baseada no projeto.
 
@@ -30,7 +30,7 @@ Se um projeto for criado durante a fase de pré-venda, poderá selecionar para i
   - **Função** 
   - **Tarefa de projeto**
 
-Baseada na sua seleção, é copiada a estimativa a partir do projeto para todas as classes de transações incluídas nesta linha de proposta. Para verificar quais as classes de transações incluídas, selecione o separador **Geral** na linha de proposta baseada no projeto e verifique os valores de **Incluir Tempo**, **Incluir Despesas** e **Incluir Taxas**.  Para verificar que tarefas estão incluídas, selecione o separador **Tarefas Faturáveis** na linha de proposta.
+Baseada na sua seleção, é copiada a estimativa a partir do projeto para todas as classes de transações incluídas nesta linha de proposta. Para verificar que classes de transações estão incluídas, selecione o separador **Geral** na linha de proposta baseada no projeto e verifique os valores de **Incluir tempo**, **Incluir despesas**, **Incluir materiais** e **Incluir taxas**.  Para verificar que tarefas estão incluídas, selecione o separador **Tarefas Faturáveis** na linha de proposta.
 
 Consoante as Tarefas associadas e incluídas nas classes de transações as estimativas para essas combinações de tarefas e classe de transação são importadas para a linha de proposta.
 

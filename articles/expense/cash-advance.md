@@ -3,19 +3,19 @@ title: Adiantamento de tesouraria
 description: Este tópico fornece informações sobre os adiantamentos de tesouraria.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276722"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715574"
 ---
 # <a name="cash-advance"></a>Adiantamento de tesouraria
 
@@ -60,7 +60,22 @@ Normalmente, o seguinte procedimento é feito por um contabilista ou um utilizad
 
 Quando criar e apresentar um relatório de despesas para o adiantamento de dinheiro que já recebeu, as despesas serão automaticamente ajustadas face a esse adiantamento. Se o seu adiantamento de tesouraria for superior ao montante gasto, tem de devolver o saldo à empresa através da categoria de despesa **Devolver dinheiro**. Se o adiantamento em dinheiro pago pela empresa for inferior ao valor que gastou, a empresa deve reembolsar-lhe o saldo. 
 
-### <a name="example"></a>Exemplo
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Selecione adiantamentos em dinheiro que se aplicam às suas despesas
+Antes de apresentar um relatório de despesas, pode selecionar o adiantamento em dinheiro que se alinha com as transações de despesas no relatório. Para utilizar esta funcionalidade, as duas funcionalidades seguintes devem ser ativadas a partir do espaço de trabalho de **gestão de funcionalidades**:
+
+  - Relatórios de despesas reinventados
+  - Capacidade de mapear adiantamentos de dinheiro para linhas de despesas
+ 
+ Quando estas funcionalidades estiverem ativadas:
+ 
+  - Pode ter um ou mais adiantamentos em dinheiro por cada linha de despesas.
+  - O saldo disponível de um adiantamento em dinheiro é visível em tempo real quando um relatório de despesas é guardado. Isto permite-lhe processar transações de despesas e devolver transações em dinheiro ao mesmo tempo.
+  - Pode selecionar inúmeros adiantamentos em dinheiro por uma transação de despesas.
+  - Os dados de reconciliação do adiantamento de caixa estão disponíveis através de uma consulta. 
+ 
+Se não utilizar estas funcionalidades, a funcionalidade permanecerá a mesma, com os adiantamentos de caixa existentes automaticamente reduzidos após a submissão de uma despesa.
+
+### <a name="example"></a>Exemplo 
 Planeia viajar de Seattle para Nova Iorque para uma conferência. Cria um pedido de adiantamento de dinheiro para 3000,00 USD com base no custo estimado do bilhete da conferência, voos, hotel, refeições e táxi. Não será pago a menos que o seu gestor aprove este pedido. Após a aprovação do seu gestor, o adiantamento de tesouraria pedido é pago sob a forma de 3000 USD na sua conta bancária. Participa na conferência. Depois de concluída a viagem, descobre que a despesa total foi de apenas 2790 USD. Selecione **Dinheiro** no campo **Método de pagamento** e submeta as suas despesas de 2790,00 USD. O montante de despesas submetido é ajustado automaticamente em relação ao adiantamento de tesouraria de 3000 USD que lhe foi emprestado. Deve agora um saldo de 210,00 USD (3000,00 - 2790,00), que pode devolver à empresa utilizando a categoria de despesas **Devolução de dinheiro**.
 
 

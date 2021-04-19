@@ -1,21 +1,21 @@
 ---
-title: Faturas corrigidas – lite
-description: Este tópico fornece informações sobre faturas corrigidas no Project Operations
+title: Faturas corretivas de projeto
+description: Este tópico fornece informações sobre como criar e confirmar faturas corretivas no Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274247"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866605"
 ---
-# <a name="corrected-invoices---lite"></a>Faturas corrigidas – lite
+# <a name="corrective-project-invoices"></a>Faturas corretivas de projeto
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -37,9 +37,9 @@ Uma nova fatura é criada a partir da fatura confirmada. Todos os detalhes da li
 > [!IMPORTANT]
 > Os detalhes da linha de fatura que são correções a outros encargos já faturados têm o campo **Correção** definido para **Sim**. As faturas que corrigiram os detalhes da linha de fatura têm um campo chamado **Tem correções** que também está definido para **Sim**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Valores reais criados na Confirmação de uma fatura corretiva:
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Valores reais criados quando uma fatura corretiva é confirmada
 
-Abaixo estão os valores reais criados pela aplicação na confirmação de um corretivo com base nas operações realizadas na fatura corretiva de rascunho antes da confirmação.
+A tabela a seguir lista os factos que são criados quando uma fatura corretiva é confirmada.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ Um novo valor real de vendas não faturado que é faturável para a quantidade e
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Faturação do crédito integral de uma transação material previamente faturada.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uma inversão de vendas faturadas para a quantidade e montante no detalhe de linha de fatura para o material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Um novo valor real de vendas não faturadas para a quantidade e montante no detalhe de linha de fatura para o material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Faturar o crédito parcial numa transação material.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uma inversão de vendas faturadas para a quantidade e montante faturado no detalhe de linha de fatura para o material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Um novo valor real de vendas não faturadas é faturável pela quantidade e montante no detalhe da linha de fatura editada, uma inversão desta e um valor real de venda de faturação equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Um novo valor real de vendas não faturado que é faturável para a quantidade e montante restante após a dedução dos valores corrigidos no detalhe da linha de fatura.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Faturar o crédito total de uma transação de honorários previamente faturada.
                 </p>
             </td>
@@ -260,7 +305,7 @@ Faturar o crédito total de um marco previamente faturado.
 Uma inversão de vendas faturada para o montante no detalhe de linha original para o marco.
                 </p>
                 <p>
-A fatura do marco ou o estado da faturação no item de contrato do projeto é atualizada para **Pronto a Faturar**.
+O estado da fatura no marco é atualizado de <b>Fatura de cliente publicada</b> para <b>Pronta a faturar</b>.
                 </p>
             </td>
         </tr>

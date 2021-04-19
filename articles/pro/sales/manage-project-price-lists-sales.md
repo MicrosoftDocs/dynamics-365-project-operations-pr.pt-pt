@@ -1,27 +1,27 @@
 ---
-title: Gerir listas de preços de projetos em propostas do projeto – lite
-description: Este tópico fornece informação sobre como trabalhar com listas de preços do projeto em propostas. (Sales)
+title: Gerir listas de preços de projetos em propostas do projeto
+description: Este tópico fornece informação sobre como trabalhar com listas de preços do projeto em propostas.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273032"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858622"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gerir listas de preços de projetos em propostas do projeto – lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Gerir listas de preços de projetos em propostas do projeto 
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
 As propostas do projeto foram concebidas para suportar várias listas de preços de venda em vigor em várias datas. Com o Dynamics 365 Project Operations, é adicionada uma nova entidade associada chamada **Listas de preços do projeto**. Esta entidade tem uma relação de 1 para muitos com uma proposta de projeto.
 
-As listas de preços do projeto são utilizadas para fixar o preço das transações de tempo e despesas num projeto. Quando uma proposta tem uma ou mais listas de preços do projeto, estas listas de preços são utilizadas para definir o preço das estimativas de tempo e despesa, e os valores reais nos projetos associados a uma proposta através da linha de proposta.
+As listas de preços do projeto são usadas para o tempo de preço, material e transações de despesas num projeto. Quando uma proposta tem uma ou mais listas de preços do projeto, estas listas de preços são usadas para o preço do tempo, material, estimativas de despesas e valores reais em projetos que estão associados à proposta através da linha de proposta.
 
 Quando não existem listas de preços do projeto numa proposta de projeto, receberá uma mensagem de aviso. A mensagem indica que, como não existem listas de preços do projeto, não se fixará o preço do seu trabalho e das suas despesas estimados e reais do projeto. Em vez disso, terão o preço zero (0) para os valores de venda.
 

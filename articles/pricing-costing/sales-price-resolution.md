@@ -3,17 +3,17 @@ title: Resolver preços de venda para estimativas e valores reais
 description: Este tópico fornece informações sobre como resolver taxas de venda para estimativas e valores reais.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274967"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877459"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolver preços de venda para estimativas e valores reais
 
@@ -54,6 +54,17 @@ Depois de uma lista de preços para vendas ser resolvida, o sistema completa os 
     | &nbsp; | Margem de Lucro Sobre o Custo | Ao aplicar uma margem de lucro como definida pela linha de preço da categoria na taxa de custo da unidade do valor real do custo relacionado |
 
 4. Se o sistema não conseguir corresponder aos valores de campo **Categoria** e **Unidade**, a taxa de vendas assume a predefinição zero (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Resolução de taxas de vendas em valores reais e em linhas de estimativa de material
+
+No Project Operations, as linhas de estimativa de material são usadas para denotar a linha de proposta e os detalhes do item de contrato para os materiais e as linhas de estimativa de material do projeto.
+
+Depois de uma lista de preços para vendas ser resolvida, o sistema completa os seguintes passos para assumir a predefinição do preço de vendas da unidade.
+
+1. O sistema utiliza a combinação de campo **Produto** e **Unidade** na linha de estimativa do material para corresponder ao item da lista de preço na lista de preços que foi resolvida.
+2. Se o sistema encontrar um item de lista de preços que tenha uma taxa de venda para a combinação de campo **Produto** e **Unidade** e o método de preços é o **Valor da moeda**, o preço de venda especificado na linha de preços é utilizado.
+3. Se os valores dos campos **Produto** e **Unidade** não corresponderem, a taxa de vendas passa a zero.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

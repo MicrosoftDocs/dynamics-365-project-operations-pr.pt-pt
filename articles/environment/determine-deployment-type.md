@@ -3,17 +3,17 @@ title: Determinar o tipo de implementação
 description: Este tópico fornece informações que o vão ajudar a determinar o tipo de implementação correto do Project Operations para a sua empresa.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479578"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663608"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o tipo de implementação
 
@@ -44,7 +44,7 @@ O nosso [Questionário de implementação](https://aka.ms/provisionprojectoperat
 - [Project Operations para cenários baseados em recursos/não em stock](#integrated)
 - [Project Operations para cenários de encomenda em stock/de produção](#pma)
 
-O Project Operations suporta cenários de encomenda em stock/de produção e cenários não armazenados/baseados em recursos no mesmo ambiente através de configurações a nível da entidade jurídica. Por exemplo, a Contoso pode utilizar as capacidades de encomenda de abastecimento/produção nas suas instalações de fabrico dos EUA (Entidade legal = Contoso Manufacturing United States). A Contoso pode utilizar as capacidades de não abastecimento/baseadas em recursos nas suas instalações de manutenção da Contoso Robotics Arms no Reino Unido (Entidade legal = Contoso Robotics United Kingdom).
+O Project Operations suporta cenários de encomenda em stock/de produção e cenários não armazenados/baseados em recursos no mesmo ambiente através de configurações a nível da entidade jurídica. Por exemplo, Contoso pode utilizar as capacidades armazenadas/de produção de encomenda nas suas instalações de fabrico dos EUA (Entidade Legal = Contoso Fabricação nos Estados Unidos). Contoso pode utilizar as capacidades não abastecidas/baseadas em recursos nas suas instalações Contoso de assistência robótica no Reino Unido (entidade legal = Contoso Robótica no Reino Unido).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementação leve - oportunidade potencial para fatura pró-forma
 
@@ -56,7 +56,7 @@ A implementação leve inclui as seguintes capacidades:
 - Gestão de recursos unificados
 - Monitorização do tempo
 - Despesas básicas
-- Faturação pró-forma e virada para o cliente 
+- Faturação pró-forma para revisão e edições do gestor de projetos 
 
 #### <a name="deployment-steps"></a>Passos de implementação
 Determine o melhor modelo de implementação do Project Operations através do [Questionário de implementação](https://aka.ms/provisionprojectoperations).
@@ -87,14 +87,14 @@ Para esta implementação, consulte [Inscrever-se em subscrições de pré-visua
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations para cenários de encomenda em stock/de produção
 
 - Planeamento de projetos com WBS
-- Gestão de Recursos
-- Monitorização do Tempo
-- Despesa Total
+- Gestão de recursos
+- Monitorização do tempo
+- Despesa total
 - OCR de recibos
-- Faturação Completa
-- Reconhecimento de Receitas
-- Ordens de Produção
-- Suporte para materiais
+- Faturação completa
+- Reconhecimento de receitas
+- Encomendas de produção
+- Suporte de materiais armazenados com inventário
 
 #### <a name="deployment-steps"></a>Passos de implementação
 Determine o melhor modelo de implementação do Project Operations através do [Questionário de implementação](https://aka.ms/provisionprojectoperations).

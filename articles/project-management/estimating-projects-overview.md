@@ -1,31 +1,41 @@
 ---
-title: Descrição geral da estimativa de projetos
-description: Este tópico fornece informações sobre estimativas no Dynamics 365 Project Operations.
-author: ruhercul
+title: Conceitos de estimativa financeira
+description: Este tópico fornece informações sobre estimativas financeiras de projetos no Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286892"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701750"
 ---
-# <a name="estimate-projects-overview"></a>Descrição geral da estimativa de projetos
+# <a name="financial-estimation-concepts"></a>Conceitos de estimativa financeira
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
+Em Dynamics 365 Project Operations, pode estimar financeiramente os seus projetos em duas fases: 
+1. Durante a fase de pré-venda antes do negócio ser ganho. 
+2. Durante a fase de execução após a criação do contrato do projeto. 
+
+Pode criar uma estimativa financeira para o trabalho baseado em projetos utilizando qualquer uma das seguintes 3 páginas:
+- A página da **Linha Proposta** utilizando os detalhes da linha de proposta.  
+- A página da **Linha de contrato de projeto** utilizando os detalhes da linha de contrato. 
+- A página do **Projeto**, utilizando as páginas do separador **Tarefas** ou **Estimativas de Despesas**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Use uma proposta do projeto para criar uma estimativa
 Numa proposta baseada em projetos, pode utilizar a entidade **Detalhe de linha de proposta** para estimar o trabalho que é necessário para entregar um projeto. Em seguida, pode partilhar essa estimativa com o cliente.
 
 As linhas de proposta baseadas em projetos podem ter de zero a muitos detalhes de linha de proposta. Os detalhes de linha de proposta são utilizados para estimar o tempo, as despesas ou as taxas. O Microsoft Dynamics 365 Project Operations não permite estimativas de material em detalhes de linha de proposta. Estes são chamados de classes de transação. Os montantes de imposto estimados também podem ser introduzidos numa classe de transação.
 
 Para além das classes de transação, os detalhes de linha de proposta têm um tipo de transação. Dois tipos de transação são suportados para os detalhes de linha de proposta: **Custo** e **Contrato do Projeto**.
 
-## <a name="estimate-by-using-a-contract"></a>Estimar utilizando um contrato
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Use um contrato do projeto para criar uma estimativa
 
 Se tiver utilizado uma proposta quando criou um contrato baseado em projetos, a estimativa que fez para cada linha de proposta na proposta é copiada para o contrato do projeto. A estrutura de um contrato do projeto é semelhante à estrutura da proposta do projeto que tem linhas, detalhes de linha e agendas de faturação.
 
@@ -35,23 +45,17 @@ Os detalhes de item de contrato podem ser utilizados para estimar o tempo, as de
 
 As estimativas de material não são permitidas em detalhes de item de contrato.
 
-Os processos suportados num contrato do projeto são a criação e confirmação de faturas. A criação de faturas cria um rascunho de uma fatura baseada em projetos que inclui todos os valores reais de vendas não faturadas até à data atual.
+## <a name="use-a-project-to-create-an-estimate"></a>Use um projeto para criar uma estimativa 
 
-A confirmação faz com que o contrato seja só de leitura e altera o estado de **Rascunho** para **Confirmado**. Depois de executar esta ação, não é possível anulá-la. Uma vez que esta ação é permanente, é recomendável manter o contrato num estado de **Rascunho**.
-
-A única diferença entre contratos de rascunho e contratos confirmados é o respetivo Estado e o facto de os contratos de rascunho poderem ser editados, ao passo que os contratos confirmados não podem. A criação de faturas e a monitorização de valores reais podem ser efetuadas em contratos de rascunho e em contratos confirmados.
-
-As operações de Projeto não suporta ordens de alteração em contratos ou projetos.
-
-## <a name="estimating-projects"></a>Estimar projetos
-
-Pode estimar o tempo e as despesas dos projetos. As operações de Projeto não permite estimativas de materiais ou taxas em projetos.
+Pode estimar o tempo e as despesas dos projetos. O Project Operations não suporta estimativas de materiais ou taxas em projetos.
 
 As estimativas de tempo são geradas quando cria uma tarefa e identifica os atributos de um recurso genérico que é necessário para efetuar a tarefa. As estimativas de tempo são geradas a partir de tarefas de agendamento. As estimativas de tempo não são criadas se criar membros da equipa genéricos fora do contexto da agenda.
 
-As estimativas de despesas são introduzidas na grelha da página **Estimativas**.
+As estimativas de despesas são introduzidas na grelha da página **Estimativas de despesas**.
 
-## <a name="understanding-estimation"></a>Compreender as estimativas
+A criação de uma estimativa para um projeto é considerada uma boa prática porque pode construir estimativas detalhadas de baixo para cima para o trabalho ou tempo e despesas em cada tarefa no plano do projeto. Em seguida, pode utilizar esta estimativa detalhada para criar estimativas para cada linha de proposta e construir uma proposta mais credível para o cliente. Quando importa ou cria uma estimativa detalhada na linha de proposta utilizando o plano do projeto, o Project Operations importa os valores de venda e os valores de custo destas estimativas. Após a importação, pode ver as métricas de rentabilidade, margens e viabilidade na proposta do projeto.
+
+## <a name="understanding-estimates"></a>Compreender estimativas
 
 Utilize a tabela seguinte como um guia para compreender a lógica de negócio na fase de estimativa.
 

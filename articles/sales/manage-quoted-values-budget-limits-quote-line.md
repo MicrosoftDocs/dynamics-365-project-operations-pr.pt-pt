@@ -1,6 +1,6 @@
 ---
-title: Descrição geral de linhas de proposta baseadas em projetos
-description: Este tópico fornece informações sobre como utilizar linhas de proposta baseadas no projeto para o trabalho de projeto.
+title: Descrição geral das linhas de proposta de projetos
+description: Este tópico fornece informações sobre como usar linhas de proposta de projeto.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277802"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858046"
 ---
-# <a name="project-based-quote-lines-overview"></a>Descrição geral de linhas de proposta baseadas em projetos
+# <a name="project-quote-lines-overview"></a>Descrição geral das linhas de proposta de projetos
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 

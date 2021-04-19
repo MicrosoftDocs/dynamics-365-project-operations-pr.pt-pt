@@ -3,7 +3,7 @@ title: Valores Reais
 description: Esta tópico fornece informações sobre como trabalhar com valores reais no Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291813"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852558"
 ---
 # <a name="actuals"></a>Valores Reais 
 
-_**Aplica-se a:** Project Operations para cenários baseados em recursos/não armazenados_
+_**Aplica-se a:** Project Operations para cenários baseados em recursos/não armazenados, implementação leve - negócio para faturação pró-forma_
 
-Os valores reais são a quantidade de trabalho que foi concluída num projeto. São criados como resultado de entradas de hora e despesa, e entradas de diário e faturas.
+Os valores reais representam os progressos financeiros e de programação revistos e aprovados num projeto. São criados como resultado da aprovação do tempo, despesas, entradas de utilização de materiais e entradas de diário e faturas.
 
 ## <a name="journal-lines-and-time-submission"></a>Envio de linhas do diário e tempo
 
@@ -45,7 +45,7 @@ Quando uma entrada de hora que é submetida está associada a um projeto que est
 
 A lógica para criar preços predefinidos reside na linha do diário. Os valores do campo da entrada de hora são copiados para a linha do diário. Estes valores incluem a data da transação, o item de contrato para o qual o projeto está mapeado e a moeda resulta na lista de preços apropriada.
 
-Os campos que afetam os preços predefinidos, como **Função** e **Unidade Organizacional** são utilizados para determinar o preço adequado na linha do diário. Pode adicionar um campo personalizado na entrada de hora. Se pretende que o valor do campo seja propagado aos valores reais, crie o campo na entidade Valores Reais e utilize mapeamentos de campos para copiar o campo a partir da entrada de hora para o valor real.
+Os campos que afetam os preços predefinidos, como **Função** e **Unidade de recursos** são usados para determinar o preço apropriado na linha do diário. Pode adicionar um campo personalizado na entrada de hora. Se pretender que o valor do campo seja propagado aos valores reais, crie o campo nas tabelas **Valores reais** e **Linha do diário**. Utilize código personalizado para propagar o valor de campo selecionado da Entrada de Tempo para Valores reais através da linha do diário utilizando as origens de transação. Para obter mais informações sobre as origens e ligações de transações, consulte [Ligar valores reais a registos originais](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Submissão de linhas do diário e despesas básicas
 
@@ -57,24 +57,42 @@ Quando uma entrada de despesa básica que é submetida está associada a um proj
 
 ### <a name="fixed-price"></a>Preço fixo
 
-Quando uma entrada de despesa básica que é submetida está associada a um projeto que está mapeado para um item de contrato de preço fixo, o sistema cria uma linha do diário para o custo.
+Quando uma entrada de despesa submetida é ligada a um projeto que está mapeado para um item de contrato de preço fixo, o sistema cria uma linha do diário para o custo.
 
 ### <a name="default-pricing"></a>Preço predefinido
 
-A lógica para introduzir os preços predefinidos para as despesas baseia-se na categoria de despesa. A data da transação, o item de contrato para o qual o projeto está mapeado e a moeda são utilizados para determinar a lista de preços apropriada. No entanto, por predefinição, o montante que é introduzido para o preço é definido diretamente nas linhas do diário de despesas relacionadas para o custo e as vendas.
+A lógica para introduzir os preços predefinidos para as despesas baseia-se na categoria de despesa. A data da transação, o item de contrato para o qual o projeto está mapeado e a moeda são utilizados para determinar a lista de preços apropriada. Os campos que afetam os preços predefinidos, como **Categoria de transação** e **Unidade** são usados para determinar o preço apropriado na linha do diário. No entanto, isto só funciona quando o método de preços na tabela de preços é **Preço por unidade**. Se o método de preços for **A custo** ou **Margem de lucro sobre o custo**, o preço introduzido quando a entrada de despesas é criada é utilizado para o custo e o preço na linha de diário de vendas é calculado com base no método de preços. 
 
-A entrada baseada em categorias de preços predefinidos por unidade em entradas de despesa não está disponível.
+Pode adicionar um campo personalizado na entrada de despesas. Se pretender que o valor do campo seja propagado aos valores reais, crie o campo nas tabelas **Valores reais** e **Linha do diário**. Utilize código personalizado para propagar o valor de campo selecionado da Entrada de Tempo para Valores reais através da linha do diário utilizando as origens de transação. Para obter mais informações sobre as origens e ligações de transações, consulte [Ligar valores reais a registos originais](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Submissão de linhas de diário e de registo de utilização de materiais
+
+Para obter mais informações sobre a entrada de despesas, consulte o [Registo de utilização de materiais.](../material/material-usage-log.md)
+
+### <a name="time-and-materials"></a>Hora e materiais
+
+Quando uma entrada de registo de utilização de material submetida está ligada a um projeto que está mapeado para uma linha de contrato de tempo e materiais, o sistema cria duas linhas do diário, uma para custo e outra para vendas não faturadas.
+
+### <a name="fixed-price"></a>Preço fixo
+
+Quando uma entrada de registo de utilização de material é ligada a um projeto que está mapeado para um item de contrato de preço fixo, o sistema cria uma linha do diário para o custo.
+
+### <a name="default-pricing"></a>Preço predefinido
+
+A lógica para introduzir preços predefinidos para o material baseia-se na combinação do produto e da unidade. A data da transação, o item de contrato para o qual o projeto está mapeado e a moeda são utilizados para determinar a lista de preços apropriada. Os campos que afetam os preços predefinidos, como **ID do produto** e **Unidade** são usados para determinar o preço apropriado na linha do diário. No entanto, isto só funciona para produtos de catálogo. Para os produtos de write-in, o preço introduzido quando a entrada de registo de utilização do material é criado é utilizado para o custo e preço de venda nas linhas de diário. 
+
+Pode adicionar um campo personalizado na entrada **Registo de utilização de material**. Se pretender que o valor do campo seja propagado aos valores reais, crie o campo nas tabelas **Valores reais** e **Linha do diário**. Utilize código personalizado para propagar o valor de campo selecionado da Entrada de Tempo para Valores reais através da linha do diário utilizando as origens de transação. Para obter mais informações sobre as origens e ligações de transações, consulte [Ligar valores reais a registos originais](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Utilizar diários de entrada para registar custos
 
 Poderá utilizar os diários de entrada para registar o custo ou a receita nas classes de material, taxa, hora, despesa ou imposto. Os diários podem ser utilizadas para as finalidades seguintes:
 
-- Registe o custo real dos materiais e vendas num projeto.
 - Mover os valores reais da transação a partir de outro sistema para o Microsoft Dynamics 365 Project Operations.
 - Registe os custos que ocorreram noutro sistema. Estes custos podem incluir os custos de aprovisionamento ou subcontratação.
 
 > [!IMPORTANT]
 > A aplicação não valida o tipo de linha de diário ou o preço relacionado que é introduzido na linha do diário. Assim, só um utilizador plenamente consciente do impacto contabilístico que os valores reais têm no projeto deve utilizar diários de entrada para criar valores reais. Dado o impacto deste tipo de diário, deve escolher cuidadosamente quem tem acesso para criar diários de entrada.
+
 ## <a name="record-actuals-based-on-project-events"></a>Registar os valores reais baseado nos eventos do projeto
 
 O Project Operations regista as transações financeiras que ocorrem durante um projeto. Estas transações são registadas como reais. As tabelas seguintes mostram os diferentes tipos de valores reais criados, dependendo do facto de o projeto ser um projeto de tempo e material ou de preço fixo, que se encontra na fase pré-venda, ou é um projeto interno.

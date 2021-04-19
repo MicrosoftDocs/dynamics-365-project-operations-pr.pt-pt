@@ -3,17 +3,17 @@ title: Configurar gestão contabilística para projetos faturáveis
 description: Este tópico fornece informações sobre as opções contabilísticas para os projetos faturáveis.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287657"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858667"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar gestão contabilística para projetos faturáveis
 
@@ -58,13 +58,25 @@ Conclua os seguintes passos para criar um novo perfil de custos e receitas do pr
 
          - **Saldo**: ao lançar o diário de integração do Project Operations, o custo da transação de despesas será debitado no tipo de conta Livro Razão *WIP - Valor do custo* tal como definido no separador **Custo** na página **Configuração do lançamento no livro razão** e creditado na conta de compensação na linha do diário. As contas de compensação predefinidas para despesas são definidas em **Gestão de projetos e contabilística** > **Configurar** \> **Lançar** \> **Conta de compensação predefinida para despesas**. O contabilista utilizará a função **Lançar custos** para mover este custo de uma conta de saldo para a conta de resultados periodicamente.
         - **Resultados**: ao lançar o diário de integração do Project Operations, o custo da transação de despesas será debitado no tipo de conta Livro Razão *Custo* tal como definido no separador **Custo** na página **Configuração do lançamento no livro razão** e creditado na conta de compensação na linha do diário. As contas de compensação predefinidas para despesas são definidas em **Gestão de projetos e contabilística** \> **Configurar** \> **Lançar** \> **Conta de compensação predefinida para despesas**.
+      
+    - **Custos de publicação - item**:
+
+         - **Saldo**: Ao publicar o diário de integração de operações de projeto, o custo de transação de produto será debitado para a conta do livro razão tipo *WIP - Valor de custo - item* tal como definido no separador **Custo** na página de **Configuração de publicação de livro razão** e creditado no seguinte:
+    
+              - Para utilização do tipo de documento: conta **Custo - item** na **Configuração de publicação de livro razão**.  
+              - Para a aquisição do tipo de documento: **Conta de integração de aquisições** nos **Parâmetros de gestão de projetos e contabilística**.
+           O contabilista utilizará a função **Lançar custos** para mover este custo de uma conta de saldo para a conta de resultados periodicamente.
+        - **Lucro e perda**: Ao publicar o diário de integração de operações de projeto, o custo de transação de produto será debitado para a conta do livro razão tipo *Custo* tal como definido no separador **Custo** na página de **Configuração de publicação de livro razão** e creditado no seguinte:
+         
+             - Para utilização do tipo de documento: conta **Custo - item** na **Configuração de publicação de livro razão**.  
+             - Para a aquisição do tipo de documento: **Conta de integração de aquisições** nos **Parâmetros de gestão de projetos e contabilística**.
        
     - **Faturação na conta**:
 
         - **Saldo**: ao lançar a Proposta de fatura do projeto, uma transação na conta (marco de faturação) será creditada no tipo de conta do Livro Razão *WIP Faturado - na conta*, tal como definido no separador **Receitas** na página **Configuração do lançamento no livro razão**, e debitada na Conta de saldo do cliente.
          - **Resultados**: ao lançar a Proposta de fatura do projeto, uma transação na conta (marco de faturação) será creditada no tipo de conta do Livro Razão *Receitas faturadas - na conta*, tal como definido no separador **Receitas** na página **Configuração do lançamento no livro razão**, e debitada na Conta de saldo do cliente. As contas de saldo do cliente são definidas em **Contas a receber** \> **Configurar** \> **Perfis de lançamento do cliente**.
 
-   Ao definir os perfis de lançamento para os métodos de Faturação de tempo e material, tem a opção de acumular receitas por tipo de transação (hora, despesas e tarifa). Se a opção **Acumular receitas** for definida como **Sim**, as transações de vendas não faturadas no diário de Integração do Project Operations serão registadas no razão geral. O valor de venda é debitado em **WIP - conta de valor de vendas** e creditado na conta **Receitas acumuladas - valor de vendas** que foi configurada na página **Configuração do lançamento no livro razão**, no separador **Receitas**. 
+   Ao definir os perfis de publicação para métodos de tempo e faturação material, tem a opção de acumular receitas por tipo de transação (hora, despesa, item e taxa). Se a opção **Acumular receitas** for definida como **Sim**, as transações de vendas não faturadas no diário de Integração do Project Operations serão registadas no razão geral. O valor de venda é debitado em **WIP - conta de valor de vendas** e creditado na conta **Receitas acumuladas - valor de vendas** que foi configurada na página **Configuração do lançamento no livro razão** no separador **Receitas**. 
   
   > [!NOTE]
   > A opção **Acumular receitas** está disponível apenas quando o tipo de transação respetivo **Custo** é lançado na conta de resultados.

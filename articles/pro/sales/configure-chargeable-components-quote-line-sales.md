@@ -1,23 +1,23 @@
 ---
-title: Configurar os componentes faturáveis de uma linha de proposta – lite
+title: Configurar os componentes faturáveis de uma linha de proposta
 description: Este tópico fornece informações sobre a criação de componentes faturáveis e não faturáveis numa linha de proposta baseada em projetos.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273887"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858307"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Configurar os componentes faturáveis de uma linha de proposta – lite
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Configurar os componentes faturáveis de uma linha de proposta 
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Implementação leve - negociar à faturação pró-forma, Project Operations para cenários baseados em recursos/não armazenados_
 
 Uma linha de proposta baseada em projeto tem o conceito de componentes *incluídos* e componentes *faturáveis*.
 
@@ -42,7 +42,7 @@ A capacidade de faturação é definida nas categorias de transação de uma lin
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Atualizar uma tarefa de projeto para faturável ou não faturável
 
-Uma tarefa do projeto pode ser faturável ou não faturável no contexto de uma linha de proposta baseada em projeto específica que torna possível a seguinte configuração:
+Uma tarefa do projeto pode ser faturável ou não faturável no contexto de uma linha de proposta baseada em projeto específica que torna possível a seguinte configuração.
 
 Se uma linha de proposta baseada em projeto inclui **Tempo** e a tarefa **T1**, a tarefa está associada à linha de proposta como faturável. Se houver uma segunda linha de proposta que inclua **Despesas**, pode associar a tarefa **T1** à linha de proposta como não faturável. O resultado é que todo o tempo registado na tarefa é faturado e todas as despesas registadas na tarefa são não faturáveis.
 
@@ -61,22 +61,575 @@ Uma categoria de transação pode ser faturável ou não faturável numa linha d
 O tipo de faturação de uma transação pode ser configurado no separador **Categorias Faturáveis** de uma linha de proposta baseada em projeto, atualizando o campo **Tipo de Faturação** na subgrelha **Categorias Faturáveis**.
 
 ### <a name="resolve-chargeability"></a>Resolver a capacidade de faturação
-Uma estimativa ou um valor real criado para tempo apenas será considerado faturável se **Tempo** for incluído na linha de proposta, e se **Tarefa** e **Função** forem configuradas como faturáveis na linha de proposta.
+Uma estimativa ou um valor real criado para o tempo só será considerado faturável se:
 
-Uma estimativa ou um valor real criado para despesas só será considerado faturável se **Despesa** for incluído na linha de proposta, e se **Tarefa** e **Categoria de Transação** forem configuradas como faturáveis na linha de proposta.
+   - **Tempo** está incluído na linha da proposta.
+   - **Função** é configurado como responsável na linha de proposta.
+   - **Tarefas incluídas** estão definidas para **Tarefas selecionadas** na linha de proposta. 
 
-| Inclui Tempo | Inclui Despesa | Tarefas Incluídas | Função | Categoria | Tarefa | Faturação |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sim | Sim | Todo o projeto | Faturável | Faturável | Não pode ser definido | Faturação num valor real de tempo: Faturável </br>Tipo de faturação em valor real de despesas: Faturável |
-| Sim | Sim | Apenas tarefas selecionadas | Faturável | Faturável | Faturável | Faturação num valor real de tempo: Faturável</br>Tipo de faturação em valor real de despesas: Faturável |
-| Sim | Sim | Apenas tarefas selecionadas | Não faturável | Faturável | Faturável | Faturação num valor real de tempo: Não Faturável</br>Tipo de faturação em valor real de despesas: Faturável |
-| Sim | Sim | Apenas tarefas selecionadas | Faturável | Faturável | Não Faturável | Faturação num valor real de tempo: Não Faturável</br> Tipo de faturação em valor real de despesas: Não Faturável |
-| Sim | Sim | Apenas tarefas selecionadas | Não Faturável | Faturável | Não Faturável | Faturação num valor real de tempo: Não Faturável</br> Tipo de faturação em valor real de despesas: Não Faturável |
-| Sim | Sim | Apenas tarefas selecionadas | Não Faturável | Não Faturável | Faturável | Faturação num valor real de tempo: Não Faturável</br> Tipo de faturação em valor real de despesas: Não Faturável |
-| No | Sim | Todo o projeto | Não pode ser definido | Faturável | Não pode ser definido | Faturação num valor real de tempo: Não disponível </br>Tipo de faturação em valor real de despesas: Faturável |
-| No | Sim | Todo o projeto | Não pode ser definido | Não faturável | Não pode ser definido | Faturação num valor real de tempo: Não disponível </br>Tipo de faturação em valor real de despesas: Não faturável |
-| Sim | No | Todo o projeto | Faturável | Não pode ser definido | Não pode ser definido | Faturação num valor real de tempo: Faturável</br>Tipo de faturação em valor real de despesas: Não disponível |
-| Sim | No | Todo o projeto | Não faturável | Não pode ser definido | Não pode ser definido | Faturação num valor real de tempo: Não faturável </br>Tipo de faturação em valor real de despesas: Não disponível |
+Se estas três coisas forem verdadeiras, a **Tarefa** é também configurada como faturável. 
+
+Uma estimativa ou um valor real criado para a despesa só é considerado faturável se: 
+
+   - **Despesa** está incluído na linha da proposta.
+   - **Categoria de transação** é configurado como faturável na linha de proposta.
+   - **Tarefas incluídas** estão definidas para **Tarefas selecionadas** na linha de proposta.
+
+Se estas três coisas forem verdadeiras, a **Tarefa** é também configurada como faturável. 
+
+Uma estimativa ou um valor real criado para o material só será considerado faturável se:
+
+   - **Materiais** está incluído na linha da proposta.
+   - **Tarefas incluídas** estão definidas para **Tarefas selecionadas** na linha de proposta.
+
+Se estas duas coisas forem verdadeiras, a **Tarefa** também deveria ser configurada como faturável. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Inclui Tempo</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Inclui Despesa</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Incluir materiais</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Tarefas Incluídas</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Função</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Categoria</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tarefa</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Impacto da possível faturação</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Todo o Projeto </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: Faturável </p>
+                <p>
+Tipo de faturação em valor real de despesas: Faturável </p>
+                <p>
+Tipo de faturação em valor real de material: Faturável </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Apenas tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: Faturável </p>
+                <p>
+Tipo de faturação em valor real de despesas: Faturável </p>
+                <p>
+Tipo de faturação em valor real de material: Faturável </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Apenas tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: <strong>Não faturável</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de despesas: Faturável </p>
+                <p>
+Tipo de faturação em valor real de material: Faturável </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Apenas tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: <strong>Não faturável</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de despesas: <strong>Não faturável</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de material: <strong>Não faturável</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Apenas tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: <strong>Não faturável</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de despesas: <strong>Não faturável</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de material: <strong> Não faturável</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Apenas tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: <strong>Não faturável</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de despesas: <strong> Não faturável</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de material: Faturável </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Todo o Projeto </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Faturável</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: <strong>Não disponível</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de despesas: Faturável </p>
+                <p>
+Tipo de faturação em valor real de material: Faturável </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Todo o Projeto </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: <strong>Não disponível</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de despesas: <strong> Não faturável</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de material: Faturável </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Todo o Projeto </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: Faturável </p>
+                <p>
+Tipo de faturação em valor real de despesas:<strong> Não disponível</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de material: Faturável </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Todo o Projeto </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: <strong>Não faturável </strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de despesas:<strong> Não disponível</strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de material: Faturável </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Todo o Projeto </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Faturável </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: Faturável </p>
+                <p>
+Tipo de faturação em valor real de despesas: Faturável </p>
+                <p>
+Tipo de faturação em valor real de material: <strong> Não disponível</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Todo o Projeto </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Não faturável</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Faturação num valor real de tempo: <strong>Não faturável </strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de despesas:<strong> Não faturável </strong>
+                </p>
+                <p>
+Tipo de faturação em valor real de material:<strong> Não disponível</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Configurar taxas de faturação de mão de obra
 description: Este tópico fornece informações sobre como configurar taxas de faturação de mão de obra no Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274832"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877414"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configurar taxas de faturação de mão de obra
 
@@ -21,8 +21,8 @@ _ **Aplica-se A:** Project Operations para cenários baseados em recursos/não a
 
 Cada lista de preços tem um conjunto de preços de função ou de taxas de mão de obra que estão vigentes com o contexto e a data de efetividade incluídos no cabeçalho da lista de preços. As taxas de fatura por tempo no Dynamics 365 Project Operations podem ser criadas em apenas uma moeda, que é a moeda no cabeçalho da lista de preços.
 
-1. Para configurar as taxas de faturação de mão de obra para uma lista de preços de vendas, crie uma lista de preços com base no cabeçalho da lista de preços. 
-2. No separador **Preços de Função**, na subgrelha, selecione **+ Novo Preço de Função**. 
+1. Para configurar as taxas de fatura de mão de obra para uma lista de preços de venda, vá a **Vendas** > **Clientes** > **Listas de Preços** e selecione **Novo** para criar uma nova lista de preços. 
+2. No separador **Preços de Função**, na subgrelha, selecione **Novo Preço de Função**. 
 3. No painel **Criação Rápida**, insira a combinação de função e unidade de organização para a qual precisa de configurar a taxa de fatura.
 
    A tabela a seguir inclui os campos no separador **Geral** e o painel **Criação Rápida** de uma linha de preço de função que precisa de ter em mente à medida que cria preços de função numa lista de preços de vendas:
