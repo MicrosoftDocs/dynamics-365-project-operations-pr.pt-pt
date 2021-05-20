@@ -1,6 +1,6 @@
 ---
-title: Criar um novo modelo de horas de trabalho
-description: Como criar um modelo de horas de trabalho no Project Service
+title: Criar um modelo de horas de trabalho
+description: Este tópico descreve como criar um modelo de horas de trabalho no Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285047"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981269"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="a943d-103">Criar um modelo de horas de trabalho (Project Service)</span><span class="sxs-lookup"><span data-stu-id="a943d-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="fb9b4-103">Criar um modelo de horas de trabalho (Project Service)</span><span class="sxs-lookup"><span data-stu-id="fb9b4-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="a943d-104">Antes de poder criar agendas do projeto, é necessário configurar um calendário do projeto que defina o número de horas de trabalho a acomodar por dia na agenda e quaisquer encerramentos de companhia.</span><span class="sxs-lookup"><span data-stu-id="a943d-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="a943d-105">Poderá fazê-lo com um modelo de horas de trabalho, que contém detalhes sobre as horas de trabalho por dia, dias de folga e quaisquer outros encerramentos de companhia.</span><span class="sxs-lookup"><span data-stu-id="a943d-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="a943d-106">Quando estiver a criar um projeto, associe um modelo de trabalho ao calendário do projeto para aplicar a agenda para o projeto.</span><span class="sxs-lookup"><span data-stu-id="a943d-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="a943d-107">Existem duas formas de criar um modelo de horas de trabalho:</span><span class="sxs-lookup"><span data-stu-id="a943d-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="a943d-108">Criar um modelo de horas de trabalho baseado no calendário de um recurso.</span><span class="sxs-lookup"><span data-stu-id="a943d-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="a943d-109">Criar um novo modelo de horas de trabalho.</span><span class="sxs-lookup"><span data-stu-id="a943d-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="a943d-110">Para criar um modelo de horas de trabalho baseado no calendário de um recurso</span><span class="sxs-lookup"><span data-stu-id="a943d-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="a943d-111">Vá para **Project Service > Recursos**.</span><span class="sxs-lookup"><span data-stu-id="a943d-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="a943d-112">Selecione o recurso em que pretende basear as suas horas de trabalho.</span><span class="sxs-lookup"><span data-stu-id="a943d-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="a943d-113">Clique em **Guardar Calendário Como**, introduza o nome do modelo de horas de trabalho e clique em **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="a943d-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="a943d-114">Quando concluir a alteração das opções, clique em **Guardar e Fechar**.</span><span class="sxs-lookup"><span data-stu-id="a943d-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="a943d-115">Clique no botão **Guardar** no canto inferior direito do ecrã.</span><span class="sxs-lookup"><span data-stu-id="a943d-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="a943d-116">Para criar um novo modelo de horas de trabalho</span><span class="sxs-lookup"><span data-stu-id="a943d-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="a943d-117">Vá para **Project Service > Modelos de Horas de Trabalho**.</span><span class="sxs-lookup"><span data-stu-id="a943d-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="a943d-118">Clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="a943d-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="a943d-119">Introduza o nome do modelo de horas de trabalho.</span><span class="sxs-lookup"><span data-stu-id="a943d-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="a943d-120">Selecione um recurso onde pretende basear as horas de trabalho e clique em **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="a943d-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="a943d-121">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="a943d-121">See Also</span></span>  
- [<span data-ttu-id="a943d-122">Configurar recursos</span><span class="sxs-lookup"><span data-stu-id="a943d-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="fb9b4-104">Para criar e gerir um projeto, deve aplicar um modelo de calendário ao projeto.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="fb9b4-105">O modelo de calendário define os seguintes atributos do projeto:</span><span class="sxs-lookup"><span data-stu-id="fb9b4-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="fb9b4-106">Horário de trabalho, incluindo início e fim</span><span class="sxs-lookup"><span data-stu-id="fb9b4-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="fb9b4-107">Dias de trabalho</span><span class="sxs-lookup"><span data-stu-id="fb9b4-107">Working days</span></span>
+- <span data-ttu-id="fb9b4-108">Exceções do calendário, tais como dias não laborais</span><span class="sxs-lookup"><span data-stu-id="fb9b4-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="fb9b4-109">O modelo de calendário que é aplicado a um projeto é uma cópia do modelo de calendário definido nas definições da sua organização.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="fb9b4-110">Se alterar o modelo de calendário, essas alterações não se propagam ao horário de trabalho do projeto.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="fb9b4-111">Para alterar o horário de trabalho do projeto, deve ser aplicado um novo modelo.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="fb9b4-112">Para criar um modelo de calendário para a sua organização, existem dois requisitos-chave:</span><span class="sxs-lookup"><span data-stu-id="fb9b4-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="fb9b4-113">Defina as horas de trabalho desejadas do modelo utilizando um recurso de reserva novo ou existente.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="fb9b4-114">Crie um novo modelo de calendário e associe o modelo ao recurso de reserva.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="fb9b4-115">**Defina as horas de trabalho do modelo**</span><span class="sxs-lookup"><span data-stu-id="fb9b4-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="fb9b4-116">Aceda a **Recursos** \> **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="fb9b4-117">Crie um novo recurso para fazer referência no modelo de calendário ou selecione um recurso existente.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="fb9b4-118">Selecione o separador **Horas de Trabalho** do recurso e preencha as instruções em [Definir horário de trabalho para um recurso](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) para configurar as regras do calendário.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="fb9b4-119">**Criar um novo modelo de calendário**</span><span class="sxs-lookup"><span data-stu-id="fb9b4-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="fb9b4-120">Ir a **Definições** \> **Modelo de calendário**.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="fb9b4-121">Selecione **Novo** e introduza um nome, descrição e recurso de modelo.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="fb9b4-122">Quando um recurso é referenciado num modelo de calendário, uma cópia do calendário do recurso está associada ao modelo do calendário.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="fb9b4-123">Se alterar o modelo copiado das horas de trabalho, essas alterações não se propagam ao modelo de calendário.</span><span class="sxs-lookup"><span data-stu-id="fb9b4-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="fb9b4-124">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="fb9b4-124">See Also</span></span>  
+ [<span data-ttu-id="fb9b4-125">Configurar recursos</span><span class="sxs-lookup"><span data-stu-id="fb9b4-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
