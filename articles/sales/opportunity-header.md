@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664103"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948298"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Detalhes do cabeçalho para oportunidades baseadas em projetos
 
@@ -35,7 +35,7 @@ A tabela seguinte inclui os campos numa oportunidade baseada em projetos que sã
 | Gestor de Contas | Separador Geral | O nome do Gestor de conta para esta oportunidade baseada em projetos. | O Gestor de conta é responsável pela gestão da relação com o cliente até à conclusão deste projeto. Baseado no registo de recurso reservável associado ao Gestor de conta, a unidade de contratação é assumida por predefinição. |
 | Unidade de Contratação | Separador Geral | A Unidade organizacional que é responsável pela entrega do projeto ou projetos associados a este negócio. | A unidade de contratação é a divisão da empresa que executará os projetos após o fecho do negócio. Todas as unidades de contratação têm uma moeda, e esta moeda é utilizada para reportar os custos estimados e reais incorridos durante o projeto. |
 
-Para todos os outros campos e secções no separador **Resumo** da oportunidade, consulte [Criar ou editar oportunidades (Sales e Hub de Vendas)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+Para todos os outros campos e secções no separador **Resumo** da oportunidade, consulte [Criar ou editar oportunidades (Sales e Hub de Vendas)](/dynamics365/sales-enterprise/create-edit-opportunity-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287252"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948344"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diário de integração no Project Operations
 
@@ -38,7 +38,7 @@ O sistema agrupa linhas do diário em diários separados com base no valor selec
 As linhas do diário são criadas com base em valores reais de projetos. A lista que se segue inclui algumas das regras de predefinição e transformação mais notáveis:
 
   - Cada transação real do projeto tem uma linha no diário de Integração do Project Operations. As transações de vendas e de custos e não faturadas para o tipo de faturação de tempo e material são apresentadas em linhas separadas.
-  - O campo **Data** representa a data da transação. O campo **Data de contabilidade** representa a data em que a transação é registada no livro razão. Se a data contabilística estiver num [período financeiro fechado](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), e o parâmetro **Definir automaticamente a data contabilística para o período do livro razão aberto** é definido no separador **Financeiro** da página **Parâmetros de gestão de projetos e contabilística**, o sistema ajustará a data contabilística da transação para a primeira data no próximo período de livro razão aberto.
+  - O campo **Data** representa a data da transação. O campo **Data de contabilidade** representa a data em que a transação é registada no livro razão. Se a data contabilística estiver num [período financeiro fechado](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), e o parâmetro **Definir automaticamente a data contabilística para o período do livro razão aberto** é definido no separador **Financeiro** da página **Parâmetros de gestão de projetos e contabilística**, o sistema ajustará a data contabilística da transação para a primeira data no próximo período de livro razão aberto.
   - O campo **Cupão** mostra o número do cupão para cada transação real. A sequência de números do cupão é definida no separador **Sequências de Número**, na página **Parâmetros de gestão de projetos e contabilística**. Cada linha é atribuída a um novo número. Após o cupão ser publicado, pode ver como o custo e a transação de vendas não faturadas estão relacionados selecionando **Cupões relacionados** na página **Transação do Cupão**.
   - O campo **Categoria** representa uma transação de projeto e assume a predefinição com base na categoria de transação para o valor real do projeto relacionado.
     - Se **Categoria de transações** for definida no valor real do Projeto e existir uma **Categoria de projeto** relacionada numa determinada entidade jurídica, a categoria assume a predefinição desta categoria de projeto.

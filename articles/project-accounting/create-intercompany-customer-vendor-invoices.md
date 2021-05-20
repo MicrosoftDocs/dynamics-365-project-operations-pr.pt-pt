@@ -3,17 +3,17 @@ title: Criar faturas de clientes e fornecedores interempresa
 description: Este tópico fornece informações sobre como criar faturas de clientes e fornecedores interempresa.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287477"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948409"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Criar faturas de clientes e fornecedores interempresa
 
@@ -25,7 +25,9 @@ O contabilista do projeto para a entidade legal de concessão pode criar um proc
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Criar manualmente uma fatura de cliente interempresa para transações de projetos 
 
-Utilize este procedimento para criar uma fatura de cliente interempresa para transações de projetos. Pesquise por horas que foram publicadas por trabalhadores em projetos nas entidades legais de contração e para despesas que foram incorridas pela sua entidade legal em nome de entidades legais de contração. Pode pesquisar por nome de entidade legal, número de contrato de projeto, número de projeto, intervalo de data ou qualquer combinação destas opções. Nos resultados da pesquisa, selecione as transações a adicionar a uma fatura interempresa.
+Utilize este procedimento para criar uma fatura de cliente interempresa para transações de projetos. Pesquise por horas que foram publicadas por trabalhadores em projetos nas entidades legais de contração e para despesas que foram incorridas pela sua entidade legal em nome de entidades legais de contração. Pode pesquisar por nome de entidade legal, número de contrato de projeto, número de projeto, intervalo de data ou qualquer combinação destas opções. Nos resultados da pesquisa, selecione as transações a adicionar a uma fatura interempresa. 
+
+As seguintes etapas devem ser executadas na entidade jurídica de concessão de empréstimos. 
 
 1. No Dynamics 365 Finance, vá a **Gestão de projetos e contabilística** > **Faturas de projeto** > **Faturas de cliente interempresa**. Na página de lista **Faturas de cliente interempresa**, no Painel de Ação, selecione **Novo.**
 2. Na página **Criar fatura interempresa**, no campo **entidade legal**, selecione uma entidade legal de contração.
@@ -35,9 +37,9 @@ Utilize este procedimento para criar uma fatura de cliente interempresa para tra
 6. Nos resultados da pesquisa, selecione as transações a incluir na proposta de fatura interempresa e, em seguida, selecione **OK**.
 7. Na página **Fatura de cliente interempresa**, são apresentadas as transações de projetos interempresa que selecionou a partir dos resultados da pesquisa. Para modificar as transações antes de enviar a fatura à entidade legal de contração, faça o seguinte:
   
-    1. Abra a página **Criar proposta de fatura**. Selecione transações interempresa adicionais para a fatura atual e, em seguida, selecione **Adicionar linha**.
+    1. Na página de **fatura do cliente interempresa**, abra os detalhes da fatura e, em seguida, selecione **Adicionar linha**.
     2. Para remover uma linha, selecione-a e, em seguida, selecione **Remover**.
-    3. Ver comentários, razões, dimensões financeiras e outras informações sobre uma linha selecionada no Separador Rápido **Linhas de fatura**.
+    3. Veja comentários, razões, dimensões financeiras e outras informações sobre uma linha selecionada nos detalhes da linha de fatura.
     
 8. Para publicar a fatura de cliente interempresa, no Painel de Ação, selecione **Publicar**.
 
@@ -52,7 +54,7 @@ Pode criar várias faturas interempresa ao mesmo tempo para todas as entidades l
 2. Na página **Criar faturas de cliente interempresa**, no campo **Empresa**, selecione uma entidade legal a faturar. Se não selecionar uma empresa, todas as transações que satisfaçam os critérios de pesquisa são apresentadas para todas as entidades legais de contração.
 3. Em **Criar uma fatura por**, selecione se cria uma fatura para transações interempresa com base num projeto ou baseada numa entidade legal de contração.
 4. Opcional: Para selecionar um projeto específico e um contrato de projeto para criar faturas interempresa, clique em **Selecionar**. Na página **Inquérito**, no campo **Critérios**, selecione o contrato do projeto, número do projeto ou ambos e, em seguida, selecione **OK**.
-5. No separador **Lote**, crie um processo de lote para criar faturas interempresa numa base recorrente. Para obter mais informações, consulte [Submeter uma tarefa de processamento de lote a partir de um formulário](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. No separador **Lote**, crie um processo de lote para criar faturas interempresa numa base recorrente. Para obter mais informações, consulte [Submeter uma tarefa de processamento de lote a partir de um formulário](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Para publicar faturas interempresa, no Painel de Ação, selecione **Publicar**.
 
 > [!NOTE]
