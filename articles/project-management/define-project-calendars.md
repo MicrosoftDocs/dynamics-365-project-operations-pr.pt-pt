@@ -1,9 +1,9 @@
 ---
 title: Definir calendários de projetos
-description: Este tópico fornece informações sobre a utilização de um calendário de projeto para monitorizar o cronograma do projeto.
+description: Esta tópico fornece informações sobre como aplicar um modelo de calendário a um projeto para acompanhar o calendário do projeto.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286982"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981314"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="625f4-103">Definir calendários de projetos</span><span class="sxs-lookup"><span data-stu-id="625f4-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="06f93-103">Definir calendários de projetos</span><span class="sxs-lookup"><span data-stu-id="06f93-103">Define project calendars</span></span>
 
-<span data-ttu-id="625f4-104">_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_</span><span class="sxs-lookup"><span data-stu-id="625f4-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="06f93-104">_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_</span><span class="sxs-lookup"><span data-stu-id="06f93-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="625f4-105">Para criar uma agenda de projeto, cria um modelo de calendário do projeto que define o número de horas de trabalho por dia e todos os encerramentos de companhia.</span><span class="sxs-lookup"><span data-stu-id="625f4-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="625f4-106">Para criar um modelo de calendário do projeto, associe um modelo de trabalho ao campo **Modelo de calendário** do projeto.</span><span class="sxs-lookup"><span data-stu-id="625f4-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="625f4-107">Siga estes passos para criar um modelo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="625f4-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="06f93-105">Para criar e gerir um projeto, deve aplicar um modelo de calendário ao projeto.</span><span class="sxs-lookup"><span data-stu-id="06f93-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="06f93-106">O modelo de calendário define os seguintes atributos do projeto:</span><span class="sxs-lookup"><span data-stu-id="06f93-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="625f4-108">No painel de navegação esquerdo, selecione **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="625f4-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="625f4-109">Na página da lista de **Recursos**, abra o registo de utilizador e selecione **Mostrar Horas de Trabalho**.</span><span class="sxs-lookup"><span data-stu-id="625f4-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="06f93-107">Horário de trabalho, incluindo início e fim</span><span class="sxs-lookup"><span data-stu-id="06f93-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="06f93-108">Dias de trabalho</span><span class="sxs-lookup"><span data-stu-id="06f93-108">Working days</span></span>
+- <span data-ttu-id="06f93-109">Exceções do calendário, tais como dias não laborais</span><span class="sxs-lookup"><span data-stu-id="06f93-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="625f4-110">Certifique-se de que permite pop-ups na página do browser.</span><span class="sxs-lookup"><span data-stu-id="625f4-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="625f4-111">Isto permite-lhe ver as horas de trabalho definidas para o recurso.</span><span class="sxs-lookup"><span data-stu-id="625f4-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="625f4-112">No separador **Vista Mensal**, selecione **Configurar**.</span><span class="sxs-lookup"><span data-stu-id="625f4-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="625f4-113">É apresentada uma lista de três opções:</span><span class="sxs-lookup"><span data-stu-id="625f4-113">A list of three options appears:</span></span> 
+<span data-ttu-id="06f93-110">O modelo de calendário que é aplicado a um projeto é uma cópia do modelo de calendário definido nas definições da sua organização.</span><span class="sxs-lookup"><span data-stu-id="06f93-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="625f4-114">Nova Agenda Semanal</span><span class="sxs-lookup"><span data-stu-id="625f4-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="625f4-115">Agenda de Trabalho Para Um Dia</span><span class="sxs-lookup"><span data-stu-id="625f4-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="625f4-116">Licença</span><span class="sxs-lookup"><span data-stu-id="625f4-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="06f93-111">Se alterar o modelo de calendário, essas alterações não se propagam ao horário de trabalho do projeto.</span><span class="sxs-lookup"><span data-stu-id="06f93-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="06f93-112">Para alterar o horário de trabalho do projeto, deve ser aplicado um novo modelo.</span><span class="sxs-lookup"><span data-stu-id="06f93-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="625f4-117">Selecione **Nova Agenda Semanal** e, em seguida, defina as opções para esta agenda de recursos.</span><span class="sxs-lookup"><span data-stu-id="625f4-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="625f4-118">É possível definir uma agenda semanal periódica, os parâmetros de hora diária, os encerramentos de companhia e muito mais.</span><span class="sxs-lookup"><span data-stu-id="625f4-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="625f4-119">Defina o intervalo de datas, selecione **Guardar** e selecione **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="625f4-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="625f4-120">Volte à página da lista de **Recursos** e selecione o recurso para o qual define as horas de trabalho.</span><span class="sxs-lookup"><span data-stu-id="625f4-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="625f4-121">Selecione **Definir Calendário Como** para definir o modelo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="625f4-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="625f4-122">Na caixa de diálogo **Modelo de Trabalho**, introduza um nome para o modelo de trabalho e selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="625f4-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="06f93-113">Para criar um modelo de calendário para a sua organização, existem dois requisitos-chave:</span><span class="sxs-lookup"><span data-stu-id="06f93-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="625f4-123">Agora, pode associar o modelo de trabalho a um modelo de calendário do projeto.</span><span class="sxs-lookup"><span data-stu-id="625f4-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="06f93-114">Defina as horas de trabalho desejadas do modelo utilizando um recurso de reserva novo ou existente.</span><span class="sxs-lookup"><span data-stu-id="06f93-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="06f93-115">Crie um novo modelo de calendário e associe o modelo ao recurso de reserva.</span><span class="sxs-lookup"><span data-stu-id="06f93-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="06f93-116">**Defina as horas de trabalho do modelo**</span><span class="sxs-lookup"><span data-stu-id="06f93-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="06f93-117">Aceda a **Recursos** \> **Recursos**.</span><span class="sxs-lookup"><span data-stu-id="06f93-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="06f93-118">Crie um novo recurso para fazer referência no modelo de calendário ou selecione um recurso existente.</span><span class="sxs-lookup"><span data-stu-id="06f93-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="06f93-119">Selecione o separador **Horas de Trabalho** do recurso e preencha as instruções em [Definir horário de trabalho para um recurso](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) para configurar as regras do calendário.</span><span class="sxs-lookup"><span data-stu-id="06f93-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="06f93-120">**Criar um novo modelo de calendário**</span><span class="sxs-lookup"><span data-stu-id="06f93-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="06f93-121">Ir a **Definições** \> **Modelo de calendário**.</span><span class="sxs-lookup"><span data-stu-id="06f93-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="06f93-122">Selecione **Novo** e introduza um nome, descrição e recurso de modelo.</span><span class="sxs-lookup"><span data-stu-id="06f93-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="06f93-123">Quando um recurso é referenciado num modelo de calendário, uma cópia do calendário do recurso está associada ao modelo do calendário.</span><span class="sxs-lookup"><span data-stu-id="06f93-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="06f93-124">Se alterar o modelo copiado das horas de trabalho, essas alterações não se propagam ao modelo de calendário.</span><span class="sxs-lookup"><span data-stu-id="06f93-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="06f93-125">Agora, pode associar o modelo de trabalho a um modelo de calendário do projeto.</span><span class="sxs-lookup"><span data-stu-id="06f93-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
