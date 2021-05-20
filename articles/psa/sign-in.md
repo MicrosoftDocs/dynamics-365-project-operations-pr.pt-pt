@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282302"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951403"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Iniciar sessão no Project Service Automation
 
@@ -39,7 +39,7 @@ Quando inicia sessão nas aplicações do Dynamics 365, tem de ter as seguintes 
   
 - A sua palavra-passe  
   
-  Provavelmente recebeu estas informações numa mensagem de correio eletrónico da parte do administrador. Se não tem todas estas informações, ou se tiver problemas ao iniciar sessão no [Contacte o administrador ou o suporte técnico](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Provavelmente recebeu estas informações numa mensagem de correio eletrónico da parte do administrador. Se não tem todas estas informações, ou se tiver problemas ao iniciar sessão no [Contacte o administrador ou o suporte técnico](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Definir opções pessoais para permitir e-mail  
  Tem de configurar as definições de e-mail para permitir que outros utilizadores enviem e-mail em seu nome, para que o [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] possa enviar-lhe notificações por e-mail quando tiver tempo e despesas para aprovação ou inscrição em projetos.  

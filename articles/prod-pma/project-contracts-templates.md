@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289608"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950413"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar contratos de projetos e projetos diretamente de Project Service Automation para Finanças 
 
@@ -109,8 +109,8 @@ Quando a solução de integração Project Service Automation para Finance é ap
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração do mapeamento
 
 - Antes de poder ocorrer a sincronização dos contratos de projeto e dos projetos, é necessário sincronizar as contas.
-- No seu conjunto de ligações, adicione um mapeamento de campos chave de integração para **msdyn\_organizationalunits** para **msdyn\_name \[Nome\]**. Primeiro, poderá ter de adicionar um projeto ao conjunto de ligações. Para mais informações, consulte [Integrar dados no Common Data Service para Aplicações](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- No seu conjunto de ligações, adicione um mapeamento de campos chave de integração para **msdyn\_projects** para **msdynce\_projectnumber \[Número de Projeto\]**. Primeiro, poderá ter de adicionar um projeto ao conjunto de ligações. Para mais informações, consulte [Integrar dados no Common Data Service para Aplicações](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- No seu conjunto de ligações, adicione um mapeamento de campos chave de integração para **msdyn\_organizationalunits** para **msdyn\_name \[Nome\]**. Primeiro, poderá ter de adicionar um projeto ao conjunto de ligações. Para mais informações, consulte [Integrar dados no Common Data Service para Aplicações](/powerapps/administrator/data-integrator).
+- No seu conjunto de ligações, adicione um mapeamento de campos chave de integração para **msdyn\_projects** para **msdynce\_projectnumber \[Número de Projeto\]**. Primeiro, poderá ter de adicionar um projeto ao conjunto de ligações. Para mais informações, consulte [Integrar dados no Common Data Service para Aplicações](/powerapps/administrator/data-integrator).
 - **SourceDataID** para contratos de projeto e projetos pode ser atualizado para um valor diferente ou removido do mapeamento. O valor do modelo predefinido é **Project Service Automation**.
 - O mapeamento **PaymentTerms** tem de ser atualizado para refletir os termos de pagamento válidos no Finance. Também pode remover o mapeamento da tarefa do projeto. O mapa de valores predefinidos tem valores predefinidos para os dados de demonstração. A tabela seguinte mostra os valores no Project Service Automation.
 
@@ -131,7 +131,7 @@ Utilize o Microsoft Power Query para o Excel filtrar dados se estiverem reunidas
 Se tiver de utilizar o Power Query, siga estas diretrizes:
 
 - O modelo Projetos e contratos (PSA para Fin and Ops) tem um filtro predefinido que inclui apenas as ordens de venda do tipo **Item de trabalho (msdyn\_ordertype = 192350001)**. Este filtro ajuda a garantir que os contratos de projeto não são criados para as ordens de venda no Finance. Se criar o seu próprio modelo, terá de adicionar este filtro.
-- Crie um filtro Power Query que inclua apenas as organizações contratuais que devem ser sincronizadas com a entidade legal do conjunto de conexão de integração. Por exemplo, os contratos de projeto que tem com a unidade organizacional contratual Contoso US devem ser sincronizados com a entidade jurídica USSI, mas os contratos de projeto que tem com a unidade organizacional contratual Contoso Global devem ser sincronizados com a entidade jurídica USMF. Se não adicionar este filtro ao seu mapeamento de tarefas, todos os contratos de projeto serão sincronizados com a entidade jurídica que está definida para o conjunto de ligações, independentemente da unidade organizacional contratual.
+- Crie um filtro Power Query que inclua apenas as organizações contratuais que devem ser sincronizadas com a entidade legal do conjunto de conexão de integração. Por exemplo, os contratos de projeto que tem com a unidade organizacional contratual do Contoso EUA devem ser sincronizados com a entidade legal USSI, mas os contratos de projeto que tem com a unidade organizacional contratual da Contoso Global devem ser sincronizados para a entidade legal USMF. Se não adicionar este filtro ao seu mapeamento de tarefas, todos os contratos de projeto serão sincronizados com a entidade jurídica que está definida para o conjunto de ligações, independentemente da unidade organizacional contratual.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelos na Integração de dados
 

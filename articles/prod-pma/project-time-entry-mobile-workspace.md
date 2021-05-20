@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288888"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950188"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Área de trabalho móvel da entrada de hora do projeto
 
@@ -48,7 +48,7 @@ Especificamente, na área de trabalho móvel **Entrada de hora do projeto**, os 
 Os pré-requisitos diferem consoante a versão do Microsoft Dynamics 365 que foi implementada para a sua organização.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Pré-requisitos se utilizar o Dynamics 365 Finance
-Se o Finance foi implementado para a sua organização, o administrador de sistema tem de publicar a área de trabalho móvel **Entrada de hora do projeto**. Para obter instruções, consulte [Publicar uma área de trabalho móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Se o Finance foi implementado para a sua organização, o administrador de sistema tem de publicar a área de trabalho móvel **Entrada de hora do projeto**. Para obter instruções, consulte [Publicar uma área de trabalho móvel](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se utilizar a versão 1611 com a Platform update 3 ou posterior
 Se a versão 1611 com a Platform update 3 ou posterior tiver sido implementada para a sua organização, o administrador de sistema tem de satisfazer os seguintes pré-requisitos. 
@@ -68,17 +68,17 @@ Se a versão 1611 com a Platform update 3 ou posterior tiver sido implementada p
 <td>Administrador de sistema</td>
 <td>O KB 4018050 é uma atualização de is X++ ou correção de metadados que contém a área de trabalho móvel <strong>Entrada de hora do projeto</strong>. Para implementar o KB 4018050, o seu administrador de sistema tem de seguir estes passos.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Transfira a correção de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instale a correção de metadados</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implementável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong> e, em seguida, carregue o pacote implementável para o LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implementável</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Transfira a correção de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instale a correção de metadados</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implementável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong> e, em seguida, carregue o pacote implementável para o LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implementável</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publique a área de trabalho móvel <strong>Entrada de hora do projeto</strong>.</td>
 <td>Administrador de sistema</td>
-<td>Consulte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar uma área de trabalho móvel</a>.</td>
+<td>Consulte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar uma área de trabalho móvel</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Transferir e instalar a aplicação móvel Finance and Operations:
 2.  Selecione **Entrada de hora**. São mostradas as datas do calendário da semana atual.
 3.  Para uma data selecionada, selecione **Ações** &gt; **Nova entrada**.
 4.  Introduza o número de horas a registar.
-5.  Selecione o projeto para a entrada de hora. Uma lista mostra os projetos que são carregados na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, consulte [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Selecione o projeto para a entrada de hora. Uma lista mostra os projetos que são carregados na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, consulte [Plataforma móvel](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Se o seu projeto não estiver na lista, selecione **Procurar**. Procure por nome ou mude para a pesquisa por nome de projeto ou cliente.
-7.  Selecione uma categoria. Uma lista mostra as categorias que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, consulte [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Selecione uma categoria. Uma lista mostra as categorias que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, consulte [Plataforma móvel](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Se a sua categoria não estiver na lista, selecione **Procurar**. Procure por categoria ou mude para a pesquisa por nome de categoria.
-9.  Selecione uma atividade. Uma lista mostra as atividades que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, consulte [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Selecione uma atividade. Uma lista mostra as atividades que são carregadas na sua aplicação para utilização offline. Por predefinição, são carregados 50 itens, mas um programador pode alterar este número. Para mais informações, consulte [Plataforma móvel](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Se a sua atividade não estiver na lista, selecione **Procurar**. Procure por número de atividade ou mude para a pesquisa finalidade.
 
 11. Selecione a propriedade da linha.

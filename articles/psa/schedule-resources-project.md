@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282662"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951448"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Agendar recursos para um projeto (Project Service)
 
@@ -35,7 +35,7 @@ Pode verificar a disponibilidade de recursos para obter uma visão global das re
   
 O quadro da agenda mostra a lista de recursos e a respetiva disponibilidade. Selecione um modo de vista para mostrar a disponibilidade por **Horas**, **Dia**, **Semana** ou **Mês**.  
   
-Antes de utilizar o quadro da agenda, é importante configurá-lo. Para mais informações, consulte [Configurar o quadro da agenda (Field Service ou Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Antes de utilizar o quadro da agenda, é importante configurá-lo. Para mais informações, consulte [Configurar o quadro da agenda (Field Service ou Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Se estiver a utilizar uma versão mais antiga, para a disponibilidade de recursos, consulte [Ver disponibilidade de recursos](../psa/view-resource-availability.md).  
 

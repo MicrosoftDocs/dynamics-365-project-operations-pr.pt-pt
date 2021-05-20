@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275102"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950593"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalação de dados de exemplo para a aplicação Project Service
 
@@ -136,7 +136,7 @@ O pacote de dados de demonstração requer seis utilizadores. Para que o pacote 
     - Utilizador Fullname = "Molly Clark" como Gestor de Contas   
     - Utilizador Fullname = "Spencer Low" como Gestor de Práticas e de Projeto  
     - Utilizador Fullname = "Veronica Quek" como Membro da Equipa   
-    - Utilizador Fullname = "William Contoso"
+    - Nome completo do utilizador="William Contoso"
   
 2. Para fins de importação de dados de demonstração, atribua os seis utilizadores acima da função de Administrador para que os registos de exemplo sejam importados corretamente. 
 
@@ -149,7 +149,7 @@ O pacote de dados de demonstração requer seis utilizadores. Para que o pacote 
 
 5. O calendário do primeiro utilizador (na etiqueta **userstocreateandconfigure**) é utilizado para povoar as horas de trabalho para todos os recursos reserváveis na importação de dados de demonstração. Navegue para **Definições** > **Segurança** > **Utilizadores**, localize o utilizador "Spencer Low" e abra a opção "Horas de trabalho". Edite as horas de trabalho existentes, selecionando a opção **Agenda semanal periódica completa do início ao fim**. Verifique se as **Horas de trabalho estão definidas das 8:00 às 17:00 (9 horas), de segunda a sexta-feira e com o fuso horário definido como Hora do Pacífico (E.U.A. e Canadá)**. Isto é necessário para assegurar que o quadro da Agenda e do Projeto mostram conforme esperado.
 
-**Recomendação:** considere a criação de uma cópia de segurança da sua organização agora, no caso de necessitar de reverter para o ponto de partida se algo correr mal durante a instalação de dados de exemplo. Para mais informações, consulte [Fazer cópias de segurança e restaurar instâncias](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recomendação:** considere a criação de uma cópia de segurança da sua organização agora, no caso de necessitar de reverter para o ponto de partida se algo correr mal durante a instalação de dados de exemplo. Para mais informações, consulte [Fazer cópias de segurança e restaurar instâncias](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Executar o Package Deployer
 
