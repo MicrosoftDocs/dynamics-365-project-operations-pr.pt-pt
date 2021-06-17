@@ -2,18 +2,16 @@
 title: Descrição geral da faturação interempresa
 description: Este tópico fornece informações e exemplos sobre a faturação interempresa para projetos.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287342"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002655"
 ---
 # <a name="intercompany-invoicing-overview"></a>Descrição geral da faturação interempresa
 
@@ -21,7 +19,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 A sua organização pode ter múltiplas divisões, subsidiárias e outras entidades jurídicas que transferem produtos e serviços entre si para projetos. A entidade legal que presta o serviço ou produto é denominada *entidade legal de concessão*. A entidade legal que recebe o serviço ou produto é denominada *entidade legal de contração*.
 
-A seguinte ilustração mostra um cenário típico em que duas entidades legais, a Contoso Robotics USA (entidade legal de contração) e a Contoso Robotics UK (entidade legal de concessão) partilham recursos para entregar um projeto para o cliente, a Adventure Works. Para este cenário, a Contoso Robotics USA está contratada para entregar o trabalho à Adventure Works.
+A seguinte ilustração mostra um cenário típico em que duas entidades legais, a Contoso Robotics USA (entidade legal que solicita empréstimos) e a Contoso Robotics UK (entidade legal de empréstimos) partilham recursos para entregar um projeto ao cliente, a Adventure works. Para este cenário, a Contoso Robotics USA é contratada para entregar o trabalho à Adventure Works.
 
 ![Faturação entre empresas](./media/IntercompanyScenario.png) 
 

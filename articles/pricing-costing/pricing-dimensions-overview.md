@@ -2,19 +2,17 @@
 title: Descrição geral das dimensões de preços
 description: Este tópico fornece informações sobre as dimensões de preços no Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275417"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004995"
 ---
 # <a name="pricing-dimensions-overview"></a>Descrição geral das dimensões de preços
 
@@ -61,16 +59,16 @@ O exemplo que se segue mostra taxas de faturação que são configuradas com bas
 
 | Função        | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Programador   | Contoso EUA  |Hour | 200|USD     |
-| Programador   | Contoso India |Hour|   112|USD     |
+| Programador   | Contoso E.U.A.  |Hora | 200|USD     |
+| Programador   | Contoso India |Hora|   112|USD     |
 
 
 **Exemplo de taxas de custo**
 
 | Faixa salarial     | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| A minha empresa_Faixa 1 | Contoso EUA  |Hour | 145|USD     |
-| A minha empresa_Faixa 2 | Contoso India |Hour|   67|USD     |
+| A minha empresa_Faixa 1 | Contoso E.U.A.  |Hora | 145|USD     |
+| A minha empresa_Faixa 2 | Contoso India |Hora|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

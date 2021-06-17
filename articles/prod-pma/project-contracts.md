@@ -2,11 +2,9 @@
 title: Contratos de projeto
 description: Este tópico fornece exemplos dos contratos de projeto que pode criar para vários tipos de projetos e fontes de financiamento, e como pode gerir contratos e faturar os clientes do projeto.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a794ec38ac07c1418f9e95b741941a83492bb3d5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289563"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999775"
 ---
 # <a name="project-contracts"></a>Contratos de projeto
 
@@ -100,7 +98,7 @@ O quadro seguinte fornece cenários para gerir a alocação de financiamento ent
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>5</li>
+<li>1</li>
 <li>2</li>
 <li>3</li>
 </ul></td>
@@ -118,8 +116,8 @@ O quadro seguinte fornece cenários para gerir a alocação de financiamento ent
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>5</li>
-<li>5</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -138,8 +136,8 @@ O quadro seguinte fornece cenários para gerir a alocação de financiamento ent
 <li>50%</li>
 </ul></td>
 <td><ul>
-<li>5</li>
-<li>5</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 <li>2</li>
 </ul></td>
@@ -155,7 +153,7 @@ O quadro seguinte fornece cenários para gerir a alocação de financiamento ent
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>5</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
