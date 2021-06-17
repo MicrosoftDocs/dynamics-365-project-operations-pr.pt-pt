@@ -2,11 +2,9 @@
 title: Transferir uma proposta para um projeto
 description: Este tópico fornece informações sobre como transferir uma proposta para um projeto novo ou existente.
 author: kfend
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,24 +16,24 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d4d7ecfd8685c56cd73a780727f939eb58a8755
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288107"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002745"
 ---
-# <a name="transfer-a-quotation-to-a-project"></a><span data-ttu-id="1f5bb-103">Transferir uma proposta para um projeto</span><span class="sxs-lookup"><span data-stu-id="1f5bb-103">Transfer a quotation to a project</span></span>
+# <a name="transfer-a-quotation-to-a-project"></a><span data-ttu-id="39132-103">Transferir uma proposta para um projeto</span><span class="sxs-lookup"><span data-stu-id="39132-103">Transfer a quotation to a project</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1f5bb-104">Quando uma proposta do projeto tem um estado de **Confirmada**, pode transferir algumas ou todas as linhas da proposta para um projeto novo ou existente, utilizando o assistente **Transferir para projeto**.</span><span class="sxs-lookup"><span data-stu-id="1f5bb-104">When a project quotation has a status of **Confirmed**, you can transfer some or all the quotation lines to a new or existing project by using the **Transfer to project** wizard.</span></span> 
+<span data-ttu-id="39132-104">Quando uma proposta do projeto tem um estado de **Confirmada**, pode transferir algumas ou todas as linhas da proposta para um projeto novo ou existente, utilizando o assistente **Transferir para projeto**.</span><span class="sxs-lookup"><span data-stu-id="39132-104">When a project quotation has a status of **Confirmed**, you can transfer some or all the quotation lines to a new or existing project by using the **Transfer to project** wizard.</span></span> 
 
-<span data-ttu-id="1f5bb-105">Para utilizar o assistente, siga estes passos.</span><span class="sxs-lookup"><span data-stu-id="1f5bb-105">To use the wizard, follow these steps.</span></span>
+<span data-ttu-id="39132-105">Para utilizar o assistente, siga estes passos.</span><span class="sxs-lookup"><span data-stu-id="39132-105">To use the wizard, follow these steps.</span></span>
 
-1. <span data-ttu-id="1f5bb-106">Vá para **Gestão de projetos e contabilística** > **Propostas** > **Propostas do projeto**.</span><span class="sxs-lookup"><span data-stu-id="1f5bb-106">Go to **Project management and accounting** > **Quotations** > **Project quotations**.</span></span>
-2. <span data-ttu-id="1f5bb-107">Selecione a proposta que pretende transferir e, no separador **Dar seguimento**, no grupo **Modificar**, selecione **Transferir para projeto**.</span><span class="sxs-lookup"><span data-stu-id="1f5bb-107">Select the quotation you want to transfer and on the **Follow up** tab, in the **Modify** group, select **Transfer to project**.</span></span>
-3. <span data-ttu-id="1f5bb-108">Siga o assistente **Transferir proposta para projeto** para associar e transferir a proposta com um projeto.</span><span class="sxs-lookup"><span data-stu-id="1f5bb-108">Follow the **Transfer quotation to project** wizard to associate and transfer the quotation with a project.</span></span>
+1. <span data-ttu-id="39132-106">Vá para **Gestão de projetos e contabilística** > **Propostas** > **Propostas do projeto**.</span><span class="sxs-lookup"><span data-stu-id="39132-106">Go to **Project management and accounting** > **Quotations** > **Project quotations**.</span></span>
+2. <span data-ttu-id="39132-107">Selecione a proposta que pretende transferir e, no separador **Dar seguimento**, no grupo **Modificar**, selecione **Transferir para projeto**.</span><span class="sxs-lookup"><span data-stu-id="39132-107">Select the quotation you want to transfer and on the **Follow up** tab, in the **Modify** group, select **Transfer to project**.</span></span>
+3. <span data-ttu-id="39132-108">Siga o assistente **Transferir proposta para projeto** para associar e transferir a proposta com um projeto.</span><span class="sxs-lookup"><span data-stu-id="39132-108">Follow the **Transfer quotation to project** wizard to associate and transfer the quotation with a project.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
