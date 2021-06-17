@@ -2,37 +2,35 @@
 title: Gerir propostas do projeto
 description: Este tópico fornece informações sobre as propostas do projeto.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8e0b20d4780a14edc3c242e261e22d4905f783a4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272942"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994825"
 ---
-# <a name="manage-project-quotes"></a><span data-ttu-id="ecfbc-103">Gerir propostas do projeto</span><span class="sxs-lookup"><span data-stu-id="ecfbc-103">Manage project quotes</span></span>
+# <a name="manage-project-quotes"></a><span data-ttu-id="7b382-103">Gerir propostas do projeto</span><span class="sxs-lookup"><span data-stu-id="7b382-103">Manage project quotes</span></span>
 
-<span data-ttu-id="ecfbc-104">_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_</span><span class="sxs-lookup"><span data-stu-id="ecfbc-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="7b382-104">_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_</span><span class="sxs-lookup"><span data-stu-id="7b382-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="ecfbc-105">No Dynamics 365 Project Operations, as propostas do projeto destinam-se a ajudar a criar propostas para o trabalho do projeto.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-105">In Dynamics 365 Project Operations, project quotes are designed to help build proposals for project work.</span></span> <span data-ttu-id="ecfbc-106">A estrutura de uma proposta do projeto no Project Operations está estruturada para propostas de projeto com os seguintes componentes:</span><span class="sxs-lookup"><span data-stu-id="ecfbc-106">The structure of a project quote in Project Operations is structured for project proposals with the following components:</span></span>
+<span data-ttu-id="7b382-105">No Dynamics 365 Project Operations, as propostas do projeto destinam-se a ajudar a criar propostas para o trabalho do projeto.</span><span class="sxs-lookup"><span data-stu-id="7b382-105">In Dynamics 365 Project Operations, project quotes are designed to help build proposals for project work.</span></span> <span data-ttu-id="7b382-106">A estrutura de uma proposta do projeto no Project Operations está estruturada para propostas de projeto com os seguintes componentes:</span><span class="sxs-lookup"><span data-stu-id="7b382-106">The structure of a project quote in Project Operations is structured for project proposals with the following components:</span></span>
 
-  - <span data-ttu-id="ecfbc-107">As linhas de proposta que identificam os componentes discretos do trabalho que serão apresentados como componentes de alto nível.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-107">Quote lines that identify the discrete components of work that will be presented as high-level components.</span></span>
-  - <span data-ttu-id="ecfbc-108">Os detalhes da linha de proposta que identificam e estimam o trabalho para cada componente de alto nível ou linha de proposta.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-108">Quote line details that identify and estimate the work for each high-level component or quote line.</span></span> <span data-ttu-id="ecfbc-109">As estimativas de agenda ou de data e os aspetos financeiros do trabalho estão ligados a essa linha de proposta.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-109">Schedule or date estimates and the financial aspects for the work are tied to that quote line.</span></span>
-  - <span data-ttu-id="ecfbc-110">Os modelos de contratação e os componentes faturáveis são criados para cada linha de proposta.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-110">Contracting models and chargeable components are set up for each quote line.</span></span> <span data-ttu-id="ecfbc-111">Esta configuração ajuda a estimar a distribuição de receitas, gastos e rentabilidade para cada linha de proposta e a proposta global.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-111">This set up helps estimate the spread of revenue, spend, and profitability for each quote line and the overall quote.</span></span>
+  - <span data-ttu-id="7b382-107">As linhas de proposta que identificam os componentes discretos do trabalho que serão apresentados como componentes de alto nível.</span><span class="sxs-lookup"><span data-stu-id="7b382-107">Quote lines that identify the discrete components of work that will be presented as high-level components.</span></span>
+  - <span data-ttu-id="7b382-108">Os detalhes da linha de proposta que identificam e estimam o trabalho para cada componente de alto nível ou linha de proposta.</span><span class="sxs-lookup"><span data-stu-id="7b382-108">Quote line details that identify and estimate the work for each high-level component or quote line.</span></span> <span data-ttu-id="7b382-109">As estimativas de agenda ou de data e os aspetos financeiros do trabalho estão ligados a essa linha de proposta.</span><span class="sxs-lookup"><span data-stu-id="7b382-109">Schedule or date estimates and the financial aspects for the work are tied to that quote line.</span></span>
+  - <span data-ttu-id="7b382-110">Os modelos de contratação e os componentes faturáveis são criados para cada linha de proposta.</span><span class="sxs-lookup"><span data-stu-id="7b382-110">Contracting models and chargeable components are set up for each quote line.</span></span> <span data-ttu-id="7b382-111">Esta configuração ajuda a estimar a distribuição de receitas, gastos e rentabilidade para cada linha de proposta e a proposta global.</span><span class="sxs-lookup"><span data-stu-id="7b382-111">This set up helps estimate the spread of revenue, spend, and profitability for each quote line and the overall quote.</span></span>
 
-## <a name="view-all-project-based-quotes"></a><span data-ttu-id="ecfbc-112">Ver todas as propostas baseadas em projetos</span><span class="sxs-lookup"><span data-stu-id="ecfbc-112">View all project-based quotes</span></span>
+## <a name="view-all-project-based-quotes"></a><span data-ttu-id="7b382-112">Ver todas as propostas baseadas em projetos</span><span class="sxs-lookup"><span data-stu-id="7b382-112">View all project-based quotes</span></span>
 
-<span data-ttu-id="ecfbc-113">Uma lista de todas as propostas do projeto pode ser vista na página de lista **Propostas**.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-113">A list of all the project quotes can be seen from the **Quotes** list page.</span></span> 
+<span data-ttu-id="7b382-113">Uma lista de todas as propostas do projeto pode ser vista na página de lista **Propostas**.</span><span class="sxs-lookup"><span data-stu-id="7b382-113">A list of all the project quotes can be seen from the **Quotes** list page.</span></span> 
 
-1. <span data-ttu-id="ecfbc-114">Aceda a **Vendas** > **Propostas**.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-114">Go to **Sales** > **Quotes**.</span></span> <span data-ttu-id="ecfbc-115">Uma lista de todas as suas propostas do projeto no sistema são mostradas.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-115">A list of all your project quotes in the system are shown.</span></span> 
-2. <span data-ttu-id="ecfbc-116">Utilize o **Alternador de Vistas** para selecionar outras vistas filtradas das propostas.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-116">Use the **View Switcher** to select other filtered views of the quotes.</span></span> <span data-ttu-id="ecfbc-117">Utilizando critérios de filtro personalizados, pode configurar as suas próprias vistas e opções de navegação.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-117">Using custom filter criteria, you can configure your own views and navigation options.</span></span>
+1. <span data-ttu-id="7b382-114">Aceda a **Vendas** > **Propostas**.</span><span class="sxs-lookup"><span data-stu-id="7b382-114">Go to **Sales** > **Quotes**.</span></span> <span data-ttu-id="7b382-115">Uma lista de todas as suas propostas do projeto no sistema são mostradas.</span><span class="sxs-lookup"><span data-stu-id="7b382-115">A list of all your project quotes in the system are shown.</span></span> 
+2. <span data-ttu-id="7b382-116">Utilize o **Alternador de Vistas** para selecionar outras vistas filtradas das propostas.</span><span class="sxs-lookup"><span data-stu-id="7b382-116">Use the **View Switcher** to select other filtered views of the quotes.</span></span> <span data-ttu-id="7b382-117">Utilizando critérios de filtro personalizados, pode configurar as suas próprias vistas e opções de navegação.</span><span class="sxs-lookup"><span data-stu-id="7b382-117">Using custom filter criteria, you can configure your own views and navigation options.</span></span>
 
-<span data-ttu-id="ecfbc-118">As propostas podem ser criadas ou eliminadas a partir desta página de lista ou páginas de detalhes.</span><span class="sxs-lookup"><span data-stu-id="ecfbc-118">Quotes can be created or deleted from this list page or detail pages.</span></span>
+<span data-ttu-id="7b382-118">As propostas podem ser criadas ou eliminadas a partir desta página de lista ou páginas de detalhes.</span><span class="sxs-lookup"><span data-stu-id="7b382-118">Quotes can be created or deleted from this list page or detail pages.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

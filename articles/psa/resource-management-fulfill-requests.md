@@ -2,8 +2,6 @@
 title: Cumprir requisitos de recursos
 description: Este tópico fornece informações sobre como cumprir requisitos de recursos.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,34 +16,34 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5df7431aa0385381a13927db6ae757f87f1832f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283112"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998020"
 ---
-# <a name="fulfilling-resource-requests"></a><span data-ttu-id="717e2-103">Cumprir pedidos de recursos</span><span class="sxs-lookup"><span data-stu-id="717e2-103">Fulfilling resource requests</span></span>
+# <a name="fulfilling-resource-requests"></a><span data-ttu-id="83e28-103">Cumprir pedidos de recursos</span><span class="sxs-lookup"><span data-stu-id="83e28-103">Fulfilling resource requests</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="717e2-104">Os requisitos de recursos podem ser enviados como pedidos de recursos ao gestor de recursos responsável por cumprir esses pedidos.</span><span class="sxs-lookup"><span data-stu-id="717e2-104">Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.</span></span>
+<span data-ttu-id="83e28-104">Os requisitos de recursos podem ser enviados como pedidos de recursos ao gestor de recursos responsável por cumprir esses pedidos.</span><span class="sxs-lookup"><span data-stu-id="83e28-104">Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.</span></span>
 
-<span data-ttu-id="717e2-105">Os pedidos de recursos são mostrados como uma lista na vista **Pedidos de Recursos Ativos**.</span><span class="sxs-lookup"><span data-stu-id="717e2-105">Resource requests are shown as a list in the **Active Resource Requests** view.</span></span>
+<span data-ttu-id="83e28-105">Os pedidos de recursos são mostrados como uma lista na vista **Pedidos de Recursos Ativos**.</span><span class="sxs-lookup"><span data-stu-id="83e28-105">Resource requests are shown as a list in the **Active Resource Requests** view.</span></span>
 
 > ![Lista de pedidos de recursos](media/Resource-Management-image59.png)
 
-<span data-ttu-id="717e2-107">Para cumprir um pedido, selecione-o na lista e, em seguida, selecione **Localizar Recursos**.</span><span class="sxs-lookup"><span data-stu-id="717e2-107">To fulfill a request, select it in the list, and then select **Find Resources**.</span></span> <span data-ttu-id="717e2-108">Como alternativa, clique duas vezes numa linha para abrir o pedido.</span><span class="sxs-lookup"><span data-stu-id="717e2-108">Alternatively, double-click a row to open the request.</span></span> <span data-ttu-id="717e2-109">Em seguida, pode selecionar o separador **Requisito de Recurso** para ver os requisitos para esse pedido.</span><span class="sxs-lookup"><span data-stu-id="717e2-109">You can then select the **Resource Requirement** tab to view the requirements for that request.</span></span> <span data-ttu-id="717e2-110">Para começar a cumprir o pedido, selecione **Localizar Recursos**.</span><span class="sxs-lookup"><span data-stu-id="717e2-110">To start to fulfill the request, select **Find Resources**.</span></span>
+<span data-ttu-id="83e28-107">Para cumprir um pedido, selecione-o na lista e, em seguida, selecione **Localizar Recursos**.</span><span class="sxs-lookup"><span data-stu-id="83e28-107">To fulfill a request, select it in the list, and then select **Find Resources**.</span></span> <span data-ttu-id="83e28-108">Como alternativa, clique duas vezes numa linha para abrir o pedido.</span><span class="sxs-lookup"><span data-stu-id="83e28-108">Alternatively, double-click a row to open the request.</span></span> <span data-ttu-id="83e28-109">Em seguida, pode selecionar o separador **Requisito de Recurso** para ver os requisitos para esse pedido.</span><span class="sxs-lookup"><span data-stu-id="83e28-109">You can then select the **Resource Requirement** tab to view the requirements for that request.</span></span> <span data-ttu-id="83e28-110">Para começar a cumprir o pedido, selecione **Localizar Recursos**.</span><span class="sxs-lookup"><span data-stu-id="83e28-110">To start to fulfill the request, select **Find Resources**.</span></span>
 
 > ![Detalhes do pedido de recurso](media/Resource-Management-image60.png)
 
-<span data-ttu-id="717e2-112">O Assistente da Agenda é apresentado e filtrado pelos requisitos.</span><span class="sxs-lookup"><span data-stu-id="717e2-112">The Schedule Assistant appears and is filtered by the requirements.</span></span> <span data-ttu-id="717e2-113">Selecione o recurso e, em seguida, selecione **Reservar**.</span><span class="sxs-lookup"><span data-stu-id="717e2-113">Select the resource, and then select **Book**.</span></span>
+<span data-ttu-id="83e28-112">O Assistente da Agenda é apresentado e filtrado pelos requisitos.</span><span class="sxs-lookup"><span data-stu-id="83e28-112">The Schedule Assistant appears and is filtered by the requirements.</span></span> <span data-ttu-id="83e28-113">Selecione o recurso e, em seguida, selecione **Reservar**.</span><span class="sxs-lookup"><span data-stu-id="83e28-113">Select the resource, and then select **Book**.</span></span>
 
 > ![Recurso selecionado](media/Resource-Management-image61.png)
 
-<span data-ttu-id="717e2-115">O membro da equipa genérico é substituído pelo recurso nomeado reservado de forma fixa na equipa do projeto e pelas atribuições de tarefas na agenda do projeto.</span><span class="sxs-lookup"><span data-stu-id="717e2-115">The generic team member is replaced with the hard-booked named resource on the project team and task assignments in the project schedule.</span></span>
+<span data-ttu-id="83e28-115">O membro da equipa genérico é substituído pelo recurso nomeado reservado de forma fixa na equipa do projeto e pelas atribuições de tarefas na agenda do projeto.</span><span class="sxs-lookup"><span data-stu-id="83e28-115">The generic team member is replaced with the hard-booked named resource on the project team and task assignments in the project schedule.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
