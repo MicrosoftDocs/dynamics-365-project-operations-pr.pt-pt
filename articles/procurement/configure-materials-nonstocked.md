@@ -2,19 +2,17 @@
 title: Configure materiais não armazenados e faturas pendentes do fornecedor
 description: Esta tópico explica como permitir materiais não armazenados e faturas pendentes do fornecedor.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880675"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993925"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configure materiais não armazenados e faturas pendentes do fornecedor
 
@@ -61,11 +59,11 @@ Se estiver a utilizar dados de demonstração padrão, poderá também ter de pa
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Ativar fluxo de trabalho para criar contas com base na entidade fornecedora
 
-A solução Orquestração Escrita Dupla proporciona [Integração mestra aos Fornecedores](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Como pré-requisito para esta funcionalidade, os dados do fornecedor devem ser criados na entidade **Contas**. Ative um processo de fluxo de trabalho do modelo para criar fornecedores na tabela **Contas**, tal como descrito em [Alternar entre os desenhos do fornecedor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+A solução Orquestração Escrita Dupla proporciona [Integração mestra aos Fornecedores](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Como pré-requisito para esta funcionalidade, os dados do fornecedor devem ser criados na entidade **Contas**. Ative um processo de fluxo de trabalho do modelo para criar fornecedores na tabela **Contas**, tal como descrito em [Alternar entre os desenhos do fornecedor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Definir produtos a serem criados como ativos
 
-Os materiais não armazenados devem ser configurados como **Produtos libertados** em Finanças. A solução Orquestração em Escrita dupla proporciona uma [integração de produtos out-of-the-box para o catálogo de produtos Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Por defeito, os produtos das Finanças são sincronizados para Dataverse num projeto de rascunho. Para sincronizar o produto para um estado ativo para que possa ser diretamente utilizado em documentos de utilização de materiais ou faturas pendentes do fornecedor, vá para **Sistema** > **Administração** > **Administração de sistema** > **Definições de sistema** e, no separador **Vendas**, defina **Criar produtos em estado ativo** para **Sim**.
+Os materiais não armazenados devem ser configurados como **Produtos libertados** em Finanças. A solução Orquestração em Escrita dupla proporciona uma [integração de produtos out-of-the-box para o catálogo de produtos Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Por defeito, os produtos das Finanças são sincronizados para Dataverse num projeto de rascunho. Para sincronizar o produto para um estado ativo para que possa ser diretamente utilizado em documentos de utilização de materiais ou faturas pendentes do fornecedor, vá para **Sistema** > **Administração** > **Administração de sistema** > **Definições de sistema** e, no separador **Vendas**, defina **Criar produtos em estado ativo** para **Sim**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configurar pré-requisitos em Finanças
 

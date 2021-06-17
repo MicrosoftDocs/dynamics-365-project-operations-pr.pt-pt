@@ -2,18 +2,16 @@
 title: Aplicar dados de configuração da demonstração – lite
 description: Este tópico fornece informações sobre como aplicar dados de configuração da demonstração para o Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290148"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997165"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicar dados de configuração de demonstração para Project Operations – lite 
 
@@ -28,8 +26,8 @@ Antes de iniciar a configuração, tem de ter um ambiente do Common Data Service
 
 ## <a name="instructions"></a>Instruções
 
-1. Transferir o [Pacote de Dados Mestres](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Navegue para a pasta *ProjOpsDemoDataSetupAndMaster - Integrated CMT* e execute o ficheiro executável *DataMigrationUtility*.
+1. Transferir o [Pacote de Dados Mestres](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Navegue para a pasta *ProjOpsSampleSetupData - CE apenas CMT* e execute o ficheiro executável, *DataMigrationUtility*.
 3. Na página 1 do Assistente de Migração da Configuração do Common Data Service (CMT), selecione **Importar Dados** e, em seguida, selecione **Continuar**.
 
     ![Migração da Configuração](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ Antes de iniciar a configuração, tem de ter um ambiente do Common Data Service
    ![Início de Sessão da Configuração](./media/2ConfigurationSignin.png)
 
 7. Na página 3, a partir da lista de Organizações no Inquilino, selecione a organização para a qual pretende importar os dados de demonstração e, em seguida, selecione **Iniciar Sessão**.
-8. Na página 4, selecione o ficheiro zip, *MasterAndSetupData* a partir da pasta descompactada *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
+8. Na página 4, selecione o ficheiro zip, *SampleSetupAndConfigData* da pasta desempacotada, *ProjOpsSampleSetupData - CE apenas CMT*.
 
    ![Ficheiro Zip](./media/3ZipFile.png)
 
@@ -52,7 +50,7 @@ Antes de iniciar a configuração, tem de ter um ambiente do Common Data Service
    ![Importar Dados](./media/5ImportData.png)
 
 10. A importação será executada durante aproximadamente 2 a 10 minutos, consoante a velocidade da sua rede. Depois de concluída, saia do Assistente de CMT. 
-11. Contacte a sua organização para obter dados nas seguintes 20 entidades:
+11. Contacte a sua organização para obter dados nas seguintes 18 entidades:
 
     -   Moeda
     -   Conta
