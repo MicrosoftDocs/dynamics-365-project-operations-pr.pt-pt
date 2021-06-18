@@ -2,12 +2,10 @@
 title: Alterações de gestão de recursos (Project Service Automation 3.x)
 description: Este tópico fornece informações sobre as alterações na área de gestão de Recursos.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/18/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,160 +14,160 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f88d7309a5e1171629a72e749bfc01abb64c62a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e888d55b93c40e08e51bd4480853fec37f2b6333
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284777"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007830"
 ---
-# <a name="resource-management-changes-project-service-automation-3x"></a><span data-ttu-id="830dd-103">Alterações de gestão de recursos (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="830dd-103">Resource management changes (Project Service Automation 3.x)</span></span>
+# <a name="resource-management-changes-project-service-automation-3x"></a><span data-ttu-id="e3ac0-103">Alterações de gestão de recursos (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="e3ac0-103">Resource management changes (Project Service Automation 3.x)</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="830dd-104">As secções deste tópico fornecem informações sobre as alterações efetuadas na área de gestão de Recursos do Dynamics 365 Project Service Automation, versão 3.x.</span><span class="sxs-lookup"><span data-stu-id="830dd-104">The sections of this topic provide information about the changes that have been made to the Resource management area of Dynamics 365 Project Service Automation version 3.x.</span></span>
+<span data-ttu-id="e3ac0-104">As secções deste tópico fornecem informações sobre as alterações efetuadas na área de gestão de Recursos do Dynamics 365 Project Service Automation, versão 3.x.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-104">The sections of this topic provide information about the changes that have been made to the Resource management area of Dynamics 365 Project Service Automation version 3.x.</span></span>
 
-## <a name="project-estimates"></a><span data-ttu-id="830dd-105">Estimativas do projeto</span><span class="sxs-lookup"><span data-stu-id="830dd-105">Project estimates</span></span>
+## <a name="project-estimates"></a><span data-ttu-id="e3ac0-105">Estimativas do projeto</span><span class="sxs-lookup"><span data-stu-id="e3ac0-105">Project estimates</span></span>
 
-<span data-ttu-id="830dd-106">Em vez de se basear na entidade **msdyn\_projecttask** (**Tarefa do Projeto**), as estimativas do projeto são baseadas na entidade **msdyn\_resourceassignment** (**Atribuição de Recurso**).</span><span class="sxs-lookup"><span data-stu-id="830dd-106">Instead of being based on the **msdyn\_projecttask** entity (**Project Task**), project estimates are based on the **msdyn\_resourceassignment** entity (**Resource Assignment**).</span></span> <span data-ttu-id="830dd-107">As atribuições de recursos tornaram-se a "fonte da verdade" para o agendamento e a definição de preços das tarefas.</span><span class="sxs-lookup"><span data-stu-id="830dd-107">Resource assignments have become the "source of truth" for task scheduling and pricing.</span></span>
+<span data-ttu-id="e3ac0-106">Em vez de se basear na entidade **msdyn\_projecttask** (**Tarefa do Projeto**), as estimativas do projeto são baseadas na entidade **msdyn\_resourceassignment** (**Atribuição de Recurso**).</span><span class="sxs-lookup"><span data-stu-id="e3ac0-106">Instead of being based on the **msdyn\_projecttask** entity (**Project Task**), project estimates are based on the **msdyn\_resourceassignment** entity (**Resource Assignment**).</span></span> <span data-ttu-id="e3ac0-107">As atribuições de recursos tornaram-se a "fonte da verdade" para o agendamento e a definição de preços das tarefas.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-107">Resource assignments have become the "source of truth" for task scheduling and pricing.</span></span>
 
-## <a name="line-tasks"></a><span data-ttu-id="830dd-108">Tarefas de linha</span><span class="sxs-lookup"><span data-stu-id="830dd-108">Line tasks</span></span>
+## <a name="line-tasks"></a><span data-ttu-id="e3ac0-108">Tarefas de linha</span><span class="sxs-lookup"><span data-stu-id="e3ac0-108">Line tasks</span></span>
 
-<span data-ttu-id="830dd-109">No PSA 3.x, as tarefas de linha são obsoletas (preteridas).</span><span class="sxs-lookup"><span data-stu-id="830dd-109">In PSA 3.x, line tasks are obsolete (deprecated).</span></span> <span data-ttu-id="830dd-110">Agora, as atribuições apontam para a tarefa inteira, em vez das tarefas de linha.</span><span class="sxs-lookup"><span data-stu-id="830dd-110">Assignments now point to the whole task instead of the line tasks.</span></span>
+<span data-ttu-id="e3ac0-109">No PSA 3.x, as tarefas de linha são obsoletas (preteridas).</span><span class="sxs-lookup"><span data-stu-id="e3ac0-109">In PSA 3.x, line tasks are obsolete (deprecated).</span></span> <span data-ttu-id="e3ac0-110">Agora, as atribuições apontam para a tarefa inteira, em vez das tarefas de linha.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-110">Assignments now point to the whole task instead of the line tasks.</span></span>
 
-<span data-ttu-id="830dd-111">O exemplo a seguir mostra como uma tarefa denominada "Tarefa de teste" é atribuída aos membros da equipa A e B nas versões anteriores do PSA e no PSA 3.x.</span><span class="sxs-lookup"><span data-stu-id="830dd-111">The following example shows how a task that is named "Test task" is assigned to team members A and B in earlier versions of PSA and in PSA 3.x.</span></span>
+<span data-ttu-id="e3ac0-111">O exemplo a seguir mostra como uma tarefa denominada "Tarefa de teste" é atribuída aos membros da equipa A e B nas versões anteriores do PSA e no PSA 3.x.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-111">The following example shows how a task that is named "Test task" is assigned to team members A and B in earlier versions of PSA and in PSA 3.x.</span></span>
 
-- <span data-ttu-id="830dd-112">**Antes do PSA 3.x:**</span><span class="sxs-lookup"><span data-stu-id="830dd-112">**Before PSA 3.x:**</span></span>
+- <span data-ttu-id="e3ac0-112">**Antes do PSA 3.x:**</span><span class="sxs-lookup"><span data-stu-id="e3ac0-112">**Before PSA 3.x:**</span></span>
 
-    - <span data-ttu-id="830dd-113">Tarefa de teste</span><span class="sxs-lookup"><span data-stu-id="830dd-113">Test task</span></span>
+    - <span data-ttu-id="e3ac0-113">Tarefa de teste</span><span class="sxs-lookup"><span data-stu-id="e3ac0-113">Test task</span></span>
 
-        - <span data-ttu-id="830dd-114">Tarefa de teste - Tarefa de linha 1</span><span class="sxs-lookup"><span data-stu-id="830dd-114">Test task – Line task 1</span></span>
+        - <span data-ttu-id="e3ac0-114">Tarefa de teste - Tarefa de linha 1</span><span class="sxs-lookup"><span data-stu-id="e3ac0-114">Test task – Line task 1</span></span>
 
-            - <span data-ttu-id="830dd-115">Atribuição a A</span><span class="sxs-lookup"><span data-stu-id="830dd-115">Assignment to A</span></span>
+            - <span data-ttu-id="e3ac0-115">Atribuição a A</span><span class="sxs-lookup"><span data-stu-id="e3ac0-115">Assignment to A</span></span>
 
-        - <span data-ttu-id="830dd-116">Tarefa de teste - Tarefa de linha 2</span><span class="sxs-lookup"><span data-stu-id="830dd-116">Test task – Line task 2</span></span>
+        - <span data-ttu-id="e3ac0-116">Tarefa de teste - Tarefa de linha 2</span><span class="sxs-lookup"><span data-stu-id="e3ac0-116">Test task – Line task 2</span></span>
 
-            - <span data-ttu-id="830dd-117">Atribuição a B</span><span class="sxs-lookup"><span data-stu-id="830dd-117">Assignment to B</span></span>
+            - <span data-ttu-id="e3ac0-117">Atribuição a B</span><span class="sxs-lookup"><span data-stu-id="e3ac0-117">Assignment to B</span></span>
 
-- <span data-ttu-id="830dd-118">**PSA 3.x:**</span><span class="sxs-lookup"><span data-stu-id="830dd-118">**PSA 3.x:**</span></span>
+- <span data-ttu-id="e3ac0-118">**PSA 3.x:**</span><span class="sxs-lookup"><span data-stu-id="e3ac0-118">**PSA 3.x:**</span></span>
 
-    - <span data-ttu-id="830dd-119">Tarefa de teste</span><span class="sxs-lookup"><span data-stu-id="830dd-119">Test task</span></span>
+    - <span data-ttu-id="e3ac0-119">Tarefa de teste</span><span class="sxs-lookup"><span data-stu-id="e3ac0-119">Test task</span></span>
 
-        - <span data-ttu-id="830dd-120">Atribuição a A</span><span class="sxs-lookup"><span data-stu-id="830dd-120">Assignment to A</span></span>
-        - <span data-ttu-id="830dd-121">Atribuição a B</span><span class="sxs-lookup"><span data-stu-id="830dd-121">Assignment to B</span></span>
+        - <span data-ttu-id="e3ac0-120">Atribuição a A</span><span class="sxs-lookup"><span data-stu-id="e3ac0-120">Assignment to A</span></span>
+        - <span data-ttu-id="e3ac0-121">Atribuição a B</span><span class="sxs-lookup"><span data-stu-id="e3ac0-121">Assignment to B</span></span>
 
-## <a name="unassigned-assignment"></a><span data-ttu-id="830dd-122">Atribuição não atribuída</span><span class="sxs-lookup"><span data-stu-id="830dd-122">Unassigned assignment</span></span>
+## <a name="unassigned-assignment"></a><span data-ttu-id="e3ac0-122">Atribuição não atribuída</span><span class="sxs-lookup"><span data-stu-id="e3ac0-122">Unassigned assignment</span></span>
 
-<span data-ttu-id="830dd-123">No PSA 3.x, uma atribuição não atribuída é uma atribuição que é atribuída a um membro da equipa **NULL** e a um recurso **NULL**.</span><span class="sxs-lookup"><span data-stu-id="830dd-123">In PSA 3.x, an unassigned assignment is an assignment that is assigned to a **NULL** team member and a **NULL** resource.</span></span> <span data-ttu-id="830dd-124">As atribuições não atribuídas podem ocorrer em alguns cenários:</span><span class="sxs-lookup"><span data-stu-id="830dd-124">Unassigned assignments can occur in a couple of scenarios:</span></span>
+<span data-ttu-id="e3ac0-123">No PSA 3.x, uma atribuição não atribuída é uma atribuição que é atribuída a um membro da equipa **NULL** e a um recurso **NULL**.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-123">In PSA 3.x, an unassigned assignment is an assignment that is assigned to a **NULL** team member and a **NULL** resource.</span></span> <span data-ttu-id="e3ac0-124">As atribuições não atribuídas podem ocorrer em alguns cenários:</span><span class="sxs-lookup"><span data-stu-id="e3ac0-124">Unassigned assignments can occur in a couple of scenarios:</span></span>
 
-- <span data-ttu-id="830dd-125">Se uma tarefa tiver sido criada, mas ainda não tiver sido atribuída a nenhum membro da equipa, é sempre criada uma atribuição não atribuída.</span><span class="sxs-lookup"><span data-stu-id="830dd-125">If a task has been created, but it hasn't yet been assigned to any team member, an unassigned assignment is always created.</span></span> 
-- <span data-ttu-id="830dd-126">Se todos os detentores de atribuição de uma tarefa forem removidos, uma atribuição não atribuída é recriada para essa tarefa.</span><span class="sxs-lookup"><span data-stu-id="830dd-126">If all assignees on a task are removed, an unassigned assignment is re-created for that task.</span></span>
+- <span data-ttu-id="e3ac0-125">Se uma tarefa tiver sido criada, mas ainda não tiver sido atribuída a nenhum membro da equipa, é sempre criada uma atribuição não atribuída.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-125">If a task has been created, but it hasn't yet been assigned to any team member, an unassigned assignment is always created.</span></span> 
+- <span data-ttu-id="e3ac0-126">Se todos os detentores de atribuição de uma tarefa forem removidos, uma atribuição não atribuída é recriada para essa tarefa.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-126">If all assignees on a task are removed, an unassigned assignment is re-created for that task.</span></span>
 
-## <a name="scheduling-fields-on-the-project-task-entity"></a><span data-ttu-id="830dd-127">Campos de agendamento na entidade Tarefa do Projeto</span><span class="sxs-lookup"><span data-stu-id="830dd-127">Scheduling fields on the Project Task entity</span></span>
+## <a name="scheduling-fields-on-the-project-task-entity"></a><span data-ttu-id="e3ac0-127">Campos de agendamento na entidade Tarefa do Projeto</span><span class="sxs-lookup"><span data-stu-id="e3ac0-127">Scheduling fields on the Project Task entity</span></span>
 
-<span data-ttu-id="830dd-128">Os campos na entidade **msdyn\_projecttask** foram preteridos ou movidos para a entidade **msdyn\_resourceassignment** ou são referenciados a partir da entidade **msdyn\_projectteam** (**Membro da Equipa do Projeto**).</span><span class="sxs-lookup"><span data-stu-id="830dd-128">The fields on the **msdyn\_projecttask** entity have been deprecated or moved to the **msdyn\_resourceassignment** entity, or they are now referenced from the **msdyn\_projectteam** entity (**Project Team Member**).</span></span>
+<span data-ttu-id="e3ac0-128">Os campos na entidade **msdyn\_projecttask** foram preteridos ou movidos para a entidade **msdyn\_resourceassignment** ou são referenciados a partir da entidade **msdyn\_projectteam** (**Membro da Equipa do Projeto**).</span><span class="sxs-lookup"><span data-stu-id="e3ac0-128">The fields on the **msdyn\_projecttask** entity have been deprecated or moved to the **msdyn\_resourceassignment** entity, or they are now referenced from the **msdyn\_projectteam** entity (**Project Team Member**).</span></span>
 
-| <span data-ttu-id="830dd-129">Campo preterido em msdyn\_projecttask (Tarefa do Projeto)</span><span class="sxs-lookup"><span data-stu-id="830dd-129">Deprecated field on msdyn\_projecttask (Project Task)</span></span> | <span data-ttu-id="830dd-130">Novo campo em msdyn\_resourceassignment (Atribuição de Recurso)</span><span class="sxs-lookup"><span data-stu-id="830dd-130">New field on msdyn\_resourceassignment (Resource Assignment)</span></span> | <span data-ttu-id="830dd-131">Comentário</span><span class="sxs-lookup"><span data-stu-id="830dd-131">Comment</span></span> |
+| <span data-ttu-id="e3ac0-129">Campo preterido em msdyn\_projecttask (Tarefa do Projeto)</span><span class="sxs-lookup"><span data-stu-id="e3ac0-129">Deprecated field on msdyn\_projecttask (Project Task)</span></span> | <span data-ttu-id="e3ac0-130">Novo campo em msdyn\_resourceassignment (Atribuição de Recurso)</span><span class="sxs-lookup"><span data-stu-id="e3ac0-130">New field on msdyn\_resourceassignment (Resource Assignment)</span></span> | <span data-ttu-id="e3ac0-131">Comentário</span><span class="sxs-lookup"><span data-stu-id="e3ac0-131">Comment</span></span> |
 |---|---|---|
-| <span data-ttu-id="830dd-132">msdyn\_assignedresources</span><span class="sxs-lookup"><span data-stu-id="830dd-132">msdyn\_assignedresources</span></span> | <span data-ttu-id="830dd-133">Nenhum</span><span class="sxs-lookup"><span data-stu-id="830dd-133">None</span></span> | |
-| <span data-ttu-id="830dd-134">msdyn\_assignedteammembers</span><span class="sxs-lookup"><span data-stu-id="830dd-134">msdyn\_assignedteammembers</span></span> | <span data-ttu-id="830dd-135">Nenhum</span><span class="sxs-lookup"><span data-stu-id="830dd-135">None</span></span> | |
-| <span data-ttu-id="830dd-136">msdyn\_numberofresources</span><span class="sxs-lookup"><span data-stu-id="830dd-136">msdyn\_numberofresources</span></span> | <span data-ttu-id="830dd-137">Nenhum</span><span class="sxs-lookup"><span data-stu-id="830dd-137">None</span></span> | |
-| <span data-ttu-id="830dd-138">msdyn\_scheduledhours</span><span class="sxs-lookup"><span data-stu-id="830dd-138">msdyn\_scheduledhours</span></span> | <span data-ttu-id="830dd-139">Nenhum</span><span class="sxs-lookup"><span data-stu-id="830dd-139">None</span></span> | |
-| <span data-ttu-id="830dd-140">msdyn\_effortcontour</span><span class="sxs-lookup"><span data-stu-id="830dd-140">msdyn\_effortcontour</span></span> | <span data-ttu-id="830dd-141">msdyn\_plannedwork</span><span class="sxs-lookup"><span data-stu-id="830dd-141">msdyn\_plannedwork</span></span> | <span data-ttu-id="830dd-142">O formato da estrutura de dados do JSON (JavaScript Object Notation) armazenado no campo foi alterado.</span><span class="sxs-lookup"><span data-stu-id="830dd-142">The format of the JavaScript Object Notation (JSON) data structure that is stored in the field has been changed.</span></span> |
+| <span data-ttu-id="e3ac0-132">msdyn\_assignedresources</span><span class="sxs-lookup"><span data-stu-id="e3ac0-132">msdyn\_assignedresources</span></span> | <span data-ttu-id="e3ac0-133">Nenhum</span><span class="sxs-lookup"><span data-stu-id="e3ac0-133">None</span></span> | |
+| <span data-ttu-id="e3ac0-134">msdyn\_assignedteammembers</span><span class="sxs-lookup"><span data-stu-id="e3ac0-134">msdyn\_assignedteammembers</span></span> | <span data-ttu-id="e3ac0-135">Nenhum</span><span class="sxs-lookup"><span data-stu-id="e3ac0-135">None</span></span> | |
+| <span data-ttu-id="e3ac0-136">msdyn\_numberofresources</span><span class="sxs-lookup"><span data-stu-id="e3ac0-136">msdyn\_numberofresources</span></span> | <span data-ttu-id="e3ac0-137">Nenhum</span><span class="sxs-lookup"><span data-stu-id="e3ac0-137">None</span></span> | |
+| <span data-ttu-id="e3ac0-138">msdyn\_scheduledhours</span><span class="sxs-lookup"><span data-stu-id="e3ac0-138">msdyn\_scheduledhours</span></span> | <span data-ttu-id="e3ac0-139">Nenhum</span><span class="sxs-lookup"><span data-stu-id="e3ac0-139">None</span></span> | |
+| <span data-ttu-id="e3ac0-140">msdyn\_effortcontour</span><span class="sxs-lookup"><span data-stu-id="e3ac0-140">msdyn\_effortcontour</span></span> | <span data-ttu-id="e3ac0-141">msdyn\_plannedwork</span><span class="sxs-lookup"><span data-stu-id="e3ac0-141">msdyn\_plannedwork</span></span> | <span data-ttu-id="e3ac0-142">O formato da estrutura de dados do JSON (JavaScript Object Notation) armazenado no campo foi alterado.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-142">The format of the JavaScript Object Notation (JSON) data structure that is stored in the field has been changed.</span></span> |
 
-## <a name="schedule-contour"></a><span data-ttu-id="830dd-143">Contorno da agenda</span><span class="sxs-lookup"><span data-stu-id="830dd-143">Schedule contour</span></span>
+## <a name="schedule-contour"></a><span data-ttu-id="e3ac0-143">Contorno da agenda</span><span class="sxs-lookup"><span data-stu-id="e3ac0-143">Schedule contour</span></span>
 
-<span data-ttu-id="830dd-144">O contorno da agenda é armazenado no campo **Trabalho Planeado** (**msdyn\_plannedwork**) de cada entidade **Atribuição de Recurso** (**msdyn\_resourceassignment**).</span><span class="sxs-lookup"><span data-stu-id="830dd-144">The schedule contour is stored in the **Planned Work** field (**msdyn\_plannedwork**) of each **Resource Assignment** entity (**msdyn\_resourceassignment**).</span></span>
+<span data-ttu-id="e3ac0-144">O contorno da agenda é armazenado no campo **Trabalho Planeado** (**msdyn\_plannedwork**) de cada entidade **Atribuição de Recurso** (**msdyn\_resourceassignment**).</span><span class="sxs-lookup"><span data-stu-id="e3ac0-144">The schedule contour is stored in the **Planned Work** field (**msdyn\_plannedwork**) of each **Resource Assignment** entity (**msdyn\_resourceassignment**).</span></span>
 
-### <a name="structure"></a><span data-ttu-id="830dd-145">Estrutura</span><span class="sxs-lookup"><span data-stu-id="830dd-145">Structure</span></span>
+### <a name="structure"></a><span data-ttu-id="e3ac0-145">Estrutura</span><span class="sxs-lookup"><span data-stu-id="e3ac0-145">Structure</span></span>
 
-<span data-ttu-id="830dd-146">A nova estrutura do contorno da agenda é constituída por intervalos de tempo flexíveis que são definidos para cada dia da agenda.</span><span class="sxs-lookup"><span data-stu-id="830dd-146">The new structure of the schedule contour consists of flexible time slices that are defined for each day of the schedule.</span></span> <span data-ttu-id="830dd-147">Cada intervalo de tempo tem as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="830dd-147">Each time slice has the following properties:</span></span>
+<span data-ttu-id="e3ac0-146">A nova estrutura do contorno da agenda é constituída por intervalos de tempo flexíveis que são definidos para cada dia da agenda.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-146">The new structure of the schedule contour consists of flexible time slices that are defined for each day of the schedule.</span></span> <span data-ttu-id="e3ac0-147">Cada intervalo de tempo tem as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="e3ac0-147">Each time slice has the following properties:</span></span>
 
-- <span data-ttu-id="830dd-148">**Início** – O início das horas de trabalho para o dia, de acordo com o calendário do projeto.</span><span class="sxs-lookup"><span data-stu-id="830dd-148">**Start** – The start of the working hours for the day, according to the project calendar.</span></span>
-- <span data-ttu-id="830dd-149">**Fim** – O fim das horas de trabalho para o dia, de acordo com o calendário do projeto.</span><span class="sxs-lookup"><span data-stu-id="830dd-149">**End** – The end of the working hours for the day, according to the project calendar.</span></span>
-- <span data-ttu-id="830dd-150">**Horas** – O número de horas que estão atribuídas no dia.</span><span class="sxs-lookup"><span data-stu-id="830dd-150">**Hours** – The number of hours that are assigned on the day.</span></span>
+- <span data-ttu-id="e3ac0-148">**Início** – O início das horas de trabalho para o dia, de acordo com o calendário do projeto.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-148">**Start** – The start of the working hours for the day, according to the project calendar.</span></span>
+- <span data-ttu-id="e3ac0-149">**Fim** – O fim das horas de trabalho para o dia, de acordo com o calendário do projeto.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-149">**End** – The end of the working hours for the day, according to the project calendar.</span></span>
+- <span data-ttu-id="e3ac0-150">**Horas** – O número de horas que estão atribuídas no dia.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-150">**Hours** – The number of hours that are assigned on the day.</span></span>
 
-<span data-ttu-id="830dd-151">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="830dd-151">**Example**</span></span>
+<span data-ttu-id="e3ac0-151">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="e3ac0-151">**Example**</span></span>
 
-<span data-ttu-id="830dd-152">Este exemplo utiliza um calendário de projeto em que o dia de trabalho é das 9:00 às 17:00 no fuso horário UTC-8.</span><span class="sxs-lookup"><span data-stu-id="830dd-152">This example uses a project calendar where the workday is from 9 AM to 5 PM in the UTC-8 time zone.</span></span>
-
-```json
-[{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
-```
-
-### <a name="auto-scheduling-and-manual-scheduling"></a><span data-ttu-id="830dd-153">Agendamento automático e agendamento manual</span><span class="sxs-lookup"><span data-stu-id="830dd-153">Auto-scheduling and manual scheduling</span></span>
-
-<span data-ttu-id="830dd-154">Se uma tarefa for agendada automaticamente, as horas serão antecipadas e a duração da tarefa poderá ser reduzida.</span><span class="sxs-lookup"><span data-stu-id="830dd-154">If a task is auto-scheduled, the hours are front-loaded, and the task duration might be reduced.</span></span>
-
-<span data-ttu-id="830dd-155">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="830dd-155">**Example**</span></span>
-
-<span data-ttu-id="830dd-156">A tarefa a seguir é agendada automaticamente por 18 horas em três dias (3 de dezembro de 2018 a 5 de dezembro de 2018).</span><span class="sxs-lookup"><span data-stu-id="830dd-156">The following task is auto-scheduled for 18 hours over three days (December 3, 2018, to December 5, 2018).</span></span>
+<span data-ttu-id="e3ac0-152">Este exemplo utiliza um calendário de projeto em que o dia de trabalho é das 9:00 às 17:00 no fuso horário UTC-8.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-152">This example uses a project calendar where the workday is from 9 AM to 5 PM in the UTC-8 time zone.</span></span>
 
 ```json
 [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
 ```
 
-<span data-ttu-id="830dd-157">Se uma tarefa for agendada manualmente, as horas serão distribuídas uniformemente em todas as datas.</span><span class="sxs-lookup"><span data-stu-id="830dd-157">If a task is manually scheduled, the hours are evenly distributed to all the dates.</span></span>
+### <a name="auto-scheduling-and-manual-scheduling"></a><span data-ttu-id="e3ac0-153">Agendamento automático e agendamento manual</span><span class="sxs-lookup"><span data-stu-id="e3ac0-153">Auto-scheduling and manual scheduling</span></span>
 
-<span data-ttu-id="830dd-158">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="830dd-158">**Example**</span></span>
+<span data-ttu-id="e3ac0-154">Se uma tarefa for agendada automaticamente, as horas serão antecipadas e a duração da tarefa poderá ser reduzida.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-154">If a task is auto-scheduled, the hours are front-loaded, and the task duration might be reduced.</span></span>
 
-<span data-ttu-id="830dd-159">A tarefa a seguir é agendada manualmente por 18 horas em três dias (3 de dezembro de 2018 a 5 de dezembro de 2018).</span><span class="sxs-lookup"><span data-stu-id="830dd-159">The following task is manually scheduled for 18 hours over three days (December 3, 2018, to December 5, 2018).</span></span>
+<span data-ttu-id="e3ac0-155">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="e3ac0-155">**Example**</span></span>
+
+<span data-ttu-id="e3ac0-156">A tarefa a seguir é agendada automaticamente por 18 horas em três dias (3 de dezembro de 2018 a 5 de dezembro de 2018).</span><span class="sxs-lookup"><span data-stu-id="e3ac0-156">The following task is auto-scheduled for 18 hours over three days (December 3, 2018, to December 5, 2018).</span></span>
+
+```json
+[{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
+```
+
+<span data-ttu-id="e3ac0-157">Se uma tarefa for agendada manualmente, as horas serão distribuídas uniformemente em todas as datas.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-157">If a task is manually scheduled, the hours are evenly distributed to all the dates.</span></span>
+
+<span data-ttu-id="e3ac0-158">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="e3ac0-158">**Example**</span></span>
+
+<span data-ttu-id="e3ac0-159">A tarefa a seguir é agendada manualmente por 18 horas em três dias (3 de dezembro de 2018 a 5 de dezembro de 2018).</span><span class="sxs-lookup"><span data-stu-id="e3ac0-159">The following task is manually scheduled for 18 hours over three days (December 3, 2018, to December 5, 2018).</span></span>
 
 ```json
 [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":6},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":6},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":6}]
 ```
 
-### <a name="assignment-unit"></a><span data-ttu-id="830dd-160">Unidade de atribuição</span><span class="sxs-lookup"><span data-stu-id="830dd-160">Assignment unit</span></span>
+### <a name="assignment-unit"></a><span data-ttu-id="e3ac0-160">Unidade de atribuição</span><span class="sxs-lookup"><span data-stu-id="e3ac0-160">Assignment unit</span></span>
 
-<span data-ttu-id="830dd-161">A unidade de atribuição foi preterida no PSA 3.x.</span><span class="sxs-lookup"><span data-stu-id="830dd-161">The assignment unit has been deprecated in PSA 3.x.</span></span> <span data-ttu-id="830dd-162">Agora, as horas de esforço da tarefa estão igualmente divididas, por dia, entre todos os recursos atribuídos.</span><span class="sxs-lookup"><span data-stu-id="830dd-162">The task effort hours are now equally divided, per day, among all the assigned resources.</span></span>
+<span data-ttu-id="e3ac0-161">A unidade de atribuição foi preterida no PSA 3.x.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-161">The assignment unit has been deprecated in PSA 3.x.</span></span> <span data-ttu-id="e3ac0-162">Agora, as horas de esforço da tarefa estão igualmente divididas, por dia, entre todos os recursos atribuídos.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-162">The task effort hours are now equally divided, per day, among all the assigned resources.</span></span>
 
-<span data-ttu-id="830dd-163">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="830dd-163">**Example**</span></span>
+<span data-ttu-id="e3ac0-163">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="e3ac0-163">**Example**</span></span>
 
-<span data-ttu-id="830dd-164">Neste exemplo, a tarefa é atribuída a dois recursos e é agendada automaticamente por 36 horas em três dias (3 de dezembro de 2018 a 5 de dezembro de 2018).</span><span class="sxs-lookup"><span data-stu-id="830dd-164">In this example, the task is is assigned to two resources and is auto-scheduled for 36 hours over three days (December 3, 2018, to December 5, 2018).</span></span>
+<span data-ttu-id="e3ac0-164">Neste exemplo, a tarefa é atribuída a dois recursos e é agendada automaticamente por 36 horas em três dias (3 de dezembro de 2018 a 5 de dezembro de 2018).</span><span class="sxs-lookup"><span data-stu-id="e3ac0-164">In this example, the task is is assigned to two resources and is auto-scheduled for 36 hours over three days (December 3, 2018, to December 5, 2018).</span></span>
 
-- <span data-ttu-id="830dd-165">Atribuição 1:</span><span class="sxs-lookup"><span data-stu-id="830dd-165">Assignment 1:</span></span>
-
-    ```json
-    [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
-    ```
-
-- <span data-ttu-id="830dd-166">Atribuição 2:</span><span class="sxs-lookup"><span data-stu-id="830dd-166">Assignment 2:</span></span>
+- <span data-ttu-id="e3ac0-165">Atribuição 1:</span><span class="sxs-lookup"><span data-stu-id="e3ac0-165">Assignment 1:</span></span>
 
     ```json
     [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
     ```
 
-## <a name="pricing-dimensions"></a><span data-ttu-id="830dd-167">Dimensões de definição de preços</span><span class="sxs-lookup"><span data-stu-id="830dd-167">Pricing dimensions</span></span>
+- <span data-ttu-id="e3ac0-166">Atribuição 2:</span><span class="sxs-lookup"><span data-stu-id="e3ac0-166">Assignment 2:</span></span>
 
-<span data-ttu-id="830dd-168">No PSA 3.x, os campos de dimensão de definição de preços específicos de recursos (como **Função** e **Unidade Organizacional**) foram removidos da entidade **msdyn\_projecttask**.</span><span class="sxs-lookup"><span data-stu-id="830dd-168">In PSA 3.x, resource-specific pricing dimension fields (such as **Role** and **Organizational Unit**) have been removed from the **msdyn\_projecttask** entity.</span></span> <span data-ttu-id="830dd-169">Agora, estes campos podem ser obtidos a partir do membro da equipa do projeto correspondente (**msdyn\_projectteam**) da atribuição de recurso (**msdyn\_resourceassignment**) quando são geradas estimativas de projeto.</span><span class="sxs-lookup"><span data-stu-id="830dd-169">These fields can now be retrieved from the corresponding project team member (**msdyn\_projectteam**) of the resource assignment (**msdyn\_resourceassignment**) when project estimates are generated.</span></span> <span data-ttu-id="830dd-170">Foi adicionado um novo campo, **msdyn\_organizationalunit**, à entidade **msdyn\_projectteam**.</span><span class="sxs-lookup"><span data-stu-id="830dd-170">A new field, **msdyn\_organizationalunit**, has been added to the **msdyn\_projectteam** entity.</span></span>
+    ```json
+    [{"End":"\/Date(1543885200000)\/","Start":"\/Date(1543856400000)\/","Hours":8},{"End":"\/Date(1543971600000)\/","Start":"\/Date(1543942800000)\/","Hours":8},{"End":"\/Date(1544058000000)\/","Start":"\/Date(1544029200000)\/","Hours":2}]
+    ```
 
-| <span data-ttu-id="830dd-171">Campo preterido em msdyn\_projecttask (Tarefa do Projeto)</span><span class="sxs-lookup"><span data-stu-id="830dd-171">Deprecated field on msdyn\_projecttask (Project Task)</span></span> | <span data-ttu-id="830dd-172">Campo do msdyn\_projectteam (Membro da Equipa do Projeto) que é utilizado em vez disso</span><span class="sxs-lookup"><span data-stu-id="830dd-172">Field from msdyn\_projectteam (Project Team Member) that is used instead</span></span> |
+## <a name="pricing-dimensions"></a><span data-ttu-id="e3ac0-167">Dimensões de definição de preços</span><span class="sxs-lookup"><span data-stu-id="e3ac0-167">Pricing dimensions</span></span>
+
+<span data-ttu-id="e3ac0-168">No PSA 3.x, os campos de dimensão de definição de preços específicos de recursos (como **Função** e **Unidade Organizacional**) foram removidos da entidade **msdyn\_projecttask**.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-168">In PSA 3.x, resource-specific pricing dimension fields (such as **Role** and **Organizational Unit**) have been removed from the **msdyn\_projecttask** entity.</span></span> <span data-ttu-id="e3ac0-169">Agora, estes campos podem ser obtidos a partir do membro da equipa do projeto correspondente (**msdyn\_projectteam**) da atribuição de recurso (**msdyn\_resourceassignment**) quando são geradas estimativas de projeto.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-169">These fields can now be retrieved from the corresponding project team member (**msdyn\_projectteam**) of the resource assignment (**msdyn\_resourceassignment**) when project estimates are generated.</span></span> <span data-ttu-id="e3ac0-170">Foi adicionado um novo campo, **msdyn\_organizationalunit**, à entidade **msdyn\_projectteam**.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-170">A new field, **msdyn\_organizationalunit**, has been added to the **msdyn\_projectteam** entity.</span></span>
+
+| <span data-ttu-id="e3ac0-171">Campo preterido em msdyn\_projecttask (Tarefa do Projeto)</span><span class="sxs-lookup"><span data-stu-id="e3ac0-171">Deprecated field on msdyn\_projecttask (Project Task)</span></span> | <span data-ttu-id="e3ac0-172">Campo do msdyn\_projectteam (Membro da Equipa do Projeto) que é utilizado em vez disso</span><span class="sxs-lookup"><span data-stu-id="e3ac0-172">Field from msdyn\_projectteam (Project Team Member) that is used instead</span></span> |
 |---|---|
-| <span data-ttu-id="830dd-173">msdyn\_resourcecategory</span><span class="sxs-lookup"><span data-stu-id="830dd-173">msdyn\_resourcecategory</span></span> | <span data-ttu-id="830dd-174">msdyn\_resourcecategory</span><span class="sxs-lookup"><span data-stu-id="830dd-174">msdyn\_resourcecategory</span></span> |
-| <span data-ttu-id="830dd-175">msdyn\_organizationalunit</span><span class="sxs-lookup"><span data-stu-id="830dd-175">msdyn\_organizationalunit</span></span> | <span data-ttu-id="830dd-176">msdyn\_organizationalunit</span><span class="sxs-lookup"><span data-stu-id="830dd-176">msdyn\_organizationalunit</span></span> |
+| <span data-ttu-id="e3ac0-173">msdyn\_resourcecategory</span><span class="sxs-lookup"><span data-stu-id="e3ac0-173">msdyn\_resourcecategory</span></span> | <span data-ttu-id="e3ac0-174">msdyn\_resourcecategory</span><span class="sxs-lookup"><span data-stu-id="e3ac0-174">msdyn\_resourcecategory</span></span> |
+| <span data-ttu-id="e3ac0-175">msdyn\_organizationalunit</span><span class="sxs-lookup"><span data-stu-id="e3ac0-175">msdyn\_organizationalunit</span></span> | <span data-ttu-id="e3ac0-176">msdyn\_organizationalunit</span><span class="sxs-lookup"><span data-stu-id="e3ac0-176">msdyn\_organizationalunit</span></span> |
 
-## <a name="contours"></a><span data-ttu-id="830dd-177">Contornos</span><span class="sxs-lookup"><span data-stu-id="830dd-177">Contours</span></span>
+## <a name="contours"></a><span data-ttu-id="e3ac0-177">Contornos</span><span class="sxs-lookup"><span data-stu-id="e3ac0-177">Contours</span></span>
 
-<span data-ttu-id="830dd-178">Os campos de contornos de preços e estimativas foram preteridos na entidade **msdyn\_projecttask**.</span><span class="sxs-lookup"><span data-stu-id="830dd-178">The pricing and estimation contour fields have been deprecated on the **msdyn\_projecttask** entity.</span></span> <span data-ttu-id="830dd-179">Foram movidos para a entidade **msdyn\_resourceassignment**.</span><span class="sxs-lookup"><span data-stu-id="830dd-179">They have been moved to the **msdyn\_resourceassignment** entity.</span></span>
+<span data-ttu-id="e3ac0-178">Os campos de contornos de preços e estimativas foram preteridos na entidade **msdyn\_projecttask**.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-178">The pricing and estimation contour fields have been deprecated on the **msdyn\_projecttask** entity.</span></span> <span data-ttu-id="e3ac0-179">Foram movidos para a entidade **msdyn\_resourceassignment**.</span><span class="sxs-lookup"><span data-stu-id="e3ac0-179">They have been moved to the **msdyn\_resourceassignment** entity.</span></span>
 
-| <span data-ttu-id="830dd-180">Campo preterido em msdyn\_projecttask (Tarefa do Projeto)</span><span class="sxs-lookup"><span data-stu-id="830dd-180">Deprecated field on msdyn\_projecttask (Project Task)</span></span> | <span data-ttu-id="830dd-181">Novo campo em msdyn\_resourceassignment (Atribuição de Recurso)</span><span class="sxs-lookup"><span data-stu-id="830dd-181">New field on msdyn\_resourceassignment (Resource Assignment)</span></span> |
+| <span data-ttu-id="e3ac0-180">Campo preterido em msdyn\_projecttask (Tarefa do Projeto)</span><span class="sxs-lookup"><span data-stu-id="e3ac0-180">Deprecated field on msdyn\_projecttask (Project Task)</span></span> | <span data-ttu-id="e3ac0-181">Novo campo em msdyn\_resourceassignment (Atribuição de Recurso)</span><span class="sxs-lookup"><span data-stu-id="e3ac0-181">New field on msdyn\_resourceassignment (Resource Assignment)</span></span> |
 |---|---|
-| <span data-ttu-id="830dd-182">msdyn\_costestimatecontour</span><span class="sxs-lookup"><span data-stu-id="830dd-182">msdyn\_costestimatecontour</span></span> | <span data-ttu-id="830dd-183">msdyn\_plannedcostcontour</span><span class="sxs-lookup"><span data-stu-id="830dd-183">msdyn\_plannedcostcontour</span></span> |
-| <span data-ttu-id="830dd-184">msdyn\_salesestimatecontour</span><span class="sxs-lookup"><span data-stu-id="830dd-184">msdyn\_salesestimatecontour</span></span> | <span data-ttu-id="830dd-185">msdyn\_plannedsalescontour</span><span class="sxs-lookup"><span data-stu-id="830dd-185">msdyn\_plannedsalescontour</span></span> |
+| <span data-ttu-id="e3ac0-182">msdyn\_costestimatecontour</span><span class="sxs-lookup"><span data-stu-id="e3ac0-182">msdyn\_costestimatecontour</span></span> | <span data-ttu-id="e3ac0-183">msdyn\_plannedcostcontour</span><span class="sxs-lookup"><span data-stu-id="e3ac0-183">msdyn\_plannedcostcontour</span></span> |
+| <span data-ttu-id="e3ac0-184">msdyn\_salesestimatecontour</span><span class="sxs-lookup"><span data-stu-id="e3ac0-184">msdyn\_salesestimatecontour</span></span> | <span data-ttu-id="e3ac0-185">msdyn\_plannedsalescontour</span><span class="sxs-lookup"><span data-stu-id="e3ac0-185">msdyn\_plannedsalescontour</span></span> |
 
-<span data-ttu-id="830dd-186">Os campos que se seguem foram adicionados à entidade **msdyn\_resourceassignment**:</span><span class="sxs-lookup"><span data-stu-id="830dd-186">The following fields have been added to the **msdyn\_resourceassignment** entity:</span></span>
+<span data-ttu-id="e3ac0-186">Os campos que se seguem foram adicionados à entidade **msdyn\_resourceassignment**:</span><span class="sxs-lookup"><span data-stu-id="e3ac0-186">The following fields have been added to the **msdyn\_resourceassignment** entity:</span></span>
 
-* <span data-ttu-id="830dd-187">msdyn\_plannedcost</span><span class="sxs-lookup"><span data-stu-id="830dd-187">msdyn\_plannedcost</span></span>
-* <span data-ttu-id="830dd-188">msdyn\_plannedsales</span><span class="sxs-lookup"><span data-stu-id="830dd-188">msdyn\_plannedsales</span></span>
+* <span data-ttu-id="e3ac0-187">msdyn\_plannedcost</span><span class="sxs-lookup"><span data-stu-id="e3ac0-187">msdyn\_plannedcost</span></span>
+* <span data-ttu-id="e3ac0-188">msdyn\_plannedsales</span><span class="sxs-lookup"><span data-stu-id="e3ac0-188">msdyn\_plannedsales</span></span>
 
-<span data-ttu-id="830dd-189">Os campos que se seguem para custos e vendas planeados, reais e restantes não são alterados na entidade **msdyn\_projecttask**:</span><span class="sxs-lookup"><span data-stu-id="830dd-189">The following fields for planned, actual, and remaining cost and sales are unchanged on the **msdyn\_projecttask** entity:</span></span>
+<span data-ttu-id="e3ac0-189">Os campos que se seguem para custos e vendas planeados, reais e restantes não são alterados na entidade **msdyn\_projecttask**:</span><span class="sxs-lookup"><span data-stu-id="e3ac0-189">The following fields for planned, actual, and remaining cost and sales are unchanged on the **msdyn\_projecttask** entity:</span></span>
 
-* <span data-ttu-id="830dd-190">msdyn\_plannedcost</span><span class="sxs-lookup"><span data-stu-id="830dd-190">msdyn\_plannedcost</span></span>
-* <span data-ttu-id="830dd-191">msdyn\_plannedsales</span><span class="sxs-lookup"><span data-stu-id="830dd-191">msdyn\_plannedsales</span></span>
-* <span data-ttu-id="830dd-192">msdyn\_actualcost</span><span class="sxs-lookup"><span data-stu-id="830dd-192">msdyn\_actualcost</span></span>
-* <span data-ttu-id="830dd-193">msdyn\_actualsales</span><span class="sxs-lookup"><span data-stu-id="830dd-193">msdyn\_actualsales</span></span>
-* <span data-ttu-id="830dd-194">msdyn\_remainingcost</span><span class="sxs-lookup"><span data-stu-id="830dd-194">msdyn\_remainingcost</span></span>
-* <span data-ttu-id="830dd-195">msdyn\_remainingsales</span><span class="sxs-lookup"><span data-stu-id="830dd-195">msdyn\_remainingsales</span></span>
+* <span data-ttu-id="e3ac0-190">msdyn\_plannedcost</span><span class="sxs-lookup"><span data-stu-id="e3ac0-190">msdyn\_plannedcost</span></span>
+* <span data-ttu-id="e3ac0-191">msdyn\_plannedsales</span><span class="sxs-lookup"><span data-stu-id="e3ac0-191">msdyn\_plannedsales</span></span>
+* <span data-ttu-id="e3ac0-192">msdyn\_actualcost</span><span class="sxs-lookup"><span data-stu-id="e3ac0-192">msdyn\_actualcost</span></span>
+* <span data-ttu-id="e3ac0-193">msdyn\_actualsales</span><span class="sxs-lookup"><span data-stu-id="e3ac0-193">msdyn\_actualsales</span></span>
+* <span data-ttu-id="e3ac0-194">msdyn\_remainingcost</span><span class="sxs-lookup"><span data-stu-id="e3ac0-194">msdyn\_remainingcost</span></span>
+* <span data-ttu-id="e3ac0-195">msdyn\_remainingsales</span><span class="sxs-lookup"><span data-stu-id="e3ac0-195">msdyn\_remainingsales</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
