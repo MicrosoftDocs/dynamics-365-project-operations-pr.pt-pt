@@ -2,8 +2,6 @@
 title: Grupos de unidades e unidades
 description: Este tópico fornece informações sobre grupos de unidades e unidades.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291633"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009585"
 ---
 # <a name="unit-groups-and-units"></a>Grupos de unidades e unidades
 
@@ -88,9 +86,9 @@ O exemplo que se segue mostra como o PSA utiliza o grupo de unidades, as unidade
 
 | Função      | Grupo de unidades | Unidade | Unidade organizacional | Preço   |
 |-----------|------------|------|---------------------|---------|
-| Programador | Time       | Day  | Contoso UK          | 800 GBP |
+| Programador | Tempo       | Dia  | Contoso UK          | 800 GBP |
 
-### <a name="time-entry"></a>Entrada de tempo
+### <a name="time-entry"></a>Entrada de hora
 
 A tabela seguinte mostra a transação do lado das vendas resultante criada pelo PSA para um projeto de três horas.
 

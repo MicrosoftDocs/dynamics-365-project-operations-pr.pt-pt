@@ -2,11 +2,9 @@
 title: Criar um novo projeto
 description: Este tópico fornece informações sobre como criar um novo projeto.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270737"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006255"
 ---
 # <a name="create-a-new-project"></a>Criar um novo projeto
 
@@ -55,7 +53,7 @@ Um gestor de projetos pode utilizar a funcionalidade de atribuição de recursos
 
 [![Exemplo de uma função](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Cenário:** a Contoso foi contratado para concluir um Projeto de tempo e material que tem um estatuto de projeto aprovado. O gestor de projetos junior ainda está a concluir o âmbito do projeto. O gestor de recursos está neste momento a identificar os recursos específicos que serão reservados para trabalhar no novo projeto. Dada a natureza crítica do projeto, o patrocinador do projeto solicitou o gestor de projeto sénior como uma das funções. O gestor de recursos tem de adquirir o novo recurso e definir a função no sistema no caso de o gestor de projeto júnior necessitar de informações dos recursos durante o planeamento do projeto.
+**Cenário:** A Contoso foi contratada para concluir um projeto de Tempo e material que tem uma carta de projeto aprovada. O gestor de projetos junior ainda está a concluir o âmbito do projeto. O gestor de recursos está neste momento a identificar os recursos específicos que serão reservados para trabalhar no novo projeto. Dada a natureza crítica do projeto, o patrocinador do projeto solicitou o gestor de projeto sénior como uma das funções. O gestor de recursos tem de adquirir o novo recurso e definir a função no sistema no caso de o gestor de projeto júnior necessitar de informações dos recursos durante o planeamento do projeto.
 
 Os passos seguintes mostram como o gestor de recursos pode configurar a função de gestor de projetos Sénior e associar características de recursos a ele. Mais tarde, a função pode ser utilizada para procurar recursos disponíveis que correspondam às competências de recursos necessárias.
 

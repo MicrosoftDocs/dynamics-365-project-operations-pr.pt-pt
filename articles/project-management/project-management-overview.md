@@ -2,18 +2,16 @@
 title: Descrição geral da gestão do projeto
 description: Este tópico fornece informações sobre a gestão do projeto no Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4e23b5cd4b625736e02e62624ee838926e4dd325
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b99fab32101724a4c6307136ef37503316dfc42e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286712"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011835"
 ---
 # <a name="project-management-overview"></a>Descrição geral da gestão do projeto
 

@@ -2,12 +2,10 @@
 title: Configurar campos personalizados como dimensões de definição de preços
 description: Esta tópico fornece informações sobre a configuração de dimensões de definição de preços personalizadas.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282482"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008325"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de definição de preços 
 
@@ -74,8 +72,8 @@ Existem dois tipos de dimensões de definição de preços:
 | Função        | Unidade Organizacional    |Localização do Trabalho      |Título Padrão      |Horas de Trabalho do Recurso      |  Margem de Lucro|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|No Local            |                    |Horas Extraordinárias                 |15     |
-|             | Contoso India|Região             |                    |Horas Extraordinárias                 |10     |
-|             | Contoso EUA   |Região             |                    |Horas Extraordinárias                 |20     |
+|             | Contoso India|Local             |                    |Horas Extraordinárias                 |10     |
+|             | Contoso E.U.A.   |Local             |                    |Horas Extraordinárias                 |20     |
 
 
 Se um recurso da Contoso India, cuja taxa base é de 100 USD, estiver a funcionar no local e registar 8 horas de tempo Normal e 2 horas extraordinárias na entrada de tempo, o motor de definição de preços do Project Service irá utilizar a taxa base de 100 pelas 8 horas para registar 800 USD. Nas duas horas extraordinárias, uma margem de lucro de 15% será aplicada à taxa base de 100 para obter um preço unitário de 115 USD e irá registar um custo total de 230 USD.

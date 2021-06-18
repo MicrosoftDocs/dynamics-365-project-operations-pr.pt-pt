@@ -2,12 +2,10 @@
 title: Home page de dimensões de definição de preços e custos
 description: Este tópico fornece uma descrição geral das dimensões de definição de preços.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284147"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009270"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de definição de preços e custos
 
@@ -67,16 +65,16 @@ O exemplo que se segue mostra taxas de faturação que são configuradas com bas
 
 | Função        | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Programador   | Contoso EUA  |Hour | 200|USD     |
-| Programador   | Contoso India |Hour|   112|USD     |
+| Programador   | Contoso E.U.A.  |Hora | 200|USD     |
+| Programador   | Contoso India |Hora|   112|USD     |
 
 
 **Exemplo de taxas de custo**
 
 | Faixa salarial     | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| A minha empresa_Faixa 1 | Contoso EUA  |Hour | 145|USD     |
-| A minha empresa_Faixa 2 | Contoso India |Hour|   67|USD     |
+| A minha empresa_Faixa 1 | Contoso E.U.A.  |Hora | 145|USD     |
+| A minha empresa_Faixa 2 | Contoso India |Hora|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
