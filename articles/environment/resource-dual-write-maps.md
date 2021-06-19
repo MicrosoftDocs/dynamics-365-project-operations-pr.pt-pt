@@ -2,18 +2,16 @@
 title: Versões de mapa de escrita dupla do Project Operations
 description: Este tópico fornece a lista de mapas de escrita dupla necessários para Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5939028"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025788"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versões de mapa de escrita dupla do Project Operations
 
@@ -36,32 +34,32 @@ São necessários os seguintes mapas pré-requisitos para a solução de Project
 
 ![Sincronização do mapa de livros](media/DW6.png)
 
-1. Siga os mesmos passos para todos os mapas de tabela restantes listados na tabela acima. Não selecione a caixa de verificação de **sincronização inicial** quando executar esses mapas.
+2. Siga os mesmos passos para todos os mapas de tabela restantes listados na tabela acima. Não selecione a caixa de verificação de **sincronização inicial** quando executar esses mapas.
 
 ## <a name="project-operations-dual-write-maps"></a>Mapas de escrita dupla do Project Operations
 
-São necessários os seguintes mapas para uma solução de Project Operations.
+São necessários os seguintes mapas para uma solução de Project Operations. As versões de mapa de escrita dupla estão listadas a partir da atualização do Project Operations de maio de 2021, versão 4.10.0.186.
 
 | **Mapa da entidade** | **Versão mais recente** | **Sincronização inicial** |
 | --- | --- | --- |
 | Entidade de integração para as relações de transações do projeto (msdyn\_transactionconnections) | 1.0.0.0 | Não é necessário para o aprovisionamento. |
 | Cabeçalhos de contrato de projeto (encomendas de vendas) | 1.0.0.1 | Não é necessário para o aprovisionamento. |
 | Itens de contrato do projeto (salesorderdetails) | 1.0.0.0 | Não é necessário para o aprovisionamento. |
-| Fonte de financiamento do projeto (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Não é necessário para o aprovisionamento. |
+| Fonte de financiamento do projeto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Não é necessário para o aprovisionamento. |
 | Tabela de integração do Project Operations para estimativas de materiais (msdyn\_estimatelines) | 1.0.0.0 | Não é necessário para o aprovisionamento. |
-| Propostas de fatura do projeto V2 (faturas) | 1.0.0.2 | Não é necessário para o aprovisionamento. |
+| Propostas de fatura do projeto V2 (faturas) | 1.0.0.3 | Não é necessário para o aprovisionamento. |
 | Valores reais de integração com o Project Operations (msdyn_actuals) | 1.0.0.14 | Não é necessário para o aprovisionamento. |
 | Marcos do item de contrato de integração com o Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Não é necessário para o aprovisionamento. |
 | Entidade de integração com o Project Operations para estimativas de despesa (msdyn_estimateslines) | 1.0.0.2 | Não é necessário para o aprovisionamento. |
 | Entidade de integração com o Project Operations para estimativas de horas (msdyn_resourceassignments) | 1.0.0.5 | Não é necessário para o aprovisionamento. |
-| Entidade de exportação de categorias de despesas do projeto de integração com o Project Operations (msdyn_expensecategories) | 1.0.0.2 | Não é necessário para o aprovisionamento. |
+| Entidade de exportação de categorias de despesas do projeto de integração com o Project Operations (msdyn_expensecategories) | 1.0.0.1 | Não é necessário para o aprovisionamento. |
 | Entidade de exportação de despesas do projeto de integração com o Project Operations (msdyn_expenses) | 1.0.0.2 | Não é necessário para o aprovisionamento. |
 | Entidade de exportação de faturas de projeto de integração de projetos do Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Não é necessário para o aprovisionamento. |
-| Entidade de exportação de linhas de faturas de projeto de integração de projetos do Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Não é necessário para o aprovisionamento. |
+| Entidade de exportação de linhas de faturas de projeto de integração de projetos do Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Não é necessário para o aprovisionamento. |
 | Funções de recursos de projeto para todas as Empresas (bookableresourcecategories) | 1.0.0.1 | Requer uma sincronização inicial para o mapa de tabela sincronizar as funções de gestor de projeto e de recursos dos membros da Equipa que são povoadas no ambiente Dynamics 365 Dataverse durante o aprovisionamento. Dataverse é a principal fonte para a sincronização inicial. |
 | Tarefas do projeto (msdyn_projecttasks) | 1.0.0.4 | Não é necessário para o aprovisionamento. |
 | Categorias de transações de projetos (msdyn_transactioncategories) | 1.0.0.0 | Não é necessário para o aprovisionamento. |
-| Projetos V2 (msdyn_projects) | 1.0.0.1 | Não é necessário para o aprovisionamento. |
+| Projetos V2 (msdyn_projects) | 1.0.0.2 | Não é necessário para o aprovisionamento. |
 
 Complete os seguintes passos para executar os mapas listados.
 

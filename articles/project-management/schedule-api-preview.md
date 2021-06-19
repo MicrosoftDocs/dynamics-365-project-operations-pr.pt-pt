@@ -2,18 +2,16 @@
 title: Utilizar APIs de Agenda para realizar operações com entidades de agendamento
 description: Este tópico fornece informações e amostras para a utilização de APIs de agenda.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950818"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116811"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizar APIs de Agenda para realizar operações com entidades de agendamento
 
@@ -268,7 +266,6 @@ Segue-se uma lista de limitações e questões conhecidas:
 - Cada utilizador só pode ter um máximo de 10 **OperationSet** abertas.
 - O Project Operations suporta atualmente um máximo de 500 tarefas totais num projeto.
 - O estado de falha e os registos de avarias do **OperationSet** não estão atualmente disponíveis.
-- As APIs da agenda estão em pré-visualização pública. A utilização destas APIs num ambiente de Produção não é suportada pela Microsoft.
 - [Limites e fronteiras em projetos e tarefas](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Processamento de erros

@@ -2,19 +2,17 @@
 title: Atualizações do Project Operations
 description: Este tópico fornece informações sobre as versões lançadas do Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 03/03/2021
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: d19148c868aa5be77db59e70fcf1fb8b7de6868c
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948253"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213459"
 ---
 # <a name="project-operations-updates"></a>Atualizações do Project Operations
 
@@ -30,60 +28,59 @@ O Dynamics 365 Project Operations consiste de dois componentes:
 - Gestão de projetos e contabilidade no ambiente Dynamics 365 Finance cobre as capacidades de gestão de despesas, a contabilidade de projetos e o reconhecimento de receitas. O ambiente da aplicação Finance and Operations é utilizado no Project Operations para cenários baseados em Recursos/Não Stock e Project Operations para cenários baseados em Stock/Produção.
 
 ## <a name="project-operations-release-notes"></a>Notas de versão do Project Operations
-- Notas de versão mais recentes do Project Operations para cenários de [Recursos/não armazenados](whats-new-apr-2021-resource-based.md).
-- Notas de versão mais recentes do Project Operations para cenários de [implementação lite](../pro/whats-new/whats-new-apr-2021-lite.md).
-- Notas de versão mais recentes do Project Operations para cenários de [armazenado/produção](../prod-pma/whats-new/whats-new-mar-2021-stocked.md).
+- Notas de versão mais recentes do Project Operations para cenários de [Recursos/não armazenados](whats-new-may-2021-resource-based.md).
+- Notas de versão mais recentes do Project Operations para cenários de [implementação lite](../pro/whats-new/whats-new-may-2021-lite.md).
+- Notas de versão mais recentes do Project Operations para cenários de [armazenado/produção](../prod-pma/whats-new/whats-new-apr-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Versão mais recente do Project Operations
 
 | Project Operations no ambiente Dataverse | Gestão de projetos e contabilística em ambientes de aplicações Finance and Operations | 
 | --- | --- |
-| 4.9.0.221 | 10.0.17 |
+| 4.10.0.186 | 10.0.18 |
 
-Para o cenário Recurso do Projecto Operations/não armazenado, recomendamos a utilização da versão Dual Write Orchestration 2.2.2.50 ou superior.
+Para o cenário Recurso do Projecto Operations/não armazenado, recomendamos a utilização da versão Dual Write Orchestration 2.2.2.60 ou superior.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Agenda de lançamento do Project Operations no ambiente Dataverse
 
 As atualizações do Project Operations no ambiente Dataverse estão disponíveis mensalmente. 
 
-| Estação   | Região        | Versão atual | Versão seguinte | Disponível geralmente |
-|-----------|---------------|-----------------|--------------|---------------------|
-| Estação 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Primeira Versão |  4.9.0.221       | TBD     | 30-Abr-21           |
-| Estação 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | América do Sul |  4.9.0.221       | TBD     | 30-Abr-21           |
-|    &nbsp; | Canadá        |  4.9.0.221       | TBD     | 30-Abr-21           |
-|   &nbsp;  | Índia         |  4.9.0.221       | TBD     | 30-Abr-21           |
-|   &nbsp;  | França         |  4.9.0.221       | TBD     | 30-Abr-21           |
-|   &nbsp;  | Emirados Árabes Unidos         |  4.9.0.221       | TBD     | 30-Abr-21           |
-|   &nbsp;  | África do Sul         |  4.9.0.221       | TBD     | 30-Abr-21           |
-| Estação 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japão         |  4.9.0.221       | TBD     | 7 de maio de 2021           |
-|   &nbsp;  | Ásia-Pacífico  |  4.9.0.221       | TBD     | 7 de maio de 2021           |
-|   &nbsp;  | Grã-Bretanha |  4.9.0.221       | TBD     | 7 de maio de 2021           |
-|   &nbsp;  | Oceânia       |  4.9.0.221       | TBD     | 7 de maio de 2021           |
-| Estação 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.9.0.221       | TBD     | 14 de maio de 2021           |
-| Estação 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | América do Norte |  4.9.0.221       | TBD     | 21 de maio de 2021           |
+| Estação | Região | Número da versão atual | Atualizações automáticas para implementação leve | Atualizações automáticas para implementação de recursos/não armazenados | Número da próxima versão | Próxima versão geralmente disponível |
+|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
+| Estação 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Primeira Versão         |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 28 de maio de 2021           |
+| Estação 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | América do Sul         |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 28 de maio de 2021           |
+|    &nbsp; | Canadá                |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 28 de maio de 2021           |
+|   &nbsp;  | Índia                 |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 28 de maio de 2021           |
+|   &nbsp;  | França                |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 28 de maio de 2021           |
+|   &nbsp;  | Emirados Árabes Unidos  |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 28 de maio de 2021           |
+|   &nbsp;  | África do Sul          |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 28 de maio de 2021           |
+| Estação 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japão                 |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 4 de junho de 2021          |
+|   &nbsp;  | Ásia-Pacífico          |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 4 de junho de 2021          |
+|   &nbsp;  | Grã-Bretanha         |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 4 de junho de 2021          |
+|   &nbsp;  | Oceânia               |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 4 de junho de 2021          |
+| Estação 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Europa                |  4.10.0.186     | Concluir     | Concluir            | TBD                 | 11 de junho de 2021          |
+| Estação 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | América do Norte         |  4.10.0.186     | Concluir     | 11 de junho de 2021          | TBD                 | 18 de junho de 2021          |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Agenda de lançamento para Gestão de projetos e contabilística no ambiente de aplicações Finance and Operations
 
 As atualizações para a Gestão de projetos e contabilística são lançadas oito vezes por ano.
 
-| Versão suportada | Geralmente disponível (atualização automática) |
-| --- | --- |
-| 10.0.18 | 16 de abril de 2021 |
-| 10.0.17 | 19 de Março de 2021 |
-| 10.0.16 | 22 de Janeiro de 2021 |
-
+|          Versão Suportada          | Disponibilidade de pré-visualização (PEAP) | Geralmente disponível (atualização automática) | Data de início da produção do agendamento de atualização automática (através de Definições de Atualização LCS) |   Fim do serviço   |
+|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.18          |        5 de Março de 2021        |           16 de abril de 2021          |                            30 de abril de 2021                            |    16 de julho de 2021   |
+|          10.0.17          |       1 de Fevereiro de 2021      |           19 de Março de 2021          |                             2 de abril de 2021                            |    11 de junho de 2021   |
 
 As datas de versão direcionadas estão sujeitas a alterações. Para mais informações, consulte o [Disponibilidade das atualizações do serviço](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-| Data de lançamento direcionada | Geralmente disponível (atualizado automaticamente) |
-| --- | --- |
-| 10.0.19 | 18 de junho de 2021 |
-| 10.0.20 | 16 de julho de 2021 |
+|          Versão de Destino          | Disponibilidade de pré-visualização (PEAP) | Geralmente disponível (atualização automática) | Data de início da produção do agendamento de atualização automática (através de Definições de Atualização LCS) |   Fim do serviço   |
+|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.19          |        23 de abril de 2021       |            18 de junho de 2021           |                             2 de julho de 2021                             | 17 de setembro de 2021 |
+|          10.0.20          |         28 de maio de 2021        |           16 de julho de 2021           |                             30 de julho de 2021                             |  22 de outubro de 2021  |
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

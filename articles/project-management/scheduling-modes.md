@@ -2,18 +2,16 @@
 title: Modos de agendamento
 description: Este tópico fornece informações sobre a modos de agendamento.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981449"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116721"
 ---
 # <a name="scheduling-modes"></a>Modos de agendamento
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations fornece a capacidade para as organizações defi
 Existem três modos de agendamento disponíveis no Project Operations:
 
   - Duração fixa (este é o modo predefinido)
-  - Trabalho fixo
+  - Esforço fixo (*Trabalho*)
   - Unidades fixas
 
 Os valores impactados pela definição de um modo de programação específico são determinados pela seguinte fórmula:
 
-  Esforço (*Trabalho*) = Duração x Unidades
+  Esforço = Duração x Unidades
 
 Quando se define o modo de agendamento de um projeto, está a definir um destes valores, que depois não pode ser alterado. Manter este valor como uma constante coloca uma prioridade nesse valor, o que notifica o sistema de não o alterar quando os outros dois valores mudam. A tabela seguinte fornece informações sobre os impactos da seleção de um modo específico.
 
