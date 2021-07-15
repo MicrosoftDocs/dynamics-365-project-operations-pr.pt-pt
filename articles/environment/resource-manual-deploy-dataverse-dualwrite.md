@@ -1,0 +1,65 @@
+---
+title: Implementar manualmente a aplicação Project Operations Dataverse com suporte de escrita dupla
+description: Este tópico explica como implementar manualmente a aplicação Project Operations Dataverse para suportar a escrita dupla.
+author: stsporen
+ms.date: 06/18/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: stsporen
+ms.openlocfilehash: 2ad147da542fc9e7a2705da7a834d1a6512907e5
+ms.sourcegitcommit: 205a94ab4168de25b102f31d00a691c8205ba63e
+ms.translationtype: HT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "6274022"
+---
+# <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a><span data-ttu-id="36a78-103">Implementar manualmente a aplicação Project Operations Dataverse com suporte de escrita dupla</span><span class="sxs-lookup"><span data-stu-id="36a78-103">Manually deploy the Project Operations Dataverse app with dual-write support</span></span>
+
+<span data-ttu-id="36a78-104">_**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_</span><span class="sxs-lookup"><span data-stu-id="36a78-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="36a78-105">Este tópico explica como implementar manualmente o Microsoft Dynamics 365 Project Operations no Microsoft Dataverse para suportar a escrita dupla.</span><span class="sxs-lookup"><span data-stu-id="36a78-105">This topic explains how to manually deploy Microsoft Dynamics 365 Project Operations in Microsoft Dataverse so that it supports dual-write.</span></span> <span data-ttu-id="36a78-106">O Project Operations deteta a configuração do ambiente e inclui suporte adicional para escrita dupla se os requisitos forem satisfeitos.</span><span class="sxs-lookup"><span data-stu-id="36a78-106">Project Operations detects the environment's configuration and adds additional support for dual-write if the prerequisites are met.</span></span>
+
+<span data-ttu-id="36a78-107">Durante a implementação através do Microsoft Dynamics Lifecycle Services (LCS), se seguiu as instruções neste tópico, pode ignorar a implementação da integração do Microsoft Power Platform (anteriormente conhecido como ambiente Common Data Service).</span><span class="sxs-lookup"><span data-stu-id="36a78-107">During deployment through Microsoft Dynamics Lifecycle Services (LCS), if you've followed the instructions in this topic, you can skip the deployment of the Microsoft Power Platform integration (previously known as the Common Data Service environment).</span></span>
+
+<span data-ttu-id="36a78-108">O processo de implementação do Project Operations no Dataverse para suportar escrita dupla tem quatro passos principais:</span><span class="sxs-lookup"><span data-stu-id="36a78-108">The process of deploying Project Operations in Dataverse so that it supports dual-write has four main steps:</span></span>
+
+1. <span data-ttu-id="36a78-109">[Criar um novo ambiente no Dataverse que suporta escrita dupla](#create).</span><span class="sxs-lookup"><span data-stu-id="36a78-109">[Create a new environment in Dataverse that supports dual-write](#create).</span></span>
+2. <span data-ttu-id="36a78-110">[Adicionar pré-requisitos de escrita dupla ao ambiente](#prerequisites).</span><span class="sxs-lookup"><span data-stu-id="36a78-110">[Add dual-write prerequisites to the environment](#prerequisites).</span></span>
+3. <span data-ttu-id="36a78-111">[Adicionar a aplicação Project Operations Dataverse](#dataverse).</span><span class="sxs-lookup"><span data-stu-id="36a78-111">[Add the Project Operations Dataverse app](#dataverse).</span></span>
+4. <span data-ttu-id="36a78-112">[Associar os seus ambientes](#link).</span><span class="sxs-lookup"><span data-stu-id="36a78-112">[Link your environments](#link).</span></span>
+
+## <a name="create-a-new-environment-in-dataverse-that-supports-dual-write"></a><a name="create"></a><span data-ttu-id="36a78-113">Criar um novo ambiente no Dataverse que suporta escrita dupla</span><span class="sxs-lookup"><span data-stu-id="36a78-113">Create a new environment in Dataverse that supports dual-write</span></span>
+
+<span data-ttu-id="36a78-114">Para concluir este procedimento, tem de iniciar sessão como administrador.</span><span class="sxs-lookup"><span data-stu-id="36a78-114">To complete this procedure, you must sign in as an administrator.</span></span>
+
+1. <span data-ttu-id="36a78-115">Abra o [centro de administração do Power Platform](https://admin.powerplatform.com) e inicie sessão como administrador.</span><span class="sxs-lookup"><span data-stu-id="36a78-115">Open the [Power Platform admin center](https://admin.powerplatform.com), and sign in as an administrator.</span></span>
+2. <span data-ttu-id="36a78-116">Crie um novo ambiente e atribua-lhe um nome.</span><span class="sxs-lookup"><span data-stu-id="36a78-116">Create a new environment, and name it.</span></span>
+3. <span data-ttu-id="36a78-117">Selecione o tipo de ambiente.</span><span class="sxs-lookup"><span data-stu-id="36a78-117">Select the environment type.</span></span> <span data-ttu-id="36a78-118">Se se inscreveu na oferta de avaliação, selecione **Avaliação (baseada em subscrições)**.</span><span class="sxs-lookup"><span data-stu-id="36a78-118">If you signed up for the trial offer, select **Trial (subscription-based)**.</span></span>
+4. <span data-ttu-id="36a78-119">Confirme a região de implementação.</span><span class="sxs-lookup"><span data-stu-id="36a78-119">Confirm the deployment region.</span></span>
+5. <span data-ttu-id="36a78-120">Ative a opção **Criar uma base de dados para este ambiente**.</span><span class="sxs-lookup"><span data-stu-id="36a78-120">Enable the **Create a database for this environment** option.</span></span> 
+6. <span data-ttu-id="36a78-121">Confirme o idioma e, em seguida, confirme que a moeda corresponde à moeda das suas aplicações do Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36a78-121">Confirm the language, and then confirm that the currency matches the currency for your Finance and Operations apps.</span></span>
+7. <span data-ttu-id="36a78-122">Ative a opção **Aplicações do Dynamics 365** e confirme que o campo **Implementar automaticamente estas aplicações** está definido como **Nenhum**.</span><span class="sxs-lookup"><span data-stu-id="36a78-122">Enable the **Dynamics 365 apps** option, and confirm that the **Automatically deploy these apps** field is set to **None**.</span></span>
+8. <span data-ttu-id="36a78-123">Adicione um grupo de segurança, se for necessário um grupo de segurança.</span><span class="sxs-lookup"><span data-stu-id="36a78-123">Add a security group, if a security group is required.</span></span>
+9. <span data-ttu-id="36a78-124">Selecione **Guardar** para criar o ambiente.</span><span class="sxs-lookup"><span data-stu-id="36a78-124">Select **Save** to create the environment.</span></span>
+10. <span data-ttu-id="36a78-125">Aguarde até a implementação estar concluída e o ambiente atingir o estado **Pronta**.</span><span class="sxs-lookup"><span data-stu-id="36a78-125">Wait until the deployment is completed and the environment reaches the **Ready** state.</span></span>
+
+## <a name="add-dual-write-prerequisites-to-the-environment"></a><a name="prerequisites"></a><span data-ttu-id="36a78-126">Adicionar pré-requisitos de escrita dupla ao ambiente</span><span class="sxs-lookup"><span data-stu-id="36a78-126">Add dual-write prerequisites to the environment</span></span>
+
+<span data-ttu-id="36a78-127">O suporte de escrita dupla inclui campos adicionais que são adicionados a entidades chave, como a entidade **Empresa**.</span><span class="sxs-lookup"><span data-stu-id="36a78-127">Dual-write support includes additional fields that are added to key entities, such as the **Company** entity.</span></span> <span data-ttu-id="36a78-128">Se estiver a adicionar suporte de escrita dupla a um ambiente existente, poderá ter de atualizar os dados para ativar o suporte.</span><span class="sxs-lookup"><span data-stu-id="36a78-128">If you're adding dual-write support to an existing environment, you might have to update the data to enable the support.</span></span> <span data-ttu-id="36a78-129">Para obter informações sobre como inicializar o programa de arranque do sistema dos dados, consulte [Inicializar os dados da empresa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/bootstrap-company-data).</span><span class="sxs-lookup"><span data-stu-id="36a78-129">For information about how to bootstrap the data, see [Bootstrap company data](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/bootstrap-company-data).</span></span> <span data-ttu-id="36a78-130">Para mais informações sobre a escrita dupla, consulte [Requisitos de sistema de escrita dupla](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req).</span><span class="sxs-lookup"><span data-stu-id="36a78-130">For more information about dual-write, see [Dual-write system requirements](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req).</span></span>
+
+<span data-ttu-id="36a78-131">Conclua este procedimento para adicionar os pré-requisitos de escrita dupla ao seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="36a78-131">Complete this procedure to add the dual-write prerequisites to your environment.</span></span>
+
+1. <span data-ttu-id="36a78-132">Abra o ambiente que acabou de criar e, em seguida, vá para **Recurso** \> **Aplicações do Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="36a78-132">Open the environment that you just created, and then go to **Resource** \> **Dynamics 365 apps**.</span></span>
+2. <span data-ttu-id="36a78-133">Selecione **Solução central de escrita dupla** na lista de aplicações e instale-a.</span><span class="sxs-lookup"><span data-stu-id="36a78-133">Select **Dual-write core solution** in the app list, and install it.</span></span>
+3. <span data-ttu-id="36a78-134">Aguarde até a instalação ser concluída.</span><span class="sxs-lookup"><span data-stu-id="36a78-134">Wait until the installation is completed.</span></span> <span data-ttu-id="36a78-135">Em seguida, selecione **Solução de orquestração de aplicações de escrita dupla** na lista de aplicações e instale-a.</span><span class="sxs-lookup"><span data-stu-id="36a78-135">Then select **Dual-write application orchestration solution** in the app list, and install it.</span></span>
+
+## <a name="add-the-project-operations-dataverse-app"></a><a name="dataverse"></a><span data-ttu-id="36a78-136">Adicionar a aplicação Project Operations Dataverse</span><span class="sxs-lookup"><span data-stu-id="36a78-136">Add the Project Operations Dataverse app</span></span>
+
+<span data-ttu-id="36a78-137">Só pode concluir este procedimento se tiver concluído os procedimentos anteriores antes de instalar o Project Operations.</span><span class="sxs-lookup"><span data-stu-id="36a78-137">You can complete this procedure only if you completed the previous procedures before you installed Project Operations.</span></span> <span data-ttu-id="36a78-138">Durante a instalação, o sistema analisa a configuração do ambiente e adiciona suporte para escrita dupla, se for necessário.</span><span class="sxs-lookup"><span data-stu-id="36a78-138">During installation, the system analyzes the environment configuration and adds support for dual-write if it's required.</span></span>
+
+1. <span data-ttu-id="36a78-139">Abra o ambiente que criou anteriormente e, em seguida, vá para **Recurso** \> **Aplicações do Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="36a78-139">Open the environment that you created earlier, and then go to **Resource** \> **Dynamics 365 apps**.</span></span>
+2. <span data-ttu-id="36a78-140">Selecione **Microsoft Dynamics 365 Project Operations** na lista de aplicações e instale-o.</span><span class="sxs-lookup"><span data-stu-id="36a78-140">Select **Microsoft Dynamics 365 Project Operations** in the app list, and install it.</span></span>
+
+## <a name="link-your-environments"></a><a name="link"></a><span data-ttu-id="36a78-141">Associar os seus ambientes</span><span class="sxs-lookup"><span data-stu-id="36a78-141">Link your environments</span></span>
+
+<span data-ttu-id="36a78-142">Após a implementação do ambiente Dataverse, pode configurar a associação nas suas aplicações do Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36a78-142">After the Dataverse environment is deployed, you can set up the link in your Finance and Operations apps.</span></span> <span data-ttu-id="36a78-143">Siga os passos em [Utilizar o assistente de escrita dupla para associar os seus ambientes](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).</span><span class="sxs-lookup"><span data-stu-id="36a78-143">Follow the steps in [Use the dual-write wizard to link your environments](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).</span></span>

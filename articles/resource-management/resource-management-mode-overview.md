@@ -6,46 +6,47 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 94db65a2ddbdc6a7226c70907bcce4c45b4a3923
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000900"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6367905"
 ---
-# <a name="resource-management-modes-overview"></a><span data-ttu-id="bbf74-103">Descrição geral dos modos de gestão de recursos</span><span class="sxs-lookup"><span data-stu-id="bbf74-103">Resource management modes overview</span></span>
+# <a name="resource-management-modes-overview"></a><span data-ttu-id="ec5a3-103">Descrição geral dos modos de gestão de recursos</span><span class="sxs-lookup"><span data-stu-id="ec5a3-103">Resource management modes overview</span></span>
 
-<span data-ttu-id="bbf74-104">_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_</span><span class="sxs-lookup"><span data-stu-id="bbf74-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="ec5a3-104">_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_</span><span class="sxs-lookup"><span data-stu-id="ec5a3-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-<span data-ttu-id="bbf74-105">O Dynamics 365 Project Operations suporta dois modos para executar o fluxo de reserva global.</span><span class="sxs-lookup"><span data-stu-id="bbf74-105">Dynamics 365 Project Operations supports two modes in order for you to execute the overall booking flow.</span></span> <span data-ttu-id="bbf74-106">O modo de gestão é definido como um parâmetro de projeto e pode ser modificado se o seu negócio precisar de alteração.</span><span class="sxs-lookup"><span data-stu-id="bbf74-106">The mode of management is defined as a project parameter and can be modified if your business needs change.</span></span>    
+<span data-ttu-id="ec5a3-105">O Dynamics 365 Project Operations suporta dois modos para executar o fluxo de reserva global.</span><span class="sxs-lookup"><span data-stu-id="ec5a3-105">Dynamics 365 Project Operations supports two modes in order for you to execute the overall booking flow.</span></span> <span data-ttu-id="ec5a3-106">O modo de gestão é definido como um parâmetro de projeto e pode ser modificado se o seu negócio precisar de alteração.</span><span class="sxs-lookup"><span data-stu-id="ec5a3-106">The mode of management is defined as a project parameter and can be modified if your business needs change.</span></span>    
 
-## <a name="central-mode"></a><span data-ttu-id="bbf74-107">Modo central</span><span class="sxs-lookup"><span data-stu-id="bbf74-107">Central mode</span></span>
-<span data-ttu-id="bbf74-108">Para as organizações que centralizam a alocação de recursos para projetos, o modo Central oferece uma forma de assegurar que os Gestores de projeto podem definir os requisitos de recursos a nível do projeto.</span><span class="sxs-lookup"><span data-stu-id="bbf74-108">For organizations who centralize the allocation for resources to projects, the Central mode provides a way to ensure Project managers can define resource requirements at the project level.</span></span> <span data-ttu-id="bbf74-109">A conclusão dos requisitos do recurso é delegada num Gestor de recursos.</span><span class="sxs-lookup"><span data-stu-id="bbf74-109">Fulfillment of the resource requirements is delegated to a Resource manager.</span></span> <span data-ttu-id="bbf74-110">Os gestores de projetos podem aceitar ou rejeitar recursos que são propostos pelo Gestor de recursos.</span><span class="sxs-lookup"><span data-stu-id="bbf74-110">Project managers can accept or reject resources that are proposed by the Resource manager.</span></span>
+## <a name="central-mode"></a><span data-ttu-id="ec5a3-107">Modo central</span><span class="sxs-lookup"><span data-stu-id="ec5a3-107">Central mode</span></span>
+<span data-ttu-id="ec5a3-108">Para as organizações que centralizam a alocação de recursos para projetos, o modo Central oferece uma forma de assegurar que os Gestores de projeto podem definir os requisitos de recursos a nível do projeto.</span><span class="sxs-lookup"><span data-stu-id="ec5a3-108">For organizations who centralize the allocation for resources to projects, the Central mode provides a way to ensure Project managers can define resource requirements at the project level.</span></span> <span data-ttu-id="ec5a3-109">A conclusão dos requisitos do recurso é delegada num Gestor de recursos.</span><span class="sxs-lookup"><span data-stu-id="ec5a3-109">Fulfillment of the resource requirements is delegated to a Resource manager.</span></span> <span data-ttu-id="ec5a3-110">Os gestores de projetos podem aceitar ou rejeitar recursos que são propostos pelo Gestor de recursos.</span><span class="sxs-lookup"><span data-stu-id="ec5a3-110">Project managers can accept or reject resources that are proposed by the Resource manager.</span></span>
 
 ![Modo Central](./media/resource-management-central.png)
 
-<span data-ttu-id="bbf74-112">Para gerir recursos com o modo Central, consulte:</span><span class="sxs-lookup"><span data-stu-id="bbf74-112">To manage resources with the Central mode, see:</span></span>
+<span data-ttu-id="ec5a3-112">Para gerir recursos com o modo Central, consulte:</span><span class="sxs-lookup"><span data-stu-id="ec5a3-112">To manage resources with the Central mode, see:</span></span>
 
-- [<span data-ttu-id="bbf74-113">Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="bbf74-113">Assign generic bookable resources to a task and generate resource requirements</span></span>](/dynamics365/project-service/assign-generic-bookable-resource)
-- [<span data-ttu-id="bbf74-114">Reservar recursos nomeados a partir de requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="bbf74-114">Book named resources from resource requirements</span></span>](/dynamics365/project-service/book-named-resource)
-- [<span data-ttu-id="bbf74-115">Submeter um pedido de recurso</span><span class="sxs-lookup"><span data-stu-id="bbf74-115">Submit a resource request</span></span>](/dynamics365/project-service/submit-resource-request)
-- [<span data-ttu-id="bbf74-116">Concluir um pedido de recurso</span><span class="sxs-lookup"><span data-stu-id="bbf74-116">Fulfill a resource request</span></span>](/dynamics365/project-service/resource-management-fulfill-requests)
-- [<span data-ttu-id="bbf74-117">Aceitar ou rejeitar um recurso de projeto proposto a partir de um pedido de recurso</span><span class="sxs-lookup"><span data-stu-id="bbf74-117">Accept or reject a proposed project resource from a resource request</span></span>](/dynamics365/project-service/accept-reject-proposed-resource)
+- [<span data-ttu-id="ec5a3-113">Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="ec5a3-113">Assign generic bookable resources to a task and generate resource requirements</span></span>](/dynamics365/project-service/assign-generic-bookable-resource)
+- [<span data-ttu-id="ec5a3-114">Reservar recursos nomeados a partir de requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="ec5a3-114">Book named resources from resource requirements</span></span>](/dynamics365/project-service/book-named-resource)
+- [<span data-ttu-id="ec5a3-115">Submeter um pedido de recurso</span><span class="sxs-lookup"><span data-stu-id="ec5a3-115">Submit a resource request</span></span>](/dynamics365/project-service/submit-resource-request)
+- [<span data-ttu-id="ec5a3-116">Concluir um pedido de recurso</span><span class="sxs-lookup"><span data-stu-id="ec5a3-116">Fulfill a resource request</span></span>](/dynamics365/project-service/resource-management-fulfill-requests)
+- [<span data-ttu-id="ec5a3-117">Aceitar ou rejeitar um recurso de projeto proposto a partir de um pedido de recurso</span><span class="sxs-lookup"><span data-stu-id="ec5a3-117">Accept or reject a proposed project resource from a resource request</span></span>](/dynamics365/project-service/accept-reject-proposed-resource)
 
-## <a name="hybrid-mode"></a><span data-ttu-id="bbf74-118">Modo híbrido</span><span class="sxs-lookup"><span data-stu-id="bbf74-118">Hybrid mode</span></span>
-<span data-ttu-id="bbf74-119">Para as organizações que necessitam de flexibilidade na alocação de recursos, o modo híbrido conferem aos Gestores de projeto e aos Gestores de recursos a capacidade de reservar recursos.</span><span class="sxs-lookup"><span data-stu-id="bbf74-119">For organizations who require flexibility in the allocation of resources, the hybrid mode enables both Project managers and Resource managers the ability to book resources.</span></span>
+## <a name="hybrid-mode"></a><span data-ttu-id="ec5a3-118">Modo híbrido</span><span class="sxs-lookup"><span data-stu-id="ec5a3-118">Hybrid mode</span></span>
+<span data-ttu-id="ec5a3-119">Para as organizações que necessitam de flexibilidade na alocação de recursos, o modo híbrido conferem aos Gestores de projeto e aos Gestores de recursos a capacidade de reservar recursos.</span><span class="sxs-lookup"><span data-stu-id="ec5a3-119">For organizations who require flexibility in the allocation of resources, the hybrid mode enables both Project managers and Resource managers the ability to book resources.</span></span>
 
 ![Modo Híbrido](./media/resource-management-hybrid.png)
 
-<span data-ttu-id="bbf74-121">Além do processo do modo Central suportado, consulte os seguintes tópicos para gerir todos os outros fluxos de reservas suportados no modo Híbrido:</span><span class="sxs-lookup"><span data-stu-id="bbf74-121">In addition to the supported Central mode process, see the following topics to manage all other supported booking flows in the Hybrid mode:</span></span>
+<span data-ttu-id="ec5a3-121">Além do processo do modo Central suportado, consulte os seguintes tópicos para gerir todos os outros fluxos de reservas suportados no modo Híbrido:</span><span class="sxs-lookup"><span data-stu-id="ec5a3-121">In addition to the supported Central mode process, see the following topics to manage all other supported booking flows in the Hybrid mode:</span></span>
 
-<span data-ttu-id="bbf74-122">Reservar um recurso diretamente para um projeto:</span><span class="sxs-lookup"><span data-stu-id="bbf74-122">Book a resource directly to a project:</span></span>
-- [<span data-ttu-id="bbf74-123">Reservar recursos reserváveis nomeados para uma equipa do projeto e atribuir tarefas</span><span class="sxs-lookup"><span data-stu-id="bbf74-123">Book named bookable resources to a project team and assign tasks</span></span>](/dynamics365/project-service/assign-named-bookable-resource)
+<span data-ttu-id="ec5a3-122">Reservar um recurso diretamente para um projeto:</span><span class="sxs-lookup"><span data-stu-id="ec5a3-122">Book a resource directly to a project:</span></span>
+- [<span data-ttu-id="ec5a3-123">Reservar recursos reserváveis nomeados para uma equipa do projeto e atribuir tarefas</span><span class="sxs-lookup"><span data-stu-id="ec5a3-123">Book named bookable resources to a project team and assign tasks</span></span>](/dynamics365/project-service/assign-named-bookable-resource)
 
-<span data-ttu-id="bbf74-124">Reservar um recurso a partir de um requisito de recurso:</span><span class="sxs-lookup"><span data-stu-id="bbf74-124">Book a resource from a resource requirement:</span></span>
-- [<span data-ttu-id="bbf74-125">Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="bbf74-125">Assign generic bookable resources to a task and generate resource requirements</span></span>](/dynamics365/project-service/assign-generic-bookable-resource)
-- [<span data-ttu-id="bbf74-126">Reservar recursos nomeados a partir de requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="bbf74-126">Book named resources from resource requirements</span></span>](/dynamics365/project-service/book-named-resource)
+<span data-ttu-id="ec5a3-124">Reservar um recurso a partir de um requisito de recurso:</span><span class="sxs-lookup"><span data-stu-id="ec5a3-124">Book a resource from a resource requirement:</span></span>
+- [<span data-ttu-id="ec5a3-125">Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="ec5a3-125">Assign generic bookable resources to a task and generate resource requirements</span></span>](/dynamics365/project-service/assign-generic-bookable-resource)
+- [<span data-ttu-id="ec5a3-126">Reservar recursos nomeados a partir de requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="ec5a3-126">Book named resources from resource requirements</span></span>](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
