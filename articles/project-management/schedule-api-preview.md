@@ -1,19 +1,19 @@
 ---
-title: Utilizar APIs de Agenda para realizar operações com entidades de agendamento
-description: Este tópico fornece informações e amostras para a utilização de APIs de agenda.
+title: Utilizar APIs de Agenda do Project para executar operações com entidades de Agendamento
+description: Esta tópico fornece informações e amostras para utilizar as APIs de Agenda do Project.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116811"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293241"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizar APIs de Agenda para realizar operações com entidades de agendamento
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizar APIs de Agenda do Project para executar operações com entidades de Agendamento
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
@@ -22,9 +22,9 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 ## <a name="scheduling-entities"></a>Entidades de agendamento
 
-Agendar APIs fornece a capacidade de executar operações de criar, atualizar e apagar com **Entidades de agendamento**. Estas entidades são geridas através do motor de Agendamento em Projeto para a web. Operações de Criar, atualizar e apagar com **Entidades de agendamento** foram restringidas em lançamentos Dynamics 365 Project Operations anteriores.
+As APIs de agenda do Project permitem executar operações de criação, atualização e eliminação com **Entidades de agendamento**. Estas entidades são geridas através do motor de Agendamento em Projeto para a web. Operações de Criar, atualizar e apagar com **Entidades de agendamento** foram restringidas em lançamentos Dynamics 365 Project Operations anteriores.
 
-A tabela seguinte apresenta uma lista completa das **Entidades de Agendamento**.
+A tabela seguinte fornece uma lista completa das entidades de agendamento do Project.
 
 | Nome da entidade  | Nome lógico da entidade |
 | --- | --- |
@@ -39,19 +39,19 @@ A tabela seguinte apresenta uma lista completa das **Entidades de Agendamento**.
 
 OperationSet é um padrão de unidade de trabalho que pode ser usado quando vários pedidos de impacto de programação devem ser processados dentro de uma transação.
 
-## <a name="schedule-apis"></a>ApIs de agenda
+## <a name="project-schedule-apis"></a>APIs de agenda do Project
 
-Segue-se uma lista das APIs de agenda.
+Segue-se uma lista das APIs de agenda do Project atuais.
 
 - **msdyn_CreateProjectV1**: Esta API pode ser usada para criar um projeto. O projeto e registo de projeto padrão é criado imediatamente.
 - **msdyn_CreateTeamMemberV1**: Esta API pode ser usada para criar um membro da equipa de projeto. O registo de membros da equipa é criado imediatamente.
 - **msdyn_CreateOperationSetV1**: Esta API pode ser utilizada para agendar vários pedidos que devem ser realizados dentro de uma transação.
-- **msdyn_PSSCreateV1**: Esta API pode ser usada para criar uma entidade. A entidade pode ser qualquer uma das entidades de Agendamento que apoiam a operação de criação.
-- **msdyn_PSSUpdateV1**: Esta API pode ser usada para atualizar uma entidade. A entidade pode ser qualquer uma das entidades de Agendamento que apoiam a operação de atualização.
-- **msdyn_PSSDeleteV1**: Esta API pode ser usada para eliminar uma entidade. A entidade pode ser qualquer uma das entidades de Agendamento que apoiam a operação de eliminação.
+- **msdyn_PSSCreateV1**: Esta API pode ser usada para criar uma entidade. A entidade pode ser qualquer uma das entidades de agendamento do Project que suportam a operação de criação.
+- **msdyn_PSSUpdateV1**: Esta API pode ser usada para atualizar uma entidade. A entidade pode ser qualquer uma das entidades de agendamento do Project que suportam a operação de atualização.
+- **msdyn_PSSDeleteV1**: Esta API pode ser usada para eliminar uma entidade. A entidade pode ser qualquer uma das entidades de agendamento do Project que suportam a operação de eliminação.
 - **msdyn_ExecuteOperationSetV1**: Esta API é utilizada para executar todas as operações no âmbito do conjunto de operações.
 
-## <a name="using-schedule-apis-with-operationset"></a>Utilização de APIs de agenda com OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Utilizar APIs de agenda do Project com OperationSet
 
 Como os registos com **CreateProjectV1** e **CreateTeamMemberV1** são criados imediatamente, estas APIs não podem ser utilizadas diretamente no **OperationSet**. No entanto, pode utilizar a API para criar registos necessários, criar um **OperationSet** e, em seguida, utilizar estes registos pré-criados no **OperationSet**.
 
@@ -257,7 +257,7 @@ As tabelas que se seguem definem os campos que estão restringidos de **Criar** 
 ## <a name="limitations-and-known-issues"></a>Problemas conhecidos e de limitações
 Segue-se uma lista de limitações e questões conhecidas:
 
-- As APIs de agenda só podem ser utilizadas pelos **Utilizadores com licença de projeto da Microsoft.** Não podem ser usadas por:
+- As APIs de Agenda do Project só podem ser utilizadas pelos **Utilizadores com Licença do Microsoft Project**. Não podem ser usadas por:
     - Utilizadores da aplicação
     - Utilizadores do sistema
     - Utilizadores de integração
@@ -271,7 +271,7 @@ Segue-se uma lista de limitações e questões conhecidas:
 ## <a name="error-handling"></a>Processamento de erros
 
    - Para rever os erros gerados a partir dos Conjuntos de Operação, aceda a **Configurações** \> **Integração de Agendamento** \> **Conjuntos de operações**.
-   - Para rever os erros gerados a partir do Serviço de Agendamento de Projetos, aceda a **Definições** \> **Integração de agendamento** \> **Registos de erros PSS**.
+   - Para rever os erros gerados a partir do Serviço de agendamento do Project, vá para **Definições** \> **Integração de Agenda** \> **Registos de Erros de PSS**.
 
 ## <a name="sample-scenario"></a>Cenário de exemplo
 

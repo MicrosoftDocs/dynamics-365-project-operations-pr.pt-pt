@@ -6,12 +6,12 @@ ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995905"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304315"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportamento da IU de entrada de hora
 
@@ -25,9 +25,9 @@ A grelha **Entrada de hora semanal** é um controlo personalizado que tem duas s
 |------------   |------------------------   |
 | Nova           | Alt + Shift + n           |
 | Copiar linha      | Alt + Shift + c           |
-| Editar Entrada    | Alt + Shift + e           |
+| Editar entrada    | Alt + Shift + e           |
 | Editar linha      | Alt + Shift + Ctrl + e    |
-| Abrir Entrada    | Alt + Shift + o           |
+| Abrir entrada    | Alt + Shift + o           |
 | Submeter        | Alt + Shift + s           |
 | Recuperar        | Alt + Shift + r           |
 | Delete        | Alt + Shift + d           |

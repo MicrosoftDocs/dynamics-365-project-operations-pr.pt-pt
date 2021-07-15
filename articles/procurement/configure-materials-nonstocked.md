@@ -2,17 +2,17 @@
 title: Configure materiais não armazenados e faturas pendentes do fornecedor
 description: Esta tópico explica como permitir materiais não armazenados e faturas pendentes do fornecedor.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993925"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293061"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configure materiais não armazenados e faturas pendentes do fornecedor
 
@@ -59,11 +59,11 @@ Se estiver a utilizar dados de demonstração padrão, poderá também ter de pa
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Ativar fluxo de trabalho para criar contas com base na entidade fornecedora
 
-A solução Orquestração Escrita Dupla proporciona [Integração mestra aos Fornecedores](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Como pré-requisito para esta funcionalidade, os dados do fornecedor devem ser criados na entidade **Contas**. Ative um processo de fluxo de trabalho do modelo para criar fornecedores na tabela **Contas**, tal como descrito em [Alternar entre os desenhos do fornecedor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+A solução Orquestração Escrita Dupla proporciona [Integração mestra aos Fornecedores](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Como pré-requisito para esta funcionalidade, os dados do fornecedor devem ser criados na entidade **Contas**. Ative um processo de fluxo de trabalho do modelo para criar fornecedores na tabela **Contas**, tal como descrito em [Alternar entre os desenhos do fornecedor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Definir produtos a serem criados como ativos
 
-Os materiais não armazenados devem ser configurados como **Produtos libertados** em Finanças. A solução Orquestração em Escrita dupla proporciona uma [integração de produtos out-of-the-box para o catálogo de produtos Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Por defeito, os produtos das Finanças são sincronizados para Dataverse num projeto de rascunho. Para sincronizar o produto para um estado ativo para que possa ser diretamente utilizado em documentos de utilização de materiais ou faturas pendentes do fornecedor, vá para **Sistema** > **Administração** > **Administração de sistema** > **Definições de sistema** e, no separador **Vendas**, defina **Criar produtos em estado ativo** para **Sim**.
+Os materiais não armazenados devem ser configurados como **Produtos libertados** em Finanças. A solução Orquestração em Escrita dupla proporciona uma [integração de produtos out-of-the-box para o catálogo de produtos Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Por defeito, os produtos das Finanças são sincronizados para Dataverse num projeto de rascunho. Para sincronizar o produto para um estado ativo para que possa ser diretamente utilizado em documentos de utilização de materiais ou faturas pendentes do fornecedor, vá para **Sistema** > **Administração** > **Administração de sistema** > **Definições de sistema** e, no separador **Vendas**, defina **Criar produtos em estado ativo** para **Sim**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configurar pré-requisitos em Finanças
 
@@ -88,7 +88,7 @@ No Project Operations é possível registar estimativas e utilização de materi
 2. No campo **Tipo de produto**, selecione **Item** e no campo **Subtipo de Produto**, selecione **Produto**.
 3. Introduza o número do produto (WRITEIN) e o nome do produto (Produto de escrita).
 4. Selecione o grupo de modelos de artigos. Certifique-se de que o grupo de modelos de artigos selecionados tem o campo de **produtos armazenados da política de inventário** definido como **Falso**.
-5. Selecione valores nos campos **Grupo de artigos**, **Grupo de dimensão de armazenamento** e **Deteção de movimentos de dimensão de grupo**. Utilize a **Dimensão de Armazenamento** apenas para o **Site** e não defina quaisquer dimensões de rastreamento.
+5. Selecione valores nos campos **Grupo de artigos**, **Grupo de dimensão de armazenamento** e **Deteção de movimentos de dimensão de grupo**. Utilize a **Dimensão de armazenamento** apenas para **Local** e, no campo **Dimensões de seguimento**, selecione **Nenhum**.
 6. Selecione valores nos campos **Unidade de Inventário**, **Unidade de compra** e **Unidade de vendas** e, em seguida, guarde as suas alterações.
 7. No separador **Plano**, defina as definições de ordem predefinidos e no separador **Inventário**, defina o local e o armazém predefinidos.
 8. Vá à **gestão de projetos e gestão contabilística** > **Configuração** > **Gestão de projetos e parâmetros de gestão contabilística** e abra **Project Operations no Dynamics 365 Dataverse**. 

@@ -2,7 +2,7 @@
 title: Relatórios de despesas reinventados
 description: Este tópico explica a experiência redesenhada e reimaginada para a entrada no relatório de despesas.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995365"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251018"
 ---
 # <a name="expense-reports-reimagined"></a>Relatórios de despesas reinventados
 
@@ -26,13 +26,13 @@ A introdução de relatórios de despesas foi reformulada para simplificar o pro
 
 - Uma nova área de trabalho de gestão de despesas que permite aceder às despesas do seu delegado.
 - Uma nova experiência de correspondência de recibos para mostrar melhor os recibos a nível do cabeçalho e simplificar o processo de anexação de recibos às linhas de despesa.
-- Uma nova grelha só de leitura que permite ver muito mais linhas de despesa e colunas de dados adicionais. Agora pode ver todas as linhas discriminadas e divididas, juntamente com as respetivas despesas principais.
+- Uma nova grelha só de leitura que permite ver muito mais linhas de despesas e outras colunas de dados. Agora pode ver todas as linhas discriminadas e divididas, juntamente com as respetivas despesas principais.
 - Um painel simplificado para editar despesas.
 - Mensagens de erro, aviso e política reformuladas para fornecer o contexto e a compreensão corretos do problema, e como resolvê-lo. Removemos várias das mensagens que apareciam antes de os utilizadores poderem concluir as suas tarefas e resolver os problemas.
 - Uma nova página para especificar os campos obrigatórios, os campos opcionais e os campos que não devem ser incluídos. Esta página ajuda a reduzir o número de campos que têm de ser definidos.
 - Um novo aspeto e funcionalidade dos relatórios de despesas para os relatórios já não parecerem como se fossem concebidos para contabilistas.
 
-Para ativar a nova experiência, utilize a área de trabalho **Gestão de funcionalidades** para ativar a funcionalidade **Relatórios de despesas reinventados**. Quando ativa esta funcionalidade, ocorrem as seguintes ações:
+Para ativar a nova experiência, utilize a área de trabalho **Gestão de funcionalidades** para ativar a funcionalidade **Área de trabalho dos relatórios de despesas reinventados**. Quando ativa esta funcionalidade, ocorrem as seguintes ações:
 
 - A área de trabalho de despesas existente é substituída pela nova área de trabalho.
 - Um novo item de menu para visibilidade do campo de despesas é adicionado.
@@ -45,7 +45,7 @@ Para ativar a nova experiência, utilize a área de trabalho **Gestão de funcio
 
 | Nova funcionalidade | Descrição |
 |---|----|
-| Visibilidade do campo de despesas | Uma nova página de configuração permite especificar quais os campos que devem ser desativados para uma organização, quais os campos que devem ser obrigatórios e quais os campos recomendados. |
+| Visibilidade do campo de despesas | Uma nova página de configuração permite especificar os campos que devem ser desativados para uma organização. Também pode especificar os campos que devem ser obrigatórios e quais devem ser recomendados. |
 | Campos necessários | A nova configuração simples permite tornar alguns campos obrigatórios sem ter de utilizar o quadro da política. |
 | Campos opcionais | É adicionada uma segunda página para campos opcionais. Desta forma, os colaboradores não se sentirão como se tivessem de definir os campos, mas os campos ainda estão facilmente acessíveis. |
 | Adicionar recibos não anexados | A capacidade para adicionar recibos não anexados ao relatório de despesas é mais visível a partir da área de trabalho e no relatório de despesas. |
@@ -57,13 +57,14 @@ Para ativar a nova experiência, utilize a área de trabalho **Gestão de funcio
 | Calculadora de taxa de câmbio | É adicionada uma calculadora de taxa de câmbio que permite calcular a taxa de câmbio das transações multidivisa de despesas correntes. |
 | Guardar e adicionar novas linhas de despesa | Os botões **Guardar** e **Novo** estão disponíveis quando são introduzidas novas despesas para o ajudar a introduzir rapidamente linhas de despesa. |
 | Melhor visibilidade sobre as linhas divididas e discriminadas | As linhas discriminadas e divididas são adicionadas diretamente à lista de despesas para aumentar a visibilidade e ajudá-lo a determinar facilmente se existem erros. |
+| Ver detalhes da subcategoria em linhas discriminadas | As linhas discriminadas de uma despesa principal mostram as etiquetas da subcategoria no relatório de despesas, que ajudam a rever os detalhes granulares de relance.|
 | Mostrar recibos durante a discriminação | Os recibos podem ser mostrados durante a discriminação. |
 | Seleção de adiantamento de tesouraria | Selecione um ou mais adiantamentos em dinheiro para cumprir uma única transação de despesas. |
 | Saldo de adiantamento de tesouraria | Reveja o saldo antecipado em tempo real quando criar uma entrada de despesas contra adiantamentos aprovados e pagos em dinheiro. |
 
 A versão inicial está focada em cenários de introdução de despesas. Qualquer cenário de revisão ou aprovação de relatório de despesas continuará a utilizar a página de introdução de despesas existente.
 
-As seguintes funcionalidades não são suportadas no espaço de trabalho de despesas reimaginadas:
+As seguintes funcionalidades não são suportadas na área de trabalho Relatórios de despesas reinventados, mas estão previstas para as versões futuras: 
 
 - Integração de requisição de viagem
 - Entrada de despesas per diem
