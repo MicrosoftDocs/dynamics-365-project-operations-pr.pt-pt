@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014985"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000590"
 ---
 # <a name="project-pricing"></a>Definição de preços de projetos 
 
@@ -46,7 +46,7 @@ A entidade Lista de preços tem três tabelas relacionadas que armazenam preços
   - **Preço da Categoria de Transação** - Esta tabela armazena preços por categoria de transação e é utilizada para configurar preços da categoria de despesa.
   - **Itens da Lista de Preços** - Esta tabela armazena preços para produtos de catálogos.
 
-> ![Configurar preços utilizando uma lista de preços](media/basic-guide-12.png)
+> ![Configurar preços utilizando uma lista de preços.](media/basic-guide-12.png)
  
 A lista de preços é um cartão de taxas. Um cartão de taxas é uma combinação da entidade Lista de Preços e linhas relacionadas nas tabelas Preço da Função, Preço da Categoria de Transação e Itens da Lista de Preços.
 
@@ -58,7 +58,7 @@ Normalmente, o tempo dos recursos humanos é proposto com base na função que u
 
 O grupo de unidades **Tempo** é criado quando o PSA é instalado. Tem uma unidade de **Hora** predefinida. Não é possível eliminar, mudar o nome ou editar os atributos do grupo de unidades **Tempo** ou da unidade **Hora**. No entanto, pode adicionar outras unidades ao grupo de unidades **Tempo**. Se tentar eliminar o grupo de unidades **Tempo** ou a unidade **Hora**, poderá causar falhas na lógica de negócio do PSA.
 
-> ![Configurar preços por função](media/basic-guide-13.png)
+> ![Configurar preços por função.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorias de transação e categorias de despesa
 
@@ -68,7 +68,7 @@ Em geral, as despesas de viagem e outras despesas incorridas pelos consultores d
 - **Percentagem da margem de lucro** - A percentagem sobre o custo real é faturada ao cliente. 
 - **Preço unitário** - Um preço de faturação é definido para cada unidade da categoria de despesa. O montante que é faturado a um cliente é calculado com base no número de unidades de despesa que o consultor reporta. A quilometragem utiliza o método de definição de preços por preço unitário. Por exemplo, a categoria de despesa Quilometragem pode ser configurada para 30 dólares norte-americanos (USD) por dia ou 2 USD por milha. Quando um consultor reporta a quilometragem num projeto, o montante a faturar é calculado com base no número de milhas reportadas pelo consultor.
 
-> ![Configurar preços para categorias de despesa](media/basic-guide-14.png)
+> ![Configurar preços para categorias de despesa.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Substituições e definição de preços de vendas do projeto
 
@@ -114,7 +114,7 @@ No entanto, numa proposta, pode utilizar uma lista de preços principal. Em alte
 
 Quando cria uma lista de preços do projeto personalizada, só são copiados os componentes do projeto da lista de preços. Por outras palavras, uma nova lista de preços criada como cópia da lista de preços do projeto existente que está anexada à proposta e esta nova lista de preços só tem preços de função e preços de categoria de transação relacionados.
 
-> ![Ver e configurar preços personalizados para um contrato do projeto](media/basic-guide-15.png)
+> ![Ver e configurar preços personalizados para um contrato do projeto.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Controlo dos custos
 
