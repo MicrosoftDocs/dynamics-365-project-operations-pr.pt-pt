@@ -2,17 +2,17 @@
 title: Resolução de problemas a trabalhar na grelha de tarefas
 description: Esta tópico fornece informações necessárias para a resolução de problemas quando trabalham na grelha de tarefas.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213414"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989115"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Resolução de problemas a trabalhar na grelha de tarefas 
 
@@ -24,7 +24,7 @@ Este tópico descreve como corrigir problemas que pode encontrar enquanto trabal
 
 O Project Operations requer que os cookies de terceiros sejam ativados de forma a compor a estrutura hierárquica do trabalho. Quando os cookies de terceiros não estiverem ativados, em vez de ver tarefas, verá uma página em branco quando selecionar o separador **Tarefas** na página **Projeto**.
 
-![Separador em branco quando os cookies de terceiros não estão ativados](media/blankschedule.png)
+![Separador em branco quando os cookies de terceiros não estão ativados.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Solução
@@ -52,11 +52,22 @@ Para Microsoft Edge ou para os navegadores Google Chrome, os seguintes procedime
 O Project Operations requer que um parâmetro de projeto refira o ponto final PEX. Este ponto final é necessário para comunicar com o serviço utilizado para compor a estrutura hierárquica do trabalho. Se o parâmetro não estiver ativado, receberá o erro: "O parâmetro do projeto não é válido". 
 
 ### <a name="workaround"></a>Solução
- ![Campo PEX ponto final no parâmetro do projeto](media/projectparameter.png)
 
 1. Adicione o campo **ponto final PEX** à página **Parâmetros do Projeto**.
-2. Atualize o campo com o seguinte valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Retire o campo da página **Parâmetros do Projeto**.
+2. Identifique o tipo de produto que está a utilizar. Este valor é utilizado quando o ponto final PEX está definido. Após a recuperação, o tipo de produto já está definido no ponto final PEX. Mantenha este valor. 
+   
+    ![Campo ponto final PEX no parâmetro do projeto.](media/pex-endpoint.png)
+
+3. Atualize o campo com o seguinte valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Tipo de produto                         | Parâmetro do tipo |
+   |--------------------------------------|----------------|
+   | Project for the Web na Organização predefinida   | tipo=0         |
+   | Project for the Web na organização com o nome CDS | tipo=1         |
+   | Project Operations                   | tipo=2         |
+   
+4. Retire o campo da página **Parâmetros do Projeto**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilégios para Projeto para a Web
 
@@ -67,7 +78,7 @@ O Project Operations conta com um serviço de agendamento externo. O serviço re
 
 1. Ir para **Definição > Segurança > Utilizadores > Utilizadores de Aplicações**.  
 
-   ![Leitor de aplicação](media/applicationuser.jpg)
+   ![Leitor de aplicação.](media/applicationuser.jpg)
    
 2. Clique duas vezes no registo do utilizador da aplicação para verificar o seguinte:
 
@@ -76,7 +87,7 @@ O Project Operations conta com um serviço de agendamento externo. O serviço re
  
 3. Seeste utilizador não existir, pode criar um novo registo de utilizador. Selecionar **Novos utilizadores**. Altere o formulário de inscrição para **Utilizador de Aplicações** e adicione o **ID da aplicação**.
 
-   ![Detalhes da candidatura do utilizador](media/applicationuserdetails.jpg)
+   ![Detalhes da candidatura do utilizador.](media/applicationuserdetails.jpg)
 
 4. Verifique se o utilizador foi atribuído a licença correta e se o serviço está ativado nos detalhes dos planos de serviço da licença.
 5. Verifique se o utilizador pode abrir project.microsoft.com.

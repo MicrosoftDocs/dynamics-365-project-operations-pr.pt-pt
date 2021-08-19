@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011565"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987540"
 ---
 # <a name="business-transactions"></a>Transações comerciais
 
@@ -88,7 +88,7 @@ Em conjunto, a Origem da transação e a Ligação da transação ajudam-no a mo
 
 O exemplo que se segue mostra o processamento normal das entradas de tempo num ciclo de vida do projeto do PSA.
 
-> ![Processamento completo do tempo num ciclo de vida do Project Service](media/basic-guide-17.png)
+> ![Processamento completo do tempo num ciclo de vida do Project Service.](media/basic-guide-17.png)
  
 1. A submissão de uma entrada de tempo causa a criação de duas linhas do diário: uma para o custo e outra para as vendas não faturadas.
 2. A eventual aprovação de uma entrada de tempo causa a criação de dois valores reais: um para o custo e outro para as vendas não faturadas.

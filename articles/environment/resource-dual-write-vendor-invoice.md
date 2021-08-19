@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002293"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986505"
 ---
 # <a name="vendor-invoice-integration"></a>Integração de fatura de fornecedor
 
@@ -36,7 +36,7 @@ No Project Operations, as faturas de fornecedor relacionadas com o projeto são 
 
 O sub-livro razão de impostos, o sub-livro razão de fornecedores e outros destacamentos financeiros são registados conforme aplicável em Dynamics 365 Finance quando a fatura do fornecedor é publicada.
 
-![Integração de fatura de fornecedor](media/DW7VendorInvoice.png)
+![Integração de fatura de fornecedor.](media/DW7VendorInvoice.png)
 
 Quando os registos são escritos a uma entidade de **Fatura do Fornecedor** em Dataverse, inicia-se um processo de aprovação automatizada dos registos. Se necessário, o estado do processo de aprovação automatizado pode ser revisto em Dataverse indo para **Definições avançadas** > **Sistema** > **Trabalhos do sistema**. Após a aprovação estar concluída, o sistema cria registos de classe de transações de material na entidade **Valores reais**.
 

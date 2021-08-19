@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997750"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988710"
 ---
 # <a name="manage-time-zones"></a>Gerir fusos horários
 
@@ -32,13 +32,13 @@ Para obter resultados precisos e previsíveis ao utilizar **Expandir Reserva**, 
 
 - O utilizador tem de configurar o fuso horário do dispositivo para fazer corresponder ao fuso horário definido nas **Definições de Personalização** do sistema.
  
-  ![Definições de fuso horário no Windows 10](media/reconcile-assignments-03.png)
+  ![Definições de fuso horário no Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Definições de fuso horário nas definições de personalização](media/reconcile-assignments-04.png)
+  ![Definições de fuso horário nas definições de personalização.](media/reconcile-assignments-04.png)
  
 - O recurso reservável tem de ter, pelo menos, um minuto de tempo de trabalho que se sobrepõe aos contornos que são utilizados para definir a extensão solicitada. Por exemplo, os seguintes recursos com horas de trabalho que se situam entre as 9:00 e as 19:00 horas. 
 
-  ![Comparação entre os contornos de recursos](media/reconcile-assignments-05.png)
+  ![Comparação entre os contornos de recursos.](media/reconcile-assignments-05.png)
 
 A tabela seguinte mostra:
 
@@ -47,25 +47,25 @@ A tabela seguinte mostra:
 - Recurso B: este recurso está localizado num fuso horário diferente daquele do projeto e começa às 7:00 no seu fuso horário. No entanto, as reservas começarão às 9h00, uma vez que se trata da hora de início mais antiga do contorno da atribuição.
 - Recursos C e D: os recursos estão localizados em fusos horários diferentes, entre si e do projeto, e as suas reservas não começam antes das respetivas horas de início disponíveis.
 
-|Entidade  |Calendário  |
+|Entity  |Calendário  |
 |-|-|
-|Modelo de calendário de projeto   | ![calendário do projeto](media/reconcile-assignments-06.png) |
-|Recurso A  | ![Calendário do Recurso A](media/reconcile-assignments-06.png) |
-|Recurso B  |  ![Calendário do Recurso B](media/reconcile-assignments-07.png) |
-|Recurso C  |  ![Calendário do Recurso C](media/reconcile-assignments-08.png) |
-|Recurso D  | ![Calendário do Recurso D](media/reconcile-assignments-09.png)  |
+|Modelo de calendário de projeto   | ![calendário do projeto.](media/reconcile-assignments-06.png) |
+|Recurso A  | ![Calendário do Recurso A.](media/reconcile-assignments-06.png) |
+|Recurso B  |  ![Calendário do Recurso B.](media/reconcile-assignments-07.png) |
+|Recurso C  |  ![Calendário do Recurso C.](media/reconcile-assignments-08.png) |
+|Recurso D  | ![Calendário do Recurso D.](media/reconcile-assignments-09.png)  |
  
 Quando navega para a vista **Reconciliação**, são apresentadas as atribuições de recursos e as faltas de reservas associadas.
 
-![Vista de reconciliação antes da extensão](media/reconcile-assignments-10.png)
+![Vista de reconciliação antes da extensão.](media/reconcile-assignments-10.png)
 
 Após a utilização da funcionalidade Expandir Reserva para cada recurso, as reservas são expandidas com êxito para cada recurso porque as horas de trabalho de cada recurso sobrepõem-se aos perfis da escassez.
 
-![Vista de reconciliação após a extensão da reserva](media/reconcile-assignments-11.png) 
+![Vista de reconciliação após a extensão da reserva.](media/reconcile-assignments-11.png) 
 
 Note que um olhar mais atento aos detalhes das reservas mostra diferenças na hora de início das reservas. As reservas não começam antes da hora de início do perfil da atribuição e não antes da hora de início disponível do recurso.
 
-![Novas reservas dos recursos no quadro da agenda](media/reconcile-assignments-12.png)
+![Novas reservas dos recursos no quadro da agenda.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

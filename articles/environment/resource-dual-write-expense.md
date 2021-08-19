@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000000"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986595"
 ---
 # <a name="expense-management-integration"></a>Integração de gestão de despesas
 
@@ -28,7 +28,7 @@ Numa implementação total de despesas, as categorias de despesas são criadas e
 2. Em Finanças, vá à **Gestão de despesas** > **Configuração** > **Categorias partilhadas** e selecione uma categoria partilhada com uma classe de transação de **Despesas**. Defina o parâmetro **Pode ser usado em Despesa** para **Verdadeiro** e defina o tipo de despesa a utilizar.
 3. Utilizando este registo de categoria partilhada, crie uma nova categoria de despesas indo para **Gestão de despesa** > **Configuração** > **Categorias de despesa** e selecionando **Novo**. Quando o registo é guardado, a dupla escrita utiliza o mapa de tabela, **Entidade de exportação de despesas de integração do Project Operations (msdyn\_expensecategories)** para sincronizar este registo para Dataverse.
 
-  ![Integração de categorias de despesas](./media/DW6ExpenseCategories.png)
+  ![Integração de categorias de despesas.](./media/DW6ExpenseCategories.png)
 
 As categorias de despesas em aplicações Finance and Operations são específicas da empresa ou da entidade legal. Existem registos separados e correspondentes de entidades jurídicas específicas em Dataverse. Quando um gestor de projetos estima as despesas, não podem selecionar categorias de despesas que foram criadas para um projeto que é propriedade de uma empresa diferente da empresa proprietária do projeto em que estão a trabalhar. 
 
@@ -40,7 +40,7 @@ Os relatórios de despesas são criados e aprovados em aplicações Finance and 
   - A dupla escrita sincroniza para Dataverse utilizando o mapa da tabela **Entidade de exportação de despesas de projeto de integração do Project Operations (msdyn\_expenses)**.
   - O sub-livro razão de impostos, o sub-livro razão de fornecedores e outros destacamentos financeiros são registados conforme aplicável no momento da publicação do relatório de despesas.
 
-  ![Integração de relatórios de despesas](./media/DW6ExpenseReports.png)
+  ![Integração de relatórios de despesas.](./media/DW6ExpenseReports.png)
 
 Quando um registo é escrito na entidade **Despesa** em Dataverse, o sistema aciona o processo de aprovação automatizado do registo. Se necessário, o estado do processo de aprovação automatizado pode ser revisto em Dataverse indo para **Definições avançadas** > **Sistema** > **Trabalhos do sistema**. Após a aprovação estar concluída, os registos de classe de transações de despesas são criados na entidade **Valores reais**.
 
