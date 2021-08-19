@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025788"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003830"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versões de mapa de escrita dupla do Project Operations
 
@@ -32,7 +32,7 @@ São necessários os seguintes mapas pré-requisitos para a solução de Project
 
 1. Na lista de mapas, selecione o mapa Livro-razão **(msdyn\_ledgers)** com todos os pré-requisitos e selecione a caixa de verificação de **sincronização inicial**. No Campo **Master para sincronização inicial** selecione aplicações **Finance and Operations** para mapa de livros razão e todos os mapas pré-requisitos. Selecione **Executar**.
 
-![Sincronização do mapa de livros](media/DW6.png)
+![Sincronização do mapa de livros.](media/DW6.png)
 
 2. Siga os mesmos passos para todos os mapas de tabela restantes listados na tabela acima. Não selecione a caixa de verificação de **sincronização inicial** quando executar esses mapas.
 
@@ -65,7 +65,7 @@ Complete os seguintes passos para executar os mapas listados.
 
 1. Ative as funções de recursos do Projeto para mapa de tabela **todas as empresas (bookableresourcecategories)**, uma vez que este mapa requer a sincronização inicial. No campo **Master para sincronização inicial**, selecione **Common data service**. 
 
- ![Sincronização do mapa da tabela de funções de recursos](media/6ResourceInitialSync.jpg)
+ ![Sincronização do mapa da tabela de funções de recursos.](media/6ResourceInitialSync.jpg)
 
  Espere até que o estado do mapa esteja **a funcionar** antes de passar para o próximo passo.
 

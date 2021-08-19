@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f068c32ac957dc5921ccabc989b3b7a347585c19
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007740"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004910"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Ativar funcionalidades da aplicação Project Finder Mobile (Project Service)
 
@@ -47,13 +47,13 @@ Os seus recursos podem utilizar a aplicação Project Finder Mobile no seu telem
   
 4. Defina **Permitir a atualização de competência por recurso** como **Sim**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Esta é uma definição global. Os gestores de projetos podem definir se um projeto individual será visível na página **Equipa do Projeto** desse projeto.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
-## <a name="email-notifications"></a>Notificações por e-mail  
+## <a name="email-notifications"></a>Enviar notificações por e-mail  
  O [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] envia e-mails relativos aos pedidos de recursos para os seguintes destinatários às seguintes horas:  
   
 |Destinatário|Evento|  

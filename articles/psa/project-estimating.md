@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009180"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002570"
 ---
 # <a name="project-costs-and-revenue"></a>Custos e receita do projeto
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009180"
 
 As estimativas do projeto fornecem a vista financeira do trabalho estimado e agendado na agenda do projeto. O separador **Estimativas** na página **Projetos** mostra o impacto sobre o custo e a receita do trabalho que está a planear. Também fornece informações sobre muitas dimensões predefinidas. 
 
-> ![Separador Estimativas](media/project-5.png)
+> ![Separador Estimativas.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valores das vendas e do custo do projeto
 
@@ -66,13 +66,13 @@ Se o sistema não encontrar um preço para a função, o preço de venda na linh
 
 O separador **Estimativas** tem uma vista de grelha que mostra as linhas de estimativa. A grelha inclui colunas para a unidade, o preço de custo total e o preço de venda total, conforme mostrado na ilustração seguinte. 
 
-> ![Vista de grelha no separador Estimativas](media/project-6.png)
+> ![Vista de grelha no separador Estimativas.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Vista faseada no tempo das estimativas do projeto
 
 A vista faseada no tempo das estimativas do projeto mostra os dados de estimativa a partir da vista de grelha na linha cronológica, numa escala temporal selecionada. Por predefinição, os dados de estimativa são articulados na dimensão **Função**.
 
-> ![Vista faseada no tempo para estimativas do projeto](media/project-7.png)
+> ![Vista faseada no tempo para estimativas do projeto.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Alocar o esforço estimado com base no modo de tarefa
 

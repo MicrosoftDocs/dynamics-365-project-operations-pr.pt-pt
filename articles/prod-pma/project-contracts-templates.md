@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999820"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001085"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar contratos de projetos e projetos diretamente de Project Service Automation para Finanças 
 
@@ -42,7 +42,7 @@ A solução de integração do Project Service Automation para Finance utiliza a
 
 A seguinte ilustração mostra como os dados são sincronizados entre o Project Service Automation e o Finance.
 
-[![Fluxo de dados para a integração do Project Service Automation com o Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Fluxo de dados para a integração do Project Service Automation com o Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
@@ -140,17 +140,17 @@ Se tiver de utilizar o Power Query, siga estas diretrizes:
 
 As seguintes ilustrações mostram exemplos dos mapeamentos de tarefas do modelo na Integração de Dados. O mapeamento mostra as informações do campo que serão sincronizadas do Project Service Automation para Finance.
 
-[![Mapeamento de modelo de contrato de projeto](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Mapeamento de modelo de contrato de projeto.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Mapeamento de modelo de projeto](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Mapeamento de modelo de projeto.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Mapeamento de modelo de itens de contrato de projeto](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Mapeamento de modelo de itens de contrato de projeto.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Mapeamento de modelo de marco de item de contrato de projeto](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Mapeamento de modelo de marco de item de contrato de projeto.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapeamento de marcos de item de contrato de projeto no modelo Projetos e Contratos (PSA 3.x para Dynamics) - v2:
 
-[![Mapeamento de marco de item de contrato de projeto com o a versão dois do modelo](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Mapeamento de marco de item de contrato de projeto com o a versão dois do modelo.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

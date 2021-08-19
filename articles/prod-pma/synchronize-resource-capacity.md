@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997525"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005630"
 ---
 # <a name="synchronize-resource-capacity"></a>Sincronizar capacidade dos recursos
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997525"
 
 Os processos para a sincronização de recursos ajudam a garantir que a informação para o calendário e o calendário base passam para o agendamento de recursos do projeto. Se o calendário for alterado, os processos fazem as atualizações necessárias ao agendamento dos recursos do projeto. Os processos também ajudam a melhorar o desempenho, porque a informação dos recursos do calendário é sincronizada com antecedência. Por isso, as atualizações da informação de agendamento de recursos são mais rápidas. Recomendamos que agende os processos em lote em vez de individualmente. Caso contrário, existe o risco de alguém esquecer as datas inclusivas quando a informação foi sincronizada pela última vez. Se não forem utilizadas datas inclusivas, poderão ocorrer lacunas durante a sincronização de datas.
 
-![Sincronização do calendário](./media/projectresourcing04-1024x471.jpg)
+![Sincronização do calendário.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sincronizar acumulações de capacidade dos recursos
 
@@ -46,7 +46,7 @@ Recomendamos que utilize um lote. As opções estão disponíveis durante a sinc
     | Data de início  | Introduza a data de início para o processo de sincronização para acumulações de capacidade de recursos. |
     | Data de fim    | Introduza a data de fim para o processo de sincronização para acumulações de capacidade de recursos. |
 
-[![Processo de sincronização](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Processo de sincronização.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369390"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005405"
 ---
 # <a name="intercompany-invoicing-overview"></a>Descrição geral da faturação interempresa
 
@@ -22,7 +22,7 @@ A sua organização pode ter múltiplas divisões, subsidiárias e outras entida
 
 A seguinte ilustração mostra um cenário típico em que duas entidades legais, a Contoso Robotics USA (entidade legal que solicita empréstimos) e a Contoso Robotics UK (entidade legal de empréstimos) partilham recursos para entregar um projeto ao cliente, a Adventure works. Para este cenário, a Contoso Robotics USA é contratada para entregar o trabalho à Adventure Works.
 
-![Faturação entre empresas](./media/IntercompanyScenario.png) 
+![Faturação entre empresas.](./media/IntercompanyScenario.png) 
 
 O Dynamics 365 Project Operations utiliza o seguinte fluxo para processar transações interempresa:
 
@@ -35,11 +35,11 @@ O Dynamics 365 Project Operations utiliza o seguinte fluxo para processar transa
 
 O diagrama que se segue ilustra a faturação interempresa no que diz respeito a eventos contabilísticos e publicações esperadas no livro razão geral.
 
-![Fluxo interempresa](./media/IntercompanyFlow.png)
+![Fluxo entre empresas.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Configurar faturação interempresa](configure-intercompany-invoicing.md)
+- [Configurar faturação entre empresas](configure-intercompany-invoicing.md)
 - [Registar transações interempresa](create-intercompany-transactions.md)
 - [Criar faturas de clientes e fornecedores interempresa](create-intercompany-customer-vendor-invoices.md)
 

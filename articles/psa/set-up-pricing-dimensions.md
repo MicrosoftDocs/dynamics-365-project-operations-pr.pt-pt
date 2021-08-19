@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008325"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002345"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de definição de preços 
 
@@ -41,11 +41,11 @@ Para que um campo se torne uma dimensão de definição de preços, tem de ser:
 - Criado como um campo nas entidades **Preço da Função** e **Margem de Lucro do Preço da Função**. Para mais informações sobre como fazer isso, consulte [Adicionar campos personalizados às entidades de configuração de preços e transacionais](field-references.md).
 - Criado como uma linha na tabela **Dimensões de Definição de Preços**. Por exemplo, adicione linhas de dimensão de definição de preços, conforme mostrado no gráfico seguinte. 
 
-![Linhas de Dimensão de Definição de Preços Baseada no Montante](media/Amt-based-PD.png)
+![Linhas de Dimensão de Definição de Preços Baseada no Montante.](media/Amt-based-PD.png)
 
 Note que as horas de Trabalho do Recurso (**msdyn_resourceworkhours**) foram adicionadas como uma dimensão baseada na margem de lucro e foram adicionadas à grelha no separador **Dimensão de Definição de Preços Baseada na Margem de Lucro**.
 
-![Linhas de Dimensão de Definição de Preços Baseada na Margem de Lucro](media/Markup-based-PD.png)
+![Linhas de Dimensão de Definição de Preços Baseada na Margem de Lucro.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Qualquer alteração nos dados da dimensão de definição de preços nesta tabela, existente ou nova, é propagada para a lógica de negócio de definição de preços do Project Service apenas após a atualização da cache. O tempo de atualização da cache poderá demorar até 10 minutos. Aguarde esse período de tempo para ver as alterações na lógica de predefinição de preços que devem resultar das alterações efetuadas nos dados de Dimensão de Definição de Preços.

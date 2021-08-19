@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008820"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002435"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Trabalhar com o modelo de dados do Project Service Automation
 
@@ -53,7 +53,7 @@ O PSA também adiciona novas entidades relacionadas com propostas ao modelo de d
 
 As outras entidades que o PSA adiciona às propostas são **Linha de Proposta: Lista de Preços do Projeto**, **Linha de Proposta: Categoria de Recurso** e **Linha de Proposta: Categoria de Transação**.
 
-![Diagrama que mostra as relações entre a proposta, a linha de proposta e o projeto](media/PS-Reporting-image2.png "Diagrama que mostra as relações entre a proposta, a linha de proposta e o projeto")
+![Diagrama que mostra as relações entre a proposta, a linha de proposta e o projeto.](media/PS-Reporting-image2.png "Diagrama que mostra as relações entre a proposta, a linha de proposta e o projeto")
 
 ## <a name="reporting-on-project-contracts"></a>Relatórios sobre contratos do projeto
 
@@ -69,7 +69,7 @@ O PSA também adiciona novas entidades que foram concebidas para contratos do pr
 
 As outras entidades que o PSA adiciona aos contratos são **Item de Contrato do Projeto: Lista de Preços do Projeto**, **Item de Contrato do Projeto: Categoria de Recurso** e **Item de Contrato do Projeto: Categoria de Transação**.
 
-![Diagrama que mostra as relações entre a encomenda, a linha de encomenda e o projeto](media/PS-Reporting-image3.png "Diagrama que mostra as relações entre a encomenda, a linha de encomenda e o projeto")
+![Diagrama que mostra as relações entre a encomenda, a linha de encomenda e o projeto.](media/PS-Reporting-image3.png "Diagrama que mostra as relações entre a encomenda, a linha de encomenda e o projeto")
 
 ## <a name="reporting-on-projects"></a>Relatórios sobre projetos
 
@@ -81,7 +81,7 @@ A entidade **Projetos** e as suas entidades relacionadas são exclusivas do PSA.
 - **Requisito de Recurso** – Esta entidade contém os requisitos para quaisquer membros da equipa de recursos genéricos.
 - **Estimativa** e **Linha da estimativa** – Estas entidades têm uma relação cabeçalho/linha e contêm estimativas de despesas para o projeto. As estimativas de tarefas são armazenadas na entidade **Estimativa de Recurso**.
 
-![Diagrama que mostra as relações entre o requisito de recurso e o projeto](media/PS-Reporting-image4.png "Diagrama que mostra as relações entre o requisito de recurso e o projeto")
+![Diagrama que mostra as relações entre o requisito de recurso e o projeto.](media/PS-Reporting-image4.png "Diagrama que mostra as relações entre o requisito de recurso e o projeto")
 
 ## <a name="reporting-on-resources"></a>Relatórios sobre recursos
 
@@ -92,7 +92,7 @@ Os recursos do projeto utilizam as entidades **Recurso Reservável** a partir do
 - **Categoria de Recurso Reservável** – Esta entidade representa a função do recurso reservável.
 - **Reservas de Recursos Reserváveis** – Esta entidade representa o tempo que está reservado nos projetos para o recurso. Cada reserva tem uma entidade de cabeçalho e uma entidade de linha, sendo que cada linha tem um estado que representa o estado da reserva.
 
-![Diagrama que mostra as relações das características de recursos reserváveis](media/PS-Reporting-image5.png "Diagrama que mostra as relações das características de recursos reserváveis")
+![Diagrama que mostra as relações das características de recursos reserváveis.](media/PS-Reporting-image5.png "Diagrama que mostra as relações das características de recursos reserváveis")
 
 ## <a name="reporting-on-actual-transactions"></a>Relatórios sobre transações reais
 
@@ -120,7 +120,7 @@ Quando está a trabalhar com a entidade **Valor Real**, é importante que compre
 
 A entidade **Origem da Transação** regista a origem do registo **Valor Real** e a entidade **Ligação da Transação** regista os registos relacionados para o registo **Valor Real**. Além disso, o registo **Valor Real** contém referências ao projeto, ao contrato do projeto (encomenda), ao recurso reservável e ao cliente.
 
-![Diagrama que mostra as relações da ligação, da origem e dos valores reais](media/PS-Reporting-image6.png "Diagrama que mostra as relações da ligação, da origem e dos valores reais")
+![Diagrama que mostra as relações da ligação, da origem e dos valores reais.](media/PS-Reporting-image6.png "Diagrama que mostra as relações da ligação, da origem e dos valores reais")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
