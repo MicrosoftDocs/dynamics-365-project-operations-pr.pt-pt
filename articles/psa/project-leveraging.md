@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998425"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995190"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimativas e projetos de vendas
 
@@ -35,11 +35,11 @@ Durante o processo de vendas, pode criar estimativas de vendas associando um pro
 
 Quando cria uma linha de proposta baseada em projetos, pode criar um novo projeto ou associar um projeto existente na página **Linha de Proposta**. 
 
-> ![Formulário de linha de proposta](media/project-8.png)
+> ![Formulário de linha de proposta.](media/project-8.png)
  
 Quando cria um novo projeto a partir dos detalhes de linha de proposta, pode tirar partido dos modelos de projeto. Os modelos de projeto são projetos de modelo que representam planos do projeto padrão e estimativas financeiras que são típicos de uma organização. Também podem representar cópias de planos e estimativas de projeto a partir de projetos passados.
 
-> ![Detalhes de linha de proposta](media/project-9.png)
+> ![Detalhes de linha de proposta.](media/project-9.png)
   
 Quando cria o projeto a partir da proposta, o projeto é associado automaticamente à linha de proposta.
 

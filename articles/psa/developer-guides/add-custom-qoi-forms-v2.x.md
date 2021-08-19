@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008010"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995235"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Adicionar novos formulários de entidade personalizada (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Siga estes passos para criar uma versão personalizada do formulário **Informa�
     - Exporte o formulário **Informações do Meu Projeto** como parte de uma solução não gerida e procure o valor **formId** no ficheiro customization.xml da solução exportada.
     - Abra o formulário **Informações do Meu Projeto** no editor de formulários e, em seguida, procure o identificador exclusivo global (GUID) junto do parâmetro **fromId** no URL, como mostrado na ilustração seguinte.
 
-    ![O valor formId do novo formulário no URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![O valor formId do novo formulário no URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Crie um mapeamento **msdyn\_ordertype** para o valor **formId** editando o recurso Web msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Remova o código do recurso e substitua-o pelo seguinte código.
 
