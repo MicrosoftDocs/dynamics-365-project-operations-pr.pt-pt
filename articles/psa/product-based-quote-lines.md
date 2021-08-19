@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998515"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008600"
 ---
 # <a name="product-based-quote-lines"></a>Linhas de proposta baseadas em produtos
 
@@ -58,7 +58,7 @@ Se definir este campo como **Definir preço manualmente**, o Dynamics 365 não d
 
 Depois de instalar o PSA, os preços de venda predefinidos são introduzidos nos itens baseados em produtos numa proposta. O campo **Definição de Preços** é definido para **Definir preço manualmente**, para que possa editar o preço predefinido nas linhas de proposta.
 
-> ![Definir preço manualmente](media/basic-guide-10.png)
+> ![Definir preço manualmente.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Fatores de quantidade para produtos
 
@@ -78,7 +78,7 @@ Por exemplo, o Dynamics 365 poderá ter as seguintes propriedades:
 
 As propriedades **N.º de Utilizadores** e **N.º de Meses** podem ser sinalizadas como fatores de quantidade editando as propriedades da linha de produto. 
 
-> ![Sinalizar N.º de Utilizadores e N.º de Meses como fatores de qualidade](media/basic-guide-11.png)
+> ![Sinalizar N.º de Utilizadores e N.º de Meses como fatores de qualidade.](media/basic-guide-11.png)
  
 
 

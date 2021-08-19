@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003059"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005765"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para a aplicação móvel do Microsoft Dynamics 365 Project Timesheet em iOS e Android
 
@@ -153,13 +153,13 @@ Para os campos do tipo **Data**, esta propriedade transmite o valor de data do c
 
 Segue-se uma captura de ecrã de uma criação de entrada na folha de horas na aplicação móvel. Mostra os campos de configuração inicial e um campo personalizado na secção "Entrada de hora" denominada "Cadeia de teste" com um valor de enumeração de "Segunda opção" já definido.
 
-![Campo personalizado da cadeia de teste na aplicação](media/timesheet-entry.jpg)
+![Campo personalizado da cadeia de teste na aplicação.](media/timesheet-entry.jpg)
 
 
 
 Segue-se uma captura de ecrã do utilizador a selecionar uma das opções de enumeração disponíveis para o campo personalizado "Cadeia de teste" na aplicação móvel.  As duas opções são "Primeira opção" e "Segunda opção" mostradas como botões de opção. A segunda opção está atualmente selecionada.
 
-![Botões de opção para o campo personalizado da Cadeia de teste](media/enum-option.jpg)
+![Botões de opção para o campo personalizado da Cadeia de teste.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Note que os campos personalizados não têm de ter registos de base de dados de 
 
 Segue-se uma imagem do Visual Studio da Árvore de Objetos da Aplicação. Mostra uma extensão da tabela TSTimesheetLine com o campo TestLineString adicionado como campo personalizado.
 
-![Cadeia de linha](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Cadeia de linha.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Utilizar a cadeia de comando no método buildCustomFieldList da classe TSTimesheetSettings para mostrar um campo na secção de entrada na folha de horas
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Segue-se uma captura de ecrã de um utilizador a ver uma folha de horas na aplicação móvel. O botão "Mais informações" foi selecionado no canto superior direito para mostrar a opção "Ver mais detalhes".  
 
-![Comando Ver mais detalhes](media/show-more.png)
+![Comando Ver mais detalhes.](media/show-more.png)
 
 Segue-se uma captura de ecrã da aplicação móvel a mostrar a secção "Mais". Um campo personalizado denominado "Taxa de utilização desta folha de horas (campo personalizado calculado)" foi adicionado à secção de cabeçalho da folha de horas. Um valor só de leitura de "0,667" é definido no campo personalizado.
 
-![Secção Mais](media/more-section.jpg)
+![Secção Mais.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Expandir a tabela TSTimesheetTable para ter um campo personalizado
 
@@ -414,7 +414,7 @@ A lógica existente para a funcionalidade de folha de horas a nível da base de 
 
 A partir dos parâmetros do projeto, pode tornar os campos de configuração inicial só de leitura ou ocultos na aplicação móvel. Defina as opções na secção **Folhas de horas móveis** no separador **Folha de Horas** da página **Parâmetros de gestão de projetos e contabilística**.
 
-![Parâmetros do projeto](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parâmetros do projeto.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Alterar as atividades que estão disponíveis para seleção através das extensões
 

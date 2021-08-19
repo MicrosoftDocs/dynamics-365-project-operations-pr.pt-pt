@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999055"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007430"
 ---
 # <a name="manage-resource-competencies"></a>Gerir competências de recursos
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999055"
 
 As competências dos recursos são uma parte essencial da gestão de recursos. As competências podem ser utilizadas como base para determinar os recursos com o equilíbrio certo de aptidões, formação, certificação e experiência no projeto. Deve configurar estas informações para cada recurso e atualizá-las regularmente. Desta forma, pode maximizar as capacidades quando é feita a correspondência de competências de recursos específicas durante a atribuição de recursos do projeto.
 
-[![Exemplos de aptidões, certificações, formação e experiência no projeto](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Exemplos de aptidões, certificações, formação e experiência no projeto.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Os seguintes procedimentos explicam como configurar algumas das competências para um recurso.
 

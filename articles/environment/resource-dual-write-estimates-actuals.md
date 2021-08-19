@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000045"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006305"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Estimativas do projeto e integração de valores reais
 
@@ -30,7 +30,7 @@ A criação de estimativas requer uma configuração de gestão contabilística 
 
 As estimativas de trabalho são criadas pelo Gestor de Projeto ou Gestor de Recursos que também atribui um recurso genérico ou nomeado à tarefa do projeto. Os registos de atribuição de recursos podem ser revistos no separador **Atribuições de Recursos** na página **Detalhes do Projeto** no Dataverse. Os registos de atribuição de recursos em Dataverse criam registos de previsão de hora em aplicações Finance and Operations que utilizam a **entidade de integração do Project Operations para estimativas de horas (msdyn\_resourceassignments)**.
 
-   ![Integração de estimativas de trabalho](./Media/DW4LaborEstimates.png)
+   ![Integração de estimativas de trabalho.](./Media/DW4LaborEstimates.png)
 
 A dupla escrita sincroniza os registos de atribuição de recursos à tabela de teste (**ProjCDSEstimateHoursImport**), e utiliza a lógica de negócio para criar e atualizar registos de previsão de horas (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ O contabilista do Projeto analisa os registos de horas de previsão criados em a
 
 As estimativas de despesas são criadas pelo gestor do Projeto no separador **Estimativas de Despesas** na página **Detalhes do Projeto** em Dataverse. Os registos de estimativa de despesas são armazenados na entidade da **Linha de Estimativa** em Dataverse. Estes registos de estimativa têm classe de transações, **Despesa** e são sincronizados com registos de previsão de despesas em aplicações Finance and Operations que utilizam a **entidade de integração do Project Operations para estimativas de despesas (msdyn\_estimatelines)**.
 
-   ![Integração de estimativas de despesa](./Media/DW4ExpenseEstimates.png)
+   ![Integração de estimativas de despesa.](./Media/DW4ExpenseEstimates.png)
 
 A dupla escrita sincroniza os registos de estimativa de despesa à tabela de teste, (**ProjCDSEstimateExpenseImport)** e utiliza a lógica de negócio para criar e atualizar registos de previsão de despesa (**ProjForecastCost**). Estimativa de linhas de loja estimativa de vendas e estimativa de custos recordes separadamente. A lógica de negócio em aplicações Finance and Operations povoa um único registo de previsão de despesas usando este detalhe na tabela de teste.
 
@@ -50,7 +50,7 @@ O contabilista do Projeto pode rever os registos de previsão de despesa criados
 
 As estimativas de material são criadas pelo gestor do Projeto no separador **Estimativas de material** na página **Detalhes do Projeto** em Dataverse. Os registos de estimativa de material são armazenados na entidade da **Linha de Estimativa** em Dataverse. Estes registos de estimativa têm a classe de transações, **Material** e são sincronizados com registos de previsão de artigos em aplicações Finance and Operations que utilizam a **tabela do Project Operations para estimativas de material (msdyn\_estimatelines)**.
 
-   ![Integração de estimativas de material](./Media/DW4MaterialEstimates.png)
+   ![Integração de estimativas de material.](./Media/DW4MaterialEstimates.png)
 
 A dupla escrita sincroniza os registos de estimativa de material à tabela de teste **ProjForecastSalesImpor**, e utiliza a lógica de negócio para criar e atualizar registos de previsão de artigo (**ForecastSales**). Estimativa de linhas de loja estimativa de vendas e estimativa de custos recordes separadamente. A lógica de negócio em aplicações Finance and Operations povoa um único registo de previsão de artigo usando este detalhe na tabela de teste.
 
@@ -60,7 +60,7 @@ O contabilista do Projeto pode rever os registos de previsão de artigo criados 
 
 Os valores reais do projeto são criados em Dataverse, com base no tempo, despesas, material e atividade de faturação. Todos os atributos operacionais destas transações, incluindo quantidade, preço de custo, preço de venda e projeto são capturados nesta entidade Dataverse. Para mais informações, ver [Valores reais](../actuals/actuals-overview.md). Os registos de valores reais são sincronizados com aplicações Finance and Operations que utilizam o mapa de tabela de escrita dupla **Valores reais da integração do Project Operations (msdyn\_actuals)** para contabilidade a jusante.
 
-   ![Integração de valores reais](./Media/DW4Actuals.png)
+   ![Integração de valores reais.](./Media/DW4Actuals.png)
 
 O mapa de tabela de **Valores reais de integração do Project Operations** sincroniza todos os registos da entidade **Valores reais** em Dataverse, com o atributo **Skip Sync (apenas uso interno)** definido como **Falso**. Este valor de atributo é definido em Dataverse automaticamente quando o registo é criado. Exemplos em que este atributo é definido para **Verdadeiro** são:
 

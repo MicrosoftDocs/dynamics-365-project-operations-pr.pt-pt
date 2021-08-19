@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433532"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008060"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de julho de 2021 - Project Operations para cenários baseados em recursos/não armazenados
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433532"
 
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
-   - Project Operations na versão de ambiente 4.12.0.148 do Microsoft Dataverse.
+   - Project Operations na versão de ambiente 4.12.0.148 ou 4.12.0.152 do Microsoft Dataverse.
    - Gestão de projetos e contabilística na versão 10.0.20 do ambiente Dynamics 365 Finance.
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versão
@@ -79,7 +79,7 @@ Se encontrar um problema ao iniciar o mapa, siga as instruções na secção [Pr
 | Geral                       | 2296857              | Seguimento do progresso para tarefas de execução prolongada.                                                                                                                                                                        |
 | Geral                       | 2253682              | A solução de escrita dupla do Project Operations não deve ser instalada quando o núcleo de escrita dupla é instalado num ambiente sem a solução de orquestração de escrita dupla.                                                |
 | Geral                       | 2316420              | O aprovisionamento do núcleo do Project Service falha se a unidade do utilizador da aplicação for alterada.                                                                                                                     |
-
+| Geral                       | 2376405              | Problema de atualização orientada por fabricante fixo (A atualização de qualidade está disponível na versão 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestão de projetos e contabilística no Dynamics 365 Finance
 
 | Área de funcionalidades                      | Número de referência | Atualização de qualidade                                                                                                                                                                                                                                                                                                                |

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369705"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007520"
 ---
 # <a name="project-management-and-accounting-overview"></a>Descrição geral da gestão de projetos e contabilística
 
@@ -34,14 +34,14 @@ Um projeto é um conjunto de atividades que foi concebido para prestar um servi�
 ## <a name="projects-across-industries"></a>Projetos em todos os setores
 A funcionalidade de gestão de projetos e contabilística pode ser utilizada em vários setores, como é mostrado na seguinte ilustração.
 
-[![Projetos em todos os setores](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projetos em todos os setores.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Num centro de atendimento, pode ser utilizado um bilhete para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, tais como as organizações de gestão ou consultoria técnica, ou as agências de publicidade, referem-se às suas atividades como projetos. No marketing, uma campanha representa um conjunto de trabalhos que têm de ser entregues. Na indústria baseada em projetos, um pedido de produção relaciona os vários trabalhos que têm de ser feitos para produzir alguns produtos acabados. Seja qual for o nome utilizado para eles, estes projetos envolvem recursos, agendas e custos, e a funcionalidade de gestão de projetos e contabilística podem ajudar no planeamento, na execução e na análise destes projetos.
 
 ## <a name="project-phases"></a>Fases do projeto
 Apesar de o seguinte fluxo de processo se destinar a projetos externos, ou projetos que são concluídos para um ou mais clientes, a funcionalidade também se aplica aos projetos internos só de custos. 
 
-![3 fases de um projeto](./media/3-stages-of-a-project.png) 
+![3 fases de um projeto.](./media/3-stages-of-a-project.png) 
 
 Tal como é mostrado na ilustração anterior, a gestão de projetos e contabilística pode ser dividida em três fases:
 
@@ -50,7 +50,7 @@ Tal como é mostrado na ilustração anterior, a gestão de projetos e contabil�
 3.  Analisar
 
 ## <a name="initiate-the-project"></a>Iniciar o projeto
-Durante o início do projeto, ocorrem vários processos chave. Pode utilizar uma cotação do projeto para comunicar a estimativa de mão-de-obra, despesas e materiais ao cliente. Pode registar os termos, os limites e os acordos de faturação num contrato de projeto. Pode utilizar uma estrutura hierárquica trabalho (WBS) para planear e fazer uma estimativa do trabalho. Pode configurar as previsões e os orçamentos para orientar a execução do projeto. A seguinte ilustração mostra a estrutura de um projeto.[![estrutura de projeto](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durante o início do projeto, ocorrem vários processos chave. Pode utilizar uma cotação do projeto para comunicar a estimativa de mão-de-obra, despesas e materiais ao cliente. Pode registar os termos, os limites e os acordos de faturação num contrato de projeto. Pode utilizar uma estrutura hierárquica trabalho (WBS) para planear e fazer uma estimativa do trabalho. Pode configurar as previsões e os orçamentos para orientar a execução do projeto. A seguinte ilustração mostra a estrutura de um projeto.[![estrutura de projeto.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Criar cotações de projeto
 

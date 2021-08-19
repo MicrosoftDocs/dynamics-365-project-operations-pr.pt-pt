@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014310"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006800"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Desativar uma dimensão de definição de preços
 
@@ -32,7 +32,7 @@ A desativação de uma dimensão de definição de preços, independentemente de
 
 No entanto, ao fazê-lo, poderá receber a seguinte mensagem de erro.
 
-![É provável que haja um erro no processo de negócio ao desativar uma dimensão de definição de preços](media/Business-Process-Error.png)
+![É provável que haja um erro no processo de negócio ao desativar uma dimensão de definição de preços.](media/Business-Process-Error.png)
 
 
 Esta mensagem de erro indica que existem registos de preços configurados anteriormente para a dimensão que está a ser desativada. Todos os registos **Preço da Função** e **Margem de Lucro do Preço da Função** que façam referência a uma dimensão têm de ser eliminados antes de a aplicabilidade da dimensão poder ser definida como **Não**. Esta regra aplica-se às dimensões de definição de preços fornecidas com o programa e a quaisquer dimensões de definição de preços personalizadas que possa ter criado. O motivo dessa validação é porque o Project Service tem uma restrição de que cada registo **Preço da Função** deve ter uma combinação exclusiva de dimensões. Por exemplo, numa lista de preços denominada **Taxas de custo nos EUA 2018**, tem as seguintes linhas de **Preço da Função**. 
