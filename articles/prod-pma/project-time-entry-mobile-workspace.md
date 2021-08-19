@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009945"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989565"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Área de trabalho móvel da entrada de hora do projeto
 
@@ -94,7 +94,7 @@ Transferir e instalar a aplicação móvel Finance and Operations:
 3.  Quando iniciar sessão pela primeira vez, ser-lhe-á solicitado o nome de utilizador e a palavra-passe. Introduza as suas credenciais.
 4.  Depois de iniciar sessão, são mostradas as áreas de trabalho disponíveis para a sua empresa. Note que, se o seu administrador de sistema publicar uma nova área de trabalho mais tarde, terá de atualizar a lista de áreas de trabalho móveis.
 
-[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Pull to refresh.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Introduza o tempo através da área de trabalho móvel Entrada de hora do projeto
 1.  No seu dispositivo móvel, selecione a área de trabalho **Entrada de hora do projeto**.

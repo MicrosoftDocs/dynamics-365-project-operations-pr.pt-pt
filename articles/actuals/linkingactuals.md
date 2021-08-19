@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996760"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991770"
 ---
 # <a name="link-actuals-to-original-records"></a>Ligue os valores reais aos registos originais
 
@@ -77,7 +77,7 @@ Em conjunto, a **Origem da transação** e a **Ligação da transação** ajudam
 
 O exemplo que se segue mostra o processamento normal das entradas de tempo num ciclo de vida do projeto do Project Operations.
 
-> ![Processamento completo do tempo num ciclo de vida do Project Service](media/basic-guide-17.png)
+> ![Processamento completo do tempo num ciclo de vida do Project Service.](media/basic-guide-17.png)
  
 1. Uma submissão de entrada de tempo causa a criação de duas linhas do diário: uma para o custo e outra para as vendas não faturadas.
 2. A eventual aprovação de uma entrada de tempo cria dois valores reais: um valor real para o custo e outro valor real para as vendas não faturadas.

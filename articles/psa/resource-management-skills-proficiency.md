@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008685"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990510"
 ---
 # <a name="skills-and-proficiency-models"></a>Modelos de competências e proficiência
 
@@ -33,7 +33,7 @@ As competências são características do recurso partilhadas entre o Dynamics 3
 
 Para manter o repositório de competências no Project Service Automation, aceda a **Recursos** \> **Competências do Recurso**. 
 
-> ![Competências do Recurso](media/Resource-Management-image84.png)
+> ![Competências dos Recursos.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Utilizar modelos de proficiência para classificar recursos
 
@@ -43,7 +43,7 @@ As competências para os recursos são classificadas por modelos de proficiênci
 2. No novo modelo de classificação, especifique o valor mínimo de classificação, o valor máximo de classificação e a entidade que está a ser avaliada.
 3. Na subgrelha **Valores de Classificação**, é possível definir os diferentes valores de classificação, desde o mínimo até ao máximo.
 
-> ![Classificações mínimas e máximas definidas](media/Resource-Management-image85.png)
+> ![Classificações mínimas e máximas definidas.](media/Resource-Management-image85.png)
 
 Estes valores de classificação são apresentados nos filtros **Requisitos de Recursos**, **Quadro da Agenda** e **Assistente da Agenda**.
 
