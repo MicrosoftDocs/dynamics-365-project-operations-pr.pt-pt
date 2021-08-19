@@ -2,17 +2,17 @@
 title: Atualizações do Project Operations
 description: Este tópico fornece informações sobre as versões lançadas do Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433577"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024797"
 ---
 # <a name="project-operations-updates"></a>Atualizações do Project Operations
 
@@ -36,7 +36,7 @@ O Dynamics 365 Project Operations consiste de dois componentes:
 
 | Project Operations no ambiente Dataverse | Gestão de projetos e contabilística em ambientes de aplicações Finance and Operations | 
 | --- | --- |
-| 4.12.0.148 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 Para o cenário Recurso do Projecto Operations/não armazenado, recomendamos a utilização da versão Dual Write Orchestration 2.2.2.83 ou superior.
 
@@ -45,27 +45,29 @@ Para o cenário Recurso do Projecto Operations/não armazenado, recomendamos a u
 As atualizações do Project Operations no ambiente Dataverse estão disponíveis mensalmente. 
 
 | Estação | Região | Número da versão atual | Atualizações automáticas para implementação leve | Atualizações automáticas para implementação de recursos/não armazenados | Número da próxima versão | Próxima versão geralmente disponível |
-|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
-| Estação 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira Versão         |  4.12.0.148     | Concluir     | 9 de julho de 21          | TBD                 | 06 de agosto de 21        |
-| Estação 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sul         |  4.12.0.148     | 9 de julho de 21   | 16 de julho de 21          | TBD                 | 06 de agosto de 21        |
-|    &nbsp; | Canadá                |  4.12.0.148     | 9 de julho de 21   | 16 de julho de 21          | TBD                 | 06 de agosto de 21        |
-|   &nbsp;  | Índia                 |  4.12.0.148     | 9 de julho de 21   | 16 de julho de 21          | TBD                 | 06 de agosto de 21        |
-|   &nbsp;  | França                |  4.12.0.148     | 9 de julho de 21   | 16 de julho de 21          | TBD                 | 06 de agosto de 21        |
-|   &nbsp;  | Emirados Árabes Unidos  |  4.12.0.148     | 9 de julho de 21   | 16 de julho de 21          | TBD                 | 06 de agosto de 21        |
-|   &nbsp;  | África do Sul          |  4.12.0.148     | 9 de julho de 21   | 16 de julho de 21          | TBD                 | 06 de agosto de 21        |
-| Estação 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japão                 |  4.11.0.164     | Concluir     | Concluir            | 4.12.0.148          | 9 de julho de 21          |
-|   &nbsp;  | Ásia-Pacífico          |  4.11.0.164     | Concluir     | Concluir            | 4.12.0.148          | 9 de julho de 21          |
-|   &nbsp;  | Grã-Bretanha         |  4.11.0.164     | Concluir     | Concluir            | 4.12.0.148          | 9 de julho de 21          |
-|   &nbsp;  | Oceânia               |  4.11.0.164     | Concluir     | Concluir            | 4.12.0.148          | 9 de julho de 21          |
-| Estação 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.11.0.164     | Concluir     | Concluir            | 4.12.0.148          | 16 de julho de 21          |
-| Estação 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.11.0.164     | Concluir     | 9 de julho de 21          | 4.12.0.148          | 23 de julho de 21          |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| Estação 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Primeira Versão         |  4.13.0.152     | Concluir           | 13 de agosto de 2021     | TBD                 | 27 de agosto de 2021     |
+| Estação 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | América do Sul         |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | TBD                 | 27 de agosto de 2021     |
+|    &nbsp; | Canadá                |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | TBD                 | 27 de agosto de 2021     |
+|   &nbsp;  | Índia                 |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | TBD                 | 27 de agosto de 2021     |
+|   &nbsp;  | França                |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | TBD                 | 27 de agosto de 2021     |
+|   &nbsp;  | Emirados Árabes Unidos  |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | TBD                 | 27 de agosto de 2021     |
+|   &nbsp;  | África do Sul          |  4.13.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | TBD                 | 27 de agosto de 2021     |
+| Estação 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japão                 |  4.12.0.152     | Concluir*          | Concluir            | 4.13.0.152          | 13 de agosto de 2021     |
+|   &nbsp;  | Ásia-Pacífico          |  4.12.0.152     | Concluir*          | Concluir            | 4.13.0.152          | 13 de agosto de 2021     |
+|   &nbsp;  | Grã-Bretanha         |  4.12.0.152     | Concluir*          | Concluir            | 4.13.0.152          | 13 de agosto de 2021     |
+|   &nbsp;  | Oceânia               |  4.12.0.152     | Concluir*          | Concluir            | 4.13.0.152          | 13 de agosto de 2021     |
+| Estação 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Europa                |  4.12.0.152     | Concluir           | Concluir            | 4.13.0.152          | 20 de agosto de 2021     |
+| Estação 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | América do Norte         |  4.12.0.152     | 13 de agosto de 2021    | 20 de agosto de 2021     | 4.13.0.152          | 27 de agosto de 2021     |
 
 
+> [!NOTE]
+> A implementação automática está concluída para a versão 4.12.0.148. Não está prevista nenhuma implementação automática para a versão atualizada do lançamento de julho de 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Agenda de lançamento para Gestão de projetos e contabilística no ambiente de aplicações Finance and Operations
 
@@ -73,16 +75,16 @@ As atualizações para a Gestão de projetos e contabilística são lançadas oi
 
 |          Versão Suportada          | Disponibilidade de pré-visualização (PEAP) | Geralmente disponível (atualização automática) | Data de início da produção do agendamento de atualização automática (através de Definições de Atualização LCS) |   Fim do serviço   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.20          |         28 de maio de 2021        |           16 de julho de 2021           |                             30 de julho de 2021                             |  22 de outubro de 2021  |
 |          10.0.19          |        23 de abril de 2021       |            18 de junho de 2021           |                             2 de julho de 2021                             | 17 de setembro de 2021 |
-|          10.0.18          |        5 de Março de 2021        |           16 de abril de 2021          |                            30 de abril de 2021                            |    16 de julho de 2021   |
+
 
 
 As datas de versão direcionadas estão sujeitas a alterações. Para mais informações, consulte o [Disponibilidade das atualizações do serviço](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Versão de Destino          | Disponibilidade de pré-visualização (PEAP) | Geralmente disponível (atualização automática) | Data de início da produção do agendamento de atualização automática (através de Definições de Atualização LCS) |   Fim do serviço   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         28 de maio de 2021        |           16 de julho de 2021           |                             30 de julho de 2021                             |  22 de outubro de 2021  |
 |          10.0.21          |         02 de agosto de 2021     |           17 de setembro de 2021      |                             1 de outubro de 2021                           |  10 de Dezembro 2021  |
-
+|          10.0.22          |      3 de setembro de 2021      |          22 de outubro de 2021         |                           5 de Novembro de 2021                           |  14 de Janeiro de 2022  |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
