@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998335"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996945"
 ---
 # <a name="project-settings"></a>Definições do projeto
 
@@ -45,9 +45,9 @@ Para criar uma agenda de projeto, cria um modelo de calendário do projeto que d
 
   - Nova Agenda Semanal
   - Agenda de Trabalho Para Um Dia
-  - Intervalo
+  - Licença
 
-> ![Configurar opções](media/project-13.png)
+> ![Configurar opções.](media/project-13.png)
 
 4. Selecione **Nova Agenda Semanal** e, em seguida, defina as opções para esta agenda de recursos. É possível definir uma agenda semanal periódica, os parâmetros de hora diária, os encerramentos de companhia e muito mais.
 5. Defina o intervalo de datas, selecione **Guardar** e clique em **Fechar**. 
