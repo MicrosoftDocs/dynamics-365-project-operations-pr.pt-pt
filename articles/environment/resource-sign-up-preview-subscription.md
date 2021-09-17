@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007880"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323430"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Inscreva-se nas subscrições de pré-visualização do Project Operations para os cenários de recursos/não armazenados
 
@@ -23,7 +23,7 @@ Este tópico explica como subscrever a oferta de avaliação e implementar o amb
 
 ## <a name="prerequisites"></a>Pré-requisitos
 - O utilizador que implementar a pré-visualização tem de ter direitos de administrator global do inquilino do Azure. Poderá criar um inquilino durante o primeiro resgate da oferta. 
-- A implementação de um ambiente do Finance requer uma subscrição válida do Azure que será faturada por ambiente. Poderá utilizar subscrição existente das suas organizações ou utilizar uma [Avaliação do Azure](https://azure.microsoft.com/en-us/free/) para começar. O ambiente do CDS será disponibilizado gratuitamente durante um período limitado de 30 dias.
+- A implementação de um ambiente do Finance requer uma subscrição válida do Azure que será faturada por ambiente. Poderá utilizar subscrição existente das suas organizações ou utilizar uma [Avaliação do Azure](https://azure.microsoft.com/free/) para começar. O ambiente do CDS será disponibilizado gratuitamente durante um período limitado de 30 dias.
 
 > [!IMPORTANT]
 > Só uma pessoa, o administrador inquilino, numa organização precisa de executar esta tarefa. Se não for subscritor desta versão, aguarde até a sua organização estar inscrita e receber as suas credenciais de utilizador.

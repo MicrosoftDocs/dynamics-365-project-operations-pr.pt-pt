@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001670"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440791"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Gerir vários clientes em propostas do projeto – lite
 
@@ -37,7 +37,7 @@ Um cliente de proposta pode ser criado, atualizado ou eliminado do separador **C
 
 | **Campo** | **Localização** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
-| Conta | Grelha editável no separador **Clientes da Proposta** e os formulários **Principal** e **Criação Rápida** para um cliente de proposta. | Lista todas as contas ativas. Este campo é bloqueado após a criação do registo. Se pretende atualizá-lo, elimine o registo e volte a criá-lo. Se registou valores reais, ou se o registo do cliente de proposta for um cliente principal, terá permissão para eliminar o registo. | Os clientes de proposta são copiados como clientes da linha de proposta quando uma linha de proposta é criada. Os clientes de proposta também são copiados para os clientes do contrato de projeto quando uma proposta é ganha. |
+| Conta | Grelha editável no separador **Clientes da Proposta** e os formulários **Principal** e **Criação Rápida** para um cliente de proposta. | Lista todas as contas ativas. Este campo é bloqueado após a criação do registo. Se pretende atualizá-lo, elimine o registo e volte a criá-lo. Se tiver registado algum valor real, ou se o registo do cliente da cotação for de um cliente principal, não poderá eliminar o registo. | Os clientes de proposta são copiados como clientes da linha de proposta quando uma linha de proposta é criada. Os clientes de proposta também são copiados para os clientes do contrato de projeto quando uma proposta é ganha. |
 | Percentagem de divisão de faturação | Grelha editável no separador **Clientes da Proposta** e os formulários **Principal** e **Criação Rápida** para um cliente de proposta. | Representa a percentagem de cada transação de vendas não faturada que será atribuída a este cliente de proposta. | Copiada para as novas linhas de proposta e para os clientes do contrato de projeto. |
 | Nome do Contacto Para Faturação | Grelha editável no separador **Clientes da Proposta** e os formulários **Principal** e **Criação Rápida** para um cliente de proposta. | Este é um campo de texto e deve ser usado para identificar a pessoa de contato da Fatura para este cliente. Assumem o valor predefinido a partir do registo de conta relacionado | Copiado para os clientes do contrato de projeto quando uma Proposta é ganha e, por sua vez, para o campo Nome do Contacto Para Faturação na Fatura que é gerada para este cliente. |
 | Nome para Faturação | Grelha editável no separador **Clientes da Proposta** e os formulários **Principal** e **Criação Rápida** para um cliente de proposta. | Este campo de texto deve ser utilizado para identificar a pessoa de contato da fatura para este cliente. | Copiado para os clientes do contrato de projeto quando uma proposta é ganha e, por sua vez, para o campo **Nome do Contacto Para Faturação** na fatura que é gerada para este cliente. |
