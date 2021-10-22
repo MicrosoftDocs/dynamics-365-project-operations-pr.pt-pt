@@ -2,17 +2,17 @@
 title: Comprar materiais não armazenados utilizando uma fatura pendente do fornecedor
 description: Este tópico explica como registar faturas pendentes do fornecedor.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009050"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547303"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Comprar materiais não armazenados utilizando uma fatura pendente do fornecedor
 
@@ -45,4 +45,5 @@ As faturas pendentes do fornecedor podem ser registadas na página de **faturas 
     - O valor do saldo do fornecedor.
     - O valor do imposto sobre vendas.
     - O custo contra o projeto é registado na conta de integração de contratos públicos.
-    - A transação real do projeto em Dataverse. Esta transação é ainda processada através do [diário de Integração do Project Operations](../project-accounting/project-operations-integration-journal.md). A publicação deste diário transfere o montante da conta de integração de aquisições para a conta de custos do projeto.
+    - A transação de custo real do projeto em Dataverse.  Esta transação é ainda processada através do [diário de Integração do Project Operations](../project-accounting/project-operations-integration-journal.md). A publicação deste diário transfere o montante da conta de integração de aquisições para a conta de custos do projeto. 
+    - Compras faturadas ao cliente do projeto através do método de faturação de horas e materiais. Adicionalmente, são criadas transações de vendas não faturadas para as compras em Dataverse. A lista de preços do produto em Dataverse é utilizada para os preços de venda e os montantes da transação de venda não faturada.

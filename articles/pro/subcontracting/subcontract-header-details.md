@@ -2,16 +2,16 @@
 title: Detalhes do cabeçalho para subcontratos
 description: Este tópico explica a funcionalidade fornecida no cabeçalho do subcontrato no Project Operations.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323655"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501340"
 ---
 # <a name="header-details-for-subcontracts"></a>Detalhes do cabeçalho para subcontratos
 
@@ -28,26 +28,24 @@ Para criar um subcontrato, execute os seguintes passos.
 1. No painel de navegação, selecione **Subcontratos** e na página **Subcontrato**, selecione **Novo**.
 2. Introduza as informações necessárias e selecione **Guardar**.
 
-    A tabela seguinte fornece informações sobre os campos na página Cabeçalho do subcontrato.
+    A tabela seguinte fornece informações sobre os campos na página **Cabeçalho do subcontrato**.
 
-    | **Campo** | **Descrição** |
-    | --- | --- | 
-    | Nome | O nome do subcontrato. |
-    | Descrição | Uma breve descrição dos serviços e produtos que estão a ser comprados no subcontrato. |
-    | Fornecedor | O nome da empresa à qual os produtos e serviços estão a ser comprados. Este registo de conta tem um tipo de relação de **Fornecedor** ou **Prestador**. |
-    | Data do Subcontrato | A data em que o subcontrato é criado. |
-    | Razão do Estado | O estado do subcontrato. |
-    | Moeda | A moeda na qual os produtos e serviços são comprados. O valor neste campo é o valor predefinido da conta do fornecedor, mas pode ser alterado. As listas de preços do projeto, que são utilizadas na definição do preço de produtos e serviços nos subcontratos, devem utilizar esta moeda. As listas de preços em qualquer outra moeda não podem ser associadas ao subcontrato. O custo dos produtos e serviços incorrido neste subcontrato será registado no projeto nesta moeda. |
-    | Unidade de Contratação | A divisão da empresa que está a celebrar um contrato ou um subcontrato de compra com o fornecedor. |
-    | Prazos de pagamento | Os termos de pagamento nas faturas do fornecedor emitidas neste subcontrato. O valor neste campo é o valor predefinido do registo de conta do fornecedor. |
-    | Endereço de Pagamento | O endereço para onde é enviado o pagamento das faturas do fornecedor. O valor neste campo é o valor predefinido do registo de conta do fornecedor. |
-    | Nome para Faturação | O nome da pessoa ou divisão na empresa do fornecedor que enviará a fatura. O valor neste campo é o valor predefinido do registo de conta do fornecedor e será utilizado como o nome do contacto principal nas faturas do fornecedor criadas para este subcontrato. |
-    | Morada para Faturação | O endereço utilizado nas faturas deste fornecedor. O valor neste campo é o valor predefinido do registo de conta do fornecedor. Este endereço também é utilizado como o endereço da fatura nas faturas do fornecedor criadas para este subcontrato. |
-    | Subtotal | Se um subcontrato não tiver linhas, introduza um valor neste campo que indique o subtotal da encomenda antes de incluir os impostos. Se o subcontrato tiver linhas, este campo é só de leitura. O montante apresentado é o subtotal de todas as linhas no subcontrato. |
-    | Imposto Total | Se um subcontrato não tiver linhas, introduza um valor neste campo que indique os impostos neste subcontrato. Se o subcontrato tiver linhas, este campo é só de leitura. O montante apresentado é a soma do montante do imposto de todas as linhas no subcontrato. |
-    | Montante Total |  Este campo calculado mostra o montante total do subcontrato com os impostos.  |
-    | Data Confirmada | A data em que o subcontrato foi confirmado.  |
-    | Pretendido Por | O valor predefinido neste campo é o nome do utilizador que cria o subcontrato. Este valor pode ser alterado pelo criador do subcontrato para indicar a pessoa que está a criar o subcontrato em nome de outra pessoa.  |
-    | Gestor de Contas do Fornecedor | O nome do contacto principal da conta do fornecedor. O valor neste campo é o valor predefinido do registo de conta do fornecedor. O valor deste campo pode ser alterado pelo utilizador para selecionar um contacto diferente, como o gestor de conta do fornecedor do subcontrato. Este contacto pode configurar e enviar alertas de e-mail e negociações de preços. |
-
-
+    | Campo | Descrição |Impacto Funcional |
+    |---|------|---| 
+    | Nome | O nome do subcontrato. | Em todas as listas pendentes de subcontratos, o nome do subcontrato é listado na primeira coluna para ajudar a identificar o subcontrato. | 
+    | Descrição | Uma breve descrição dos serviços e produtos que estão a ser comprados no subcontrato. | Nenhuma |
+    | Fornecedor | O nome da empresa à qual os produtos e serviços estão a ser comprados. Este registo de conta tem um tipo de relação de **Fornecedor** ou **Prestador**. | Com base no fornecedor selecionado, os valores predefinidos são introduzidos automaticamente para os seguintes campos:<br/> **• Moeda** </br> **• Listas de preços** </br> **• Termos de Pagamento**</br> **• Endereço de Pagamento**</br> **• Morada para Faturação**</br> **• Nome para Faturação** </br>**• Gestor de Contas do Fornecedor**|
+    | Data do Subcontrato | A data de criação do subcontrato. | A data do subcontrato é utilizada para selecionar a lista de preços de compra correta, quer a partir das listas de preços anexadas ao fornecedor relacionado, quer a partir dos parâmetros do projeto. |
+    | Razão do Estado | O estado do subcontrato. | O estado determina a fase do subcontrato no processo de negócio e se pode ser editado. <br/>Os valores incluem:<br>• **Rascunho**: o subcontrato pode ser editado. Só pode editar subcontratos com um estado de **Rascunho**.<br/>• **Confirmado**: a negociação com o fornecedor foi concluída e o subcontrato foi aprovado para entrega. <br/>• **Fechado**: a entrega do subcontrato foi concluída.<br/>• **Cancelado**: o subcontrato foi cancelado e não existe uma entrega planeada.  | 
+    | Moeda | A moeda de compra dos produtos e serviços. O valor predefinido é introduzido automaticamente a partir da conta do fornecedor, mas pode ser alterado. | A moeda do subcontrato é utilizada para selecionar a lista de preços de compra, quer a partir das listas de preços anexadas ao fornecedor relacionado, quer a partir dos parâmetros do projeto. As listas de preços noutra moeda não podem ser associadas ao subcontrato. O custo de horas, despesas e materiais que os recursos do fornecedor entregam a partir deste subcontrato é registado nesta moeda no projeto. A moeda do contrato não pode ser alterada depois de guardar o registo do subcontrato.|
+    | Unidade de Contratação | A divisão da empresa que está a celebrar um contrato ou um subcontrato de compra com o fornecedor. | Nenhuma |
+    | Prazos de pagamento | Os termos de pagamento nas faturas do fornecedor que são emitidas neste subcontrato. O valor predefinido é introduzido automaticamente a partir do registo da conta do fornecedor. | Os termos de pagamento do subcontrato são copiados para todas as faturas do fornecedor relacionadas com este subcontrato. Os termos de pagamento podem ser atualizados se o subcontrato tiver um estado de **Rascunho**. | 
+    | Endereço de Pagamento | O endereço do fornecedor para o qual os pagamentos devem ser enviados. O valor predefinido é introduzido automaticamente a partir do registo da conta do fornecedor. | O endereço de pagamento do subcontrato é copiado como o endereço de pagamento para todas as faturas do fornecedor criadas para este subcontrato. O endereço de pagamento pode ser atualizado se o subcontrato tiver um estado de **Rascunho**.|
+    | Nome para Faturação | O nome da pessoa ou divisão na empresa do fornecedor que enviará a fatura. O valor predefinido é introduzido automaticamente a partir do registo da conta do fornecedor. | O valor **Nome para Faturação** do subcontrato é copiado para todas as faturas do fornecedor relacionadas com este subcontrato. Este campo pode ser atualizado se o subcontrato tiver um estado de **Rascunho**.|
+    | Morada para Faturação | O endereço que é utilizado nas faturas do fornecedor. O valor predefinido é introduzido automaticamente a partir do registo da conta do fornecedor. | Este endereço é o endereço "fatura de" nas faturas do fornecedor criadas para este subcontrato. |
+    | Subtotal | Se um subcontrato não tiver itens, introduza o subtotal da encomenda antes de impostos. Se o subcontrato tiver linhas, este campo é só de leitura. O montante mostrado é o montante do subtotal de todos os itens do subcontrato. | Nenhuma |
+    | Imposto Total | Se um subcontrato não tiver itens, introduza o total de impostos neste subcontrato. Se o subcontrato tiver linhas, este campo é só de leitura. O montante mostrado é a soma do montante de impostos de todos os itens do subcontrato. | Nenhuma |
+    | Montante Total | Este campo calculado mostra o montante total do subcontrato com os impostos. | Nenhuma |
+    | Data Confirmada | A data de confirmação do subcontrato. | Nenhuma |
+    | Pretendido Por | Por predefinição, este campo é definido para o nome do utilizador que cria o subcontrato. No entanto, o criador do subcontrato pode alterar o valor para indicar a pessoa em nome da qual está a criar o subcontrato. | Nenhuma |
+    | Gestor de Contas do Fornecedor | O nome do contacto principal da conta do fornecedor. O valor predefinido é introduzido automaticamente a partir do registo da conta do fornecedor. Pode selecionar um contacto diferente como gestor de conta do fornecedor do subcontrato. | Pode configurar alertas de e-mail para notificar o contacto quando forem feitas alterações ao subcontrato devido a negociações de preços. |

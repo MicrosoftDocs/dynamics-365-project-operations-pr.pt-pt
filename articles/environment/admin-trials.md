@@ -2,16 +2,16 @@
 title: Inscrição para as avaliações do Project Operations
 description: Este tópico fornece informações sobre como implementar uma avaliação do Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418471"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599227"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrição para as avaliações do Project Operations 
 
@@ -85,15 +85,9 @@ Antes de começar, inicie sessão num browser com a conta profissional de utiliz
 
    Após o início do aprovisionamento, é redirecionado para a lista de ambientes no centro de administração do Power Platform. Enquanto o aprovisionamento está em curso, o estado do ambiente é **PreparingInstance**.
  
-  Depois de concluído o aprovisionamento, o estado do ambiente é **Pronto**.
+  Quando o aprovisionamento ficar concluído, o estado do seu ambiente é **Pronto**. O aprovisionamento do ambiente inclui a implementação de dados de demonstração.
  
-4.  Quando o aprovisionamento estiver concluído, selecione o URL respetivo do Microsoft Dataverse e os URLs de aplicações do Finance and Operations para validar a implementação.
-
-## <a name="demo-data-installation"></a>Instalação de dados de demonstração
-
-Utilize as ligações seguintes para aceder aos pacotes de dados de demonstração para materiais não existentes em stock e cenários de implementação leve. 
-- [Dados de demonstração de materiais não existentes em stock](resource-apply-pro-setup-config-data.md)
-- [Dados de demonstração leve](lite-apply-demo-setup-config-data.md)
+4.  Selecione o URL do Microsoft Dataverse e os URLs das aplicações Finance and Operations para validar a implementação.
 
 ## <a name="configuring-dual-write"></a>Configurar a escrita dupla
 Apenas para implementações de materiais não existentes em stock, configure os mapeamentos de escrita dupla. Para mais informações, consulte [Versões do mapa de escrita dupla do Project Operations](resource-dual-write-maps.md).

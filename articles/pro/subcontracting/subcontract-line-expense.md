@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323835"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506113"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Itens de subcontrato para as categorias de despesas
 
@@ -29,23 +29,23 @@ Execute os seguintes passos para criar um item de subcontrato para as categorias
 
 A tabela seguinte fornece informações sobre os campos na página de detalhes **Item de subcontrato** e na página **Criação Rápida**.
 
-| **Campo** |  **Descrição** |
-| ----------| ---------------- |
-| Nome | O nome do item de subcontrato. |
-| Descrição | Uma breve descrição das categorias de serviços ou produtos que estão a ser compradas no item de subcontrato. |
-| Tipo da Linha | Este campo tem um valor predefinido de **Baseado na quantidade**.  |
-| Método de Faturação | O método de faturação do item de subcontrato. Com base no método de faturação do item, é disponibilizada uma agenda de faturação baseada em marcos para o método de faturação de preço fixo.  |
-| Classe de Transação | Este campo tem um valor predefinido de **Tempo**. Para criar itens de subcontrato para a compra de produtos, defina o campo **Classe de Transação** como **Despesa**. O valor deste campo indica que o item de subcontrato está a ser utilizado para registar uma compra de uma categoria de produtos ou serviços que serão utilizados em projetos. |
-| Categoria de Transação | Selecione a categoria de transação. |
-| Início Solicitado | A data em que as categorias de compras devem estar disponíveis no fornecedor. A data solicitada é utilizada para escolher uma lista de preços do projeto a partir das listas de preços do projeto anexadas ao subcontrato. O custo da categoria no item de subcontrato assume o valor predefinido a partir dessa lista de preços. |
-| Fim solicitado | A data em que as categorias de compras já não serão necessárias. Esta data mostra um aviso quando um gestor de projeto associa este item de subcontrato a estimativas de despesas específicas nos projetos com data posterior à indicada. |
-| Quantidade Encomendada | A quantidade da categoria que está a ser comprada ao fornecedor. Quando um gestor de projeto ultrapassa a quantidade comprada, ocorrerá um aviso.  |
-| Grupo de Unidades | O valor predefinido deste campo é baseado no grupo de unidades predefinido que está configurado para a categoria selecionada. |
-| Unidade | O valor predefinido deste campo é baseado na unidade predefinida que está configurada para a categoria selecionada. A combinação de categoria e unidade é utilizada para predefinir o preço unitário no item de subcontrato. |
-| Preço Unitário | O valor do campo de preço unitário é predefinido a partir da combinação de categoria e unidade, a partir dos preços de categorias relacionados com a lista de preços do projeto aplicável ao início solicitado do item de subcontrato.  |
-| Subtotal | Este campo só de leitura é calculado automaticamente como o preço unitário segundo a quantidade se existirem os valores de quantidade e de preço unitário. Se um ou ambos os campos estiverem vazios, pode introduzir um valor manualmente neste campo.  |
-| Imposto sobre Vendas | Introduza o montante do imposto sobre vendas.  |
-| Montante Total | O montante total do item de subcontrato com os impostos. Este campo é calculado como subtotal + imposto sobre vendas.  |
+| **Campo** | **Descrição** | **Impacto funcional** |
+| --- | --- | --- |
+| Nome | Nome do item de subcontrato para ajudar na identificação. | Será mostrada como a primeira coluna em todas as procuras baseadas em itens de subcontrato. |
+| Descrição | Uma breve descrição das categorias de despesas que estão a ser compradas no item de subcontrato. | Nenhuma |
+|Tipo da Linha | Este campo tem um valor predefinido de **Baseado na quantidade**. |Nenhuma |
+| Método de Faturação | Trata-se de um conjunto de opções que representa os dois modelos de contratação principais suportados pelo Project Operations: **Preço Fixo** e **Horas e Material**. | Uma agenda de faturação baseada em marcos é disponibilizada para itens de subcontrato quando o método de faturação Preço Fixo é selecionado. |
+| Classe de Transação | Este campo tem um valor predefinido de **Hora**. Para criar itens de subcontrato para a compra de produtos, defina o campo **Classe de Transação** como **Despesa**.  | Isto indica que o item de subcontrato está a ser utilizado para registar a compra de uma categoria de despesas a utilizar em projetos. |
+| Categoria de Transação | Mostra uma lista de categorias de transações ativas no sistema. |Nenhuma |
+| Início Solicitado | Introduza a data em que as categorias da compra devem ser disponibilizadas pelo fornecedor. | O início pedido é utilizado para escolher uma lista de preços do projeto a partir das listas de preços de projetos anexadas ao subcontrato. O custo da categoria no item de subcontrato provém dessa lista de preços. |
+| Fim Pedido | Introduza a data em que as categorias da compra deixariam de ser necessárias. | Será utilizada para mostrar avisos quando um gestor de projeto está a associar este item de subcontrato a estimativas de despesas específicas no projeto que são necessárias após esta data. |
+| Quantidade Encomendada | Quantidade da categoria a comprar ao fornecedor. | Será utilizada para mostrar avisos quando um gestor de projeto excede esta quantidade.|
+| Grupo de Unidades | O valor predefinido baseia-se no grupo de unidades predefinido configurado para a categoria selecionada. |Nenhuma |
+| Unidade | A predefinição baseia-se na unidade predefinida configurada para a categoria selecionada.  | A combinação de **Categoria** e **Unidade** será utilizada como predefinição ou calculada para o preço unitário do item de subcontrato.  |
+| Preço Unitário | O valor predefinido utiliza a combinação de **Categoria** e **Unidade** dos preços de categoria relacionados com a lista de preços do projeto, aplicável ao início pedido do item de subcontrato. |Nenhuma |
+| Subtotal | É um campo apenas de leitura que é calculado como Quantidade X Preço unitário, caso sejam introduzidos os valores da quantidade e do preço unitário. Se um ou ambos os campos estiverem em branco, pode introduzir um valor neste campo. |Nenhuma |
+| Imposto sobre Vendas | Introduza o montante do imposto sobre vendas. |Nenhuma |
+| Montante Total | O montante total do item de subcontrato com os impostos. Este campo é calculado como Subtotal + Imposto sobre vendas. |Nenhuma |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

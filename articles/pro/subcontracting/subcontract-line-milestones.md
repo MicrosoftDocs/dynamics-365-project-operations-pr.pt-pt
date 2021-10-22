@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323790"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558516"
 ---
 # <a name="subcontract-line-milestones"></a>Marcos do item de subcontrato
 
@@ -50,15 +50,15 @@ Os marcos de preço fixo num item de subcontrato podem ser gerados manualmente q
 3. No separador **Marcos do item de subcontrato**, na subgrelha, selecione **+ Novo Marco do Item de Subcontrato**.
 4. Na página **Novo Marco do Item de Subcontrato**, introduza as informações necessárias com base na seguinte tabela.
 
-    | Campo | Descrição |
-    | --- | --- |
-    | Nome do Marco | O nome do marco. |
-    | Descrição | Uma descrição do marco.  |
-    | Data do Marco | A data em que o processo de criação automática de faturas deve procurar o estado deste marco para considerá-lo para faturação. Este valor está incluído na linha de fatura do fornecedor ao faturar para este subcontrato. |
-    | Montante | O montante ou valor do marco que será faturado ao cliente. Este valor está incluído na linha de fatura do fornecedor ao faturar para este subcontrato. |
-    | Imposto | O valor do imposto aplicado ao marco. Este valor está incluído na linha de fatura do fornecedor ao faturar para este subcontrato. |
-    | Montante após imposto | Este campo só de leitura é calculado como Montante + Imposto. Este valor está incluído na linha de fatura do fornecedor ao faturar para este subcontrato. |
-    | Estado da Fatura | Quando o marco é criado, este estado é sempre definido como **Não pronto para faturação**.  Quando o estado é **Pronto para Faturar**, a criação da fatura do fornecedor inclui este marco na fatura do fornecedor. |
+    | Campo | Descrição |Impacto funcional|
+    | --- | --- |----------------------|
+    | Nome do Marco | O nome do marco. |Será mostrado como a primeira coluna em todas as procuras baseadas em marcos do item de subcontrato. A linha da fatura do fornecedor criada com base neste marco também utilizará o nome do marco do item de subcontrato como o nome predefinido da linha da fatura do fornecedor.|
+    | Descrição | Uma descrição do marco. |A linha da fatura do fornecedor criada com base neste marco também utilizará a descrição do marco do item de subcontrato como a descrição predefinida da linha da fatura do fornecedor.|
+    | Data do Marco | A data em que o processo de criação automática de faturas deve procurar o estado deste marco para considerá-lo para faturação.| Este valor será utilizado como a data predefinida da linha da fatura do fornecedor aquando da faturação deste item de subcontrato. |
+    | Montante | O montante ou valor do marco que será faturado ao cliente. |Este valor é utilizado como o montante predefinido da linha da fatura do fornecedor aquando da faturação deste item de subcontrato. |
+    | Imposto | O valor do imposto aplicado ao marco.| Este valor é utilizado como o montante de imposto predefinido da linha da fatura do fornecedor aquando da faturação deste item de subcontrato. |
+    | Montante após imposto | Este campo só de leitura é calculado como Valor + Imposto.|Este valor é utilizado como a predefinição da linha da fatura do fornecedor aquando da faturação deste item de subcontrato. |
+    | Estado da Fatura | Quando o marco é criado, este estado é sempre definido como **Não pronto para faturação**.|  Quando o estado é **Pronto para Faturar**, a criação da fatura do fornecedor inclui este marco na fatura do fornecedor. |
 
 5. Selecione **Guardar e Fechar**.
 
