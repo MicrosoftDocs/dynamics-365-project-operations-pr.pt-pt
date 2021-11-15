@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003875"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679223"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de junho de 2021 - Project Operations para cenários baseados em recursos/não armazenados
 
@@ -30,6 +30,7 @@ Estão incluídas nesta versão as seguintes funcionalidades:
 - Capacidade para eliminar [Linhas da proposta de fatura do projeto para cenários de ajuste](../invoicing/correct-project-invoice-proposals.md).
 - As linhas de despesas discriminadas refletem os nomes das subcategorias no relatório de despesas [Relatórios de Despesas Reinventados-Novas Funcionalidades](../expense/expense-reports-reimagined.md#new-features).
 - O método de pagamento está disponível no novo painel de despesas ao criar uma nova despesa.
+- Disponibilidade geral das APIs de Agenda do Projeto. Esta nova funcionalidade permite aos clientes executar programaticamente as operações para criar, atualizar e eliminar em tarefas de projeto, atribuições de recursos, dependências de tarefas e registos de membros da equipa do projeto. Para mais informações, consulte [Utilizar APIs de Agenda do Projeto para executar operações com as entidades de Agendamento](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Atualizações de mapas de escrita dupla do Project Operations
 

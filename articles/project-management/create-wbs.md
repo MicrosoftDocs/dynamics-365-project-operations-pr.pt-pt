@@ -2,16 +2,16 @@
 title: Criar uma estrutura hierárquica do trabalho
 description: Esta tópico explica como criar uma estrutura hierárquica do trabalho (WBS) incluindo os controlos básicos na nova interface de agendamento.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998745"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655431"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura hierárquica do trabalho (WBS)
 
@@ -117,5 +117,26 @@ O modo de tarefa não tem efeito nas atualizações efetuadas nas datas de iníc
 
 A grelha **Agenda** é totalmente acessível e pode ser utilizada com leitores de ecrã, tais como o Narrator, o JAWS ou o NVDA. Pode percorrer a área de grelha através da utilização das teclas de seta (como no Microsoft Excel), pode utilizar a tecla de tabulação para avançar através dos elementos da interface de utilizador interativa e pode utilizar a tecla de seta para baixo, a tecla Enter ou a Barra de Espaço para selecionar e abrir os menus pendentes.
 
+## <a name="project-limitations"></a>Limitações do projeto 
+Se estiver a utilizar a estrutura hierárquica do trabalho no Project Operations, deve estar ciente das seguintes limitações. Estes limites são aplicáveis aos projetos e às tarefas. Para mais informações, consulte [Limites e limiares do Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Campo**                                          |  **Limite**           |
+|----------------------------------------------------|----------------------|
+| Total de tarefas máximo para um projeto                  | 500                  |
+| Duração total máxima para um projeto               | 3650 dias (10 anos) |
+| Total de recursos máximo para um projeto              | 235                  |
+| Total de ligações máximo (apenas a sucessora) para um projeto | 600                  |
+| Total de campos personalizados máximo para um projeto          | 10                   |
+
+**Limitações de tarefas**
+
+| **Campo**                               |   **Limite**           |
+|-----------------------------------------|-----------------------|
+| Nível máximo da hierarquia                 | 10 níveis             |
+| Máximo de ligações (sucessora + antecessora) | 20                    |
+| Duração máxima da tarefa da folha           | 1250 dias             |
+| Duração máxima de uma tarefa de resumo      | 3650 dias (10 anos)  |
+| Máximo de recursos atribuídos a uma tarefa    | 20 recursos          |
+| Intervalo de datas suportado para uma tarefa         | 1/1/2000 - 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
