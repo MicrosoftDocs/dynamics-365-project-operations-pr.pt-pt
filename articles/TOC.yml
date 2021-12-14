@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
+        - name: Novembro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Outubro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Setembro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Desempenho da API da Agenda do Projeto
               href: project-management/project-schedule-api-performance.md
+            - name: Registos de agendamento de projetos
+              href: project-management/schedule-api-logs.md
     - name: Gestão de recursos
       items:
         - name: Principais conceitos
@@ -544,6 +548,8 @@
       items:
         - name: Novidades do acesso antecipado à versão 2021 edição 2 - implementação leve
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novidades de novembro de 2021 - implementação leve
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novidades de outubro de 2021 - implementação leve
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Novidades de setembro de 2021 - implementação leve
@@ -948,10 +954,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configurar a automatização de faturas do projeto
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-- name: Project Operations para cenários baseados produção/armazenados
+- name: Project Operations para cenários baseados em produção/armazenados
   items:
     - name: Novidades
       items:
+        - name: Novidades de outubro de 2021 - Project Operations para cenários baseados em produção/armazenados
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Novidades de setembro de 2021 - Project Operations para cenários baseados em produção/armazenados
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Novidades de julho de 2021 - Project Operations para cenários baseados em produção/armazenados
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Novidades de maio de 2021 - Project Operations para cenários baseados em produção/armazenados
@@ -1108,6 +1118,8 @@
       items:
         - name: Agenda da Atualização da Versão do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades e alterações na Atualização da Versão 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Novidades e alterações na Atualização da Versão 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Novidades e alterações na Atualização da Versão 36, V3'

@@ -2,7 +2,7 @@
 title: Configurar integração de cartão de crédito
 description: Este tópico explica como trabalhar com transações de cartões de crédito relacionados com despesas.
 author: suvaidya
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51c364dff41d856e493581e1b87fd29571f641c70e7233bdebb910efbc64b983
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996225"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826270"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurar integração de cartão de crédito
 
@@ -50,10 +50,18 @@ Selecione uma ou mais transações de cartões de crédito e, em seguida, seleci
 
 ## <a name="delete-credit-card-transactions"></a>Eliminar transações de cartões de crédito 
 
-Por vezes, após a importação de transações com cartão de crédito, certas transações podem ter de ser eliminadas. Isto pode ser porque as transações são duplicadas ou porque os dados podem não ser precisos. Os administradores podem utilizar a função **Eliminar as transações de cartões de crédito** para selecionar e eliminar transações de cartões de crédito que estejam **não anexadas** a um relatório de despesas. 
+Por vezes, após a importação de transações com cartão de crédito, certas transações podem ter de ser eliminadas. Isto pode ser porque as transações são duplicadas ou porque os dados não são precisos. Os administradores podem utilizar a função **Eliminar as transações de cartões de crédito** para selecionar e eliminar transações de cartões de crédito que estejam **não anexadas** a um relatório de despesas. 
 
 1. Ir a **Tarefas periódicas** > **Eliminar transações de cartões de crédito**.
 2. Selecione **Filtrar** e forneça informações para identificar os registos a incluir.
 3. Selecione **Ok** para eliminar os registos. 
+
+## <a name="storing-credit-card-numbers"></a>Armazenar números de cartões de crédito
+
+Estão disponíveis três opções para armazenar números de cartões de crédito. Os números de cartões de crédito são armazenados na página **Parâmetros de gestão de despesas**.
+
+- **Impedir a entrada do número de cartão** – Os números de cartões de crédito não são armazenados.
+- **Colocar em hash números de cartões (armazenar os últimos quatro dígitos)** – Os últimos quatro dígitos dos números de cartões de crédito são armazenados num formato encriptado.
+- **Armazenar números de cartões** – Os números de cartões de crédito são armazenados num formato não encriptado. Esta opção não está em conformidade com o Padrão de Segurança de Dados (DSS) do Setor de Cartões de Pagamento (PCI). Portanto, para manter a sua organização em conformidade com os regulamentos PCI DSS, os administradores da organização devem optar por não armazenar números de cartões de crédito ou armazenar números de cartões em hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
