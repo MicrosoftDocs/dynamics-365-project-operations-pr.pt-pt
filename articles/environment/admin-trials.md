@@ -2,16 +2,16 @@
 title: Inscrição para as avaliações do Project Operations
 description: Este tópico fornece informações sobre como implementar uma avaliação do Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599227"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901631"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrição para as avaliações do Project Operations 
 
@@ -90,7 +90,8 @@ Antes de começar, inicie sessão num browser com a conta profissional de utiliz
 4.  Selecione o URL do Microsoft Dataverse e os URLs das aplicações Finance and Operations para validar a implementação.
 
 ## <a name="configuring-dual-write"></a>Configurar a escrita dupla
-Apenas para implementações de materiais não existentes em stock, configure os mapeamentos de escrita dupla. Para mais informações, consulte [Versões do mapa de escrita dupla do Project Operations](resource-dual-write-maps.md).
+- Para configurar direitos de acesso para escrita dupla, consulte [Atualizar definições de segurança no Project Operations no Dataverse](resource-provision-new-environment.md).
+- Para configurar mapas de escrita dupla, consulte [Executar mapas de escrita dupla do Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuir licenças
 

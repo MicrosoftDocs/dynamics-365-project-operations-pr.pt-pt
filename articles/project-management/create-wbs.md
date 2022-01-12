@@ -2,16 +2,16 @@
 title: Criar uma estrutura hierárquica do trabalho
 description: Esta tópico explica como criar uma estrutura hierárquica do trabalho (WBS) incluindo os controlos básicos na nova interface de agendamento.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655431"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928629"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura hierárquica do trabalho (WBS)
 
@@ -95,11 +95,11 @@ Como Administrador, pode definir campos personalizados na entidade de tarefa. No
 
 ## <a name="staffing-attributes"></a>Atributos do pessoal
 
-Os atributos de definição de pessoal são acedidos através do campo **Recursos** na agenda. Pode procurar um recurso existente ou selecionar **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipa do projeto como um novo recurso.
+Os atributos de definição de pessoal são acedidos através do campo **Recursos** na agenda. Pode procurar um recurso existente ou selecionar **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipa do projeto como um novo recurso.  Ao pesquisar por um recurso utilizando o seletor de recursos na grelha de tarefas, vista do quadro ou Gantt, a pesquisa obtém os membros da equipa do projeto existentes ou recursos reserváveis ativos.
 
 Os campos **Função**, **Unidade de Atribuição de Recursos** e **Nome da Posição** são utilizados para descrever as necessidades de definição de pessoal para a tarefa. Estes atributos de definição de pessoal, juntamente com o agendamento da tarefa são utilizados para localizar os recursos disponíveis para efetuar esta tarefa.
 
-   - **Função**: Especifique o tipo de recurso que é necessário para efetuar a tarefa.
+   - **Função**: especifique o tipo de recurso que é necessário para efetuar a tarefa.
    - **Unidade de atribuição de recursos**: Especifique a unidade a partir da qual os recursos para a tarefa devem ser atribuídos. Este atributo afeta o custo e a estimativa de vendas para a tarefa se o custo e a taxa de faturação do recurso forem definidos com base nas unidades de atribuição de recursos.
    - **Nome da posição**: Introduza um nome para o recurso genérico que serve como marcador de posição para o recurso que, por fim, fará o trabalho.
 
@@ -127,6 +127,7 @@ Se estiver a utilizar a estrutura hierárquica do trabalho no Project Operations
 | Total de recursos máximo para um projeto              | 235                  |
 | Total de ligações máximo (apenas a sucessora) para um projeto | 600                  |
 | Total de campos personalizados máximo para um projeto          | 10                   |
+| Máximo de itens de lista de verificação por tarefa                   | 20                   |
 
 **Limitações de tarefas**
 

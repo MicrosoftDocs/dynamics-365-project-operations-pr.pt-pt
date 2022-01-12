@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827295"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942945"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Novidades de novembro de 2021 - Implementação do Project Operations Lite
 
@@ -20,7 +20,7 @@ _Aplica-se a: Implementação lite – negócio para faturação pró-forma_
 
 Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
-- Project Operations num ambiente Dataverse, versão 4.26.0.145, 4.26.0.148, or 4.26.0.150
+- Project Operations num ambiente Dataverse, versão 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versão
 
