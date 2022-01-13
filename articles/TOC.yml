@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Atualizações do Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Funcionalidades removidas ou preteridas
+      items:
+        - name: Funcionalidades removidas ou preteridas no Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations para cenários baseados em recursos/não armazenados
   items:
     - name: Começar
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
+        - name: Dezembro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Novembro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Outubro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Configurar quilometragem utilizando níveis de taxa de quilometragem
               href: expense/set-up-mileage.md
+        - name: Colocar em lista as despesas
+          href: prod-exp/expense-itemization.md
         - name: Despesas pessoais
           href: expense/personal-expenses-expense-report.md
         - name: Despesas entre empresas
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Gerir estimativas de receitas
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Resolução de Problemas
+      items:
+        - name: Processos de vendas do projeto
+          items:
+            - name: 'Erro de correspondência da moeda ao criar o projeto, contrato, proposta ou recurso reservável'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Implementação leve - oportunidade potencial para fatura pró-forma
   items:
     - name: Começar
@@ -548,6 +562,8 @@
       items:
         - name: Novidades do acesso antecipado à versão 2021 edição 2 - implementação leve
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novidades de dezembro de 2021 - implementação leve
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Novidades de novembro de 2021 - implementação leve
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novidades de outubro de 2021 - implementação leve
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Marcos do item de subcontrato
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subcontratação de membros da equipa do projeto
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opções de subcontratação para membros da equipa do projeto
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimativa de custos de atribuições de recursos subcontratados
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurar o Quadro da Agenda para mostrar trabalhadores contratados e capacidade subcontratada
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Dotar um projeto com trabalhadores contratados e capacidade subcontratada
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Tempo de gravação, despesas e utilização de materiais para componentes subcontratados'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transições de estado num subcontrato
+          href: pro/subcontracting/subcon-states.md
     - name: Tempo
       items:
         - name: Descrição geral do tempo
@@ -1118,6 +1148,8 @@
       items:
         - name: Agenda da Atualização da Versão do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades e alterações na Atualização da Versão 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Novidades e alterações na Atualização da Versão 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Novidades e alterações na Atualização da Versão 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Manual de relatórios
           href: psa/implementation-guides/reporting-guide.md
+    - name: Atualizar do Project Service Automation para o Project Operations - leve
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Atualização do Project Service Automation (versão 3.x da aplicação)
       items:
         - name: Atualização do Project Service Automation
