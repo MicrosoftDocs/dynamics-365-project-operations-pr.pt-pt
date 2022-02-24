@@ -2,6 +2,8 @@
 title: Analisar o registo de tarefas de faturação nos projetos e contratos do projeto
 description: Este tópico fornece informações sobre como analisar o tempo, as despesas e os registos de tarefas dos produtos e como marcá-los como prontos para faturação.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006980"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150502"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Analisar o registo de tarefas de faturação nos projetos e contratos do projeto
 
@@ -40,7 +42,7 @@ Os valores reais de vendas não faturadas representam o registo de tarefas de fa
 
 Para analisar o registo de tarefas pendentes de faturação para tempo e materiais, aceda a **Vendas** \> **Faturação** \> **Registo de Tarefas Pendentes de Faturação de Tempo e Material**. Selecione todos os valores reais de vendas não faturadas que estão prontos para serem faturados e, em seguida, selecione **Pronto para Faturar**. O estado de faturação destes valores reais é alterado para **Pronto para Faturar**.
 
-![Registo de tarefas pendentes de faturação de tempo e material.](media/TMBacklog.png)
+![Registo de tarefas pendentes de faturação de tempo e material](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Analisar o registo de tarefas pendentes de faturação de produtos
 
@@ -48,7 +50,7 @@ No PSA, quando um contrato do projeto tem itens de contrato baseados em produtos
 
 Para analisar o registo de tarefas pendentes de faturação de produtos, aceda a **Vendas** \> **Faturação** \> **Registo de Tarefas Pendentes de Faturação de Produtos**. Selecione todos os itens de contrato baseados em produtos que estão prontos para serem faturados e, em seguida, selecione **Pronto para Faturar**. O estado de faturação destes itens é alterado para **Pronto para Faturar**.
 
-![Registo de tarefas pendentes de produtos.](media/ProductBacklog.png)
+![Registo de tarefas pendentes de faturação de produtos](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Analisar marcos de faturação em contratos de preço fixo
 
@@ -56,7 +58,4 @@ Cada item de contrato do projeto com um método de faturação de preço fixo te
 
 Para analisar os marcos de faturação, aceda a **Vendas** \> **Faturação** \> **Marcos de Preço Fixo**. Selecione os marcos que estão prontos para serem faturados e, em seguida, selecione **Pronto para faturar**. O estado de faturação destes marcos é alterado para **Pronto para Faturar**.
 
-![Marcos de preço fixo.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Marcos de preço fixo](media/FPBacklog.png)

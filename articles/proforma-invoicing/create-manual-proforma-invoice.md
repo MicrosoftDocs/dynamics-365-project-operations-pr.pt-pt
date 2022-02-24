@@ -1,25 +1,42 @@
 ---
-title: Faturas pró-forma
-description: Esta tópico fornece informações sobre faturas pró-forma no Project Operations.
+title: Criar uma fatura pró-forma manual
+description: Este tópico fornece informações sobre como criar uma fatura pró-forma.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995640"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128072"
 ---
-# <a name="proforma-invoices"></a>Faturas pró-forma
+# <a name="create-a-manual-proforma-invoice"></a>Criar uma fatura pró-forma manual
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-A faturação pró-forma fornece aos gestores de projeto um segundo nível de aprovação antes de criarem faturas para os clientes. O primeiro nível de aprovação é concluído quando as entradas de tempo, despesa e material que os membros da equipa do projeto submetem são aprovadas. As faturas pró-forma confirmadas estão disponíveis no módulo contabilístico do Project Operations. Os contabilistas do projeto podem realizar atualizações adicionais, tais como impostos sobre vendas, gestão contabilística e esquema de faturas.
+A faturação fornece aos gestores de projeto um segundo nível de aprovação antes de criarem faturas para os clientes. O primeiro nível de aprovação é concluído quando as entradas de tempo e de despesa que os membros da equipa do projeto submetem são aprovadas.
 
+As operações do Projeto do Dynamics 365 não foram concebidas para gerar faturas direcionadas para o cliente, pelas seguintes razões:
+
+- Não contém informações sobre impostos.
+- Não consegue converter outras moedas na moeda de faturação utilizando as taxas de câmbio configuradas corretamente.
+- Não é possível formatar corretamente as faturas para que possam ser impressas.
+
+Em vez disso, pode utilizar um sistema financeiro ou de contabilidade para criar faturas direcionadas para o cliente que utilizem as informações das propostas de fatura geradas.
 
 ## <a name="creating-project-invoices"></a>Criar faturas do projeto
 
@@ -33,7 +50,7 @@ Siga este passo para criar uma fatura para um contrato do projeto específico.
 
 - Na página da lista de **Contratos do Projeto**, abra um contrato do projeto e, em seguida, selecione **Criar Fatura**.
 
-    É gerada uma fatura para todas as transações referentes ao contrato do projeto selecionado que têm um estado de **Pronto para Faturar**. Estas transações incluem tempo, despesas, materiais, marcos e outras linhas do diário de vendas não faturadas.
+    É gerada uma fatura para todas as transações referentes ao contrato do projeto selecionado que têm um estado de **Pronto para Faturar**. Estas transações incluem o tempo, as despesas, os marcos e os itens de contrato baseados no produto.
 
 Siga estes passos para criar faturas em massa.
 
@@ -43,7 +60,7 @@ Siga estes passos para criar faturas em massa.
 
 2. Selecione **OK** para fechar a caixa de mensagem.
 
-    É gerada uma fatura para todas as transações num item de contrato que têm um estado de **Pronto para Faturar**. Estas transações incluem tempo, despesas, materiais, marcos e outras linhas do diário de vendas não faturadas.
+    É gerada uma fatura para todas as transações num item de contrato que têm um estado de **Pronto para Faturar**. Estas transações incluem o tempo, as despesas, os marcos e os itens de contrato baseados no produto.
 
 3. Para ver as faturas geradas, aceda a **Vendas** \> **Faturação** \> **Faturas**. Verá uma fatura para cada contrato do projeto.
 
@@ -76,10 +93,11 @@ A tarefa de processamento em lote para criar faturas é uma tarefa recorrente. S
  
 ### <a name="edit-a-draft-invoice"></a>Editar um rascunho da fatura
 
-Quando cria um rascunho da fatura do projeto, todas as transações de vendas não faturadas criadas quando as entradas de tempo, despesa e utilização de material foram aprovadas, são reunidas na fatura. Pode efetuar os seguintes ajustes enquanto a fatura ainda está numa fase de rascunho:
+Quando cria um rascunho da fatura do projeto, todas as transações de vendas não faturadas criadas quando as entradas de tempo e despesa foram aprovadas são reunidas na fatura. Pode efetuar os seguintes ajustes enquanto a fatura ainda está numa fase de rascunho:
 
 - Elimine ou edite os detalhes de linha de fatura.
 - Edite e ajuste a quantidade e o tipo de faturação.
+- Adicione diretamente o tempo, a despesa e as taxas como transações na fatura. Pode utilizar esta funcionalidade se a linha da fatura estiver mapeada para um item de contrato que permita estas classes de transação.
 
 Selecione **Confirmar** para confirmar uma fatura. A ação de Confirmação é uma ação unilateral. Quando seleciona **Confirmar**, o sistema efetua a faturação só de leitura e cria valores reais de vendas faturadas a partir de cada detalhe de linha de fatura para cada linha de fatura. Se o detalhe de linha de fatura referenciar um valor real de vendas não faturadas, o sistema também reverte o valor real de vendas não faturadas. (Qualquer detalhe de linha de fatura que tenha sido criado a partir de uma entrada de tempo ou despesa irá referenciar um valor real de vendas não faturadas.) Os sistemas de integração do razão geral podem utilizar esta reversão para reverter o trabalho do projeto em curso (WIP) para fins de contabilidade.
 
@@ -93,6 +111,3 @@ Quando confirma uma fatura corretiva, o valor real de vendas faturadas originais
 
 - Um valor real de vendas faturadas durante seis horas.
 - Uma valor real de vendas não faturadas para as duas horas restantes. Esta transação pode ser faturada mais tarde ou marcada como não faturável, dependendo das negociações com o cliente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

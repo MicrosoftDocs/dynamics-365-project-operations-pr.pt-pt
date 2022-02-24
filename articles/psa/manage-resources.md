@@ -2,6 +2,8 @@
 title: Gerir recursos
 description: Este tópico fornece informações sobre como pode gerir recursos.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998520"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151357"
 ---
 # <a name="manage-resources"></a>Gerir recursos
 
@@ -58,34 +60,34 @@ Siga estes passos para especificar as competências necessárias num recurso gen
 
 1. Na página **Projetos**, no separador **Equipa**, selecione **Novo** para reservar um recurso genérico.
 
-    ![Recurso genérico reservado na equipa.](media/Resource-Management-image9.png)
+    ![Recurso genérico reservado na equipa](media/Resource-Management-image9.png)
 
 2. Na vista **Todos os Membros da Equipa**, na coluna **Requisito de Recurso**, selecione a ligação para adicionar as competências necessárias para o recurso genérico.
 
-    ![Ligação de requisitos.](media/Resource-Management-image10.png)
+    ![Ligação de requisitos](media/Resource-Management-image10.png)
 
 3. Na página **Requisito de Recurso** que é apresentada, na grelha **Competências**, selecione as reticências (**...**) e, em seguida, selecione **Adicionar Nova Característica de Requisito** para adicionar as competências necessárias para o programador.
 
-    ![Comando Adicionar Nova Característica de Requisito.](media/Resource-Management-image11.png)
+    ![Comando Adicionar Nova Característica de Requisito](media/Resource-Management-image11.png)
 
 4. Na caixa de diálogo **Criação Rápida: Característica de Requisito** que é apresentada, no campo **Característica**, selecione a competência necessária. Em seguida, no campo **Valor de classificação**, selecione o nível de proficiência para essa competência. Por fim, no campo **Requisito de Recurso**, defina o requisito como os recursos de origem a partir de unidades organizacionais ou até mesmo de recursos nomeados. Quando tiver terminado, selecione **Guardar**.
 
-    ![Caixa de diálogo Criação Rápida: Característica de Requisito.](media/Resource-Management-image12.png)
+    ![Caixa de diálogo Criação Rápida: Característica de Requisito](media/Resource-Management-image12.png)
 
 5. Na página **Requisito de Recurso**, selecione **Reservar** para cumprir o requisito de recurso.
 
-    ![Botão Reservar na página Requisito de Recurso.](media/Resource-Management-image13.png)
+    ![Botão Reservar na página Requisito de Recurso](media/Resource-Management-image13.png)
 
     Também pode selecionar o recurso genérico na grelha **Todos os Membros da Equipa** e, em seguida, selecione **Reservar**.
 
-    ![Botão Reservar acima da grelha Todos os Membros da Equipa.](media/Resource-Management-image14.png)
+    ![Botão Reservar acima da grelha Todos os Membros da Equipa](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > Neste exemplo, existem 40 horas necessárias, mas não existem horas reservadas reais, porque os recursos genéricos não têm reservas. Além disso, não existem horas atribuídas, porque o recurso genérico foi adicionado diretamente à equipa. O mesmo não foi adicionado através da atribuição de tarefas.
 
     Na página **Assistente de Agendamento**, pode filtrar os recursos disponíveis de acordo com os requisitos especificados no requisito de recurso. Os recursos são ordenados de acordo com os parâmetros de ordenação especificados no Quadro da Agenda.
 
-    ![Página Assistente de Agendamento.](media/Resource-Management-image15.png)
+    ![Página Assistente de Agendamento](media/Resource-Management-image15.png)
 
     Seguem-se alguns filtros que são frequentemente utilizados:
 
@@ -95,23 +97,23 @@ Siga estes passos para especificar as competências necessárias num recurso gen
 
 6. Se não estiver satisfeito com os resultados da pesquisa inicial de requisitos, pode alterar os critérios de filtro. Expanda o painel **Vista de Filtro** à esquerda e, em seguida, selecione **Pesquisar** para localizar recursos adicionais.
 
-    ![Painel Vista de Filtro.](media/Resource-Management-image16.png)
+    ![Painel Vista de Filtro](media/Resource-Management-image16.png)
 
 7. Para alterar a forma como os resultados são ordenados, selecione **Ordenar**.
 
-    ![Comando Ordenar.](media/Resource-Management-image17.png)
+    ![Comando Ordenar](media/Resource-Management-image17.png)
 
 8. Selecione recursos de acordo com a procura especificada no requisito, conforme indicado na parte superior da grelha. Pode limpar a seleção de células na grelha e deixar a capacidade do recurso aberta. Só é possível selecionar um recurso de cada vez como está reservado.
 
 9. Selecione **Reservar** para reservar o recurso selecionado e deixar o Quadro da Agenda aberto, para que possa selecionar recursos adicionais. Em alternativa, selecione **Reservar e Sair** para reservar o recurso selecionado e fechar o Quadro da Agenda.
 
-    ![Recurso a reservar.](media/Resource-Management-image19.png)
+    ![Recurso a reservar](media/Resource-Management-image19.png)
 
     Recebe uma notificação sobre as horas reservadas. Os indicadores de procura mostram a quantidade de tempo de reserva satisfeita e a quantidade de tempo restante. Também pode ver a quantidade de capacidade do recurso selecionada que é consumida. Selecione **Expandir** para ver mais detalhes sobre as reservas de recursos.
 
 9. Volte à vista **Todos os Membros da Equipa**. Na grelha, note que o recurso genérico foi substituído pelo recurso nomeado e as 40 horas estão listadas como reservadas para esse recurso.
 
-    ![Grelha Todos os Membros da Equipa atualizada.](media/Resource-Management-image20.png)
+    ![Grelha Todos os Membros da Equipa atualizada](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > Não são apresentadas as horas atribuídas, porque estavam reservadas diretamente na equipa. Não foram reservadas através da atribuição de tarefas.
@@ -122,72 +124,72 @@ No PSA, é possível criar tarefas e, em seguida, atribuir-lhes recursos genéri
 
 1. Na página **Projetos**, no separador **Agenda**, selecione **Adicionar** para criar uma tarefa.
 
-    ![Nova tarefa criada.](media/Resource-Management-image21.png)
+    ![Nova tarefa criada](media/Resource-Management-image21.png)
 
 2. No campo **Recursos**, selecione o símbolo **Seletor de Recursos**. O Seletor de Recursos é apresentado e mostra os membros da equipa existentes para o projeto.
 
-    ![Seletor de Recursos.](media/Resource-Management-image22.png)
+    ![Seletor de Recursos](media/Resource-Management-image22.png)
 
 3. Introduza o nome do novo recurso genérico e, em seguida, selecione **Criar**.
 
-    ![Nome de um novo recurso genérico introduzido.](media/Resource-Management-image23.png)
+    ![Nome de um novo recurso genérico introduzido](media/Resource-Management-image23.png)
 
 4. Na caixa de diálogo **Criação Rápida: Membro da Equipa do Projeto** que é apresentada, no campo **Função**, selecione a função para o recurso genérico. No campo **Unidade de Atribuição de Recursos**, selecione a unidade organizacional para o recurso genérico. Em seguida, selecione **Guardar**.
 
-    ![Caixa de diálogo Criação Rápida: Membro da Equipa do Projeto.](media/Resource-Management-image24.png)
+    ![Caixa de diálogo Criação Rápida: Membro da Equipa do Projeto](media/Resource-Management-image24.png)
 
     Agora, o membro da equipa genérico está atribuído à tarefa.
 
-    ![Membro da equipa genérico atribuído à tarefa.](media/Resource-Management-image25.png)
+    ![Membro da equipa genérico atribuído à tarefa](media/Resource-Management-image25.png)
 
     No separador **Equipa**, verá o novo membro da equipa genérico. Tenha em atenção que apenas tem horas atribuídas. Estas horas são a soma de todas as tarefas que estão atribuídas ao membro da equipa genérico. O membro da equipa genérico ainda não tem horas ou um requisito de recurso necessário.
 
-    ![Membro da equipa genérico no separador Equipa.](media/Resource-Management-image26.png)
+    ![Membro da equipa genérico no separador Equipa](media/Resource-Management-image26.png)
 
 5. Agora, pode atribuir o membro da equipa genérico a outras tarefas utilizando o Seletor de Recursos.
 
-    ![Membro da equipa genérico no Seletor de Recursos.](media/Resource-Management-image27.png)
+    ![Membro da equipa genérico no Seletor de Recursos](media/Resource-Management-image27.png)
 
     Quando tiver terminado a atribuição do recurso genérico às tarefas, poderá gerar um requisito de recurso para o recurso genérico.
 
 5. No separador **Equipa**, selecione o recurso genérico e, em seguida, selecione **Gerar Requisito**.
 
-    ![Comando Gerar Requisito.](media/Resource-Management-image28.png)
+    ![Comando Gerar Requisito](media/Resource-Management-image28.png)
 
     Quando o requisito for gerado, o membro da equipa genérico terá as horas necessárias e uma ligação para o requisito de recurso.
 
-    ![Ligação Requisito de recurso.](media/Resource-Management-image29.png)
+    ![Ligação Requisito de recurso](media/Resource-Management-image29.png)
 
     Depois de reservar um recurso nomeado, o recurso genérico é removido da equipa e é substituído pelo recurso nomeado.
 
-    ![Recurso genérico substituído pelo recurso nomeado.](media/Resource-Management-image30.png)
+    ![Recurso genérico substituído pelo recurso nomeado](media/Resource-Management-image30.png)
 
     No separador **Agenda**, as atribuições de recursos genéricos são removidas e substituídas pelo recurso nomeado.
 
-    ![Atribuições de recursos genéricos substituídas pelo recurso nomeado no separador Agenda.](media/Resource-Management-image31.png)
+    ![Atribuições de recursos genéricos substituídas pelo recurso nomeado no separador Agenda](media/Resource-Management-image31.png)
 
     > [!NOTE]
     > Este comportamento só ocorre quando um recurso nomeado é totalmente reservado para o requisito de recurso genérico. Quando um recurso nomeado substitui parcialmente o requisito de recurso genérico ou os vários recursos nomeados substituem o requisito de recurso genérico, o recurso genérico permanece atribuído à tarefa.
 
     Na ilustração seguinte, foi planeada uma tarefa de 80 horas para uma duração de cinco dias (16 horas por dia durante cinco dias) e atribuída ao recurso genérico com o nome **Funcional**.
 
-    ![Tarefa de oitenta horas e cinco dias atribuída ao recurso genérico Funcional.](media/Resource-Management-image32.png)
+    ![Tarefa de oitenta horas e cinco dias atribuída ao recurso genérico Funcional](media/Resource-Management-image32.png)
 
     Quando gera o requisito, dura 80 horas em cinco dias.
 
-    ![Requisito gerado durante 80 horas durante cinco dias.](media/Resource-Management-image33.png)
+    ![Requisito gerado durante 80 horas durante cinco dias](media/Resource-Management-image33.png)
 
     Visto que os recursos disponíveis só funcionam oito horas por dia, são necessários dois recursos para cumprir o requisito.
 
-    ![Segundo recurso.](media/Resource-Management-image35.png)
+    ![Segundo recurso](media/Resource-Management-image35.png)
 
     No separador **Equipa**, pode ver que o recurso genérico não tem horas necessárias, mas as horas atribuídas continuam a aparecer juntamente com os dois recursos nomeados que compõem o cumprimento.
 
-    ![Dois recursos nomeados no separador Equipa.](media/Resource-Management-image36.png)
+    ![Dois recursos nomeados no separador Equipa](media/Resource-Management-image36.png)
 
     No separador **Agenda**, o recurso genérico permanece atribuído à tarefa.
 
-    ![Recursos genéricos no separador Agenda.](media/Resource-Management-image37.png)
+    ![Recursos genéricos no separador Agenda](media/Resource-Management-image37.png)
 
 O PSA não atribui ambos os recursos à tarefa, pois esse comportamento produziria uma agenda menos previsível. Neste exemplo simples, é fácil dividir as horas igualmente entre dois recursos. No entanto, em cenários mais complexos que envolvam várias tarefas e vários recursos, o PSA teria de dar suposições sobre como deve alocar as reservas que são recebidas para vários recursos em várias tarefas.
 
@@ -219,13 +221,13 @@ Depois de ter adicionado um recurso genérico ou nomeado a uma equipa do projeto
 
 1. Na página **Projetos**, no separador **Equipa**, selecione um membro da equipa e, em seguida, selecione **Manter Reservas**.
 
-    ![Quadro da Agenda aberto para o membro da equipa selecionado.](media/Resource-Management-image40.png)
+    ![Quadro da Agenda aberto para o membro da equipa selecionado](media/Resource-Management-image40.png)
 
     O Quadro da Agenda é apresentado e mostra as reservas do membro da equipa do projeto. Expanda o registo do membro da equipa para ver as horas que foram reservadas para este projeto e outros projetos que estão a consumir a capacidade do membro da equipa.
 
 2. Selecione e arraste a reserva para expandir ou reduzir o seu tamanho. É apresentada a caixa de diálogo **Criar Reserva de Recursos** que lhe permite ajustar a reserva.
 
-    ![Caixa de diálogo Criar Reserva de Recursos.](media/Resource-Management-image41.png)
+    ![Caixa de diálogo Criar Reserva de Recursos](media/Resource-Management-image41.png)
 
 3. Clique com o botão direito do rato na reserva. Em seguida, pode utilizar o menu de atalho para concluir as seguintes ações:
 
@@ -237,7 +239,7 @@ Depois de ter adicionado um recurso genérico ou nomeado a uma equipa do projeto
 
 Pode alterar qualquer estado da reserva predefinido ou personalizado.
 
-![Comando Alterar Estado.](media/Resource-Management-image42.png)
+![Comando Alterar Estado](media/Resource-Management-image42.png)
 
 Os seguintes estados estão incluídos no PSA:
 
@@ -257,25 +259,25 @@ Os pedidos de recursos são utilizados para transportar a procura (requisito de 
 
 Quando um requisito de recurso é gerado, um gestor de projeto pode submeter um pedido de recurso para um recurso genérico selecionando o recurso e, em seguida, selecionando **Submeter Pedido**.
 
-![Botão Submeter Pedido.](media/Resource-Management-image45.png)
+![Botão Submeter Pedido](media/Resource-Management-image45.png)
 
 Os comentários sobre o recurso podem ser fornecidos ao gestor de recursos que está a cumprir o pedido. Depois de o pedido ser submetido, o campo **Estado** para o membro da equipa é alterado para **Submetido**.
 
-![Introduzir comentários opcionais.](media/Resource-Management-image46.png)
+![Introduzir comentários opcionais](media/Resource-Management-image46.png)
 
 Quando o gestor de recursos cumpre o pedido, o membro da equipa genérico é substituído pelo recurso nomeado na grelha **Todos os Membros da Equipa**.
 
-![Membro da equipa genérico substituído pelo recurso nomeado na grelha Todos os Membros da Equipa.](media/Resource-Management-image47.png)
+![Membro da equipa genérico substituído pelo recurso nomeado na grelha Todos os Membros da Equipa](media/Resource-Management-image47.png)
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>Utilizar uma proposta de recursos para pedidos de recursos
 
 Em vez de reservar diretamente um recurso num pedido de recurso, um gestor de recursos pode propor um recurso ao gestor de projeto. Um gestor de recursos poderá utilizar esta opção quando não estiver disponível uma correspondência exata para os requisitos. Quando um gestor de recursos propõe um recurso, o gestor de projeto vê que o campo **Estado** do membro da equipa genérico é alterado para **Necessita de Revisão**.
 
-![Estado do membro da equipa genérico alterado para Necessita de Revisão.](media/Resource-Management-image48.png)
+![Estado do membro da equipa genérico alterado para Necessita de Revisão](media/Resource-Management-image48.png)
 
 Para ver o recurso proposto juntamente com uma visualização do efeito da reserva da proposta, faça duplo clique no membro da equipa que tem o estado **Necessita de Revisão**. Em seguida, selecione o separador **Recursos Propostos**.
 
-![Separador Recursos Propostos.](media/Resource-Management-image49.png)
+![Separador Recursos Propostos](media/Resource-Management-image49.png)
 
 Selecione **Aceitar Todas as Propostas** para aceitar todos os recursos propostos ou **Rejeitar Todas as Propostas** para rejeitá-los. Se aceitar os recursos propostos, estes serão reservados de forma fixa no projeto como membros da equipa e substituem os recursos genéricos.
 
@@ -289,30 +291,30 @@ Por vezes, um gestor de projeto tem de substituir um membro da equipa reservado 
 1. Na página **Projetos**, no separador **Equipa**, selecione o recurso que necessita de um substituto e, em seguida, selecione **Manter Reservas**.
 2. Expanda o recurso para ver os projetos aos quais está atribuído.
 
-    ![Recurso expandido para mostrar os projetos atribuídos.](media/Resource-Management-image50.png)
+    ![Recurso expandido para mostrar os projetos atribuídos](media/Resource-Management-image50.png)
 
 3. Clique com o botão direito do rato no projeto e selecione **Substituir Recurso**.
 4. Se souber o recurso que pretende substituir pelo recurso atual, selecione ou escreva o nome e, em seguida, selecione **Reatribuir**.
 
-    ![Especificar um recurso substituto.](media/Resource-Management-image51.png)
+    ![Especificar um recurso substituto](media/Resource-Management-image51.png)
 
     Em alternativa, siga estes passos para procurar um recurso:
 
     1. Selecione **Localizar Substituição**.
 
-        ![Procurar um recurso substituto.](media/Resource-Management-image52.png)
+        ![Procurar um recurso substituto](media/Resource-Management-image52.png)
 
         O Assistente da Agenda devolve uma lista de substitutos disponíveis. No Assistente da Agenda, pode filtrar ainda mais os recursos disponíveis para localizar um substituto adequado.
 
-        ![Lista de substitutos disponíveis.](media/Resource-Management-image53.png)
+        ![Lista de substitutos disponíveis](media/Resource-Management-image53.png)
 
     2. Para substituir o recurso, selecione o recurso pretendido e, em seguida, selecione **Substituir**.
 
-        ![Recurso substituto selecionado.](media/Resource-Management-image54.png)
+        ![Recurso substituto selecionado](media/Resource-Management-image54.png)
 
     As reservas e as atribuições são substituídas pelo novo recurso.
 
-    ![Reservas e atribuições substituídas pelo novo recurso.](media/Resource-Management-image55.png)
+    ![Reservas e atribuições substituídas pelo novo recurso](media/Resource-Management-image55.png)
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Reconciliar reservas e atribuições de membros da equipa
 
@@ -320,7 +322,7 @@ Quanto aos membros da equipa, as reservas e as atribuições têm uma ligação 
 
 O PSA tem um separador **Reconciliação** que permite que os gestores de projeto reconciliem os reservas de membros da equipa e as respetivas atribuições para as equipas do projeto.
 
-![Separador Reconciliação.](media/Resource-Management-image56.png)
+![Separador Reconciliação](media/Resource-Management-image56.png)
 
 O separador **Reconciliação** mostra as reservas e as atribuições até ao nível da atribuição de tarefas individuais para cada membro da equipa. Mostra horas nas células que representam períodos de meses a dias.
 
@@ -335,13 +337,10 @@ Em alguns casos, quando visualiza o tempo num nível superior ao nível do dia (
 
 Quando visualiza o tempo em níveis superiores, as células no separador **Reconciliação** têm um indicador para informá-lo de que existem diferenças em níveis inferiores. Ao clicar duas vezes numa célula, pode ampliar para ver a diferença. Em seguida, pode clicar com o botão direito do rato para reduzir. Ao selecionar um recurso e, em seguida, utilizar o controlo **Diferença seguinte** na barra de ferramentas de grelha, pode ir para a próxima diferença entre as reservas e as atribuições para esse recurso. Em seguida, pode utilizar o controlo **Diferença anterior** para voltar. Também pode desativar o indicador de diferença e o comportamento de navegação em **Definições**.
 
-![Indicador de diferença.](media/Resource-Management-image57.png)
+![Indicador de diferença](media/Resource-Management-image57.png)
 
 Se tiver atribuições de tarefas para um recurso, mas não tiver reservas, na página **Projetos**, no separador **Reconciliação**, selecione a falta de reserva e, em seguida, selecione **Expandir Reserva**. É apresentada a caixa de diálogo **Falta de Reserva** e mostra a reserva necessária para resolver a falta do recurso. Também mostra as reservas existentes do recurso em todos os projetos ou outras entidades agendáveis. Se selecionar **OK** para criar a reserva para o recurso, independentemente da disponibilidade do recurso, poderá causar uma reserva em excesso.
 
-![Caixa de diálogo Expandir Reserva.](media/Resource-Management-image58.png)
+![Caixa de diálogo Expandir Reserva](media/Resource-Management-image58.png)
 
 Em seguida, o gestor de projeto ou o gestor de recursos pode utilizar o Quadro da Agenda para gerir qualquer situação em que um recurso tenha uma reserva em excesso além da sua capacidade.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

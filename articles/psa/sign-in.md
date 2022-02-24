@@ -2,6 +2,8 @@
 title: Iniciar sessão no Project Service Automation
 description: Como iniciar sessão no Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990465"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150277"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Iniciar sessão no Project Service Automation
 
@@ -37,7 +39,7 @@ Quando inicia sessão nas aplicações do Dynamics 365, tem de ter as seguintes 
   
 - A sua palavra-passe  
   
-  Provavelmente recebeu estas informações numa mensagem de correio eletrónico da parte do administrador. Se não tem todas estas informações, ou se tiver problemas ao iniciar sessão no [Contacte o administrador ou o suporte técnico](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Provavelmente recebeu estas informações numa mensagem de correio eletrónico da parte do administrador. Se não tem todas estas informações, ou se tiver problemas ao iniciar sessão no [Contacte o administrador ou o suporte técnico](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Definir opções pessoais para permitir e-mail  
  Tem de configurar as definições de e-mail para permitir que outros utilizadores enviem e-mail em seu nome, para que o [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] possa enviar-lhe notificações por e-mail quando tiver tempo e despesas para aprovação ou inscrição em projetos.  
@@ -54,6 +56,3 @@ Quando inicia sessão nas aplicações do Dynamics 365, tem de ter as seguintes 
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

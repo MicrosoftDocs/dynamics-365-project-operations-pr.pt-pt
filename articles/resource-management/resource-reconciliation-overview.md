@@ -2,25 +2,27 @@
 title: Descrição geral da reconciliação de recursos
 description: Esta tópico fornece informações que o ajudarão a garantir que as reservas de recursos e atribuições para projetos estão alinhadas.
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994785"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849638"
 ---
 # <a name="resource-reconciliation-overview"></a>Descrição geral da reconciliação de recursos
 
@@ -46,6 +48,3 @@ Se tiver atribuições de tarefas para um recurso, mas não tiver reservas, sele
 As reservas que são criadas através da ação **Prolongar reserva** estão associadas à exigência do projeto primário. Quando uma extensão é iniciada, o requisito específico que deve ser estendido não pode ser determinado, porque o recurso pode estar associado a mais de um requisito para o projeto.
 
 Em seguida, o gestor de projeto ou o gestor de recursos podem utilizar o quadro da agenda para gerir qualquer situação em que um recurso tenha uma reserva em excesso além da sua capacidade.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

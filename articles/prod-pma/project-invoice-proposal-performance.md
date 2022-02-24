@@ -2,9 +2,11 @@
 title: Desempenho da proposta de fatura de projeto
 description: Este tópico fornece informações sobre melhorias de desempenho nas propostas de faturas do projeto.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005720"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920316"
 ---
 # <a name="project-invoice-proposal-performance"></a>Desempenho da proposta de fatura de projeto
 
@@ -44,6 +46,4 @@ Complete os passos seguintes para desligar a melhoria do desempenho da proposta 
 3.  Atualize o seu browser.
 
 > [!NOTE]
-> O desempenho da proposta de fatura não pode ser aplicado quando as regras de faturação estão ativadas.
-> 
-> Durante o processamento em lote para criar propostas de fatura, o número de subtarefas irá dividir as tarefas a um número máximo baseado no número de contratos com transações faturáveis, independentemente do que tenha introduzido. Por exemplo, se introduzir **3** para o número de subtarefas para a criação de propostas de fatura em lote, e só existirem dois contratos com transações faturáveis, só serão criadas duas subtarefas.
+> O desempenho da proposta de fatura não pode ser aplicado quando as regras de faturação estão ativadas ou os processos de lote estão em execução.

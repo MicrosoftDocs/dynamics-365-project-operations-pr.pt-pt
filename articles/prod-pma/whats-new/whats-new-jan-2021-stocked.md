@@ -2,17 +2,19 @@
 title: Novidades ou alterações de janeiro de 2021 no Project Operations para cenários baseados em produção/armazenados
 description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de janeiro de 2021 do Project Operations para cenários baseados em Stock e Produção.
 author: andchoi
+manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992760"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958662"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações de janeiro de 2021 no Project Operations para cenários baseados em produção/armazenados
 
@@ -142,7 +144,4 @@ Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Proj
 | Viagem e Despesa                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | No Project Operations, o tempo com tarefas interempresa em Dataverse não pode ser criado ou aprovado.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para aplicações Finance and Operations, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Para obter informações sobre atualizações regulamentares para aplicações Finance and Operations, consulte [Atualizações regulamentares](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.

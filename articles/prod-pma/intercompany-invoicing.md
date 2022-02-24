@@ -2,9 +2,11 @@
 title: Faturação entre empresas
 description: Este artigo fornece informações e exemplos sobre a faturação entre empresas para projetos.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995820"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270782"
 ---
 # <a name="intercompany-invoicing"></a>Faturação entre empresas
 
@@ -33,7 +35,7 @@ A sua organização pode ter múltiplas divisões, subsidiárias e outras entida
 
 A ilustração seguinte mostra um cenário típico em que duas entidades jurídicas, SI FR (entidade jurídica tomadora) e a SI USA (entidade jurídica prestadora) partilham recursos para entregar um projeto ao cliente A. Para este cenário, a SI FR é contratada para entregar o trabalho ao cliente A. 
 
-[![Exemplo de faturação entre empresas.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Exemplo de faturação entre empresas](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 O objetivo é tornar o controlo de custos, o reconhecimento de receitas, os impostos e o preço de transferência para transações de projetos entre empresas mais flexível e poderoso. Além disso, são fornecidas as seguintes funcionalidades:
 

@@ -2,6 +2,8 @@
 title: Reservar recursos reserváveis nomeados para uma equipa do projeto e atribuir tarefas
 description: Este tópico fornece informações sobre como reservar recursos nomeados para as equipas do projeto e atribui-los a tarefas.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8568921dd16472f10a7043c5fe3f58b9f5cd3989ad39e3a3bdf269b0c7203ae2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8a49b6ae8423cb99c710e40704475b4a71d3724
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998655"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145372"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Reservar recursos reserváveis nomeados para uma equipa do projeto e atribuir tarefas 
 
@@ -34,38 +36,35 @@ Pode adicionar um recurso nomeado à sua equipa do projeto, reservando-o diretam
 1. No Project Service Automation, aceda a **Projetos** e selecione para abrir o projeto que está a reservar.
 2. Na página **Projeto**, no separador **Equipa**, clique em **Novo**. 
 
-![Adicionar um membro da equipa a partir do separador equipa.](media/RM-how-to-1.png)
+![Adicionar um membro da equipa a partir do separador equipa](media/RM-how-to-1.png)
 
 3. Na caixa de diálogo **Criação Rápida de Membro de Equipa do Projeto**, selecione o recurso reservável. O campo **Função** será preenchido com a função predefinida do recurso se tiver atribuído um. Poderá alterar a função, se for necessário. 
 4. Selecione as datas de início e fim, em que o recurso será necessário e selecione o método de alocação da capacidade do recurso. 
 5. Se pretender que o membro da equipa seja um aprovador do projeto, selecione **Sim** no campo **Aprovador do Projeto**. Isto significa que o membro da equipa pode aprovar as entradas de tempo e despesas submetidas para este projeto. 
 6. Clique em **Guardar**.
 
-![Adicionar um membro da equipa no formulário criação rápida.](media/RM-how-to-2.png)
+![Adicionar um membro da equipa no formulário criação rápida](media/RM-how-to-2.png)
 
 
 Agora, pode atribuir o recurso reservado a tarefas no projeto. Na página **Projeto**, clique no separador **Agenda** para atribuir tarefas ao novo recurso. O seletor de recursos que é iniciado a partir do campo **Recursos** na grelha de tarefas irá mostrar os membros da equipa que pode selecionar.
 
-![Atribuir um membro da equipa a uma tarefa no separador agenda.](media/RM-how-to-3.png)
+![Atribuir um membro da equipa a uma tarefa no separador agenda](media/RM-how-to-3.png)
 
 Na versão 3 do Project Service Automation (PSA), as reservas de recursos e as atribuições de tarefas não estão totalmente ligadas. Isto significa que, quando utiliza o seletor de recursos na agenda, pode atribuir tarefas a membros da equipa durante mais horas do que as reservas deles cobrem no projeto.
 Pode ver as diferenças entre as reservas e as atribuições de membros da equipa no separador **Equipa** ou no separador **Reconciliação de Recursos**. Também pode reconciliar as diferenças entre as reservas e as atribuições de recursos a um nível mais detalhado.
 
-![Separador Reconciliação de recursos.](media/RM-how-to-4.png)
+![Separador Reconciliação de recursos](media/RM-how-to-4.png)
 
 Também pode utilizar o seletor de recursos no separador **Agenda** para procurar e selecionar recursos reserváveis que ainda não fazem parte da equipa do projeto. Estes são mostrados no seletor de recursos como **Outros Recursos**.
 
-![Atribuir um recurso de um membro não pertencente à equipa a uma tarefa.](media/RM-how-to-5.png)
+![Atribuir um recurso de um membro não pertencente à equipa a uma tarefa](media/RM-how-to-5.png)
 
 Quando efetua este procedimento, o recurso é adicionado à equipa do projeto e atribuído à tarefa, mas não são geradas reservas.
 
-![Membro da equipa com atribuições e sem reservas.](media/RM-how-to-6.png)
+![Membro da equipa com atribuições e sem reservas](media/RM-how-to-6.png)
 
 Pode utilizar a capacidade de expansão da reserva do separador **Reconciliação** ou o **Quadro da Agenda** para reservar a capacidade do recurso para o projeto.
 
-![Expandir reservas para um membro da equipa no separador reconciliação de recursos.](media/RM-how-to-7.png)
+![Expandir reservas para um membro da equipa no separador reconciliação de recursos](media/RM-how-to-7.png)
 
 Depois de um membro da equipa ficar reservado no seu projeto, pode manter as reservas ou utilizar o Quadro da Agenda diretamente para gerir as respetivas reservas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987720"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993321"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Como atribuir um recurso reservável a uma tarefa na aplicação Web (aplicação Project Service v2.x)?
 
@@ -43,7 +43,7 @@ Com este método, adiciona um recurso à equipa do projeto e, em seguida, atribu
 3.  Selecione as datas **De** e **Para**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de ecrã da adição de membro da equipa.](media/FAQ-Resources-to-Tasks2-1.png "Captura de ecrã da adição de membro da equipa")
+    > ![Captura de ecrã da adição de membro da equipa](media/FAQ-Resources-to-Tasks2-1.png "Captura de ecrã da adição de membro da equipa")
  
 4.  Escolha um dos seguintes métodos de alocação para o agendamento do recurso:
     - **Capacidade Total** reserva a capacidade total do recurso para as datas de e para especificadas.
@@ -63,12 +63,12 @@ Com este método, adiciona um recurso à equipa do projeto e, em seguida, atribu
     3. Selecione **OK**. Agora, o membro da equipa está atribuído à tarefa.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de ecrã da adição de recursos com WBS.](media/FAQ-Resources-to-Tasks2-2.png "Captura de ecrã da adição de recursos com WBS")
+    > ![Captura de ecrã da adição de recursos com WBS](media/FAQ-Resources-to-Tasks2-2.png "Captura de ecrã da adição de recursos com WBS")
  
 Na grelha de membro da equipa, verá o agregado das horas atribuídas ao recurso em Horas Atribuídas. Serão menos ou iguais às horas reservadas para o recurso. 
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de ecrã das horas atribuídas a um recurso.](media/FAQ-Resources-to-Tasks2-3.png "Captura de ecrã das horas atribuídas a um recurso")
+> ![Captura de ecrã das horas atribuídas a um recurso](media/FAQ-Resources-to-Tasks2-3.png "Captura de ecrã das horas atribuídas a um recurso")
  
 Se a tarefa que estiver a tentar atribuir ao recurso iniciar após a data de fim das reservas dos recursos, o recurso não aparecerá no menu suspenso.
 
@@ -92,22 +92,22 @@ Este método assegura que os recursos têm reservas suficientes para tarefas. Em
 4. Selecione **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de ecrã da utilização de WBS para adicionar recurso.](media/FAQ-Resources-to-Tasks2-4.png "Captura de ecrã da utilização de WBS para adicionar recurso")
+    > ![Captura de ecrã da utilização de WBS para adicionar recurso](media/FAQ-Resources-to-Tasks2-4.png "Captura de ecrã da utilização de WBS para adicionar recurso")
  
 Quando tiver concluído a atribuição de funções às tarefas no WBS, selecione **Gerar Equipa do Projeto**. O Project Service cria a quantidade mínima de membros da equipa genéricos com base nas funções, unidades de organização e calendário do projeto ao agregar as atribuições de tarefas.
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de ecrã da geração da equipa do projeto.](media/FAQ-Resources-to-Tasks2-5.png "Captura de ecrã da geração da equipa do projeto")
+> ![Captura de ecrã da geração da equipa do projeto](media/FAQ-Resources-to-Tasks2-5.png "Captura de ecrã da geração da equipa do projeto")
  
 Na grelha Membro da Equipa, verá recursos do tipo Recurso Genérico com o nome da função e posição. Se forem necessários dois recursos para uma função concluir o trabalho, a funcionalidade Gerar Equipa cria dois membros da equipa e utiliza o nome de posição para os diferenciar.
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de ecrã da adição de dois recursos genéricos.](media/FAQ-Resources-to-Tasks2-6.png "Captura de ecrã da adição de dois recursos genéricos")
+> ![Captura de ecrã da adição de dois recursos genéricos](media/FAQ-Resources-to-Tasks2-6.png "Captura de ecrã da adição de dois recursos genéricos")
  
 Pode abrir o requisito de recursos de cópia de segurança do membro da equipa genérico selecionando a ligação em Requisito de Recurso.
 
 > [!div class="mx-imgBorder"] 
-> ![Captura de ecrã da abertura de suporte do requisito de recurso.](media/FAQ-Resources-to-Tasks2-7.png "Captura de ecrã da abertura de suporte do requisito de recurso")
+> ![Captura de ecrã da abertura de suporte do requisito de recurso](media/FAQ-Resources-to-Tasks2-7.png "Captura de ecrã da abertura de suporte do requisito de recurso")
 
 Selecione **Reservar** para o recurso genérico e, em seguida, pode utilizar o quadro da agenda para localizar e reservar um recurso real. Também é possível enviar o requisito para preenchimento por um gestor de recursos selecionando **Enviar Pedido**.
 

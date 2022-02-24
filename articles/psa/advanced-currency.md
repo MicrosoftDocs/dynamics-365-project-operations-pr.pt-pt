@@ -2,6 +2,8 @@
 title: Cenários de várias moedas (versão 3.x)
 description: Este tópico fornece informações sobre cenários de várias moedas.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005135"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145687"
 ---
 # <a name="multiple-currency-scenarios"></a>Cenários de várias moedas
 
@@ -34,7 +36,7 @@ O Microsoft Dynamics 365 tem dois conceitos de moedas:
 - **Moeda da transação** - A moeda na qual uma transação ocorre. 
 - **Moeda base** - A moeda da instância do Dynamics 365. Esta moeda é configurada quando uma instância do Dynamics 365 é aprovisionada. Não é possível alterar.
 
-Por exemplo, a Contoso US vendeu 100 t-shirts a um cliente do Reino Unido por 15 libras (GBP) cada. A tabela seguinte mostra como esta transação é registada na entidade Produto da Encomenda.
+Por exemplo, a Contoso US venderam 100 t-shirts a um cliente do Reino Unido por 15 libras (GBP) cada. A tabela seguinte mostra como esta transação é registada na entidade Produto da Encomenda.
 
 | Produto | Quantidade | Preço unitário | Moeda | Montante | Câmbio | Preço unitário (Base)| Montante (Base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -70,10 +72,10 @@ Esta secção descreve um exemplo de um projeto que a Contoso UK fornece a um cl
 
 1. A GBP e o iene japonês (JPY) estão configurados em **Definições** \> **Gestão de Negócio** \> **Moedas**. 
 2. Uma conta de cliente denominada **Fabrikam - Japão** está configurada e o JPY está selecionado como a moeda na conta.
-3. Uma unidade organizacional denominada **Contoso UK** está configurada e GBP está selecionada como moeda.
-4. É criado um contrato de projeto, em que **Contoso UK** é especificada como a unidade de contratação e **Fabrikam – Japão** é especificada como cliente.
+3. Uma unidade organizacional denominada **Contoso UK** está configurada e a GBP é selecionada como a moeda.
+4. É criado um contrato de projeto, em que a **Contoso UK** é especificada como a unidade de contrato e a **Fabrikam – Japão** é especificada como o cliente.
 5. Os itens de contrato de projeto são criados, com base nas disposições de faturação para as várias classes de transação no projeto, tal como a faturação para o tempo versus a faturação de despesas.
-6. É criado um projeto em que **Contoso UK** é especificada como unidade de contratação. Este projeto é criado e mapeado para os itens de contrato do projeto.
+6. É criado um projeto em que a **Contoso UK** é especificada como a unidade de contratação. Este projeto é criado e mapeado para os itens de contrato do projeto.
 
 
 Durante a estimativa que utiliza o detalhe de linha de proposta, os detalhes de item de contrato do projeto, ou na linha de estimativa da agenda, são sempre criados dois registos na entidade. Um registo é para o custo e o outro registo é para as vendas.
@@ -103,6 +105,3 @@ O Dynamics 365 processa automaticamente as acumulações de montantes em moedas 
 | Despesa           | Vendas não faturadas   | 17 jun | Gonçalo  | Aluguer de Automóvel           | 1 cada     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Para calcular o valor total de vendas não faturadas no projeto, pode criar um campo de acumulação para o campo **Montante** em todos os valores reais de vendas não faturadas relacionados. O campo de acumulação é uma construção do Dynamics 365 que permite fórmulas rápidas sobre os registos relacionados.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

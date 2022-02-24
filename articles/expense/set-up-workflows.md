@@ -2,9 +2,11 @@
 title: Configurar fluxos de trabalho para a gestão de despesas
 description: Pode configurar um processo de fluxo de trabalho usado para rever e aprovar documentos de viagem e despesas.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997755"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127712"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Configurar fluxos de trabalho para a gestão de despesas
 
@@ -46,6 +48,3 @@ A tabela seguinte lista os tipos de fluxos de trabalho que pode criar em **Gest�
 |       <strong>Requisição de viagens</strong>       |          Criar aprovação de fluxos de trabalho para requisições de viagem.           |
 |      <strong>Pedido de adiantamento de dinheiro</strong>      |         Criar aprovação de fluxos de trabalho para pedidos de adiantamento de dinheiro.          |
 |        <strong>Recuperação da taxa de IVA</strong>        | Criar aprovação de fluxos de trabalho para a recuperação do imposto sobre o valor acrescentado (IVA).  |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

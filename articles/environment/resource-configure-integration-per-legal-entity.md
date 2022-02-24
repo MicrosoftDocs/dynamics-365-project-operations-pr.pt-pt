@@ -2,16 +2,18 @@
 title: Configurar a integração do Project Operations por entidade legal
 description: Este tópico fornece informações sobre como configurar integração por entidade legal no Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999420"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122897"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurar a integração do Project Operations por entidade legal 
 
@@ -49,6 +51,3 @@ Cada entidade legal que utiliza o Project Operations no Dynamics 365 Customer En
   - **Predefinições do tipo de faturação**: O Project Operations utilizam um conjunto fixo de predefinições do tipo de faturação que devem ser mapeados para as propriedades de linha Finanças. Criar um registo para cada tipo de faturação: **Não especificado**, **Faturável**, **Não faturável**, **Complementar** e **Não disponível**.
   - **Predefinições de categoria do projeto**: Selecione as categorias de projeto predefinidas a utilizar para cada tipo de transação. Estas predefinições serão utilizadas no **Diário de Integração do Project Operations** e em estimativas onde não é especificada nenhuma categoria de transação para o valor real do projeto.
   - **Previsões**: Selecione o modelo de previsão a utilizar para estimativas de tempo e despesas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

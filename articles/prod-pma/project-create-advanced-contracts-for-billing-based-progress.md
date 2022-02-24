@@ -2,9 +2,11 @@
 title: Criar contratos avançados para faturação baseada em progresso
 description: Este tópico explica como criar contratos de projeto para que possa gerar faturas para os clientes, com base numa percentagem de trabalho concluído.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000995"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082533"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Criar contratos avançados para faturação baseada em progresso
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ Categorias de orçamento são utilizadas para calcular automaticamente os montan
 8. Opcional: Atribua a regra de faturação a projetos adicionais. No Separador Rápido **Projeto**, na secção **Projetos disponíveis**, selecione um projeto e, em seguida, selecione o botão de seta para a direita para adicionar o projeto à secção **Projetos selecionados**.
 9. Opcional: Calcule o montante percentual que o cliente retém dos pagamentos numa fatura. No Separador Rápido **Termos de sinal de pagamento**, selecione a origem do financiamento e, em seguida, no campo **Percentagem de sinal**, insira a percentagem de sinal.
 10. Repita estes passos para criar regras adicionais de faturação para o contrato do projeto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

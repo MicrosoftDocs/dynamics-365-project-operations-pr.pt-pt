@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987630"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992980"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Criar uma reserva de projeto no quadro da Agenda
 
@@ -43,7 +43,7 @@ Pode criar um recurso genérico e atribuí-lo a uma ou mais tarefas dentro de um
 
 1.  No quadro da Agenda, este recurso será mostrado no separador **Abrir Requisitos**. Também poderá ter de utilizar os filtros de coluna na grelha se tiver muitos requisitos abertos. 
 
-    ![Abrir o separador Requisitos no quadro Agenda.](media/FAQ-Project-Booking-Schedule-Board-1.png "Captura de ecrã da tabela de reservas e atribuições")
+    ![Abrir o separador Requisitos no quadro Agenda](media/FAQ-Project-Booking-Schedule-Board-1.png "Captura de ecrã da tabela de reservas e atribuições")
 
 2. Selecione o requisito. O separador **Localizar Disponibilidade** será apresentado na parte superior da linha selecionada.
  
@@ -53,7 +53,7 @@ Pode criar um recurso genérico e atribuí-lo a uma ou mais tarefas dentro de um
 
     Selecionar **Reservar** reserva o recurso para a equipa do projeto.
 
-![Painel Criar Reserva de Recursos.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Painel Criar Reserva de Recursos](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Reservar a partir do Requisito Principal
@@ -62,7 +62,7 @@ Criar um projeto no Project Service automaticamente cria um requisito de recurso
 
 1. Para reservar um recurso com o Requisito Principal, no quadro da Agenda, selecione o separador **Projeto**. Se tiver vários projetos, poderá ter de utilizar o filtro de colunas no **Projeto**.
 
-   ![Filtros de colunas no quadro Agenda.](media/FAQ-Project-Booking-Schedule-Board-2.png "Captura de ecrã da tabela de reservas e atribuições")
+   ![Filtros de colunas no quadro Agenda](media/FAQ-Project-Booking-Schedule-Board-2.png "Captura de ecrã da tabela de reservas e atribuições")
 
 2. Selecione o requisito que só tem o nome do projeto como o respetivo nome e uma duração de zero (0).
 

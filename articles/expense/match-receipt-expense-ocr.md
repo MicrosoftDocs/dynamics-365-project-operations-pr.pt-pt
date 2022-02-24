@@ -2,9 +2,11 @@
 title: Capturar um recibo com o OCR
 description: Este tópico fornece informações sobre o processamento de reconhecimento de caracteres óticos (OCR) para obter recibos.
 author: suvaidya
-ms.date: 11/10/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798054"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499865"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Capturar um recibo com o OCR
 
@@ -85,18 +87,7 @@ Não, a Microsoft construiu um modelo de aprendizagem automática geral para o s
 
 **Onde é que esta funcionalidade está disponível e processada?**
 
-A disponibilidade desta funcionalidade em diferentes regiões está listada na tabela seguinte. Se a sua região não for atualmente atualmente, submeta um pedido de prioridade à disponibilidade do serviço OCR na sua região. 
-
-| País/Região | Suportado                         |
-|--------|-----------------------------------|
-| EUA    | Sim                               |
-| CAN    | Sim                               |
-| Reino Unido     | Sim                               |
-| AUS    | Sim                               |
-|  EU     | Parcialmente. Só recibos em inglês. |
-| Ásia   | No                                |
-| Japão  | No                                |
-| África | No                                |
+Atualmente, os Estados Unidos são compatíveis.
 
 **Para onde vão os meus recibos?**
 

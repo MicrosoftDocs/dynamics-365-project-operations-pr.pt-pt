@@ -2,16 +2,18 @@
 title: Gerir vários clientes em linhas de proposta baseadas em projetos
 description: Este tópico fornece informações sobre como gerir vários clientes em linhas de proposta baseadas em projetos.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992040"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118577"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Gerir vários clientes em linhas de proposta baseadas em projetos
 
@@ -42,6 +44,3 @@ A tabela seguinte mostra os campos no registo de cliente da linha de proposta de
 Pode editar as percentagens de divisão de faturação na linha. Quando as percentagens de divisão de faturação não totalizam 100%, ocorre um erro. Depois de editar as percentagens de divisão de faturação, atualize a página da linha de proposta para remover o erro.
 
 Utilize a ação de distribuição uniforme na subgrelha dos clientes da linha de proposta para alocar divisões de faturação a todos os clientes de linha de proposta. Se existir um fator de arredondamento, ele será adicionado ao cliente arredondamento. Um dos clientes da linha de proposta é sempre sinalizado como o cliente arredondamento, o que significa que o registo do cliente da linha de proposta tem o sinalizador de arredondamento definida como **Sim**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

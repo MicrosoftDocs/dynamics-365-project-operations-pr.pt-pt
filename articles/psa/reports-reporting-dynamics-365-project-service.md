@@ -2,9 +2,10 @@
 title: Home page de geração de relatórios
 description: Este tópico fornece informações sobre a geração de relatórios no Dynamics 365 Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,28 +18,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4e60fc8c3788f4a2997d894e79d0d510d63209dd1570d79f1c43c2814d8ab819
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998295"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147712"
 ---
-# <a name="reporting-home-page"></a>Home page dos relatórios
+# <a name="reporting-home-page"></a>Home page de geração de relatórios
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-O Microsoft Dynamics 365 Project Service Automation permite que as organizações baseadas em projetos gerem com eficiência as operações dos seus negócios. Em qualquer projeto, os membros da equipa devem gerir a oportunidade, a proposta e planear o trabalho, fornecer recursos aos projetos, gerir o trabalho de acordo com o plano, cobrar pelo trabalho e, em seguida, realizar o trabalho para concluir o projeto. A capacidade de gerar relatórios sobre operações é a chave que determina o estado de funcionamento da organização e tomar as ações corretivas necessárias. O PSA utiliza os métodos e as tecnologias de geração de relatórios do Microsoft Dynamics 365 para todos os relatórios. Para mais informações sobre as opções para relatórios, consulte o [Guia de escrita de relatórios para Dynamics 365 Customer Engagement (on-premises), versão 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+O Microsoft Dynamics 365 Project Service Automation permite que as organizações baseadas em projetos gerem com eficiência as operações dos seus negócios. Em qualquer projeto, os membros da equipa devem gerir a oportunidade, a proposta e planear o trabalho, fornecer recursos aos projetos, gerir o trabalho de acordo com o plano, cobrar pelo trabalho e, em seguida, realizar o trabalho para concluir o projeto. A capacidade de gerar relatórios sobre operações é a chave que determina o estado de funcionamento da organização e tomar as ações corretivas necessárias. O PSA utiliza os métodos e as tecnologias de geração de relatórios do Microsoft Dynamics 365 para todos os relatórios. Para mais informações sobre as opções para relatórios, consulte o [Guia de escrita de relatórios para Dynamics 365 Customer Engagement (on-premises), versão 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Assistente de Relatórios
 
-O Assistente de Relatórios permite que não programadores criem relatórios simples. Uma vez que a aplicação está incorporada numa plataforma existente, a experiência é a mesma que a experiência que está documentada em [Criar ou editar um relatório utilizando o Assistente de Relatórios](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). No entanto, irá utilizar as entidades específicas do Project Service Automation.
+O Assistente de Relatórios permite que não programadores criem relatórios simples. Uma vez que a aplicação está incorporada numa plataforma existente, a experiência é a mesma que a experiência que está documentada em [Criar ou editar um relatório utilizando o Assistente de Relatórios](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). No entanto, irá utilizar as entidades específicas do Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Relatórios personalizados do SQL Server Reporting Services
 
-Se a sua empresa exigir um relatório específico que não possa ser criado utilizando o Assistente de Relatório, poderá criar um relatório personalizado. Tem de ter o Microsoft Visual Studio instalado, juntamente com o Microsoft SQL Server Data Tools e as Extensões de Criação de Relatórios adequadas. Para mais informações sobre as ferramentas e as versões, consulte [Ambiente de escrita de relatórios com o SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Para obter informações sobre como criar um relatório personalizado, consulte [Criar um novo relatório com o SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+Se a sua empresa exigir um relatório específico que não possa ser criado utilizando o Assistente de Relatório, poderá criar um relatório personalizado. Tem de ter o Microsoft Visual Studio instalado, juntamente com o Microsoft SQL Server Data Tools e as Extensões de Criação de Relatórios adequadas. Para mais informações sobre as ferramentas e as versões, consulte [Ambiente de escrita de relatórios com o SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Para obter informações sobre como criar um relatório personalizado, consulte [Criar um novo relatório com o SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>Aplicações de insights do Power BI
 
@@ -51,6 +52,3 @@ Para mais informações sobre a geração de relatórios no PSA, consulte os seg
 - [Trabalhar com o modelo de dados do Project Service](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

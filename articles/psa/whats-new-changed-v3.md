@@ -1,6 +1,8 @@
 ---
 title: Novidades ou alterações no Project Service Automation versão 3
 description: Este tópico inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987090"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150682"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novidades ou alterações no Project Service Automation versão 3
 
@@ -36,7 +38,7 @@ Este tópico inclui informações sobre as alterações feitas na UI (interface 
 ## <a name="project-scheduling"></a>Agendamento de projetos
 O agendamento de projetos, que era conhecido como WBS (estrutura hierárquica do trabalho) nas versões anteriores, foi renomeado para Agendar, e pode ser acedido clicando no separador **Agendar**. 
 
-![Agendamento de projetos.](media/psa-schedule-01.png)
+![Agendamento de projetos](media/psa-schedule-01.png)
 
 A agenda agora tem uma nova superfície para interação que é moderna e acessível. No entanto, o motor de agendamento do Project Service Automation subjacente não foi alterado. Os botões de controlo no friso da grelha da agenda permitem interagir com a agenda de maneira semelhante à versão anterior do Project Service Automation. Outras alterações à agenda incluem:
 
@@ -95,22 +97,22 @@ Ao mover a agenda de um projeto existente, ocorre o seguinte:
 ## <a name="estimates"></a>Estimativas
 As estimativas foram divididas em dois separadores, **Atribuição de recurso** e **Estimativas**. O separador **Atribuição de recurso** contém as estimativas de esforço e mostra as atribuições do recurso para as tarefas numa vista faseada no tempo. Pode editar as estimativas com base no que foi gerado pelo motor de agendamento.
 
-![Separador de atribuições de recursos a mostrar estimativas de esforço e atribuições do recurso para as tarefas.](media/resource-assignments-tab-02.png)
+![Separador de atribuições de recursos a mostrar estimativas de esforço e atribuições do recurso para as tarefas](media/resource-assignments-tab-02.png)
 
 O separador **Estimativas** mostra os valores de custo e vendas das atribuições do recurso. Os valores são só de leitura. Agora, a definição de preços de custo e venda é derivada das atribuições do membro da equipa na agenda. Isto significa que, se houver uma tarefa sem nenhuma atribuição, ela será apresentada sob o registo não atribuído. Isto também significa que, sem **função**, que é uma dimensão de definição de preços predefinida, não haverá nenhuma estimativa de custo ou vendas se houver um cliente ou um contrato/uma proposta associado ao projeto. 
 
-![Separador Estimativas a mostrar valores de custo e vendas.](media/estimates-tab-03.png)
+![Separador Estimativas a mostrar valores de custo e vendas](media/estimates-tab-03.png)
   
 A categoria também é suportada em tarefas na vista da agenda. O agrupamento por categoria na vista faseada no tempo das estimativas fornecerá uma experiência melhor, especialmente quando tiver estimativas de despesa no seu projeto. As estimativas de despesa são introduzidas utilizando uma grelha num separador separado. 
 
 As estimativas de despesa podem ser introduzidas na grelha do separador **Estimativas de despesas**. 
 
-![Separador Estimativas de despesas a mostrar a grelha de estimativas de despesas.](media/expense-estimates-tab-04.png)
+![Separador Estimativas de despesas a mostrar a grelha de estimativas de despesas](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Gestão de recursos
 No Project Service Automation versão 3, com a nova IU Unificada do Cliente e as alterações nas relações entre reservas e atribuições, a definição da equipa de um projeto com recursos genéricos ou reais foi alterada significativamente em comparação com as versões 2 e 1. Entretanto, os conceitos de recursos reserváveis, **real** e **genérico**, permanecem iguais, assim como os membros da equipa, os requisitos, as atribuições e as reservas.   
 
-![Utilizando o seletor de recursos.](media/resource-management-05.png)
+![Utilizando o seletor de recursos](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Atribuir um recurso reservável real 
 No Project Service Automation versão 3, as reservas e as atribuições de tarefas não estão tão entrelaçados como nas versões anteriores do Project Service Automation. Pode utilizar a grelha da equipa para reservar um membro da equipa **real**, de modo semelhante ao mercado.
@@ -136,7 +138,7 @@ Quando um requisito é cumprido com vários recursos, o recurso genérico perman
 ### <a name="reconciliation"></a>Reconciliação
 O separador **Reconciliação** mostra as reservas e todas as atribuições de cada membro da equipa do projeto. A vista mostra as horas em células que podem representar pontos no tempo, desde meses até dias. Esta vista permite que os gestores de projeto reconciliem as reservas dos membros da equipa e as suas atribuições para a equipa do projeto. Isto é útil porque as reservas e as atribuições de tarefa não estão totalmente ligadas, o que permite uma maior flexibilidade ao planear um projeto. 
 
-![Separador Reconciliação a mostrar as reservas e as atribuições dos membros da equipa do projeto.](media/resource-reconciliation-tab-06.png)
+![Separador Reconciliação a mostrar as reservas e as atribuições dos membros da equipa do projeto](media/resource-reconciliation-tab-06.png)
 
 Para cada recurso, a vista calcula a diferença entre as reservas de um membro da equipa e o rollup das atribuições de tarefas desse membro e apresenta as duas diferenças a seguir, que podem ocorrer com reservas e atribuições num projeto: 
 
@@ -151,21 +153,21 @@ Esta secção inclui informações sobre as alterações de tempo, despesas e ap
 ### <a name="landing-page"></a>Página de destino
 A experiência de entrada de tempo personalizada não extensível foi preterida na versão 3. Em vez disso, agora há uma experiência de grelha nativa extensível e acessível. Pode aceder à funcionalidade de entrada de tempo utilizando o mapa do site à esquerda. Com esta alteração, já não poderá introduzir o tempo para uma semana de uma só vez. Em vez disso, deverá criar uma entrada de tempo para cada dia na grelha. Após a criação de algumas entradas de tempo, os utilizadores poderão criar entradas de tempo em massa com a função **Copiar** explicada mais adiante neste tópico. 
 
-![Página de destino de entrada de tempo.](media/time-entry-landing-page-07.png)
+![Página de destino de entrada de tempo](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Criar novas entradas de tempo 
 Clique em **Novo** no friso para abrir uma página de criação rápida de entrada de tempo, na qual deve introduzir a duração em minutos, horas ou dias. Para fazer isso, basta começar a introduzir h, m ou d juntamente com a quantidade.  
 
-![Criação rápida de entrada de tempo.](media/quick-create-time-entry-08.png)
+![Criação rápida de entrada de tempo](media/quick-create-time-entry-08.png)
 
 Os campos de pesquisa são apoiados por vistas do sistema. Por exemplo, depois de introduzir informações do projeto, o campo **Tarefa do projeto** é definido, por predefinição, como a vista **As Minhas Tarefas do Projeto em Aberto**. Para criar entradas de tempo para as tarefas que não foram atribuídas ao utilizador, clique em **Alterar vista** na pesquisa e selecione **Todas as tarefas do projeto Ativas**. Depois de a entrada de tempo ser criada e apresentada na grelha, pode editar todos os valores de linha diretamente na grelha.  
 
 ### <a name="bulk-createcopy"></a>Criar/copiar em massa 
 Após criar algumas entradas de tempo, é possível utilizar a funcionalidade de cópia para criar entradas de tempo adicionais em massa. Clique em **Copiar** para abrir a caixa de diálogo **Copiar**. Em **Do período: Data de Início**, defina o intervalo de datas do qual os períodos de tempo devem ser copiados. Em **Até ao período: Data de Início**, especifique a data em que as entradas devem ser criadas. Clique em **Copiar** para copiar as entradas de tempo no dia da semana correspondente indicado em **Até ao Período**. Por exemplo, a entrada de tempo de segunda-feira da semana passada será copiada na segunda-feira da semana indicada em **Até ao Período**. 
 
-![Copiar entradas de tempo em massa.](media/bulk-copy-time-entry-09.png)
+![Copiar entradas de tempo em massa](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Importar Dados 
+### <a name="import-data"></a>Importar dados 
 As atribuições e as trocas seguem o mesmo padrão da IU, o que permite que o utilizador especifique o intervalo de datas quando as reservas precisam de ser importadas. Em seguida, deve selecionar explicitamente as reservas que devem ser copiadas nas entradas de tempo de **Rascunho**. Na versão 3, já não é possível ver o padrão de entradas de tempo **Sugerido** na grelha e no calendário.  
 
 ### <a name="change-in-calendar-control"></a>Alteração no controlo de calendário
@@ -179,7 +181,7 @@ Na versão 3, deixámos o controlo de calendário personalizado e passamos a uti
 
 **Capturar dados em campos personalizados de entradas de tempo e despesa e propagá-los por entidades que suportam o fluxo de submissão e aprovação** - O processamento típico de entradas de tempo é apresentado no diagrama a seguir.
 
-![Processo do fluxo de entrada de tempo.](media/process-time-entries-10.png)
+![Processo do fluxo de entrada de tempo](media/process-time-entries-10.png)
 
 Se os requisitos de negócios estipularem que as entidades de tempo e despesa devem capturar as dimensões de definição de preços personalizadas e propagar os valores definidos por um recurso de tempo e entrada na dimensão de definição de preços personalizada para todas as entidades no gráfico anterior, consulte [Configurar campos personalizados como dimensões de definição de preços](set-up-pricing-dimensions.md).
 
@@ -236,7 +238,7 @@ Nas versões 1 e 2, a configuração de exigibilidade para funções e categoria
 
 A partir da versão 3, a configuração de opções de exigibilidade por função e categoria de Despesa será feita no nível da linha de proposta ou item de contrato. A configuração de preços é separada da configuração de Exigibilidade. É possível encontrar **Funções faturáveis** e **Categorias faturáveis** como separadores das páginas **Linha de proposta** e **Item de contrato** sem ter de utilizar a navegação superior.
 
-![Funções faturáveis.](media/chargeable-12.png)
+![Funções faturáveis](media/chargeable-12.png)
  
 A configuração de Funções faturáveis e Categorias faturáveis também utiliza o controlo de grelha editável e fornecido com o programa. Para cada função e cada categoria, as opções com suporte para o tipo de faturação durante a fase de Criação de Propostas e Contratação permanecem inalteradas em relação às versões anteriores como **Faturável** e **Não Faturável**. **Grátis** não é um tipo suportado durante a fase de Criação de Propostas ou Contratação. **Grátis** tem suporte apenas durante a aprovação de Tempo ou Despesas.  
  
@@ -247,14 +249,11 @@ A partir da versão 3, a criação e a utilização de uma lista de preços de p
   
 O gráfico a seguir é anterior à criação das listas de preços personalizadas.
 
-![Antes das listas de preços personalizadas.](media/before-custom-price-lists-13.png)
+![Antes das listas de preços personalizadas](media/before-custom-price-lists-13.png)
 
 O gráfico a seguir é posterior à criação das listas de preços personalizadas.
 
-![Depois das listas de preços personalizadas.](media/after-custom-price-lists-14.png)
+![Depois das listas de preços personalizadas](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Um pequeno atraso pode ocorrer entre clicar em **Criar Lista de Preços Personalizada** e a lista de preços personalizada ser criada. É recomendável atualizar a grelha, em vez de clicar várias vezes. Uma lista de preços personalizada será criada se o nome da lista de preços associada tiver o nome da proposta ou o nome do contrato do projeto anexado.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

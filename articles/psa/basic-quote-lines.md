@@ -2,6 +2,8 @@
 title: Propostas e linhas de proposta
 description: Este tópico fornece informações sobre propostas e linhas de proposta.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995460"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145147"
 ---
 # <a name="quotes-and-quote-lines"></a>Propostas e linhas de proposta
 
@@ -84,7 +86,7 @@ Normalmente, as organizações de serviços profissionais propõem e faturam os 
 
 Uma ou mais destas classificações de transação podem ser associadas a cada linha de proposta. Depois de uma proposta ser ganha, o mapeamento entre a classificação de transação e a linha de proposta é transferido para o item de contrato.
  
-> ![Captura de ecrã do mapeamento de tipos de transação para itens de contrato e linhas de proposta.](media/basic-guide-5.png)
+> ![Captura de ecrã do mapeamento de tipos de transação para itens de contrato e linhas de proposta](media/basic-guide-5.png)
   
 Por exemplo, uma proposta poderá conter as seguintes duas linhas de proposta: 
 - Trabalho de consultadoria que utiliza um método de faturação de tempo e material em que as classificações de transação de tempo e taxas são aplicáveis. Por exemplo, todas as transações de tempo e taxa para o projeto de exemplo de **Implementação do Dynamics AX** são faturadas ao cliente com base no tempo e nos materiais que são utilizados. 
@@ -129,6 +131,3 @@ Para uma linha de proposta de preço fixo, pode utilizar a grelha **Agenda de Fa
 - Para criar marcos de faturação igualmente divididos, selecione uma frequência de faturação, introduza a data de início da faturação na linha de proposta e selecione **Data de Conclusão Pretendida** para a proposta na secção **Resumo** do cabeçalho da proposta. Em seguida, selecione **Gerar Marcos Periódicos** para criar marcos igualmente divididos com base na frequência de faturação selecionada. 
 - Para criar um marco de faturação de montante único, crie um marco e, em seguida, introduza o valor da linha de proposta como o montante do marco.
 - Para criar marcos de faturação baseados em tarefas específicas no plano do projeto, crie um marco e mapeie-o para o elemento de agenda do projeto na IU do marco de faturação.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

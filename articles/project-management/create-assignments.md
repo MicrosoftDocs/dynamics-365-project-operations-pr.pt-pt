@@ -2,16 +2,18 @@
 title: Criar atribuições de recursos
 description: Este tópico fornece informações sobre como criar atribuições de recursos genéricos e nomeados.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987900"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131762"
 ---
 # <a name="create-resource-assignments"></a>Criar atribuições de recursos
 
@@ -40,6 +42,3 @@ Pode utilizar a caixa de pesquisa no **Seletor de Recursos** para procurar todos
 1. A partir da grelha de tarefas, quadro ou linha cronológica, navegue para a célula **Atribuído a**.
 2. Na caixa de pesquisa, comece a escrever um nome. Os resultados da pesquisa para o nome são apresentados no **Seletor de Recursos** em **Outros Recursos**.
 3. Selecione o recurso que pretende atribuir à tarefa ou selecione o nome do recurso em **Outros Recursos da Equipa**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Unidades organizacionais
 description: Este tópico fornece informações sobre unidades organizacionais no Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005090"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145643"
 ---
 # <a name="organizational-units"></a>Unidades organizacionais 
 
@@ -53,7 +55,7 @@ A unidade organizacional desempenha duas funções no PSA:
 - **Unidade de contratação** – A unidade organizacional que representa o grupo ou a divisão da empresa, responsável principalmente pela vitória da venda e gestão da entrega de trabalho e serviços ao cliente. A unidade de contratação é identificada pelo campo **Unidade de Contratação** na secção do cabeçalho das páginas **Oportunidade**, **Proposta**, **Contrato do Projeto** e **Projeto**.
 - **Unidade de atribuição de recursos** – A unidade organizacional a que um recurso pertence ou é atribuído. Esta unidade organizacional pode fornecer os seus recursos para algumas funções em declarações de trabalho (SOWs) e projetos que são propriedade da unidade de contratação.
 
-> ![Unidades de contratação e unidades de atribuição de recursos.](media/advanced-1.png)
+> ![Unidades de contratação e unidades de atribuição de recursos](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>FAQs sobre unidades organizacionais
 
@@ -83,7 +85,7 @@ Segue-se uma forma ideal de estruturar este cenário utilizando o Dynamics 365 e
 
 1. Crie a prática de tecnologia da Microsoft como uma unidade de negócio e associe Gonçalo e Carla à mesma. Deste modo, o utilizador ajuda a garantir que ambos os empregados tenham o mesmo nível de acesso de segurança a quaisquer projetos nessa área de prática. Ambos poderão verificar o progresso e reportar o tempo, as despesas e as atualizações de tarefas. 
 2. Crie duas unidades organizacionais para ajudar a garantir que o custo do projeto seja refletido corretamente. 
-3. Associe a Carla à Contoso US e associe o Gonçalo à Contoso India.
+3. Associe o Carla à Contoso US e associe Gonçalo à Contoso India.
 4. Atribua listas de preços de custo adequadas a ambas as unidades organizacionais. Desta forma, ajuda a garantir que os custos registados no projeto para Gonçalo e Carla reflitam com precisão a diferença de custos entre a Contoso US e a Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>As unidades organizacionais estão relacionadas com as regiões de vendas no Dynamics 365?
@@ -122,7 +124,7 @@ Não. Na versão atual do PSA, as unidades organizacionais não são hierárquic
 Quando tem uma hierarquia complexa de centros de custos, divisões, escritórios de faturação, etc., configure os nós de folha dessa hierarquia como unidades organizacionais distintas.
 O exemplo que se segue mostra uma hierarquia típica:
 
-**ContosoÍndia**
+**Contoso India**
 
   - Prática SAP 
 
@@ -134,7 +136,7 @@ O exemplo que se segue mostra uma hierarquia típica:
     - Consultores Técnicos
     - Consultores Funcionais 
     
-**Contoso US**
+**Contoso EUA**
 
  - Prática SAP 
 
@@ -165,6 +167,3 @@ Se a sua empresa operar como uma unidade com uma lista de preços de custo, não
 Quando um projeto é criado sozinho, a unidade de contratação predefinida do projeto baseia-se no utilizador que o cria. Esse utilizador também é o gestor de projeto predefinido. Se o projeto estiver mapeado para uma entidade de vendas, tal como uma proposta ou um contrato do projeto, a unidade de contratação do projeto será baseada na entidade de vendas. Neste caso, as estimativas do projeto poderão ser recalculadas porque a lista de preços de custo é utilizada para calcular as alterações de estimativa de custos se a unidade de contratação for alterada. A lista de preços de vendas é utilizada para calcular as estimativas de vendas que serão alteradas de modo a serem sincronizadas com a lista de preços do projeto na proposta.
 
 Os campos **Unidade de Contratação** e **Moeda** no projeto estão bloqueados para edição, porque têm de estar em sincronização com os valores na entidade de vendas (proposta ou contrato do projeto) para a qual o projeto está mapeado.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

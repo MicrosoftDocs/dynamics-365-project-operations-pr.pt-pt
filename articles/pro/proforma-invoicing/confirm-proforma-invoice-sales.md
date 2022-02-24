@@ -1,24 +1,26 @@
 ---
-title: Confirmar uma fatura pró-forma do projeto
-description: Esta tópico fornece informações sobre a confirmação de faturas pró-forma de projetos no Project Operations.
+title: Confirmar uma fatura pró-forma – lite
+description: Este tópico fornece informações sobre a confirmação de faturas pró-forma no Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992985"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176535"
 ---
-# <a name="confirm-a-proforma-project-invoice"></a>Confirmar uma fatura pró-forma do projeto 
+# <a name="confirm-a-proforma-invoice---lite"></a>Confirmar uma fatura pró-forma – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
 
-Após a confirmação de uma fatura pró-forma, o estado da fatura do projeto atualiza para **Confirmada**. Quando uma fatura é confirmada, torna-se apenas de leitura. Avançando, a fatura só pode ser corrigida se houver alguma correção ou crédito iniciado pelo cliente.
+Após a confirmação de uma fatura pró-forma, o estado da fatura do projeto atualiza para **Confirmada**. Quando uma fatura é confirmada, torna-se apenas de leitura. Daí para a frente, a fatura só pode ser corrigida se houver alguma correção ou crédito iniciado pelo cliente, ou se a fatura estiver marcada como paga.
 
 A tabela seguinte lista os valores reais criados pelo sistema. Estes valores reais são criados quando determinadas operações são realizadas na fatura do projeto antes de ser confirmada.
 
@@ -229,70 +231,6 @@ Um novo valor real de vendas não faturada que é faturável pela quantidade e m
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Faturação de uma transação material sem edições na fatura do projeto.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Uma inversão de vendas não faturadas para a quantidade e montante na aprovação original de utilização do material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Um valor real de vendas faturadas para a quantidade e montante na aprovação original de utilização do material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Faturar uma transação de material que foi editada para reduzir a quantidade.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Uma inversão de vendas não faturadas para a quantidade e montante na aprovação original de tempo original.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Um novo valor real de vendas não faturada que é faturável pela quantidade e montante no detalhe da linha de fatura editada, uma inversão do valor real de vendas não faturado, e um valor real de vendas faturado equivalente.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Um novo valor real de vendas não faturada que é não faturável pela quantidade e montante restantes depois de deduzir os números corrigidos no detalhe da linha de fatura editada, uma inversão do valor real de vendas não faturado, e um valor real de vendas faturado equivalente.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Faturar uma transação de material que foi editada para aumentar a quantidade.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Uma inversão de vendas não faturadas para a quantidade e montante na aprovação original de utilização do material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Um novo valor real de vendas não faturada que é faturável pela quantidade e montante no detalhe da linha de fatura editada, uma inversão do valor real de vendas não faturado, e um valor real de vendas faturado equivalente.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Faturar uma taxa.
                 </p>
             </td>
@@ -335,6 +273,3 @@ Um valor real de vendas faturado para a linha do produto com a quantidade e mont
         </tr>
     </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

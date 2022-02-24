@@ -2,6 +2,8 @@
 title: Modelos de projeto
 description: Este tópico fornece informações sobre como utilizar modelos de projeto para configuração rápida do projeto.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002525"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148072"
 ---
 # <a name="project-templates"></a>Modelos de projeto 
 
@@ -47,7 +49,7 @@ Existem várias formas de criar um projeto a partir de um modelo de projeto:
 
 - Ao criar um projeto a partir de uma proposta, pode selecionar um modelo de projeto na caixa de diálogo **Criação Rápida: Projeto**.
 
-> ![Caixa de diálogo Criação Rápida: Projeto.](media/project-11.png)
+> ![Caixa de diálogo Criação Rápida: Projeto](media/project-11.png)
 
 - Quando cria um projeto selecionando **Novo Projeto**, a página **Projeto** aparece antes de o registo ser guardado. No campo **Selecionar um Modelo**, selecione um dos modelos de projeto predefinidos na organização.
 - Utilize **Criar Projeto a partir de um Modelo** na página **Entidade Modelo**.
@@ -67,6 +69,3 @@ Quando copia em linhas de estimativa do projeto, as listas de preços são atual
 ### <a name="copying-a-project-team"></a>Copiar uma equipa do projeto
 
 Quando uma equipa do projeto é copiada de um modelo de projeto para um projeto, os recursos genéricos são copiados, juntamente com as competências e proficiências definidas no modelo. As atribuições de recursos genéricos também são mantidas como no modelo do projeto. Os recursos nomeados não são suportados em modelos de projeto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

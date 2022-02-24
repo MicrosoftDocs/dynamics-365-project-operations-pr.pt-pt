@@ -2,16 +2,18 @@
 title: Subsídios diários
 description: Este tópico fornece informações sobre as regras de subsídio diário por dia que são utilizadas na gestão de Despesas.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986415"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128522"
 ---
 # <a name="per-diems"></a>Subsídios diários
 
@@ -29,6 +31,3 @@ Um subsídio diário é um subsídio que é pago a um trabalhador que viaja em t
     
 ## <a name="submit-expenses-using-per-diem"></a>Submeter despesas através do subsídio diário
 Para submeter despesas através do subsídio diário, utilize a categoria de despesa **Subsídio diário** quando criar um relatório de despesas. Introduza a **Data de início do subsídio diário**, **Data de fim do subsídio diário** e a **Localização do subsídio diário**. O montante será calculado com base nas tarifas do subsídio diário para a localização selecionada. A redução de refeições será calculada com base nos níveis de tarifas do subsídio diário.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

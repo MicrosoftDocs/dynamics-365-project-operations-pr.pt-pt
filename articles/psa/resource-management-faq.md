@@ -2,6 +2,8 @@
 title: FAQ de gestão de recursos
 description: Este tópico fornece respostas às perguntas mais frequentes sobre a gestão de recursos.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002390"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144382"
 ---
 # <a name="resource-management-faq"></a>FAQ de gestão de recursos
 
@@ -52,6 +54,3 @@ O **Utilizador** e o **Contacto** são os únicos tipos de recursos suportados n
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Qual é a diferença entre uma atribuição e uma reserva?
 
 As atribuições são a atribuição de recursos às tarefas de projeto na agenda do projeto. Os recursos podem ser recursos reais ou genéricos. As reservas são a alocação fixa ou flexível de recursos a um projeto. As reservas fixas consomem a capacidade de um recurso. Idealmente, no caso dos recursos reais, as reservas e atribuições devem concordar, porque não diferem. No entanto, o PSA não impõe este contrato. A vista de Reconciliação mostra um gestor de projeto em que as reservas e as atribuições de um recurso não concordam.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

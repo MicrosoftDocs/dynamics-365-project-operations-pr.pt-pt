@@ -2,16 +2,18 @@
 title: Manter membros da equipa
 description: Este tópico fornece informações sobre a reserva de recursos nomeados para as equipas do projeto e atribuir às mesmas tarefas
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997080"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131537"
 ---
 # <a name="maintain-team-members"></a>Manter membros da equipa
 
@@ -19,7 +21,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 Pode adicionar um recurso nomeado à sua equipa do projeto, reservando-o diretamente para a equipa.
 
-1. No In Dynamics 365 Project Operations, aceda a **Projetos** e selecione para abrir o projeto que está a reservar.
+1. No Dynamics 365 Project Operations, vá para **Projetos** e selecione para abrir o projeto que está a reservar.
 2. Na página **Projeto**, no separador **Equipa**, selecione **Novo**. 
 3. Na caixa de diálogo **Criação Rápida de Membro de Equipa do Projeto**, selecione o recurso reservável. O campo **Função** será preenchido com a função predefinida do recurso se tiver atribuído um. Pode alterar a função. 
 4. Selecione as datas de início e fim, em que o recurso será necessário e selecione o método de alocação da capacidade do recurso. 
@@ -40,6 +42,3 @@ Quando efetua uma seleção, o recurso é adicionado à equipa do projeto e atri
 Pode utilizar a capacidade de expansão da reserva do separador **Reconciliação** ou o **Quadro da Agenda** para reservar a capacidade do recurso para o projeto.
 
 Depois de um membro da equipa ficar reservado no seu projeto, pode utilizar **Manter reservas** ou o **Quadro da Agenda** diretamente para gerir as respetivas reservas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

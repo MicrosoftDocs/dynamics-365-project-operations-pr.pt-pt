@@ -2,16 +2,18 @@
 title: Gerir vários clientes em contratos de projetos
 description: Este tópico fornece informações sobre como gerir vários clientes num contrato de projeto.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992085"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643187"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Gerir vários clientes em contratos de projetos
 
@@ -45,6 +47,3 @@ O cliente potencial no separador **Resumo** do contrato do projeto é o cliente 
 É possível editar as percentagens de divisão de faturação ao editar na grelha. Quando as percentagens de divisão de faturação não totalizam 100 por cento, ocorre um erro. Depois de editar um percentagem de divisão de faturação, atualize a página **Contrato do Projeto** para remover o erro.
 
 Também pode selecionar **Distribuir Uniformemente** na subgrelha de clientes do contrato do projeto. As divisões de faturação são alocadas uniformemente por todos os clientes do contrato do projeto. Se houver algum fator de arredondamento, o fator será adicionado ao cliente de arredondamento. Um dos clientes do contrato tem sempre o sinalizador **Arredondar** definida como **Sim**. Esse cliente é o cliente de arredondamento. Normalmente, o cliente de arredondamento é também o principal cliente do contrato, mas isso não é necessário.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

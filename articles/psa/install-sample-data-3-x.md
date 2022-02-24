@@ -3,6 +3,7 @@ title: Instalação de dados de exemplo
 description: Este tópico fornece informações sobre a instalação de dados de exemplo no Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985560"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144517"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalação de dados de exemplo para a aplicação Project Service
 
@@ -86,7 +87,7 @@ Deverá planear que o computador permaneça com ligação a uma rede e que a ins
 O computador deverá ter a função de proteção de ecrã desativada. Caso contrário, as credenciais de sessão para a instalação podem ser perdidas quando a proteção de ecrã é acionada (a menos que mantenha a sua sessão sempre ativa).
 
 > [!div class="mx-imgBorder"]
-> ![Captura de ecrã das definições da proteção de ecrã, com a proteção de ecrã desativada.](media/sample-data-1.png)
+> ![Captura de ecrã das definições da proteção de ecrã, com a proteção de ecrã desativada](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Transferir e descompactar
 
@@ -135,20 +136,20 @@ O pacote de dados de demonstração requer seis utilizadores. Para que o pacote 
     - Utilizador Fullname = "Molly Clark" como Gestor de Contas   
     - Utilizador Fullname = "Spencer Low" como Gestor de Práticas e de Projeto  
     - Utilizador Fullname = "Veronica Quek" como Membro da Equipa   
-    - Nome completo do utilizador="William Contoso"
+    - Utilizador Fullname = "William Contoso"
   
 2. Para fins de importação de dados de demonstração, atribua os seis utilizadores acima da função de Administrador para que os registos de exemplo sejam importados corretamente. 
 
 3. Abra **PkgFolder** e, em seguida, localize e abra **ImportUserMapFile.xml**. Atualize os campos **Novos=** para os endereços de e-mail dos utilizadores correspondentes do seu sistema.
 
    > [!div class="mx-imgBorder"]
-   > ![Captura de ecrã do UserMapFile.](media/sample-data-7.png)
+   > ![Captura de ecrã do UserMapFile](media/sample-data-7.png)
 
 4. Se o utilizador de nome completo "Spencer Low" tiver um ID de utilizador diferente de **"spencerl"**, então, necessita de atualizar um ficheiro adicional. Abra **DemoDataPreImportConfig.xml** e localize a etiqueta **userstocreateandconfigure**. Atualize a etiqueta **\<login\>** com o loginId (sensível às maiúsculas e minúsculas). 
 
 5. O calendário do primeiro utilizador (na etiqueta **userstocreateandconfigure**) é utilizado para povoar as horas de trabalho para todos os recursos reserváveis na importação de dados de demonstração. Navegue para **Definições** > **Segurança** > **Utilizadores**, localize o utilizador "Spencer Low" e abra a opção "Horas de trabalho". Edite as horas de trabalho existentes, selecionando a opção **Agenda semanal periódica completa do início ao fim**. Verifique se as **Horas de trabalho estão definidas das 8:00 às 17:00 (9 horas), de segunda a sexta-feira e com o fuso horário definido como Hora do Pacífico (E.U.A. e Canadá)**. Isto é necessário para assegurar que o quadro da Agenda e do Projeto mostram conforme esperado.
 
-**Recomendação:** considere a criação de uma cópia de segurança da sua organização agora, no caso de necessitar de reverter para o ponto de partida se algo correr mal durante a instalação de dados de exemplo. Para mais informações, consulte [Fazer cópias de segurança e restaurar instâncias](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recomendação:** considere a criação de uma cópia de segurança da sua organização agora, no caso de necessitar de reverter para o ponto de partida se algo correr mal durante a instalação de dados de exemplo. Para mais informações, consulte [Fazer cópias de segurança e restaurar instâncias](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Executar o Package Deployer
 
@@ -172,7 +173,7 @@ O pacote de dados de demonstração requer seis utilizadores. Para que o pacote 
 5. Selecione **Seguinte** até ver a caixa de diálogo **Configuração de dados de demonstração**.
 
    > [!div class="mx-imgBorder"]
-   > ![Captura de ecrã da janela do estado do programa de instalação de dados de demonstração.](media/sample-data-3.png)
+   > ![Captura de ecrã da janela do estado do programa de instalação de dados de demonstração](media/sample-data-3.png)
 
 6. Antes de continuar, tenha em atenção que a instalação de dados de exemplo poderá demorar até uma hora (normalmente cerca de 10 minutos). Terá de certificar-se de que o computador permanece ligado a uma rede ao longo do processo de instalação e a sessão permanece ativa.   
 
@@ -191,10 +192,10 @@ Depois de carregar os dados de exemplo totalmente, inicie sessão como utilizado
 - Se a aplicação Field Service está instalada, vá a **Project Service** > **Definições** > **Listas de preços**. Confirme se existem taxas de custos e taxas de faturação. Aceda a **Field Service** > **Definições** > **Listas de preços** e verifique se existem taxas de faturação e taxas de custos, com a moeda adequada, para cada país/região no conjunto de dados.
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de ecrã de listas de preços ativas.](media/sample-data-4.png)
+  > ![Captura de ecrã de listas de preços ativas](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de ecrã de unidades organizacionais ativas.](media/sample-data-5.png)
+  > ![Captura de ecrã de unidades organizacionais ativas](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Notas técnicas
 
@@ -295,7 +296,4 @@ Se precisar de alterar as horas de trabalho por recursos reserváveis de exemplo
 Selecione um utilizador (por exemplo, Spencer Low) e altere as horas de trabalho do Spencer para as horas de trabalho que pretende aplicar a vários utilizadores. Aceda a **Universal Resource Scheduling** > **Definições** > **Modelos de Horas de Trabalho** e edite o registo **Modelo de Trabalho Predefinido**. No campo **Recurso do Modelo**, selecione um utilizador com horas de trabalho que pretende aplicar para outros recursos. Aceda a **Universal Resource Scheduling** > **Agendamento** > **Recursos** > **Recursos Reserváveis Ativos**. Selecione os recursos que pretende alterar e, em seguida, selecione **Definir calendário**. Na lista pendente **Modelo de trabalho**, selecione o modelo **Horas de trabalho predefinidas** ou outro modelo com o recurso correcto de modelos. Quando vai ao quadro da agenda, deverá ver que os recursos agora atualizaram as horas de trabalho.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de ecrã de recursos reserváveis ativos.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Captura de ecrã de recursos reserváveis ativos](media/sample-data-6.png)

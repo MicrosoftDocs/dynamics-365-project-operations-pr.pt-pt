@@ -2,9 +2,11 @@
 title: Configurar funções em modelos de Estrutura hierárquica do trabalho
 description: Este tópico fornece informações sobre a configuração de informações sobre a função dos modelos da Estrutura hierárquica do trabalho.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008915"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082384"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar funções em modelos de Estrutura hierárquica do trabalho
 
@@ -89,7 +91,7 @@ Foram adicionadas opções adicionais na WBS para melhorar a utilização da fun
 
 4. Defina as datas e o esforço (horas), como mostra a seguinte ilustração.
 
-    [![Definir as datas e o esforço.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Definir as datas e o esforço](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Selecione a linha da tarefa **A iniciar** e, em seguida, no campo **Função**, selecione **Gestor de Projetos Sénior**.
 6. Selecione **Publicar**.
@@ -105,6 +107,3 @@ Foram adicionadas opções adicionais na WBS para melhorar a utilização da fun
     > Não receberá um aviso de que o recurso especificado é agora 2, porque o número de recursos permanece 1.
 
 14. Na página **Estrutura hierárquica do trabalho**, valide a atribuição de recursos na WBS e selecione **Guardar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

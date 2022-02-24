@@ -2,16 +2,18 @@
 title: Faturar um sinal ou adiantamento
 description: Este tópico fornece informações sobre como faturar um sinal ou um adiantamento no Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997485"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596206"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Faturar um sinal ou um adiantamento
 
@@ -49,6 +51,3 @@ Isto pode ser visto na grelha **Sinais e Adiantamentos Aplicados** na página **
 | Montante usado | Grelha **Adiantamentos e Sinais Aplicados** na página **Fatura do Projeto**  | Este campo apenas de leitura fornece o valor calculado que resume a quantidade utilizada do sinal ou adiantamento. | Este campo pode ser apresentado ao cliente na fatura impressa para indicar o montante deste sinal ou adiantamento que já foi utilizado. |
 | Montante Total | Grelha **Adiantamentos e Sinais Aplicados** na página **Fatura do Projeto**  | Este campo editável fornece o montante do sinal ou adiantamento que está a ser utilizado nesta fatura de projeto. Este montante não pode ser mais do que o que está disponível no adiantamento. O sistema calcula-o automaticamente como a diferença entre os campos **Montante** e **Montante Utilizado** na grelha. Pode diminuir este valor para usar menos do que o disponível, mas não pode aumentar a quantidade para usar mais do que o que está disponível. | Este campo pode ser apresentado ao cliente na fatura impressa para indicar o montante deste sinal ou adiantamento que está a ser utilizado na fatura. |
 | Montante do Saldo do Sinal. | Grelha **Adiantamentos e Sinais Aplicados** na página **Fatura do Projeto**  | Este campo apenas de leitura fornece o valor de quanto do sinal ou adiantamento será deixado após a confirmação da fatura. | Este campo pode ser apresentado ao cliente na fatura impressa para indicar o montante que será deixado deste sinal ou adiantamento após a fatura ser confirmada e paga. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

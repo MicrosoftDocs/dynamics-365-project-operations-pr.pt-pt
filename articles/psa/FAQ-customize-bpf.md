@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002975"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993160"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Como posso personalizar o fluxo do processo do Project Stages?
 
@@ -60,11 +60,11 @@ Se a atualização não for uma opção, pode personalizar o fluxo do processo d
 1. Adicionar fases adicionais à configuração predefinida, mantendo os nomes de fase em inglês para **Quote**, **Plan** e **Close**.
 
 
-![Captura de ecrã de adição de fases à configuração predefinida.](media/FAQ-Customize-BPF-1.png)
+![Captura de ecrã de adição de fases à configuração predefinida](media/FAQ-Customize-BPF-1.png)
  
 2. Criar o seu próprio fluxo do processo de negócio e torná-lo o fluxo do processo de negócio principal para a entidade de projeto, o que lhe permite ter os nomes de fase que pretender. No entanto, se quiser utilizar as mesmas fases de projeto padrão **Quote**, **Plan** e **Close**, necessita de efetuar algumas personalizações que partem dos nomes de fase personalizados. A lógica mais complexa está no encerramento do projeto, o qual ainda poderá acionar bastando desativar o registo de projeto.
 
-![Personalização BPF.](media/FAQ-Customize-BPF-2.png)
+![Personalização do BPF](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Considerações adicionais para a versão 2.4.4.30 ou anterior da aplicação Project Service na plataforma 9.0
 
@@ -80,11 +80,11 @@ Para criar o seu próprio fluxo do processo de negócio para a entidade de proje
 
 1. Aceda a **Definições** > **Centro de Processos**. Não copie o fluxo do processo de negócio do Project Stages visto que também copia a lógica de negócio do Project Service.
 
-  ![Criar processo.](media/FAQ-Customize-BPF-3.png)
+  ![Criar processo](media/FAQ-Customize-BPF-3.png)
 
 2. Utilize o Designer de Processo para criar os nomes de fase pretendidos. Se pretender a mesma funcionalidade das fases predefinidas para **Quote**, **Plan** e **Close**, terá de criar isso com base nos nomes de fase do seu fluxo processo de negócio personalizados.
 
-   ![Captura de ecrã do Designer de Processo utilizado para personalizar BPF.](media/FAQ-Customize-BPF-4.png) 
+   ![Captura de ecrã do Designer de Processo utilizado para personalizar BPF](media/FAQ-Customize-BPF-4.png) 
 
 3. No Designer de Processo, clique em **Fluxo do Processo de Encomenda** para tornar o fluxo do processo de negócio personalizadas no principal para a entidade de projeto movendo-o acima do fluxo do processo de negócio do Project Stages para o topo da lista.
 
@@ -95,15 +95,15 @@ Para criar o seu próprio fluxo do processo de negócio para a entidade de proje
 
 4. Adicione um novo campo personalizado para a entidade de projeto para capturar as fases personalizadas no seu fluxo do processo de negócio personalizado. Terá de adicionar lógica de negócio (plug-in/fluxo de trabalho) para atualizar este campo quando é atualizada a fase no fluxo do processo de negócio personalizado.
 
-   ![Captura de ecrã de personalização da Entidade de projeto.](media/FAQ-Customize-BPF-6-720.png)
+   ![Captura de ecrã de personalização da Entidade de projeto](media/FAQ-Customize-BPF-6-720.png)
 
 5. Modifique o gráfico **Projeto por Fase** para utilizar o novo campo personalizado para fases.
 
-   ![Captura de ecrã de utilização do gráfico Projeto por Fase.](media/FAQ-Customize-BPF-7-720.png)
+   ![Captura de ecrã de utilização do gráfico Projeto por Fase](media/FAQ-Customize-BPF-7-720.png)
 
 6. Modifique quaisquer vistas para a entidade de projeto para incluir o novo campo personalizado para fases.
 
-   ![Captura de ecrã de modificação de vistas de Entidade de projeto.](media/FAQ-Customize-BPF-8-720.png)
+   ![Captura de ecrã de modificação de vistas de Entidade de projeto](media/FAQ-Customize-BPF-8-720.png)
 
 
 

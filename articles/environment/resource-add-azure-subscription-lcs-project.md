@@ -2,16 +2,18 @@
 title: Adicionar uma subscrição do Azure a um projeto LCS
 description: Este tópico fornece informações sobre como ligar a sua subscrição do Azure a um projeto LCS.
 author: sigitac
+manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986685"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880552"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adicionar uma subscrição do Azure a um projeto LCS
 
@@ -23,15 +25,15 @@ Os ambientes alojados na cloud têm de ser implementados através de uma subscri
 
 1. No seu projeto LCS, na secção **Ambientes**, selecione **Definições do Microsoft Azure**.
 
-![Definições do Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
+![Definições do Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
 2. Na página **Definições do projeto**, no separador **Conectores do Azure**, selecione **Autorizar**. Isto permite que os ambientes sejam implementados neste projeto.
 
-![Conectores do Azure.](./media/2AzureConnectors.png)
+![Conectores do Azure](./media/2AzureConnectors.png)
 
 3. Selecione **Autorizar** novamente para fornecer o consentimento do administrador.
 
-![Conceder Consentimento do Administrador.](./media/3GrantAdminConsent.png)
+![Conceder Consentimento do Administrador](./media/3GrantAdminConsent.png)
 
 4. Aceite o pedido de permissões.
 
@@ -39,19 +41,19 @@ Os ambientes alojados na cloud têm de ser implementados através de uma subscri
 
 A autorização está agora concluída. 
 
-![Autorização Com Êxito.](./media/5AuthorizationComplete.png)
+![Autorização Com Êxito](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Fornecer acesso dos Serviços de Implementação do Dynamics à sua subscrição do Azure
 
 1. Vá para to [Faturação do Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) e selecione a sua subscrição. Os Serviços de Implementação do Dynamics precisam de acesso a esta subscrição para conseguirem implementar ambientes.
 
-![Detalhes da Subscrição do Azure.](./media/6AzureSubscription.png)
+![Detalhes da Subscrição do Azure](./media/6AzureSubscription.png)
 
 2. Selecione **Controlo de acesso (IAM)** no painel de navegação e selecione **Adicionar Atribuição de Função**.
 3. No controlo de deslize no lado direito, selecione **Função de contribuidor** e, na lista fornecida, localize e selecione **Serviços de Implementação do Dynamics**. 
 4. Selecione **Guardar**.
 
-![Acesso à Subscrição.](./media/7SubscriptionAccess.png)
+![Acesso à Subscrição](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Adicionar um conector de subscrição a um projeto LCS
 

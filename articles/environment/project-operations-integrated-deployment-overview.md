@@ -2,23 +2,24 @@
 title: Descrição geral da implementação do Project Operations para cenários baseados em Recursos/Não Stock
 description: Este tópico fornece informações sobre o tipo de implementação, Project Operations para cenários baseados em Recursos/Não Stock.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009725"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365580"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Descrição geral da implementação do Project Operations para cenários baseados em Recursos/Não Stock
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-O tipo de implementação, Dynamics 365 Project Operations para cenários baseados em recursos/não armazenados tem as seguintes capacidades para empresas baseadas em projetos:
+O tipo de implementação, Dynamics 365 Project Operations para cenários baseados em Recursos/Não Stock tem as seguintes capacidades para empresas baseadas em projetos:
 
 - Planeamento de projetos com o Microsoft Project para a Web
 - Preços multidimensionais e custos para os recursos laborais
@@ -42,6 +43,3 @@ Este tipo de implementação deve ser escolhido se a expetativa do Project Opera
 - Requerem um motor de impostos de venda rico e de classe empresarial e de taxa de câmbio para gerar faturas viradas para o cliente para projetos.
 - Um sistema de reconhecimento de receitas e contabilidade de projetos em conformidade com as normas IFRS (International Financial Reporting Standards).
 - Aplicações Finance ou Supply Chain Management e integração de transações baseadas em projetos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

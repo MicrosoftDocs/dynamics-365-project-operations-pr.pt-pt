@@ -2,9 +2,11 @@
 title: Inquérito da Agenda de Despesas de Inquérito de Prémios Federais
 description: Este tópico fornece informações sobre o inquérito da Agenda de Despesas de Prémios Federais.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007250"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082388"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Inquérito da Agenda de Despesas de Inquérito de Prémios Federais
 
@@ -60,7 +62,7 @@ Tem de configurar os números CFDA que podem ser adicionados a concessões e inc
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Configurar concessões para reportar para o inquérito de Agenda de Despesas de Prémios Federais
 
 1. Vá a **Gestão e contabilidade de projetos \> Concessões \> Concessões**, e selecione uma concessão existente.
-2. No Separador Rápido **Configuração**, no campo **Catálogo de Assistência Doméstica Federal**, atribua o número CFDA. O número do CFDA na concessão determina o cluster CFDA a reportar.
+2. No Separador Rápido **Configuração**, no campo **Catálogo de Assistência Doméstica Federal**, atribua o número CFDA. O número do CFDA na concessão determina o cluster CFDA a reportar.
 3. No Separador Rápido **Informações de contacto**, insira as informações do concessor seguindo estes passos:
 
     1. No campo **Cliente da concessão**, insira o cliente responsável pela concessão. Para uma concessão existente, estas informações podem já estar inseridas.
@@ -77,8 +79,8 @@ O governo federal financiou um projeto de infraestrutura para um estado. O gover
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Excluir concessões de relatórios SEFA com base no tipo de concessão
 
-1. Vá para **Gestão e contabilidade de projetos \> Configurar \> Concessões \> Tipos de concessão**.
-2. No Separador Rápido **Informações predefinidas**, selecione a caixa de verificação **Excluir da Agenda de Despesas de Prémios Federais**.
+1. Vá para **Gestão e contabilidade de projetos \> Configurar \> Concessões \> Tipos de concessão**.
+2. No Separador Rápido **Informações predefinidas**, selecione a caixa de verificação **Excluir da Agenda de Despesas de Prémios Federais**.
 3. Selecione **Guardar** para guardar as alterações.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Execute o inquérito da Agenda de Despesas de Inquérito de Prémios Federais
@@ -102,6 +104,3 @@ A Agenda de Despesas de Prémios Federais inclui as seguintes colunas:
 - Catálogo de Assistência Nacional Federal
 - Recibos
 - Despesas
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

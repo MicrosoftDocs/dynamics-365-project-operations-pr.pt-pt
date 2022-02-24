@@ -2,16 +2,18 @@
 title: Estimativas financeiras para despesas em projetos
 description: Este tópico fornece informações sobre como definir ou estimar as despesas baseadas em projetos.
 author: rumant
+manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987855"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701796"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Estimativas financeiras para despesas em projetos
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_

@@ -2,6 +2,8 @@
 title: Reconciliar reservas e atribuições
 description: Este tópico fornece informações sobre os valores reais.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995145"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147937"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Reconciliar reservas e atribuições
 
@@ -51,11 +53,11 @@ Em alguns casos, quando o campo **Escala temporal** está definido como um níve
 
 Quando visualiza níveis de tempo superiores, o separador **Reconciliação** mostra um indicador de célula para notificá-lo de que existem diferenças em níveis de tempo inferiores. Por exemplo, na ilustração seguinte, é apresentado um indicador de célula na célula para o mês de outubro de 2018 relativamente ao recurso com o nome Gabriela Gomes. Consequentemente, pode ver que, apesar de as reservas e as atribuições do recurso serem iguais quando são agregadas no nível **Mês**, não correspondem nos níveis inferiores.
 
-![Reservas e atribuições desajustadas a nível mensal.](media/reconcile-assignments-01.JPG)
+![Reservas e atribuições desajustadas a nível mensal](media/reconcile-assignments-01.JPG)
 
 Faça duplo clique numa célula para ampliar o nível inferior seguinte e ver a diferença. Por exemplo, se clicar duas vezes na diferença de outubro de 2018 para Gabriela Gomes, irá desagregar para o nível **Semana**. Pode ver que o recurso tem reservas de 16 horas, mas não atribuições nas duas primeiras semanas de outubro e 16 horas de atribuições, mas não reservas na terceira semana de outubro.
 
-![Reservas e atribuições desajustadas a nível semanal.](media/reconcile-assignments-02.JPG)
+![Reservas e atribuições desajustadas a nível semanal](media/reconcile-assignments-02.JPG)
 
 Pode clicar com o botão direito do rato numa célula para reduzir o nível superior seguinte. Também é possível desativar o indicador de célula selecionando o botão **Definições**. 
 
@@ -68,13 +70,13 @@ Para assegurar resultados exatos e previsíveis ao utilizar Expandir Reserva, ex
 
 - O utilizador tem de configurar o fuso horário do dispositivo para corresponder ao fuso horário definido nas Definições de Personalização do seu sistema.
  
-  ![Definições de fuso horário no Windows 10.](media/reconcile-assignments-03.png)
+  ![Definições de fuso horário no Windows 10](media/reconcile-assignments-03.png)
 
-  ![Definições de fuso horário nas definições de personalização.](media/reconcile-assignments-04.png)
+  ![Definições de fuso horário nas definições de personalização](media/reconcile-assignments-04.png)
  
 - O Recurso Agendável tem de ter, pelo menos, um minuto de tempo de trabalho que se sobrepõe aos contornos que são utilizados para definir a extensão solicitada. Por exemplo, o exemplo seguinte mostra a revisão de recursos com horas de trabalho que caem entre as 9h00 e as 19h00. 
 
-  ![Comparação entre os contornos de recursos.](media/reconcile-assignments-05.png)
+  ![Comparação entre os contornos de recursos](media/reconcile-assignments-05.png)
 
 A tabela seguinte mostra:
 
@@ -83,22 +85,19 @@ A tabela seguinte mostra:
 - Recurso B: este recurso encontra-se num fuso horário diferente do do projeto e, por conseguinte, começa às 7h00 no fuso horário correspondente. No entanto, as reservas começarão às 9h00, uma vez que se trata da hora de início mais antiga do contorno da atribuição.
 - Recursos C e D: os recursos também estão localizados em fusos horários diferentes, ambos diferentes uns dos outros e do projeto, e as respetivas reservas começam depois das respetivas horas de início disponíveis.
 
-|Entity  |Calendário  |
+|Entidade  |Calendário  |
 |-|-|
-|Modelo de calendário de projeto   | ![calendário do projeto.](media/reconcile-assignments-06.png) |
-|Recurso A  | ![Calendário do Recurso A.](media/reconcile-assignments-06.png) |
-|Recurso B  |  ![Calendário do Recurso B.](media/reconcile-assignments-07.png) |
-|Recurso C  |  ![Calendário do Recurso C.](media/reconcile-assignments-08.png) |
-|Recurso D  | ![Calendário do Recurso D.](media/reconcile-assignments-09.png)  |
+|Modelo de calendário de projeto   | ![calendário do projeto](media/reconcile-assignments-06.png) |
+|Recurso A  | ![Calendário do Recurso A](media/reconcile-assignments-06.png) |
+|Recurso B  |  ![Calendário do Recurso B](media/reconcile-assignments-07.png) |
+|Recurso C  |  ![Calendário do Recurso C](media/reconcile-assignments-08.png) |
+|Recurso D  | ![Calendário do Recurso D](media/reconcile-assignments-09.png)  |
  
 Quando navega para a vista de reconciliação, as atribuições de recursos e as respetivas escassezes de reserva são apresentadas.
- ![Vista de reconciliação antes da extensão.](media/reconcile-assignments-10.png)
+ ![Vista de reconciliação antes da extensão](media/reconcile-assignments-10.png)
 
 Depois de a funcionalidade Expandir Reserva ter sido executada em cada recurso, as reservas são expandidas com êxito para cada recurso. Isto porque as horas de trabalho de cada recurso estão sobrepostas aos contornos da escassez.
- ![Vista de reconciliação após a extensão da reserva.](media/reconcile-assignments-11.png) 
+ ![Vista de reconciliação após a extensão da reserva](media/reconcile-assignments-11.png) 
 
 No entanto, uma análise mais detalhada dos detalhes das reservas mostra diferenças na hora de início das reservas. As reservas serão iniciadas nunca antes da hora de início do contorno da atribuição e nunca antes da hora de início disponível do recurso.
- ![Novas reservas dos recursos no quadro da agenda.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Novas reservas dos recursos no quadro da agenda](media/reconcile-assignments-12.png)

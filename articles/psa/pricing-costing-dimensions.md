@@ -2,11 +2,12 @@
 title: Home page de dimensões de definição de preços e custos
 description: Este tópico fornece uma descrição geral das dimensões de definição de preços.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998475"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151312"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de definição de preços e custos
 
@@ -41,7 +42,7 @@ Dada a natureza típica destes attrubutes do trabalho e das pessoas necessárias
 
 O PSA é fornecido com um conjunto predefinido de dimensões de definição de preços. Pode visualizá-lo acedendo a **Project Service** > **Parâmetros**. No registo de parâmetro, no separador **Dimensões de definição de preços baseadas em montantes**, verifique se a função, **msdyn_resourcecategory** e a unidade organizacional de atribuição de recursos, **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Isto irá permitir-lhe configurar o preço e o custo de cada combinação de função e unidade organizacional.
 
-![Captura de ecrã dos parâmetros do Project Service com "Aplicável às Vendas" destacado.](media/PS-OOB-parameters.png)
+![Captura de ecrã dos parâmetros do Project Service com "Aplicável às Vendas" destacado](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Se tiver utilizado os campos de função e unidade organizacional fornecidos com o programa como dimensões de definição de preços anteriores à versão 3 do PSA, não haverá nenhuma alteração observável. Pode continuar a utilizar o Project Service normalmente. 
@@ -66,16 +67,13 @@ O exemplo que se segue mostra taxas de faturação que são configuradas com bas
 
 | Função        | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Programador   | Contoso E.U.A.  |Hora | 200|USD     |
-| Programador   | Contoso India |Hora|   112|USD     |
+| Programador   | Contoso EUA  |Hour | 200|USD     |
+| Programador   | Contoso India |Hour|   112|USD     |
 
 
 **Exemplo de taxas de custo**
 
 | Faixa salarial     | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| A minha empresa_Faixa 1 | Contoso E.U.A.  |Hora | 145|USD     |
-| A minha empresa_Faixa 2 | Contoso India |Hora|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| A minha empresa_Faixa 1 | Contoso EUA  |Hour | 145|USD     |
+| A minha empresa_Faixa 2 | Contoso India |Hour|   67|USD     |

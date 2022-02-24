@@ -2,10 +2,12 @@
 title: Desativar uma dimensão de definição de preços
 description: Este tópico mostra como configurar dimensões de definição de preços na solução do Project Service.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da0ac942579ba8d9b2258a011b8eeef8e64ba9c9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006800"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147307"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Desativar uma dimensão de definição de preços
 
@@ -32,19 +34,16 @@ A desativação de uma dimensão de definição de preços, independentemente de
 
 No entanto, ao fazê-lo, poderá receber a seguinte mensagem de erro.
 
-![É provável que haja um erro no processo de negócio ao desativar uma dimensão de definição de preços.](media/Business-Process-Error.png)
+![É provável que haja um erro no processo de negócio ao desativar uma dimensão de definição de preços](media/Business-Process-Error.png)
 
 
 Esta mensagem de erro indica que existem registos de preços configurados anteriormente para a dimensão que está a ser desativada. Todos os registos **Preço da Função** e **Margem de Lucro do Preço da Função** que façam referência a uma dimensão têm de ser eliminados antes de a aplicabilidade da dimensão poder ser definida como **Não**. Esta regra aplica-se às dimensões de definição de preços fornecidas com o programa e a quaisquer dimensões de definição de preços personalizadas que possa ter criado. O motivo dessa validação é porque o Project Service tem uma restrição de que cada registo **Preço da Função** deve ter uma combinação exclusiva de dimensões. Por exemplo, numa lista de preços denominada **Taxas de custo nos EUA 2018**, tem as seguintes linhas de **Preço da Função**. 
 
 | Título Padrão         | Unidade Organizacional    |Unidade   |Preço  |Moeda  |
 | -----------------------|-------------|-------|-------|----------|
-| Engenheiro de Sistemas|Contoso E.U.A.|Hora| 100|USD|
-| Engenheiro de Sistemas Sénior|Contoso E.U.A.|Hora| 235| USD|
+| Engenheiro de Sistemas|Contoso EUA|Hour| 100|USD|
+| Engenheiro de Sistemas Sénior|Contoso EUA|Hour| 150| USD|
 
 
 Quando desativar o **Título Padrão** como a dimensão de definição de preços e o motor de definição de preços do Project Service procurar um preço, só irá utilizar o valor **Unidade Organizacional** do contexto de entrada. Se a **Unidade Organizacional** do contexto de entrada for "Contoso US", o resultado será não determinístico porque as duas linhas corresponderão. Para evitar este cenário, quando cria registos de **Preço da Função**, o Project Service valida que a combinação de dimensões é exclusiva. Se a dimensão for desativada após a criação dos registos de **Preço da Função**, esta restrição poderá ser violada. Consequentemente, é necessário que, antes de desativar uma dimensão, elimine todas as linhas de **Preço da Função** e **Margem de Lucro do Preço da Função** que tenham esse valor de dimensão preenchido.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

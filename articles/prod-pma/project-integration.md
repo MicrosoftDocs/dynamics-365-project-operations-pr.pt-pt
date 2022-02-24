@@ -2,9 +2,11 @@
 title: Integração com o Microsoft Project Client
 description: Planear e manter uma agenda de projetos pode ser complexo, pelo que os gestores de projetos precisam de utilizar ferramentas que os ajudem a gerir esta tarefa. A integração com o Microsoft Project Client fornece suporte para abrir e gerir uma estrutura hierárquica do trabalho do projeto.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988035"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082465"
 ---
 # <a name="microsoft-project-client-integration"></a>Integração com o Microsoft Project Client
 
@@ -125,13 +127,3 @@ Para criar uma nova estrutura hierárquica do trabalho ao utilizar o Microsoft P
 8.  Selecione o **Calendário** a utilizar para a atribuição de recursos.
 
 11. Clique em **OK**.
-
-> [!NOTE]
-> O suplemento Project Client não suporta os seguintes caracteres no formato de ID do projeto:
-> 
->   - Caráter de sublinhado
->   - Período
->   - Espaço
->   - Barra
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

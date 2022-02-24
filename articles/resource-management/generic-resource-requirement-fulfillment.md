@@ -2,16 +2,18 @@
 title: Cumprimento dos requisitos genéricos de recursos
 description: Este tópico fornece informações sobre como reservar recursos nomeados para um requisito de recurso genérico.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008285"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130322"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Cumprimento dos requisitos genéricos de recursos
 
@@ -37,6 +39,3 @@ Este é um exemplo de quando são necessários vários recursos nomeados para cu
 A principal diferença neste cenário é que o recurso genérico permanece na equipa atribuída à tarefa, e os membros da equipa de recursos nomeados reservados não são atribuídos como parte da posição. O gestor de projeto pode atribuir o trabalho conforme adequado aos recursos nomeados. A vista **Reconciliação** pode ajudar um gestor de projeto a dividir as reservas em vários recursos em atribuições de tarefas. Isto não é efetuado automaticamente porque, em qualquer cenário mais complicado do que o exemplo simples acima, como, por exemplo, o local onde tem um grupo de tarefas que compõem o requisito ou a intenção de como o gestor de projeto pretende atribuir, precisa de ser assumida pelo sistema. Como o sistema não pode compreender a intenção, é provável que as suposições sejam diferentes das pretensões e um resultado incorreto ou imprevisível será obtido. O resultado previsível é que o recurso genérico permanece atribuído até que o gestor de projeto crie deliberadamente as atribuições, com a ajuda da vista **Reconciliação**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

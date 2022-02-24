@@ -2,16 +2,18 @@
 title: Gerir vários clientes em itens de contrato baseados em projetos – lite
 description: Este tópico fornece informações sobre a gestão de vários clientes em itens de contrato baseados em projetos.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001805"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181654"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Gerir vários clientes em itens de contrato baseados em projetos – lite
 
@@ -41,6 +43,3 @@ Abaixo estão os campos no registo do cliente do item de **Contrato** de um item
 As faturação de percentagens divididas pode ser editada na grelha. Quando as percentagens de divisão de faturação não totalizam 100 por cento, ocorrerá um erro. Depois de editar as percentagens de divisão de faturação, atualize a página para remover o erro.
 
 Também pode selecionar **Distribuir Uniformemente** na subgrelha do cliente do item de contrato. Esta ação atribui igualmente divisões de faturação a todos os clientes do item de contrato. Se houver algum fator de arredondamento, será adicionado ao cliente de arredondamento. Um cliente do item de contrato é sempre etiquetado como cliente de **Arredondamento** com a bandeira **Arredondamento** definida como **Sim**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

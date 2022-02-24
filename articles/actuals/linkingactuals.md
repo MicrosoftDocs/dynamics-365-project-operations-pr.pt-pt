@@ -2,17 +2,19 @@
 title: Ligue os valores reais aos registos originais
 description: Este tópico explica como ligar os valores reais aos registos originais, tais como entrada de tempo, entrada de despesas ou registos de utilização de materiais.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991770"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852603"
 ---
 # <a name="link-actuals-to-original-records"></a>Ligue os valores reais aos registos originais
 
@@ -77,7 +79,7 @@ Em conjunto, a **Origem da transação** e a **Ligação da transação** ajudam
 
 O exemplo que se segue mostra o processamento normal das entradas de tempo num ciclo de vida do projeto do Project Operations.
 
-> ![Processamento completo do tempo num ciclo de vida do Project Service.](media/basic-guide-17.png)
+> ![Processamento completo do tempo num ciclo de vida do Project Service](media/basic-guide-17.png)
  
 1. Uma submissão de entrada de tempo causa a criação de duas linhas do diário: uma para o custo e outra para as vendas não faturadas.
 2. A eventual aprovação de uma entrada de tempo cria dois valores reais: um valor real para o custo e outro valor real para as vendas não faturadas.

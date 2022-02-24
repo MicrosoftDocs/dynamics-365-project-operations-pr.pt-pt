@@ -2,18 +2,19 @@
 title: Descrição geral das dimensões de preços
 description: Este tópico fornece informações sobre as dimensões de preços no Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001985"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650219"
 ---
 # <a name="pricing-dimensions-overview"></a>Descrição geral das dimensões de preços
 
@@ -33,7 +34,7 @@ Por esse motivo, existem dois tipos de valores de dimensão de definição de pr
 
 O Dynamics 365 Project Operations é fornecido com um conjunto predefinido de dimensões de preços. Pode visualizar estas dimensões de preços ao aceder a **Operações do projeto** > **Parâmetros**. No registo de parâmetro, no separador **Dimensões de definição de preços baseadas em montantes**, verifique se a função, **msdyn_resourcecategory** e a unidade organizacional de atribuição de recursos, **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Com estes campos ativados, pode configurar o preço e o custo de cada combinação de função e unidade organizacional.
 
-![Captura de ecrã dos parâmetros do Project Service com "Aplicável às Vendas" destacado.](media/PS-OOB-parameters.png)
+![Captura de ecrã dos parâmetros do Project Service com "Aplicável às Vendas" destacado](media/PS-OOB-parameters.png)
 
 Se precisar de definir o preço ou o custo dos seus recursos utilizando atributos adicionais, poderá criar campos, entidades e dimensões personalizados. Para obter mais informações, consulte os seguintes tópicos. 
   
@@ -60,16 +61,13 @@ O exemplo que se segue mostra taxas de faturação que são configuradas com bas
 
 | Função        | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Programador   | Contoso E.U.A.  |Hora | 200|USD     |
-| Programador   | Contoso India |Hora|   112|USD     |
+| Programador   | Contoso EUA  |Hour | 200|USD     |
+| Programador   | Contoso India |Hour|   112|USD     |
 
 
 **Exemplo de taxas de custo**
 
 | Faixa salarial     | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| A minha empresa_Faixa 1 | Contoso E.U.A.  |Hora | 145|USD     |
-| A minha empresa_Faixa 2 | Contoso India |Hora|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| A minha empresa_Faixa 1 | Contoso EUA  |Hour | 145|USD     |
+| A minha empresa_Faixa 2 | Contoso India |Hour|   67|USD     |

@@ -2,16 +2,18 @@
 title: Gerir unidades complexas para itens de contrato baseados em produtos – lite
 description: Este tópico fornece informações sobre o suporte à venda de produtos baseados em subscrições.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003380"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177390"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Gerir unidades complexas para itens de contrato baseados em produtos – lite
 
@@ -44,6 +46,3 @@ Para criar fatores de quantidade a partir de propriedades do produto, complete o
 7. Repita os passos 2-6 para todas as propriedades que, em conjunto, compõem a quantidade do item de contrato baseado em produtos.
 
 Com os fatores de quantidade configurados, quando o utilizador cria um item de contrato para este produto, a quantidade do item de contrato é bloqueado. A quantidade é então calculada como um produto dos valores de propriedade para esse item de contrato.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Configurar modelos de custos
 description: Este tópico fornece informações sobre como criar e utilizar modelos de custos no Project Operations.
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993570"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642737"
 ---
 # <a name="set-up-cost-templates"></a>Configurar modelos de custos
 
@@ -77,6 +79,3 @@ Para criar modelos de custos, siga estes passos:
 7. No separador **Categorias**, selecione as categorias de projeto a incluir na linha do modelo de custos.
 8. No separador **Geral**, selecione se esta linha será incluída na percentagem de cálculo de conclusão.
 9. Selecione o custo para completar o método a utilizar no cálculo da percentagem de conclusão.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

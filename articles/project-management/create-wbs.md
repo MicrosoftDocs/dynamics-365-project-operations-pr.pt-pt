@@ -2,16 +2,18 @@
 title: Criar uma estrutura hierárquica do trabalho
 description: Esta tópico explica como criar uma estrutura hierárquica do trabalho (WBS) incluindo os controlos básicos na nova interface de agendamento.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928629"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841385"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura hierárquica do trabalho (WBS)
 
@@ -91,15 +93,13 @@ A tabela a seguir mostra atributos de agenda adicionais.
 | Nome | O nome da tarefa. |
 | ID | O ID da tarefa na estrutura hierárquica do trabalho. |
 
-Como Administrador, pode definir campos personalizados na entidade de tarefa. No entanto, os campos não podem ser exibidos na grelha de programação. Para ver os seus campos personalizados, adicione-os à página de detalhes de **Tarefa do projeto**.
-
 ## <a name="staffing-attributes"></a>Atributos do pessoal
 
-Os atributos de definição de pessoal são acedidos através do campo **Recursos** na agenda. Pode procurar um recurso existente ou selecionar **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipa do projeto como um novo recurso.  Ao pesquisar por um recurso utilizando o seletor de recursos na grelha de tarefas, vista do quadro ou Gantt, a pesquisa obtém os membros da equipa do projeto existentes ou recursos reserváveis ativos.
+Os atributos de definição de pessoal são acedidos através do campo **Recursos** na agenda. Pode procurar um recurso existente ou selecionar **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipa do projeto como um novo recurso.
 
 Os campos **Função**, **Unidade de Atribuição de Recursos** e **Nome da Posição** são utilizados para descrever as necessidades de definição de pessoal para a tarefa. Estes atributos de definição de pessoal, juntamente com o agendamento da tarefa são utilizados para localizar os recursos disponíveis para efetuar esta tarefa.
 
-   - **Função**: especifique o tipo de recurso que é necessário para efetuar a tarefa.
+   - **Função**: Especifique o tipo de recurso que é necessário para efetuar a tarefa.
    - **Unidade de atribuição de recursos**: Especifique a unidade a partir da qual os recursos para a tarefa devem ser atribuídos. Este atributo afeta o custo e a estimativa de vendas para a tarefa se o custo e a taxa de faturação do recurso forem definidos com base nas unidades de atribuição de recursos.
    - **Nome da posição**: Introduza um nome para o recurso genérico que serve como marcador de posição para o recurso que, por fim, fará o trabalho.
 
@@ -116,28 +116,3 @@ O modo de tarefa não tem efeito nas atualizações efetuadas nas datas de iníc
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Atalhos de teclado e acessibilidade
 
 A grelha **Agenda** é totalmente acessível e pode ser utilizada com leitores de ecrã, tais como o Narrator, o JAWS ou o NVDA. Pode percorrer a área de grelha através da utilização das teclas de seta (como no Microsoft Excel), pode utilizar a tecla de tabulação para avançar através dos elementos da interface de utilizador interativa e pode utilizar a tecla de seta para baixo, a tecla Enter ou a Barra de Espaço para selecionar e abrir os menus pendentes.
-
-## <a name="project-limitations"></a>Limitações do projeto 
-Se estiver a utilizar a estrutura hierárquica do trabalho no Project Operations, deve estar ciente das seguintes limitações. Estes limites são aplicáveis aos projetos e às tarefas. Para mais informações, consulte [Limites e limiares do Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Campo**                                          |  **Limite**           |
-|----------------------------------------------------|----------------------|
-| Total de tarefas máximo para um projeto                  | 500                  |
-| Duração total máxima para um projeto               | 3650 dias (10 anos) |
-| Total de recursos máximo para um projeto              | 235                  |
-| Total de ligações máximo (apenas a sucessora) para um projeto | 600                  |
-| Total de campos personalizados máximo para um projeto          | 10                   |
-| Máximo de itens de lista de verificação por tarefa                   | 20                   |
-
-**Limitações de tarefas**
-
-| **Campo**                               |   **Limite**           |
-|-----------------------------------------|-----------------------|
-| Nível máximo da hierarquia                 | 10 níveis             |
-| Máximo de ligações (sucessora + antecessora) | 20                    |
-| Duração máxima da tarefa da folha           | 1250 dias             |
-| Duração máxima de uma tarefa de resumo      | 3650 dias (10 anos)  |
-| Máximo de recursos atribuídos a uma tarefa    | 20 recursos          |
-| Intervalo de datas suportado para uma tarefa         | 1/1/2000 - 31/12/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

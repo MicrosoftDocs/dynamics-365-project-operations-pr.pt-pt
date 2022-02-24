@@ -1,19 +1,21 @@
 ---
-title: Gerir uma fatura pró-forma do projeto
-description: Este tópico fornece informações sobre como trabalhar com faturas pró-forma em projetos.
+title: Gerir uma fatura pró-forma – lite
+description: Este tópico fornece informações sobre trabalhar com faturas Pró-forma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997440"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181556"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Gerir uma fatura pró-forma do projeto 
+# <a name="manage-a-proforma-invoice---lite"></a>Gerir uma fatura pró-forma – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -67,9 +69,9 @@ No Project Operations, há sempre uma linha de fatura para cada item de contrato
 
 Cada linha de fatura numa fatura do projeto inclui detalhes da linha de fatura. Estes detalhes de linha estão relacionados com os valores reais de vendas e marcos não faturados relacionados com o item de contrato referenciada pela linha de fatura. Todas estas transações estão marcadas como **Pronto a Faturar**.
 
-Para uma linha de **Fatura de tempo e material**, os detalhes da linha de fatura são agrupados na página **Faturável**, **Não faturável** e **Grátis** na página **Linha de fatura**. Os detalhes da **Linha de Fatura Faturável** somam ao total da linha de fatura. Valores reais **grátis** e **não faturáveis** não somam o total da linha de fatura.
+Para a linha **Fatura de Tempo e Material**, os detalhes da linha de fatura são agrupados em **Faturável**, **Não Faturável** e **Grátis** na página **Linha de Fatura**. Os detalhes da **Linha de Fatura Faturável** somam ao total da linha de fatura. **Grátis** e **Valores reais Não Faturáveis** não somam o total da linha de fatura.
 
-Para uma linha de **fatura de preço fixo**, os detalhes da linha de fatura são criados a partir de marcos que são marcados como **Prontos a faturar** no item de contrato relacionado. Após a criação do detalhe da linha de fatura a partir de um marco, o estado de faturação do marco é atualizado para **Fatura do Cliente Criada**.
+Para a linha **Fatura de Preço Fixo**, os detalhes da linha de fatura são criados a partir de marcos que são marcados como **Pronto a Faturar** no item de contrato relacionado. Após a criação do detalhe da linha de fatura a partir de um marco, o estado de faturação do marco é atualizado para **Fatura do Cliente Criada**.
 
 ### <a name="edit-invoice-line-details"></a>Editar detalhes de linha de fatura
 
@@ -96,12 +98,8 @@ Os seguintes campos estão disponíveis num detalhe da linha de fatura que é su
 | **Imposto** | Predefinido a partir do valor real de origem. O campo pode ser editado pelo utilizador | O campo pode ser editado pelo utilizador ao criar um novo detalhe de linha de fatura sem um valor real de suporte. |
 | **Montante Total** | Um campo calculado, calculado como **Montante + Imposto**. Um campo só de leitura que está bloqueado da edição. | &nbsp; |
 | **Tipo de Faturação** | Predefinido a partir do valor real de origem. O campo pode ser editado pelo utilizador. | Selecionar **Faturável** adiciona a linha ao total da linha de fatura. **Grátis** e **Não Faturável** irá excluí-la do total da linha de fatura. |
-| **Selecionar Produto** | Marcado por predefinição a partir da fonte real, este é um campo de apenas leitura. | Quando cria um novo detalhe de linha de fatura sem um suporte real, este campo pode ser editado. |
-| **Produto** | Marcado por predefinição a partir da fonte real, este é um campo de apenas leitura. | Quando cria um novo detalhe de linha de fatura sem um suporte real, este campo pode ser editado se o campo **Selecionar produto** estiver definido para o **produto existente**. |
-| **Nome do Produto** | Marcado por predefinição a partir da fonte real, este é um campo de apenas leitura. | Num novo detalhe da linha de fatura, onde o ID do produto é selecionado a partir do catálogo, este campo é definido para o nome do produto. Para acrescentar manualmente no produto, o campo está definido para acrescentar manualmente em nome. |
-| **Descrição de acrescentar manualmente** | Marcado por predefinição a partir da fonte real, este campo é de apenas leitura. | Quando cria um novo detalhe de linha de fatura sem um suporte real, pode acrescentar manualmente uma descrição para o produto. |
 | **Tipo de Transação** | Predefinido a partir do valor real de origem. Um campo só de leitura que está bloqueado da edição. | Predefinido para **Vendas Faturadas** e bloqueado ao criar um novo **Detalhe da linha de fatura** sem um valor real de suporte.  |
-| **Classe de Transação** | Predefinido a partir do valor real de origem. Um campo só de leitura que está bloqueado da edição. | Definido por predefinição com base no facto de o utilizador optar por criar um detalhe de linha de fatura **tempo**, **despesa**, **material** ou **taxa**, ao mesmo tempo que cria um novo **detalhe da linha fatura** sem suporte real. Bloqueado de edição. |
+| **Classe de Transação** | Predefinido a partir do valor real de origem. Um campo só de leitura que está bloqueado da edição. | Predefinido com base no facto do utilizador optar por criar um detalhe de linha de fatura de **Tempo**, **Despesas** ou **Taxa**, ao mesmo tempo que cria um novo **Detalhe de linha de fatura** sem um valor real de suporte. Bloqueado de edição. |
 
 Os seguintes campos estão disponíveis num detalhe da linha de fatura que é suportada por marco:
 
@@ -146,6 +144,3 @@ Se tiver valores reais que chegaram após a criação da fatura, pode incluir es
 No Project Operations, pode criar linhas de fatura para produtos que não se aplicam a nenhum projeto ou a todos os projetos, juntamente com linhas de fatura baseadas em projetos. Estas linhas de fatura são criadas como itens de contrato baseados em produtos e depois de marcados como pronto a faturar, são adicionados como linhas de fatura baseadas em produtos.
 
 Depois de ter adicionado linhas de fatura baseadas em produtos, não podem ser alteradas. Podem, no entanto, ser eliminadas da fatura pró-forma de rascunho.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

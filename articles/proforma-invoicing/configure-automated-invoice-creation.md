@@ -2,16 +2,18 @@
 title: Configurar a criação automática de faturas
 description: Este tópico fornece informações sobre como configurar o sistema para gerar faturas automaticamente.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992670"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122447"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Configurar a criação automática de faturas
 
@@ -43,6 +45,3 @@ A tarefa de processamento em lote para criar faturas é uma tarefa recorrente. S
 
 > [!NOTE]
 > A faturação do lote só funciona para itens de contrato do projeto que são configurados por horários da fatura. Uma linha de contrato com um método de faturação de preço fixo tem de ter marcos configurados. Uma linha de contrato de projeto com um método de faturação de tempo e material necessitará de uma configuração de agenda de faturamento baseado em datas. O mesmo se aplica a uma linha de contratos baseada em projetos.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

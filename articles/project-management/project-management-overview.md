@@ -1,18 +1,19 @@
 ---
 title: Descrição geral da gestão do projeto
-description: Este tópico fornece informações sobre a gestão do projeto no Dynamics 365 Project Operations.
+description: Este tópico fornece informações sobre a Gestão de projetos no Dynamics 365 Project Operations.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991006"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127577"
 ---
 # <a name="project-management-overview"></a>Descrição geral da gestão do projeto
 
@@ -25,6 +26,3 @@ As ferramentas de gestão de projetos no Dynamics 365 Project Operations ajudam 
 - Utilize estimativas de projeto durante o processo de vendas.
 - Prever os requisitos de recursos para os projetos que estão no pipeline.
 - Entregar projetos com êxito monitorizando o progresso e o consumo de custo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

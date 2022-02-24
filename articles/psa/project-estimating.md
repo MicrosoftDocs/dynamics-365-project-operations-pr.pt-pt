@@ -2,6 +2,8 @@
 title: Custos e receita do projeto
 description: Este tópico fornece informações sobre a estimativa de custos e receitas do projeto.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002570"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148342"
 ---
 # <a name="project-costs-and-revenue"></a>Custos e receita do projeto
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002570"
 
 As estimativas do projeto fornecem a vista financeira do trabalho estimado e agendado na agenda do projeto. O separador **Estimativas** na página **Projetos** mostra o impacto sobre o custo e a receita do trabalho que está a planear. Também fornece informações sobre muitas dimensões predefinidas. 
 
-> ![Separador Estimativas.](media/project-5.png)
+> ![Separador Estimativas](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valores das vendas e do custo do projeto
 
@@ -66,13 +68,13 @@ Se o sistema não encontrar um preço para a função, o preço de venda na linh
 
 O separador **Estimativas** tem uma vista de grelha que mostra as linhas de estimativa. A grelha inclui colunas para a unidade, o preço de custo total e o preço de venda total, conforme mostrado na ilustração seguinte. 
 
-> ![Vista de grelha no separador Estimativas.](media/project-6.png)
+> ![Vista de grelha no separador Estimativas](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Vista faseada no tempo das estimativas do projeto
 
 A vista faseada no tempo das estimativas do projeto mostra os dados de estimativa a partir da vista de grelha na linha cronológica, numa escala temporal selecionada. Por predefinição, os dados de estimativa são articulados na dimensão **Função**.
 
-> ![Vista faseada no tempo para estimativas do projeto.](media/project-7.png)
+> ![Vista faseada no tempo para estimativas do projeto](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Alocar o esforço estimado com base no modo de tarefa
 
@@ -95,6 +97,3 @@ Na vista de grelha e na vista faseada no tempo, pode selecionar os campos que s�
 ## <a name="expense-estimates"></a>Estimativas de despesas
 
 O botão **Adicionar uma Estimativa de Despesa Nova** na vista de grelha permite-lhe registar quaisquer despesas incorridas no projeto, mas que não estão diretamente relacionadas com a mão de obra. Pode registar as estimativas de despesas para uma tarefa específica ou para todo o projeto. Selecione as categorias de despesa e a data provisória em que espera incorrer na despesa. Se a lista de preços de custo e a lista de preços de venda associadas tiverem preços predefinidos (ou percentagens de margem de lucro definidas para as categorias de despesa), estes serão introduzidos automaticamente na linha de estimativa quando a associação ocorrer.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

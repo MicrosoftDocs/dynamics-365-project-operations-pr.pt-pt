@@ -2,6 +2,8 @@
 title: Encontrar o seu projeto seguinte com a aplicação Project Finder Mobile
 description: Como encontrar o seu projeto seguinte com a aplicação Project Finder Mobile para o Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990802"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149287"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Encontrar o seu projeto seguinte com a aplicação Project Finder Mobile (Project Service)
 
@@ -38,15 +40,12 @@ Com a aplicação Project Finder Mobile no seu telemóvel [!INCLUDE[tn_iphone](.
   
  Toque na seta à direita do projeto em que está interessado para ver mais detalhes e inscrever-se nele.  
   
- ![Lista de projetos que correspondem às competências na aplicação Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Lista de projetos que correspondem às competências na aplicação Project Finder Mobile")  
+ ![Lista de projetos que correspondem às competências na aplicação Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Lista de projetos que correspondem às competências na aplicação Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Atualizar as competências  
  Toque no botão de perfil na parte inferior direita do ecrã para atualizar os seus níveis de competência e proficiência.  
   
- ![Botão Perfil na aplicação Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Botão Perfil na aplicação Project Finder Mobile")  
+ ![Botão Perfil na aplicação Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Botão Perfil na aplicação Project Finder Mobile")  
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

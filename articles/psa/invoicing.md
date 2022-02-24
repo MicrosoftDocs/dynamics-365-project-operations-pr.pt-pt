@@ -2,10 +2,12 @@
 title: Faturação do Project Service Automation
 description: Este tópico fornece informações sobre a faturação.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985515"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151402"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Faturação do Project Service Automation
 
@@ -50,7 +52,7 @@ Siga este passo para criar uma fatura para um contrato do projeto específico.
 
 - Na página da lista de **Contratos do Projeto**, abra um contrato do projeto e, em seguida, selecione **Criar Fatura**.
 
-    ![Criar faturas do projeto para um contrato do projeto específico.](media/CreateProjectInvoicesOneByOne.png)
+    ![Criar faturas do projeto para um contrato do projeto específico](media/CreateProjectInvoicesOneByOne.png)
 
     É gerada uma fatura para todas as transações referentes ao contrato do projeto selecionado que têm um estado de **Pronto para Faturar**. Estas transações incluem o tempo, as despesas, os marcos e os itens de contrato baseados no produto.
 
@@ -58,7 +60,7 @@ Siga estes passos para criar faturas em massa.
 
 1. Na página da lista de **Contratos do Projeto**, selecione um ou mais contratos do projeto para os quais tem de criar uma fatura e, em seguida, selecione **Criar Faturas do Projeto**.
 
-    ![Criar faturas do projeto em massa.](media/CreateProjectInvoicesBulk.png)
+    ![Criar faturas do projeto em massa](media/CreateProjectInvoicesBulk.png)
 
     Uma mensagem de aviso informa-o de que poderá haver um atraso antes da criação das faturas. O processo também é mostrado.
 
@@ -115,6 +117,3 @@ Quando confirma uma fatura corretiva, o valor real de vendas faturadas originais
 
 - Um valor real de vendas faturadas durante seis horas.
 - Uma valor real de vendas não faturadas para as duas horas restantes. Esta transação pode ser faturada mais tarde ou marcada como não faturável, dependendo das negociações com o cliente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Diário de integração no Project Operations
 description: Este tópico fornece informações sobre o trabalho com o diário de Integração no Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987945"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948344"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diário de integração no Project Operations
 
@@ -19,7 +21,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 As entradas de tempo e despesas criam transações de **Valor Real** que representam a vista operacional do trabalho concluído contra um projeto. O Dynamics 365 Project Operations fornece aos contabilistas uma ferramenta para rever as transações e ajustar os atributos contabilísticos, conforme necessário. Após a revisão e os ajustes estarem concluídos, as transações são publicadas no sub-livro razão do Projeto e no livro razão Geral. Um contabilista pode realizar estas atividades através do diário **Integração no Project Operations** (diário **Dynamics 365 Finance** > **Gestão de projetos e contabilística** > **Diários** > **Integração do Project Operations**.
 
-![Fluxo do diário de integração.](./media/IntegrationJournal.png)
+![Fluxo do diário de integração](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Criar registos no diário de Integração do Project Operations
 

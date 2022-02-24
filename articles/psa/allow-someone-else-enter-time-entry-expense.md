@@ -2,6 +2,8 @@
 title: Permitir que outra pessoa proceda à entrada de hora ou despesa
 description: Como permitir que outra pessoa proceda à entrada de hora ou despesa no Project Service
 author: revathiMuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2642e56fc3df44b5c7583d0b996765f5a22f6be1fc46738d02462d928f833048
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2f13e66915a8e05ee3d314af065c03779582d5a4
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000725"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145552"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Permitir que outra pessoa proceda à entrada de hora ou despesa (Project Service)
 
@@ -91,6 +93,3 @@ Configure um delegado para permitir a outra pessoa criar entradas de hora ou des
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

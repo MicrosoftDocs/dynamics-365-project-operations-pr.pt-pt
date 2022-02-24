@@ -2,16 +2,18 @@
 title: Definições de oportunidade – lite
 description: Este tópico fornece informações sobre negócios baseados em projetos e linhas de oportunidade baseadas em projetos.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994470"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663833"
 ---
 # <a name="header-details-for-project-opportunities"></a>Detalhes do cabeçalho para oportunidades de projetos
 
@@ -31,7 +33,7 @@ A tabela seguinte inclui os campos numa oportunidade baseada em projetos que sã
 | Gestor de Contas | Separador Geral | O nome do Gestor de conta para esta oportunidade baseada em projetos. | O Gestor de conta é responsável pela gestão da relação com o cliente até à conclusão deste projeto. Baseado no registo de recurso reservável associado ao Gestor de conta, a unidade de contratação é assumida por predefinição. |
 | Unidade de Contratação | Separador Geral | A Unidade organizacional que é responsável pela entrega do projeto ou projetos associados a este negócio. | A unidade de contratação é a divisão da empresa que executará os projetos após o fecho do negócio. Todas as unidades de contratação têm uma moeda, e esta moeda é utilizada para reportar os custos estimados e reais incorridos durante o projeto. |
 
-Para todos os outros campos e secções no separador **Resumo** da oportunidade, consulte [Criar ou editar oportunidades (Sales e Hub de Vendas)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+Para todos os outros campos e secções no separador **Resumo** da oportunidade, consulte [Criar ou editar oportunidades (Sales e Hub de Vendas)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

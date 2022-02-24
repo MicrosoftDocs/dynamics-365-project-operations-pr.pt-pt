@@ -2,9 +2,11 @@
 title: Sincronizar valores reais do projeto diretamente a partir do Project Service Automation para o diário de integração do projeto para lançamento no Finance and Operations
 description: Este tópico descreve os modelos e as tarefas subjacentes que são utilizados para sincronizar os valores reais do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Finance and Operations.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988125"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082536"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizar valores reais do projeto diretamente a partir do Project Service Automation para o diário de integração do projeto para lançamento no Finance and Operations
 
@@ -42,7 +44,7 @@ A solução de integração do Project Service Automation para Finance utiliza a
 
 A seguinte ilustração mostra como os dados são sincronizados entre o Project Service Automation e o Finance.
 
-[![Fluxo de dados para a integração do Project Service Automation com o Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Fluxo de dados para a integração do Project Service Automation com o Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Valores reais do projeto a partir do Project Service Automation
 
@@ -93,9 +95,9 @@ Para atualizar a coluna condicional inserida no modelo, clique na seta **Mapear*
 
 As seguintes ilustrações mostram um exemplo do mapeamento de tarefas do modelo na Integração de Dados. O mapeamento mostra as informações do campo que serão sincronizadas do Project Service Automation para Finance.
 
-[![Mapeamento de modelos – Valores reais.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mapeamento de modelos – Valores reais](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Mapeamento de modelos – Ligações de transação.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mapeamento de modelos – Ligações de transação](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importar a partir da tabela de transição após a integração do Project Service Automation
 
@@ -135,9 +137,6 @@ No modelo de atualização dos valores reais do projeto, tem de utilizar o Power
 
 As seguintes ilustrações mostram exemplos dos mapeamentos de tarefas do modelo na Integração de Dados. O mapeamento mostra as informações do campo que serão sincronizadas entre o Finance e o Project Service Automation.
 
-[![Mapeamento de modelos – Atualização de valores reais.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mapeamento de modelos – Atualização de valores reais](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Mapeamento de modelos – Atualização de transação.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Mapeamento de modelos – Atualização de transação](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)

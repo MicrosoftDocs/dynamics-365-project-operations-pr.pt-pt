@@ -2,16 +2,18 @@
 title: Dimensão financeira predefinida
 description: Este tópico fornece informações sobre como configurar predefinições de dimensão financeira.
 author: sigitac
-ms.date: 12/14/2021
+manager: Annbe
+ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922952"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642377"
 ---
 # <a name="financial-dimension-defaults"></a>Dimensão financeira predefinida
 
@@ -19,7 +21,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-O Dynamics 365 Project Operations utiliza a estrutura de [Dimensões financeiras](/dynamics365/finance/general-ledger/financial-dimensions) no Dynamics 365 Finance para fornecer informações adicionais sobre as transações do sub-livro razão e livro razão geral.
+O Dynamics 365 Project Operations utiliza a estrutura de [Dimensões financeiras](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) no Dynamics 365 Finance para fornecer informações adicionais sobre as transações do sub-livro razão e livro razão geral.
 
 As dimensões financeiras predefinidas podem ser definidas num cliente, fonte de financiamento de projetos, marco, item de contrato de projeto ou projeto.
 
@@ -60,15 +62,3 @@ Os projetos são criados e mantidos no CDS. Os atributos contabilísticos para o
 4. Defina as predefinições da dimensão financeira. Note que as dimensões financeiras assumem a predefinição da conta do cliente. Se o projeto estiver associado a um item de contrato com vários clientes de contratos de projeto, o cliente principal é utilizado para predefinir dimensões financeiras.
 
 As dimensões financeiras predefinidas do projeto são usadas para predefinir linhas de diário para tempo, despesas e transações de taxas no **Diário de Integração do Project Operations** e em linhas de fatura de projeto relacionadas.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Aplicar dimensões financeiras a entradas de tempo do projeto
-Para aplicar dimensões financeiras a entradas de tempo do projeto, note que o valor de dimensão predefinido se baseia na seguinte ordem:
-
-1. recurso
-2. Project
-3. Fonte de financiamento
-
-Por exemplo, se a dimensão predefinida for especificada num recurso, será aplicada sobre uma predefinição especificada no projeto. Da mesma forma, uma dimensão de projeto predefinida será aplicada sobre a predefinição especificada na origem do financiamento.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

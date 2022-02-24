@@ -2,9 +2,11 @@
 title: Configurar campos personalizados como dimensões de definição de preços
 description: Este tópico fornece informações sobre como configurar as dimensões de definição de preços usando campos personalizados.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003605"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650238"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de definição de preços
 
@@ -42,11 +44,11 @@ Para que um campo se torne uma dimensão de definição de preços, tem de ser:
 
 - Criado como uma linha na tabela **Dimensões de Definição de Preços**. Por exemplo, adicione linhas de dimensão de definição de preços, conforme mostrado no gráfico seguinte. 
 
-![Linhas de Dimensão de Definição de Preços Baseada no Montante.](media/Amt-based-PD.png)
+![Linhas de Dimensão de Definição de Preços Baseada no Montante](media/Amt-based-PD.png)
 
 As horas de Trabalho do Recurso (**msdyn_resourceworkhours**) são adicionadas como uma dimensão baseada na margem de lucro e foram adicionadas à grelha no separador **Dimensão de Definição de Preços Baseada na Margem de Lucro**.
 
-![Linhas de Dimensão de Definição de Preços Baseada na Margem de Lucro.](media/Markup-based-PD.png)
+![Linhas de Dimensão de Definição de Preços Baseada na Margem de Lucro](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -74,8 +76,8 @@ Existem dois tipos de dimensões de definição de preços:
 | Função        | Unidade Organizacional    |Localização do Trabalho      |Título Padrão      |Horas de Trabalho do Recurso      |  Margem de Lucro|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|No Local            |                    |Horas Extraordinárias                 |15     |
-|             | Contoso India|Local             |                    |Horas Extraordinárias                 |10     |
-|             | Contoso E.U.A.   |Local             |                    |Horas Extraordinárias                 |20     |
+|             | Contoso India|Região             |                    |Horas Extraordinárias                 |10     |
+|             | Contoso EUA   |Região             |                    |Horas Extraordinárias                 |20     |
 
 
 Se um recurso da Contoso India, cuja taxa base é de 100 USD, estiver a funcionar no local e registar 8 horas de tempo Normal e 2 horas extraordinárias na entrada de tempo, o motor de definição de preços irá utilizar a taxa base de 100 pelas 8 horas para registar 800 USD. Nas duas horas extraordinárias, uma margem de lucro de 15% será aplicada à taxa base de 100 para obter um preço unitário de 115 USD e irá registar um custo total de 230 USD.
@@ -94,6 +96,3 @@ Definir a prioridade da dimensão ajuda os preços a apresentar um preço, mesmo
 
 - **Prioridade ao Custo**: o valor da prioridade de custo de uma dimensão irá indicar o peso dessa dimensão quando comparado com a configuração dos preços de custo. O valor de **Prioridade ao Custo** tem de ser exclusivo nas dimensões **Aplicáveis ao Custo**.
 - **Prioridade às Vendas**: o valor da prioridade de vendas de uma dimensão irá indicar o peso dessa dimensão quando comparado com a configuração dos preços de venda ou taxas de faturação. O valor de **Prioridade às Vendas** tem de ser exclusivo nas dimensões **Aplicáveis às Vendas**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Adicionar membros da equipa a partir da grelha Membro da equipa
 description: Este tópico fornece informações sobre como pode gerir os recursos dos membros da equipa.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008420"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121547"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Adicionar membros da equipa a partir da grelha Membro da equipa
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-O Dynamics 365 Project Operations inclui um dashboard do gestor de Recursos que fornece uma descrição geral visual da procura e utilização de recursos em toda a organização. Pode utilizar os gráficos neste dashboard para visualizar as seguintes informações:
+O Dynamics 365 Project Operations inclui um dashboard Gestor de recursos que fornece uma descrição geral visual da procura e utilização de recursos em toda a organização. Pode utilizar os gráficos neste dashboard para visualizar as seguintes informações:
 
 - **Procura de recursos:** o gráfico **Pedido de Recursos Ativos** mostra os recursos que foram submetidos. Os recursos são agregados por uma função ou projeto.
 - **Procura de recursos não submetidos:** o gráfico **Procura de Recursos Não Atribuídos** mostra todos os requisitos de recursos que não foram submetidos. Este gráfico ajuda os Gestores de recursos a visualizarem a procura que não é firme e que pode ser submetida através de um pedido de recurso.
@@ -198,6 +200,3 @@ Quando visualiza o tempo em níveis superiores, as células no separador **Recon
 Se tiver atribuições de tarefas para um recurso, mas não tiver reservas, no formulário **Projetos**, no separador **Reconciliação**, selecione a falta de reserva e, em seguida, selecione **Expandir Reserva**. É apresentada a caixa de diálogo **Falta de Reserva** e mostra a reserva necessária para resolver a falta do recurso. A caixa de diálogo também mostra as reservas existentes do recurso em todos os projetos ou outras entidades agendáveis. Se selecionar **OK** para criar a reserva para o recurso, independentemente da disponibilidade do recurso, poderá causar uma reserva em excesso.
 
 Em seguida, o Gestor de projeto ou o Gestor de recursos pode utilizar o Quadro da Agenda para gerir qualquer situação em que um recurso tenha uma reserva em excesso além da sua capacidade.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Desempenho do agendamento de recursos do projeto
 description: Este tópico fornece informações sobre como melhorar o desempenho do agendamento de recursos para um grande número de projetos.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082387"
 ---
 # <a name="project-resource-scheduling-performance"></a>Desempenho do agendamento de recursos do projeto
 
@@ -67,6 +69,3 @@ Para ativar o melhoramento do desempenho do agendamento de recursos, complete os
 
 > [!NOTE]
 > Isto irá distribuir dados gerais para a tabela **ResRollup** em todas as empresas do seu ambiente, pelo que a tarefa de lote só precisa de ser executado numa entidade legal. Esta tarefa de lote é necessária para todas as vistas **Disponibilidade de Recursos**. Se esta tarefa de lote não for executada, os dados **ResRollup** serão gerados no momento, o que pode levar tempo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

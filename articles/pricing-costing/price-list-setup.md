@@ -2,22 +2,24 @@
 title: Configurar listas de preços
 description: Este tópico fornece informações sobre como configurar listas de preços de custos e vendas.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009500"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180206"
 ---
 # <a name="set-up-price-lists"></a>Configurar listas de preços
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-As listas de preços no Dynamics 365 Project Operations representam um catálogo de tarifas. As taxas expressam custos, vendas e taxas de faturação. Dependendo se a lista de preços expressa taxas de custo ou de vendas e taxas de faturação, o contexto da lista de preços é **Vendas** ou **Custos**.
+As listas de preços no Dynamics 365 Project Operations representam um catálogo de taxas. As taxas expressam custos, vendas e taxas de faturação. Dependendo se a lista de preços expressa taxas de custo ou de vendas e taxas de faturação, o contexto da lista de preços é **Vendas** ou **Custos**.
 
 As seguintes extensões são específicas para o Project Operations e são aplicadas às listas de preços do Dynamics 365 Sales.
 
@@ -38,6 +40,3 @@ A tabela seguinte inclui os campos no separador **Geral** de uma lista de preço
 | Moeda | Separador **Geral** e formulários **Criação Rápida** | Este campo é utilizado assumir a predefinição da moeda em cada função, categoria ou linha de item da lista de preços relacionada com esta lista de preços. | Nas listas de preços **Vendas**, as funções, categorias ou linhas de item da lista de preços não podem ser criadas em nenhuma moeda que não seja esta moeda. Nas listas de preços **Custos**, pode criar uma linha de preço de função em qualquer moeda. A moeda aqui definida é usada como uma predefinição. A configuração do utilizador que está relacionada com os preços de função pode sobrepor-se a este valor para ativar a configuração da taxa de custo da mão de obra em qualquer moeda. As taxas de custos de categoria e os custos de item de lista de preços só podem ser definidos na moeda definida aqui. |
 | Unidade de Tempo | Separador **Geral** e formulários **Criação Rápida** | Este campo é utilizado assumir a predefinição da unidade de tempo em cada linha de função relacionada com esta lista de preços. | Este valor de campo é utilizado apenas na configuração do preço da função relacionada. Nas listas de preços **Custos** e **Vendas**, pode criar uma linha de preço de função em qualquer unidade de tempo. A unidade de tempo aqui definida é usada como uma predefinição. A configuração do utilizador que está relacionada com os preços de função pode sobrepor-se a este valor para ativar a configuração da taxa de custo e faturação da mão de obra em qualquer unidade de tempo. |
 | Descrição | Separador **Geral** e formulários **Criação Rápida** | Este campo de texto permite-lhe fornecer uma descrição de várias linhas da lista de preços. | Este campo é mostrado nas vistas **Associadas** na lista de preços em várias entidades que têm listas de preços relacionadas. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

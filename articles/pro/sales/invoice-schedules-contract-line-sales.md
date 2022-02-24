@@ -2,16 +2,18 @@
 title: Criar agendas de faturação num item de contrato baseado no projeto – lite
 description: Este tópico fornece informações sobre a criação de agendas e marcos de faturação.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006080"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180341"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Criar agendas de faturação num item de contrato baseado no projeto – lite
 
@@ -72,6 +74,3 @@ Os marcos de preço fixo podem ser gerados manualmente quando não são dividido
 | Imposto | Criação Rápida | O valor do imposto aplicado ao marco. | Este está incluído no marco do item de contrato do projeto e na fatura. |
 
 4. Selecione **Guardar e Fechar**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Configurar campos personalizados como dimensões de definição de preços
 description: Esta tópico fornece informações sobre a configuração de dimensões de definição de preços personalizadas.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002345"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150367"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de definição de preços 
 
@@ -41,11 +43,11 @@ Para que um campo se torne uma dimensão de definição de preços, tem de ser:
 - Criado como um campo nas entidades **Preço da Função** e **Margem de Lucro do Preço da Função**. Para mais informações sobre como fazer isso, consulte [Adicionar campos personalizados às entidades de configuração de preços e transacionais](field-references.md).
 - Criado como uma linha na tabela **Dimensões de Definição de Preços**. Por exemplo, adicione linhas de dimensão de definição de preços, conforme mostrado no gráfico seguinte. 
 
-![Linhas de Dimensão de Definição de Preços Baseada no Montante.](media/Amt-based-PD.png)
+![Linhas de Dimensão de Definição de Preços Baseada no Montante](media/Amt-based-PD.png)
 
 Note que as horas de Trabalho do Recurso (**msdyn_resourceworkhours**) foram adicionadas como uma dimensão baseada na margem de lucro e foram adicionadas à grelha no separador **Dimensão de Definição de Preços Baseada na Margem de Lucro**.
 
-![Linhas de Dimensão de Definição de Preços Baseada na Margem de Lucro.](media/Markup-based-PD.png)
+![Linhas de Dimensão de Definição de Preços Baseada na Margem de Lucro](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Qualquer alteração nos dados da dimensão de definição de preços nesta tabela, existente ou nova, é propagada para a lógica de negócio de definição de preços do Project Service apenas após a atualização da cache. O tempo de atualização da cache poderá demorar até 10 minutos. Aguarde esse período de tempo para ver as alterações na lógica de predefinição de preços que devem resultar das alterações efetuadas nos dados de Dimensão de Definição de Preços.
@@ -72,8 +74,8 @@ Existem dois tipos de dimensões de definição de preços:
 | Função        | Unidade Organizacional    |Localização do Trabalho      |Título Padrão      |Horas de Trabalho do Recurso      |  Margem de Lucro|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|No Local            |                    |Horas Extraordinárias                 |15     |
-|             | Contoso India|Local             |                    |Horas Extraordinárias                 |10     |
-|             | Contoso E.U.A.   |Local             |                    |Horas Extraordinárias                 |20     |
+|             | Contoso India|Região             |                    |Horas Extraordinárias                 |10     |
+|             | Contoso EUA   |Região             |                    |Horas Extraordinárias                 |20     |
 
 
 Se um recurso da Contoso India, cuja taxa base é de 100 USD, estiver a funcionar no local e registar 8 horas de tempo Normal e 2 horas extraordinárias na entrada de tempo, o motor de definição de preços do Project Service irá utilizar a taxa base de 100 pelas 8 horas para registar 800 USD. Nas duas horas extraordinárias, uma margem de lucro de 15% será aplicada à taxa base de 100 para obter um preço unitário de 115 USD e irá registar um custo total de 230 USD.
@@ -92,6 +94,3 @@ Definir a prioridade da dimensão ajuda os preços do Project Service a apresent
 
 - **Prioridade ao Custo**: o valor da prioridade de custo de uma dimensão irá indicar o peso dessa dimensão quando comparado com a configuração dos preços de custo. O valor de **Prioridade ao Custo** tem de ser exclusivo nas dimensões **Aplicáveis ao Custo**.
 - **Prioridade às Vendas**: o valor da prioridade de vendas de uma dimensão irá indicar o peso dessa dimensão quando comparado com a configuração dos preços de venda ou taxas de faturação. O valor de **Prioridade às Vendas** tem de ser exclusivo nas dimensões **Aplicáveis às Vendas**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

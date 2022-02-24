@@ -2,6 +2,8 @@
 title: Gerir pedidos de recursos
 description: Como gerir pedidos de recursos no Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985155"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149872"
 ---
 # <a name="manage-resource-requests-project-service"></a>Gerir pedidos de recursos (Project Service)
 
@@ -43,12 +45,9 @@ Os gestores de conta e os gestores de projeto pedem regularmente recursos para o
   
    -   Clique em **Filtrar** para apresentar o painel **Filtrar**, que permite filtrar os seus resultados por unidade organizacional, função, competência ou outros atributos.  
   
-       ![Ecrã de Pedidos de Recurso do Project Service.](../psa/media/project-service-resource-request-screen.png "Ecrã de Pedidos de Recurso do Project Service")  
+       ![Ecrã de Pedidos de Recurso do Project Service](../psa/media/project-service-resource-request-screen.png "Ecrã de Pedidos de Recurso do Project Service")  
   
 3. No calendário do recurso que pretende reservar, selecione o período de tempo de registo do recurso e, em seguida, clique em **Reservar** para reservar o recurso ou em **Propor Reserva** para propor a reserva e o requerente o aprovar. A reserva de um recurso pode ser flexível ou fixa.  
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Resource Manager](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
