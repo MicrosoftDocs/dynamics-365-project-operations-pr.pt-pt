@@ -2,8 +2,6 @@
 title: Processos de vendas
 description: Este tópico fornece informações sobre os processos de vendas básicos.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000545"
 ---
 # <a name="sales-processes"></a>Processos de vendas
 
@@ -41,7 +39,7 @@ Os processos de vendas utilizados numa organização baseada em projetos diferem
 
 A ilustração seguinte mostra um processo de vendas típico numa organização baseada em projetos.
 
-> ![Processo de vendas numa organização baseada em projetos](media/basic-guide-1.png)
+> ![Processo de vendas numa organização baseada em projetos.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Estimar uma venda
 O valor de uma venda pode ser estimado com base em projetos que tenham sido fornecidos anteriormente e na complexidade dos projetos. No caso dos projetos que envolvem extensões para os projetos anteriores, ou os projetos em que a experiência do fornecedor é alta e os modelos de trabalho conhecidos são utilizados, pode utilizar um processo de estimativa mais simples. Normalmente, os projetos mais complexos têm um processo de compra maior. Consequentemente, existem mais fases no processo de estimativa de vendas. No início do processo, a equipa de vendas utiliza a introdução de gestores de contas e especialistas no assunto (SMEs) para começar a criar uma estimativa de alto nível para cada componente distinto do trabalho que é proposto. Estes componentes de trabalho são representados por linhas de proposta. 
@@ -52,7 +50,7 @@ Pode criar uma estimativa de alto nível da proposta. Eventualmente, esta estima
 
 Também pode criar propostas alternativas sob um tipo de entidade Oportunidade ou configurar o sistema para que um contrato do projeto seja criado quando uma proposta for ganha. Neste caso, pode anexar um documento do Word que representa a SOW ao registo de contrato do projeto.
 
-![Fechar uma proposta para criar um contrato do projeto](media/basic-guide-2.png)
+![Fechar uma proposta para criar um contrato do projeto.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Configurar o processo de vendas
 Pode utilizar fluxos do processo de negócio (BPFs) no Microsoft Dynamics 365 para configurar o processo de vendas. Os BPFs fornecem ao pessoal de vendas uma interface visual assistida que pode ser utilizada para mover os negócios pelas fases típicas para a sua empresa.
@@ -68,7 +66,7 @@ Por exemplo, a sua empresa poderá ter as seis fases seguintes no processo de ve
 
 Estas seis fases são representadas por divisas (\>) que seleciona para expandir em cada tipo de entidade Oportunidade que criar.
 
-![Configuração do processo de negócio no Dynamics 365](media/basic-guide-3.png)
+![Configuração do processo de negócio no Dynamics 365.](media/basic-guide-3.png)
  
 A sua organização poderá utilizar entidades diferentes para representar o mesmo negócio à medida que evoluir. No início do processo de vendas, um negócio é representado pela entidade Oportunidade. À medida que o tempo passa e surgem mais detalhes, poderá utilizar estimativas de alto nível para criar uma ou mais propostas. Se uma destas propostas for revista por intervenientes internos e dos clientes, a entidade Proposta representa o negócio. Depois de o cliente aceitar a proposta, um contrato do projeto ou uma SOW representa o negócio. Para suportar este comportamento, os BPFs são estruturados de modo a que cada fase no processo esteja associada a uma tabela de base de dados diferente.
 
@@ -79,7 +77,7 @@ A fase **Qualificar** no processo de vendas pode ser apoiada por uma entidade Op
 > [!NOTE]
 > O PSA tem páginas específicas para as entidades Oportunidade, Proposta, Encomenda e Fatura. Tem de criar oportunidades de serviço do projeto, propostas, encomendas e faturas utilizando as páginas de informação do projeto para estas entidades. Se utilizar outra página para criar um registo, não conseguirá abrir o registo a partir da página **Informações do Projeto**. Se pretender abrir um registo a partir da página **Informações do Projeto**, tem de eliminar o registo e recriá-lo utilizando a página **Informações do Projeto**. Na página **Informações do projeto**, a lógica de negócio para cada um destes tipos de entidade assegura que o campo **Tipo** do registo está definido corretamente e que todos os conceitos obrigatórios são inicializados corretamente.
 
-> ![Informações do projeto para uma nova encomenda](media/basic-guide-4.png)
+> ![Informações do projeto para uma nova encomenda.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Diferenças entre o Project Service Automation e o Sales
 Apesar de o processo de vendas no PSA utilizar as capacidades básicas do processo de vendas do Sales, tem algumas diferenças importantes devido às variações nas práticas de negócio das organizações baseadas em projetos. Seguem-se alguns exemplos:
@@ -93,3 +91,6 @@ No PSA, não é possível monitorizar as revisões efetuadas numa proposta. Em v
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Monitorizar comentários e aprovações de propostas e contratos do projeto
 Pode gerir a revisão e aprovação de propostas e contratos do projeto utilizando a mural de registo e as publicações. A sua organização pode criar fluxos de trabalho e plug-ins personalizados para atribuir, redirecionar, escalar e gerir notificações de itens de trabalho de revisão e aprovação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

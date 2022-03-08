@@ -2,24 +2,22 @@
 title: Importar uma estimativa para um item de contrato baseado no projeto – lite
 description: Este tópico fornece informações sobre como importar estimativas financeiras de um projeto para um item de contrato.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177480"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997260"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importar uma estimativa para um item de contrato baseado no projeto – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-No Dynamics 365 Project Operations, pode importar estimativas de um projeto para um item de contrato baseado em projeto.
+No Dynamics 365 Project Operations, pode importar estimativas a partir de um projeto para um item de contrato baseado no projeto.
 
 1. Verifique se o campo **Projeto** no item de contrato baseado em projeto foi preenchido.
 2. No separador **Detalhes do Item de Contrato**, na subgrelha, selecione **Importar a partir da Estimativa do Projeto**. Abre-se uma página de diálogo com opções de resumo. As opções de resumo disponíveis são **Classe de Transação**, **Categoria**, **Função** e **Tarefa do Projeto**.
@@ -60,3 +58,6 @@ Quando o utilizador seleciona para resumir pela **Classe Transação**, **Catego
 | Tarefa A | Tarifa aérea | 10/1/2020 | 4 | 400 | 1600 |
 | Tarefa B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Tarefa C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

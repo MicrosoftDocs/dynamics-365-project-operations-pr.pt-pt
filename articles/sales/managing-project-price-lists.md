@@ -2,11 +2,9 @@
 title: Gerir listas de preços de projetos numa proposta
 description: Este tópico fornece informações sobre a entidade da lista de preços do Projeto.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177210"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003920"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Gerir listas de preços de projetos numa proposta
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-O Dynamics 365 Project Operations alarga a entidade da lista de preços no Dynamics 365 Sales. 
+O Dynamics 365 Project Operations expande a entidade Lista de preços no Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Entidades principais
 
@@ -120,3 +118,6 @@ Assim como as taxas de faturação, as taxas de custo de recursos humanos també
     1. A lista de preços de custo associada à unidade organizacional.
     2. A lista de preços de custo é anexada aos parâmetros das operações do projeto. Visto que as listas de preços de custo em muitas moedas diferentes podem ser anexadas aos parâmetros, uma correspondência de moeda é completada entre a moeda da unidade organizacional de contratação do projeto, o contrato ou a proposta e a moeda da lista de preços de custo.
     3. Quanto às despesas, os métodos de definição de preços de custo e margem de lucro sobre o custo não se aplicam às listas de preços de custo. Mesmo que estes métodos de definição de preços sejam utilizados em linhas da lista de preços de custo para configurar os custos da categoria de transação, o sistema ignora-os e não é introduzido nenhum preço de custo predefinido.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 2dec6669a41161a23f74ea962df6d8708b905315
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595534"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287567"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configurar faturação interempresa
 
@@ -101,3 +101,6 @@ No exemplo seguinte, a Contoso Robotics USA (USPM) é a entidade legal de contra
           - **Empresa de atribuição de recursos** = **Contoso Robotics UK**
           - **Taxa de faturação** = **200 USD**
       9. Vá a **Vendas** > **Contratos do projeto** e anexe a lista de preços **Taxas de faturação da Adventure Works** à lista de preços do projeto Adventure Works do contrato do projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

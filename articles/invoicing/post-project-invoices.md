@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 9dc424cf69abfccc10bf551272a14e5cefb3dff0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089286"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275821"
 ---
 # <a name="invoicing-process-overview"></a>Vista geral do processo de faturação
 
@@ -30,3 +30,6 @@ O gestor do Projeto pode rever as transações de vendas não faturadas utilizan
 Pode [criar manualmente uma fatura proforma](../proforma-invoicing/create-manual-proforma-invoice.md) ou utilizar um [processo periódico](../proforma-invoicing/configure-automated-invoice-creation.md). O gestor do Projeto pode [ajustar uma fatura proforma](../proforma-invoicing/manage-proforma-invoice.md) conforme necessário e, em seguida, confirmá-la.
 
 A fatura proforma confirmada é enviada para o **Módulo de gestão e contabilidade do projeto** em Finanças. O Projeto de Contabilista forma e atualiza a proposta de fatura do projeto e, em seguida, publica e imprime o documento. As faturas do projeto registadas são registadas no livro geral, bem como nos sub-livros razão de clientes e projetos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

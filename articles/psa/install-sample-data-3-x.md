@@ -3,7 +3,7 @@ title: Instalação de dados de exemplo
 description: Este tópico fornece informações sobre a instalação de dados de exemplo no Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,16 +11,14 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144517"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082469"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalação de dados de exemplo para a aplicação Project Service
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Para ajudar a criar os seus próprios ambientes de demonstração, a Microsoft fornece pacotes de dados de exemplo transferíveis para demonstrar as capacidades das suas aplicações. Existem dois tipos de pacotes de dados de exemplo:
 - dados de referência/configuração
@@ -51,7 +49,7 @@ Quando instala qualquer um dos pacotes de dados de exemplo, o processo de instal
 
 - Cria ou define parâmetros predefinidos para utilizar o Project Service, Field Service ou ambas as aplicações (se aplicável).
 
-- Importa dados de exemplo para as aplicações, tais como recursos reserváveis, direitos específicos da aplicação, listas de vendas e preços de custo, unidades organizacionais, registos do processo de vendas e outras entidades para demonstrar as principais capacidades.  
+- Importa dados de exemplo para as aplicações, tais como recursos reserváveis, direitos específicos da aplicação, listas de vendas e preços de custo, unidades organizacionais, registos do processo de vendas e outras entidades para demonstrar as principais capacidades.  
 
 Com o pacote **dados de demonstração**, obtém os dados de transações acima e adicionais, tais como ordens de intervenção e projetos.
 

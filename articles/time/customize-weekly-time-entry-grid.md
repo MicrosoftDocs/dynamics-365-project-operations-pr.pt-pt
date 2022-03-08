@@ -2,24 +2,22 @@
 title: Expandir entradas de hora
 description: Este tópico fornece informações sobre como os programadores são capazes de expandir o controlo da entrada de hora.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124652"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993345"
 ---
 # <a name="extending-time-entries"></a>Expandir entradas de hora
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-O Dynamics 365 Project Operations inclui um controlo personalizado de hora expansível. Isto controlo inclui as seguintes funcionalidades:
+Dynamics 365 Project Operations inclui um controlo personalizado de entrada de tempo extensível. Isto controlo inclui as seguintes funcionalidades:
 
 - Introduzir o tempo horizontalmente ao longo de uma semana
 - Totais por dia, linha ou semana
@@ -144,3 +142,6 @@ Utilize validações de plug-ins para quaisquer validações que exijam mais con
 
 ### <a name="copying-time-entries"></a>Copiar entradas de hora
 Utilize **Copiar Colunas de Entradas de Hora** para definir a lista de campos a copiar durante a entrada de tempo. **Data** e **Duração** são campos necessários e não devem ser removidos da vista.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

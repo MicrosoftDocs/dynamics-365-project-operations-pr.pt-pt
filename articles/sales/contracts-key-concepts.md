@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663740"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642152"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Conceitos exclusivos de Contratos baseados em Projetos
+# <a name="project-contracts---key-concepts"></a>Conceitos chave – Conceitos chave
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
@@ -88,6 +88,3 @@ As agendas de faturação são específicas de cada item de contrato e são nece
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Alterações das Encomendas do Dynamics 365 Sales
 
 Os contratos do Project Operations são criados em Encomendas no Dynamics 365 Sales. No entanto, existem desvios e diferenças importantes na funcionalidade. Os contratos têm um formulário e elementos de IU, regras de negócio, lógica de negócio em plug-ins e scripts do lado do cliente próprios que as tornam únicos das Encomendas. Por estas razões, não use uma encomenda de Vendas e um contrato do Project Operations alternadamente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

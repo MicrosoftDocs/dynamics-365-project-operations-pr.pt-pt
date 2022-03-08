@@ -2,8 +2,6 @@
 title: Unidades organizacionais
 description: Este tópico fornece informações sobre unidades organizacionais no Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145643"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009630"
 ---
 # <a name="organizational-units"></a>Unidades organizacionais 
 
@@ -85,7 +83,7 @@ Segue-se uma forma ideal de estruturar este cenário utilizando o Dynamics 365 e
 
 1. Crie a prática de tecnologia da Microsoft como uma unidade de negócio e associe Gonçalo e Carla à mesma. Deste modo, o utilizador ajuda a garantir que ambos os empregados tenham o mesmo nível de acesso de segurança a quaisquer projetos nessa área de prática. Ambos poderão verificar o progresso e reportar o tempo, as despesas e as atualizações de tarefas. 
 2. Crie duas unidades organizacionais para ajudar a garantir que o custo do projeto seja refletido corretamente. 
-3. Associe o Carla à Contoso US e associe Gonçalo à Contoso India.
+3. Associe a Carla à Contoso US e associe o Gonçalo à Contoso India.
 4. Atribua listas de preços de custo adequadas a ambas as unidades organizacionais. Desta forma, ajuda a garantir que os custos registados no projeto para Gonçalo e Carla reflitam com precisão a diferença de custos entre a Contoso US e a Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>As unidades organizacionais estão relacionadas com as regiões de vendas no Dynamics 365?
@@ -124,7 +122,7 @@ Não. Na versão atual do PSA, as unidades organizacionais não são hierárquic
 Quando tem uma hierarquia complexa de centros de custos, divisões, escritórios de faturação, etc., configure os nós de folha dessa hierarquia como unidades organizacionais distintas.
 O exemplo que se segue mostra uma hierarquia típica:
 
-**Contoso India**
+**ContosoÍndia**
 
   - Prática SAP 
 
@@ -136,7 +134,7 @@ O exemplo que se segue mostra uma hierarquia típica:
     - Consultores Técnicos
     - Consultores Funcionais 
     
-**Contoso EUA**
+**Contoso US**
 
  - Prática SAP 
 
@@ -167,3 +165,6 @@ Se a sua empresa operar como uma unidade com uma lista de preços de custo, não
 Quando um projeto é criado sozinho, a unidade de contratação predefinida do projeto baseia-se no utilizador que o cria. Esse utilizador também é o gestor de projeto predefinido. Se o projeto estiver mapeado para uma entidade de vendas, tal como uma proposta ou um contrato do projeto, a unidade de contratação do projeto será baseada na entidade de vendas. Neste caso, as estimativas do projeto poderão ser recalculadas porque a lista de preços de custo é utilizada para calcular as alterações de estimativa de custos se a unidade de contratação for alterada. A lista de preços de vendas é utilizada para calcular as estimativas de vendas que serão alteradas de modo a serem sincronizadas com a lista de preços do projeto na proposta.
 
 Os campos **Unidade de Contratação** e **Moeda** no projeto estão bloqueados para edição, porque têm de estar em sincronização com os valores na entidade de vendas (proposta ou contrato do projeto) para a qual o projeto está mapeado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

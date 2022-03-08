@@ -2,8 +2,6 @@
 title: Estimativas e projetos de vendas
 description: Este tópico fornece informações sobre como tirar partido da agenda e das estimativas no processo de vendas.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148387"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995190"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimativas e projetos de vendas
 
@@ -37,11 +35,11 @@ Durante o processo de vendas, pode criar estimativas de vendas associando um pro
 
 Quando cria uma linha de proposta baseada em projetos, pode criar um novo projeto ou associar um projeto existente na página **Linha de Proposta**. 
 
-> ![Formulário de linha de proposta](media/project-8.png)
+> ![Formulário de linha de proposta.](media/project-8.png)
  
 Quando cria um novo projeto a partir dos detalhes de linha de proposta, pode tirar partido dos modelos de projeto. Os modelos de projeto são projetos de modelo que representam planos do projeto padrão e estimativas financeiras que são típicos de uma organização. Também podem representar cópias de planos e estimativas de projeto a partir de projetos passados.
 
-> ![Detalhes de linha de proposta](media/project-9.png)
+> ![Detalhes de linha de proposta.](media/project-9.png)
   
 Quando cria o projeto a partir da proposta, o projeto é associado automaticamente à linha de proposta.
 
@@ -54,3 +52,6 @@ Pode definir o esforço de trabalho e agendar estimativas utilizando os campos n
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importar estimativas de um projeto para uma proposta
 
 Depois de definir as estimativas do projeto, pode importá-las para a linha de proposta. Na página **Detalhes de Linha de Proposta**, selecione **Importar a partir da estimativa** a partir de estimativas no friso para resumir as estimativas de projeto por tipo de transação, função ou nível de tarefa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

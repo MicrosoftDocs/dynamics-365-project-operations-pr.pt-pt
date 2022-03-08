@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3526c5e2c968bdaa4d957592aed8d1b21c64b799
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127442"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286667"
 ---
 # <a name="project-team-members"></a>Membros da equipa do projeto
 
@@ -60,3 +60,6 @@ A partir da grelha de membros da equipa, podem ser executadas as seguintes açõ
 
 - **Novo**: além de adicionar recursos diretamente a partir da agenda, os Gestores de projetos podem adicionar novos membros da equipa nomeados ou genéricos a partir da grelha de membros da equipa.
 - **Eliminar**: ao selecionar um ou vários membros da equipa, o gestor de projeto pode eliminar os recursos que já não vão participar no projeto. A eliminação de um membro da equipa também eliminará todas as atribuições de recursos associadas e cancelará todas as reservas existentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

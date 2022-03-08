@@ -2,18 +2,16 @@
 title: Configurar os componentes faturáveis de uma linha de proposta baseada em projetos
 description: Este tópico fornece informações sobre componentes incluídos, faturáveis e não faturáveis nas linhas de proposta baseadas em projetos.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: a9febf305e3cd29bab42cd6c83a941f7b494fa56
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642557"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013590"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Configurar os componentes faturáveis de uma linha de proposta baseada em projetos
 
@@ -53,3 +51,6 @@ Uma estimativa ou um valor real criado para uma despesa só será considerado fa
 | No | Sim | Não pode ser definido | Não Faturável | Faturação num valor real de tempo: Não disponível </br>Tipo de faturação num valor real de despesas: Não faturável |
 | Sim | No | Faturável | Não pode ser definido | Faturação num valor real de tempo: Faturável </br>Tipo de faturação num valor real de despesas: Não disponível |
 | Sim | No | Não Faturável | Não pode ser definido | Faturação num valor real de tempo: Não faturável </br> Tipo de faturação num valor real de despesas: Não disponível |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

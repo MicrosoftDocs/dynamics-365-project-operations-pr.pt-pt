@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fde336f53d72e9ddf38c5123d9e774a4c3a22a28
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bbee90450749c89f643d96e4d41a387c45e9abc5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271682"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960576"
 ---
 # <a name="expense-management-workflow"></a>Fluxo de trabalho de gestão de despesas
 
@@ -55,6 +55,3 @@ O processo que se segue é um exemplo do fluxo de trabalho de gestão de despesa
 Após a verificação destes requisitos, o relatório de despesas é publicado.
 
 Após o relatório de despesas ser publicado, o pagamento é autorizado para o relatório de despesas, e o empregado é reembolsado.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

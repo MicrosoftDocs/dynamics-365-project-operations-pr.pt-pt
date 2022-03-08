@@ -2,24 +2,22 @@
 title: Conceitos chave da gestão de recursos
 description: Este tópico fornece informações sobre as capacidades de gestão de recursos no Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6362daab7e2e01c7b7b2c2b801fe7e258b21ef16
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123887"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000990"
 ---
 # <a name="resource-management-key-concepts"></a>Conceitos chave da gestão de recursos
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Os recursos são o ativo mais importante de uma organização baseada em serviços. A capacidade de localizar os recursos certos no momento certo, reservar esses recursos em projetos e mantê-los utilizados ajuda a organização a cumprir as metas de receita e satisfação dos clientes. Pode utilizar a funcionalidade de atribuição de recursos de projetos no Dynamics 365 Project Operations para executar as seguintes tarefas:
+Os recursos são o ativo mais importante de uma organização baseada em serviços. A capacidade de localizar os recursos certos no momento certo, reservar esses recursos em projetos e mantê-los utilizados ajuda a organização a cumprir as metas de receita e satisfação dos clientes. Pode utilizar a funcionalidade de atribuição de recursos de projetos no Dynamics 365 Project Operations para efetuar as seguintes tarefas:
 
 - Formar as equipas do projeto ao reservar recursos qualificados e disponíveis.
 - Criar registos de membros da equipa genéricos e definir as respetivas funções e a unidade organizacional do recurso.
@@ -35,3 +33,6 @@ Os recursos são o ativo mais importante de uma organização baseada em serviç
 
 
 Pode definir para o seu projeto uma equipa de recursos genéricos ou nomeados no Project Operations. Pode utilizar vários métodos para adicionar e atribuir membros da equipa e gerir as suas reservas e atribuições. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

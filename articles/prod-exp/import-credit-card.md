@@ -2,11 +2,9 @@
 title: Importar e manter transações de cartões de crédito
 description: Este tópico explica como importar e manter as transações de cartões de crédito relacionados com despesas. Estas transações podem ser configuradas de modo a que sejam automaticamente importadas numa agenda recorrente, ou podem ser importadas manualmente conforme são necessárias.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995865"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importar e manter transações de cartões de crédito
 
 As transações de cartões de crédito relacionadas com despesas podem ser configuradas de modo a que sejam automaticamente importadas num horário recorrente. Em alternativa, as transações podem ser importadas manualmente conforme são necessárias. As transações de cartões de crédito são importadas através da entidade de dados de transações de cartões de crédito.
 
-Para obter mais informações sobre entidades de dados, consulte [Entidades de dados](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Para obter mais informações sobre entidades de dados, consulte [Entidades de dados](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Importar transações de cartões de crédito
 

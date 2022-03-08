@@ -2,18 +2,16 @@
 title: Modelo de segurança
 description: Este tópico fornece informações sobre o modelo de segurança no Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642917"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991500"
 ---
 # <a name="security-model"></a>Modelo de Segurança
 
@@ -58,9 +56,9 @@ Os grupos permitem trabalhar de forma colaborativa nas permissões do projeto e 
 
 O Project Operations não cria um grupo através de uma ação implícita e só o faz através da ação explícita de premir nos grupos.
 
-A pesquisa de membros do grupo na caixa de diálogo **Gestão de grupos** está limitada àqueles que estão definidos como parte do grupo de segurança do ambiente. Para mais informações, consulte [Controlar o acesso de utilizadores a ambientes: grupos de segurança e licenças](https://docs.microsoft.com/power-platform/admin/control-user-access)
+A pesquisa de membros do grupo na caixa de diálogo **Gestão de grupos** está limitada àqueles que estão definidos como parte do grupo de segurança do ambiente. Para mais informações, consulte [Controlar o acesso de utilizadores a ambientes: grupos de segurança e licenças](/power-platform/admin/control-user-access)
 
-![Modo de grupo](./media/groupsmode.png)
+![Modo de grupo.](./media/groupsmode.png)
 
 1. O Projeto é criado e é propriedade do Utilizador que o cria.
 2. O proprietário do Projeto é atualizado para a equipa.
@@ -70,7 +68,7 @@ A pesquisa de membros do grupo na caixa de diálogo **Gestão de grupos** está 
 ## <a name="deployment-recommendation"></a>Recomendações de implementação
 À medida que o modelo de colaboração do grupo do Office evolui, a funcionalidade será adicionada para proporcionar um controlo mais detalhado ao longo do tempo. Os clientes que implementam atualmente o Project Operations são encorajados a concentrarem-se num modelo de segurança tradicional do Microsoft Dynamics 365.
 
-Para mais informações, consulte [Segurança no Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Para mais informações, consulte [Segurança no Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Segurança do Microsoft Dynamics 365 Finance e Project Operations
 O Project Operations inclui as seguintes funções:
@@ -78,6 +76,9 @@ O Project Operations inclui as seguintes funções:
 - Gestor de projeto
 - Gestão contabilística do projeto
 
-Para mais informações sobre segurança no Finance, consulte [Acesso baseado na segurança](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Para mais informações sobre segurança no Finance, consulte [Acesso baseado na segurança](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Criar uma solução para dimensões de preços personalizadas
 description: Este tópico fornece informações sobre como criar soluções para dimensões de preços personalizadas.
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514013"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992220"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Criar uma solução para dimensões de preços personalizadas
 
@@ -28,7 +26,7 @@ ms.locfileid: "4514013"
 2.  Nomeie a solução, *Dimensões de preços de <your organization name>*.
 3. Introduza as informações necessárias restantes e selecione **Guardar**.
 
-  ![Criação de uma solução de dimensões de preços personalizadas](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Criação de uma solução de dimensões de preços personalizadas.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Adicionar todas as entidades obrigatórias e componentes relacionados necessários à Solução de dimensão de preços
 
@@ -51,16 +49,19 @@ Adicione as seguintes entidades do Project Service à sua solução de preços p
    - **Preço da Função**
    - **Entrada de Hora**
  
-   ![Adicionar solução de dimensão de preços personalizados de entidades existentes](./media/Existing-entities-to-PD-solution.png)
+   ![Adicionar solução de dimensão de preços personalizados de entidades existentes.](./media/Existing-entities-to-PD-solution.png)
  
  4. Para cada entidade, reveja os componentes a ser adicionados e a lista final de ativos de entidade para cada entidade. 
 
    >[!NOTE]
    > Inclua todos os formulários e vistas para cada uma das entidades selecionadas.
 
-  ![Entidades adicionadas](./media/solution-component-selection.png)
+  ![Entidades adicionadas.](./media/solution-component-selection.png)
 
 
 5.  Quando solicitado para incluir quaisquer entidades dependentes para as entidades selecionadas, selecione **Não, não incluir componentes necessários.**
 
-    ![Incluindo entidades dependentes](./media/Do-not-include-required.png)
+    ![Incluindo entidades dependentes.](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

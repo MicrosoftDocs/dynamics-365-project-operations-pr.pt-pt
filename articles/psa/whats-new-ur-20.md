@@ -2,8 +2,6 @@
 title: Novidades ou alterações na Versão da Atualização 20 do Project Service Automation, V3
 description: Este tópico lista as funcionalidades e correções disponíveis na Versão da Atualização 20 do Project Service Automation, V3
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9939e2f354b69dcbc304f4f6e2ac41a00f251fed69f37978059f4053335ee651
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147127"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993615"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versão da Atualização 20 do Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Temos o prazer de anunciar a mais recente atualização à aplicação Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Temos o prazer de anunciar a mais recente atualização à aplicação Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
 Este tópico lista as funcionalidades e correções novas ou alteradas para o Project Service Automation V3, Versão da Atualização 20. Esta versão tem o número de compilação V 3.10.31.37 e está geralmente disponível através de uma atualização automática em junho de 2020.
 
@@ -42,7 +40,7 @@ Foram corrigidos os seguintes problemas:
 
 - Importar membros da equipa do projeto com um método de alocação que requer horas resulta numa mensagem de erro pouco clara quando as horas especificadas são zero.
 - Os utilizadores recebem um erro incorreto quando o número máximo de carateres foi introduzido no campo **Descrição** para uma tarefa de projeto.
-- A página de **Transferência do suplemento do Microsoft Dynamics 365 Project Service Automation** redireciona para a página de transferência em inglês quando as definições de idioma do utilizador estão definidas para o japonês.
+- A página de **descarregamento do add-in Microsoft Dynamics 365 Project Service Automation** redireciona para a página de descarregamento em inglês quando as definições de idioma do utilizador são definidas para japonês.
 - Quando ocorre um erro do servidor, a etiqueta de sincronização no separador **Agendar** do formulário **Projetos** por vezes permanece.
 - Atualizações de tarefas redundantes são enviadas para o servidor quando uma tarefa é modificada.
 
@@ -62,3 +60,6 @@ Foram corrigidos os seguintes problemas:
 - As listas de **Preço de Custo da Unidade Organizacional** permitem sobreposições na efetividade da data.
 - Os utilizadores não estão autorizados a alterar **OrgUnit** quando o tipo de encomenda não é baseado no trabalho, pois irá conduzir a um erro de exceção de referência nulo.
 - Ao tentar navegar a partir do formulário **Detalhes do Item de Proposta**, regresse ao separador **Proposta**, o formulário atualiza e apresenta o separador **Resumo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

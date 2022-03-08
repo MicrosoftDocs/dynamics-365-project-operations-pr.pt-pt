@@ -2,28 +2,26 @@
 title: Descrição geral das estruturas hierárquicas do trabalho
 description: Uma estrutura hierárquica do trabalho (WBS) é uma descrição do trabalho que será concluído para um projeto. É uma hierarquia das tarefas que representa a compreensão da equipa do projeto sobre a composição do trabalho, bem como a dimensão, o custo e a duração de cada componente ou tarefa.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eddaf8a868845bde11c8bb7bc04f63777d628cf4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082379"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369435"
 ---
 # <a name="work-breakdown-structures-overview"></a>Descrição geral das estruturas hierárquicas do trabalho
 
@@ -89,7 +87,7 @@ Pode concluir as seguintes operações hierárquicas para permitir a criação d
 
 **Nova tarefa** Qualquer nova tarefa que criar é adicionada automaticamente sob o nó raiz e é atribuído automaticamente um número de WBS à tarefa. O número de WBS representa o nível da tarefa na hierarquia. Para as tarefas no primeiro nível sob a tarefa raiz do projeto, é utilizado um esquema de numeração de 1, 2, 3 e assim por diante. Para tarefas sob primeiro nível, é utilizado um esquema de numeração 1.1, 1.2, 1.3 e assim por diante. Para cada nível que é adicionado sob um nível anterior, é adicionada uma nova série de pontos de números. 
 
-Atualmente, não é possível personalizar a numeração da WBS. 
+Atualmente não é possível personalizar a numeração da WBS. 
 
 **Avançar tarefa** Quando avança uma tarefa, torna-se uma subordinada da tarefa que a antecede. O número da WBS da nova tarefa subordinada é recalculada automaticamente com base no número da WBS da nova principal. A tarefa principal é agora uma tarefa de resumo ou contentor, e torna-se uma acumulação das suas tarefas constituintes. 
 
@@ -102,7 +100,7 @@ Atualmente, não é possível personalizar a numeração da WBS.
 
 ### <a name="schedule-estimation"></a>Estimativa da agenda
 
-Normalmente, a estimativa da agenda é o segundo passo na criação de uma WBS. Como melhor prática, deve concluir a estimativa da agenda depois de criar as tarefas. A página **estrutura hierárquica do trabalho** no Finance tem duas secções. O painel superior destina-se à estimativa da agenda e o painel inferior inclui um separador **Estimativa de custos e receitas** que pode utilizar na estimativa de custos. 
+Normalmente, a estimativa da agenda é o segundo passo na criação de uma WBS. Como melhor prática, deve concluir a estimativa da agenda depois de criar as tarefas. A página **estrutura hierárquica do trabalho** no Finance tem duas secções. O painel superior destina-se à estimativa da agenda e o painel inferior inclui um separador **Estimativa de custos e receitas** que pode utilizar na estimativa de custos. 
 **Dependências de tarefas** Numa WBS, pode criar uma relação antecessora entre tarefas. Quando atribui tarefas antecessoras a uma tarefa, essa tarefa só pode ser iniciada depois de todas as suas tarefas antecessoras terem sido concluídas. A data de início planeada da tarefa é definida automaticamente para a data mais recente de todas as suas antecessoras. 
 
 **Agendamento de tarefas** Os seguintes fatores determinam o agendamento das tarefas do nó de folha:
@@ -253,7 +251,7 @@ O Finance utiliza a regra de ganhos de 0:100 quando traça o valor ganho. Segund
 Quando o valor ganho é calculado, é considerada a percentagem de progresso de cada tarefa. Segundo a regra de ganhos de 0:100, só as tarefas que estão concluídas num determinado período são consideradas para o cálculo do valor ganho no final desse período. O valor ganho no projeto é calculado para todas as tarefas que foram concluídas quando o gráfico é criado. 
 
 > [!NOTE] 
-> Atualmente, o sistema para a monitorização da WBS não tem estruturas de dados para armazenar percentagens de progresso históricas em cada tarefa. Por isso, o valor ganho só pode ser comunicado a partir do momento em que o cubo é processado. Processe o cubo regularmente para atualizar os dados do valor ganho que são mostrados no Centro de Funções. 
+> Atualmente, o sistema para a monitorização da WBS não tem estruturas de dados para armazenar percentagens de progresso históricas em cada tarefa. Por isso, o valor ganho só pode ser comunicado a partir do momento em que o cubo é processado. Processe o cubo regularmente para atualizar os dados do valor ganho que são mostrados no Centro de Funções. 
 
 **Custo real** A EVM estabelece que a linha de custo real representa a taxa a que o dinheiro está a ser gasta no projeto. 
 
@@ -316,3 +314,6 @@ Em alternativa, pode corrigir os erros de agendamento individualmente ao clicar 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

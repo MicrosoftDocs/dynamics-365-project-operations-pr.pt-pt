@@ -1,25 +1,23 @@
 ---
 title: Descrição geral da implementação lite
-description: Este tópico fornece informações sobre a implementação Lite do Dynamics 365 Project Operations.
+description: Este tópico fornece informações sobre a implementação lite do Dynamics 365 Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 9f09cb447d314cb172161ad3501a154285d9b636
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365586"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003825"
 ---
-# <a name="lite-deployment-overview"></a>Descrição geral da implementação lite
+# <a name="lite-deployment-overview"></a>Descrição geral da implementação leve
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-O tipo de implementação Lite do Dynamics 365 Project Operations tem as seguintes capacidades para empresas baseadas em projetos:
+O tipo de implementação lite do Dynamics 365 Project Operations tem as seguintes capacidades para empresas baseadas em projetos:
 
 - Planeamento de projetos com o Microsoft Project para a Web
 - Preços multidimensionais e custos para os recursos laborais
@@ -37,3 +35,6 @@ Utilize este tipo de implementação se a sua expetativa do Project Operations f
 - Um sistema integrado que gere projetos internos e faturáveis para agendas e finanças, desde as vendas de projetos até à faturação.
 - Um sistema de planeamento de recursos da Empresa de terceiros (ERP/Sistema Contabilístico Financeiro para integrar-se com o Project Operations.
 - Um sistema de terceiros para trabalhar com impostos sobre vendas, taxas de câmbio, reembolsos de despesas e despesas não de projetos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

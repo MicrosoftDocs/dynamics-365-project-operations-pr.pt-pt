@@ -2,28 +2,26 @@
 title: Descrição geral das aplicações móveis do projeto
 description: Este tópico fornece informações gerais sobre as aplicações relacionadas com o tempo do projeto para o Microsoft Dynamics 365 Project Timesheet, Entrada de Hora do Projeto e As minhas folhas de horas/Folhas de Horas que estão disponíveis num dispositivo móvel.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6c14fdc043b2a95f1e548c160620a3b06c79bf5
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082393"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369570"
 ---
 # <a name="project-mobile-applications-overview"></a>Descrição geral das aplicações móveis do projeto
 
@@ -49,3 +47,6 @@ As minhas folhas de horas (Otimizadas para telemóveis) e as Folhas de horas par
 - [Entrada de hora do projeto]( project-time-entry-mobile-workspace.md)
 - [Folhas de horas do projeto num dispositivo móvel](Mobile-timesheets.md)
 - [Implementar campos personalizados para a aplicação móvel Microsoft Dynamics 365 Project Timesheet em iOS e Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

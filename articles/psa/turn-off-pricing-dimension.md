@@ -2,12 +2,10 @@
 title: Desativar uma dimensão de definição de preços
 description: Este tópico mostra como configurar dimensões de definição de preços na solução do Project Service.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da0ac942579ba8d9b2258a011b8eeef8e64ba9c9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147307"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014310"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Desativar uma dimensão de definição de preços
 
@@ -41,9 +39,12 @@ Esta mensagem de erro indica que existem registos de preços configurados anteri
 
 | Título Padrão         | Unidade Organizacional    |Unidade   |Preço  |Moeda  |
 | -----------------------|-------------|-------|-------|----------|
-| Engenheiro de Sistemas|Contoso EUA|Hour| 100|USD|
-| Engenheiro de Sistemas Sénior|Contoso EUA|Hour| 150| USD|
+| Engenheiro de Sistemas|Contoso E.U.A.|Hora| 100|USD|
+| Engenheiro de Sistemas Sénior|Contoso E.U.A.|Hora| 235| USD|
 
 
 Quando desativar o **Título Padrão** como a dimensão de definição de preços e o motor de definição de preços do Project Service procurar um preço, só irá utilizar o valor **Unidade Organizacional** do contexto de entrada. Se a **Unidade Organizacional** do contexto de entrada for "Contoso US", o resultado será não determinístico porque as duas linhas corresponderão. Para evitar este cenário, quando cria registos de **Preço da Função**, o Project Service valida que a combinação de dimensões é exclusiva. Se a dimensão for desativada após a criação dos registos de **Preço da Função**, esta restrição poderá ser violada. Consequentemente, é necessário que, antes de desativar uma dimensão, elimine todas as linhas de **Preço da Função** e **Margem de Lucro do Preço da Função** que tenham esse valor de dimensão preenchido.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

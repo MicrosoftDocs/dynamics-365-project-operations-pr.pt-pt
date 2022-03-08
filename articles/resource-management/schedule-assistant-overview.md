@@ -2,18 +2,16 @@
 title: Descrição geral do assistente da agenda
 description: Este tópico fornece informações sobre como trabalhar com o Assistente da agenda para reservar recursos.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4d58f5f45ca54691b6e736dee5aab7b273a8e042
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082260"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014130"
 ---
 # <a name="schedule-assistant-overview"></a>Descrição geral do assistente da agenda
 
@@ -25,7 +23,7 @@ Após a identificação dos recursos adequados, o Gestor de recursos ou o Gestor
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-O Assistente da agenda faz parte da solução do Universal Resource Scheduling. Esta solução é incluída e instalada com o Dynamics 365 Project Operations, Dynamics 365 Field Service e Dynamics 365 Customer Service.
+O Assistente da agenda faz parte da solução do Universal Resource Scheduling. Esta solução está incluída e instalada com o Dynamics 365 Project Operations, Dynamics 365 Field Service e Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Requisitos e recursos correspondentes
 
@@ -57,3 +55,6 @@ O painel de filtro mostra opções relacionadas com o trabalho, incluindo:
 -   Empresa de recursos
 -   Tipos de recursos
 -   Recursos preferenciais
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

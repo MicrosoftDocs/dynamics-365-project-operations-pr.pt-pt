@@ -2,8 +2,6 @@
 title: Gerir projetos e reservas no seu calendário do Office 365
 description: Como gerir projetos e reservas no seu calendário do Office 365
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144472"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985448"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gerir projetos e reservas no seu calendário (Project Service)
 
@@ -52,7 +50,7 @@ Veja os compromissos pessoais, as reservas de trabalho do projeto e atribuiçõe
   
 - Terá de ter credenciais de Administrador Global ou Administrador de Sistema do [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- O seu Administrador terá de configurar o perfil de servidor do e-mail e cada utilizador terá de configurar a respetiva caixa de correio. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurar o processamento de e-mail através da sincronização do lado do servidor](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- O seu Administrador terá de configurar o perfil de servidor do e-mail e cada utilizador terá de configurar a respetiva caixa de correio. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurar o processamento de e-mail através da sincronização do lado do servidor](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Ativar a sincronização para a sua organização (tarefa de administração)  
   
@@ -91,3 +89,6 @@ Veja os compromissos pessoais, as reservas de trabalho do projeto e atribuiçõe
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia de Tempo, Despesa e Colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

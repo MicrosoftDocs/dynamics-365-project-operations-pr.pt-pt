@@ -5,16 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672245"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130862"
 ---
 # <a name="override-project-sales-price-lists"></a>Substituir listas de preços de vendas do projeto
 
@@ -28,7 +27,7 @@ Para configurar uma lista de preços de projeto específica do cliente, na área
 
 1. Abra a página de lista **Contas**.
 2. Localize e clique duas vezes num registo de cliente para abrir a página de detalhes da **Conta**.
-3. No separador **Listas de preços do Projeto**, selecione **+ Nova Lista de preços do Projeto**.
+3. No separador **Listas de preços do Projeto**, selecione **+ Nova Lista de preços do Projeto^^.
 4. Na página **Nova Lista de Preços do Projeto**, selecione uma lista de preços a partir da lista pendente. Apenas listas de preços que tenham o contexto definido para **Vendas** e cuja moeda corresponda à moeda da conta estão incluídas.
 5. Nomeie a associação e, em seguida, selecione **Guardar**. É criada uma lista de preços de projeto específica do cliente. Esta lista de preços será utilizada para os preços de projeto predefinidos em propostas de projetos ou contratos criados para este cliente, sempre que a data criada do contrato de proposta ou projeto se insere na data da efetividade da lista de preços.
 

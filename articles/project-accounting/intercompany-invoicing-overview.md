@@ -2,18 +2,17 @@
 title: Descrição geral da faturação interempresa
 description: Este tópico fornece informações e exemplos sobre a faturação interempresa para projetos.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595531"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005405"
 ---
 # <a name="intercompany-invoicing-overview"></a>Descrição geral da faturação interempresa
 
@@ -21,9 +20,9 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 A sua organização pode ter múltiplas divisões, subsidiárias e outras entidades jurídicas que transferem produtos e serviços entre si para projetos. A entidade legal que presta o serviço ou produto é denominada *entidade legal de concessão*. A entidade legal que recebe o serviço ou produto é denominada *entidade legal de contração*.
 
-A seguinte ilustração mostra um cenário típico em que duas entidades legais, a Contoso Robotics USA (entidade legal de contração) e a Contoso Robotics UK (entidade legal de concessão) partilham recursos para entregar um projeto para o cliente, a Adventure Works. Para este cenário, a Contoso Robotics USA está contratada para entregar o trabalho à Adventure Works.
+A seguinte ilustração mostra um cenário típico em que duas entidades legais, a Contoso Robotics USA (entidade legal que solicita empréstimos) e a Contoso Robotics UK (entidade legal de empréstimos) partilham recursos para entregar um projeto ao cliente, a Adventure works. Para este cenário, a Contoso Robotics USA é contratada para entregar o trabalho à Adventure Works.
 
-![Faturação entre empresas](./media/IntercompanyScenario.png) 
+![Faturação entre empresas.](./media/IntercompanyScenario.png) 
 
 O Dynamics 365 Project Operations utiliza o seguinte fluxo para processar transações interempresa:
 
@@ -36,10 +35,13 @@ O Dynamics 365 Project Operations utiliza o seguinte fluxo para processar transa
 
 O diagrama que se segue ilustra a faturação interempresa no que diz respeito a eventos contabilísticos e publicações esperadas no livro razão geral.
 
-![Fluxo interempresa](./media/IntercompanyFlow.png)
+![Fluxo entre empresas.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Configurar faturação interempresa](configure-intercompany-invoicing.md)
+- [Configurar faturação entre empresas](configure-intercompany-invoicing.md)
 - [Registar transações interempresa](create-intercompany-transactions.md)
 - [Criar faturas de clientes e fornecedores interempresa](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

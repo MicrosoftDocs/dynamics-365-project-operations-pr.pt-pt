@@ -2,8 +2,6 @@
 title: Principais conceitos
 description: Este tópico fornece informações sobre os principais conceitos para a gestão de recursos no Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147757"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995100"
 ---
 # <a name="key-concepts"></a>Principais conceitos
 
@@ -48,3 +46,6 @@ A tabela seguinte define os principais conceitos que são utilizados na aplicaç
 | Contorno                    | Tarefa, requisito ou horas de atribuição, conforme são divididos numa distribuição diária. Por exemplo, uma tarefa de cinco dias e 40 horas pode ser contornada em oito horas por dia durante cinco dias. |
 | Vista de reconciliação        | Uma vista que mostra as reservas e as atribuições para cada membro da equipa do projeto. Esta vista permite que o gestor de projeto procure qualquer incompatibilidade entre reservas e atribuições e tome as ações corretivas se ocorrer alguma incompatibilidade. |
 | Horas de trabalho                 | Uma entidade que é utilizada para identificar a capacidade do recurso, bem como as horas de trabalho e de descanso. Esta entidade também é referida como o calendário de recurso. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

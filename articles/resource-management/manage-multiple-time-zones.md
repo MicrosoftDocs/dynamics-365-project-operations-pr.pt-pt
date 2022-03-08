@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e0cf24a9916f7ceedee0e9d6fa9399a88c3e4b91
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119837"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279557"
 ---
 # <a name="manage-time-zones"></a>Gerir fusos horários
 
@@ -68,3 +68,6 @@ Após a utilização da funcionalidade Expandir Reserva para cada recurso, as re
 Note que um olhar mais atento aos detalhes das reservas mostra diferenças na hora de início das reservas. As reservas não começam antes da hora de início do perfil da atribuição e não antes da hora de início disponível do recurso.
 
 ![Novas reservas dos recursos no quadro da agenda](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 40ac37c1070e1c4da01e96bbc4248977b2b6d284
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150592"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290868"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Cancelar entradas de tempo ou despesa aprovadas anteriormente
 
@@ -62,3 +62,6 @@ Um projeto também é afetado financeiramente quando uma aprovação é cancelad
 Em seguida, as entradas de estorno são criadas na tabela Valores Reais. Para criar entradas de estorno, o sistema copia os valores dos campos a partir dos valores reais originais. Os únicos valores que não são copiados são os valores de quantidade. Em vez disso, estes valores são revertidos. Os valores reais estornados são criados para os valores reais de **Custo** e **Vendas Não Faturadas**. O campo **Estado de Ajuste** nos valores reais estornados é definido como **Não ajustável** e o estado da faturação é definido como **Cancelado**.
 
 Depois de estas alterações serem efetuadas, o valor que é registado como gasto no projeto e o registo de tarefas pendentes de receita no projeto contabilizarão mais os valores que estes valores reais representam.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

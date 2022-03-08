@@ -2,18 +2,16 @@
 title: Configurar categorias de despesas
 description: Este tópico fornece informações sobre como configurar categorias de despesas e categorias partilhadas para relatórios de despesas.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d66df1ffd2be2ff884561010c46cda255a2d2189
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123797"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001817"
 ---
 # <a name="set-up-expense-categories"></a>Configurar categorias de despesas
 
@@ -61,3 +59,6 @@ Antes de iniciar o processo de configuração, têm de ser tomadas as seguintes 
 
     - Alguma das subcategorias está excluída da recuperação de impostos?
     - Qual o grupo impostos sobre vendas de artigos das subcategorias?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

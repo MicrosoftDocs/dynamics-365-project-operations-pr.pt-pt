@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e1a8d6319788ee73e0e2837a47cba89108c32572
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148477"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275327"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Adicionar campos personalizados às entidades de configuração de preços e transacionais 
 
@@ -150,3 +150,6 @@ A tabela seguinte fornece uma lista abrangente de formulários e vistas fornecid
 |  Real|• Informação<br>• Valores Reais Ativos|• Vista associada de Valor Real|
 
 Os campos personalizados também poderão ter de ser adicionados às regras de negócio consoante o que tiver definido. Um exemplo fornecido com o programa destina-se à regra de negócio **Capacidade de Edição da Entrada de Tempo baseada no Estado**. Esta regra define quais campos têm de ser bloqueados quando a Entrada de Tempo se encontra num estado não editável, tal como **Aprovado**. Adicione campos a esta regra de negócio, para que os campos fiquem bloqueados para edição quando a Entrada de Tempo estiver num estado diferente de **Rascunho** ou **Devolvido**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,9 @@
 title: Home page de projetos de atribuição de recursos
 description: Este tópico fornece informações sobre as capacidades de gestão de recursos no Project Service Automation (PSA) para Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 71e1774d097e2929a7d51d19b3cebfcacff28f0c
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147442"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369120"
 ---
 # <a name="resourcing-projects-home-page"></a>Home page de projetos de atribuição de recursos
 
@@ -53,3 +52,6 @@ Pode definir para o seu projeto uma equipa de recursos genéricos ou nomeados no
 - [Reservar recursos nomeados a partir de requisitos de recursos](book-named-resource.md)
 - [Submeter um pedido de recurso](submit-resource-request.md)
 - [Aceitar ou rejeitar um recurso de projeto proposto a partir de um pedido de recurso](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

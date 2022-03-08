@@ -17,17 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145012"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082503"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizar recurso reservável como uma dimensão de definição de preços
-
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 Este tópico fornece informações sobre a utilização de um recurso reservável como uma dimensão de definição de preços. Antes de começar, se ainda não tiver criado uma solução de dimensão de definição de preços, terá de criar uma nova. Se já tiver uma solução de dimensão de definição de preços, poderá efetuar as alterações nessa solução. Se não tiver criado uma nova solução de dimensão de definição de preços para a sua organização, conclua os procedimentos no tópico [Criar campos e entidades personalizados](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Adicionar recurso reservável a formulários e vistas

@@ -2,6 +2,8 @@
 title: Reservas de recursos e como elas se relacionam com atribuições de tarefas
 description: Este tópico fornece informações sobre como gerir recursos nomeados, reservas de recursos e atribuições de tarefas e como se relacionam.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -16,16 +18,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72c741d8a0644589004ba20afbcd0baff7cfcb06
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 03285d324e855ecf933b155559e5a4826420ab25
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993205"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082591"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Reservas de recursos e como elas se relacionam com atribuições de tarefas
 
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Os recursos nomeados podem ser reservados para uma equipa do projeto e podem ter atribuídas tarefas de projeto de duas maneiras:
 
@@ -66,6 +67,3 @@ A **Vista de Reconciliação** permite ao gestor de projeto ver as reservas e at
 > [!NOTE]
 > Se mover uma tarefa para a qual tenha sido você a criar os contornos, estes contornos não são mantidos. Os contornos são regenerados de acordo com o calendário do projeto para dar conta de alterações nas horas de trabalho e férias. Isto é propositado uma vez que o sistema não conhece o objetivo do contorno original e não pode determinar se faz sentido manter esse contorno num período de tempo novo. Uma vez que as reservas e as atribuições estão desligadas, as reservas retêm os contornos da reserva original. Neste caso, terá de cancelar e recusar para o novo contorno de atribuição.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

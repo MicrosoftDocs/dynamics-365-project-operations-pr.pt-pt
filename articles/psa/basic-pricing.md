@@ -2,8 +2,6 @@
 title: Definição de preços de projetos
 description: Este tópico fornece informações sobre como a definição de preços funciona no Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148927"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000590"
 ---
 # <a name="project-pricing"></a>Definição de preços de projetos 
 
@@ -48,7 +46,7 @@ A entidade Lista de preços tem três tabelas relacionadas que armazenam preços
   - **Preço da Categoria de Transação** - Esta tabela armazena preços por categoria de transação e é utilizada para configurar preços da categoria de despesa.
   - **Itens da Lista de Preços** - Esta tabela armazena preços para produtos de catálogos.
 
-> ![Configurar preços utilizando uma lista de preços](media/basic-guide-12.png)
+> ![Configurar preços utilizando uma lista de preços.](media/basic-guide-12.png)
  
 A lista de preços é um cartão de taxas. Um cartão de taxas é uma combinação da entidade Lista de Preços e linhas relacionadas nas tabelas Preço da Função, Preço da Categoria de Transação e Itens da Lista de Preços.
 
@@ -60,7 +58,7 @@ Normalmente, o tempo dos recursos humanos é proposto com base na função que u
 
 O grupo de unidades **Tempo** é criado quando o PSA é instalado. Tem uma unidade de **Hora** predefinida. Não é possível eliminar, mudar o nome ou editar os atributos do grupo de unidades **Tempo** ou da unidade **Hora**. No entanto, pode adicionar outras unidades ao grupo de unidades **Tempo**. Se tentar eliminar o grupo de unidades **Tempo** ou a unidade **Hora**, poderá causar falhas na lógica de negócio do PSA.
 
-> ![Configurar preços por função](media/basic-guide-13.png)
+> ![Configurar preços por função.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorias de transação e categorias de despesa
 
@@ -70,7 +68,7 @@ Em geral, as despesas de viagem e outras despesas incorridas pelos consultores d
 - **Percentagem da margem de lucro** - A percentagem sobre o custo real é faturada ao cliente. 
 - **Preço unitário** - Um preço de faturação é definido para cada unidade da categoria de despesa. O montante que é faturado a um cliente é calculado com base no número de unidades de despesa que o consultor reporta. A quilometragem utiliza o método de definição de preços por preço unitário. Por exemplo, a categoria de despesa Quilometragem pode ser configurada para 30 dólares norte-americanos (USD) por dia ou 2 USD por milha. Quando um consultor reporta a quilometragem num projeto, o montante a faturar é calculado com base no número de milhas reportadas pelo consultor.
 
-> ![Configurar preços para categorias de despesa](media/basic-guide-14.png)
+> ![Configurar preços para categorias de despesa.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Substituições e definição de preços de vendas do projeto
 
@@ -116,7 +114,7 @@ No entanto, numa proposta, pode utilizar uma lista de preços principal. Em alte
 
 Quando cria uma lista de preços do projeto personalizada, só são copiados os componentes do projeto da lista de preços. Por outras palavras, uma nova lista de preços criada como cópia da lista de preços do projeto existente que está anexada à proposta e esta nova lista de preços só tem preços de função e preços de categoria de transação relacionados.
 
-> ![Ver e configurar preços personalizados para um contrato do projeto](media/basic-guide-15.png)
+> ![Ver e configurar preços personalizados para um contrato do projeto.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Controlo dos custos
 
@@ -131,3 +129,6 @@ Assim como as taxas de faturação, as taxas de custo de recursos humanos també
     1. A lista de preços de custo associada à unidade organizacional.
     2. A lista de preços de custo é anexada aos parâmetros do serviço do projeto. Visto que as listas de preços de custo em muitas moedas diferentes podem ser anexadas aos parâmetros do serviço do projeto, o PSA faz uma correspondência de moeda entre a moeda da unidade organizacional de contratação do projeto, o contrato ou a proposta e a moeda da lista de preços de custo.
     3. Quanto às despesas, os métodos de definição de preços de custo e margem de lucro sobre o custo não se aplicam às listas de preços de custo. Mesmo que estes métodos de definição de preços sejam utilizados em linhas da lista de preços de custo para configurar os custos da categoria de transação, o sistema ignora-os e não é introduzido nenhum preço de custo predefinido.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

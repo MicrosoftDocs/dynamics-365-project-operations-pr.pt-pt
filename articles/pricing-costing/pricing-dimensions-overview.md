@@ -1,20 +1,28 @@
 ---
 title: Descrição geral das dimensões de preços
-description: Este tópico fornece informações sobre as dimensões de preços no Dynamics 365 Project Operations.
+description: Este tópico fornece informações sobre as dimensões dos preços no Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 11/30/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650219"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128477"
 ---
 # <a name="pricing-dimensions-overview"></a>Descrição geral das dimensões de preços
 
@@ -30,23 +38,11 @@ Por esse motivo, existem dois tipos de valores de dimensão de definição de pr
 - **Conjuntos de opções**: Dimensões que são enumerações fixas para um conjunto de valores.
 - **Valores baseados em entidades**: Dimensões que podem ser um conjunto de valores variado.
 
-## <a name="pricing-dimensions"></a>Dimensões de preços
+## <a name="pricing-dimensions"></a>Dimensões de definição de preços
 
-O Dynamics 365 Project Operations é fornecido com um conjunto predefinido de dimensões de preços. Pode visualizar estas dimensões de preços ao aceder a **Operações do projeto** > **Parâmetros**. No registo de parâmetro, no separador **Dimensões de definição de preços baseadas em montantes**, verifique se a função, **msdyn_resourcecategory** e a unidade organizacional de atribuição de recursos, **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Com estes campos ativados, pode configurar o preço e o custo de cada combinação de função e unidade organizacional.
+Dynamics 365 Project Operations envia com um conjunto padrão de dimensões de preços. Pode visualizar estas dimensões de preços ao aceder a **Operações do projeto** > **Parâmetros**. No registo de parâmetro, no separador **Dimensões de definição de preços baseadas em montantes**, verifique se a função, **msdyn_resourcecategory** e a unidade organizacional de atribuição de recursos, **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Com estes campos ativados, pode configurar o preço e o custo de cada combinação de função e unidade organizacional.
 
-![Captura de ecrã dos parâmetros do Project Service com "Aplicável às Vendas" destacado](media/PS-OOB-parameters.png)
-
-Se precisar de definir o preço ou o custo dos seus recursos utilizando atributos adicionais, poderá criar campos, entidades e dimensões personalizados. Para obter mais informações, consulte os seguintes tópicos. 
-  
-  > [!NOTE]
-  > Os procedimentos têm de ser concluídos na ordem em que estão listados.
-
-1. [Criar uma solução para dimensões de preços personalizadas](../sales/create-solution-custompd.md)
-2. [Criar campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md)
-3. [Adicionar campos personalizados às entidades de configuração de preços e transacionais](add-custom-fields-price-setup-transactional-entities.md)
-4. [Configurar campos personalizados como dimensões de definição de preços](set-up-custom-fields-pricing-dimensions.md)
-5. [Atualizar atributos de plug-in para incluir novas dimensões de definição de preços](update-plugin-attributes-pd.md)
-
+Se precisar de definir o preço ou o custo dos seus recursos utilizando atributos adicionais, poderá criar campos, entidades e dimensões personalizados.
 
 ## <a name="pricing-human-resource-time"></a>Definir preço do tempo dos recursos humanos
 A forma como uma organização define o preço do tempo de um recurso humano é, normalmente, uma consideração estratégica importante que afeta diretamente a rentabilidade da organização. Trabalhe com as equipas de finanças e pratique os chefes quando a sua organização estiver pronta para identificar como pretende definir taxas de faturação e custo para o tempo de recursos humanos.

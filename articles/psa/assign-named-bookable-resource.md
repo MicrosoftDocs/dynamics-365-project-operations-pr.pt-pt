@@ -3,7 +3,7 @@ title: Reservar recursos reserváveis nomeados para uma equipa do projeto e atri
 description: Este tópico fornece informações sobre como reservar recursos nomeados para as equipas do projeto e atribui-los a tarefas.
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8a49b6ae8423cb99c710e40704475b4a71d3724
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145372"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082523"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Reservar recursos reserváveis nomeados para uma equipa do projeto e atribuir tarefas 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

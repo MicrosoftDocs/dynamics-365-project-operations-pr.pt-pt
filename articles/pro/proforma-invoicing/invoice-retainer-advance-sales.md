@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
+ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596206"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088054"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Faturar um sinal ou um adiantamento
+# <a name="invoice-a-retainer-or-an-advance"></a>Faturar um sinal ou adiantamento
 
-_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
+_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-Dynamics 365 Project Operations suporta contratos baseados em sinais e adiantamentos únicos. Num contrato de projeto, pode registar uma agenda de sinais ou adiantamento único. No entanto, o registo ao nível do contrato do projeto não disponibiliza imediatamente um sinal ou adiantamento para utilização. Para utilizar um sinal ou adiantar uma fatura que realmente cobra ao cliente, o sinal ou adiantamento deve ser faturado primeiro.
+O Dynamics 365 Project Operations suporta contratos baseados em sinais e adiantamentos únicos. Num contrato de projeto, pode registar uma agenda de sinais ou adiantamento único. No entanto, o registo ao nível do contrato do projeto não disponibiliza imediatamente um sinal ou adiantamento para utilização. Para utilizar um sinal ou adiantar uma fatura que realmente cobra ao cliente, o sinal ou adiantamento deve ser faturado primeiro.
 
 Conclua os seguintes passos para faturar um sinal ou um adiantamento.
 
@@ -43,7 +43,7 @@ Em cada fatura gerada para um contrato de projeto que tenha faturado sinais ou a
 
 Isto pode ser visto na grelha **Sinais e Adiantamentos Aplicados** na página **Fatura**. A tabela seguinte fornece informações sobre os campos na grelha **Sinais e Adiantamentos Aplicadas** da página **Fatura do Projeto**.
 
-| Campo | Localização | Descrição | Impacto a jusante |
+| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
 | --- | --- | --- | --- |
 | Descrição | Grelha **Adiantamentos e Sinais Aplicados** na página **Fatura do Projeto** |Este campo só de leitura fornece uma descrição do sinal ou adiantamento utilizado nesta fatura. Não é possível alterar este valor na fatura. Este valor pode ser atualizado na subgrelha na página **Contrato do Projeto**. | Este campo pode ser apresentado ao cliente na fatura impressa para indicar qual o sinal ou adiantamento que é aplicado na fatura. |
 | Entregue Em | Grelha **Adiantamentos e Sinais Aplicados** na página **Fatura do Projeto**  | Este campo só de leitura fornece a data de faturação do sinal ou adiantamento utilizado nesta fatura. Não é possível alterar este valor na fatura. Este valor pode ser atualizado na subgrelha na página **Contrato do Projeto**. | Este campo pode ser apresentado ao cliente na fatura impressa para indicar a data em que o sinal ou adiantamento foi faturado pela primeira vez ao cliente. |

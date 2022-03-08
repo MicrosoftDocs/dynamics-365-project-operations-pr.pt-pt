@@ -2,8 +2,6 @@
 title: Guias Básicos de Criação de Propostas, Definição de Preços e Faturação
 description: Este tópico fornece ligações para as informações sobre a criação básica de propostas, a definição de preços e a faturação no Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7ec1170a7a703d181be4aa95daf7927bbe30b1b1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149152"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007470"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guias básicos de criação de propostas, definição de preços e faturação
 
@@ -52,3 +50,6 @@ A ligação do PDF que estava anteriormente neste tópico foi removida e o conte
 
 > [!NOTE]
 > Este tópico será removido numa atualização de documentação futura. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

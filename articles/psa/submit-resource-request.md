@@ -1,8 +1,6 @@
 ---
 title: Submeter um pedido de recurso
 description: Este tópico fornece informações sobre a submissão de um pedido para um recurso de projeto.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149737"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985020"
 ---
 # <a name="submitting-a-resource-request"></a>Submeter um pedido de recurso
 
@@ -36,8 +34,11 @@ Pode submeter um requisito de recurso gerado como um pedido de recurso. Em segui
 1. No Project Service Automation (PSA), na página **Projetos**, clique no separador **Equipa** para ver a lista de recursos reserváveis. 
 2. Selecione o recurso genérico que tem um requisito de recurso a partir da lista e, em seguida, clique em **Submeter Pedido**.
 
-![Submeter um pedido de recurso](media/RM-how-to-18.png)
+![Submeter um pedido de recurso.](media/RM-how-to-18.png)
 
 O estado do pedido do membro da equipa genérico será alterado para **Submetido**.
 
 Depois de o pedido ser efetuado pelo gestor de recursos, o recurso genérico será substituído por um recurso nomeado se o gestor de recursos cumprir o pedido com a reserva de um recurso nomeado. Caso contrário, o recurso genérico permanecerá na equipa e o estado do pedido será alterado para **Necessita de Revisão**, se o gestor de recursos tiver proposto um recurso nomeado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

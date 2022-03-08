@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287027"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura hierárquica do trabalho (WBS)
 
@@ -93,6 +93,8 @@ A tabela a seguir mostra atributos de agenda adicionais.
 | Nome | O nome da tarefa. |
 | ID | O ID da tarefa na estrutura hierárquica do trabalho. |
 
+Como Administrador, pode definir campos personalizados na entidade de tarefa. No entanto, os campos não podem ser exibidos na grelha de programação. Para ver os seus campos personalizados, adicione-os à página de detalhes de **Tarefa do projeto**.
+
 ## <a name="staffing-attributes"></a>Atributos do pessoal
 
 Os atributos de definição de pessoal são acedidos através do campo **Recursos** na agenda. Pode procurar um recurso existente ou selecionar **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipa do projeto como um novo recurso.
@@ -116,3 +118,6 @@ O modo de tarefa não tem efeito nas atualizações efetuadas nas datas de iníc
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Atalhos de teclado e acessibilidade
 
 A grelha **Agenda** é totalmente acessível e pode ser utilizada com leitores de ecrã, tais como o Narrator, o JAWS ou o NVDA. Pode percorrer a área de grelha através da utilização das teclas de seta (como no Microsoft Excel), pode utilizar a tecla de tabulação para avançar através dos elementos da interface de utilizador interativa e pode utilizar a tecla de seta para baixo, a tecla Enter ou a Barra de Espaço para selecionar e abrir os menus pendentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

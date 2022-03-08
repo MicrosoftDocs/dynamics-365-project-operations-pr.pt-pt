@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992848"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007160"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Ver a utilização faturável para recursos
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992848"
  
 A **Vista de Utilização** na página **Utilização de Recursos do Project Service** mostra a utilização faturável de cada recurso reservável. Como a vista é baseada no quadro da agenda, irá encontrar muitas das mesmas funções.
 
-> ![Captura de ecrã da Vista de Utilização](media/FAQ-utilization-1.png)
+> ![Captura de ecrã da Vista de Utilização.](media/FAQ-utilization-1.png)
  
 
 O cálculo de utilização faturável funciona da seguinte maneira:
@@ -48,7 +48,7 @@ A utilização de destino pode ser definida na função predefinida do recurso o
 2. Selecione um recurso para abrir o registo. 
 3. No separador **Project Service**, pode definir a utilização de destino do recurso.
 
-> ![Captura de ecrã da utilização do separador Project Service para definir a utilização de destino](media/FAQ-utilization-2.png)
+> ![Captura de ecrã da utilização do separador Project Service para definir a utilização de destino.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Definir utilização de destino numa função
 
@@ -56,7 +56,7 @@ A utilização de destino pode ser definida na função predefinida do recurso o
 2. Selecione uma função e abra o registo. 
 3. Defina a utilização de destino para a função.
 
-> ![Captura de ecrã da utilização de Funções de Recursos para definir a utilização de destino](media/FAQ-utilization-3.png)
+> ![Captura de ecrã da utilização de Funções de Recursos para definir a utilização de destino.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Calcular a utilização faturável para um recurso
 

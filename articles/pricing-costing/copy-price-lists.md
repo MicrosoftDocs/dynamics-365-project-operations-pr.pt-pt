@@ -2,18 +2,16 @@
 title: Copiar listas de preços
 description: Este tópico fornece informação sobre como copiar listas de preços no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 9e4f4eeda019f2af11a0d7a4469c41ee450eb03b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181511"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001440"
 ---
 # <a name="copy-price-lists"></a>Copiar listas de preços
 
@@ -43,3 +41,6 @@ Para fazer uma cópia da lista de preços, complete os seguintes passos.
 1. Nos separadores **Função**, **Categoria** e **Item de Lista de Preços** de uma lista de preços, pode selecionar **Atualizar Preços** para aplicar uma margem de lucro para todos os preços na subgrelha. 
 2. Na página de diálogo que abre, introduza uma margem de lucro. Também pode introduzir uma percentagem de margem de lucro negativa para diminuir os preços em uma certa percentagem. 
 3. Selecione **OK** na página de diálogo e, em seguida, verifique se os preços na subgrelha refletem as alterações efetuadas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

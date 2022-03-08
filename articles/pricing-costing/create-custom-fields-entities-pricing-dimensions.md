@@ -2,11 +2,9 @@
 title: Criar campos e entidades personalizados como dimensões de definição de preços
 description: Este tópico fornece informações sobre como criar conjuntos de opções ou entidades personalizados.
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642827"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003650"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Criar campos e entidades personalizados como dimensões de definição de preços
 
@@ -46,7 +44,7 @@ Para criar dimensões baseadas em entidades, siga estes passos:
 3. Selecione **Novo** para criar uma nova entidade chamada **Título Padrão**. 
 4. Introduza as informações necessárias restantes e selecione **Guardar**.
 
-> ![Definição da entidade de título padrão](media/Standard-Title-entity-definition.png)
+> ![Definição da entidade de título padrão.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensões baseadas em conjuntos de opções 
 Pode criar duas dimensões baseadas em conjuntos de opções. 
@@ -56,11 +54,11 @@ Pode criar duas dimensões baseadas em conjuntos de opções.
 
 O gráfico a seguir proporciona uma vista da dimensão de **Localização de Trabalho de Recursos**. 
 
-> ![Dimensão de definição de preços baseada em conjuntos de opções denominada Localização de Trabalho do Recurso](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensão de definição de preços baseada em conjuntos de opções denominada Localização de Trabalho do Recurso.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 O gráfico a seguir proporciona uma vista da dimensão de **Horas de Trabalho de Recursos**. 
 
-> ![Dimensão de definição de preços baseada em conjuntos de opções denominada Horas de Trabalho do Recurso](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Dimensão de definição de preços baseada em conjuntos de opções denominada Horas de Trabalho do Recurso.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Aceda a **Definições** > **Soluções** e faça clique duplo nas dimensões de preços do **\<your organization name>**. 
 2. No Explorador de Soluções, no painel de navegação esquerdo, selecione **Conjuntos de Opções**. 
@@ -76,4 +74,7 @@ Pode criar manualmente dados para as dimensões baseadas em entidades ou atravé
 4. Feche a página. 
 5. Repita os passos 1 a 3 para criar outro título padrão para o "Engenheiro de Sistemas Sénior".
 
-> ![Dados de exemplo para a entidade Título Padrão](media/ST-data.png)
+> ![Dados de exemplo para a entidade Título Padrão.](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

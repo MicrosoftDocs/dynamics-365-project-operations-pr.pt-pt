@@ -2,16 +2,16 @@
 title: Inscrição para as avaliações do Project Operations
 description: Este tópico fornece informações sobre como implementar uma avaliação do Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
+ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901631"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7418471"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrição para as avaliações do Project Operations 
 
@@ -85,13 +85,18 @@ Antes de começar, inicie sessão num browser com a conta profissional de utiliz
 
    Após o início do aprovisionamento, é redirecionado para a lista de ambientes no centro de administração do Power Platform. Enquanto o aprovisionamento está em curso, o estado do ambiente é **PreparingInstance**.
  
-  Quando o aprovisionamento ficar concluído, o estado do seu ambiente é **Pronto**. O aprovisionamento do ambiente inclui a implementação de dados de demonstração.
+  Depois de concluído o aprovisionamento, o estado do ambiente é **Pronto**.
  
-4.  Selecione o URL do Microsoft Dataverse e os URLs das aplicações Finance and Operations para validar a implementação.
+4.  Quando o aprovisionamento estiver concluído, selecione o URL respetivo do Microsoft Dataverse e os URLs de aplicações do Finance and Operations para validar a implementação.
+
+## <a name="demo-data-installation"></a>Instalação de dados de demonstração
+
+Utilize as ligações seguintes para aceder aos pacotes de dados de demonstração para materiais não existentes em stock e cenários de implementação leve. 
+- [Dados de demonstração de materiais não existentes em stock](resource-apply-pro-setup-config-data.md)
+- [Dados de demonstração leve](lite-apply-demo-setup-config-data.md)
 
 ## <a name="configuring-dual-write"></a>Configurar a escrita dupla
-- Para configurar direitos de acesso para escrita dupla, consulte [Atualizar definições de segurança no Project Operations no Dataverse](resource-provision-new-environment.md).
-- Para configurar mapas de escrita dupla, consulte [Executar mapas de escrita dupla do Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+Apenas para implementações de materiais não existentes em stock, configure os mapeamentos de escrita dupla. Para mais informações, consulte [Versões do mapa de escrita dupla do Project Operations](resource-dual-write-maps.md).
 
 ## <a name="assign-licenses"></a>Atribuir licenças
 

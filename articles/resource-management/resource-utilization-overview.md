@@ -2,18 +2,17 @@
 title: Descrição geral da utilização de recursos
 description: Este tópico fornece informações sobre a vista de utilização de recursos no Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.custom: intro-internal
+ms.openlocfilehash: c9464b1de87211f8317a39a1d749e619769309ae
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401390"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6367950"
 ---
 # <a name="resource-utilization-overview"></a>Descrição geral da utilização de recursos
 
@@ -45,3 +44,6 @@ Além disso, deve ser atribuída uma função predefinida a cada recurso reserv�
 No separador **Project Service**, também pode definir uma utilização de destino individual para o recurso. Em seguida, o cálculo da utilização utiliza essa utilização de destino para avaliar o destino do recurso em vez do destino da função predefinida do recurso.
 
 A utilização é apenas mostrada para um recurso se esse recurso tiver aprovado, um tempo faturável durante o período mostrado na grelha.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

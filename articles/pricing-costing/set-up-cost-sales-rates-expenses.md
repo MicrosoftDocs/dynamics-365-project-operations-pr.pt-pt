@@ -3,34 +3,33 @@ title: Configurar taxas de custo e de vendas para despesas
 description: Este tópico fornece informações sobre como configurar taxas de custo e de vendas para categorias de transações e despesas.
 author: rumant
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877234"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082323"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurar taxas de custo e de vendas para despesas
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Pode configurar os preços de custo e de venda para categorias de transações no Dynamics 365 Project Operations. Dado que os preços de custo e de vendas são projetados para Despesas, cada categoria de transação que os inclua, deve também ser configurada como uma categoria de despesas. Esta configuração garante precisão na funcionalidade a jusante. Os preços de custo e de vendas das categorias de transações só podem ser listados numa moeda, que deve ser a moeda no cabeçalho da lista de preços.
+Pode configurar preços de custo e de vendas para categorias de transações no Dynamics 365 Project Operations. Dado que os preços de custo e de vendas são projetados para Despesas, cada categoria de transação que os inclua, deve também ser configurada como uma categoria de despesas. Esta configuração garante precisão na funcionalidade a jusante. Os preços de custo e de vendas das categorias de transações só podem ser listados numa moeda, que deve ser a moeda no cabeçalho da lista de preços.
 
 Para configurar as taxas de custo e de vendas para categorias de transações, complete os seguintes passos. 
 
-1. Vá a **Vendas** > **Clientes** > **Listas de preços**.
-2. Selecione **Novo** para criar uma nova lista de preços. 
-3. Em **Categoria de preços**, no menu da subgrelha, selecione **Preço da Nova Categoria**. 
-4. Na página **Criação Rápida**, insira a categoria de transação e a unidade para as quais está a criar o novo preço.
+1. Crie uma lista de preços com base no cabeçalho da lista de preços. 
+2. Em **Preços da Categoria**, no menu da subgrelha, selecione **+ Novo Preço da Categoria**. 
+3. Na página **Criação Rápida**, insira a categoria de transação e a unidade para as quais está a criar o novo preço.
 
 A tabela a seguir lista os campos no separador **Geral** e a página **Criação Rápida** de uma linha de preço de categoria que deve ter em mente à medida que cria preços de categoria numa lista de preços de vendas ou de custos.
 
-| Campo | Localização | Descrição | Impacto a jusante |
+| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
 | --- | --- | --- | --- |
 | Categoria de Transação | Separador **Geral** e páginas **Criação Rápida** | Selecione a categoria de transação para a qual está a criar um preço de vendas ou de custo. | A categoria de transação na estimativa de entrada ou real para Despesas será igualada contra esta linha para assumir a predefinição da taxa de custo ou de vendas da categoria de transação. |
 | Agenda de Unidades | Separador **Geral** e páginas **Criação Rápida** | A agenda da unidade assume a predefinição da agenda da unidade da categoria de transação. | Este campo não tem impacto a jusante. |
@@ -56,6 +55,3 @@ Quando este método de definição de preços é selecionado na linha de preços
 
 ### <a name="markup-over-cost"></a>Margem de Lucro Sobre o Custo
 Quando este método de definição de preços é selecionado na linha de preços de categoria que está ligada a uma lista de preços de vendas, o preço assume a predefinição para a categoria e a combinação de unidade apenas para um real das despesas. Por exemplo, valores reais de vendas não faturadas para a classe de transação de despesas. Este preço unitário é definido no valor real de vendas não faturadas para um valor calculado a partir do preço unitário sobre o custo real para essa despesa após a aplicação da percentagem de margem definida. Assumir a predefinição do preço com base no custo não é feito nas estimativas do projeto para despesas ou na linha de proposta e detalhes do item de contrato para despesas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

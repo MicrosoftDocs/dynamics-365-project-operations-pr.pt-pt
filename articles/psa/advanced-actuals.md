@@ -2,8 +2,6 @@
 title: Registar valores reais
 description: Este tópico possui informações sobre a forma como os valores reais são registados.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000770"
 ---
 # <a name="recording-actuals"></a>Registar valores reais 
 
@@ -33,4 +31,7 @@ ms.locfileid: "5145732"
 
 Todas as transações financeiras que ocorrem durante um projeto são registadas. Estas transações são registadas como **reais**. A tabela seguinte mostra os diferentes tipos de valores reais criados, dependendo do facto de o projeto ser um projeto de tempo e material, de preço fixo ou interno, ou se encontrar na fase pré-venda.
 
-> ![Tabela que mostra a forma como os valores reais são registados](media/advanced-table2.png)
+> ![Tabela que mostra a forma como os valores reais são registados.](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

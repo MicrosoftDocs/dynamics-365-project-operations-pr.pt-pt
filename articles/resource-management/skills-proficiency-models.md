@@ -2,18 +2,16 @@
 title: Competências e certificações
 description: Este tópico fornece informações sobre como adicionar características de competências e certificações aos recursos.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 966db35a4af55665105518b51e90a494db199397
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128882"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014085"
 ---
 # <a name="skills-and-certifications"></a>Competências e certificações
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
@@ -43,3 +41,5 @@ Adicionar características aos requisitos de recursos permite documentar os conh
 3. Na subgrelha **Competências**, selecione **+Adicionar nova Característica do Requisito**.
 4. No painel de criação rápida, localize e selecione as características obrigatórias e adicione um **Valor de Classificação**.
 5. Selecione **Guardar e Fechar**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

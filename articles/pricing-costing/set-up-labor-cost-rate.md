@@ -2,18 +2,16 @@
 title: Configurar taxas de custo de mão de obra
 description: Este tópico fornece informações sobre como configurar taxas para o custo do Project Operations
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180611"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986190"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurar taxas de custo de mão de obra
 
@@ -40,7 +38,7 @@ A tabela a seguir inclui alguns dos campos que são importantes na criação de 
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Preços de transferência e custos para recursos fora da sua divisão ou entidade legal
 
-Em empresas baseadas em projetos, é comum usar funcionários de diferentes entidades jurídicas ou divisões em projetos. Um projeto pode ser executado por uma entidade legal, mas os colaboradores ou consultores que trabalham no projeto podem vir da mesma entidade legal ou de outra, ou pode haver uma combinação de ambos. No Dynamics 365 Project Operations, a entidade legal que detém a entrega do projeto é a **Empresa Proprietária** e a divisão que detém a entrega é a **Unidade Contratante**. Outras entidades jurídicas que fornecem recursos são as **Empresas de Atribuição de Recursos** e divisões que fornecem recursos são as **Unidades de Atribuições de Recursos**. Na maioria dos países, as empresas são obrigadas a garantir que a entidade ou divisão legal de atribuição de recursos cobre à empresa proprietária e a unidade contratante pela utilização dos recursos.
+Em empresas baseadas em projetos, é comum usar funcionários de diferentes entidades jurídicas ou divisões em projetos. Um projeto pode ser executado por uma entidade legal, mas os colaboradores ou consultores que trabalham no projeto podem vir da mesma entidade legal ou de outra, ou pode haver uma combinação de ambos. No Dynamics 365 Project Operations, a entidade jurídica que detém a entrega do projeto é a **Sociedade Proprietária** e a divisão que detém a entrega é a **Unidade Contratante**. Outras entidades jurídicas que fornecem recursos são as **Empresas de Atribuição de Recursos** e divisões que fornecem recursos são as **Unidades de Atribuições de Recursos**. Na maioria dos países, as empresas são obrigadas a garantir que a entidade ou divisão legal de atribuição de recursos cobre à empresa proprietária e a unidade contratante pela utilização dos recursos.
 
 Por exemplo, a corporação Fabrikam deve garantir que a Fabrikam India-Robotics tenha um cartão de taxa de custo negociado com a Fabrikam US-Robotics ou a Fabrikam UK-Robotics.
 
@@ -84,3 +82,6 @@ Na lista de preços de custos da Fabrikam UK-Robotics, as taxas de custo podem s
 | Programador | Fabrikam UK | 115 GBP |
 
 A lista de preços de custos pode fornecer taxas de mão de obra em várias moedas. Ao gerar uma estimativa de custos no projeto, o Project Operations converterá estas taxas de custo na moeda do projeto e exibi-la-á ao utilizador. Quando uma entrada de tempo é aprovada e um custo real é criado, o custo real tem o preço real na moeda dessa linha de preço de função correspondente na lista de preços de custo. Os custos reais de um único projeto podem ser registados em várias moedas. No entanto, ao efetuar o rollup ou resumir os custos reais da mão de obra a nível do projeto, o Project Operations converterá todos os montantes do custo da mão de obra na moeda do projeto, o que o utilizador pode visualizar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

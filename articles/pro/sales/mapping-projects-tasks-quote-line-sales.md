@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d714304f408050babae1a6ba74268979e0b6ea4b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272762"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130727"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapear projetos e tarefas para uma linha de proposta baseada no projeto
 
@@ -90,6 +90,3 @@ Também pode desassociar tarefas de projeto de linhas de proposta a partir do se
 
 >[!NOTE]
 > Este procedimento não elimina a tarefa do projeto. Apenas remove a associação da tarefa da linha de proposta baseada em projetos.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

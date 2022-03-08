@@ -1,9 +1,9 @@
 ---
 title: Definir calendários de projetos
-description: Esta tópico fornece informações sobre como aplicar um modelo de calendário a um projeto para acompanhar o calendário do projeto.
+description: Este tópico fornece informações sobre a utilização de um calendário de projeto para monitorizar o cronograma do projeto.
 author: ruhercul
 manager: AnnBe
-ms.date: 02/05/2021
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,49 +17,38 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981314"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286982"
 ---
 # <a name="define-project-calendars"></a>Definir calendários de projetos
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Para criar e gerir um projeto, deve aplicar um modelo de calendário ao projeto. O modelo de calendário define os seguintes atributos do projeto:
+Para criar uma agenda de projeto, cria um modelo de calendário do projeto que define o número de horas de trabalho por dia e todos os encerramentos de companhia. Para criar um modelo de calendário do projeto, associe um modelo de trabalho ao campo **Modelo de calendário** do projeto. Siga estes passos para criar um modelo de trabalho.
 
-- Horário de trabalho, incluindo início e fim
-- Dias de trabalho
-- Exceções do calendário, tais como dias não laborais
+1. No painel de navegação esquerdo, selecione **Recursos**. 
+2. Na página da lista de **Recursos**, abra o registo de utilizador e selecione **Mostrar Horas de Trabalho**.
 
-O modelo de calendário que é aplicado a um projeto é uma cópia do modelo de calendário definido nas definições da sua organização.
+  > [!NOTE]
+  > Certifique-se de que permite pop-ups na página do browser. Isto permite-lhe ver as horas de trabalho definidas para o recurso.
+  
+3. No separador **Vista Mensal**, selecione **Configurar**. É apresentada uma lista de três opções: 
 
-> [!NOTE]
-> Se alterar o modelo de calendário, essas alterações não se propagam ao horário de trabalho do projeto. Para alterar o horário de trabalho do projeto, deve ser aplicado um novo modelo.
+  - Nova Agenda Semanal
+  - Agenda de Trabalho Para Um Dia
+  - Licença
 
-Para criar um modelo de calendário para a sua organização, existem dois requisitos-chave:
-
-- Defina as horas de trabalho desejadas do modelo utilizando um recurso de reserva novo ou existente.
-- Crie um novo modelo de calendário e associe o modelo ao recurso de reserva.
-
-**Defina as horas de trabalho do modelo**
-
-1. Aceda a **Recursos** \> **Recursos**.
-2. Crie um novo recurso para fazer referência no modelo de calendário ou selecione um recurso existente.
-3. Selecione o separador **Horas de Trabalho** do recurso e preencha as instruções em [Definir horário de trabalho para um recurso](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) para configurar as regras do calendário.
-
-**Criar um novo modelo de calendário**
-
-1. Ir a **Definições** \> **Modelo de calendário**.
-2. Selecione **Novo** e introduza um nome, descrição e recurso de modelo.
-
-> [!NOTE]
-> Quando um recurso é referenciado num modelo de calendário, uma cópia do calendário do recurso está associada ao modelo do calendário. Se alterar o modelo copiado das horas de trabalho, essas alterações não se propagam ao modelo de calendário.
+4. Selecione **Nova Agenda Semanal** e, em seguida, defina as opções para esta agenda de recursos. É possível definir uma agenda semanal periódica, os parâmetros de hora diária, os encerramentos de companhia e muito mais.
+5. Defina o intervalo de datas, selecione **Guardar** e selecione **Fechar**. 
+6. Volte à página da lista de **Recursos** e selecione o recurso para o qual define as horas de trabalho. 
+7. Selecione **Definir Calendário Como** para definir o modelo de trabalho. 
+8. Na caixa de diálogo **Modelo de Trabalho**, introduza um nome para o modelo de trabalho e selecione **Aplicar**. 
 
 Agora, pode associar o modelo de trabalho a um modelo de calendário do projeto.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

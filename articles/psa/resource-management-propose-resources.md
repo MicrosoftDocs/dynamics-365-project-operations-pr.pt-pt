@@ -2,8 +2,6 @@
 title: Propor recursos do projeto
 description: Este tópico fornece informações sobre propor recursos do projeto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147532"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995055"
 ---
 # <a name="propose-project-resources"></a>Propor recursos do projeto
 
@@ -34,21 +32,21 @@ Os gestores de recursos podem propor um recurso ao gestor de projeto utilizando 
 1. A partir da grelha de pedido ou do próprio pedido, selecione **Localizar Recursos**.
 2. Na página **Assistente da Agenda**, selecione o recurso e, em seguida, no painel **Criar Reserva de Recursos**, no campo **Estado da Reserva**, selecione **Reservar**.
 
-    ![Recurso proposto selecionado](media/Resource-Management-image62.png)
+    ![Recurso proposto selecionado.](media/Resource-Management-image62.png)
 
 Ocorrem as seguintes atualizações de estado:
 
 - Na página **Assistente da Agenda**, os indicadores de estado são atualizados para indicar que a reserva é proposta, e não reservada de forma fixa.
 
-    ![Indicadores de estado para reservas propostas na página Assistente da Agenda](media/Resource-Management-image63.png)
+    ![Indicadores de estado para reservas propostas na página Assistente da Agenda.](media/Resource-Management-image63.png)
 
 - No pedido de recurso, o estado é alterado para **Necessita de Revisão**.
 
-    ![Estado do pedido de recurso alterado para Necessita de Revisão](media/Resource-Management-image64.png)
+    ![Estado do pedido de recurso alterado para Necessita de Revisão.](media/Resource-Management-image64.png)
 
 - No separador **Equipa** do projeto, o valor **Estado do Pedido** do membro da equipa genérico é alterado para **Necessita de Revisão**.
 
-    ![O estado do pedido do membro da equipa genérico foi alterado para Necessita de Revisão no separador Equipa](media/Resource-Management-image48.png)
+    ![O estado do pedido do membro da equipa genérico foi alterado para Necessita de Revisão no separador Equipa.](media/Resource-Management-image48.png)
 
 O gestor de projeto pode aceitar ou rejeitar a proposta.
 
@@ -72,7 +70,7 @@ As fórmulas que se seguem são utilizadas para calcular a utilização:
 
 Pode localizar a vista **Utilização de Recursos** no painel **Recursos**.
 
-![Vista de Utilização de Recursos](media/Resource-Management-image65.png)
+![Ver Utilização de Recursos.](media/Resource-Management-image65.png)
 
 Cada célula da grelha representa a percentagem de utilização faturável do recurso num período, tal como um dia, uma semana ou um mês. As fórmulas que se seguem são utilizadas para colorir as células:
 
@@ -86,7 +84,7 @@ A grelha requer que defina uma utilização de destino na função ou no recurso
 
 Além disso, deve ser atribuída uma função predefinida a cada recurso reservável. Aceda a **Recursos** \> **Recursos**. No separador **Project Service**, verifique se está definida uma função de recurso e se o campo **É Predefinição** está definido como **Sim**. Pode adicionar funções adicionais em que **É Predefinição = Não**. A função em que **É Predefinição = Sim** é utilizada para avaliar a utilização do recurso relativamente ao alvo dessa função.
 
-![Função predefinida definida](media/Resource-Management-image67.png)
+![Função predefinida.](media/Resource-Management-image67.png)
 
 No separador **Project Service**, também pode definir uma utilização de destino individual para o recurso. Em seguida, o cálculo da utilização utiliza essa utilização de destino para avaliar o destino do recurso em vez do destino da função predefinida do recurso.
 
@@ -98,18 +96,21 @@ A utilização é mostrada para um recurso apenas se esse recurso tiver aprovado
 
 As horas de trabalho dos recursos são utilizadas como base para calcular a disponibilidade de um recurso. As reservas de recursos consomem a capacidade dos recursos.
 
-![Quadro da Agenda](media/Resource-Management-image68.png)
+![Quadro da Agenda.](media/Resource-Management-image68.png)
 
 O Quadro da Agenda utiliza cores e sombreamento para mostrar reservas, disponibilidade e reservas em excesso, bem como o estado das reservas. Uma definição nas definições do Quadro da Agenda permite-lhe mostrar uma legenda.
 
 Se uma seta a apontar para a direita aparecer ao lado de um recurso reservável individual no Quadro da Agenda, o recurso poderá ser expandido para mostrar os detalhes do trabalho em que o recurso está reservado.
 
-![Recurso reservável expandido no Quadro da Agenda](media/Resource-Management-image69.png)
+![Recurso reservável expandido no Quadro da Agenda.](media/Resource-Management-image69.png)
 
 Uma vez que o Dynamics 365 Project Service Automation utiliza o motor de Universal Resource Scheduling, se tiver o Dynamics 365 Field Service instalado, pode ver os detalhes das reservas de recursos para projetos, ordens de intervenção e outras entidades para as quais expandiu o agendamento.
 
-![Detalhes de reservas de recursos para projetos e ordens de intervenção](media/Resource-Management-image70.png)
+![Detalhes de reservas de recursos para projetos e ordens de intervenção.](media/Resource-Management-image70.png)
 
 Para ver mais detalhes sobre um recurso individual, clique com o botão direito do rato para abrir o cartão do recurso.
 
-![Cartão do recurso](media/Resource-Management-image71.png)
+![Cartão do recurso.](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

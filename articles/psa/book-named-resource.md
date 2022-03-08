@@ -2,8 +2,6 @@
 title: Reservar recursos nomeados a partir de requisitos de recursos
 description: Este tópico fornece informações sobre a reserva de recursos nomeados para um requisito de recurso genérico.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7a6370bde434b74d05e342240abd9bba84d34d8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145117"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013410"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Reservar recursos nomeados a partir de requisitos de recursos
 
@@ -68,3 +66,6 @@ Este é um exemplo de quando são necessários vários recursos nomeados para cu
 A principal diferença neste cenário é que o recurso genérico permanece na equipa atribuída à tarefa, e os membros da equipa de recursos nomeados reservados não são atribuídos como parte da posição. O gestor de projeto pode atribuir o trabalho conforme adequado aos recursos nomeados. A vista **Reconciliação** pode ajudar um gestor de projeto a dividir as reservas em vários recursos em atribuições de tarefas. Isto não é efetuado automaticamente porque, em qualquer cenário mais complicado do que o exemplo simples acima, como, por exemplo, o local onde tem um grupo de tarefas que compõem o requisito, a intenção de como o gestor de projeto pretende atribuir, precisa de ser assumida pelo sistema. Uma vez que o sistema não consegue compreender as intenções, é provável que as suposições sejam diferentes das pretendidas e irá acontecer um resultado incorreto ou imprevisível. O resultado previsível é que o recurso genérico permanece atribuído até que o gestor de projeto crie deliberadamente as atribuições, com a ajuda da vista **Reconciliação**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

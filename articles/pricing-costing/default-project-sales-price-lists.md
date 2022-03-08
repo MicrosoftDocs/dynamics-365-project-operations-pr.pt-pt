@@ -2,18 +2,16 @@
 title: Lista de preços predefinida
 description: Este tópico fornece informação sobre as listas de preços de custos e vendas predefinidas no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130952"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989880"
 ---
 # <a name="default-price-lists"></a>Lista de preços predefinida
 
@@ -21,7 +19,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 ## <a name="sales-price-lists"></a>Listas de preços de venda
 
-Cada proposta e contrato de projeto no Dynamics 365 Project Operations contém uma lista de preços de vendas predefinida. 
+Cada cotação e contrato de projeto no Dynamics 365 Project Operations contém uma lista de preços de venda padrão. 
 
 ### <a name="price-list-default-on-project-quotes"></a>A lista de preços é assumida como predefinição nas propostas de projeto
 O sistema completa o seguinte processo para determinar qual a lista de preços a assumir a predefinição numa proposta de projeto:
@@ -57,3 +55,6 @@ As listas de preços de custo não assumem a predefinição de nenhuma entidade 
 5. Em seguida, o sistema analisa então a efetividade da data das listas de preços que correspondem à data da estimativa de entrada ou linha real. 
 6. Se existirem várias listas de preços que são efetivas para a data na estimativa de entrada ou real, a lista de preços criada mais recentemente é selecionada.
 7. Se não houver listas de preços de custo anexadas aos parâmetros do projeto que correspondam à moeda e à data efetiva, o sistema predefine a taxa de custo para zero (0) na estimativa de entrada ou na linha real.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

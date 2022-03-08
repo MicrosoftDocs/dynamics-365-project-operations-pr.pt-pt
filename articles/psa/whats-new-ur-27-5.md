@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f38f847b6097c5b43b4ee6da97c00fb1a00c1506
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a12effe3af1c1c5596710af658a2811ba9496438
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151087"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948793"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-275-v3"></a>Novidades ou alterações na Versão da Atualização 27.5 do Project Service Automation, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Temos o prazer de anunciar a mais recente atualização à aplicação Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Temos o prazer de anunciar a mais recente atualização à aplicação Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
 Este tópico lista as funcionalidades e correções novas ou alteradas para o Project Service Automation V3, Versão da Atualização 27.5. Esta versão tem um número de compilação de V3.10.45.119 e está geralmente disponível através de uma Atualização automática em janeiro de 2021.
 
@@ -42,3 +42,6 @@ Este tópico lista as funcionalidades e correções novas ou alteradas para o Pr
 Foram corrigidos os seguintes problemas:
 
 - Agendar a degradação do desempenho da pesquisa de assistência
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

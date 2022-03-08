@@ -2,18 +2,16 @@
 title: Descrição geral do reconhecimento de receitas
 description: Este tópico fornece informações sobre o reconhecimento de receitas no Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: f5f962572c6ec0298d2d91d33f83e4120a498a6f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531518"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013770"
 ---
 # <a name="revenue-recognition-overview"></a>Descrição geral do reconhecimento de receitas
 
@@ -60,3 +58,6 @@ No Dynamics 365 Project Operations, os princípios de reconhecimento de receitas
 [Gerir estimativas de receitas](rev-rec-completed-contract-method.md)
 
 [Métodos de custo para conclusão](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

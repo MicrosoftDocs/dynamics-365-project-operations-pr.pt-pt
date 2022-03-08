@@ -2,22 +2,23 @@
 title: Utilizar APIs de Agenda do Project para executar operações com entidades de Agendamento
 description: Esta tópico fornece informações e amostras para utilizar as APIs de Agenda do Project.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487699"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008780"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizar APIs de Agenda do Project para executar operações com entidades de Agendamento
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-
+> [!IMPORTANT] 
+> Algumas ou todas as funcionalidades anotadas neste tópico estão disponíveis como parte de uma versão de pré-visualização. O conteúdo e a funcionalidade estão sujeitos a alterações. 
 
 ## <a name="scheduling-entities"></a>Entidades de agendamento
 

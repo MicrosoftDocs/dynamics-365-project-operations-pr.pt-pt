@@ -2,8 +2,6 @@
 title: Definições do projeto
 description: Este tópico fornece informações sobre as definições de gestão do projeto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148162"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996945"
 ---
 # <a name="project-settings"></a>Definições do projeto
 
@@ -47,9 +45,9 @@ Para criar uma agenda de projeto, cria um modelo de calendário do projeto que d
 
   - Nova Agenda Semanal
   - Agenda de Trabalho Para Um Dia
-  - Intervalo
+  - Licença
 
-> ![Configurar opções](media/project-13.png)
+> ![Configurar opções.](media/project-13.png)
 
 4. Selecione **Nova Agenda Semanal** e, em seguida, defina as opções para esta agenda de recursos. É possível definir uma agenda semanal periódica, os parâmetros de hora diária, os encerramentos de companhia e muito mais.
 5. Defina o intervalo de datas, selecione **Guardar** e clique em **Fechar**. 
@@ -68,3 +66,6 @@ Cada organização tem de configurar estas funções na página **Categorias de 
 ## <a name="price-lists"></a>Listas de preços
 
 As listas de preços permitem definir preços de custo e vendas para funções de recursos, categorias de despesa, produtos e outros elementos numa organização. Antes de definir estimativas financeiras para o trabalho que deve ser entregue para um projeto, deve criar uma lista de preços de custo e venda subjacente. Na secção de parâmetros, também deverá configurar uma lista de preços de custo e de venda predefinida que se aplique a todos os projetos criados na organização. Na página **Parâmetros do Projeto Ativos**, certifique-se de que configurou uma lista de preços de custo e venda predefinida.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

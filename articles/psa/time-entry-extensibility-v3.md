@@ -2,8 +2,6 @@
 title: Personalizar entrada de tempo semanal
 description: Este tópico fornece informações sobre como implementar regras de negócio personalizadas que suportam as práticas de uma organização.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,14 +16,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149647"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002300"
 ---
-# <a name="customize-weekly-time-entry"></a>Personalizar entrada de tempo semanal 
+# <a name="customize-weekly-time-entry"></a>Personalizar entrada de hora semanal 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -132,3 +130,6 @@ Deve utilizar validações de plug-ins para quaisquer validações que exijam ma
 
 > [!IMPORTANT] 
 > Atualmente, um problema conhecido nas páginas de TBX impede os utilizadores de corrigir informações e selecionar novamente Concluído quando uma atualização falha na validação de plug-in. Como solução alternativa, configure as validações de regras de negócio para evitar esta situação o máximo possível.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

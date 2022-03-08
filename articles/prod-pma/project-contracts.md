@@ -2,11 +2,9 @@
 title: Contratos de projeto
 description: Este tópico fornece exemplos dos contratos de projeto que pode criar para vários tipos de projetos e fontes de financiamento, e como pode gerir contratos e faturar os clientes do projeto.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082535"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001040"
 ---
 # <a name="project-contracts"></a>Contratos de projeto
 
@@ -100,7 +98,7 @@ O quadro seguinte fornece cenários para gerir a alocação de financiamento ent
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>5</li>
+<li>1</li>
 <li>2</li>
 <li>3</li>
 </ul></td>
@@ -118,8 +116,8 @@ O quadro seguinte fornece cenários para gerir a alocação de financiamento ent
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>5</li>
-<li>5</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -138,8 +136,8 @@ O quadro seguinte fornece cenários para gerir a alocação de financiamento ent
 <li>50%</li>
 </ul></td>
 <td><ul>
-<li>5</li>
-<li>5</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 <li>2</li>
 </ul></td>
@@ -155,7 +153,7 @@ O quadro seguinte fornece cenários para gerir a alocação de financiamento ent
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>5</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -344,3 +342,6 @@ Durante o primeiro mês, é registo um total de 800 horas pelos consultores do p
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

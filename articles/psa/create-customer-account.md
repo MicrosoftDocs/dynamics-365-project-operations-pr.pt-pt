@@ -2,8 +2,6 @@
 title: Criar uma conta de cliente
 description: Criar uma conta de cliente no Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb4ba934c444b3447f42c78b4dd1244185bb2f7e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1d622dd2eb936611015fedd43925296313221435b9183c6d94bc6e6538518770
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144832"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002750"
 ---
 # <a name="create-a-customer-account-project-service"></a>Criar uma conta de cliente (Project Service)
 
@@ -47,3 +45,6 @@ Crie uma conta para cada cliente com quem está a trabalhar, quer esteja a citar
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

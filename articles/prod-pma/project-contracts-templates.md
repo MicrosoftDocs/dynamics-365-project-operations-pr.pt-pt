@@ -2,11 +2,9 @@
 title: Sincronizar contratos de projetos e projetos diretamente de Project Service Automation para Finanças
 description: Este tópico descreve o modelo e as tarefas subjacentes que são utilizados para sincronizar os contratos de projeto e os projetos diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764833"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999820"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar contratos de projetos e projetos diretamente de Project Service Automation para Finanças 
 
@@ -109,14 +107,14 @@ Quando a solução de integração Project Service Automation para Finance é ap
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração do mapeamento
 
 - Antes de poder ocorrer a sincronização dos contratos de projeto e dos projetos, é necessário sincronizar as contas.
-- No seu conjunto de ligações, adicione um mapeamento de campos chave de integração para **msdyn\_organizationalunits** para **msdyn\_name \[Nome\]**. Primeiro, poderá ter de adicionar um projeto ao conjunto de ligações. Para mais informações, consulte [Integrar dados no Common Data Service para Aplicações](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- No seu conjunto de ligações, adicione um mapeamento de campos chave de integração para **msdyn\_projects** para **msdynce\_projectnumber \[Número de Projeto\]**. Primeiro, poderá ter de adicionar um projeto ao conjunto de ligações. Para mais informações, consulte [Integrar dados no Common Data Service para Aplicações](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- No seu conjunto de ligações, adicione um mapeamento de campos chave de integração para **msdyn\_organizationalunits** para **msdyn\_name \[Nome\]**. Primeiro, poderá ter de adicionar um projeto ao conjunto de ligações. Para mais informações, consulte [Integrar dados no Common Data Service para Aplicações](/powerapps/administrator/data-integrator).
+- No seu conjunto de ligações, adicione um mapeamento de campos chave de integração para **msdyn\_projects** para **msdynce\_projectnumber \[Número de Projeto\]**. Primeiro, poderá ter de adicionar um projeto ao conjunto de ligações. Para mais informações, consulte [Integrar dados no Common Data Service para Aplicações](/powerapps/administrator/data-integrator).
 - **SourceDataID** para contratos de projeto e projetos pode ser atualizado para um valor diferente ou removido do mapeamento. O valor do modelo predefinido é **Project Service Automation**.
 - O mapeamento **PaymentTerms** tem de ser atualizado para refletir os termos de pagamento válidos no Finance. Também pode remover o mapeamento da tarefa do projeto. O mapa de valores predefinidos tem valores predefinidos para os dados de demonstração. A tabela seguinte mostra os valores no Project Service Automation.
 
     | Value | Descrição   |
     |-------|---------------|
-    | 5     | Líq. a 30 Dias        |
+    | 1     | Líq. a 30 Dias        |
     | 2     | 2% a 10 Dias, Líq. a 30 Dias |
     | 3     | Líq. a 45 Dias        |
     | 4     | Líq. a 60 Dias        |
@@ -131,7 +129,7 @@ Utilize o Microsoft Power Query para o Excel filtrar dados se estiverem reunidas
 Se tiver de utilizar o Power Query, siga estas diretrizes:
 
 - O modelo Projetos e contratos (PSA para Fin and Ops) tem um filtro predefinido que inclui apenas as ordens de venda do tipo **Item de trabalho (msdyn\_ordertype = 192350001)**. Este filtro ajuda a garantir que os contratos de projeto não são criados para as ordens de venda no Finance. Se criar o seu próprio modelo, terá de adicionar este filtro.
-- Crie um filtro Power Query que inclua apenas as organizações contratuais que devem ser sincronizadas com a entidade legal do conjunto de conexão de integração. Por exemplo, os contratos de projeto que tem com a unidade organizacional contratual Contoso US devem ser sincronizados com a entidade jurídica USSI, mas os contratos de projeto que tem com a unidade organizacional contratual Contoso Global devem ser sincronizados com a entidade jurídica USMF. Se não adicionar este filtro ao seu mapeamento de tarefas, todos os contratos de projeto serão sincronizados com a entidade jurídica que está definida para o conjunto de ligações, independentemente da unidade organizacional contratual.
+- Crie um filtro Power Query que inclua apenas as organizações contratuais que devem ser sincronizadas com a entidade legal do conjunto de conexão de integração. Por exemplo, os contratos de projeto que tem com a unidade organizacional contratual do Contoso EUA devem ser sincronizados com a entidade legal USSI, mas os contratos de projeto que tem com a unidade organizacional contratual da Contoso Global devem ser sincronizados para a entidade legal USMF. Se não adicionar este filtro ao seu mapeamento de tarefas, todos os contratos de projeto serão sincronizados com a entidade jurídica que está definida para o conjunto de ligações, independentemente da unidade organizacional contratual.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelos na Integração de dados
 
@@ -153,3 +151,6 @@ As seguintes ilustrações mostram exemplos dos mapeamentos de tarefas do modelo
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapeamento de marcos de item de contrato de projeto no modelo Projetos e Contratos (PSA 3.x para Dynamics) - v2:
 
 [![Mapeamento de marco de item de contrato de projeto com o a versão dois do modelo](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

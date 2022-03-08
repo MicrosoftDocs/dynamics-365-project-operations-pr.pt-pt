@@ -2,8 +2,6 @@
 title: Criar uma lista de preços
 description: Como criar uma lista de preços no Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f6e7a7a96f374acc85ee1027c5252cbf7ab5f0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 32f0cc66d1caa08bd24eb232338444df0388de3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149467"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006075"
 ---
 # <a name="create-a-price-list-project-service"></a>Criar uma lista de preços (Project Service)
 
@@ -71,3 +69,6 @@ As listas de preços baseiam-se nas funções e nas categorias de despesas, pelo
   
 ### <a name="see-also"></a>Consulte Também  
  [Configurar Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

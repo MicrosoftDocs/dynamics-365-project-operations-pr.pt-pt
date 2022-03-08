@@ -1,21 +1,19 @@
 ---
-title: Gerir o registo de tarefas pendentes de faturação – lite
-description: Este tópico fornece informações sobre as várias vistas disponíveis a usar na gestão do registo de tarefas pendentes de faturação.
+title: Gerir registo de tarefas pendentes de faturação de projetos
+description: Este tópico fornece informações sobre os vários pontos de vista disponíveis para utilizar na gestão do atraso de faturação em projetos.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176985"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988305"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Gerir o registo de tarefas pendentes de faturação – lite
+# <a name="manage-project-billing-backlog"></a>Gerir registo de tarefas pendentes de faturação de projetos 
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -60,3 +58,6 @@ Os valores reais de vendas não faturados com um estado **A Não Exceder** de **
 Se os itens de contrato de vários clientes tiverem um método de faturação de tempo e material, quando o tempo e as despesas são aprovados, um valor real de vendas não faturado é criado para cada cliente no item de contrato, de acordo com a divisão de percentagem de faturação definida para cada um dos clientes. Na vista **Registo de Tarefas Pendentes de Faturação de Tempo e Material**, verá estes valores reais de vendas não faturados específicos do cliente. Cada um destes registos de valores reais de vendas não faturados pode ser marcado como **Pronto a Faturar** separadamente desta vista.
 
 Um valor real de vendas não faturado que está numa fatura de rascunho é mostrada nesta vista com um estado de faturação de **Fatura do Cliente Criada**. Quando a fatura de rascunho for confirmada, o estado da faturação neste registo é atualizado para **Fatura de Cliente Publicada**. Não atualize este valor de estado utilizando código personalizado. O Project Operations não funciona corretamente quando estes valores de estado são atualizados com código personalizado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

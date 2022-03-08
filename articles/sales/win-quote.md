@@ -2,24 +2,22 @@
 title: Fechar uma proposta
 description: Este tópico fornece informações sobre como fechar propostas no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124697"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993435"
 ---
 # <a name="close-a-quote"></a>Fechar uma proposta
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-Uma proposta de projeto pode ser fechada como Ganha ou Perdida. Como as funções Ativar e Rever não são suportadas em propostas no Microsoft Dynamics 365 Project Operations, pode fechar uma proposta de rascunho.
+Uma proposta de projeto pode ser fechada como Ganha ou Perdida. Uma vez que as funções de Ativação e Revisão não são suportadas em propostas no Microsoft Dynamics 365 Project Operations, pode fechar uma proposta de rascunho.
 
 ## <a name="close-a-quote-as-won"></a>Fechar uma proposta como Ganha
 
@@ -43,3 +41,6 @@ Se a proposta de projeto que está fechada como Perdida tem um projeto referenci
 
 > [!NOTE]
 > No Project Operations, fechar uma proposta como Ganha ou Perdida não afetará esse estado da Oportunidade, que permanecerá aberta até ser fechada manualmente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

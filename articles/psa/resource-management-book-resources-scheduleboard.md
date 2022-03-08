@@ -3,7 +3,7 @@ title: Utilizar o Quadro da Agenda para reservar recursos do projeto
 description: Este tópico fornece informações sobre como reservar recursos.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144427"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082626"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Utilizar o Quadro da Agenda para reservar recursos do projeto
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Além de reservar recursos num projeto a partir de dentro de um projeto, pode reservar de forma fixa recursos ou reservar de forma flexível os recursos no Quadro da Agenda.
 

@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007925"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368445"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Visão geral da Integração de escrita dupla no Project Operations
 
@@ -23,7 +23,7 @@ O Project Operations utiliza [capacidades de dupla escrita](/dynamics365/fin-ops
 
 A seguinte ilustração mostra como os dados são sincronizados como parte desta integração entre Dataverse e finanças.
 
-![Visão geral dos fluxos de dados do Project Operations.](./media/ProjectOperationsFlows.jpg)
+![Visão geral dos fluxos de dados do Project Operations](./media/ProjectOperationsFlows.jpg)
 
 O Project Operations no Dataverse fornece uma interface de utilizador moderna (UI) e fácil extensibilidade sem código/código baixo utilizando as capacidades Power Platform. Gestores de projetos, gestores de recursos, membros da equipa do projeto, e outras personalidades de front-office, realizam as suas atividades no Project Operations no Dataverse.
 

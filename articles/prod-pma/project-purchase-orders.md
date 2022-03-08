@@ -2,11 +2,9 @@
 title: Notas de encomenda para um projeto
 description: Este artigo descreve os vários métodos que pode utilizar para criar notas de encomenda para um projeto. O método que utilizar depende do objetivo da nota de encomenda e quando os itens são consumidos e cobrados a um projeto.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5de28f3844b802a980c811411cae75549c697538f89e8c3d2495ea171a188524
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082392"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009005"
 ---
 # <a name="purchase-orders-for-a-project"></a>Notas de encomenda para um projeto
 
@@ -76,3 +74,6 @@ Pode utilizar um dos seguintes métodos para criar uma nota de encomenda em Gest
 
 Para mais informações, consulte [Receber itens na nota de encomenda a partir do requisito do item](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

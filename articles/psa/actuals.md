@@ -2,10 +2,9 @@
 title: Descrição geral dos valores reais
 description: Este tópico fornece informações sobre os valores reais do projeto.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146137"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992490"
 ---
 # <a name="actuals-overview"></a>Descrição geral dos valores reais
 
@@ -33,7 +32,7 @@ ms.locfileid: "5146137"
 
 Os valores reais são a quantidade de trabalho que foi concluída num projeto. Os valores reais do projeto podem ser novamente rastreados para os documentos de origem. Estes documentos de origem incluem horas, despesas e entradas de diário, além de faturas.
 
-![Como os valores reais do projeto são rastreados para os documentos de origem](media/basic-guide-18.png)
+![Como os valores reais do projeto são rastreados para os documentos de origem.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Submeter uma entrada de tempo
 
@@ -330,3 +329,6 @@ O PSA regista as transações financeiras que ocorrem durante um projeto. Estas 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

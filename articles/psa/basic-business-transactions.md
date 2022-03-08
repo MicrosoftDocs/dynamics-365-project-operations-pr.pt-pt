@@ -2,8 +2,6 @@
 title: Transações comerciais
 description: Este tópico fornece informações sobre transações comerciais.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149917"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987540"
 ---
 # <a name="business-transactions"></a>Transações comerciais
 
@@ -90,7 +88,7 @@ Em conjunto, a Origem da transação e a Ligação da transação ajudam-no a mo
 
 O exemplo que se segue mostra o processamento normal das entradas de tempo num ciclo de vida do projeto do PSA.
 
-> ![Processamento completo do tempo num ciclo de vida do Project Service](media/basic-guide-17.png)
+> ![Processamento completo do tempo num ciclo de vida do Project Service.](media/basic-guide-17.png)
  
 1. A submissão de uma entrada de tempo causa a criação de duas linhas do diário: uma para o custo e outra para as vendas não faturadas.
 2. A eventual aprovação de uma entrada de tempo causa a criação de dois valores reais: um para o custo e outro para as vendas não faturadas.
@@ -149,3 +147,6 @@ A tabela seguinte mostra os registos na entidade Ligação da transação para o
 | Correção de Faturas de Rascunho       | GUID da Transação de Linha de Fatura | Substituição          | msdyn_invoicelinetransaction | GUID de Vendas Faturadas            | Original           | msdyn_actual       |
 | Confirmar Correção de Faturas     | GUID de Estorno de Vendas Faturadas    | Estorno          | msdyn_actual                 | GUID de Vendas Faturadas            | Original           | msdyn_actual       |
 | GUID do Valor Real de Vendas Não Faturadas Novas | Substituição                     | msdyn_actual       | GUID de Vendas Faturadas            | Original                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

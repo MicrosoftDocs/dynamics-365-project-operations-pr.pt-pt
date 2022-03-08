@@ -1,21 +1,21 @@
 ---
-title: Iniciar um novo projeto LCS
+title: Iniciar um novo projeto no LCS
 description: Este tópico fornece informações sobre como criar um novo projeto no LCS para o seu ambiente do Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175635"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082261"
 ---
-# <a name="start-a-new-lcs-project"></a>Iniciar um novo projeto LCS
+# <a name="start-a-new-project-in-lcs"></a>Iniciar um novo projeto no LCS
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
