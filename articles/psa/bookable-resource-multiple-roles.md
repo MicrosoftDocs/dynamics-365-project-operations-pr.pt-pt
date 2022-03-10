@@ -2,12 +2,10 @@
 title: Estimar vendas e custos do projeto quando um recurso reservável preenche várias funções num projeto
 description: Este tópico fornece informação sobre como podem ser usadas as dimensões dos preços para suportar as estimativas de preços e custos para um recurso que preenche várias funções num projeto.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987495"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Estimar vendas e custos do projeto quando um recurso reservável preenche várias funções num projeto 
 
@@ -74,3 +72,6 @@ Quando expandir a linha desse registo de Membro da Equipa, pode ver atribuiçõe
 Ao navegar para a grelha **Estimativas**, notará que ambas as atribuições para o mesmo recurso têm um preço diferente.
 A atribuição do recurso na Tarefa A tem o preço utilizando o valor de atributo **Função** de **Líder de Consultoria**. A atribuição do mesmo recurso na Tarefa B tem o preço utilizando o valor de atributo **Função** de **Técnico de Rede**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,8 +4,14 @@
   items:
     - name: Determinar o tipo de implementação
       href: environment/determine-deployment-type.md
+    - name: Inscrever-se nas avaliações do Project Operations
+      href: environment/admin-trials.md
     - name: Atualizações do Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Funcionalidades removidas ou preteridas
+      items:
+        - name: Funcionalidades removidas ou preteridas no Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations para cenários baseados em recursos/não armazenados
   items:
     - name: Começar
@@ -52,8 +58,20 @@
               href: environment/resource-dual-write-expense.md
             - name: Integração de fatura do fornecedor
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Desinstalar o Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
+        - name: Dezembro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: Novembro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: Outubro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Setembro de 2021 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: Agosto de 2021 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Julho de 2021 - Project Operations para cenários baseados em recursos/não armazenados
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Junho de 2021 - Project Operations para cenários baseados em recursos/não armazenados
@@ -288,8 +306,12 @@
           items:
             - name: Desenvolver modelos de projeto com Copiar Projeto
               href: project-management/dev-copy-project.md
-            - name: Utilizar APIs de Agenda do Projeto (Pré-visualização Pública)
+            - name: Utilizar APIs de Agenda do Projeto
               href: project-management/schedule-api-preview.md
+            - name: Desempenho da API da Agenda do Projeto
+              href: project-management/project-schedule-api-performance.md
+            - name: Registos de agendamento de projetos
+              href: project-management/schedule-api-logs.md
     - name: Gestão de recursos
       items:
         - name: Principais conceitos
@@ -350,9 +372,9 @@
       items:
         - name: Descrição geral do tempo
           href: time/time-entry-overview.md
-        - name: Criar entradas de tempo
+        - name: Criar entradas de hora
           items:
-            - name: Interface do utilizador de entrada de tempo
+            - name: Interface do utilizador de entradas de hora
               href: time/ui-behavior-time.md
         - name: Notas do programador
           items:
@@ -384,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Configurar quilometragem utilizando níveis de taxa de quilometragem
               href: expense/set-up-mileage.md
+        - name: Colocar em lista as despesas
+          href: prod-exp/expense-itemization.md
         - name: Despesas pessoais
           href: expense/personal-expenses-expense-report.md
         - name: Despesas entre empresas
@@ -418,6 +442,8 @@
       items:
         - name: Descrição geral das aprovações
           href: approvals/approvals-overview.md
+        - name: Conjuntos de aprovações
+          href: approvals/approval-sets.md
         - name: Notas do programador
           items:
             - name: Notas do programador para Aprovações
@@ -438,6 +464,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Aquisição de materiais não armazenados para projetos que utilizam faturas pendentes de fornecedores
           href: procurement/pending-vendor-invoices.md
+        - name: Encomendar materiais não em stock para os projetos que utilizam notas de encomenda de projeto
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Retenção de fornecedores
+          items:
+            - name: Descrição geral da retenção de fornecedores
+              href: procurement/vendor-retention-overview.md
+            - name: Configurar a retenção de fornecedores
+              href: procurement/set-up-vendor-retention.md
     - name: Faturação
       items:
         - name: Descrição geral do processo de faturação
@@ -504,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Gerir estimativas de receitas
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Resolução de Problemas
+      items:
+        - name: Processos de vendas do projeto
+          items:
+            - name: 'Erro de correspondência da moeda ao criar o projeto, contrato, proposta ou recurso reservável'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Implementação leve - oportunidade potencial para fatura pró-forma
   items:
     - name: Começar
@@ -520,6 +560,18 @@
           href: environment/security-model.md
     - name: Novidades
       items:
+        - name: Novidades do acesso antecipado à versão 2021 edição 2 - implementação leve
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novidades de dezembro de 2021 - implementação leve
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: Novidades de novembro de 2021 - implementação leve
+          href: pro/whats-new/whats-new-nov-2021-lite.md
+        - name: Novidades de outubro de 2021 - implementação leve
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Novidades de setembro de 2021 - implementação leve
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: Novidades de agosto de 2021 - implementação leve
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Novidades de julho de 2021 - implementação leve
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Novidades de junho de 2021 - implementação leve
@@ -774,8 +826,10 @@
           items:
             - name: Desenvolver modelos de projeto com Copiar Projeto
               href: project-management/dev-copy-project.md
-            - name: Utilizar APIs de Agenda do Projeto (Pré-visualização Pública)
+            - name: Utilizar APIs de Agenda do Projeto
               href: project-management/schedule-api-preview.md
+            - name: Desempenho da API da Agenda do Projeto
+              href: project-management/project-schedule-api-performance.md
     - name: Gestão de recursos
       items:
         - name: Principais conceitos
@@ -832,13 +886,51 @@
           items:
             - name: Descrição geral da utilização de recursos
               href: resource-management/resource-utilization-overview.md
+    - name: Gestão de subcontratos no Project Operations
+      items:
+        - name: Gestão de subcontratos no Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Subcontratação no Acesso Antecipado de outubro de 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: Conceitos-chave de subcontratação
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gerir fornecedores e listas de preços de projetos
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subcontratantes como recursos reserváveis
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalhes do Cabeçalho para Subcontratos
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Itens de subcontrato para tempo
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Itens de subcontrato para categorias de despesa
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Itens de subcontrato para produtos
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Recursos do item de subcontratante
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Marcos do item de subcontrato
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subcontratação de membros da equipa do projeto
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opções de subcontratação para membros da equipa do projeto
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimativa de custos de atribuições de recursos subcontratados
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurar o Quadro da Agenda para mostrar trabalhadores contratados e capacidade subcontratada
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Dotar um projeto com trabalhadores contratados e capacidade subcontratada
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Tempo de gravação, despesas e utilização de materiais para componentes subcontratados'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transições de estado num subcontrato
+          href: pro/subcontracting/subcon-states.md
     - name: Tempo
       items:
         - name: Descrição geral do tempo
           href: time/time-entry-overview.md
-        - name: Criar entradas de tempo
+        - name: Criar entradas de hora
           items:
-            - name: Interface do utilizador de entrada de tempo
+            - name: Interface do utilizador de entradas de hora
               href: time/ui-behavior-time.md
         - name: Notas do programador
           items:
@@ -858,6 +950,8 @@
       items:
         - name: Descrição geral das aprovações
           href: approvals/approvals-overview.md
+        - name: Conjuntos de aprovações
+          href: approvals/approval-sets.md
         - name: Notas do programador
           items:
             - name: Notas do programador para Aprovações
@@ -890,10 +984,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configurar a automatização de faturas do projeto
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-- name: Project Operations para cenários baseados produção/armazenados
+- name: Project Operations para cenários baseados em produção/armazenados
   items:
     - name: Novidades
       items:
+        - name: Novidades de outubro de 2021 - Project Operations para cenários baseados em produção/armazenados
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Novidades de setembro de 2021 - Project Operations para cenários baseados em produção/armazenados
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Novidades de julho de 2021 - Project Operations para cenários baseados em produção/armazenados
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Novidades de maio de 2021 - Project Operations para cenários baseados em produção/armazenados
@@ -1050,6 +1148,18 @@
       items:
         - name: Agenda da Atualização da Versão do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades e alterações na Atualização da Versão 38, V3'
+          href: psa/whats-new-ur-38.md
+        - name: 'Novidades e alterações na Atualização da Versão 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
+        - name: 'Novidades e alterações na Atualização da Versão 37, V3'
+          href: psa/whats-new-ur-37.md
+        - name: 'Novidades e alterações na Atualização da Versão 36, V3'
+          href: psa/whats-new-ur-36.md
+        - name: 'Novidades e alterações na Atualização da Versão 35, V3'
+          href: psa/whats-new-ur-35.md
+        - name: 'Novidades e alterações na Atualização da Versão 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Novidades e alterações na Atualização da Versão 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Novidades e alterações na Atualização da Versão 32.5, V3'
@@ -1126,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Manual de relatórios
           href: psa/implementation-guides/reporting-guide.md
+    - name: Atualizar do Project Service Automation para o Project Operations - leve
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Atualização do Project Service Automation (versão 3.x da aplicação)
       items:
         - name: Atualização do Project Service Automation
@@ -1288,17 +1400,17 @@
               href: psa/reports-working-project-service-data-model.md
         - name: Entradas de hora
           items:
-            - name: Criar entradas de tempo
+            - name: Criar entradas de hora
               href: psa/time-entries.md
             - name: Calendário de entradas de hora
               href: psa/time-entry-calendar.md
             - name: Personalizar entrada de hora semanal
               href: psa/time-entry-extensibility-v3.md
-            - name: Conjuntos de aprovações
+            - name: Conjuntos de aprovações no Project Service Automation
               href: psa/approval-set.md
     - name: FAQ e resolução de problemas (3.x)
       items:
-        - name: Por razão o preço predefinido do valor real do custo da despesa é zero?
+        - name: Por que razão o preço predefinido do valor real do custo da despesa é zero?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Porque é que o preço predefinido do valor real da despesa de venda é zero?
           href: psa/FAQ-zero-price-expense-sales-actuals.md

@@ -2,8 +2,6 @@
 title: Criar um proposta
 description: Como criar uma proposta do projeto no Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8a7907ee4c85c2993e86abec11fc11d2fe82a3e0ca435b25c7a213bbce931e73
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133157"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000365"
 ---
 # <a name="create-a-project-quote-project-service"></a>Criar uma proposta de projeto (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -53,3 +53,6 @@ A criação de uma proposta é semelhante à criação de uma oportunidade. Enqu
   
 ### <a name="see-also"></a>Consulte Também  
  [Guia do Gestor de Contas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

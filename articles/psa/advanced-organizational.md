@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009630"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005090"
 ---
 # <a name="organizational-units"></a>Unidades organizacionais 
 
@@ -53,7 +53,7 @@ A unidade organizacional desempenha duas funções no PSA:
 - **Unidade de contratação** – A unidade organizacional que representa o grupo ou a divisão da empresa, responsável principalmente pela vitória da venda e gestão da entrega de trabalho e serviços ao cliente. A unidade de contratação é identificada pelo campo **Unidade de Contratação** na secção do cabeçalho das páginas **Oportunidade**, **Proposta**, **Contrato do Projeto** e **Projeto**.
 - **Unidade de atribuição de recursos** – A unidade organizacional a que um recurso pertence ou é atribuído. Esta unidade organizacional pode fornecer os seus recursos para algumas funções em declarações de trabalho (SOWs) e projetos que são propriedade da unidade de contratação.
 
-> ![Unidades de contratação e unidades de atribuição de recursos](media/advanced-1.png)
+> ![Unidades de contratação e unidades de atribuição de recursos.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>FAQs sobre unidades organizacionais
 

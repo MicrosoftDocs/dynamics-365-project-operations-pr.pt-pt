@@ -2,18 +2,16 @@
 title: Editar um requisito de recurso
 description: Este tópico fornece informações sobre como atualizar as informações de requisitos de recursos.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999780"
 ---
 # <a name="edit-a-resource-requirement"></a>Editar um requisito de recurso
 
@@ -37,3 +35,5 @@ Como Gestor de projeto, conclua os passos seguintes para editar o requisito de r
 ## <a name="edit-resource-assignment-contours"></a>Editar perfis de atribuição de recursos
 
 Além de editar os detalhes dos requisitos de recurso, um Gestor de projeto pode atualizar os perfis individuais do requisito de recurso através da funcionalidade **Especificar Padrão**. Quando **Especificar Padrão** é selecionado, é aberta uma página e pode ver os perfis à escala de tempo do dia, semana ou mês. Cada perfil pode ser ajustado para a hora de início, a hora de fim e o esforço total num determinado período.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

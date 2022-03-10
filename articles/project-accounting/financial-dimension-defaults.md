@@ -2,16 +2,16 @@
 title: Dimensão financeira predefinida
 description: Este tópico fornece informações sobre como configurar predefinições de dimensão financeira.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013320"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922952"
 ---
 # <a name="financial-dimension-defaults"></a>Dimensão financeira predefinida
 
@@ -60,6 +60,15 @@ Os projetos são criados e mantidos no CDS. Os atributos contabilísticos para o
 4. Defina as predefinições da dimensão financeira. Note que as dimensões financeiras assumem a predefinição da conta do cliente. Se o projeto estiver associado a um item de contrato com vários clientes de contratos de projeto, o cliente principal é utilizado para predefinir dimensões financeiras.
 
 As dimensões financeiras predefinidas do projeto são usadas para predefinir linhas de diário para tempo, despesas e transações de taxas no **Diário de Integração do Project Operations** e em linhas de fatura de projeto relacionadas.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Aplicar dimensões financeiras a entradas de tempo do projeto
+Para aplicar dimensões financeiras a entradas de tempo do projeto, note que o valor de dimensão predefinido se baseia na seguinte ordem:
+
+1. recurso
+2. Project
+3. Fonte de financiamento
+
+Por exemplo, se a dimensão predefinida for especificada num recurso, será aplicada sobre uma predefinição especificada no projeto. Da mesma forma, uma dimensão de projeto predefinida será aplicada sobre a predefinição especificada na origem do financiamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

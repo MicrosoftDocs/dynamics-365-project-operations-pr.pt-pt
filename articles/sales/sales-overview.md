@@ -2,24 +2,23 @@
 title: Descrição geral do processo de vendas
 description: Este tópico fornece informações sobre processos de vendas básicos.
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177615"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991860"
 ---
 # <a name="sales-process-overview"></a>Descrição geral do processo de vendas
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Os processos de vendas utilizados numa organização baseada em projetos diferem dos processos de vendas utilizados numa organização baseada em produtos. Esta diferença deve-se ao facto dos ciclos de vendas para as organizações baseadas em projetos são mais demorados e necessitam de técnicas de estimativa personalizadas para analisar e criar propostas para cada negócio. O Dynamics 365 Project Operations utiliza algumas das seguintes funcionalidades utilizadas no processo de vendas:
+Os processos de vendas utilizados numa organização baseada em projetos diferem dos processos de vendas utilizados numa organização baseada em produtos. Esta diferença deve-se ao facto dos ciclos de vendas para as organizações baseadas em projetos são mais demorados e necessitam de técnicas de estimativa personalizadas para analisar e criar propostas para cada negócio. O Dynamics 365 Project Operations utiliza algumas das seguintes funcionalidades que são utilizadas num processo de venda:
 
 - Um registo de uma Oportunidade Potencial é utilizado para monitorizar o processo de vendas.
 - As oportunidades potenciais qualificadas são monitorizadas como oportunidades.
@@ -63,3 +62,6 @@ Nas Operações do projeto, não é possível monitorizar as revisões efetuadas
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Monitorizar comentários e aprovações de propostas e contratos do projeto
 Pode gerir a revisão e aprovação de propostas e contratos do projeto utilizando a mural de registo e as publicações. A sua organização pode criar fluxos de trabalho e suplementos personalizados para atribuir, redirecionar, escalar e gerir notificações de itens de trabalho de revisão e aprovação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

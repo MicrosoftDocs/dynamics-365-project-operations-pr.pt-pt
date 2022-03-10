@@ -2,11 +2,9 @@
 title: Produtos
 description: Este tópico fornece informações sobre o catálogo de produtos que pode usar para fornecer informações aos clientes sobre os produtos e preços que a sua organização oferece.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082501"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986865"
 ---
 # <a name="products"></a>Produtos
 
@@ -124,3 +122,6 @@ Por exemplo, se existirem as seguintes propriedades:
 - **SKU do Produto** 
 
 O **N.º de Utilizadores** e **N.º de Meses** podem ser sinalizadas como fatores de quantidade editando as propriedades da linha de produto. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

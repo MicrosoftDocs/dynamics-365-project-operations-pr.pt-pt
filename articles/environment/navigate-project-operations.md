@@ -2,18 +2,16 @@
 title: Navegar o Project Operations
 description: Este tópico fornece informações sobre como aceder ao Project Operations a partir do Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50b44b014fcbb730b273322390227ae82cbdcefc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290013"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994605"
 ---
 # <a name="navigate-project-operations"></a>Navegar o Project Operations
 
@@ -30,11 +28,11 @@ Depois de aprovisionar o Project Operations como descrito neste tópico, a pági
 
 Use o nome do ambiente na secção, **Nome do Ambiente Common Data Service** para navegar para o Project Operations num ambiente CDS. 
 
-  ![Nome do ambiente Common Data Service](./media/environment-name.PNG)
+  ![Nome de ambiente do Common Data Service.](./media/environment-name.PNG)
 
 Selecione **Iniciar sessão** > **Iniciar sessão no ambiente** para navegar para o módulo **Gestão e contabilidade de projetos** no Finance.  
 
-   ![Iniciar sessão no Finance](./media/environment-login.PNG)
+   ![Iniciar sessão no Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Pode aceder diretamente ao Project Operations no Common Data Service e o módulo **Gestão e contabilidade de projetos** utilizando os respetivos URLs. 

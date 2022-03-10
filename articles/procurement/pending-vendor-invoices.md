@@ -2,17 +2,17 @@
 title: Comprar materiais não armazenados utilizando uma fatura pendente do fornecedor
 description: Este tópico explica como registar faturas pendentes do fornecedor.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993821"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547303"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Comprar materiais não armazenados utilizando uma fatura pendente do fornecedor
 
@@ -45,4 +45,5 @@ As faturas pendentes do fornecedor podem ser registadas na página de **faturas 
     - O valor do saldo do fornecedor.
     - O valor do imposto sobre vendas.
     - O custo contra o projeto é registado na conta de integração de contratos públicos.
-    - A transação real do projeto em Dataverse. Esta transação é ainda processada através do [diário de Integração do Project Operations](../project-accounting/project-operations-integration-journal.md). A publicação deste diário transfere o montante da conta de integração de aquisições para a conta de custos do projeto.
+    - A transação de custo real do projeto em Dataverse.  Esta transação é ainda processada através do [diário de Integração do Project Operations](../project-accounting/project-operations-integration-journal.md). A publicação deste diário transfere o montante da conta de integração de aquisições para a conta de custos do projeto. 
+    - Compras faturadas ao cliente do projeto através do método de faturação de horas e materiais. Adicionalmente, são criadas transações de vendas não faturadas para as compras em Dataverse. A lista de preços do produto em Dataverse é utilizada para os preços de venda e os montantes da transação de venda não faturada.

@@ -2,18 +2,16 @@
 title: Utilizar Categoria de Transação como dimensão de preços
 description: Este tópico fornece informações sobre como utilizar um campo de Categoria de Transação como uma dimensão de preços.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c84d3aaf7cd7577dcd15311f225c82b538586445
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274607"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996135"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilizar Categoria de Transação como dimensão de preços
 

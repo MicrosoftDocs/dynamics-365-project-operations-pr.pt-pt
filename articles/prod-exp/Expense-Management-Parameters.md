@@ -2,11 +2,9 @@
 title: Parâmetros de gestão de despesas
 description: Os seguintes parâmetros controlam o comportamento na gestão de Despesas.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 454d3f6feb46b28762a6a1249df2336f1aa5e91a
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 2ef48f844656ff5197ae1731fb3f9bdf91a1a906b16f35bb2124469743a9e954
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960396"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991365"
 ---
 # <a name="expense-management-parameters"></a>Parâmetros de gestão de despesas
 
@@ -89,3 +87,6 @@ Os parâmetros controlam o comportamento geral na gestão de Despesas.
 | <strong>Mensagem anticorrupção para o submissor</strong> |                                                                                             Introduza o texto que será apresentado ao colaborador ao criar um novo relatório de despesas. Clique no botão <strong>Traduções</strong> para introduzir texto específico do idioma que será mostrado, consoante o idioma do utilizador.                                                                                             |
 | <strong>Mensagem anticorrupção para o aprovador</strong>  |                                                                                             Introduza o texto que será apresentado ao aprovador ao criar um novo relatório de despesas. Clique no botão <strong>Traduções</strong> para introduzir texto específico do idioma que será mostrado, consoante o idioma do utilizador.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

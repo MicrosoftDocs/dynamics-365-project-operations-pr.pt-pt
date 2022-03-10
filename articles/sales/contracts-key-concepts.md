@@ -2,20 +2,18 @@
 title: Conceitos chave – Conceitos chave
 description: Este tópico fornece informações sobre os conceitos chave de contratos de projeto no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642152"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986955"
 ---
-# <a name="project-contracts---key-concepts"></a>Conceitos chave – Conceitos chave
+# <a name="concepts-unique-to-project-based-contracts"></a>Conceitos exclusivos de Contratos baseados em Projetos
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
@@ -88,3 +86,6 @@ As agendas de faturação são específicas de cada item de contrato e são nece
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Alterações das Encomendas do Dynamics 365 Sales
 
 Os contratos do Project Operations são criados em Encomendas no Dynamics 365 Sales. No entanto, existem desvios e diferenças importantes na funcionalidade. Os contratos têm um formulário e elementos de IU, regras de negócio, lógica de negócio em plug-ins e scripts do lado do cliente próprios que as tornam únicos das Encomendas. Por estas razões, não use uma encomenda de Vendas e um contrato do Project Operations alternadamente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

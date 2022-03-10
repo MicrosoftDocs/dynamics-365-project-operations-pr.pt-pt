@@ -2,18 +2,16 @@
 title: Configurar parâmetros de gestão de despesas
 description: Este tópico descreve os parâmetros que controlam o comportamento geral na Gestão de despesas.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121052"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007790"
 ---
 # <a name="configure-expense-management-parameters"></a>Configurar parâmetros de gestão de despesas
 
@@ -83,3 +81,6 @@ Este tópico descreve os parâmetros que controlam o comportamento geral na Gest
 | Apresentar declaração anticorrupção   | Selecione esta opção para mostrar o texto anticorrupção quando um relatório de despesas é criado. Em seguida, podem ser ativadas categorias de despesas específicas que exigirão que a declaração anticorrupção seja selecionada no relatório de despesas. Por exemplo, uma categoria de ofertas relacionada com uma despesa de funcionário público pode exigir que o colaborador confirme que a despesa cumpra a política da empresa que está relacionada com funcionários públicos. |
 | Mensagem anticorrupção para o submissor | Introduza o texto que deve ser mostrado a um colaborador que está a criar um relatório de despesas. Para introduzir texto específico do idioma que será mostrado, consoante o idioma do utilizador, selecione **Traduções**. |
 | Mensagem anticorrupção para o aprovador  | Introduza o texto que deve ser mostrado ao aprovador quando um relatório de despesas é criado. Para introduzir texto específico do idioma que será mostrado, consoante o idioma do utilizador, selecione **Traduções**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,17 @@
 title: Descrição geral do tempo
 description: Este tópico fornece informações sobre a funcionalidade Tempo no Dynamics 365 Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e27311f7dda1c3c713dc3ad6c0e63f395264808d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 23697d7fedbf3edfef5099f615056162d2f8d6ce094884e20229123c17006311
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277127"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999510"
 ---
 # <a name="time-overview"></a>Descrição geral do tempo
 

@@ -2,18 +2,16 @@
 title: Trabalhar com itens de contrato baseados em projetos
 description: Este tópico fornece informações sobre itens de contrato baseados em projetos.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181735"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990060"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Trabalhar com itens de contrato baseados em projetos
 
@@ -57,3 +55,6 @@ Regra: Um projeto e uma determinada classe de transações só podem ser incluí
 | C1       | CL2           | P1      | No           | Sim             | No          | Válido           | O tempo e as taxas do projeto P1 estão incluídos no CL1. As Despesas no projeto P1 estão incluídas no CL2. </br>   Não há sobreposição no que está a ser incluído em cada item de contrato e, por conseguinte, é válido.  |
 | C1       | CL1           | P1      | Sim          | Sim             | Sim         | Não é válido       | Viola a regra. O tempo, as despesas e as taxas no projeto P1 estão incluídos nos itens dos dois contratos.                                                                                               |
 | CL2      | CL2           | P1      | Sim          | Sim             | Sim         | Não é válido       | Viola a regra. O tempo, as despesas e as taxas no projeto P1 estão incluídos nos itens dos dois contratos.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

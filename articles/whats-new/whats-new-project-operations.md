@@ -2,11 +2,9 @@
 title: Novidades do Project Operations
 description: Este tópico fornece informação sobre as novas funções e funcionalidades no Microsoft Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 06/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: daa919593f08a863d47002c223a83899a777830b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e0ecbe425495c33bdd8a67cc44f65afc5aec31508a380c67e0a698effc22e9b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292128"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008015"
 ---
 # <a name="whats-new-in-project-operations"></a>Novidades do Project Operations
 

@@ -1,21 +1,19 @@
 ---
-title: Gerir vários clientes em propostas do projeto
+title: Gerir vários clientes numa proposta de projeto
 description: Este tópico fornece informações sobre como trabalhar em propostas que envolvem vários clientes que irão financiar o projeto.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082258"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991995"
 ---
-# <a name="manage-multiple-customers-on-project-quotes"></a>Gerir vários clientes em propostas do projeto
+# <a name="manage-multiple-customers-on-a-project-quote"></a>Gerir vários clientes numa proposta de projeto
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
@@ -23,7 +21,7 @@ As propostas do projeto suportam o cenário em que a proposta envolve vários cl
 
 Todos os clientes da proposta no separador **Clientes** da proposta do projeto são assumidos por predefinição como clientes de linha de proposta em quaisquer **novas** linhas de proposta baseadas em projetos criadas para a proposta. Quaisquer linhas de proposta baseadas em projetos existentes não vão herdar novos registos de clientes de proposta criados depois deles.
 
-Os clientes da proposta e os clientes da linha de proposta podem ser adicionados, atualizados ou eliminados em qualquer altura antes de a proposta ser ganha. Um cliente válido na proposta tem de ser configurado como cliente na Empresa proprietária ou Entidade legal na página **Clientes**. As entidades legais são configuradas no módulo **Gestão de projetos e contabilística** do Dynamics 365 Project Operations e são disponibilizadas como Empresas nos módulos **Vendas e entrega do projeto** do Project Operations.
+Os clientes da proposta e os clientes da linha de proposta podem ser adicionados, atualizados ou eliminados em qualquer altura antes de a proposta ser ganha. Um cliente válido na proposta tem de ser configurado como cliente na Empresa proprietária ou Entidade legal na página **Clientes**. As entidades jurídicas são configuradas no módulo **Gestão de projetos e contabilística** do Dynamics 365 Project Operations e são disponibilizadas como Empresas nos módulos **vendas do projeto e entrega** do Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Conceito de um cliente principal
 
@@ -35,7 +33,7 @@ O cliente principal não deve ser atualizado a partir da lista de clientes na pr
 
 Um cliente de proposta pode ser criado, atualizado ou eliminado do separador **Clientes da Proposta** na página **Proposta**. Os campos listados na tabela seguinte estão no registo de cliente da proposta de uma proposta de projeto.
 
-| **Campo** | **Localização** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Localização** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Conta | Grelha editável no separador **Clientes da Proposta** e os formulários **Principal** e **Criação Rápida** para um cliente de proposta. | Lista todas as contas ativas. Este campo é bloqueado após a criação do registo. Se pretende atualizá-lo, elimine o registo e volte a criá-lo. Se registou valores reais, ou se o registo do cliente de proposta for um cliente principal, terá permissão para eliminar o registo. | Os clientes de proposta são copiados como clientes da linha de proposta quando uma linha de proposta é criada. Os clientes de proposta também são copiados para os clientes do contrato de projeto quando uma proposta é ganha. |
 | Percentagem de divisão de faturação | Grelha editável no separador **Clientes da Proposta** e os formulários **Principal** e **Criação Rápida** para um cliente de proposta. | Representa a percentagem de cada transação de vendas não faturada que será atribuída a este cliente de proposta. | Copiada para as novas linhas de proposta criadas e para os clientes do contrato de projeto. |
@@ -51,3 +49,6 @@ Um cliente de proposta pode ser criado, atualizado ou eliminado do separador **C
 Pode editar as percentagens de divisão de faturação através da experiência de edição da grelha em linha. Quando as percentagens de divisão de faturação não totalizam 100%, ocorre um erro. Depois de atualizar as percentagens de divisão de faturação, atualize a página para remover o erro.
 
 Também pode tentar selecionar **Distribuir Uniformemente** na subgrelha dos clientes da proposta. Esta ação distribui divisões de faturação por todos os clientes da proposta. Se existir algum fator de arredondamento, ele será adicionado ao cliente arredondamento. Um dos clientes de proposta é sempre identificado como o cliente de arredondamento. Isto significa que o registo de cliente de proposta tem o sinalizador **Arredondamento** definido como **Sim**. Normalmente, este é o cliente principal da proposta, mas isso pode ser alterado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

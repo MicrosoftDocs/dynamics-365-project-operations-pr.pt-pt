@@ -1,8 +1,8 @@
 ---
 title: Despesas entre empresas
 description: Esta tópico fornece informações sobre como utilizar as despesas interempresa para atribuir as despesas de um trabalhador à entidade jurídica para a qual o trabalho foi realizado.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005085"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001220"
 ---
 # <a name="intercompany-expenses"></a>Despesas entre empresas
 
@@ -34,5 +34,17 @@ Antes que um trabalhador possa criar e submeter despesas interempresa, deve ativ
 Antes de poder utilizar grupos fiscais associados à entidade legal de empréstimo (fonte) em vez da entidade legal de empréstimo (destino) no seu relatório de despesas, deve ativar a funcionalidade na configuração do imposto geral sobre as vendas. Quando a entidade jurídica para o parâmetro de **Entidade legal para publicação fiscal interempresa** estiver definida para **Fonte** e **Aplicar regras de tributação de impostos sobre vendas** estiver definida como **N.º**, é usada a combinação fiscal para a entidade legal de empréstimo. Quando o mesmo parâmetro for definido como **Destino**, a combinação fiscal para a entidade legal emprestada será utilizada. Para as entidades jurídicas nos Estados Unidos, quando o parâmetro for definido para **Origem**, o campo **Imposto de vendas a receber** também deve ser configurado na nova página **Grupos de publicação do livro razão**. O motor contabilístico utilizará as informações deste campo para a entrada contabilística relacionada com os impostos.   
 O comportamento é consistente para linhas de despesas publicadas com ou sem projeto.  
 
+## <a name="new-expense-expression-builder"></a>Novo construtor de expressões de despesas
+
+O novo construtor de expressões de despesas resolve problemas com cenários de despesas entre empresas que utilizam projetos. Esta funcionalidade garante que, quando cria uma despesa entre empresas, a política de despesas é corretamente validada relativamente ao projeto que é selecionado na linha de despesas, e que o relatório de despesas pode ser submetido com sucesso.
+
+Para que a funcionalidade de construtor de expressões de despesas funcione, deve ser ativada. Além disso, deve ser criada a política de despesas que tem um ID do projeto.
+
+Se já tiver configurado políticas que validam o ID do projeto na linha de despesas, essas políticas devem ser retiradas. Em seguida, pode ativar a funcionalidade e reconfigurar as políticas.
+
+Para ativar a funcionalidade, siga estes passos.
+
+1. Aceda a **Áreas de Trabalho** \> **Gestão de Funcionalidades**.
+2. Na lista, selecione **Novo construtor de expressões de despesas para resolver problemas com os cenários de despesas entre empresas que utilizam projetos**. Em seguida, selecione **Ativar agora**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

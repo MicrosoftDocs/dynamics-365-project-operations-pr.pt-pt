@@ -2,12 +2,10 @@
 title: Utilizar recurso reservável como uma dimensão de definição de preços
 description: Este tópico fornece informações sobre a utilização de um recurso reservável como uma dimensão de definição de preços.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +15,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082503"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988980"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizar recurso reservável como uma dimensão de definição de preços
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Este tópico fornece informações sobre a utilização de um recurso reservável como uma dimensão de definição de preços. Antes de começar, se ainda não tiver criado uma solução de dimensão de definição de preços, terá de criar uma nova. Se já tiver uma solução de dimensão de definição de preços, poderá efetuar as alterações nessa solução. Se não tiver criado uma nova solução de dimensão de definição de preços para a sua organização, conclua os procedimentos no tópico [Criar campos e entidades personalizados](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Adicionar recurso reservável a formulários e vistas
@@ -61,15 +62,18 @@ Para o recurso reservável, a entidade **Membros da Equipa do Projeto** tem um n
 1. Para tal, faça duplo clique na linha da grelha **Dimensões de Definição de Preços** para abrir a página de dimensão de **msdyn_bookableresource**.
 2. Na página de dimensão, no separador **Relacionado**, clique em **Nomes dos Campos de Dimensão de Definição de Preços**.
 
- ![Separador Nomes dos campos de dimensão de definição de preços](media/PD-fieldname.png)
+ ![Separador Nomes dos campos de dimensão de definição de preços.](media/PD-fieldname.png)
 
 4. Na vista associada que é aberta, clique em **Adicionar Novo Nome do Campo de Dimensão de Definição de Preços**.
 
- ![Adicionar Novos Nomes dos Campos de Dimensão de Definição de Preços](media/Add-NewPD-fieldname.png)
+ ![Adicionar Novos Nomes dos Campos de Dimensão de Definição de Preços.](media/Add-NewPD-fieldname.png)
 
 
 Esta ação abre a página **Novo nome do campo de dimensão de definição de preços** para **msdyn_bookableresource**. 
 
 5. Adicione **msdyn_projectteam** ao campo **Nome Lógico da Entidade** e **msdyn_bookableresourceid** ao campo **Nome do Campo**. Guarde o registo.
 
- ![Formulário Novo nome do campo de dimensão de definição de preços](media/PD-fieldname-Added.png)
+ ![Formulário Novo nome do campo de dimensão de definição de preços.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

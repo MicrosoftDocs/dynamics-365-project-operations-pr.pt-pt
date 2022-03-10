@@ -1,21 +1,19 @@
 ---
-title: Configurar taxas de custo de mão de obra
+title: Configurar taxas de custo de mão de obra – lite
 description: Este tópico fornece informações sobre como configurar taxas de custo de mão de obra no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082315"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006125"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Configurar taxas de custo de mão de obra 
+# <a name="set-up-labor-cost-rates---lite"></a>Configurar taxas de custo de mão de obra – lite
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
@@ -27,7 +25,7 @@ Cada lista de preços tem um conjunto de taxas de mão de obra (preços de funç
 
 A tabela a seguir inclui alguns dos campos que são importantes na criação de taxas de mão de obra numa lista de preços de custo.
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
 | Função | Separador **Geral** e páginas **Criação Rápida** | Selecione a função a que a taxa de custo se aplica. | A função na estimativa de entrada ou real será igualada contra esta linha para assumir a predefinição do custo da função. |
 | Unidade de Atribuição de Recursos | Separador **Geral** e páginas **Criação Rápida** | Selecione a unidade organizacional ou divisão da empresa de onde esta função será utilizada. Por exemplo, um programador da divisão de Robótica da Fabrikam India ou um programador da divisão de Software da Fabrikam USA. | A unidade de atribuição de recursos na estimativa de entrada ou real será igualada contra esta linha para assumir a predefinição do custo da função. |
@@ -38,7 +36,7 @@ A tabela a seguir inclui alguns dos campos que são importantes na criação de 
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Preços de transferência e custos para recursos fora da sua divisão ou entidade legal
 
-Em empresas baseadas em projetos, é comum usar funcionários de diferentes entidades jurídicas ou divisões em projetos. Um projeto pode ser executado por uma entidade legal, mas os colaboradores ou consultores que trabalham no projeto podem vir da mesma entidade legal ou de outra, ou pode haver uma combinação de ambos. No Dynamics 365 Project Operations, a entidade legal que detém a entrega do projeto é a **Empresa Proprietária** e a divisão que detém a entrega é a **Unidade Contratante**. Outras entidades jurídicas que fornecem recursos são as **Empresas de Atribuição de Recursos** e divisões que fornecem recursos são as **Unidades de Atribuições de Recursos**. Na maioria dos países, as empresas são obrigadas a garantir que a entidade ou divisão legal de atribuição de recursos cobre à empresa proprietária e a unidade contratante pela utilização dos recursos.
+Em empresas baseadas em projetos, é comum usar funcionários de diferentes entidades jurídicas ou divisões em projetos. Um projeto pode ser executado por uma entidade legal, mas os colaboradores ou consultores que trabalham no projeto podem vir da mesma entidade legal ou de outra, ou pode haver uma combinação de ambos. No Dynamics 365 Project Operations, a entidade jurídica que detém a entrega do projeto é a **Sociedade Proprietária** e a divisão que detém a entrega é a **Unidade Contratante**. Outras entidades jurídicas que fornecem recursos são as **Empresas de Atribuição de Recursos** e divisões que fornecem recursos são as **Unidades de Atribuições de Recursos**. Na maioria dos países, as empresas são obrigadas a garantir que a entidade ou divisão legal de atribuição de recursos cobre à empresa proprietária e a unidade contratante pela utilização dos recursos.
 
 Por exemplo, a corporação Fabrikam deve garantir que a Fabrikam India-Robotics tenha um cartão de taxa de custo negociado com a Fabrikam US-Robotics ou a Fabrikam UK-Robotics.
 
@@ -82,3 +80,6 @@ Na lista de preços de custos da Fabrikam UK-Robotics, as taxas de custo podem s
 | Programador | Fabrikam UK | 115 GBP |
 
 A lista de preços de custos pode fornecer taxas de mão de obra em várias moedas. Ao gerar uma estimativa de custos no projeto, o Project Operations converterá estas taxas de custo na moeda do projeto e exibi-la-á ao utilizador. Quando uma entrada de tempo é aprovada e um custo real é criado, o custo real tem o preço real na moeda dessa linha de preço de função correspondente na lista de preços de custo. Os custos reais de um único projeto podem ser registados em várias moedas. No entanto, ao efetuar o rollup ou resumir os custos reais da mão de obra a nível do projeto, o Project Operations converterá todos os montantes do custo da mão de obra na moeda do projeto, o que o utilizador pode visualizar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

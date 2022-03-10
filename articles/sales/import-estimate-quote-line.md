@@ -1,21 +1,19 @@
 ---
-title: Importar estimativas de um projeto para a linha de proposta baseada no projeto
-description: Este tópico fornece informações sobre como importar estimativas de um projeto para uma linha de proposta.
+title: Importar estimativas de um projeto para uma linha de proposta de projeto
+description: Este tópico fornece informações sobre como importar estimativas de um projeto para uma linha de proposta de um projeto.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a9ac27b7694927f9cea88b49310f3106fbc6542cc0f7f1756744b970358c1057
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125597"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993525"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimativas de um projeto para a linha de proposta baseada no projeto
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Importar estimativas de um projeto para uma linha de proposta de projeto
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
@@ -67,3 +65,6 @@ Quando o utilizador seleciona para resumir pela classe Transação, Categoria e 
 | Tarefa A | Tarifa aérea | 10/1/2020 | 4 | 400 | 1600 |
 | Tarefa B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Tarefa C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Como posso fazer uma "reserva flexível" de recursos na aplicação, versão 2.x?
 description: Este artigo descreve como efetuar uma reserva flexível de membros da equipa com o Project Service.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bd13c448f4ce16fb93843df54f26cdd9bb884f4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d7eb9e3baea3c3f696845905a2522940d14bba8a8d42917f8fe1b90c7c443747
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146497"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993930"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Como posso fazer uma "reserva flexível" de recursos na aplicação Web (aplicação Project Service v2.x)?
 
@@ -87,3 +85,6 @@ Quando estiver pronto para alterar um recurso de membro de equipa reservado de f
 2. Quando se abre o quadro da agenda, expanda o recurso para apresentar as reservas. Verá a reserva marcada como Flexível.
 3. Com o botão direito na reserva, em Alterar Estado, selecione Reserva Fixa e, em seguida, Fixa. O estado da reserva é agora Fixa
 4. Depois de fechar quadro da agenda, verá que as horas para o recurso foram alteradas de Flexíveis para Fixas na grelha de membro da equipa. Agora, pode atribuir o recurso a tarefas (desde que exista alinhamento entre as horas de trabalho reservadas fixas e as horas de esforço da tarefa para atribuição). Tenha em atenção que, se seguiu os passos de preenchimento do recurso genérico no item 3 acima, quando altera o estado do recurso reservável de forma flexível para fixa, o membro de equipa genérico é removido da equipa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

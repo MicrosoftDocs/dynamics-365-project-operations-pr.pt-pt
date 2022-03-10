@@ -2,11 +2,9 @@
 title: Definir competências e proficiências
 description: Este tópico fornece informações sobre como configurar os modelos de proficiência para avaliar os recursos.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d1ef50a3aa297ef439b54d37de629414ca66c820
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e120f8c5a3d2dfaeb577652afcc1feac4cdc9e22f2f274e94bb674ea3fa52fed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279692"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988755"
 ---
 # <a name="define-skills-and-proficiencies"></a>Definir competências e proficiências
 

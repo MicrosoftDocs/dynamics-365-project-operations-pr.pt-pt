@@ -2,8 +2,6 @@
 title: Agendar recursos para um projeto
 description: Como agendar recursos para um projeto no Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282662"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998160"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Agendar recursos para um projeto (Project Service)
 
@@ -35,7 +33,7 @@ Pode verificar a disponibilidade de recursos para obter uma visão global das re
   
 O quadro da agenda mostra a lista de recursos e a respetiva disponibilidade. Selecione um modo de vista para mostrar a disponibilidade por **Horas**, **Dia**, **Semana** ou **Mês**.  
   
-Antes de utilizar o quadro da agenda, é importante configurá-lo. Para mais informações, consulte [Configurar o quadro da agenda (Field Service ou Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Antes de utilizar o quadro da agenda, é importante configurá-lo. Para mais informações, consulte [Configurar o quadro da agenda (Field Service ou Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Se estiver a utilizar uma versão mais antiga, para a disponibilidade de recursos, consulte [Ver disponibilidade de recursos](../psa/view-resource-availability.md).  
 

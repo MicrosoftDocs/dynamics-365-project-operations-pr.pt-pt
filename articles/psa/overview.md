@@ -2,10 +2,9 @@
 title: O que é o Dynamics 365 Project Service Automation?
 description: Introdução e descrição geral do Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19599fe13964aea2c25bc1774063c13cf79703d0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128027"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000275"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>O que é o Dynamics 365 Project Service Automation?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
@@ -45,10 +46,10 @@ Além disso, para o ajudar a monitorizar e controlar os custos para o seu trabal
 ## <a name="whats-new-in-psa"></a>Novidades do PSA
 A equipa está excitada por anunciar as nossas mais recentes atualizações! Implementação de melhorias à interface de utilizador, correção de erros e inclusão de novas funcionalidades e características. Você pediu; nós tomámos nota.
 
-Consulte as [Notas de Versão de outubro de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) para ver os nossos mais recentes melhoramentos e adições.
+Consulte as [Notas de Versão de outubro de 2019](/dynamics365-release-plan/2019wave2/index) para ver os nossos mais recentes melhoramentos e adições.
 
 ### <a name="in-development"></a>Em desenvolvimento
-Para ver o que temos planeado para breve, consulte as [Dynamics 365: plano de lançamento de 2020 para a vaga 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Para ver o que temos planeado para breve, consulte as [Dynamics 365: plano de lançamento de 2020 para a vaga 1](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Obter ajuda para a versão 3.x do PSA
 Procura recursos para o ajudar a planear a implementação? Consulte estes manuais transferíveis.
@@ -81,6 +82,9 @@ Procura recursos para o ajudar a planear a implementação? Consulte estes manua
  [Notas para os programadores (versão 2.x da aplicação)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Ver um vídeo de descrição geral de 2 minutos
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

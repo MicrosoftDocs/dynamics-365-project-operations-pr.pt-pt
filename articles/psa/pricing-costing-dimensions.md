@@ -4,6 +4,7 @@ description: Este tópico fornece uma descrição geral das dimensões de defini
 author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: rumant
@@ -15,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009270"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998475"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de definição de preços e custos
 
@@ -40,7 +41,7 @@ Dada a natureza típica destes attrubutes do trabalho e das pessoas necessárias
 
 O PSA é fornecido com um conjunto predefinido de dimensões de definição de preços. Pode visualizá-lo acedendo a **Project Service** > **Parâmetros**. No registo de parâmetro, no separador **Dimensões de definição de preços baseadas em montantes**, verifique se a função, **msdyn_resourcecategory** e a unidade organizacional de atribuição de recursos, **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Isto irá permitir-lhe configurar o preço e o custo de cada combinação de função e unidade organizacional.
 
-![Captura de ecrã dos parâmetros do Project Service com "Aplicável às Vendas" destacado](media/PS-OOB-parameters.png)
+![Captura de ecrã dos parâmetros do Project Service com "Aplicável às Vendas" destacado.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Se tiver utilizado os campos de função e unidade organizacional fornecidos com o programa como dimensões de definição de preços anteriores à versão 3 do PSA, não haverá nenhuma alteração observável. Pode continuar a utilizar o Project Service normalmente. 

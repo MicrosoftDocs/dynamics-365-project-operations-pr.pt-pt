@@ -2,18 +2,17 @@
 title: Substituir listas de preços de vendas do projeto
 description: Este tópico fornece informações sobre a criação de listas de preços de venda personalizadas.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130862"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009590"
 ---
 # <a name="override-project-sales-price-lists"></a>Substituir listas de preços de vendas do projeto
 
@@ -27,7 +26,7 @@ Para configurar uma lista de preços de projeto específica do cliente, na área
 
 1. Abra a página de lista **Contas**.
 2. Localize e clique duas vezes num registo de cliente para abrir a página de detalhes da **Conta**.
-3. No separador **Listas de preços do Projeto**, selecione **+ Nova Lista de preços do Projeto^^.
+3. No separador **Listas de preços do Projeto**, selecione **+ Nova Lista de preços do Projeto**.
 4. Na página **Nova Lista de Preços do Projeto**, selecione uma lista de preços a partir da lista pendente. Apenas listas de preços que tenham o contexto definido para **Vendas** e cuja moeda corresponda à moeda da conta estão incluídas.
 5. Nomeie a associação e, em seguida, selecione **Guardar**. É criada uma lista de preços de projeto específica do cliente. Esta lista de preços será utilizada para os preços de projeto predefinidos em propostas de projetos ou contratos criados para este cliente, sempre que a data criada do contrato de proposta ou projeto se insere na data da efetividade da lista de preços.
 
@@ -51,3 +50,6 @@ Pode utilizar cada uma dessas listas de preços e atualizar os preços de mão d
 Num contrato do projeto, os preços do projeto assumem sempre a predefinição de uma lista de preços personalizada com o nome do contrato e o carimbo de data/hora criado anexado ao nome. Isto é verdade se o contrato foi criado quando a proposta foi ganha ou se o contrato foi criado de raiz. Se necessário, pode remover esta associação à lista de preços personalizada e associar uma lista de preços padrão ao contrato do projeto.
 
 Quando associar uma lista de preços padrão às listas de preços do projeto na proposta ou no contrato, quaisquer alterações efetuadas aos preços na lista de preços terão impacto em todas as propostas e contratos que utilizem a lista de preços.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

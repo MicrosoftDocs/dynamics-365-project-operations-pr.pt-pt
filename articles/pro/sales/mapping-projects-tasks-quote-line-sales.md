@@ -2,18 +2,16 @@
 title: Mapear projetos e tarefas para uma linha de proposta baseada no projeto
 description: Este tópico fornece informações sobre como mapear os projetos e as tarefas para uma linha de tarefa baseada em projetos.
 author: rumant
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6ad46f3636d749740115b11584eb81977c73cb30b63ef1092c0c2aac97cbc647
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130727"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988260"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapear projetos e tarefas para uma linha de proposta baseada no projeto
 
@@ -90,3 +88,6 @@ Também pode desassociar tarefas de projeto de linhas de proposta a partir do se
 
 >[!NOTE]
 > Este procedimento não elimina a tarefa do projeto. Apenas remove a associação da tarefa da linha de proposta baseada em projetos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

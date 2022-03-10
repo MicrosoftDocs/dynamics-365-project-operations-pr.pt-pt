@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433667"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009230"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Novidades de julho de 2021 - implementação leve do Project Operations
 
@@ -20,7 +20,7 @@ _Aplica-se a: Implementação lite – negócio para faturação pró-forma_
 
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
-  - Project Operations na versão 4.12.0.148 do ambiente Dataverse.
+  - Project Operations na versão de ambiente 4.12.0.148 ou 4.12.0.152 do Dataverse.
 
 ## <a name="quality-updates"></a>Atualizações de qualidade
 | **Área de funcionalidades**              | **Número de referência** | **Atualização de qualidade**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Proj
 | Geral                       | 2296857              | Seguimento do progresso para tarefas de execução prolongada.                                                                                                                                                                        |
 | Geral                       | 2253682              | A solução de escrita dupla do Project Operations não deve ser instalada quando o núcleo de escrita dupla é instalado num ambiente sem a solução de orquestração de escrita dupla.                                                |
 | Geral                       | 2316420              | O aprovisionamento do núcleo do Project Service falha se a unidade do utilizador da aplicação for alterada.                                                                                                                     |
+| Geral                       | 2376405              | Problema de atualização orientada por fabricante fixo (A atualização de qualidade está disponível na versão 4.12.0.152)                                                                                                                     |

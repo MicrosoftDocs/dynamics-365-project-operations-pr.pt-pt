@@ -1,21 +1,19 @@
 ---
-title: Configurar componentes faturáveis de um item de contrato baseado em projetos
+title: Configurar componentes faturáveis de um item de contrato do projeto
 description: Este tópico fornece informações sobre componentes incluídos, faturáveis e não faturáveis em itens de contrato.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082341"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004055"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurar componentes faturáveis de um item de contrato baseado em projetos
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Configurar componentes faturáveis de um item de contrato do projeto
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
@@ -35,13 +33,13 @@ A capacidade de faturação definida nas categorias de transação de um item de
 
 Uma função pode ser faturável ou não faturável num item de contrato baseado em projetos específico.
 
-No separador **Funções faturáveis** de um item de contrato baseado em projetos, na subgrelha **Categorias Faturáveis**, no campo **Tipo de Faturação**, atualize o tipo de faturação para uma função.
+No separador **Funções faturáveis** de um item de contrato baseada em projeto, na subgrelha **Categorias Faturáveis**, no campo **Tipo de Faturação**, atualize o tipo de faturação para uma função.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Atualizar uma categoria de transação como faturável ou não faturável
 
 Uma categoria de transação pode ser faturável ou não faturável num item de contrato baseado em projetos específico.
 
-No separador **Categorias Faturáveis** de um item de contrato baseado em projetos, na subgrelha **Categorias Faturáveis**, no campo **Tipo de Faturação**, atualize o tipo de faturação para uma transação.
+No separador **Categorias Faturáveis** de um item de contrato baseada em projeto, na subgrelha **Categorias Faturáveis**, no campo **Tipo de Faturação**, atualize o tipo de faturação para uma transação.
 
 ### <a name="resolve-chargeability"></a>Resolver a capacidade de faturação
 
@@ -58,3 +56,6 @@ Uma estimativa ou um valor real criado para despesas apenas será considerado fa
 | No | Sim | Não pode ser definido | Não Faturável | Faturação num valor real de tempo: Não disponível </br>Tipo de faturação num valor real de despesas: Não faturável |
 | Sim | No | Faturável | Não pode ser definido | Faturação num valor real de tempo: Faturável </br>Tipo de faturação num valor real de despesas: Não disponível |
 | Sim | No | Não Faturável | Não pode ser definido | Faturação num valor real de tempo: Não faturável </br> Tipo de faturação num valor real de despesas: Não disponível |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
