@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000275"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580194"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>O que é o Dynamics 365 Project Service Automation?
 
@@ -42,14 +43,6 @@ A aplicação Project Service Automation (PSA) ajuda organizações a monitoriza
 - e não só...
 
 Além disso, para o ajudar a monitorizar e controlar os custos para o seu trabalho com base em projetos, consultores individuais facilmente introduzem e monitorizam o tempo de projeto e despesas, seja através do telemóvel ou utilizando um browser Web.
-
-## <a name="whats-new-in-psa"></a>Novidades do PSA
-A equipa está excitada por anunciar as nossas mais recentes atualizações! Implementação de melhorias à interface de utilizador, correção de erros e inclusão de novas funcionalidades e características. Você pediu; nós tomámos nota.
-
-Consulte as [Notas de Versão de outubro de 2019](/dynamics365-release-plan/2019wave2/index) para ver os nossos mais recentes melhoramentos e adições.
-
-### <a name="in-development"></a>Em desenvolvimento
-Para ver o que temos planeado para breve, consulte as [Dynamics 365: plano de lançamento de 2020 para a vaga 1](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Obter ajuda para a versão 3.x do PSA
 Procura recursos para o ajudar a planear a implementação? Consulte estes manuais transferíveis.
@@ -80,10 +73,6 @@ Procura recursos para o ajudar a planear a implementação? Consulte estes manua
  [Documentos técnicos (versão 2.x ou 1.x da aplicação)](../psa/white-papers.md)
 
  [Notas para os programadores (versão 2.x da aplicação)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Ver um vídeo de descrição geral de 2 minutos
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

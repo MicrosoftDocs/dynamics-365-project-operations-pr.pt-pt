@@ -4,20 +4,20 @@ description: Este tópico fornece informações sobre como subscrever e implemen
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323430"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575824"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Inscreva-se nas subscrições de pré-visualização do Project Operations para os cenários de recursos/não armazenados
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tópico explica como subscrever a oferta de avaliação e implementar o ambiente do Project Operations para os cenários baseados em recursos/não armazenados.
 
@@ -40,16 +40,16 @@ Antes de começar, certifique-se de que está a iniciar sessão num browser com 
 
   Verá que a oferta de confirmação foi resgatada com sucesso.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Avaliação da pré-visualização do Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Avaliação de pré-visualização do Dynamics 365 Finance
 
 Vá para [Avaliação da Pré-visualização do Dynamics 365 for Finance](https://aka.ms/trypoche) e repita os passos da secção anterior com a oferta, Inscrição no Ambiente Alojado na Cloud.  
 
 ## <a name="assign-licenses"></a>Atribuir licenças
 
 > [!IMPORTANT]
-> Necessitará de acesso administrativo ao Portal Microsoft 365 da sua organização do para concluir os seguintes passos.
+> Necessitará de acesso administrativo ao Portal Microsoft 365 da sua organização para concluir os seguintes passos.
 
-1. Vá para o [Centro de administração do Microsoft 365](https://portal.office.com/) para atribuir as licenças aos seus utilizadores.
+1. Aceda ao [Centro de administração do Microsoft 365](https://portal.office.com/) para atribuir as licenças aos seus utilizadores.
 
 2. Na página **Utilizadores ativos**, selecione os utilizadores aos quais pretende atribuir uma licença.
 

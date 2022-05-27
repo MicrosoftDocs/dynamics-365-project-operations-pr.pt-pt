@@ -2,18 +2,16 @@
 title: Conjuntos de aprovações
 description: Este tópico explica como trabalhar com conjuntos de aprovações, pedidos e subconjuntos dessas operações.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323250"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576238"
 ---
 # <a name="approval-sets"></a>Conjuntos de aprovações
 
@@ -27,6 +25,18 @@ Os conjuntos de aprovações indicam o estado geral de processamento dos seus re
 As aprovações que estão em fila para processamento são visíveis na vista **Processamento de Aprovações**. O sistema processa todas as entradas várias vezes de forma assíncrona, incluindo a repetição de uma aprovação se as tentativas anteriores falharem.
 
 O campo **Duração do Conjunto de Aprovação** regista o número de tentativas restantes para processar o conjunto antes de ser marcado como falhado.
+
+Os conjuntos de aprovações são processados através da ativação periódica com base num **Fluxo de cloud** nomeado **Project Service - Agendar periodicamente conjuntos de aprovações do projeto**. Isto pode ser encontrado na **Solução** denominada **Project Operations**. 
+
+Certifique-se de que o fluxo está ativado concluindo os seguintes passos.
+
+1. Como administrador, inicie sessão em [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. No canto superior direito, mude para o ambiente que utiliza para o Dynamics 365 Project Operations.
+3. Selecione **Soluções** para listar as soluções que estão instaladas no ambiente.
+4. Na lista de soluções, selecione **Project Operations**.
+5. Altere o filtro de **Todos** para **Fluxos de cloud**.
+6. Verifique se o fluxo **Project Service - Agendar periodicamente conjuntos de aprovações do projeto** está definido como **Ativado**. Se não estiver, selecione o fluxo e, em seguida, selecione **Ligar**.
+7. Verifique se o processamento ocorre de cinco em cinco minutos, revendo a lista de **Tarefas de sistema** na área **Definições** no ambiente Project Operations Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Aprovações e conjuntos de aprovações falhados
 A vista **Aprovações Com Falhas** lista todas as aprovações que necessitam de intervenção do utilizador. Abra os registos de conjunto de aprovação associados para identificar a causa da falha.

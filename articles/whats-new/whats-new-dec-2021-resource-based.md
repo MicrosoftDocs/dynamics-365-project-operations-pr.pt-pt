@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943037"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579826"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em dezembro de 2021 – Project Operations para cenários baseados em Recursos/Não Armazenados
 
@@ -20,8 +20,8 @@ ms.locfileid: "7943037"
 
 Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
-- Project Operations num ambiente Dataverse, versão 4.27.0.195, 4.27.0.242
-- Gestão de projetos e contabilidade de num ambiente do Dynamics 365 Finance versão 10.0.23
+- Project Operations num ambiente Dataverse, versão 4.27.0.195, 4.27.0.242, 4.27.0.244
+- Gestão de projetos e contabilidade num ambiente do Dynamics 365 Finance versão 10.0.23
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versão
 
@@ -48,7 +48,7 @@ Se ocorrer um problema quando iniciar o mapa, siga as instruções na secção [
 | Tempo e Despesa | 2468188 | Corrigido o problema com texto de registo que excedia ao comprimento máximo no atributo **notetext** da entidade **Anotação**. |
 | Faturação e Preços | 2488698 | Mensagem de erro atualizada que ocorre quando a configuração do ambiente não tem registos da entidade Livro Razão que são preenchidos de Finanças. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestão de projetos e contabilística no Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestão de projetos e contabilidade no Dynamics 365 Finance
 
 | **Área de funcionalidades** | **Número de referência** | **Atualização de qualidade** |
 | --- | --- | --- |

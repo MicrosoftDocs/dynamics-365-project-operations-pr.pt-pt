@@ -4,14 +4,14 @@ description: Quando um projeto é criado, o seu fuso horário baseia-se no fuso 
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c3feb05e1b2e81add1b0df886a5a69ced229eb72
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988710"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578538"
 ---
 # <a name="manage-time-zones"></a>Gerir fusos horários
 

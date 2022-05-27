@@ -3,17 +3,16 @@ title: Descrição geral das dimensões de preços
 description: Este tópico fornece informações sobre as dimensões de preços no Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001985"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579274"
 ---
 # <a name="pricing-dimensions-overview"></a>Descrição geral das dimensões de preços
 
@@ -60,16 +59,16 @@ O exemplo que se segue mostra taxas de faturação que são configuradas com bas
 
 | Função        | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Programador   | Contoso E.U.A.  |Hora | 200|USD     |
-| Programador   | Contoso India |Hora|   112|USD     |
+| Programador   | Contoso EUA  |Hour | 200|USD     |
+| Programador   | Contoso India |Hour|   112|USD     |
 
 
 **Exemplo de taxas de custo**
 
 | Faixa salarial     | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| A minha empresa_Faixa 1 | Contoso E.U.A.  |Hora | 145|USD     |
-| A minha empresa_Faixa 2 | Contoso India |Hora|   67|USD     |
+| A minha empresa_Faixa 1 | Contoso EUA  |Hour | 145|USD     |
+| A minha empresa_Faixa 2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
