@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre como criar faturas de clie
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989280"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591510"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Criar faturas de clientes e fornecedores interempresa
 
@@ -27,7 +27,7 @@ Utilize este procedimento para criar uma fatura de cliente interempresa para tra
 
 As seguintes etapas devem ser executadas na entidade jurídica de concessão de empréstimos. 
 
-1. No Dynamics 365 Finance, vá a **Gestão de projetos e contabilística** > **Faturas de projeto** > **Faturas de cliente interempresa**. Na página de lista **Faturas de cliente interempresa**, no Painel de Ação, selecione **Novo.**
+1. No Dynamics 365 Finance, aceda a **Gestão de projetos e contabilidade** > **Faturas do projeto** > **Faturas de clientes entre empresas**. Na página de lista **Faturas de cliente interempresa**, no Painel de Ação, selecione **Novo.**
 2. Na página **Criar fatura interempresa**, no campo **entidade legal**, selecione uma entidade legal de contração.
 3. Opcional: Introduza um contrato de projeto específico e número de projeto.
 4. Reduza a pesquisa selecionando um intervalo de datas. Introduza datas específicas nos campos **Data de início** e **Data de fim**. Apenas as transações interempresa que são publicadas dentro deste intervalo de datas são apresentadas nos resultados da pesquisa.

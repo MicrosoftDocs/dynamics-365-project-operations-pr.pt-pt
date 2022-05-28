@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002345"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591924"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de definição de preços 
 
@@ -72,8 +73,8 @@ Existem dois tipos de dimensões de definição de preços:
 | Função        | Unidade Organizacional    |Localização do Trabalho      |Título Padrão      |Horas de Trabalho do Recurso      |  Margem de Lucro|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|No Local            |                    |Horas Extraordinárias                 |15     |
-|             | Contoso India|Local             |                    |Horas Extraordinárias                 |10     |
-|             | Contoso E.U.A.   |Local             |                    |Horas Extraordinárias                 |20     |
+|             | Contoso India|Região             |                    |Horas Extraordinárias                 |10     |
+|             | Contoso EUA   |Região             |                    |Horas Extraordinárias                 |20     |
 
 
 Se um recurso da Contoso India, cuja taxa base é de 100 USD, estiver a funcionar no local e registar 8 horas de tempo Normal e 2 horas extraordinárias na entrada de tempo, o motor de definição de preços do Project Service irá utilizar a taxa base de 100 pelas 8 horas para registar 800 USD. Nas duas horas extraordinárias, uma margem de lucro de 15% será aplicada à taxa base de 100 para obter um preço unitário de 115 USD e irá registar um custo total de 230 USD.

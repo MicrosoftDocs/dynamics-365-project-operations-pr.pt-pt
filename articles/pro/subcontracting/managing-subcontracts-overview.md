@@ -3,15 +3,15 @@ title: Gestão de subcontratos no Project Operations
 description: Este tópico fornece uma descrição geral do processo de gestão de subcontratos ponto a ponto, normalmente em organizações baseadas em projetos.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323610"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593028"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Gestão de subcontratos no Project Operations
 
@@ -46,7 +46,7 @@ Um item de subcontrato pode ser baseado na quantidade ou no trabalho.
 
 Quando um item de subcontrato é **baseado na quantidade**, a quantidade que está a ser comprada no item de subcontrato de tempo, despesa ou material pode ser utilizada em qualquer projeto.
 
-Quando um item de subcontrato é **baseado no trabalho**, o item de subcontrato é mapeado para um corpo de trabalho representado por um nó no plano do projeto. O valor do item de subcontrato corresponde à soma de todos os componentes necessários para entregar esse corpo de trabalho. Estes são modelados como detalhes do item de subcontrato e podem ser uma coleção de tempo, despesa ou materiais. No caso de um item de subcontrato baseado no trabalho, o item de subcontrato também é dedicado a um único projeto.
+Quando um item de subcontrato é **baseado no trabalho**, o item de subcontrato é mapeado para um corpo de trabalho representado por um nó no plano do projeto. O valor do item de subcontrato corresponde à soma de todos os componentes necessários para entregar esse corpo de trabalho. Estes são modelados como detalhes do item de subcontrato e podem ser uma coleção de tempo, despesa ou materiais. No caso de um item de subcontrato baseado no trabalho, o item de subcontrato também é dedicado a um único projeto. Estes tipos de subcontrato não são suportados pelo Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

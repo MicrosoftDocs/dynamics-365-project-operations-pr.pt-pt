@@ -1,24 +1,24 @@
 ---
 title: Aplicar dados de demonstração a um ambiente alojado no Finance Cloud
-description: Este tópico explica como aplicar dados de demonstração do Project Operations a um ambiente alojado na Cloud do Dynamics 365 Finance.
+description: Este tópico explica como aplicar dados de demonstração do Project Operations a um ambiente na Cloud do Dynamics 365 Finance.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009680"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588980"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicar dados de demonstração a um ambiente alojado no Finance Cloud
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
 > [!IMPORTANT]
-> Este tópico só é aplicável ao Microsoft Dynamics 365 Finance versão 10.0.13 e só pode ser executado num ambiente alojado na Cloud. Conclua os passos neste tópico **ANTES** de aplicar atualizações de qualidade ao ambiente.
+> Este tópico só é aplicável ao Microsoft Dynamics 365 Finance versão 10.0.13 do e só pode ser e executado num ambiente na cloud. Conclua os passos neste tópico **ANTES** de aplicar atualizações de qualidade ao ambiente.
 
 1. No seu projeto LCS, abra a página **Detalhes do ambiente**. Note que inclui os detalhes necessários para ligar ao ambiente através do Protocolo RDP (Remote Desktop Protocol).
 
@@ -76,7 +76,7 @@ Isto demora alguns minutos a concluir. Deve receber uma mensagem de confirmaçã
 
 18. Feche a sessão de ambiente de trabalho remota e utilize a página **Detalhes do ambiente** do LCS para iniciar sessão no ambiente para confirmar que está a funcionar conforme esperado.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Finanças e Operações.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

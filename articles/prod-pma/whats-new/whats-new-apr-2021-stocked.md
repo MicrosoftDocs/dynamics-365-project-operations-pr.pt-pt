@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005585"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589624"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações no Project Operations, abril de 2021 para cenários baseados em produção/armazenados
 
@@ -20,7 +20,7 @@ _**Aplica-se a:** Project Operations para cenários baseados em Stock/Produção
 
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
-- Gestão de projetos e contabilística na versão 10.0.18 do ambiente Dynamics 365 Finance
+- Gestão de projetos e contabilidade no ambiente do Dynamics 365 Finance versão 10.0.18
  
 ### <a name="quality-updates"></a>Atualizações de qualidade
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Proj
 | Viagem e Despesa                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Quando a categoria de despesas é uma categoria não-projeto, as dimensões financeiras selecionadas na página **Despesas** não são copiadas para o relatório de despesas.                                          |
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para aplicações Finance and Operations, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

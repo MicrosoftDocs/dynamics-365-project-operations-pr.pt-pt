@@ -1,5 +1,5 @@
 ---
-title: Unidades organizacionais
+title: Unidades organizacionais avançadas
 description: Este tópico fornece informações sobre unidades organizacionais no Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005090"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589440"
 ---
-# <a name="organizational-units"></a>Unidades organizacionais 
+# <a name="about-organizational-units"></a>Sobre unidades organizacionais 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -83,7 +84,7 @@ Segue-se uma forma ideal de estruturar este cenário utilizando o Dynamics 365 e
 
 1. Crie a prática de tecnologia da Microsoft como uma unidade de negócio e associe Gonçalo e Carla à mesma. Deste modo, o utilizador ajuda a garantir que ambos os empregados tenham o mesmo nível de acesso de segurança a quaisquer projetos nessa área de prática. Ambos poderão verificar o progresso e reportar o tempo, as despesas e as atualizações de tarefas. 
 2. Crie duas unidades organizacionais para ajudar a garantir que o custo do projeto seja refletido corretamente. 
-3. Associe a Carla à Contoso US e associe o Gonçalo à Contoso India.
+3. Associe o Carla à Contoso US e associe Gonçalo à Contoso India.
 4. Atribua listas de preços de custo adequadas a ambas as unidades organizacionais. Desta forma, ajuda a garantir que os custos registados no projeto para Gonçalo e Carla reflitam com precisão a diferença de custos entre a Contoso US e a Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>As unidades organizacionais estão relacionadas com as regiões de vendas no Dynamics 365?
@@ -122,7 +123,7 @@ Não. Na versão atual do PSA, as unidades organizacionais não são hierárquic
 Quando tem uma hierarquia complexa de centros de custos, divisões, escritórios de faturação, etc., configure os nós de folha dessa hierarquia como unidades organizacionais distintas.
 O exemplo que se segue mostra uma hierarquia típica:
 
-**ContosoÍndia**
+**Contoso India**
 
   - Prática SAP 
 
@@ -134,7 +135,7 @@ O exemplo que se segue mostra uma hierarquia típica:
     - Consultores Técnicos
     - Consultores Funcionais 
     
-**Contoso US**
+**Contoso EUA**
 
  - Prática SAP 
 

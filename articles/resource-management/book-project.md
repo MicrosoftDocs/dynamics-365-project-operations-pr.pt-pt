@@ -2,16 +2,16 @@
 title: Reservar para um projeto
 description: Este tópico fornece informações sobre como reservar um recurso para um projeto.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 01/24/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994920"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591403"
 ---
 # <a name="book-to-a-project"></a>Reservar para um projeto
 
@@ -52,7 +52,10 @@ Quando um Gestor de Recursos precisa de reservar um recurso diretamente para um 
     - Data de conclusão
     - Estado de reserva
     - Método de reserva
-    - Duração
+    - Duration
+   
+   > [!NOTE]
+   > Atualmente, o Dynamics 365 Project Operations não suporta o quadro da agenda.   
 
 ## <a name="book-from-the-project-form"></a>Reservar a partir do formulário Projeto
 

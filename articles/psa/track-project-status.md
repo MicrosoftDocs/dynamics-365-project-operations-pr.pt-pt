@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996720"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593396"
 ---
 # <a name="track-a-projects-status-project-service"></a>Monitorizar o estado de um projeto (Project Service)
 
@@ -33,14 +34,13 @@ Utilize as capacidades do [!INCLUDE[pn_dyn_365_project_service_auto](../includes
 
 À medida que cativação progride, as fases do projeto refletem a fase da cativação:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Novo**    | Quando cria um projeto, a fase é definida como **Novo**. Se tiver criado o projeto a partir de um modelo, nesta fase o projeto pode ter uma agenda, estimativas e dados da equipa. Caso contrário, será o esquema do projeto e terá de introduzir manualmente os restantes componentes do projeto. |
-|  **Proposta**   |      Quando associa um projeto a uma proposta ou o cria a partir de uma proposta, a fase de projeto é definida como **Proposta** e datas de início e de fim estimadas também são atualizadas. Quando o projeto está na fase de proposta, os detalhes da proposta são apresentados no separador **Vendas** na página **Projeto**.      |
-|   **Planear**   |                                     Quando ganha uma proposta associada a um projeto e quando a cativação progride para a fase de contrato, a fase do projeto é atualizada para **Plano**. Os detalhes do contrato são apresentados no separador **Vendas** na página **Projeto**.                                      |
-| **Concluída** |                    Quando o trabalho do projeto é concluído, pode mudar a fase para **Concluído**. Quando a fase do projeto é definida como concluído, entende-se que o trabalho está 100% concluído, mas o projeto é mantido aberto para serem registadas quaisquer horas ou despesas pendentes.                     |
-|  **Fechar**   |           Depois de registadas todas as transações no projeto e não espera que sejam registadas mais, pode definir manualmente a fase como **Fecho**. Quando o projeto é definido como **Fecho**, não é possível registar mais transações no projeto e este passa a ser só de leitura.           |
+| Tarefa | Description | 
+|------------|----------|
+| **New** | Quando cria um projeto, a fase é definida como **Novo**. Se tiver criado o projeto a partir de um modelo, nesta fase o projeto pode ter uma agenda, estimativas e dados da equipa. Caso contrário, será o esquema do projeto e terá de introduzir manualmente os restantes componentes do projeto. |
+| **Proposta** |  Quando associa um projeto a uma proposta ou o cria a partir de uma proposta, a fase de projeto é definida como **Proposta** e datas de início e de fim estimadas também são atualizadas. Quando o projeto está na fase de proposta, os detalhes da proposta são apresentados no separador **Vendas** na página **Projeto**. |
+| **Planear** |  Quando ganha uma proposta associada a um projeto e quando a cativação progride para a fase de contrato, a fase do projeto é atualizada para **Plano**. Os detalhes do contrato são apresentados no separador **Vendas** na página **Projeto**. |
+| **Concluída** | Quando o trabalho do projeto é concluído, pode mudar a fase para **Concluído**. Quando a fase do projeto é definida como concluído, entende-se que o trabalho está 100% concluído, mas o projeto é mantido aberto para serem registadas quaisquer horas ou despesas pendentes. |
+| **Fechar** | Depois de registadas todas as transações no projeto e não espera que sejam registadas mais, pode definir manualmente a fase como **Fecho**. Quando o projeto é definido como **Fecho**, não é possível registar mais transações no projeto e este passa a ser só de leitura. |
 
 ## <a name="to-track-a-projects-status"></a>Para controlar o estado de um projeto  
 

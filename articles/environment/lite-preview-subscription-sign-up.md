@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre como subscrever e implemen
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991545"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588014"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Inscrever-se para obter uma subscrição de pré-visualização - leve 
 
@@ -40,10 +40,10 @@ Antes de começar, certifique-se de que está a iniciar sessão num browser com 
 ## <a name="assign-licenses"></a>Atribuir licenças
 
 > [!IMPORTANT]
-> Necessitará de acesso administrativo ao Portal Microsoft 365 da sua organização do para concluir os seguintes passos.
+> Necessitará de acesso administrativo ao Portal Microsoft 365 da sua organização para concluir os seguintes passos.
 
 
-1. Vá para o [Centro de administração do Microsoft 365](https://portal.office.com/) para atribuir as licenças aos seus utilizadores.
+1. Aceda ao [Centro de administração do Microsoft 365](https://portal.office.com/) para atribuir as licenças aos seus utilizadores.
 2. Na página **Utilizadores ativos**, selecione os utilizadores aos quais pretende atribuir uma licença.
 3. Verifique se a licença **Dynamics 365 Project Operations** foi selecionada. 
 4. Selecione **Guardar alterações**.

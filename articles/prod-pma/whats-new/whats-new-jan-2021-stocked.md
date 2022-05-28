@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992760"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592660"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações de janeiro de 2021 no Project Operations para cenários baseados em produção/armazenados
 
@@ -20,7 +20,7 @@ _**Aplica-se a:** Project Operations para cenários baseados em Stock/Produção
 
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
-- Gestão de projetos e contabilística na versão 10.0.16 do ambiente Dynamics 365 Finance
+- Gestão de projetos e contabilidade no ambiente do Dynamics 365 Finance versão 10.0.16
 
 
 ### <a name="quality-updates"></a>Atualizações de qualidade
@@ -142,7 +142,7 @@ Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Proj
 | Viagem e Despesa                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | No Project Operations, o tempo com tarefas interempresa em Dataverse não pode ser criado ou aprovado.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para aplicações Finance and Operations, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

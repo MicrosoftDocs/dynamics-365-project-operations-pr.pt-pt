@@ -3,16 +3,15 @@ title: Descrição geral das linhas de proposta de projetos
 description: Este tópico fornece informações sobre como usar linhas de proposta de projeto.
 author: rumant
 ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: c0a4d2d4b9e958ba14badda5a945e0522abba336c82128bfe7539663e0b90f1e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07ee2e6a7823b25eacb1c7ad6180f8af571348bb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997935"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587048"
 ---
 # <a name="project-quote-lines-overview"></a>Descrição geral das linhas de proposta de projetos
 
