@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003605"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599422"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de definição de preços
 
@@ -74,8 +74,8 @@ Existem dois tipos de dimensões de definição de preços:
 | Função        | Unidade Organizacional    |Localização do Trabalho      |Título Padrão      |Horas de Trabalho do Recurso      |  Margem de Lucro|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|No Local            |                    |Horas Extraordinárias                 |15     |
-|             | Contoso India|Local             |                    |Horas Extraordinárias                 |10     |
-|             | Contoso E.U.A.   |Local             |                    |Horas Extraordinárias                 |20     |
+|             | Contoso India|Região             |                    |Horas Extraordinárias                 |10     |
+|             | Contoso EUA   |Região             |                    |Horas Extraordinárias                 |20     |
 
 
 Se um recurso da Contoso India, cuja taxa base é de 100 USD, estiver a funcionar no local e registar 8 horas de tempo Normal e 2 horas extraordinárias na entrada de tempo, o motor de definição de preços irá utilizar a taxa base de 100 pelas 8 horas para registar 800 USD. Nas duas horas extraordinárias, uma margem de lucro de 15% será aplicada à taxa base de 100 para obter um preço unitário de 115 USD e irá registar um custo total de 230 USD.

@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre como criar transações in
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005495"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600004"
 ---
 # <a name="create-intercompany-transactions"></a>Criar transações interempresa
 
@@ -30,14 +30,14 @@ Quando uma transação interempresa é aprovada, as seguintes transações reais
 
 O custo, o custo de unidade de atribuição de recursos e os preços e a moeda de transação de vendas de unidades interorganizacionais são impulsionados pela **unidade organizacional**. Isto é importante lembrar ao decidir como estruturar empresas e unidades organizacionais na sua implementação.
 
-Quando cria oportunidades, propostas, contratos de projeto e registos de projetos, o sistema verifica que a moeda da unidade contratante corresponde à moeda contabilística da empresa contratante. Quando não são os mesmos, estes registos não podem ser criados. A moeda da unidade organizacional é definida no Dynamics 365 Project Operations indo a **Dataverse** > **Definições** > **Unidades organizacionais**. A moeda contabilística de uma empresa é definida no Dynamics 365 Finance indo a **Livro razão geral** > **Configuração do livro razão** > **Livro razão**. A moeda é sincronizada ao seu ambiente do Dataverse utilizando o mapa de Escrita Dupla de Livros Razão.
+Quando cria oportunidades, propostas, contratos de projeto e registos de projetos, o sistema verifica que a moeda da unidade contratante corresponde à moeda contabilística da empresa contratante. Quando não são os mesmos, estes registos não podem ser criados. A moeda da unidade organizacional é definida no Dynamics 365 Project Operations indo a **Dataverse** > **Definições** > **Unidades organizacionais**. A moeda de contabilidade de uma empresa está definida no Dynamics 365 Finance em **Razão geral** > **Configuração do livro razão** > **Livro razão**. A moeda é sincronizada ao seu ambiente do Dataverse utilizando o mapa de Escrita Dupla de Livros Razão.
 
 O sistema cria o custo de unidade de atribuição de recursos e os valores reais das vendas de unidades interorganizacionais nas seguintes situações:
 
   - Quando a unidade de atribuição de recursos difere da unidade de contratação
   - Quando a empresa de atribuição de recursos difere da empresa de contratação
 
-No entanto, apenas as transações que tenham uma empresa de atribuição de recursos diferente da empresa contratante serão transferidas para o ambiente do Dynamics 365 Finance para contabilidade adicional.
+No entanto, apenas as transações que têm uma empresa de resourcing diferente da empresa que contratou serão transferidas para o ambiente do Dynamics 365 Finance para contabilidade adicional.
 
 A contabilística de valores reais de projeto é registada no diário de integração do Project Operations no Finance. O sistema cria as seguintes linhas do diário.
 
@@ -60,7 +60,7 @@ Eduarda Lopes, programadora empregada na GBPM, regista 10 horas de trabalho num 
     4. Defina moeda como **USD**.
     5. Guarde o registo.
 3. Vá a **Vendas** > **Contratos de Projeto** e crie um novo contrato de projeto para a Adventure Works.
-    1. Configurar a empresa proprietária para **USPM** e a unidade contratante para **Contoso Robotics US**.
+    1. Defina a empresa proprietária como **USPM** e a unidade contratante como **Contoso Robotics US**.
     2. Selecione Adventure Works como o cliente.
     3. Selecione uma lista de preços do produto e guarde o registo.
     4. No separador **Itens de Contrato**, crie um novo item de contrato. Defina qualquer nome e selecione **Tempo e Materiais** como o método de faturação.

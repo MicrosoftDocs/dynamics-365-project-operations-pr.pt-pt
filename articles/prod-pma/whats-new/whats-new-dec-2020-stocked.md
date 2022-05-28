@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008825"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594960"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novidades ou alterações de dezembro de 2020 no Project Operations para cenários baseados em produção/armazenados
 
@@ -20,7 +20,7 @@ _Aplica-se a: Project Operations para cenários baseados em Stock/Produção_
 
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
-  - Gestão de projetos e contabilística na versão 10.0.15 do ambiente Dynamics 365 Finance
+  - Gestão de projetos e contabilidade no ambiente do Dynamics 365 Finance versão 10.0.15
 
 ## <a name="quality-updates"></a>Atualizações de qualidade
 
@@ -139,7 +139,7 @@ Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Proj
 
 ## <a name="regulatory-updates"></a>Atualizações regulamentares
 
-Para obter informações sobre atualizações regulamentares para Dynamics 365 Finance, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as atualizações regulamentares é fazer login em Lifecycle Services (LCS) e ver as atualizações regulamentares planeadas usando a ferramenta de pesquisa de problemas. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para o Dynamics 365 Finance, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as atualizações regulamentares é fazer login em Lifecycle Services (LCS) e ver as atualizações regulamentares planeadas usando a ferramenta de pesquisa de problemas. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

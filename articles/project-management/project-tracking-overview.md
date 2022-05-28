@@ -2,17 +2,16 @@
 title: Monitorização do esforço do projeto
 description: Este tópico fornece informações sobre como monitorizar o esforço e progresso e do trabalho.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993975"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593810"
 ---
 # <a name="project-effort-tracking"></a>Monitorização do esforço do projeto
 
@@ -46,7 +45,8 @@ O esforço em tarefas de resumo ou tarefas de contentor pode ser reprojetado. Os
 - A nova EAC em cada uma das tarefas individuais até às tarefas do nó de folha é calculada. 
 - As tarefas subordinadas afetadas até ao nó de folha têm a sua percentagem de progresso recalculada com base no valor da EAC. Isto resulta numa nova projeção para o desvio do esforço da tarefa. 
 - As EACs das tarefas de resumo até ao nó raiz são recalculadas.
-
+- O esforço aprovado numa tarefa de resumo é a soma do esforço aprovado em todas as tarefas mais o esforço aprovado na tarefa de resumo.
+- O esforço restante numa tarefa de resumo é a soma do esforço restante em todas as tarefas menos o esforço aprovado na tarefa de resumo.
 
 ## <a name="project-status-summary"></a>Resumo do estado do projeto
 

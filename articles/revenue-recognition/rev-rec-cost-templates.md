@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre como criar e utilizar mode
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993570"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594224"
 ---
 # <a name="set-up-cost-templates"></a>Configurar modelos de custos
 
@@ -56,7 +56,7 @@ Decidir qual a abordagem a tomar para criar um modelo de custos pode depender de
 ## <a name="create-cost-templates"></a>Criar modelos de custos
 Para criar modelos de custos, siga estes passos:
 
-1. Para aceder a modelos de custos, no ambiente do Dynamics 365 Finance, vá a **Gestão de projetos e contabilística** > **Configuração** > **Estimativas** > **Modelo de custo**.
+1. Para aceder a modelos de custo, no ambiente Dynamics 365 Finance, aceda a **Gestão de projetos e contabilidade** > **Configuração** > **Estimativas** > **Modelo de custo**.
 2. Selecione **Novo** para criar um novo modelo de custos. Introduza um nome e descrição.
 3. Forneça o ID de linha de custo para cada tipo de transação.
 4. Selecione um método de conclusão predefinido:

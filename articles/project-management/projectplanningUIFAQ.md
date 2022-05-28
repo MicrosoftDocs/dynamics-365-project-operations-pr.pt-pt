@@ -2,17 +2,17 @@
 title: Resolução de problemas a trabalhar na grelha de tarefas
 description: Esta tópico fornece informações necessárias para a resolução de problemas quando trabalham na grelha de tarefas.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547213"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596432"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Resolução de problemas a trabalhar na grelha de tarefas 
 
@@ -70,6 +70,9 @@ O Project Operations requer que um parâmetro de projeto refira o ponto final PE
       | Project Operations                   | tipo=2             |
 
 4. Retire o campo da página **Parâmetros do Projeto**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigação 3: iniciar sessão em project.microsoft.com
+No browser Microsoft Edge, abra um novo separador, aceda project.microsoft.com, inicie sessão utilizando a função de utilizador que está a utilizar para aceder ao Project Operations.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problema: O projeto não é carregado e a IU está bloqueada no ícone de progresso
 

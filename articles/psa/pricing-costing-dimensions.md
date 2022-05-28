@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998475"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593626"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de definição de preços e custos
 
@@ -66,16 +67,16 @@ O exemplo que se segue mostra taxas de faturação que são configuradas com bas
 
 | Função        | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Programador   | Contoso E.U.A.  |Hora | 200|USD     |
-| Programador   | Contoso India |Hora|   112|USD     |
+| Programador   | Contoso EUA  |Hour | 200|USD     |
+| Programador   | Contoso India |Hour|   112|USD     |
 
 
 **Exemplo de taxas de custo**
 
 | Faixa salarial     | Unidade Organizacional    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| A minha empresa_Faixa 1 | Contoso E.U.A.  |Hora | 145|USD     |
-| A minha empresa_Faixa 2 | Contoso India |Hora|   67|USD     |
+| A minha empresa_Faixa 1 | Contoso EUA  |Hour | 145|USD     |
+| A minha empresa_Faixa 2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
