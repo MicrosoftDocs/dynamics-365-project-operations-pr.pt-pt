@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997215"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683230"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicação móvel Project Timesheet
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997215"
 
 ## <a name="overview"></a>Descrição Geral
 
-A aplicação móvel Microsoft Dynamics 365 Project Timesheet permite aos utilizadores submeter e aprovar as folhas de horas para os projetos nos respetivos dispositivos móveis (iPhone ou Android). Esta aplicação móvel surge na funcionalidade da folha de horas que reside na área Gestão de projetos e contabilística do Dynamics 365 Finance, melhorando a produtividade e a eficiência dos utilizadores, bem como permitir a entrada e a aprovação atempadas das folhas de horas do projeto.
+A aplicação móvel Microsoft Dynamics 365 Project Timesheet permite aos utilizadores submeter e aprovar as folhas de horas para os projetos nos respetivos dispositivos móveis (iPhone ou Android). Esta aplicação móvel aborda a funcionalidade de folha de ponto, que reside na área de gestão de projetos e contabilidade do Dynamics 365 Finance, melhorando a produtividade do utilizador e a eficiência, bem como a ativação de entrada e aprovação atempada de folhas de ponto do projeto.
 
 ## <a name="download-and-install-the-mobile-app"></a>Transferir e instalar a aplicação móvel
 

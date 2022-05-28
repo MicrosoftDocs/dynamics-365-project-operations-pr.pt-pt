@@ -1,34 +1,33 @@
 ---
 title: Sincronizar contratos de projetos e projetos diretamente de Project Service Automation para Finanças
-description: Este tópico descreve o modelo e as tarefas subjacentes que são utilizados para sincronizar os contratos de projeto e os projetos diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+description: Este tópico descreve o modelo e tarefas subjacentes que são utilizados para sincronizar contratos do projeto e projetos diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001085"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684656"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar contratos de projetos e projetos diretamente de Project Service Automation para Finanças 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tópico descreve o modelo e as tarefas subjacentes que são utilizados para sincronizar os contratos de projeto e os projetos diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+
+Este tópico descreve o modelo e tarefas subjacentes que são utilizados para sincronizar contratos do projeto e projetos diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 
 > [!NOTE] 
 > Se estiver a utilizar o Enterprise edition 7.3.0, tem de instalar o KB 4074835.
@@ -112,24 +111,24 @@ Quando a solução de integração Project Service Automation para Finance é ap
 - **SourceDataID** para contratos de projeto e projetos pode ser atualizado para um valor diferente ou removido do mapeamento. O valor do modelo predefinido é **Project Service Automation**.
 - O mapeamento **PaymentTerms** tem de ser atualizado para refletir os termos de pagamento válidos no Finance. Também pode remover o mapeamento da tarefa do projeto. O mapa de valores predefinidos tem valores predefinidos para os dados de demonstração. A tabela seguinte mostra os valores no Project Service Automation.
 
-    | Value | Descrição   |
+    | valor | Description   |
     |-------|---------------|
-    | 1     | Líq. a 30 Dias        |
+    | 5     | Líq. a 30 Dias        |
     | 2     | 2% a 10 Dias, Líq. a 30 Dias |
     | 3     | Líq. a 45 Dias        |
     | 4     | Líq. a 60 Dias        |
 
 ## <a name="power-query"></a>Power Query
 
-Utilize o Microsoft Power Query para o Excel filtrar dados se estiverem reunidas as seguintes condições:
+Utilize o Microsoft Power Query para Excel para filtrar dados se as seguintes condições for cumpridas:
 
 - Tem ordens de venda no Dynamics 365 Sales.
 - Tem várias unidades organizacionais no Project Service Automation e estas unidades organizacionais serão mapeadas para várias entidades jurídicas no Finance.
 
-Se tiver de utilizar o Power Query, siga estas diretrizes:
+Se tiver de utilizar o Power Query, siga estas orientações:
 
 - O modelo Projetos e contratos (PSA para Fin and Ops) tem um filtro predefinido que inclui apenas as ordens de venda do tipo **Item de trabalho (msdyn\_ordertype = 192350001)**. Este filtro ajuda a garantir que os contratos de projeto não são criados para as ordens de venda no Finance. Se criar o seu próprio modelo, terá de adicionar este filtro.
-- Crie um filtro Power Query que inclua apenas as organizações contratuais que devem ser sincronizadas com a entidade legal do conjunto de conexão de integração. Por exemplo, os contratos de projeto que tem com a unidade organizacional contratual do Contoso EUA devem ser sincronizados com a entidade legal USSI, mas os contratos de projeto que tem com a unidade organizacional contratual da Contoso Global devem ser sincronizados para a entidade legal USMF. Se não adicionar este filtro ao seu mapeamento de tarefas, todos os contratos de projeto serão sincronizados com a entidade jurídica que está definida para o conjunto de ligações, independentemente da unidade organizacional contratual.
+- Crie um filtro Power Query que inclua apenas as organizações de contratos que devem ser sincronizadas com a entidade legal do conjunto de ligações de integração. Por exemplo, os contratos de projeto que tem com a unidade organizacional contratual Contoso US devem ser sincronizados com a entidade jurídica USSI, mas os contratos de projeto que tem com a unidade organizacional contratual Contoso Global devem ser sincronizados com a entidade jurídica USMF. Se não adicionar este filtro ao seu mapeamento de tarefas, todos os contratos de projeto serão sincronizados com a entidade jurídica que está definida para o conjunto de ligações, independentemente da unidade organizacional contratual.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelos na Integração de dados
 

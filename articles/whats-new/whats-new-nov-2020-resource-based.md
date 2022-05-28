@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre as atualizações de quali
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007970"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600388"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em novembro de 2020 – Project Operations para cenários baseados em Recursos/Não Stock
 
@@ -20,7 +20,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Project Operations na versão 4.4.0.70 do ambiente CDS
-- Gestão de projetos e contabilística na versão 10.0.14 do ambiente Dynamics 365 Finance
+- Gestão de projetos e contabilidade no ambiente do Dynamics 365 Finance versão 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Atualizações ao Project Operations para cenários baseados em Recursos/Não Stock
 
@@ -42,7 +42,7 @@ Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Proj
 | Entrada de tempo e de despesas rápidas | 2059859          | Pop-up inesperado abre ao criar uma entrada de despesas.                                                                                                                         |
 | Outros                        | 2044181          | (Desinstalar uma nota de encomenda) Quando tenta desinstalar msdyn_ProjectServiceCore_Patch e as soluções principais msdyn do Project Service, ocorre o erro "Registo indisponível".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestão de projetos e contabilística no Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestão de projetos e contabilidade no Dynamics 365 Finance
 
 | Área de funcionalidades        | Número de referência | Atualização de qualidade                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Proj
 | Gestão contabilística do projeto  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Ativar a funcionalidade, vários itens de contrato não são possíveis sem a integração do CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para aplicações Finance and Operations, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

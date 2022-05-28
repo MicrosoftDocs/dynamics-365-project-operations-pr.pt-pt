@@ -1,32 +1,31 @@
 ---
-title: Sincronizar tarefas do projetos diretamente do Project Service Automation para o Finance and Operations
-description: Este tópico descreve o modelo e a tarefa subjacente que são utilizados para sincronizar as tarefas do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+title: Sincronizar as tarefas do projeto diretamente do Project Service Automation para Finanças e Operações
+description: Este tópico descreve o modelo e tarefa subjacentes que são utilizados para sincronizar tarefas do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992805"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683324"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar tarefas do projetos diretamente do Project Service Automation para o Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar as tarefas do projeto diretamente do Project Service Automation para Finanças e Operações
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve o modelo e a tarefa subjacente que são utilizados para sincronizar as tarefas do projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+Este tópico descreve o modelo e tarefa subjacentes que são utilizados para sincronizar tarefas do projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 
 > [!NOTE]
 > - A integração de tarefas do projeto, as categorias de transações de despesas, as estimativas de horas, as estimativas de despesas e o bloqueio de funcionalidades estão disponíveis na versão 8.0.
@@ -68,11 +67,11 @@ Antes de poder ocorrer a sincronização das tarefas do projeto, é necessário 
 
 ## <a name="power-query"></a>Power Query
 
-Tem de utilizar o Microsoft Power Query para Excel para filtrar os dados se esta condição se verificar:
+Deve utilizar o Microsoft Power Query para Excel para filtrar dados se esta condição for cumprida:
 
 - Tem registos específicos de recursos numa tarefa de projeto.
 
-Se tiver de utilizar o Power Query, siga esta diretriz:
+Se tiver de utilizar o Power Query, siga esta orientação:
 
 - O modelo Tarefas de projeto (PSA para Fin and Ops) tem um filtro predefinido que exclui os registos específicos do recurso de uma tarefa do projeto ao definir o filtro em **IsLineTask** como **False**. Se criar o seu próprio modelo, terá de adicionar este filtro.
 

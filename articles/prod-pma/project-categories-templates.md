@@ -1,32 +1,31 @@
 ---
-title: Sincronizar categorias de despesas do projeto entre o Finance and Operations e o Project Service Automation
-description: Este tópico descreve os modelos e as tarefas subjacentes que são utilizados para sincronizar as categorias de despesa do projeto entre o Microsoft Dynamics 365 Finance e o Dynamics 365 Project Service Automation.
+title: Sincronizar as categorias de despesas do projeto entre o Finanças e Operações e o Project Service Automation
+description: Este tópico descreve os modelos e tarefas subjacentes que são utilizados para sincronizar categorias de despesas do projeto entre o Microsoft Dynamics 365 Finance e o Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001130"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685484"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizar categorias de despesas do projeto entre o Finance and Operations e o Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizar as categorias de despesas do projeto entre o Finanças e Operações e o Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve os modelos e as tarefas subjacentes que são utilizados para sincronizar as categorias de despesa do projeto entre o Dynamics 365 Finance e o Dynamics 365 Project Service Automation.
+Este tópico descreve os modelos e tarefas subjacentes que são utilizados para sincronizar categorias de despesas do projeto entre o Dynamics 365 Finance d o Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - A integração de tarefas do projeto, as categorias de transações de despesas, as estimativas de horas, as estimativas de despesas e o bloqueio de funcionalidades estão disponíveis na versão 8.0.
@@ -81,10 +80,10 @@ As categorias de despesas do projeto são geridas no Finance e sincronizadas com
 
 ### <a name="power-query"></a>Power Query
 
-Quando estiver a sincronizar com o Project Service Automation, tem de utilizar o Microsoft Power Query para Excel definir o tipo de faturação na categoria de transação. O modelo Categorias de transações de despesas do projeto (Fin and Ops para PSA) fornece uma coluna e mapeamento predefinidos. Se criar o seu próprio modelo, tem de adicionar uma coluna condicional no Power Query. Siga estes passos.
+Quando estiver a sincronizar com o Project Service Automation, tem de utilizar o Microsoft Power Query para Excel para definir o tipo de faturação na categoria de transação. O modelo Categorias de transações de despesas do projeto (Fin and Ops para PSA) fornece uma coluna e mapeamento predefinidos. Se criar um modelo próprio, terá de adicionar uma coluna condicional no Power Query. Siga estes passos.
 
 1. Clique na seta para abrir o mapeamento da tarefa das categorias de despesas do projeto no modelo Categorias de transações de despesas do projeto (Fin and Ops para PSA).
-2. Clique na ligação **Consulta e Filtragem Avançadas** para abrir o Power Query.
+2. Clique na ligação **Consulta e filtragem avançada** para abrir o Power Query.
 2. Selecione **Adicionar Coluna Condicional**.
 3. Introduza um nome para a nova coluna, como **BillingType**.
 4. Introduza a seguinte condição: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

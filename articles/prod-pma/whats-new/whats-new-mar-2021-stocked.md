@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991185"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723736"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações no Project Operations, março de 2021 para cenários baseados em produção/armazenados
 
@@ -20,7 +20,7 @@ _**Aplica-se a:** Project Operations para cenários baseados em Stock/Produção
 
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
-- Gestão de projetos e contabilística na versão 10.0.17 do ambiente Dynamics 365 Finance
+- Gestão de projetos e contabilidade no ambiente do Dynamics 365 Finance versão 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versão
 Estão incluídas nesta versão as seguintes funcionalidades:
@@ -121,7 +121,7 @@ Estão incluídas nesta versão as seguintes funcionalidades:
 | Gestão de projetos e contabilística | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | O método de classe de estrutura hierárquica do trabalho legado (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** é preterido.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para aplicações Finance and Operations, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates.md). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

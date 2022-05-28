@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993885"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8728018"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Planifique o seu trabalho no Microsoft Project com o Project Service
 
@@ -40,7 +41,7 @@ Pode instalar o [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dy
 ## <a name="download-and-install-the-add-in"></a>Transferir e instalar o suplemento  
  Prepare as suas informações de início de sessão da [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Irá precisar destas informações para ligar do [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] à [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  A partir do Centro de Transferências, pode transferir o suplemento para a sua versão suportada do Project Service, [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) ou [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  A partir do Centro de Transferências, pode transferir o suplemento para a sua versão suportada do Project Service, [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) ou [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Selecione a hiperligação de transferência.  
 

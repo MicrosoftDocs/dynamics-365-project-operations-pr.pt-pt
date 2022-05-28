@@ -2,8 +2,8 @@
 title: Agenda de versão de atualização do Project Service 3.x
 description: Esta tópico fornece informações sobre as próximas versões disponíveis e futuras do Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 10/04/2021
-ms.reviewer: kfend
+ms.date: 03/28/2022
+ms.reviewer: johnmichalak
 ms.prod: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 5be7327999b4f29801a8ba3826524c66b04be8fa
+ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940948"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8732900"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Agenda de versão de atualização do Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7940948"
 
 | Solução  | Versão mais recente |
 |-------|----|
-| Project Service Automation    | 3.10.59.117 |
+| Project Service Automation    | 3.10.74.200 |
 | Suplemento de ambiente de trabalho do Project Service Automation                | 3.60          |
 
 Para obter informações sobre atualizações ao Project Service, consulte os [planos de versão do Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,31 @@ Para obter informações sobre atualizações ao Project Service, consulte os [p
 | Estação  | Região | Versão atual | Versão seguinte |  Data agendada
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Estação 1</strong> | |  |  | |
-| | <i>Primeira Versão</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 14 de Janeiro de 2022
+| | <i>Primeira Versão</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 27 de maio de 2022
 |<strong>Estação 2</strong> | |  |  | |
-| | <i>América do Sul</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 de Janeiro de 2022
-| | <i>Canadá</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 de Janeiro de 2022
-| | <i>Índia</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 de Janeiro de 2022
-| | <i>França</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 de Janeiro de 2022
-| | <i>África do Sul</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 de Janeiro de 2022
-| | <i>Alemanha</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 de Janeiro de 2022
-| | <i>Suíça</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 de Janeiro de 2022
+| | <i>América do Sul</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 de junho de 2022
+| | <i>Canadá</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 de junho de 2022
+| | <i>Índia</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 de junho de 2022
+| | <i>França</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 de junho de 2022
+| | <i>África do Sul</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 de junho de 2022
+| | <i>Alemanha</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 de junho de 2022
+| | <i>Suíça</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 de junho de 2022
+| | <i>Coreia do Sul</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 de junho de 2022
+| | <i>Noruega</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 de junho de 2022
 |<strong>Estação 3</strong> | |  |  | |
-| | <i>Japão</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 de Janeiro de 2022
-| | <i>Ásia Pacífico</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 de Janeiro de 2022
-| | <i>Grã-Bretanha</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 de Janeiro de 2022
-| | <i>Oceânia</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 de Janeiro de 2022
-| | <i>Emirados Árabes Unidos</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 de Janeiro de 2022
+| | <i>Japão</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 de maio de 2022
+| | <i>Ásia Pacífico</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 de maio de 2022
+| | <i>Grã-Bretanha</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 de maio de 2022
+| | <i>Oceânia</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 de maio de 2022
+| | <i>Emirados Árabes Unidos</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 de maio de 2022
 |<strong>Estação 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07 de Janeiro de 2022
+| | <i>Europa</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 20 de maio de 2022
 |<strong>Estação 5</strong> | |  |  | |
-| | <i>América do Norte</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 de Janeiro de 2022
+| | <i>América do Norte</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 de maio de 2022
 |<strong>Estação 6</strong> | |  |  | |
-| | <i>Nuvem da Administração Pública</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 de Janeiro de 2022
-| | <i>Grupos de Dimensionamento Dedicados</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 21 de Janeiro de 2022
+| | <i>Nuvem da Administração Pública</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 de maio de 2022
+| | <i>Grupos de Dimensionamento Dedicados</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 03 de junho de 2022
+
 
 
 

@@ -1,46 +1,42 @@
 ---
-title: Comprar materiais não armazenados utilizando uma fatura pendente do fornecedor
+title: Compra de materiais sem stock ou categorias de aquisição com uma fatura de fornecedor pendente
 description: Este tópico explica como registar faturas pendentes do fornecedor.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547303"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612671"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Comprar materiais não armazenados utilizando uma fatura pendente do fornecedor
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Compra de materiais sem stock ou categorias de aquisição com uma fatura de fornecedor pendente
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-À medida que uma empresa adquire materiais não armazenados para um projeto, os custos podem ser imediatamente registados contra o projeto. 
+À medida que uma empresa adquire materiais sem stock ou categorias de aquisição para um projeto, os custos podem ser registados imediatamente em relação ao projeto. 
 
-Por exemplo, a Contoso Robotics US está a realizar um projeto de renovação de equipamentos e precisa de licenças de software. Estas licenças são obtidas a partir de um fornecedor terceiro.  Utilizando Dynamics 365 Finance, o escriturário das Contas a pagar regista um documento de fatura do fornecedor pendente e atribui os custos da licença diretamente contra o projeto de renovação do equipamento. 
+Por exemplo, a Contoso Robotics US está a realizar um projeto de renovação de equipamentos e precisa de licenças de software. Estas licenças são obtidas a partir de um fornecedor terceiro.  Utilizando o Dynamics 365 Finance, o escriturário das Contas a pagar regista um documento de fatura do fornecedor pendente e atribui os custos da licença diretamente ao projeto de renovação de equipamento. 
 
 > [!IMPORTANT]
-> Antes de utilizar a funcionalidade descrita neste tópico, reveja e aplique as configurações necessárias. Para obter mais informações, consulte [Ativar materiais não armazenados e faturas pendentes do fornecedor](configure-materials-nonstocked.md). 
+> Antes de utilizar a funcionalidade descrita neste tópico, reveja e aplique as configurações necessárias. Para mais informações, consulte [Ativar materiais sem stock e faturas pendentes do fornecedor](configure-materials-nonstocked.md) e [Usar categorias de aquisição com encomendas de compra de projeto e faturas de fornecedor pendentes](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Publicar uma fatura pendente do fornecedor relacionada com o projeto 
 
 As faturas pendentes do fornecedor podem ser registadas na página de **faturas pendentes do fornecedor** (**Contas a pagar** > **Faturas** > **Pendentes do fornecedor**). Complete os seguintes passos para publicar uma fatura pendente do fornecedor relacionada com o projeto:
 
-1. Vá a **Contas a pagar** > **Faturas** e selecione **Nova**. 
-2. No campo **Conta da fatura**, selecione um fornecedor e no campo **Número**, introduza a identificação da fatura do fornecedor.
-3. Adicione uma linha à fatura do fornecedor e no campo **número do artigo**, selecione o artigo não armazenado comprado ao fornecedor. 
-
-    > [!NOTE]
-    > As linhas de fatura do fornecedor que se baseiam numa categoria de compras não podem ser registadas contra o projeto. 
-    
-5. Adicionar a quantidade comprada. O sistema preencherá o preço unitário com base na configuração do preço do artigo não armazenado. 
-6. Verifique o valor total e outros detalhes obrigatórios na linha.
-7. Nos detalhes da linha, no separador **Projeto**, selecione o ID do projeto para o quais este artigo será gravado.
-8. Opcionalmente, selecione o número de atividade e atualize a categoria de projeto e propriedade de linha.
-9. Publique a fatura pendente do fornecedor. Quando a fatura é publicada, o sistema regista:
+1. Aceda a **Contas a pagar** > **Faturas** e selecione **Nova**. 
+1. No campo **Conta da fatura**, selecione um fornecedor e, em seguida, no campo **Número**, insira a identificação da fatura do fornecedor.
+1. Adicione uma linha à fatura do fornecedor e, em seguida, no campo **Número de item**, selecione o item sem stock que foi comprado ao fornecedor. Em alternativa, no campo **Categoria de aquisição**, selecione a categoria de aquisição que foi comprada ao fornecedor.   
+1. Adicione a quantidade que foi comprada. O sistema preenche o preço unitário, com base na configuração de preço de item sem stock. 
+1. Verifique o valor total e outros detalhes obrigatórios na linha.
+1. Nos detalhes da linha, no separador **Projeto**, selecione o ID do projeto em que este item será registado.
+1. Opcional: selecione o número da atividade e atualize a categoria do projeto e a propriedade de linha.
+1. Publique a fatura do fornecedor pendente. Quando a fatura é publicada, o sistema regista as seguintes informações:
     
     - O valor do saldo do fornecedor.
     - O valor do imposto sobre vendas.

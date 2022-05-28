@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000095"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601768"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerações sobre atualização - PSA versão 2.x ou 1.x para a versão 3
 
@@ -81,7 +82,7 @@ Antes de iniciar a atualização, é recomendável gerar de novo a equipa para c
 
 Para as tarefas atribuídas a membros da equipa genéricos que foram gerados utilizando **Gerar equipa**, a atualização irá manter o recurso genérico na equipa e, também, a atribuição a esse membro da equipa genérico. Recomendamos que gere o requisito de recurso para o membro da equipa genérico após a atualização, mas antes de reservar ou submeter um pedido de recurso. Isto irá preservar todas as atribuições de unidade organizacional dos membros da equipa genéricos que forem diferentes da unidade organizacional de contratação do projeto.
 
-Por exemplo, no Projeto Z, a unidade organizacional de contratação é a Contoso US. No plano do projeto, a função Consultor Técnico foi atribuída às tarefas de teste da fase de implementação, e a unidade organizacional atribuída é a Contoso India.
+Por exemplo, no projeto Projeto Z, a unidade organizacional de contratação é a Contoso US. No plano do projeto, a função Consultor Técnico foi atribuída às tarefas de teste da fase de implementação, e a unidade organizacional atribuída é a Contoso India.
 
 ![Atribuição de organização na fase de implementação.](media/org-unit-assignment-09.png)
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679223"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600802"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de junho de 2021 - Project Operations para cenários baseados em recursos/não armazenados
 
@@ -21,7 +21,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Project Operations na versão de ambiente 4.11.0.156 ou 4.11.0.164 do Dynamics 365 Dataverse.
-- Gestão de projetos e contabilística em ambientes de aplicações do Finance and Operations, versão 10.0.19.
+- Gestão de projetos e contabilidade em ambientes de aplicações de Finanças e Operações versão 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versão
 
@@ -38,7 +38,7 @@ Não existem atualizações para os mapas de escrita dupla do Project Operations
 
 Para obter uma lista atual e as versões dos mapas de escrita dupla do Project Operations, consulte [Versões do mapa de escrita dupla do Project Operations](../environment/resource-dual-write-maps.md).
 
-Executar sempre a versão mais recente do mapa no seu ambiente e ativar todos os mapas de tabela relacionados à medida que atualiza a sua solução Dataverse do Project Operations e versão de solução das aplicações do Finance and Operations. Certas funcionalidades e capacidades podem não funcionar corretamente se a versão mais recente do mapa não estiver ativada. Pode ver a versão ativa do mapa na página **Escrita dupla** na coluna **Versão**. Ative uma nova versão do mapa ao selecionar **Versões do mapa de tabelas**, selecionar a versão mais recente e, em seguida, guardar a versão selecionada. Se tiver personalizado um mapa de tabela fora da caixa, reaplique as alterações. Para mais informações, consulte [Gestão do ciclo de vida da aplicação](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Execute sempre a versão mais recente do mapa no seu ambiente e ative todos os mapas de tabelas relacionados à medida que atualiza a sua solução do Project Operations Dataverse e a versão da solução das aplicações de finanças e operações. Certas funcionalidades e capacidades podem não funcionar corretamente se a versão mais recente do mapa não estiver ativada. Pode ver a versão ativa do mapa na página **Escrita dupla** na coluna **Versão**. Ative uma nova versão do mapa ao selecionar **Versões do mapa de tabelas**, selecionar a versão mais recente e, em seguida, guardar a versão selecionada. Se tiver personalizado um mapa de tabela fora da caixa, reaplique as alterações. Para mais informações, consulte [Gestão do ciclo de vida da aplicação](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Se encontrar um problema ao iniciar o mapa, siga as instruções na secção [Problema de colunas de tabela em falta nos mapas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) do guia de resolução de problemas de escrita dupla.
 
@@ -62,7 +62,7 @@ Se encontrar um problema ao iniciar o mapa, siga as instruções na secção [Pr
 | Tempo e Despesa | 2194431 | A grelha **Entrada de hora** tem de respeitar o início da semana conforme definido nas **Definições de sistema**. |
 | Tempo e Despesa | 2277311 | Depois de eliminar o valor numa célula na grelha **Entrada de hora**, o cursor mantém-se na grelha. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestão de projetos e contabilística no Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestão de projetos e contabilidade no Dynamics 365 Finance
 
 | Área de funcionalidades | Número de referência | Atualização de qualidade |
 | --- | --- | --- |

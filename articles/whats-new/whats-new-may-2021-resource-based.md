@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994695"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723782"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de maio de 2021 - Project Operations para cenários baseados em recursos/não armazenados
 
@@ -21,7 +21,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Project Operations no ambiente do Dynamics 365 Dataverse, versão 4.10.0.186
-- Gestão de projetos e contabilística em ambientes de aplicações do Finance and Operations, versão 10.0.18
+- Gestão de projetos e contabilidade em ambientes de aplicações de Finanças e Operações versão 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versão
 
@@ -41,9 +41,9 @@ A lista que se segue mostra os mapas de escrita dupla que foram modificados ou a
 | Entidade de exportação de linhas de faturas de projeto de integração de projetos do Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Atualizações de qualidade |
 | Projetos V2 (msdyn\_projects) | 1.0.0.2 | Atualizações de qualidade |
 
-Executar sempre a versão mais recente do mapa no seu ambiente e ativar todos os mapas de tabela relacionados à medida que atualiza a sua solução Dataverse do Project Operations e versão de solução das aplicações do Finance and Operations. Certas funcionalidades e capacidades podem não funcionar corretamente se a versão mais recente do mapa não estiver ativada. Pode ver a versão ativa do mapa na coluna **Versão** na página **Escrita Dupla**. Para ativar uma nova versão do mapa, selecione **Versões do mapa de tabela** , selecione a versão mais recente e, em seguida, guarde a versão selecionada. Se tiver personalizado um mapa de tabela fora da caixa, reaplique as alterações. Para mais informações, consulte [Gestão do ciclo de vida da aplicação](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Execute sempre a versão mais recente do mapa no seu ambiente e ative todos os mapas de tabelas relacionados à medida que atualiza a sua solução do Project Operations Dataverse e a versão da solução das aplicações de finanças e operações. Certas funcionalidades e capacidades podem não funcionar corretamente se a versão mais recente do mapa não estiver ativada. Pode ver a versão ativa do mapa na coluna **Versão** na página **Escrita Dupla**. Para ativar uma nova versão do mapa, selecione **Versões do mapa de tabela** , selecione a versão mais recente e, em seguida, guarde a versão selecionada. Se tiver personalizado um mapa de tabela fora da caixa, reaplique as alterações. Para mais informações, consulte [Gestão do ciclo de vida da aplicação](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Se encontrar algum problema com o início do mapa, siga as instruções na secção [Problema com colunas de tabelas desaparecidas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) do guia de resolução de problemas de escrita dupla.
+Se encontrar algum problema com o início do mapa, siga as instruções na secção [Problema com colunas de tabelas desaparecidas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) do guia de resolução de problemas de escrita dupla.
 
 ## <a name="quality-updates"></a>Atualizações de qualidade
 
@@ -67,7 +67,7 @@ Se encontrar algum problema com o início do mapa, siga as instruções na secç
 | Entrada de hora | 2202476 | A página **Entrada de Hora** utiliza agora o controlo da grelha de reação e corrige problemas como o desalinhamento da grelha. |
 | Entrada de hora | 2223377 | A entrada de hora é oculta na secção **Relacionado** na página **Recurso Reservado** para evitar confusões com a capacidade de utilização. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestão de projetos e contabilística no Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestão de projetos e contabilidade no Dynamics 365 Finance
 
 | Área de funcionalidades | Número de referência | Atualização de qualidade |
 | --- | --- | --- |

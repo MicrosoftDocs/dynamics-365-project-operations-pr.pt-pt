@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005315"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727972"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilizar o Project Service Automation para planear o seu trabalho no Microsoft Project
 
@@ -40,7 +41,7 @@ O [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] fa
 ## <a name="download-and-install-the-add-in"></a>Transferir e instalar o suplemento  
  Prepare as suas informações de início de sessão da [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Irá precisar destas informações para ligar do [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] à [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  A partir do Centro de Transferências, pode transferir o suplemento para a sua versão suportada do Project Service, [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) ou [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  A partir do Centro de Transferências, pode transferir o suplemento para a sua versão suportada do Project Service, [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) ou [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Clique na hiperligação de transferência.  
 
@@ -87,9 +88,8 @@ Quando o planeamento de projeto estiver concluído, o passo seguinte é importar
 
 O projeto será importado para a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. É aplicado o processo de geração da equipa e de preços. Abra o projeto no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para ver a equipa, as estimativas do projeto e a estrutura discriminada do trabalho gerada. A tabela seguinte mostra onde encontrar os resultados:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gráfico Gantt**   | Importa para o ecrã [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Estrutura Hierárquica do Trabalho**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Folha de Recursos** |   Importa para o ecrã [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Membros da Equipa do Projeto**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilizar Utilização**    |    Importa para o ecrã [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Estimativas do Projeto**.     |

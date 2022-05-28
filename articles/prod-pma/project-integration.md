@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988035"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684999"
 ---
 # <a name="microsoft-project-client-integration"></a>Integração com o Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-Planear e manter uma agenda de projetos pode ser complexo, pelo que os gestores de projetos precisam de utilizar ferramentas que os ajudem a gerir esta tarefa. A integração com o Microsoft Project Client fornece suporte para abrir e gerir uma estrutura hierárquica do trabalho do projeto. O gestor de projetos pode lançar quaisquer alterações de volta à estrutura hierárquica do trabalho do projeto do Dynamics 365 Finance.
+Planear e manter uma agenda de projetos pode ser complexo, pelo que os gestores de projetos precisam de utilizar ferramentas que os ajudem a gerir esta tarefa. A integração com o Microsoft Project Client fornece suporte para abrir e gerir uma estrutura hierárquica do trabalho do projeto. O gestor do projeto pode publicar quaisquer alterações feitas na estrutura hierárquica do trabalho de projeto do Dynamics 365 Finance.
 
 > [!NOTE]
 > Se estiver a utilizar a atualização de julho (versão 10.0.4), tem de instalar o KB 4054797 e KB 4055884.
@@ -40,7 +39,7 @@ Para ativar a integração com o Microsoft Project Client, é necessário instal
 •   Clique em **Abrir** e, em seguida, clique em **Executar** quando for solicitado.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Abrir e editar uma estrutura hierárquica do trabalho existente de rascunho no Microsoft Project Client
-Se um projeto no Dynamics 365 Finance já tiver uma estrutura hierárquica do trabalho criada, esta poderá ser aberta na aplicação Microsoft Project Client se a estrutura hierárquica do trabalho estiver no estado de rascunho. Para abrir a partir da página **Projeto**, clique na ligação **Abrir no Microsoft Project** a partir do separador **Plano**. Esta página também pode ser aberta a partir da aplicação Microsoft Project Client ao clicar em **Abrir** no separador **Microsoft Dynamics 365**. Selecione a **Entidade jurídica** e **Projeto** a partir da lista.
+Se um projeto no Dynamics 365 Finance já tiver uma estrutura hierárquica de trabalho criada, a estrutura hierárquica de trabalho pode ser aberta na aplicação Microsoft Project Client se a estrutura hierárquica de trabalho estiver no estado de rascunho. Para abrir a partir da página **Projeto**, clique na ligação **Abrir no Microsoft Project** a partir do separador **Plano**. Esta página também pode ser aberta a partir da aplicação Microsoft Project Client ao clicar em **Abrir** no separador **Microsoft Dynamics 365**. Selecione a **Entidade jurídica** e **Projeto** a partir da lista.
 
 > [!NOTE]
 > Se estiver a utilizar o Internet Explorer como browser, terá de clicar em **Guardar** para abrir manualmente a partir da localização para a qual o ficheiro foi transferido. Ou clique em **Guardar e abrir** para abrir o ficheiro no Microsoft Project Client. Não mude o nome do ficheiro ao guardar.

@@ -1,32 +1,31 @@
 ---
-title: Sincronizar valores reais do projeto diretamente a partir do Project Service Automation para o diário de integração do projeto para lançamento no Finance and Operations
-description: Este tópico descreve os modelos e as tarefas subjacentes que são utilizados para sincronizar os valores reais do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Finance and Operations.
+title: Sincronizar os valores reais do projeto diretamente do Project Service Automation para o diário de integração do projeto para publicação em Finanças e Operações
+description: Este tópico descreve os modelos e tarefas subjacentes que são utilizados para sincronizar valores reais do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para Finanças e Operações.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988125"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683552"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizar valores reais do projeto diretamente a partir do Project Service Automation para o diário de integração do projeto para lançamento no Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizar os valores reais do projeto diretamente do Project Service Automation para o diário de integração do projeto para publicação em Finanças e Operações
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve os modelos e as tarefas subjacentes que são utilizados para sincronizar os valores reais do projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+Este tópico descreve os modelos e tarefas subjacentes que são utilizados para sincronizar valores reais do projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 
 O modelo sincroniza as transações do Project Service Automation para uma tabela de transição no Finance. Após a conclusão da sincronização, **tem de** importar os dados da tabela de transição para o diário de integração.
 
@@ -42,7 +41,7 @@ A solução de integração do Project Service Automation para Finance utiliza a
 
 A seguinte ilustração mostra como os dados são sincronizados entre o Project Service Automation e o Finance.
 
-[![Fluxo de dados para a integração do Project Service Automation com o Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Fluxo de dados para a integração do Project Service Automation com Finanças e Operações.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Valores reais do projeto a partir do Project Service Automation
 
@@ -75,7 +74,7 @@ Antes de poder ocorrer a sincronização dos valores reais, tem de configurar os
 
 ### <a name="power-query"></a>Power Query
 
-No modelo de valores reais do projeto, tem de utilizar o Microsoft Power Query para o Excel para concluir estas tarefas:
+No modelo de valores reais do projeto, tem de utilizar o Microsoft Power Query para Excel para concluir estas tarefas:
 
 - Transforme o tipo de transação no Project Service Automation para o tipo de transação correto no Finance. Esta transformação já está definida no modelo Dados reais do projeto (PSA para Fin and Ops).
 - Transforme o tipo de faturação no Project Service Automation para o tipo de faturação correto no Finance. Esta transformação já está definida no modelo Dados reais do projeto (PSA para Fin and Ops). O tipo de faturação é então mapeado para a propriedade da linha, baseado na configuração na página **Parâmetros de integração do Project Service Automation**.
@@ -84,9 +83,9 @@ No modelo de valores reais do projeto, tem de utilizar o Microsoft Power Query p
 - Se o tempo entre empresas ou os valores reais de despesa entre empresas não forem sincronizados com o Finance, tem de eliminar a última coluna condicional inserida do seu modelo. Caso contrário, pode ocorrer um erro de integração ou podem ser importadas transações de valores reais incorretas para o Finance.
 
 #### <a name="contract-organizational-unit"></a>Unidade organizacional do contrato
-Para atualizar a coluna condicional inserida no modelo, clique na seta **Mapear** para abrir o mapeamento. Selecione a ligação **Consulta e Filtragem Avançadas** para abrir o Power Query.
+Para atualizar a coluna condicional inserida no modelo, clique na seta **Mapear** para abrir o mapeamento. Selecione a ligação **Consulta e filtragem avançada** para abrir o Power Query.
 
-- Se estiver a utilizar o modelo Valores reais do projeto (PSA para Fin and Ops) predefinido, no Power Query, selecione a última **Condição Inserida** a partir da secção **Passos Aplicados**. Na entrada **Função**, substitua **USSI** pelo nome da entidade jurídica que deve ser utilizada com a integração. Adicione condições adicionais à entrada **Função** conforme for necessário e atualize a condição **else** a partir de **USMF** para a entidade jurídica correta.
+- Se estiver a utilizar o modelo predefinido de Valores Reais do Projeto (PSA para Fin e Ops), no Power Query, selecione a última **Condição introduzida** da secção **Passos Aplicados**. Na entrada **Função**, substitua **USSI** pelo nome da entidade jurídica que deve ser utilizada com a integração. Adicione condições adicionais à entrada **Função** conforme for necessário e atualize a condição **else** a partir de **USMF** para a entidade jurídica correta.
 - Se estiver a criar um novo modelo, tem de adicionar a coluna para suportar o tempo e as despesas entre empresas. Selecione **Adicionar Coluna Condicional** e introduza um nome para a coluna, como **EntidadeJurídica**. Introduza uma condição para a coluna, onde, se **msdyn\_contractorganizationalunitid.msdyn\_name** é \<organizational unit\>, em seguida \<enter the legal entity\>; ou então nulo.
 
 ### <a name="template-mapping-in-data-integration"></a>Mapeamento de modelos na Integração de dados
@@ -126,7 +125,7 @@ Os valores reais do projeto são geridos no Project Service Automation e sincron
 
 ### <a name="power-query"></a>Power Query
 
-No modelo de atualização dos valores reais do projeto, tem de utilizar o Power Query para concluir estas tarefas:
+No modelo de atualização do valores reais do projeto, tem de utilizar o Power Query para concluir estas tarefas:
 
 - Transforme o tipo de transação no Finance para o tipo de transação correto no Project Service Automation. Esta transformação já está definida no modelo Atualização de dados reais do projeto (Fin Ops para PSA).
 - Transforme o tipo de faturação no Finance para o tipo de faturação correto no Project Service Automation. Esta transformação já está definida no modelo Atualização de dados reais do projeto (Fin Ops para PSA).
