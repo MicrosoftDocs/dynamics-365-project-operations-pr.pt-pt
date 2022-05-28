@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006800"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581712"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Desativar uma dimensão de definição de preços
 
@@ -39,8 +40,8 @@ Esta mensagem de erro indica que existem registos de preços configurados anteri
 
 | Título Padrão         | Unidade Organizacional    |Unidade   |Preço  |Moeda  |
 | -----------------------|-------------|-------|-------|----------|
-| Engenheiro de Sistemas|Contoso E.U.A.|Hora| 100|USD|
-| Engenheiro de Sistemas Sénior|Contoso E.U.A.|Hora| 235| USD|
+| Engenheiro de Sistemas|Contoso EUA|Hour| 100|USD|
+| Engenheiro de Sistemas Sénior|Contoso EUA|Hour| 150| USD|
 
 
 Quando desativar o **Título Padrão** como a dimensão de definição de preços e o motor de definição de preços do Project Service procurar um preço, só irá utilizar o valor **Unidade Organizacional** do contexto de entrada. Se a **Unidade Organizacional** do contexto de entrada for "Contoso US", o resultado será não determinístico porque as duas linhas corresponderão. Para evitar este cenário, quando cria registos de **Preço da Função**, o Project Service valida que a combinação de dimensões é exclusiva. Se a dimensão for desativada após a criação dos registos de **Preço da Função**, esta restrição poderá ser violada. Consequentemente, é necessário que, antes de desativar uma dimensão, elimine todas as linhas de **Preço da Função** e **Margem de Lucro do Preço da Função** que tenham esse valor de dimensão preenchido.

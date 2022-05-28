@@ -3,16 +3,15 @@ title: Descrição geral da faturação interempresa
 description: Este tópico fornece informações e exemplos sobre a faturação interempresa para projetos.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005405"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586266"
 ---
 # <a name="intercompany-invoicing-overview"></a>Descrição geral da faturação interempresa
 
@@ -20,7 +19,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 A sua organização pode ter múltiplas divisões, subsidiárias e outras entidades jurídicas que transferem produtos e serviços entre si para projetos. A entidade legal que presta o serviço ou produto é denominada *entidade legal de concessão*. A entidade legal que recebe o serviço ou produto é denominada *entidade legal de contração*.
 
-A seguinte ilustração mostra um cenário típico em que duas entidades legais, a Contoso Robotics USA (entidade legal que solicita empréstimos) e a Contoso Robotics UK (entidade legal de empréstimos) partilham recursos para entregar um projeto ao cliente, a Adventure works. Para este cenário, a Contoso Robotics USA é contratada para entregar o trabalho à Adventure Works.
+A seguinte ilustração mostra um cenário típico em que duas entidades legais, a Contoso Robotics USA (entidade legal de contração) e a Contoso Robotics UK (entidade legal de concessão) partilham recursos para entregar um projeto para o cliente, a Adventure Works. Para este cenário, a Contoso Robotics USA está contratada para entregar o trabalho à Adventure Works.
 
 ![Faturação entre empresas.](./media/IntercompanyScenario.png) 
 

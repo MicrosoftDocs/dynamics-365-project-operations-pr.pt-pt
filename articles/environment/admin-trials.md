@@ -2,22 +2,22 @@
 title: Inscrição para as avaliações do Project Operations
 description: Este tópico fornece informações sobre como implementar uma avaliação do Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901631"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584288"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrição para as avaliações do Project Operations 
 
 _**Aplica-se a:** Project Operations para cenários baseados em Recursos/Não Stock, implementação Lite – negócio para faturação pró-forma, Project Operations para cenários baseados em Stock/Produção_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tópico explica como subscrever a oferta de parceiro de pré-visualização e implementar um ambiente do Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ A tabela seguinte descreve os detalhes da nova oferta de avaliação.
 | Utilização da oferta                    | Uma vez por inquilino                          |
 | Duração da oferta               | 30 dias                             |
 | Resgates por inquilino       | 5                                            |
-| Número de utilizadores              | 25                                           |
 | Extensão                    | 1 extensão, 30 dias               |
 | Número de ambientes de avaliação | 3                                            |
 
@@ -87,7 +86,7 @@ Antes de começar, inicie sessão num browser com a conta profissional de utiliz
  
   Quando o aprovisionamento ficar concluído, o estado do seu ambiente é **Pronto**. O aprovisionamento do ambiente inclui a implementação de dados de demonstração.
  
-4.  Selecione o URL do Microsoft Dataverse e os URLs das aplicações Finance and Operations para validar a implementação.
+4.  Selecione o URL do Microsoft Dataverse e os URL das aplicações de finanças e operações para validar a implementação.
 
 ## <a name="configuring-dual-write"></a>Configurar a escrita dupla
 - Para configurar direitos de acesso para escrita dupla, consulte [Atualizar definições de segurança no Project Operations no Dataverse](resource-provision-new-environment.md).
@@ -95,9 +94,9 @@ Antes de começar, inicie sessão num browser com a conta profissional de utiliz
 
 ## <a name="assign-licenses"></a>Atribuir licenças
 
-Necessitará de acesso administrativo ao Portal Microsoft 365 da sua organização do para concluir os seguintes passos.
+Necessitará de acesso administrativo ao Portal Microsoft 365 da sua organização para concluir os seguintes passos.
 
-1. Aceda ao [centro de administração do Microsoft 365](https://portal.office.com/) para atribuir licenças aos utilizadores.
+1. Aceda ao [Centro de administração do Microsoft 365](https://portal.office.com/) para atribuir as licenças aos seus utilizadores.
 
    ![Home page do centro de administração](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Os recursos seguintes fornecem orientações úteis para o ajudar a utilizar o P
 
 ## <a name="frequently-asked-questions"></a>Perguntas mais frequentes
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>E se eu necessitar do ALM ou ELM para o meu ambiente de aplicações do Finance and Operations?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>E se eu requerer ALM ou ELM para o meu ambiente de aplicações de Finanças e Operações?
 
 - No caso de parceiros que necessitem de capacidades de gestão de ciclos de vida de ambiente completo, consulte o [Pedido de Licença de Sandbox de Parceiro](https://experience.dynamics.com/requestlicense) para rever a nova oferta de parceiro. 
 - No caso de parceiros que pretendam obter mais informações sobre os Direitos de Utilização Interna, consulte [Benefícios do software e da cloud de Direitos de Utilização Interna (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Os recursos seguintes fornecem orientações úteis para o ajudar a utilizar o P
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Posso prolongar a minha avaliação para além dos 30 dias?
 Para prolongar a sua avaliação, conclua os seguintes passos.
 
-1. No **centro de administração do Microsoft 365**, aceda a **Faturação** > **Os seus produtos**.
+1. No **Centro de administração do** Microsoft 365, aceda a **Faturação** > **Os seus produtos**.
 2. Selecione **Dynamics 365 Project Operations (CE) - Avaliação de Pré-visualização**.
 3. Em **Data de Expiração**, selecione **Prolongar Data**.
 

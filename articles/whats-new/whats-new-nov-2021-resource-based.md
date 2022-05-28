@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942899"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584886"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em novembro de 2021 – Project Operations para cenários baseados em Recursos/Não Stock
 
@@ -21,7 +21,7 @@ ms.locfileid: "7942899"
 Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
 - Project Operations num ambiente Dataverse, versão 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
-- Gestão de projetos e contabilidade de num ambiente do Dynamics 365 Finance versão 10.0.22
+- Gestão de projetos e contabilidade num ambiente do Dynamics 365 Finance versão 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versão
 

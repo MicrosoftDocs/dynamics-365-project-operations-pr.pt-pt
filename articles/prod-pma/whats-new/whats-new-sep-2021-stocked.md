@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815854"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582034"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações no Project Operations, setembro de 2021, para cenários baseados em produção/armazenados
 
@@ -20,7 +20,7 @@ _**Aplica-se a:** Project Operations para cenários baseados em stock/produção
 
 Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
-- Gestão de projetos e contabilidade de num ambiente do Dynamics 365 Finance versão 10.0.21
+- Gestão de projetos e contabilidade num ambiente do Dynamics 365 Finance versão 10.0.21
  
 ## <a name="quality-updates"></a>Atualizações de qualidade
 
@@ -91,6 +91,6 @@ Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamic
 
 ## <a name="regulatory-updates"></a>Atualizações regulamentares
 
-Para obter informações sobre atualizações regulamentares para aplicações Finance and Operations, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão nos Microsoft Dynamics Lifecycle Services (LCS) e utilizar a ferramenta de Pesquisa de problemas para ver as atualizações regulamentares planeadas. A Pesquisa de problemas permite pesquisar por país ou região, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão nos Microsoft Dynamics Lifecycle Services (LCS) e utilizar a ferramenta de Pesquisa de problemas para ver as atualizações regulamentares planeadas. A Pesquisa de problemas permite pesquisar por país ou região, tipo de funcionalidade e versão.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

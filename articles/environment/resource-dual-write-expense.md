@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986595"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585806"
 ---
 # <a name="expense-management-integration"></a>Integração de gestão de despesas
 
@@ -22,19 +22,19 @@ Este tópico fornece informações sobre a integração de relatórios de despes
 
 ## <a name="expense-categories"></a>Categorias de despesas
 
-Numa implementação total de despesas, as categorias de despesas são criadas e mantidas em aplicações Finance and Operations. Para criar uma nova categoria de despesas, complete os seguintes passos:
+Numa implementação de despesas completa, as categorias de despesas são criadas e mantidas nas aplicações de Finanças e Operações. Para criar uma nova categoria de despesas, complete os seguintes passos:
 
-1. Em Microsoft Dataverse, crie uma categoria de **Transação**. A integração de escritas« dupla irá sincronizar esta categoria de transação para aplicações Finance and Operations. Para obter mais informações, consulte [Configurar categorias de projetos](/dynamics365/project-operations/project-accounting/configure-project-categories) e [Configuração do Project Operations e integração de dados de configuração](resource-dual-write-setup-integration.md). Como resultado desta integração, o sistema cria quatro registos de categorias partilhadas em aplicações Finance and Operations.
+1. Em Microsoft Dataverse, crie uma categoria de **Transação**. A integração de escrita dupla sincroniza esta categoria de transações com as aplicações Finanças e Operações. Para obter mais informações, consulte [Configurar categorias de projetos](/dynamics365/project-operations/project-accounting/configure-project-categories) e [Configuração do Project Operations e integração de dados de configuração](resource-dual-write-setup-integration.md). Como resultado desta integração, o sistema cria quatro registos de categoria partilhados nas aplicações Finanças e Operações.
 2. Em Finanças, vá à **Gestão de despesas** > **Configuração** > **Categorias partilhadas** e selecione uma categoria partilhada com uma classe de transação de **Despesas**. Defina o parâmetro **Pode ser usado em Despesa** para **Verdadeiro** e defina o tipo de despesa a utilizar.
 3. Utilizando este registo de categoria partilhada, crie uma nova categoria de despesas indo para **Gestão de despesa** > **Configuração** > **Categorias de despesa** e selecionando **Novo**. Quando o registo é guardado, a dupla escrita utiliza o mapa de tabela, **Entidade de exportação de despesas de integração do Project Operations (msdyn\_expensecategories)** para sincronizar este registo para Dataverse.
 
   ![Integração de categorias de despesas.](./media/DW6ExpenseCategories.png)
 
-As categorias de despesas em aplicações Finance and Operations são específicas da empresa ou da entidade legal. Existem registos separados e correspondentes de entidades jurídicas específicas em Dataverse. Quando um gestor de projetos estima as despesas, não podem selecionar categorias de despesas que foram criadas para um projeto que é propriedade de uma empresa diferente da empresa proprietária do projeto em que estão a trabalhar. 
+As categorias de despesas nas aplicações de finanças e operações são específicas de empresas ou de entidades legais. Existem registos separados e correspondentes de entidades jurídicas específicas em Dataverse. Quando um gestor de projetos estima as despesas, não podem selecionar categorias de despesas que foram criadas para um projeto que é propriedade de uma empresa diferente da empresa proprietária do projeto em que estão a trabalhar. 
 
 ## <a name="expense-reports"></a>Relatórios de despesas
 
-Os relatórios de despesas são criados e aprovados em aplicações Finance and Operations. Para obter mais informações, consulte [Criar e processar relatórios de despesas em Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Depois do relatório de despesas ser aprovado pelo diretor do projeto, é publicado no livro razão. No Project Operations, as linhas de relatório de despesas relacionadas com o projeto são publicadas utilizando regras especiais de publicação:
+Os relatórios de despesas são criados e aprovados nas aplicações de Finanças e Operações. Para obter mais informações, consulte [Criar e processar relatórios de despesas em Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Depois do relatório de despesas ser aprovado pelo diretor do projeto, é publicado no livro razão. No Project Operations, as linhas de relatório de despesas relacionadas com o projeto são publicadas utilizando regras especiais de publicação:
 
   - O custo relacionado com o projeto (incluindo o imposto não recuperável) não é imediatamente registado na conta de custos do projeto em geral, mas é registado na conta de integração de despesas. Esta conta é configurada no separador **Gestão de projetos e gestão contabilística** > **Configuração** > **gestão de projetos e parâmetros de gestão contabilística**, **Project Operations no Dynamics 365 Customer engagement**.
   - A dupla escrita sincroniza para Dataverse utilizando o mapa da tabela **Entidade de exportação de despesas de projeto de integração do Project Operations (msdyn\_expenses)**.

@@ -4,14 +4,14 @@ description: Este tópico fornece detalhes sobre o processamento de faturas volt
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989925"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585622"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gerir propostas de fatura do projeto
 
@@ -22,7 +22,7 @@ As propostas de fatura do projeto podem ser processadas pelo seu departamento de
   - O gestor do Projeto confirma a fatura proforma em Microsoft Dataverse.
   - Todas as transações de vendas não faturadas de tempo e material que estão incluídas na fatura proforma são publicadas através do diário Dynamics 365 **Integração do Project Operations**.
 
-Utilize as seguintes etapas para completar uma proposta de fatura do projeto em Dynamics 365 Finance.
+Utilize os passos seguintes para concluir uma proposta de fatura do projeto no Dynamics 365 Finance.
 
 1. Reveja a informação de faturação para transações de tempo e material e publique o diário **Integração do Project Operations**.
 2. Rever informações de faturação para marcos de faturação de preço fixo.

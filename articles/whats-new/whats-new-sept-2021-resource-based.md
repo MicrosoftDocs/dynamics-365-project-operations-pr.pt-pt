@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547168"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582908"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de setembro de 2021 - Project Operations para cenários baseados em recursos/itens não existentes em stock
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547168"
 Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
    - Project Operations na versão de ambiente 4.14.0.99 do Microsoft Dataverse.
-   - Gestão de projetos e contabilística na versão 10.0.20 do ambiente Dynamics 365 Finance.
+   - Gestão de projetos e contabilidade no ambiente do Dynamics 365 Finance versão 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Atualizações de mapas de escrita dupla do Project Operations
 
@@ -45,7 +45,7 @@ Se ocorrer um problema ao iniciar o mapa, siga as instruções na secção [Prob
 | Faturação e Preços | 2385802 | Correção do que ocorre com horas reais negativas quando os totais do projeto são atualizados. |
 | Faturação e Preços | 2389675 | Melhoramento do comportamento de confirmação da fatura pró-forma. A entidade de tarefas de execução prolongada deve ter em conta a atividade necessária para escrever resultados de confirmação para a contabilidade. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestão de projetos e contabilística no Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestão de projetos e contabilidade no Dynamics 365 Finance
 
 | Área de funcionalidades | Número de referência | Atualização de qualidade |
 | --- | --- | --- |

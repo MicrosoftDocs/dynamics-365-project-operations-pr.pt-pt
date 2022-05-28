@@ -4,16 +4,16 @@ description: Este tópico fornece informações sobre os adiantamentos de tesour
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988530"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585714"
 ---
 # <a name="cash-advance"></a>Adiantamento de tesouraria
 
@@ -66,7 +66,7 @@ Antes de apresentar um relatório de despesas, pode selecionar o adiantamento em
  
  Quando estas funcionalidades estiverem ativadas:
  
-  - Pode ter um ou mais adiantamentos em dinheiro por cada linha de despesas.
+  - Pode adicionar um ou mais adiantamentos para cada linha de despesas.
   - O saldo disponível de um adiantamento em dinheiro é visível em tempo real quando um relatório de despesas é guardado. Isto permite-lhe processar transações de despesas e devolver transações em dinheiro ao mesmo tempo.
   - Pode selecionar inúmeros adiantamentos em dinheiro por uma transação de despesas.
   - Os dados de reconciliação do adiantamento de caixa estão disponíveis através de uma consulta. 

@@ -4,14 +4,14 @@ description: Este tópico fornece informações que o vão ajudar a determinar o
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994650"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584150"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o tipo de implementação
 
@@ -25,7 +25,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clientes existentes do Dynamics que utilizam o Dynamics 365 Project Service Automation
 O Project Operations inclui as capacidades que foram enviadas com o Project Service Automation. Será lançada um percurso de atualização de versão para estes clientes na vaga 1 da versão de 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes do Dynamics 365 Finance que utilizam a Gestão de projetos e contabilística 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes do Dynamics 365 Finance utilizando a gestão de projetos e contabilidade 
 
 Os clientes existentes d Finance que utilizam a funcionalidade de Gestão e contabilidade de projetos podem continuar a usá-lo como está. Consulte [Project Operations para cenários de encomenda em stock/de produção](#pma).
 
@@ -42,7 +42,7 @@ O nosso [Questionário de implementação](https://aka.ms/provisionprojectoperat
 - [Project Operations para cenários baseados em recursos/não em stock](#integrated)
 - [Project Operations para cenários de encomenda em stock/de produção](#pma)
 
-O Project Operations suporta cenários de encomenda em stock/de produção e cenários não armazenados/baseados em recursos no mesmo ambiente através de configurações a nível da entidade jurídica. Por exemplo, Contoso pode utilizar as capacidades armazenadas/de produção de encomenda nas suas instalações de fabrico dos EUA (Entidade Legal = Contoso Fabricação nos Estados Unidos). Contoso pode utilizar as capacidades não abastecidas/baseadas em recursos nas suas instalações Contoso de assistência robótica no Reino Unido (entidade legal = Contoso Robótica no Reino Unido).
+O Project Operations suporta cenários de encomenda em stock/de produção e cenários não armazenados/baseados em recursos no mesmo ambiente através de configurações a nível da entidade jurídica. Por exemplo, a Contoso pode utilizar as capacidades de encomenda de abastecimento/produção nas suas instalações de fabrico dos EUA (Entidade legal = Contoso Manufacturing United States). A Contoso pode utilizar as capacidades de não abastecimento/baseadas em recursos nas suas instalações de manutenção da Contoso Robotics Arms no Reino Unido (Entidade legal = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementação leve - oportunidade potencial para fatura pró-forma
 

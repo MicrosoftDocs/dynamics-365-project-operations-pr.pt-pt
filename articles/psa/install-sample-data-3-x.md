@@ -3,19 +3,19 @@ title: Instalação de dados de exemplo
 description: Este tópico fornece informações sobre a instalação de dados de exemplo no Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985560"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581850"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalação de dados de exemplo para a aplicação Project Service
 
@@ -135,7 +135,7 @@ O pacote de dados de demonstração requer seis utilizadores. Para que o pacote 
     - Utilizador Fullname = "Molly Clark" como Gestor de Contas   
     - Utilizador Fullname = "Spencer Low" como Gestor de Práticas e de Projeto  
     - Utilizador Fullname = "Veronica Quek" como Membro da Equipa   
-    - Nome completo do utilizador="William Contoso"
+    - Utilizador Fullname = "William Contoso"
   
 2. Para fins de importação de dados de demonstração, atribua os seis utilizadores acima da função de Administrador para que os registos de exemplo sejam importados corretamente. 
 

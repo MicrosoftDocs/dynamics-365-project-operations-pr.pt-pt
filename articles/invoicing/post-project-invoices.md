@@ -3,16 +3,15 @@ title: Vista geral do processo de faturação
 description: Esta tópico fornece uma vista geral do processo de faturação no Project Operations para cenários baseados em recursos/não armazenados.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003785"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582724"
 ---
 # <a name="invoicing-process-overview"></a>Vista geral do processo de faturação
 
@@ -22,7 +21,7 @@ O Project Operations para cenários baseados em recursos/não armazenados oferec
 
 ![Diagrama do fluxo de faturação.](./media/invoicing-flow.png)
 
-A linha de contrato do projeto define o método de faturação para as transações de projetos associadas. Quando o gestor do Projeto aprova transações de tempo e despesas, o sistema regista as transações na entidade **Valores Reais do Projeto** e envia a informação para o módulo de **Gestão e contabilidade do Projeto** em Dynamics 365 Finance. Em seguida, o contabilista do Projeto revê e publica os registos utilizando o [diário de integração do Project Operations](../project-accounting/project-operations-integration-journal.md). Este diário inclui detalhes contabilísticos importantes para os valores reais do projeto, tais como faturação, grupo de impostos sobre vendas, grupo de imposto de venda de item de faturação, e dimensões financeiras.
+A linha de contrato do projeto define o método de faturação para as transações de projetos associadas. Quando o gestor do Projeto aprova transações de tempo e despesas, o sistema regista as transações na entidade **Valores reais do projeto** e envia as informações para o módulo de **Gestão de projetos e contabilidade** no Dynamics 365 Finance. Em seguida, o contabilista do Projeto revê e publica os registos utilizando o [diário de integração do Project Operations](../project-accounting/project-operations-integration-journal.md). Este diário inclui detalhes contabilísticos importantes para os valores reais do projeto, tais como faturação, grupo de impostos sobre vendas, grupo de imposto de venda de item de faturação, e dimensões financeiras.
 
 O gestor do Projeto pode rever as transações de vendas não faturadas utilizando o método de faturação de tempo e material no tempo e o atraso de [faturação de material](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) e a faturação fixa de preços em [marcos de preço fixo](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Estas vistas permitem filtrar e selecionar transações que precisam de ser incluídas no próximo ciclo de faturação e, em seguida, marcá-las como **Pronto a faturar**.
 
