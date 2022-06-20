@@ -1,24 +1,24 @@
 ---
 title: O que há de novo abril de 2022 - Implementação leve do Project Operations
-description: Este tópico fornece informações sobre as atualizações de qualidade que estão disponíveis na versão de abril de 2022 da implementação lite do Microsoft Dynamics 365 Project Operations.
+description: Este artigo fornece informações sobre as atualizações de qualidade que estão disponíveis na versão de abril de 2022 da implementação lite do Microsoft Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f75d75e57d6a6396b0148f0449899735089b06a
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 6d6fc52d535244b339e43f88e85797a957d98b89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927480"
 ---
 # <a name="whats-new-april-2022---project-operations-lite-deployment"></a>O que há de novo abril de 2022 - Implementação leve do Project Operations
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
 - Project Operations num ambiente Dataverse, versão 4.41.0.45
 

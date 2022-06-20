@@ -1,24 +1,24 @@
 ---
 title: Novidades de outubro de 2021 - Project Operations para cenários baseados em recursos/itens não existentes em stock
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de outubro de 2021 do Project Operations para cenários baseados em recursos/itens não existentes em stock.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de outubro de 2021 do Project Operations para cenários baseados em recursos/itens não existentes em stock.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4dc5cc9a5842a02338b99c7c8d707bc0b81c74a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914651"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de outubro de 2021 - Project Operations para cenários baseados em recursos/itens não existentes em stock
 
 *Aplica-se A: Project Operations para cenários baseados em recursos/não armazenados*
 
-Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
    - Project Operations no ambiente Microsoft Dataverse, versão 4.25.0.91
    - Gestão de projetos e contabilidade no ambiente do Dynamics 365 Finance versão 10.0.21

@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações na Versão da Atualização 14 do Project Service Automation, V3
-description: Esta tópico fornece informações sobre o que há de novo na Versão da Atualização 14 do Project Service Automation V3.
+description: Este artigo inclui informações sobre o que há de novo na Versão 14 da Atualização do Project Service Automation V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926560"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Versão da Atualização 14 do Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594317"
 
 Temos o prazer de anunciar a atualização mais recente para a aplicação Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
-Este tópico lista as funcionalidades e correções novas ou alteradas para o PSA V3, Versão da Atualização 14. Esta versão tem um número de compilação de V3.10.4.21 e está disponível na seguinte agenda:
+Este artigo lista as funcionalidades e correções novas ou alteradas para a Versão 14 da Atualização do PSA V3. Esta versão tem um número de compilação de V3.10.4.21 e está disponível na seguinte agenda:
 
 - **Disponibilidade geral (Atualização automática):** janeiro de 2020
 - **Atualização automática:** fevereiro de 2020

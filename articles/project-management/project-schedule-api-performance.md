@@ -1,28 +1,28 @@
 ---
 title: Desempenho da API da Agenda do Projeto
-description: Esta tópico fornece informações sobre os benchmarks de desempenho das APIs de Agenda do Projeto e identifica as melhores práticas para uma utilização otimizada.
+description: Este artigo fornece informações sobre os benchmarks de desempenho das APIs de Agenda do Projeto e identifica as melhores práticas para uma utilização otimizada.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911196"
 ---
 # <a name="project-schedule-api-performance"></a>Desempenho da API da Agenda do Projeto
 
 _**Aplicável a:** Project Operations para cenários baseados em recursos/itens não existentes em stock, implementação Lite - da transação à fatura pró-forma, Project for the Web_
 
-Esta tópico fornece informações sobre os benchmarks de desempenho das interfaces de programação de aplicações (APIs) de Agenda do Projeto e identifica as melhores práticas para otimizar a utilização.
+Este artigo fornece informações sobre os benchmarks de desempenho das interfaces de programação de aplicações (APIs) de Agenda do Projeto e identifica as melhores práticas para otimizar a utilização.
 
 ## <a name="project-scheduling-service"></a>Serviço de Agendamento de Projetos
 O Serviço de Agendamento de Projetos é um serviço com vários inquilinos executado no Microsoft Azure. Foi concebido para melhorar a interação ao proporcionar uma experiência rápida e fluida quando os utilizadores trabalham nos projetos. Esta melhoria é conseguida ao aceitar os pedidos de alteração, processá-los e devolver imediatamente o resultado. O serviço persiste de forma assíncrona para o Dataverse e não impede os utilizadores de executarem outras operações.
 
-As APIs de Agenda do Projeto recorrem ao Serviço de Agendamento de Projetos para executarem pedidos que são descritos em maior detalhe nas secções posteriores deste tópico.
+As APIs de Agenda do Projeto recorrem ao Serviço de Agendamento de Projetos para executarem pedidos que são descritos em maior detalhe nas secções posteriores deste artigo.
 
 As APIs de Agenda do Projeto foram concebidas para trabalhar com as seguintes entidades da estrutura hierárquica do trabalho (WBS):
 

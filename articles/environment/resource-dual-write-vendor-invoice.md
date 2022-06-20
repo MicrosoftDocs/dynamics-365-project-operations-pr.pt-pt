@@ -1,18 +1,18 @@
 ---
 title: Integração de fatura de fornecedor
-description: Este tópico fornece informações sobre integração de faturas de fornecedor no Project Operations.
+description: Este artigo fornece informações sobre a integração de faturas de fornecedores no Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912070"
 ---
 # <a name="vendor-invoice-integration"></a>Integração de fatura de fornecedor
 
@@ -21,7 +21,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 Os contratos relacionados com o projeto em Dynamics 365 Project Operations podem ser registados indo para **Contas a pagar** > **Faturas** > **Faturas pendentes de fornecedor** e utilizando um documento de fatura do fornecedor pendente. Para obter mais informações, consulte [Comprar materiais não armazenados utilizando uma fatura pendente do fornecedor](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Antes de utilizar a funcionalidade descrita neste tópico, reveja e aplique as configurações necessárias. Para obter mais informações, consulte [Ativar materiais não armazenados e faturas pendentes do fornecedor](../procurement/configure-materials-nonstocked.md).
+> Antes de utilizar a funcionalidade descrita neste artigo, reveja e aplique as configurações necessárias. Para obter mais informações, consulte [Ativar materiais não armazenados e faturas pendentes do fornecedor](../procurement/configure-materials-nonstocked.md).
 
 No Project Operations, as faturas de fornecedor relacionadas com o projeto são publicadas utilizando regras especiais de publicação:
 

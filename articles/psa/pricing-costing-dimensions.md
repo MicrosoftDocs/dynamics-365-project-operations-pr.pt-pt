@@ -1,6 +1,6 @@
 ---
 title: Home page de dimensões de definição de preços e custos
-description: Este tópico fornece uma descrição geral das dimensões de definição de preços.
+description: Este artigo fornece uma descrição geral das dimensões de preços.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925456"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de definição de preços e custos
 
@@ -47,7 +47,7 @@ O PSA é fornecido com um conjunto predefinido de dimensões de definição de p
 > [!IMPORTANT]
 > Se tiver utilizado os campos de função e unidade organizacional fornecidos com o programa como dimensões de definição de preços anteriores à versão 3 do PSA, não haverá nenhuma alteração observável. Pode continuar a utilizar o Project Service normalmente. 
 
-Se precisar de definir o preço ou o custo dos seus recursos utilizando atributos adicionais, poderá criar campos, entidades e dimensões personalizados. Para mais informações, consulte os seguintes tópicos, no entanto, note que tem de concluir os procedimentos na ordem listada abaixo:
+Se precisar de definir o preço ou o custo dos seus recursos utilizando atributos adicionais, poderá criar campos, entidades e dimensões personalizados. Para mais informações, consulte os seguintes artigos, no entanto, note que tem de concluir os procedimentos na ordem listada abaixo:
 
 - [Criar campos e entidades personalizados](create-custom-fields-entities.md)
 - [Adicionar campos personalizados às entidades de configuração de preços e transacionais](field-references.md)

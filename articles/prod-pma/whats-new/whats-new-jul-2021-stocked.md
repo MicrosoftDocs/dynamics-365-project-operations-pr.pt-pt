@@ -1,24 +1,24 @@
 ---
 title: Novidades ou alterações no Project Operations de julho de 2021 para cenários baseados em produção/armazenados
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de julho de 2021 do Project Operations para cenários baseados produção/armazenados.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de julho de 2021 do Project Operations para cenários abastecidos/baseados em produção.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933644"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações no Project Operations de julho de 2021 para cenários baseados em produção/armazenados
 
 _**Aplica-se a:** Project Operations para cenários baseados em stock/produção_
 
-Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Gestão de projetos e contabilidade no ambiente do Dynamics 365 Finance versão 10.0.20
  

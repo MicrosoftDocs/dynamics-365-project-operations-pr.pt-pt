@@ -1,6 +1,6 @@
 ---
 title: Criar campos e entidades personalizados
-description: Este tópico explica como criar conjuntos de opções e entidades na sua própria solução na plataforma Power Apps.
+description: Este artigo explica como criar conjuntos de opções e entidades na sua própria solução na plataforma Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926928"
 ---
 # <a name="create-custom-fields-and-entities"></a>Criar campos e entidades personalizados 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Conclua os seguintes passos sempre que pretender criar um conjunto de opções ou uma entidade personalizada na plataforma Power Apps.  
-Os procedimentos existentes neste tópico devem ser concluídos utilizando a interface Web do Project Service Automation (PSA).
+Os procedimentos existentes neste artigo devem ser concluídos utilizando a interface Web do Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Recomendamos que efetue todas as alterações de dimensões de definição de preços personalizadas numa solução separada. Essa melhor prática importante fornece flexibilidade no futuro para atualizar ou remover as alterações, conforme necessário, ajudará na reutilização do seu trabalho e facilita a portabilidade destas alterações para outra instância. Depois de ter efetuado todas as alterações necessárias, exporte esta solução como uma **Solução Gerida** e importe-a para outras instâncias para reutilizar a configuração de preços.

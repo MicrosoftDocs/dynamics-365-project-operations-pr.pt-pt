@@ -1,24 +1,24 @@
 ---
 title: Novidades em dezembro de 2021 – Project Operations para cenários baseados em Recursos/Não Armazenados
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de dezembro de 2021 do Project Operations para cenários baseados em recursos/itens não existentes em stock.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de dezembro de 2021 do Project Operations para cenários baseados em recursos/itens não existentes em stock.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 79ae9f49a4291d162a8a9bb6eb9a22d615773f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910874"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em dezembro de 2021 – Project Operations para cenários baseados em Recursos/Não Armazenados
 
 *Aplica-se A: Project Operations para cenários baseados em recursos/não armazenados*
 
-Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
 - Project Operations num ambiente Dataverse, versão 4.27.0.195, 4.27.0.242, 4.27.0.244
 - Gestão de projetos e contabilidade num ambiente do Dynamics 365 Finance versão 10.0.23

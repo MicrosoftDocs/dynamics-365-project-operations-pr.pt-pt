@@ -1,23 +1,23 @@
 ---
 title: Monitorização do esforço do projeto
-description: Este tópico fornece informações sobre como monitorizar o esforço e progresso e do trabalho.
+description: Este artigo fornece informações sobre como monitorizar o esforço do projeto e o progresso do trabalho.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929274"
 ---
 # <a name="project-effort-tracking"></a>Monitorização do esforço do projeto
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-A necessidade de monitorizar o progresso relativamente a uma agenda varia de acordo com o setor. Alguns setores monitorizam a um nível granular, ao passo que outros setores monitoram a um nível superior. Este tópico mostra como agendar para satisfazer os requisitos da sua organização.
+A necessidade de monitorizar o progresso relativamente a uma agenda varia de acordo com o setor. Alguns setores monitorizam a um nível granular, ao passo que outros setores monitoram a um nível superior. Este artigo mostra como agendar para satisfazer os requisitos da sua organização.
 
 ## <a name="effort-tracking-view"></a>Visto de controlo do esforço
 

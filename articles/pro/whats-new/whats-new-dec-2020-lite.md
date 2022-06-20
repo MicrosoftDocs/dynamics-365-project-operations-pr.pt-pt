@@ -1,24 +1,24 @@
 ---
 title: Novidades de dezembro de 2020 – Implementação do Project Operations Lite – negócio para faturação pró-forma
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de dezembro de 2020 da implementação do Project Operations Lite – negócio para faturação pró-forma.
+description: Este artigo fornece informações sobre as atualizações de qualidade que estão disponíveis na versão de dezembro de 2020 da implementação do Project Operations Lite – negócio para faturação proforma.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924076"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Novidades de dezembro de 2020 – Implementação do Project Operations Lite – negócio para faturação pró-forma
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
   - Project Operations na versão 4.5.0.134 do ambiente Dataverse 
 

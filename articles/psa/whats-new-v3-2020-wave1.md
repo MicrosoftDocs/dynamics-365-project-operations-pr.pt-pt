@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Project Service Automation versão 3.x, vaga 1 de 2020
-description: Este tópico inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3, vaga 1 de 2020.
+description: Este artigo inclui informações sobre o que há de novo e o que foi alterado na vaga 1 de 2020, versão 3 do Project Service Automation.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928630"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Novidades ou alterações no Project Service Automation versão 3, vaga 1 de 2020
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-O tópico realça as principais considerações de atualização quando migrar para a versão mais recente do Project Service Automation (PSA) versão 3.x, vaga 1 de 2020.
+Este artigo destaca as principais considerações de atualização de versão ao mover para a versão mais recente da vaga 1 de 2020, versão 3.x do Project Service Automation (PSA).
 
 ## <a name="time-entry"></a>Entrada de tempo
 A experiência de entrada de tempo foi prorrogada para fornecer capacidades para expandir a introdução de tempo a mais cenários de clientes. Isto inclui a capacidade de adicionar tipos de entrada, que agora direcionam o comportamento específico com base no nome do esquema do campo **Definições de entrada de tempo**, apresentado como **Origem da Hora**. Foi adicionada uma nova solução, chamada Tempo, Despesa, Estados e Aprovações (TESA) para suportar esta funcionalidade.

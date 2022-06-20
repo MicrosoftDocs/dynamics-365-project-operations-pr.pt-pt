@@ -1,18 +1,18 @@
 ---
 title: Atualizações do Project Operations
-description: Este tópico fornece informações sobre as versões lançadas do Dynamics 365 Project Operations.
+description: Este artigo fornece informações sobre as versões lançadas do Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732945"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959499"
 ---
 # <a name="project-operations-updates"></a>Atualizações do Project Operations
 
@@ -36,7 +36,7 @@ O Dynamics 365 Project Operations consiste de dois componentes:
 
 | Project Operations no ambiente Dataverse | Gestão de projetos e contabilidade num ambiente de aplicações de Finanças e Operações | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Para o cenário recurso/sem stock do Project Operations, recomendamos que utilize a Orquestração de escrita dupla da versão 2.3.1.15 ou superior.
 
@@ -47,24 +47,24 @@ As atualizações do Project Operations no ambiente Dataverse estão disponívei
 | Estação | Região | Número da versão atual | Atualizações automáticas para implementação leve | Atualizações automáticas para implementação de recursos/não armazenados | Número da próxima versão | Próxima versão geralmente disponível |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estação 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira Versão         |  4.42.0.70      | Concluir           | Concluir            | TBD                 | 27 de maio de 2022        |
+|   &nbsp;  | Primeira Versão         |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
 | Estação 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sul         |  4.42.0.70      | Concluir           | Concluir            | TBD                 | 27 de maio de 2022        |
-|   &nbsp;  | Canadá                |  4.42.0.70      | Concluir           | Concluir            | TBD                 | 27 de maio de 2022        |
-|   &nbsp;  | Índia                 |  4.42.0.70      | Concluir           | Concluir            | TBD                 | 27 de maio de 2022        |
-|   &nbsp;  | França                |  4.42.0.70      | Concluir           | Concluir            | TBD                 | 27 de maio de 2022        |
-|   &nbsp;  | África do Sul          |  4.42.0.70      | Concluir           | Concluir            | TBD                 | 27 de maio de 2022        |
-|   &nbsp;  | Suíça           |  4.42.0.70      | Concluir           | Concluir            | TBD                 | 27 de maio de 2022        |
+|   &nbsp;  | América do Sul         |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
+|   &nbsp;  | Canadá                |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
+|   &nbsp;  | Índia                 |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
+|   &nbsp;  | França                |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
+|   &nbsp;  | África do Sul          |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
+|   &nbsp;  | Suíça           |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
 | Estação 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japão                 |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | TBD                 | 03 de junho de 2022       |
-|   &nbsp;  | Ásia-Pacífico          |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | TBD                 | 03 de junho de 2022       |
-|   &nbsp;  | Grã-Bretanha         |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | TBD                 | 03 de junho de 2022       |
-|   &nbsp;  | Oceânia               |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | TBD                 | 03 de junho de 2022       |
-|   &nbsp;  | Emirados Árabes Unidos  |  4.42.0.70      | 13 de maio de 2022       | 13 de maio de 2022        | TBD                 | 03 de junho de 2022       |
+|   &nbsp;  | Japão                 |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
+|   &nbsp;  | Ásia-Pacífico          |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
+|   &nbsp;  | Grã-Bretanha         |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
+|   &nbsp;  | Oceânia               |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
+|   &nbsp;  | Emirados Árabes Unidos  |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
 | Estação 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.41.0.45      | Concluir           | Concluir            | 4.42.0.70           | 13 de maio de 2022        |
+|   &nbsp;  | Europa                |  4.42.0.70      | Concluir           | Concluir            | 4.43.0.77           | 10 de junho de 2022       |
 | Estação 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.41.0.45      | Concluir           | Concluir            | 4.42.0.70           | 20 de maio de 2022        |
+|   &nbsp;  | América do Norte         |  4.42.0.70      | Concluir           | Concluir            | 4.43.0.77           | 17 de junho de 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Agenda da versão para Gestão de projetos e contabilidade no ambiente de aplicações de Finanças e Operações
 

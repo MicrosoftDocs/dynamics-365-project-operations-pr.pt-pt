@@ -1,17 +1,17 @@
 ---
 title: Recuperação do IVA na Gestão de despesas
-description: Este tópico explica como receber reembolsos em transações elegíveis com imposto sobre o valor acrescentado (IVA).
+description: Este artigo explica como receber reembolsos de transações de Imposto sobre o Valor Acrescentado (IVA) elegíveis.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1df921bbef4c11c7e07ed38775644117215a50fb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927940"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Recuperação do IVA na Gestão de despesas
 

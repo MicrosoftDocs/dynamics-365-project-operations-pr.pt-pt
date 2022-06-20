@@ -1,17 +1,17 @@
 ---
 title: Navegar o Project Operations
-description: Este tópico fornece informações sobre como aceder ao Project Operations a partir do Lifecycle Services.
+description: Este artigo fornece informações sobre como aceder ao Project Operations a partir do Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931666"
 ---
 # <a name="navigate-project-operations"></a>Navegar o Project Operations
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations para cenários de Recursos/Não Armazenados cons
  - **Project Operations no ambiente Common Data Service (CDS)**: este componente cobre capacidades e processos desde a oportunidade até à faturação pró-forma. 
  - **Gestão de projetos e contabilidade no ambiente do Dynamics 365 Finance**: esta componente abrange as capacidades de gestão de despesas, a contabilidade do projeto e o reconhecimento de receitas. 
 
-Depois de aprovisionar o Project Operations como descrito neste tópico, a página **Detalhes do ambiente** do Lifecycle Services (LCS) proporciona fácil acesso a ambos os componentes do Project Operations.  
+Depois de aprovisionar o Project Operations, conforme descrito neste artigo, a página **Detalhes do Ambiente** do Lifecycle Services (LCS) fornece acesso fácil a ambos os componentes do Project Operations.  
 
 Use o nome do ambiente na secção, **Nome do Ambiente Common Data Service** para navegar para o Project Operations num ambiente CDS. 
 

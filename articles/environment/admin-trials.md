@@ -1,17 +1,17 @@
 ---
 title: Inscrição para as avaliações do Project Operations
-description: Este tópico fornece informações sobre como implementar uma avaliação do Dynamics 365 Project Operations.
+description: Este artigo fornece informações sobre como implementar uma versão de avaliação do Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584288"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959482"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrição para as avaliações do Project Operations 
 
@@ -19,9 +19,9 @@ _**Aplica-se a:** Project Operations para cenários baseados em Recursos/Não St
 
 
 
-Este tópico explica como subscrever a oferta de parceiro de pré-visualização e implementar um ambiente do Dynamics 365 Project Operations.
+Este artigo explica como subscrever a oferta de parceiro de pré-visualização e implementar um ambiente do Dynamics 365 Project Operations.
 
-Com a nova avaliação do Project Operations, pode implementar automaticamente qualquer um dos três cenários de implementação suportados, bastando para isso responder a um questionário que recomenda a melhor abordagem de implementação. Este tópico fornece informações sobre como:
+Com a nova avaliação do Project Operations, pode implementar automaticamente qualquer um dos três cenários de implementação suportados, bastando para isso responder a um questionário que recomenda a melhor abordagem de implementação. Este artigo fornece informações sobre como:
 
 - Resgatar a oferta de avaliação.
 - Iniciar o aprovisionamento.
@@ -89,7 +89,8 @@ Antes de começar, inicie sessão num browser com a conta profissional de utiliz
 4.  Selecione o URL do Microsoft Dataverse e os URL das aplicações de finanças e operações para validar a implementação.
 
 ## <a name="configuring-dual-write"></a>Configurar a escrita dupla
-- Para configurar direitos de acesso para escrita dupla, consulte [Atualizar definições de segurança no Project Operations no Dataverse](resource-provision-new-environment.md).
+- Para configurar direitos de acesso para escrita dupla, consulte [Atualizar definições de segurança no Project Operations no Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Para aceder à configuração de escrita dupla, navegue para a instância Finanças e Operações e, em seguida, navegue para **Gestão de Dados** > **Escrita Dupla**.
 - Para configurar mapas de escrita dupla, consulte [Executar mapas de escrita dupla do Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuir licenças

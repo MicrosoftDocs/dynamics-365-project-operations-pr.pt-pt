@@ -1,6 +1,6 @@
 ---
 title: Alterações de entidade, controlo e interface de utilizador (Project Service Automation 3.x)
-description: Este tópico descreve alterações de soluções para o Microsoft Dynamics Project Service Automation 3.x.
+description: Este artigo descreve alterações de soluções para o Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926882"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Alterações de entidade, controlo e interface de utilizador (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Com o lançamento do Microsoft Dynamics Project Service Automation (PSA) 3.x, muitas alterações foram efetuadas nas entidades, controlos, vistas e interfaces de utilizador. Este tópico fornece informações sobre estas alterações importantes.
+Com o lançamento do Microsoft Dynamics Project Service Automation (PSA) 3.x, muitas alterações foram efetuadas nas entidades, controlos, vistas e interfaces de utilizador. Este artigo fornece informações sobre estas alterações importantes.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relações principal-subordinado para documento de vendas, linha de documento de vendas, entidades de detalhe de linha de documento de vendas
 Nas versões do Dynamics 365 Project Service Automation (PSA) lançadas antes da versão 3.0, algumas das relações entre documentos de vendas, linhas de documentos de vendas e entidades de detalhe de linha de documento de vendas foram implementadas por meio de campos de cadeia que continham uma representação em cadeia do GUID da entidade relacionada. Isso ocorreu devido às limitações da plataforma que exigiam um código personalizado significativo nos lados do servidor e do cliente da solução para fazer com que essas relações funcionassem de maneira semelhante às relações de entidade típicas do Dynamics CRM e para fazer com que os campos de cadeia agissem como campos de pesquisa.

@@ -1,23 +1,23 @@
 ---
 title: Definições do contrato de projeto
-description: Este tópico fornece informações sobre os campos que impactam os itens de contratos e a informação sobre o contrato que são resumidas em todos os itens de linha.
+description: Este artigo fornece informações sobre os campos que a afetam itens de contrato e as informações sobre o contrato que estão resumidas entre todos os itens de linha.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921592"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Detalhes do cabeçalho para contratos baseados em projetos
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-Este tópico fornece informações sobre campos que se aplicam a todo o contrato do projeto, incluindo definições que impactam todas os itens de contrato. Informações sobre o contrato que são resumidas em todos os itens de contrato para impulsionar KPIs do contrato do projeto também estão incluídas.
+Este artigo fornece informações sobre campos que se aplicam a todo o contrato do projeto, incluindo definições que afetam todos os itens de contrato. Informações sobre o contrato que são resumidas em todos os itens de contrato para impulsionar KPIs do contrato do projeto também estão incluídas.
 
 A tabela que se segue lista os campos de um contrato de projeto que são exclusivos do Dynamics 365 Project Operations ou têm algumas mudanças importantes no comportamento das encomendas de vendas no Dynamics 365 Sales.
 

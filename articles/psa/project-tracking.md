@@ -1,6 +1,6 @@
 ---
 title: Progresso e consumo de custo do projeto
-description: Este tópico fornece informações sobre a monitorização do progresso e o consumo de custo do projeto.
+description: Este artigo fornece informações sobre a monitorização do progresso e o consumo de custo do projeto.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921776"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Progresso e consumo de custo do projeto
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575272"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-A necessidade de monitorizar o progresso relativamente a uma agenda varia de acordo com o setor. Alguns setores monitorizam a um nível granular, ao passo que outros setores monitoram a um nível superior. Este tópico mostra como agendar para satisfazer os requisitos da sua organização.
+A necessidade de monitorizar o progresso relativamente a uma agenda varia de acordo com o setor. Alguns setores monitorizam a um nível granular, ao passo que outros setores monitoram a um nível superior. Este artigo mostra como agendar para satisfazer os requisitos da sua organização.
 
 ## <a name="effort-tracking-view"></a>Visto de controlo do esforço
 

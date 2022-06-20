@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934012"
 ---
 # <a name="configure-expense-management"></a>Configurar gestão de despesas
 
-Este tópico descreve as considerações e as decisões que deve tomar durante o processo de planeamento antes de configurar a gestão de Despesas. Na gestão de Despesas, pode armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, políticas, e assim por diante.
+Este artigo descreve as considerações e as decisões que tem de tomar durante o processo de planeamento antes de configurar a Gestão de despesas. Na gestão de Despesas, pode armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, políticas, e assim por diante.
 
 Porque muitas das decisões que toma quando planeia a sua configuração para a gestão de Despesas são baseadas na hierarquia e estrutura financeira da sua organização, deve consultar os documentos de planeamento dessas áreas.
 

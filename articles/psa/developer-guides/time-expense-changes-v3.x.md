@@ -1,6 +1,6 @@
 ---
 title: Alterações de tempo e despesas (Project Service Automation 3.x)
-description: Este tópico fornece informações sobre as alterações da solução para Tempo e Despesa.
+description: Este artigo fornece informações sobre as alterações da solução para Tempo e Despesa.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a425206407ed70691812ba18af09bc56b37ca30
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5fbe5aff5c6fb0348d5d742bbb8da29f67a28d27
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8573939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915934"
 ---
 # <a name="time-and-expense-changes-project-service-automation-3x"></a>Alterações de tempo e despesas (Project Service Automation 3.x)
 

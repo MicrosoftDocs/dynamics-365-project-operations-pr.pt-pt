@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920672"
 ---
 # <a name="work-breakdown-structures-overview"></a>Descrição geral das estruturas hierárquicas do trabalho
 
@@ -35,7 +35,7 @@ O grau de detalhe numa WBS depende do nível de precisão exigido nas estimativa
 
 Em contraste, os projetos em setores como os meios de comunicação e publicidade, software e infraestrutura de TI tendem a ser únicos, e a produtividade está relacionada com a experiência e a competência do indivíduo que está a executar a tarefa. Por isso, estes setores utilizam uma WBS para obterem uma aproximação do tamanho de um projeto, não para monitorizar o progresso desse projeto em detalhe. 
 
-A criação de uma WBS é um processo intensivo que normalmente é feito durante um longo período, e que requer a colaboração e a informação de uma grande variedade de pessoas. Este tópico descreve como pode utilizar as melhorias da WBS para satisfazer os seus requisitos para estimativas e monitorização.
+A criação de uma WBS é um processo intensivo que normalmente é feito durante um longo período, e que requer a colaboração e a informação de uma grande variedade de pessoas. Este artigo descreve como pode utilizar os melhoramentos do WBS para cumprir os seus requisitos de estimativas e monitorização.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Pré-requisitos para criar uma WBS
 Para criar uma WBS, tem de ser capaz de criar uma agenda de trabalho e estimar o custo do trabalho.
@@ -166,7 +166,7 @@ O Finance têm três vistas para a WBS de um projeto: vista de Planeamento, vist
 
 ### <a name="planning-view"></a>Vista de planeamento
 
-A Vista de planeamento apresenta a estimativa planeada ou da linha de base da informação da agenda e dos custos. Apesar de não existirem funcionalidades para monitorizar a versão e a linha de base para a WBS de um projeto, os valores nesta vista pretendem representar a versão da linha de base. As secções Estimativa da agenda e Estimativa de custos deste tópico descreve esta vista e como é utilizada para criar uma WBS.
+A Vista de planeamento apresenta a estimativa planeada ou da linha de base da informação da agenda e dos custos. Apesar de não existirem funcionalidades para monitorizar a versão e a linha de base para a WBS de um projeto, os valores nesta vista pretendem representar a versão da linha de base. As secções Estimativa de agendamento e Estimativa de custo deste artigo descrevem esta vista e a forma como são utilizadas para criar um WBS.
 
 ### <a name="effort-tracking-view"></a>Visto de controlo do esforço
 

@@ -1,17 +1,17 @@
 ---
 title: Descrição geral dos modos de gestão de recursos
-description: Este tópico fornece informações sobre a funcionalidade de gestão de recursos no Dynamics 365 Project Operations.
+description: Este artigo fornece informações sobre a funcionalidade de Gestão de recursos no Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928446"
 ---
 # <a name="resource-management-modes-overview"></a>Descrição geral dos modos de gestão de recursos
 
@@ -38,7 +38,7 @@ Para as organizações que necessitam de flexibilidade na alocação de recursos
 
 ![Modo Híbrido.](./media/resource-management-hybrid.png)
 
-Além do processo do modo Central suportado, consulte os seguintes tópicos para gerir todos os outros fluxos de reservas suportados no modo Híbrido:
+Para além do processo de modo Central suportado, consulte os artigos que seguem para gerir todos os outros fluxos de reserva suportados no modo Híbrido:
 
 Reservar um recurso diretamente para um projeto:
 - [Reservar recursos reserváveis nomeados para uma equipa do projeto e atribuir tarefas](/dynamics365/project-service/assign-named-bookable-resource)

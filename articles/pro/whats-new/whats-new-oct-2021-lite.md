@@ -1,24 +1,24 @@
 ---
 title: Novidades de outubro de 2021 - Implementação do Project Operations Lite
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de outubro de 2021 da implementação do Project Operations Lite.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de outubro de 2021 da implementação do Project Operations Lite.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921960"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Novidades de outubro de 2021 - Implementação do Project Operations Lite
 
 _Aplica-se a: Implementação lite – negócio para faturação pró-forma_
 
-Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
   - Project Operations na versão 4.25.0.91 do ambiente Microsoft Dataverse
 

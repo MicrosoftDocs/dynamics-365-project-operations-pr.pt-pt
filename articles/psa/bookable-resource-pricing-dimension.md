@@ -1,6 +1,6 @@
 ---
 title: Utilizar recurso reservável como uma dimensão de definição de preços
-description: Este tópico fornece informações sobre a utilização de um recurso reservável como uma dimensão de definição de preços.
+description: Este artigo fornece informações sobre a utilização de um recurso reservável como uma dimensão de preços.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916118"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizar recurso reservável como uma dimensão de definição de preços
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Este tópico fornece informações sobre a utilização de um recurso reservável como uma dimensão de definição de preços. Antes de começar, se ainda não tiver criado uma solução de dimensão de definição de preços, terá de criar uma nova. Se já tiver uma solução de dimensão de definição de preços, poderá efetuar as alterações nessa solução. Se não tiver criado uma nova solução de dimensão de definição de preços para a sua organização, conclua os procedimentos no tópico [Criar campos e entidades personalizados](create-custom-fields-entities.md).
+Este artigo fornece informações sobre a utilização de um recurso reservável como uma dimensão de preços. Antes de começar, se ainda não tiver criado uma solução de dimensão de definição de preços, terá de criar uma nova. Se já tiver uma solução de dimensão de definição de preços, poderá efetuar as alterações nessa solução. Se não tiver criado uma nova solução de dimensão de preços para a sua organização, conclua os procedimentos no artigo [Criar campos e entidades personalizados](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Adicionar recurso reservável a formulários e vistas
 Para tornar os campos visíveis na IU na solução de dimensão de definição de preços, terá de percorrer todos os formulários e vistas das entidades principais do Project Service e adicionar estes campos aos formulários e às vistas dessas entidades.

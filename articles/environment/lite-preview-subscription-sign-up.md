@@ -1,21 +1,21 @@
 ---
-title: Inscrever-se para obter uma subscrição de pré-visualização – lite
-description: Este tópico fornece informações sobre como subscrever e implementar o Project Operations lite - oportunidade potencial para fatura pró-forma.
+title: Inscrever-se para obter uma subscrição de pré-visualização - leve
+description: Este artigo fornece informações sobre como subscrever e implementar o Project Operations lite – negócio para faturação proforma.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921270"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Inscrever-se para obter uma subscrição de pré-visualização - leve 
 
-Este tópico explica como subscrever a oferta de avaliação e proceder à implementação leve Dynamics 365 Project Operations - oportunidade potencial para fatura pro forma.
+Este artigo explica como subscrever a oferta de avaliação e implementar o Dynamics 365 Project Operations lite – negócio para faturação proforma.
 
 > [!NOTE]
 > Este processo será alterado nas próximas versões do Project Operations.
@@ -50,7 +50,7 @@ Antes de começar, certifique-se de que está a iniciar sessão num browser com 
 
 ## <a name="create-a-new-dataverse-environment"></a>Criar um novo ambiente do Dataverse
 
-1. Aprovisione um novo ambiente de implementação do Project Operations Dataverse ao seguir as instruções no tópico [Modelo de implementação do Dataverse](lite-deployment.md). Ao selecionar o tipo de ambiente, certifique-se de que utiliza **Avaliação (baseado em Subscrição)**.
+1. Aprovisione um novo ambiente de implementação do Dataverse do Project Operations seguindo as instruções no artigo [Modelo de implementação do Dataverse](lite-deployment.md). Ao selecionar o tipo de ambiente, certifique-se de que utiliza **Avaliação (baseado em Subscrição)**.
 
   ![Novo ambiente.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Antes de começar, certifique-se de que está a iniciar sessão num browser com 
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalar uma configuração CDS e dados de demonstração da configuração
 
-Instale a configuração CDS e configure os dados de demonstração da configuração ao seguir as instruções no tópico [Aplicar dados de configuração da demonstração](lite-apply-demo-setup-config-data.md).
+Instale a configuração do CDS e configure os dados de demonstração seguindo as instruções no artigo [Aplicar configuração de demonstração e dados de configuração](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

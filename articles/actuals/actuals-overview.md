@@ -1,6 +1,6 @@
 ---
 title: Valores Reais
-description: Esta tópico fornece informações sobre como trabalhar com valores reais no Microsoft Dynamics 365 Project Operations.
+description: Este artigo fornece informações sobre como trabalhar com valores reais no Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924812"
 ---
 # <a name="actuals"></a>Valores Reais
 
@@ -33,7 +33,7 @@ Os valores reais representam os progressos financeiros e de programação revist
 
 O Project Operations regista as transações financeiras que ocorrem durante o ciclo de vida de cativação do projeto como valores reais. A criação de valores reais em vários eventos no ciclo de vida varia, dependendo se a cativação do projeto utiliza o modelo de faturação de tempo e materiais ou o modelo de faturação de preço fixo, quer se mantenha na fase de pré-venda ou se é um projeto interno.
 
-Os tópicos seguintes explicam o impacto na tabela Valores Reais em vários eventos para diferentes variações:
+Os artigos seguintes explicam o impacto na tabela Valores Reais em vários eventos para diferentes variações:
 
 - [Impacto do valor real numa cativação de tempo e materiais](ActualsonTM.md)
 - [Impacto real numa cativação de preço fixo](ActualonFP.md)

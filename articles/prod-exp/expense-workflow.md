@@ -1,6 +1,6 @@
 ---
 title: Fluxo de trabalho de gestão de despesas
-description: Este tópico explica como pode usar o sistema de fluxos de trabalho no Microsoft Dynamics 365 Finance, para configurar um processo de revisão para relatórios de despesas na gestão de Despesas.
+description: Este artigo explica como pode usar o sistema de fluxos de trabalho no Microsoft Dynamics 365 Finance, para configurar um processo de revisão para relatórios de despesas na gestão de Despesas.
 author: ShylaThompson
 ms.date: 09/13/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3eb4d57194ce2dd7f80d75c2c765f1cfa48b0348
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 71efc89d9167ef1ee546c67c123efeb37125cc02
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929734"
 ---
 # <a name="expense-management-workflow"></a>Fluxo de trabalho de gestão de despesas
 

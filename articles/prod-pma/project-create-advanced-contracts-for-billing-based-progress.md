@@ -1,6 +1,6 @@
 ---
 title: Criar contratos avançados para faturação baseada em progresso
-description: Este tópico explica como criar contratos de projeto para que possa gerar faturas para os clientes, com base numa percentagem de trabalho concluído.
+description: Este artigo explica como criar contratos de projeto para que possa gerar faturas para os clientes, com base numa percentagem de trabalho concluído.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913680"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Criar contratos avançados para faturação baseada em progresso
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como criar contratos de projeto para que possa criar faturas para os clientes, com base numa percentagem de trabalho concluído. Os valores da fatura são automaticamente calculados para as categorias orçamentais de trabalho que configura para um projeto. O calendário da fatura é definido quando negoceia o contrato do projeto com o cliente.
+Este artigo explica como criar contratos de projeto para que possa criar faturas para os clientes, com base numa percentagem de trabalho concluído. Os valores da fatura são automaticamente calculados para as categorias orçamentais de trabalho que configura para um projeto. O calendário da fatura é definido quando negoceia o contrato do projeto com o cliente.
 
-Utilize os procedimentos deste tópico para configurar um contrato, um projeto associado e as regras de faturação que calculam os valores da fatura para as categorias orçamentais de trabalho que criou para o projeto.
+Utilize os procedimentos neste artigo para configurar um contrato, um projeto associado e as regras de faturação que calculam montantes de fatura para as categorias orçamentais do trabalho que configurar para o projeto.
 
 Depois de ter criado o contrato e o projeto, pode configurar os detalhes do projeto. Por exemplo, pode definir atividades e atribuir trabalhadores ao projeto.
 

@@ -1,6 +1,6 @@
 ---
 title: Unidades e grupos de unidades
-description: Este tópico fornece informações sobre como criar unidades e grupos de unidades no Dynamics 365 Project Operations.
+description: Este artigo fornece informações sobre como criar unidades e grupos de unidades no Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921454"
 ---
 # <a name="units-and-unit-groups"></a>Unidades e grupos de unidades
 
@@ -28,7 +28,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 As unidades são as quantidades ou medidas em que vende os produtos ou serviços. Por exemplo, se vender artigos de jardinagem, poderá vender sementes em unidades de pacotes, caixas e paletes. Um grupo de unidades é uma coleção destas unidades diferentes.
 
-Para completar os passos deste tópico, certifique-se de que lhe foi atribuída a função de Administrador do Sistema ou de Gestor Sales Professional ou que tem permissões equivalentes.
+Para concluir os passos descritos neste artigo, certifique-se de que lhe foi atribuída a função de Administrador de Sistema ou Gestor do Sales Professional ou que tem permissões equivalentes.
 
 ## <a name="create-a-unit-group"></a>Criar um grupo de unidades
 

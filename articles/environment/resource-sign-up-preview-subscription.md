@@ -1,17 +1,17 @@
 ---
 title: Inscreva-se nas subscrições de pré-visualização do Project Operations para os cenários de recursos/não armazenados
-description: Este tópico fornece informações sobre como subscrever e implementar o Project Operations para cenários baseados em recursos/não armazenados.
+description: Este artigo fornece informações sobre como subscrever e implementar o Project Operations para cenários baseados em recursos/não abastecidos.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920120"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Inscreva-se nas subscrições de pré-visualização do Project Operations para os cenários de recursos/não armazenados
 
@@ -19,7 +19,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 
 
-Este tópico explica como subscrever a oferta de avaliação e implementar o ambiente do Project Operations para os cenários baseados em recursos/não armazenados.
+Este artigo explica como subscrever a oferta de avaliação e implementar o ambiente do Project Operations para cenários baseados em recursos/não abastecidos.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 - O utilizador que implementar a pré-visualização tem de ter direitos de administrator global do inquilino do Azure. Poderá criar um inquilino durante o primeiro resgate da oferta. 
@@ -60,19 +60,19 @@ Vá para [Avaliação da Pré-visualização do Dynamics 365 for Finance](https:
 
 ## <a name="start-a-new-project-in-lcs"></a>Iniciar um novo projeto no LCS
 
-Criar um novo projeto LCS conforme descrito no tópico [Iniciar um novo projeto no LCS](create-lcs-project.md)
+Criar um novo projeto LCS conforme descrito no artigo [Iniciar um novo projeto no LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adicionar uma subscrição do Azure a um projeto LCS
 
-Para concluir esta tarefa, siga os passos na tópico, [Adicionar uma subscrição do Azure ao projeto LCS](resource-add-azure-subscription-lcs-project.md).
+Para concluir esta tarefa, siga os passos descritos no artigo [Adicionar uma subscrição do Azure ao projeto LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementar o ambiente de demonstração do Finance com o Project Operations para cenários de recursos/non armazenados
 
-Siga as orientações no tópico [Aprovisionar um novo ambiente](resource-provision-new-environment.md) para concluir a implementação. Utilize o tipo de implementação do [ambiente de demonstração](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para pré-visualização. 
+Siga as orientações fornecidas no artigo [Aprovisionar um novo ambiente](resource-provision-new-environment.md) para concluir a implementação. Utilize o tipo de implementação do [ambiente de demonstração](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para pré-visualização. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalar dados de configuração do CDS
 
-Instale os dados de configuração do CDS descritos no tópico [Configurar e aplicar dados de configuração no Common Data Service](resource-apply-pro-setup-config-data.md).
+Instale os dados de preparação e configuração do CDS, conforme descrito no artigo [Configurar e aplicar dados de configuração no Common Data Service](resource-apply-pro-setup-config-data.md).
 Conclua este passo apenas após a implementação do ambiente de demonstração do Finance e de os dados de demonstração estarem prontos.
 
 

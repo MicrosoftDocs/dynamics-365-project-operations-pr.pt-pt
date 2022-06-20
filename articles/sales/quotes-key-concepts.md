@@ -1,6 +1,6 @@
 ---
 title: Propostas - Conceitos-chave
-description: Este tópico fornece informações sobre as propostas do projeto e as propostas de vendas que estão disponíveis em Operações de Projeto.
+description: Este artigo fornece informações sobre propostas de projeto e propostas de vendas disponíveis no Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912530"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Conceitos exclusivos de propostas baseadas em Projetos
 
@@ -35,7 +35,7 @@ No Dynamics 365 Project Operations, existem dois tipos de propostas e vendas. Os
 - **Campos e conceitos**: Uma proposta de vendas não inclui alguns campos e conceitos que estão incluídos numa proposta de projeto. Os campos incluem **Unidade de Contratação**, **Gestor de Contas** e **Nome do Contacto para Faturação**.  
 - **Tipo**: As propostas de vendas e do projeto também são identificadas por um campo baseado no conjunto de opções, **Tipo**. Para uma proposta de vendas, este campo tem o valor **Baseado em item**. Para uma proposta do projeto, tem o valor **Baseado em trabalho**.
 
-Este tópico concentra-se nos detalhes das propostas do projeto.
+Este artigo concentra-se nos detalhes das propostas do projeto.
 
 Uma proposta do projeto nas Operações do projeto pode ter múltiplos itens de linha ou linhas de proposta. Na verdade, uma proposta do projeto tem duas grelhas para os itens de linha. Uma grelha destina-se às linhas baseadas em projetos que permitem estimativas detalhadas. A outra grelha destina-se às linhas baseadas em produtos que utilizam um preço unitário simples e uma abordagem baseada em quantidade.
 

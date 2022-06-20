@@ -1,6 +1,6 @@
 ---
 title: Aplicação de despesas móvel
-description: Este tópico fornece informações sobre a área de trabalho móvel da gestão de despesas.
+description: Este artigo fornece informações sobre a área de trabalho móvel da Gestão de despesas.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930240"
 ---
 # <a name="mobile-expense-app"></a>Aplicação de despesas móvel
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Este tópico fornece informações sobre a área de trabalho móvel da **gestão de despesas**. Esta área de trabalho permite que os utilizadores recolham e carreguem um recibo, para que possam anexá-lo a um relatório de despesas mais tarde. Os utilizadores também podem criar rapidamente uma linha de despesas usando um recibo anexo, e criar e gerir os seus relatórios de despesas. Além disso, os aprovadores podem usar a área de trabalho móvel da **gestão de despesas** para visualizar relatórios de despesas que lhes são atribuídos, e aprovar ou rejeitar esses relatórios de despesas.
+Este artigo fornece informações sobre a área de trabalho móvel da **Gestão de despesas**. Esta área de trabalho permite que os utilizadores recolham e carreguem um recibo, para que possam anexá-lo a um relatório de despesas mais tarde. Os utilizadores também podem criar rapidamente uma linha de despesas usando um recibo anexo, e criar e gerir os seus relatórios de despesas. Além disso, os aprovadores podem usar a área de trabalho móvel da **gestão de despesas** para visualizar relatórios de despesas que lhes são atribuídos, e aprovar ou rejeitar esses relatórios de despesas.
 
 Esta área de trabalho móvel destina-se a ser utilizada com a aplicação móvel Dynamics 365 Unified Ops.
 

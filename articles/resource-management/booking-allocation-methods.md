@@ -1,6 +1,6 @@
 ---
 title: Reservar métodos de alocação
-description: Esta tópico fornece informações sobre como os métodos de atribuição de reservas funcionam nas Operações do Projeto.
+description: Este artigo fornece informações sobre como funciona a reserva de métodos de alocação no Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912760"
 ---
 # <a name="booking-allocation-methods"></a>Reservar métodos de alocação
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Se adicionar um membro da equipa diretamente a um projeto no separador **Equipa** ou reservar um recurso para um projeto ou requisito a partir do quadro da Agenda, existem alguns métodos de alocação de reserva diferentes que pode utilizar. Este tópico explica como funciona cada método e quais os métodos que poderão resultar em excesso de reservas dos recursos.
+Se adicionar um membro da equipa diretamente a um projeto no separador **Equipa** ou reservar um recurso para um projeto ou requisito a partir do quadro da Agenda, existem alguns métodos de alocação de reserva diferentes que pode utilizar. Este artigo explica como funciona cada método e quais os métodos que poderão resultar em excesso de reservas dos recursos.
 
 ## <a name="booking-allocation-methods"></a>Reservar métodos de alocação
 

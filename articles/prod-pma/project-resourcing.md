@@ -1,6 +1,6 @@
 ---
 title: Home page de atribuição de recursos de projetos
-description: Este tópico fornece informações sobre a atribuições de recursos do projeto.
+description: Este artigo fornece informações sobre a atribuição de recursos do projeto.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924030"
 ---
 # <a name="project-resourcing-home-page"></a>Home page de atribuição de recursos de projetos
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre a atribuições de recursos do projeto.
+Este artigo fornece informações sobre a atribuição de recursos do projeto.
 
 Um desafio para os gestores de projetos e os gestores de recursos durante a fase de planeamento do projeto é a atribuição de recursos, onde têm de determinar e reservar o recurso correto para trabalhar num projeto. No Dynamics 365 Finance, o resourcing de capacidades para projetos permite-lhe definir funções que são tratadas como recursos temporários que podem ser reservados para um compromisso específico ou parte de um compromisso. Este tipo de atribuição de recursos permite aos gestores de projetos e aos gestores de recursos executar as seguintes tarefas:
 
@@ -41,7 +41,7 @@ Um desafio para os gestores de projetos e os gestores de recursos durante a fase
 
 À medida que o planeamento do projeto avança, os recursos planeados podem ser substituídos por recursos de pessoal. O gestor de projetos também pode retroceder e atualizar as reservas de atribuição de recursos durante qualquer fase do projeto.
 
-Os seguintes tópicos fornecem informações sobre as tarefas que precisam de ser concluídas quando está a trabalhar em projetos de atribuição de recursos.
+Os artigos que se seguem fornecem informações sobre as tarefas que têm de ser concluídas quando está a trabalhar em atribuição de recursos do projeto.
 
 - [Configurar recursos do projeto](set-up-project-resources.md)
 - [Gerir competências de recursos](manage-resource-competencies.md)

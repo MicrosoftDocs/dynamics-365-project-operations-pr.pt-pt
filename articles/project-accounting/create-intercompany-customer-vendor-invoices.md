@@ -1,17 +1,17 @@
 ---
 title: Criar faturas de clientes e fornecedores interempresa
-description: Este tópico fornece informações sobre como criar faturas de clientes e fornecedores interempresa.
+description: Este artigo fornece informações sobre como criar faturas de cliente e de fornecedor interempresa.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd7696c32760423c876362ca3ae0ee2c7b5716e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916394"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Criar faturas de clientes e fornecedores interempresa
 

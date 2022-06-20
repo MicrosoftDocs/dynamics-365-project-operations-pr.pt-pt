@@ -1,25 +1,25 @@
 ---
 title: O que há de novo março de 2021 - Implementação de Project Operations lite
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de março de 2021 da implementação do Project Operations lite – negócio para faturação pró-forma.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de março de 2021 da implementação do Project Operations Lite.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913910"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>O que há de novo março de 2021 - Implementação de Project Operations lite
 
 _Aplica-se a: Implementação lite – negócio para faturação pró-forma_
 
 
-Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Project Operations na versão 4.8.0.91 do ambiente Dataverse 
 

@@ -1,6 +1,6 @@
 ---
 title: Criar modelos de previsão para orçamentos de projetos
-description: Este tópico descreve como criar um modelo de previsão para os restantes orçamentos.
+description: Este artigo descreve como criar um modelo de previsão para os orçamentos restantes.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916716"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Criar modelos de previsão para orçamentos de projetos 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar um modelo de previsão para os restantes orçamentos. Um projeto que está sujeito ao controlo orçamental utiliza dois tipos de orçamentos: originais e restantes. Quando criar um orçamento de projeto, deve especificar os modelos de previsão orçamental originais e restantes que foram criados na página de **Modelos de previsão**. Os orçamentos do projeto com base nos modelos especificados são criados quando submete o orçamento do projeto.
+Este artigo descreve como criar um modelo de previsão para os orçamentos restantes. Um projeto que está sujeito ao controlo orçamental utiliza dois tipos de orçamentos: originais e restantes. Quando criar um orçamento de projeto, deve especificar os modelos de previsão orçamental originais e restantes que foram criados na página de **Modelos de previsão**. Os orçamentos do projeto com base nos modelos especificados são criados quando submete o orçamento do projeto.
 
 > [!NOTE]
 > Um modelo de previsão que é usado para o controlo orçamental não pode ter um submodelo ou ser usado como um submodelo.

@@ -1,17 +1,17 @@
 ---
 title: Detalhes do cabeçalho para faturas do fornecedor
-description: Este tópico explica a funcionalidade que é fornecida no cabeçalho da fatura do fornecedor no Microsoft Dynamics 365 Project Operations.
+description: Este artigo explica a funcionalidade que é fornecida no cabeçalho da fatura do fornecedor no Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929872"
 ---
 # <a name="header-details-for-vendor-invoices"></a>Detalhes do cabeçalho para faturas do fornecedor
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575594"
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-Este tópico explica a funcionalidade que é fornecida no cabeçalho da fatura do fornecedor no Microsoft Dynamics 365 Project Operations.
+Este artigo explica a funcionalidade que é fornecida no cabeçalho da fatura do fornecedor no Microsoft Dynamics 365 Project Operations.
 
 À medida que os gestores do projeto planeiam e executam projetos, poderão utilizar subcontratantes e adquirir produtos e serviços a fornecedores. Durante a execução de um projeto, os custos são incorridos com serviços, materiais e categorias de despesas obtidos em subcontratações com fornecedores. Os fornecedores faturam estes custos aos projetos criando faturas de fornecedores.
 

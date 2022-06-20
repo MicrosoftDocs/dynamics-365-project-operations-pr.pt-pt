@@ -1,24 +1,24 @@
 ---
 title: O que há de novo fevereiro de 2022 - Implementação de Project Operations lite
-description: Este tópico fornece informações sobre as atualizações de qualidade que estão disponíveis na versão de fevereiro de 2022 da implementação do Project Operations Lite.
+description: Este artigo fornece informações sobre as atualizações de qualidade que estão disponíveis na versão de fevereiro de 2022 da implementação do Project Operations Lite.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922834"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>O que há de novo fevereiro de 2022 - Implementação de Project Operations lite
 
 _Aplica-se a: Implementação lite – negócio para faturação pró-forma_
 
-Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
 - Project Operations num ambiente Dataverse, versão 4.28.0.120
 

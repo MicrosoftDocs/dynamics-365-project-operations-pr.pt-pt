@@ -1,17 +1,17 @@
 ---
 title: Corrigir a gestão contabilística nas propostas de fatura do projeto de rascunho
-description: Este tópico explica como ajustar as informações relacionadas com a gestão contabilística numa proposta de fatura de rascunho.
+description: Este artigo explica como ajustar as informações relacionadas com contabilidade numa proposta de fatura de rascunho.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921224"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Corrigir a gestão contabilística nas propostas de fatura do projeto de rascunho
 
@@ -19,7 +19,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 
 Os *detalhes operacionais* das faturas do projeto são mantidos pelo gestor de projeto numa fatura pro forma. Estes detalhes incluem a decisão sobre as horas, as despesas, os materiais ou os marcos que têm de ser faturados, as tarifas, e a aplicação de montantes de adiantamento e de sinal. Depois de confirmar a fatura pro forma original, pode ajustar os detalhes operacionais ao criar e confirmar uma [fatura pro forma de correção](../proforma-invoicing/corrective-invoices.md).
 
-Os *detalhes contabilísticos* para as faturas do projeto são mantidos num documento de fatura orientado para o cliente. Estes detalhes incluem o cálculo do imposto sobre vendas e as dimensões financeiras que são aplicadas à fatura. Esta tópico fornece detalhes sobre como estes detalhes contabilísticos podem ser ajustados numa proposta de fatura do projeto de rascunho.
+Os *detalhes contabilísticos* para as faturas do projeto são mantidos num documento de fatura orientado para o cliente. Estes detalhes incluem o cálculo do imposto sobre vendas e as dimensões financeiras que são aplicadas à fatura. Este artigo fornece detalhes sobre como estes detalhes de contabilidade podem ser ajustados numa proposta de fatura de projeto de rascunho.
 
 ## <a name="adjust-sales-tax"></a>Ajustar imposto sobre vendas
 

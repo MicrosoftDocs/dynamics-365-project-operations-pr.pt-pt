@@ -1,6 +1,6 @@
 ---
 title: Propostas e linhas de proposta
-description: Este tópico fornece informações sobre propostas e linhas de proposta.
+description: Este artigo fornece informações sobre propostas e linhas de proposta.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933368"
 ---
 # <a name="quotes-and-quote-lines"></a>Propostas e linhas de proposta
 
@@ -39,7 +39,7 @@ No Dynamics 365 Project Service Automation, existem dois tipos de propostas: pro
 - Uma proposta de vendas não inclui alguns campos e conceitos que estão incluídos numa proposta de projeto com campos. Os campos incluem **Unidade de Contratação**, **Gestor de Contas** e **Nome do Contacto para Faturação**.  
 - As propostas de vendas e as propostas do projeto também são identificadas por um campo baseado no conjunto de opções com o nome **Tipo**. Para uma proposta de vendas, este campo tem o valor **Baseado em item**. Para uma proposta do projeto, tem o valor **Baseado em trabalho**.
 
-Este tópico irá concentrar-se nos detalhes das propostas do projeto.
+Este artigo irá concentrar-se nos detalhes das propostas do projeto.
 
 Uma proposta do projeto no PSA pode ter múltiplos itens de linha ou linhas de proposta. Na verdade, uma proposta do projeto tem duas grelhas para os itens de linha. Uma grelha destina-se às linhas baseadas em projetos que permitem estimativas detalhadas. A outra grelha destina-se às linhas baseadas em produtos que utilizam um preço unitário simples e uma abordagem baseada em quantidade.
 

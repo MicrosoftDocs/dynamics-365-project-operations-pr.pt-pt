@@ -1,18 +1,18 @@
 ---
 title: Configure materiais não armazenados e faturas pendentes do fornecedor
-description: Esta tópico explica como permitir materiais não armazenados e faturas pendentes do fornecedor.
+description: Este artigo explica como ativar materiais não abastecidos e faturas pendentes de fornecedores.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913772"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configure materiais não armazenados e faturas pendentes do fornecedor
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Executar mapas de escrita dupla para materiais não armazenados e integração de faturas de fornecedor
 
-Esta secção fornece informações sobre os mapas específicos necessários para materiais não armazenados e faturas do fornecedor. Verifique se os mapas de pré-requisitos listados no tópico [Aprovisionar um novo ambiente](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) estão em execução no seu ambiente.
+Esta secção fornece informações sobre os mapas específicos necessários para materiais não armazenados e faturas do fornecedor. Verifique se os mapas de pré-requisito listados no artigo [Aprovisionar um novo ambiente](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) estão em execução no seu ambiente.
 
 1. Vá aos Lifecycle Services (LCS), navegue para o seu projeto LCS e vá à página de **Detalhes do Ambiente**.
 2. Na secção de **Common Data Service Informação de ambiente**, selecione **Ligar a CDS for Apps**. Depois de selecionar a ligação, será redirecionado para a lista de entidades nos mapeamentos.

@@ -1,22 +1,22 @@
 ---
 title: Integração de fatura de projeto
-description: Este tópico fornece informações sobre a integração de escrita dupla do Project Operations para faturação de cliente.
+description: Este artigo fornece informações sobre a integração de escrita dupla do Project Operations para faturação de clientes.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912116"
 ---
 # <a name="project-invoice-integration"></a>Integração de fatura de projeto
 
-Este tópico fornece informações sobre a integração de escrita dupla do Project Operations para faturação de cliente.
+Este artigo fornece informações sobre a integração de escrita dupla do Project Operations para faturação de clientes.
 
 No Project Operations, o gestor do Projeto gere o atraso na faturação do projeto e cria uma fatura proforma para o cliente em Microsoft Dataverse. Com base nesta fatura proforma, o escriturário de contas a receber ou contabilista do Projeto cria uma fatura virada para o cliente. A integração de escrita dupla assegura que os detalhes da fatura pro-forma são sincronizados com as aplicações Finanças e Operações. Após a publicação da fatura virada para o cliente, o sistema atualiza os resultados do projeto relevante em Dataverse com o detalhe contabilístico. O gráfico a seguir proporciona uma visão conceptual de alto nível desta integração.
 

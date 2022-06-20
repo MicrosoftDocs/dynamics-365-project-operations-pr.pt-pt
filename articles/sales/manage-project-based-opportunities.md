@@ -1,17 +1,17 @@
 ---
 title: Gerir oportunidades baseadas em projetos
-description: Este tópico fornece informações sobre como trabalhar com oportunidades relacionadas com projetos.
+description: Este artigo fornece informações sobre como trabalhar com oportunidades relacionadas com projetos.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933230"
 ---
 # <a name="manage-project-based-opportunities"></a>Gerir oportunidades baseadas em projetos
 
@@ -19,7 +19,7 @@ _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem
 
 As empresas baseadas em projetos normalmente têm as suas operações de entrega espalhadas por vários países e geografias. O custo da execução e entrega do projeto pode variar em função do qual a geografia ou divisão gere a entrega. Por sua vez, isto pode ter impacto nas margens do negócio. A prestação de serviços baseados em projetos envolve normalmente grandes quantidades de tempo de recursos humanos, despesas consideráveis para viagens, custos materiais e outras despesas.
 
-As oportunidades baseadas no Dynamics 365 Project Operations são projetadas com extensões à Dynamics 365 Sales. O tópico fornece detalhes sobre as diferentes áreas e lógica de negócio incluída na funcionalidade adicional que é exigida pelas empresas baseadas em projetos para gerir oportunidades baseadas em projetos.
+As oportunidades baseadas no Dynamics 365 Project Operations são projetadas com extensões à Dynamics 365 Sales. O artigo fornece detalhes sobre os diferentes campos e a lógica de negócio incluídos na funcionalidade adicional requerida pelas empresas baseadas em projetos para gerir oportunidades baseadas em projetos.
 
 ## <a name="view-all-project-based-opportunities"></a>Ver todas as oportunidades baseadas em projetos
 

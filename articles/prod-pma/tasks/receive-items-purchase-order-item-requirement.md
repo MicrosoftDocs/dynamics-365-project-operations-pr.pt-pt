@@ -1,6 +1,6 @@
 ---
 title: Receber itens na nota de encomenda a partir do requisito do item
-description: Este tópico explica como receber itens numa nota de encomenda a partir de um requisito de item.
+description: Este artigo explica como receber itens numa nota de encomenda de um requisito de item.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929550"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Receber itens na nota de encomenda a partir do requisito do item
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como receber itens numa nota de encomenda a partir de um requisito de item.
+Este artigo explica como receber itens numa nota de encomenda de um requisito de item.
 
 Ao utilizar um requisito de item em vez de uma transação de item, pode planear a entrega imediatamente antes de o item ser realmente utilizado, criar uma nota de encomenda, incluir o item no quadro do acordo comercial e incluir o requisito de item no planeamento da produção. 
 

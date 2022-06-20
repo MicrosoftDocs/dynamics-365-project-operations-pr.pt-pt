@@ -1,6 +1,6 @@
 ---
 title: Despesas per diem
-description: Este tópico fornece informações sobre como trabalhar com despesas per diem.
+description: Este artigo fornece informações sobre como trabalhar com despesas diárias.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923202"
 ---
 # <a name="per-diem-expenses"></a>Despesas per diem
 
 > [!IMPORTANT] 
-> A funcionalidade descrita neste tópico está disponível para utilizadores específicos como parte de uma versão de pré-visualização.
+> A funcionalidade descrita neste artigo está disponível para utilizadores específicos como parte de uma versão de pré-visualização.
 
 Um pagamento per diem é uma ajuda de custo diária fixa e predeterminada que a empresa paga aos seus colaboradores para alojamento (hotéis), refeições e despesas adicionais em que esses colaboradores incorrem quando viajam em trabalho. A empresa paga este valor aos colaboradores em vez de pagar as despesas reais de viagem. Os colaboradores podem utilizar as suas ajudas de custo per diem **Adicionais/Outras** para cobrir gorjetas, serviço de quartos, lavandaria ou serviços de limpeza a seco para reuniões de negócios importantes. A tarifa per diem pode variar, dependendo se o empregador opta por reembolsar o custo combinado de alojamento e refeições ou apenas o custo das refeições e adicionais.
 

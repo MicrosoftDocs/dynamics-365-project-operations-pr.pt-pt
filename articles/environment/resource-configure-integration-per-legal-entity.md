@@ -1,23 +1,23 @@
 ---
 title: Configurar a integração do Project Operations por entidade legal
-description: Este tópico fornece informações sobre como configurar integração por entidade legal no Project Operations.
+description: Este artigo fornece informações sobre configurar a integração por entidade legal no Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914692"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurar a integração do Project Operations por entidade legal 
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-Este tópico percorre os passos necessários para configurar o Dynamics 365 Project Operations por entidade legal.
+Este artigo orienta-o ao longo dos passos necessários para configurar o Dynamics 365 Project Operations por entidade legal.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Ativar chaves de funcionalidade no Dynamics 365 Finance
 

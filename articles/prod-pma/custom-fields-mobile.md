@@ -1,6 +1,6 @@
 ---
 title: Implementar campos personalizados para a aplicação móvel do Microsoft Dynamics 365 Project Timesheet em iOS e Android
-description: Este tópico fornece padrões comuns para utilizar extensões para implementar campos personalizados.
+description: Este artigo fornece padrões comuns para a utilização de extensões para implementar campos personalizados.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913726"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para a aplicação móvel do Microsoft Dynamics 365 Project Timesheet em iOS e Android
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece padrões comuns para utilizar extensões para implementar campos personalizados. São abordados os seguintes tópicos:
+Este artigo fornece padrões comuns para a utilização de extensões para implementar campos personalizados. OS artigos que se seguem estão abrangidos:
 
 - Os vários tipos de dados suportados pela arquitetura de campos personalizados
 - Como mostrar os campos só de leitura ou editáveis nas entradas da folha de horas, e guardar os valores fornecidos pelo utilizador na base de dados
@@ -35,7 +35,7 @@ Este tópico fornece padrões comuns para utilizar extensões para implementar c
 
 ## <a name="audience"></a>Audiência
 
-Este tópico destina-se aos programadores que estão a integrar os seus campos personalizados na aplicação móvel do Microsoft Dynamics 365 Project Timesheet que está disponível para Apple iOS e Google Android. O pressuposto é que os leitores estejam familiarizados com a programação em X++ e a funcionalidade de folha de horas do projeto.
+Este artigo destina-se a programadores que estão a integrar os respetivos campos personalizados na aplicação móvel Microsoft Dynamics 365 Project Timesheet que está disponível para Apple iOS e Google Android. O pressuposto é que os leitores estejam familiarizados com a programação em X++ e a funcionalidade de folha de horas do projeto.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Contrato de dados: classe TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ A propriedade **FieldBaseType** no objeto **TsTimesheetCustom** determina o tipo
 
 - Se a propriedade **stringOptions** for fornecida no objeto **TSTimesheetCustomField**, esses elementos de lista são os únicos valores que os utilizadores podem selecionar através dos botões de opção.
 
-    Neste caso, o campo de cadeia de caracteres pode funcionar como um valor de enumeração para efeitos de introdução do utilizador. Para guardar o valor na base de dados como uma enumeração, mapeie manualmente o valor da cadeia de caracteres para o valor de enumeração antes de guardar na base de dados através da cadeia de comando (consulte a secção "Utilizar a cadeia do comando na classe TSTimesheetEntryService para guardar uma entrada na folha de horas da aplicação de volta à base de dados" mais à frente neste tópico para ver um exemplo).
+    Neste caso, o campo de cadeia de caracteres pode funcionar como um valor de enumeração para efeitos de introdução do utilizador. Para guardar o valor na base de dados como um número de carateres, mapeie manualmente o valor da cadeia novamente para o valor de enumeração antes de o guardar na base de dados utilizando a cadeia de comando (consulte a secção "Utilizar cadeia de comando na classe TSTimesheetEntryService para guardar uma entrada de folha de cálculo de tempo da aplicação novamente na base de dados", posteriormente neste artigo para ver um exemplo).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Esta propriedade especifica a etiqueta que é mostrada junto ao campo na aplica�
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-Esta propriedade só é aplicável quando **fieldBaseType** estiver definido como **String**. Se **stringOptions** estiver definido, os valores da cadeia de caracteres que estão disponíveis para seleção através dos botões de opção são especificados pelas cadeias de caracteres na lista. Se não forem fornecidas cadeias de caracteres, é permitida a introdução de texto livre no campo de cadeia de caracteres (consulte a secção "Utilizar a cadeia de comando na classe TSTimesheetEntryService para guardar uma entrada da folha de horas da aplicação de volta na base de dados" mais à frente neste tópico para ver um exemplo).
+Esta propriedade só é aplicável quando **fieldBaseType** estiver definido como **String**. Se **stringOptions** estiver definido, os valores da cadeia de caracteres que estão disponíveis para seleção através dos botões de opção são especificados pelas cadeias de caracteres na lista. Se não forem fornecidas cadeias, é permitida a entrada de texto livre no campo de cadeia (consulte a secção "Utilizar cadeia de comando na classe TSTimesheetEntryService para guardar uma entrada de folha de cálculo de tempo da aplicação novamente na base de dados", posteriormente neste artigo para ver um exemplo).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

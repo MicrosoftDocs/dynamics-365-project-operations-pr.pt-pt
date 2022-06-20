@@ -1,17 +1,17 @@
 ---
 title: Descrição geral da faturação interempresa
-description: Este tópico fornece informações e exemplos sobre a faturação interempresa para projetos.
+description: Este artigo fornece informações e exemplos sobre a faturação entre empresas para projetos.
 author: sigitac
 ms.date: 11/19/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd17f6542558bae9d4b97d0a92aefae52571cfa8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913588"
 ---
 # <a name="intercompany-invoicing-overview"></a>Descrição geral da faturação interempresa
 

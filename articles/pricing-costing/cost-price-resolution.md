@@ -1,17 +1,17 @@
 ---
 title: Resolução dos preços de custo para estimativas e valores reais
-description: Este tópico fornece informações sobre a resolução dos preços de custo para estimativas e valores reais.
+description: Este artigo fornece informações sobre a forma como os preços de custo para estimativas e valores reais são resolvidos.
 author: rumant
 ms.date: 04/09/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7395a1845f4a895efbabda36ba3b2a2f3c1eea52
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919982"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Resolução dos preços de custo para estimativas e valores reais
 

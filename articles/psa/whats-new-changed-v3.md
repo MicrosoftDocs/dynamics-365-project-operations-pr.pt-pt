@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Project Service Automation versão 3
-description: Este tópico inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3.
+description: Este artigo inclui informações sobre o que há de novo e o que foi alterado na versão 3 do Project Service Automation.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926606"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novidades ou alterações no Project Service Automation versão 3
 
@@ -150,7 +150,7 @@ Quando tem atribuições de tarefas para um recurso, mas nenhuma reserva (uma fa
 Esta secção inclui informações sobre as alterações de tempo, despesas e aprovações no Project Service Automation versão 3. Como parte da solução Dynamics 365 Project Service Automation, o recurso **Entrada de tempo** foi atualizado para aproveitar a arquitetura da Interface Unificada. Isto permite a entrega de uma interface de utilizador consistente e uniforme que segue um design responsivo para uma visualização ideal em qualquer tamanho de ecrã ou dispositivo. 
 
 ### <a name="landing-page"></a>Página de destino
-A experiência de entrada de tempo personalizada não extensível foi preterida na versão 3. Em vez disso, agora há uma experiência de grelha nativa extensível e acessível. Pode aceder à funcionalidade de entrada de tempo utilizando o mapa do site à esquerda. Com esta alteração, já não poderá introduzir o tempo para uma semana de uma só vez. Em vez disso, deverá criar uma entrada de tempo para cada dia na grelha. Após a criação de algumas entradas de tempo, os utilizadores poderão criar entradas de tempo em massa com a função **Copiar** explicada mais adiante neste tópico. 
+A experiência de entrada de tempo personalizada não extensível foi preterida na versão 3. Em vez disso, agora há uma experiência de grelha nativa extensível e acessível. Pode aceder à funcionalidade de entrada de tempo utilizando o mapa do site à esquerda. Com esta alteração, já não poderá introduzir o tempo para uma semana de uma só vez. Em vez disso, deverá criar uma entrada de tempo para cada dia na grelha. Após a criação de algumas entradas de tempo, os utilizadores poderão criar entradas de tempo em massa com a função **Copiar** explicada mais adiante neste artigo. 
 
 ![Página de destino de entrada de tempo.](media/time-entry-landing-page-07.png)
  

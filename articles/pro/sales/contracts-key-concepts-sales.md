@@ -1,17 +1,17 @@
 ---
 title: Contratos de projeto – Conceitos chave – lite
-description: Este tópico fornece informações sobre conceitos chave e contratos de projetos.
+description: Este artigo fornece informações sobre os principais conceitos de contratos do projeto.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932678"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Conceitos exclusivos de Contratos de Projetos
 
@@ -19,7 +19,7 @@ _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró
 
 
 
-Este tópico fornece os conceitos-chave de que deve estar ciente antes de começar a usar contratos de Projeto no Dynamics 365 Project Operations:
+Este artigo fornece os principais conceitos a ter em conta antes de começar a utilizar os contratos de Projeto no Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unidade de Contratação
 

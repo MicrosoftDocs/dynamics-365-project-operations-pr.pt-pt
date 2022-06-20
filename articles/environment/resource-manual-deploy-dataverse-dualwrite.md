@@ -1,25 +1,25 @@
 ---
 title: Implementar manualmente a aplicação Project Operations Dataverse com suporte de escrita dupla
-description: Este tópico explica como implementar manualmente a aplicação Project Operations Dataverse para suportar a escrita dupla.
+description: Este artigo explica como implementar manualmente a aplicação Dataverse do Project Operations para suportar escrita dupla.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591234"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912024"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Implementar manualmente a aplicação Project Operations Dataverse com suporte de escrita dupla
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-Este tópico explica como implementar manualmente o Microsoft Dynamics 365 Project Operations no Microsoft Dataverse para suportar a escrita dupla. O Project Operations deteta a configuração do ambiente e inclui suporte adicional para escrita dupla se os requisitos forem satisfeitos.
+Este artigo explica como implementar manualmente o Microsoft Dynamics 365 Project Operations no Microsoft Dataverse para suportar escrita dupla. O Project Operations deteta a configuração do ambiente e inclui suporte adicional para escrita dupla se os requisitos forem satisfeitos.
 
-Durante a implementação através do Microsoft Dynamics Lifecycle Services (LCS), se seguiu as instruções neste tópico, pode ignorar a implementação da integração do Microsoft Power Platform (anteriormente conhecido como ambiente Common Data Service).
+Durante a implementação através do Microsoft Dynamics Lifecycle Services (LCS), se tiver seguido as instruções neste artigo, pode ignorar a implementação da integração do Microsoft Power Platform (anteriormente conhecido como ambiente do Common Data Service).
 
 O processo de implementação do Project Operations no Dataverse para suportar escrita dupla tem quatro passos principais:
 

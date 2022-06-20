@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações na Versão da Atualização 29.5 do Project Service Automation Hotfix, V3
-description: Este tópico lista as funcionalidades e correções disponíveis no Project Service Automation V3, Versão da Atualização 29.5, Hotfix, V3.
+description: Este artigo lista as funcionalidades e correções disponíveis na Correção de Versão 29.5 da Atualização do Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: df0f486a3a3d592b8780671ab05ed26f97df24ea
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: a023a2e777b04575bf31a55f1104bacbdf346744
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926376"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-295-v3"></a>Novidades ou alterações na Versão da Atualização 29.5 do Project Service Automation, V3
 
 Temos o prazer de anunciar a mais recente atualização à aplicação Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
-Este tópico lista as funcionalidades e correções novas ou alteradas para o Project Service Automation V3, Versão da Atualização 29.5. Esta versão tem um número de compilação de V3.10.47.150 e está geralmente disponível através de uma Atualização automática em janeiro de 2021.
+Este artigo lista as funcionalidades e correções novas ou alteradas para a Versão 29.5 da Atualização do Project Service Automation V3. Esta versão tem um número de compilação de V3.10.47.150 e está geralmente disponível através de uma Atualização automática em janeiro de 2021.
 
 ## <a name="update-release-295"></a>Versão da Atualização 29.5
 

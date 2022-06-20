@@ -1,6 +1,6 @@
 ---
 title: Área de trabalho móvel de gestão de despesas
-description: Este tópico fornece informações sobre a área de trabalho móvel da gestão de despesas. Esta área de trabalho permite que os utilizadores recolham e carreguem um recibo, para que possam anexá-lo a um relatório de despesas mais tarde. Os utilizadores também podem criar rapidamente uma linha de despesas usando um recibo anexo, e criar e gerir os seus relatórios de despesas.
+description: Este artigo fornece informações sobre a área de trabalho móvel da Gestão de despesas. Esta área de trabalho permite que os utilizadores recolham e carreguem um recibo, para que possam anexá-lo a um relatório de despesas mais tarde. Os utilizadores também podem criar rapidamente uma linha de despesas usando um recibo anexo, e criar e gerir os seus relatórios de despesas.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920902"
 ---
 # <a name="expense-management-mobile-workspace"></a>Área de trabalho móvel de gestão de despesas
 
-Este tópico fornece informações sobre a área de trabalho móvel da **gestão de despesas**. Esta área de trabalho permite que os utilizadores recolham e carreguem um recibo, para que possam anexá-lo a um relatório de despesas mais tarde. Os utilizadores também podem criar rapidamente uma linha de despesas usando um recibo anexo, e criar e gerir os seus relatórios de despesas. Além disso, os aprovadores podem usar a área de trabalho móvel da **gestão de despesas** para visualizar relatórios de despesas que lhes são atribuídos, e aprovar ou rejeitar esses relatórios de despesas.
+Este artigo fornece informações sobre a área de trabalho móvel da **Gestão de despesas**. Esta área de trabalho permite que os utilizadores recolham e carreguem um recibo, para que possam anexá-lo a um relatório de despesas mais tarde. Os utilizadores também podem criar rapidamente uma linha de despesas usando um recibo anexo, e criar e gerir os seus relatórios de despesas. Além disso, os aprovadores podem usar a área de trabalho móvel da **gestão de despesas** para visualizar relatórios de despesas que lhes são atribuídos, e aprovar ou rejeitar esses relatórios de despesas.
 
 
 Esta área de trabalho móvel destina-se a ser utilizada com a aplicação móvel Dynamics 365 Unified Ops.
@@ -99,7 +99,7 @@ Descarregue e instale a aplicação móvel Dynamics 365 Unified Ops:
 5. Depois de iniciar sessão, são mostradas as áreas de trabalho disponíveis para a sua empresa. Note que, se o seu administrador de sistema publicar uma nova área de trabalho mais tarde, terá de atualizar a lista de áreas de trabalho móveis.
 
 
-[![Pull to refresh.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Puxe para atualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Recolha um recibo utilizando a área de trabalho móvel de gestão de despesas
 

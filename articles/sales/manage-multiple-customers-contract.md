@@ -1,21 +1,21 @@
 ---
 title: Gerir vários clientes em contratos de projetos
-description: Este tópico fornece informações sobre como gerir vários clientes num contrato de projeto.
+description: Este artigo fornece informações sobre como gerir vários clientes num contrato de projeto.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928354"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Gerir vários clientes em contratos de projetos
 
-Este tópico fornece informações sobre como gerir vários clientes num contrato de projeto. Pode usar um contrato de projeto quando um acordo contratual para vários clientes é necessário para financiar um negócio. Na página **Contrato de Projeto**, o separador **Resumo** inclui informações sobre o cliente principal para um negócio. Outros clientes que participam no negócio podem ser adicionados ao separador **Clientes**.
+Este artigo fornece informações sobre como gerir vários clientes num contrato de projeto. Pode usar um contrato de projeto quando um acordo contratual para vários clientes é necessário para financiar um negócio. Na página **Contrato de Projeto**, o separador **Resumo** inclui informações sobre o cliente principal para um negócio. Outros clientes que participam no negócio podem ser adicionados ao separador **Clientes**.
 
 Todos os clientes contratados no separador **Clientes** do contrato de contrato assumem a predefinição como clientes do item de contrato em quaisquer novos itens de contrato baseados em projeto criados para o contrato do projeto. Quaisquer itens de contrato baseados em projetos existentes não herdam novos registos de clientes de contrato que são criados posteriormente.
 

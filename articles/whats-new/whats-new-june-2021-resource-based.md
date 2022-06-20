@@ -1,24 +1,24 @@
 ---
 title: Novidades de junho de 2021 - Project Operations para cenários baseados em recursos/não armazenados
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de junho de 2021 do Project Operations para cenários baseados em recursos/não armazenados.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de junho de 2021 do Project Operations para cenários baseados em recursos/itens não existentes em stock.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910598"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de junho de 2021 - Project Operations para cenários baseados em recursos/não armazenados
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-Este tópico aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Project Operations na versão de ambiente 4.11.0.156 ou 4.11.0.164 do Dynamics 365 Dataverse.
 - Gestão de projetos e contabilidade em ambientes de aplicações de Finanças e Operações versão 10.0.19.

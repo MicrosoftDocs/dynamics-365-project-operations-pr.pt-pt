@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações na Versão da Atualização 15 do Project Service Automation, V3
-description: Esta tópico fornece informações sobre o que há de novo na Versão da Atualização 15 do Project Service Automation, V3.
+description: Este artigo inclui informações sobre o que há de novo na Versão 15 da Atualização do Project Service Automation, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 26b9ee0a6ff1ad81d6c77a6a7091733667c493ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b87cae2cd8913457c2931d1661a57509d1398d29
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915658"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Versão da Atualização 15 do Project Service Automation, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585162"
 
 Temos o prazer de anunciar a atualização mais recente para a aplicação Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, desempenho e utilização. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar esta versão, visite o Centro de Administração para o Dynamics 365 online e aceda à página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
-Este tópico lista as funcionalidades e correções novas ou alteradas para o PSA V3, Versão da Atualização 15. Esta versão tem um número de compilação de V3.10.5.28 e está geralmente disponível através de uma Atualização automática em janeiro de 2020.
+Este artigo lista as funcionalidades e correções novas ou alteradas para a Versão 15 da Atualização do PSA V3. Esta versão tem um número de compilação de V3.10.5.28 e está geralmente disponível através de uma Atualização automática em janeiro de 2020.
 
 ## <a name="update-release-15"></a>Versão da Atualização 15 
 

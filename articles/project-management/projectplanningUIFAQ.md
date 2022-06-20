@@ -1,25 +1,25 @@
 ---
 title: Resolução de problemas a trabalhar na grelha de tarefas
-description: Esta tópico fornece informações necessárias para a resolução de problemas quando trabalham na grelha de tarefas.
+description: Este artigo fornece informações de resolução de problemas necessárias quando trabalha na grelha Tarefa.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911058"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Resolução de problemas a trabalhar na grelha de tarefas 
 
 
 _**Aplicável a:** Project Operations para cenários baseados em recursos/itens não existentes em stock, implementação Lite - da transação à fatura pró-forma, Project for the Web_
 
-A grelha de Tarefas utilizada pelo Dynamics 365 Project Operations é um iframe alojado no Microsoft Dataverse. Como resultado desta utilização, é necessário cumprir requisitos específicos para garantir o funcionamento correto da autenticação e autorização. Este tópico descreve os problemas comuns que podem afetar a capacidade de compor a grelha ou gerir tarefas na estrutura hierárquica do trabalho (WBS).
+A grelha de Tarefas utilizada pelo Dynamics 365 Project Operations é um iframe alojado no Microsoft Dataverse. Como resultado desta utilização, é necessário cumprir requisitos específicos para garantir o funcionamento correto da autenticação e autorização. Este artigo descreve os problemas comuns que podem afetar a capacidade de compor a grelha ou gerir tarefas na estrutura hierárquica do trabalho (WBS).
 
 Os problemas comuns incluem:
 

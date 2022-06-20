@@ -1,24 +1,24 @@
 ---
 title: Novidades de maio de 2022 - Project Operations para cenários baseados em recursos/não armazenados
-description: Este tópico fornece informação sobre as atualizações de qualidade que estão disponíveis na versão de maio de 2022 do Microsoft Dynamics 365 Project Operations para cenários baseados em recursos/sem stock.
+description: Este artigo fornece informação sobre as atualizações de qualidade que estão disponíveis na versão de maio de 2022 do Microsoft Dynamics 365 Project Operations para cenários baseados em recursos/sem stock.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921408"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de maio de 2022 - Project Operations para cenários baseados em recursos/não armazenados
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
 - Project Operations num ambiente Dataverse, versão 4.42.0.70
 - Gestão de projetos e contabilidade num ambiente do Dynamics 365 Finance versão 10.0.26

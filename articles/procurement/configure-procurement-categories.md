@@ -1,18 +1,18 @@
 ---
 title: Utilizar categorias de aquisição com encomendas de compra de projeto e faturas de fornecedor pendentes
-description: Este tópico descreve como configurar categorias de aquisição que podem ser utilizadas com encomendas de compra de projeto e faturas de fornecedor pendentes.
+description: Este artigo descreve como configurar categorias de aquisição que podem ser utilizadas com encomendas de compra de projeto e faturas de fornecedor pendentes.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927434"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Utilizar categorias de aquisição com encomendas de compra de projeto e faturas de fornecedor pendentes
 
@@ -47,7 +47,7 @@ Siga estes passos para mapear categorias de projeto para categorias de aquisiç�
 
 1. Aceda a **Aquisição e fornecimento \> Categorias de aquisição**.
 1. Selecione **Editar hierarquia de categorias**.
-1. Selecione o nó de hierarquia desejado e, em seguida, no separador **Atribuir categorias do projeto**, associe o nó à categoria do projeto a partir da categoria **Tempo**, Despesa ou **Projeto de item** (ou seja,a categoria **Tempo predefinido** ou **Despesa predefinida**).
+1. Selecione o nó de hierarquia desejado e, em seguida, no separador **Atribuir categorias do projeto**, associe o nó à categoria do projeto a partir da categoria **Tempo**, **Despesa** ou **Projeto de item** (ou seja, a categoria **Tempo Predefinido** ou **Despesa Predefinida**).
 1. Selecione **Guardar**.
 1. Feche a página.
 

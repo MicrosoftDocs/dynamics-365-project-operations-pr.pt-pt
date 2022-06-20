@@ -1,24 +1,24 @@
 ---
 title: Novidades em março de 2022 – Project Operations para cenários baseados em Recursos/Não Armazenados
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de março de 2022 do Project Operations para cenários baseados em recursos/sem stock.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de março de 2022 do Project Operations para cenários baseados em recursos/itens não existentes em stock.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910920"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em março de 2022 – Project Operations para cenários baseados em Recursos/Não Armazenados
 
 *Aplica-se A: Project Operations para cenários baseados em recursos/não armazenados*
 
-Este tópico aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
+Este artigo aplica-se aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
 - Project Operations num ambiente Dataverse, versão 4.30.0.99
 - Gestão de projetos e contabilidade num ambiente do Dynamics 365 Finance versão 10.0.25
@@ -91,11 +91,11 @@ Se ocorrer um problema quando iniciar o mapa, siga as instruções na secção [
 
 ## <a name="removed-and-deprecated-features"></a>Funcionalidades removidas e preteridas
 
-O tópico [Funcionalidades removidas ou preteridas no Project Operations](removed-depreciated-features-project.md) descreve as funcionalidades que foram removidas ou preteridas para o Dynamics 365 Project Operations.
+O artigo [Funcionalidades removidas ou preteridas no Project Operations](removed-depreciated-features-project.md) descreve as funcionalidades que foram removidas ou preteridas para o Dynamics 365 Project Operations.
 
 - Uma funcionalidade removida já não está disponível no produto.
 - Uma funcionalidade preterida não está no desenvolvimento ativo e poderá ser removida numa atualização futura.
 
-Um anúncio de preterido irá aparecer no tópico [Funcionalidades removidas ou preteridas no Project Operations](removed-depreciated-features-project.md) 12 meses antes de qualquer funcionalidade ser removida do produto.
+Um anúncio de preterido irá aparecer no artigo [Funcionalidades removidas ou preteridas no Project Operations](removed-depreciated-features-project.md) 12 meses antes de qualquer funcionalidade ser removida do produto.
 
 Para alterações de última hora que afetem apenas o tempo de compilação, mas que sejam binários compatíveis com sandbox e ambientes de produção, o tempo de depreciação será inferior a 12 meses. Normalmente, estas alterações são atualizações funcionais que têm de ser feitas ao compilador.

@@ -1,6 +1,6 @@
 ---
 title: Área de trabalho móvel da entrada de hora do projeto
-description: Este tópico fornece informações sobre a área de trabalho móvel da entrada de hora do Projeto. Esta área de trabalho permite aos utilizadores introduzir e guardar as horas num projeto através do seu dispositivo móvel.
+description: Este artigo fornece informações sobre a área de trabalho móvel de Entrada de tempo do projeto. Esta área de trabalho permite aos utilizadores introduzir e guardar as horas num projeto através do seu dispositivo móvel.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919568"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Área de trabalho móvel da entrada de hora do projeto
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre a área de trabalho móvel **Entrada de hora do projeto**. Esta área de trabalho permite aos utilizadores introduzir e guardar as horas num projeto através do seu dispositivo móvel.
+Este artigo fornece informações sobre a área de trabalho móvel de **Entrada de tempo do projeto**. Esta área de trabalho permite aos utilizadores introduzir e guardar as horas num projeto através do seu dispositivo móvel.
 
 Esta área de trabalho móvel destina-se a ser utilizada com a aplicação móvel Dynamics 365 Unified Ops. 
 
@@ -93,7 +93,7 @@ Transferir e instalar a aplicação móvel Finanças e Operações:
 3.  Quando iniciar sessão pela primeira vez, ser-lhe-á solicitado o nome de utilizador e a palavra-passe. Introduza as suas credenciais.
 4.  Depois de iniciar sessão, são mostradas as áreas de trabalho disponíveis para a sua empresa. Note que, se o seu administrador de sistema publicar uma nova área de trabalho mais tarde, terá de atualizar a lista de áreas de trabalho móveis.
 
-[![Pull to refresh.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Puxe para atualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Introduza o tempo através da área de trabalho móvel Entrada de hora do projeto
 1.  No seu dispositivo móvel, selecione a área de trabalho **Entrada de hora do projeto**.

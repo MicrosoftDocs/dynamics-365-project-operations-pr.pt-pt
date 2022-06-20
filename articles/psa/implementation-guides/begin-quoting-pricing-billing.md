@@ -1,6 +1,6 @@
 ---
 title: Guias Básicos de Criação de Propostas, Definição de Preços e Faturação
-description: Este tópico fornece ligações para as informações sobre a criação básica de propostas, a definição de preços e a faturação no Project Service Automation.
+description: Este artigo fornece ligações para as informações sobre a criação básica de propostas, a definição de preços e a faturação no Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910828"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guias básicos de criação de propostas, definição de preços e faturação
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592246"
 
 A capacidade de localizar os recursos certos no momento certo, reservar esses recursos em projetos e manter os recursos utilizados ajuda as organizações a cumprir as metas de receita e satisfação dos clientes. 
 
-A ligação do PDF que estava anteriormente neste tópico foi removida e o conteúdo foi movido para os seguintes tópicos:
+A ligação do PDF que estava anteriormente neste artigo foi removida e o conteúdo foi movido para os seguintes artigos:
 
 - [Criação de propostas, definição de preços e faturação](../quote-bill-price.md)
 - [Processos de vendas](../basic-sales-process.md)
@@ -50,7 +50,7 @@ A ligação do PDF que estava anteriormente neste tópico foi removida e o conte
 - [Registar valores reais](../advanced-actuals.md)
 
 > [!NOTE]
-> Este tópico será removido numa atualização de documentação futura. 
+> Este artigo será removido numa atualização de documentação futura. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
