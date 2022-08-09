@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922880"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028900"
 ---
 # <a name="project-mobile-applications-overview"></a>Descrição geral das aplicações móveis do projeto
 
@@ -33,11 +33,11 @@ A aplicação móvel Dynamics 365 Project Timesheet permite aos utilizadores sub
 
 ## <a name="project-time-entry-workspace"></a>Área de trabalho Entrada de Hora do Projeto
 
-A área de trabalho Entrada de Hora do Projeto permite que os utilizadores introduzam e poupem num projeto. No entanto, não permite que os utilizadores submetam ou aprovem as folhas de horas do projeto. Só pode ser utilizado para a entrada de hora. Esta área de trabalho móvel destina-se a ser utilizada em conjunto com a aplicação móvel Finanças e Operações.
+A área de trabalho Entrada de Hora do Projeto permite que os utilizadores introduzam e poupem num projeto. No entanto, não permite que os utilizadores submetam ou aprovem as folhas de horas do projeto. Só pode ser utilizado para a entrada de hora. Esta área de trabalho móvel destina-se a ser utilizada em conjunto com a aplicação móvel de finanças e operações.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>As minhas folhas horas/Folhas de horas para minha revisão
 
-As minhas folhas de horas (Otimizadas para telemóveis) e as Folhas de horas para minha revisão (Otimizada para telemóvel) constituem uma solução que permite aos colaboradores criar, submeter e aprovar folhas de horas num dispositivo móvel. Os trabalhadores podem aceder à funcionalidade Finance através do URL para a aplicação. Esta solução não necessita da aplicação móvel Finanças e Operações.
+As minhas folhas de horas (Otimizadas para telemóveis) e as Folhas de horas para minha revisão (Otimizada para telemóvel) constituem uma solução que permite aos colaboradores criar, submeter e aprovar folhas de horas num dispositivo móvel. Os trabalhadores podem aceder à funcionalidade Finance através do URL para a aplicação. Esta solução não necessita da aplicação móvel de finanças e operações.
 
 ## <a name="for-more-information"></a>Para obter mais informações
 

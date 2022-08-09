@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911334"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028762"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações no Project Operations, março de 2021 para cenários baseados em produção/armazenados
 
@@ -121,7 +121,7 @@ Estão incluídas nesta versão as seguintes funcionalidades:
 | Gestão de projetos e contabilística | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | O método de classe de estrutura hierárquica do trabalho legado (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** é preterido.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de finanças e operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

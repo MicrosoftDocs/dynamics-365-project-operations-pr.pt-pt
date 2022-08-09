@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4b335503139964d9d0747f9ce7addc033a512f30
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910690"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029591"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em janeiro de 2021 – Project Operations para cenários baseados em Recursos/Não Armazenados
 
@@ -86,7 +86,7 @@ Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Proje
 
 ## <a name="regulatory-updates"></a>Atualizações regulamentares
 
-Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de finanças e operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

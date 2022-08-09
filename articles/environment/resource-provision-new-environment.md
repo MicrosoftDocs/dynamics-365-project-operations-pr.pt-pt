@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931620"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028532"
 ---
 # <a name="provision-a-new-environment"></a>Aprovisionar um novo ambiente
 
@@ -117,7 +117,7 @@ Poderá precisar de aplicar atualizações de qualidade ao seu ambiente do Finan
 
     ![Aplicar Soluções.](./media/13ApplySolutions.png)
 
-5. Selecione ambas as soluções, **Dynamics 365 Finance e Mapa de entidade de escrita dupla de operações** e **Mapas de entidade de escrita dupla do Dynamics 365 Project Operations** e, em seguida, selecione **Aplicar**.
+5. Selecione ambas as soluções, **Mapa de entidade de escrita dupla do Dynamics 365 Finance** e **Mapas de entidade de escrita dupla do Dynamics 365 Project Operations** e, em seguida, selecione **Aplicar**.
 
     ![Confirmar Soluções.](./media/14ConfirmSolutions.png)
 

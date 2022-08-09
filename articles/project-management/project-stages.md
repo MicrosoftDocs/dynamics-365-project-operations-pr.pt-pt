@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911150"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177394"
 ---
 # <a name="project-stages"></a>Fases do projeto
 
@@ -47,7 +47,7 @@ Quando associa um projeto a uma proposta ou quando cria um projeto a partir de u
 
 ## <a name="plan"></a>Planear
 
-Quando ganha uma proposta associada a um projeto e quando o projeto é movido para a fase **Contrato**, a fase do projeto é atualizada para **Plano**. Quando o projeto está na fase **Plano**, a página **Entidade do Projeto** mostra os detalhes do contrato.
+Quando ganha uma proposta associada a um projeto e quando o projeto é movido para a fase **Contrato**, a fase do projeto é atualizada para **Plano**. Quando o projeto está na fase **Plano**, o separador **Vendas** na página **Entidade do Projeto** mostra os detalhes do contrato.
 
 ## <a name="deliver"></a>Entregar
 

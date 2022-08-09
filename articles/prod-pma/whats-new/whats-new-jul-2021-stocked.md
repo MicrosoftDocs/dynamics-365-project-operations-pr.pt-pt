@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933644"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028854"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações no Project Operations de julho de 2021 para cenários baseados em produção/armazenados
 
@@ -64,7 +64,7 @@ Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Proje
 | Viagem e Despesa                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | A ferramenta **Repor Estado do documento de despesas** deve repor o estado do relatório de despesas para **Rascunho** se o fluxo de trabalho não tiver sido encontrado. 
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no Lifecycle Services (LCS) e ver as atualizações regulatórias planeadas através da ferramenta Procurar problema. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de finanças e operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no Lifecycle Services (LCS) e ver as atualizações regulatórias planeadas através da ferramenta Procurar problema. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

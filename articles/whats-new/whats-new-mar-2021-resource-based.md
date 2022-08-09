@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e93b4eaad98267f163bad4aff3e4fdcc661e2ab0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932954"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028286"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em março de 2021 – Project Operations para cenários baseados em Recursos/Não Armazenados
 
@@ -48,7 +48,7 @@ Para mais informações, ver [Novidades em janeiro de 2021 – Project Operation
 
 ## <a name="regulatory-updates"></a>Atualizações regulamentares
 
-Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as atualizações regulamentares é fazer login em LCS ver as atualizações regulamentares planeadas usando a ferramenta de pesquisa de problemas. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de finanças e operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre as atualizações regulamentares é fazer login em LCS ver as atualizações regulamentares planeadas usando a ferramenta de pesquisa de problemas. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959482"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029314"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrição para as avaliações do Project Operations 
 
@@ -90,7 +90,7 @@ Antes de começar, inicie sessão num browser com a conta profissional de utiliz
 
 ## <a name="configuring-dual-write"></a>Configurar a escrita dupla
 - Para configurar direitos de acesso para escrita dupla, consulte [Atualizar definições de segurança no Project Operations no Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Para aceder à configuração de escrita dupla, navegue para a instância Finanças e Operações e, em seguida, navegue para **Gestão de Dados** > **Escrita Dupla**.
+- Para aceder à configuração de escrita dupla, navegue para a instância do Finanças e Operações e, em seguida, navegue para **Gestão de Dados** > **Escrita Dupla**.
 - Para configurar mapas de escrita dupla, consulte [Executar mapas de escrita dupla do Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuir licenças
@@ -117,7 +117,7 @@ Os recursos seguintes fornecem orientações úteis para o ajudar a utilizar o P
 
 ## <a name="frequently-asked-questions"></a>Perguntas mais frequentes
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>E se eu requerer ALM ou ELM para o meu ambiente de aplicações de Finanças e Operações?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>E se eu necessitar de ALM ou ELM para o meu ambiente de aplicações de finanças e operações?
 
 - No caso de parceiros que necessitem de capacidades de gestão de ciclos de vida de ambiente completo, consulte o [Pedido de Licença de Sandbox de Parceiro](https://experience.dynamics.com/requestlicense) para rever a nova oferta de parceiro. 
 - No caso de parceiros que pretendam obter mais informações sobre os Direitos de Utilização Interna, consulte [Benefícios do software e da cloud de Direitos de Utilização Interna (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

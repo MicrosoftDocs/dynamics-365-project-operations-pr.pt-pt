@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927434"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028624"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Utilizar categorias de aquisição com encomendas de compra de projeto e faturas de fornecedor pendentes
 
@@ -25,7 +25,7 @@ Os profissionais das compras podem criar e manter catálogos dos itens e serviç
 As versões seguintes são necessárias para utilizar categorias de aquisição com encomendas de compra de projeto para cenários sem stock/baseados em recursos do Microsoft Dynamics 365 Project Operations:
 
 - Versão da solução do Project Operations Dataverse 4.41.0.45 ou posterior
-- Versão 10.0.26 ou posterior do ambiente Finanças e Operações
+- Versão 10.0.26 ou posterior do ambiente de finanças e operações
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>Executar mapas de escrita dupla para suporte de categorias de aquisição
 

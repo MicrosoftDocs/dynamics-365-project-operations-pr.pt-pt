@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912438"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029268"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de abril de 2021 - Project Operations para cenários baseados em recursos/não armazenados
 
@@ -42,13 +42,13 @@ A lista que se segue mostra os mapas de dupla escrita que foram modificados ou a
 | **Mapa da entidade** | **Versão atualizada** | **Comentários** |
 | --- | --- | --- |
 | Valores reais de integração com o Project Operations (msdyn\_actuals) | 1.0.0.14 | Mapa modificado para sincronizar os valores reais do projeto do material. |
-| Entidade de integração com o Project Operations para estimativas de despesa (msdyn\_estimateslines) | 1.0.0.2 | Adicionada sincronização de item de contrato do projeto às aplicações Finanças e Operações para suporte de faturação baseada em tarefas. |
-| Entidade de integração com o Project Operations para estimativas de horas (msdyn\_resourceassignments) | 1.0.0.5 | Adicionada sincronização de item de contrato do projeto às aplicações Finanças e Operações para suporte de faturação baseada em tarefas. |
-| Tabela de integração do Project Operations para estimativas de materiais (msdyn\_estimatelines) | 1.0.0.0 | Novo mapa de tabela para sincronizar estimativas de material a partir do Dataverse para as aplicações de Finanças e Operações. |
-| Entidade de exportação de faturas de projeto de integração de projetos do Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Novo mapa de tabela para sincronizar cabeçalhos das faturas de fornecedor a partir das aplicações de Finanças e Operações para o Dataverse. |
-| Entidade de exportação de linhas de faturas de projeto de integração de projetos do Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Novo mapa de tabela para sincronizar linhas das faturas de fornecedor a partir das aplicações de Finanças e Operações para o Dataverse. |
+| Entidade de integração com o Project Operations para estimativas de despesa (msdyn\_estimateslines) | 1.0.0.2 | Adicionada sincronização de item de contrato do projeto às aplicações de finanças e operações para suporte de faturação baseada em tarefas. |
+| Entidade de integração com o Project Operations para estimativas de horas (msdyn\_resourceassignments) | 1.0.0.5 | Adicionada sincronização de item de contrato do projeto às aplicações de finanças e operações para suporte de faturação baseada em tarefas. |
+| Tabela de integração do Project Operations para estimativas de materiais (msdyn\_estimatelines) | 1.0.0.0 | Novo mapa de tabela para sincronizar estimativas de material a partir do Dataverse para as aplicações de finanças e operações. |
+| Entidade de exportação de faturas de projeto de integração de projetos do Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Novo mapa de tabela para sincronizar cabeçalhos das faturas de fornecedor a partir das aplicações de finanças e operações para o Dataverse. |
+| Entidade de exportação de linhas de faturas de projeto de integração de projetos do Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Novo mapa de tabela para sincronizar linhas das faturas de fornecedor a partir das aplicações de finanças e operações para o Dataverse. |
 
-Deve sempre executar a versão mais recente do mapa no seu ambiente e ativar todos os mapas de tabelas relacionados à medida que atualiza a sua solução do Project Operations Dataverse e a versão da solução Operations. Certas funcionalidades e capacidades podem não funcionar corretamente se a versão mais recente do mapa não estiver ativada. Pode ver a versão ativa do mapa na coluna **Versão** na página **Escrita Dupla**. Pode ativar uma nova versão do mapa selecionando **Versões do mapa de tabela** , selecionando a versão mais recente e, em seguida, guardar a versão selecionada. Se tiver personalizado um mapa de tabela fora da caixa, reaplique as alterações. Para mais informações, consulte [Gestão do ciclo de vida da aplicação](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Deve sempre executar a versão mais recente do mapa no seu ambiente e ativar todos os mapas de tabelas relacionados à medida que atualiza a sua solução do Project Operations Dataverse e a versão da solução do finanças e operações. Certas funcionalidades e capacidades podem não funcionar corretamente se a versão mais recente do mapa não estiver ativada. Pode ver a versão ativa do mapa na coluna **Versão** na página **Escrita Dupla**. Pode ativar uma nova versão do mapa selecionando **Versões do mapa de tabela** , selecionando a versão mais recente e, em seguida, guardar a versão selecionada. Se tiver personalizado um mapa de tabela fora da caixa, reaplique as alterações. Para mais informações, consulte [Gestão do ciclo de vida da aplicação](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Se encontrar algum problema com o início do mapa, siga as instruções na secção [Problema com colunas de tabelas desaparecidas](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) do guia de resolução de problemas de escrita dupla.
 

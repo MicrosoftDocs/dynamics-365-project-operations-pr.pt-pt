@@ -6,12 +6,12 @@ ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923432"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029544"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em novembro de 2020 – Project Operations para cenários baseados em Recursos/Não Stock
 
@@ -65,7 +65,7 @@ Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Proje
 | Gestão contabilística do projeto  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Ativar a funcionalidade, vários itens de contrato não são possíveis sem a integração do CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de finanças e operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

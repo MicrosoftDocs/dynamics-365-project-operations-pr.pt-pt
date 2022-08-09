@@ -2,16 +2,16 @@
 title: Versões de mapa de escrita dupla do Project Operations
 description: Este artigo fornece a lista de mapas de escrita dupla necessários para o Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959446"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112443"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versões de mapa de escrita dupla do Project Operations
 
@@ -25,12 +25,12 @@ São necessários os seguintes mapas pré-requisitos para a solução de Project
 
 | Mapa de tabelas | Sincronização inicial |
 | --- | --- |
-| Livro razão (msdyn_ledgers) | Requer sincronização inicial para o mapa de tabela e todos os pré-requisitos. O master para sincronização inicial é as aplicações Finanças e Operações. |
+| Livro razão (msdyn_ledgers) | Requer sincronização inicial para o mapa de tabela e todos os pré-requisitos. O master para sincronização inicial é as aplicações de finanças e operações. |
 | Entidades legais (cdm_companies) | Não necessário. O sistema povoa esta entidade automaticamente quando os ambientes estão ligados usando a dupla escrita. |
 | Clientes V3 (contas) | Não é necessário para o aprovisionamento. |
 | Fornecedores V2 (msdyn_vendors) | Não é necessário para o aprovisionamento. |
 
-1. Na lista de mapas, selecione o mapa Livro-razão **(msdyn\_ledgers)** com todos os pré-requisitos e selecione a caixa de verificação de **sincronização inicial**. No campo de **Master para sincronização inicial**, selecione **aplicações de Finanças e Operações** para o mapa de razão e todos os mapas de pré-requisitos. Selecione **Executar**.
+1. Na lista de mapas, selecione o mapa Livro-razão **(msdyn\_ledgers)** com todos os pré-requisitos e selecione a caixa de verificação de **sincronização inicial**. No campo **Master para sincronização inicial**, selecione **Aplicações de finanças e operações** para o mapa de livro razão e todos os mapas de pré-requisitos. Selecione **Executar**.
 
 ![Sincronização do mapa de livros.](media/DW6.png)
 
@@ -46,7 +46,7 @@ São necessários os seguintes mapas para uma solução de Project Operations. A
 | Cabeçalhos de contrato de projeto (encomendas de vendas) | 1.0.0.1 | Não é necessário para o aprovisionamento. ||
 | Itens de contrato do projeto (salesorderdetails) | 1.0.0.0 | Não é necessário para o aprovisionamento. ||
 | Fonte de financiamento do projeto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Não é necessário para o aprovisionamento. ||
-| Tabela de integração do Project Operations para estimativas de materiais (msdyn\_estimatelines) | 1.0.0.0 | Não é necessário para o aprovisionamento. ||
+| Tabela de integração do projeto para estimativas de materiais (msdyn\_estimatelines) | 1.0.0.0 | Não é necessário para o aprovisionamento. ||
 | Propostas de fatura do projeto V2 (faturas) | 1.0.0.3 | Não é necessário para o aprovisionamento. ||
 | Valores reais de integração com o Project Operations (msdyn_actuals) | 1.0.0.14 | Não é necessário para o aprovisionamento. ||
 | Marcos do item de contrato da integração do Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Não é necessário para o aprovisionamento. ||

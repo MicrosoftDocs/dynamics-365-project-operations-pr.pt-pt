@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931206"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028502"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Requisitos de itens para contratos de projeto com várias origens de fundos
 
@@ -33,7 +33,7 @@ A Contoso venceu um contrato de renovação de equipamento com dois dos seus cli
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
-- É necessário o Microsoft Dynamics 365 Finance and Operations **versão 10.0.27 ou posterior** para a utilização dos requisitos de item que tenham várias contas de fatura.
+- É necessário o Microsoft Dynamics 365 Finance **versão 10.0.27 ou posterior** para a utilização dos requisitos de item que tenham várias contas de fatura.
 - O seu administrador de sistema deve ativar a característica **Permitir requisitos de itens com várias origens de fundos para cenários com stock/baseados na produção no Project Operations** na área de trabalho **Gestão de funcionalidades**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Configurar as regras predefinidas da conta de faturação

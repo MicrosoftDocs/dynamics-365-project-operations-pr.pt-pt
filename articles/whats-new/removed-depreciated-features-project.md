@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921500"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028343"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Funcionalidades removidas ou preteridas no Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ Este artigo descreve funcionalidades que foram removidas ou que têm remoção p
 Esta lista destina-se a ajudá-lo a considerar estas mudanças e preterições para o seu próprio planeamento.
 
 > [!NOTE]
-> Informações detalhadas sobre objetos nas aplicações de finanças e operações podem ser encontradas nos [**Relatórios técnicos de referência técnicos**](/dynamics/s-e/global/axtechrefrep_61). Pode comparar as diferentes versões destes relatórios para aprender sobre objetos que mudaram ou foram removidos em cada versão das aplicações de finanças e operações.
+> Podem ser encontradas informações detalhadas sobre objetos nas aplicações de finanças e operações nos [**Relatórios técnicos de referência**](/dynamics/s-e/global/axtechrefrep_61). Pode comparar as diferentes versões destes relatórios para aprender sobre objetos que mudaram ou foram removidos em cada versão das aplicações de finanças e operações.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Funcionalidades removidas ou preteridas na versão de março de 2022 do Project Operations
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912484"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030049"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Atualizar o Project Operations no seu ambiente financeiro
 
@@ -119,7 +119,7 @@ As seguintes atualizações aos privilégios de segurança para as entidades sã
 4. Na página da **versão do mapa de tabela**, aplique uma nova versão do mapa a cada uma das três entidades.
 5. Na página de **escrita dupla**, selecione executar para reiniciar os mapas.
 6. Na lista de mapas, selecione o mapa **Livro-razão (msdyn_ledgers)** com todos os pré-requisitos e selecione a caixa de verificação de **sincronização inicial**. 
-7. No campo **Master para sincronização inicial**, selecione as **aplicações de Finanças e Operações** e, em seguida, selecione **Executar**.
+7. No campo **Master para sincronização inicial**, selecione as **Aplicações de finanças e operações** e, em seguida, selecione **Executar**.
  
  ![Sincronização do mapa de livros.](media/DW6.png)
  

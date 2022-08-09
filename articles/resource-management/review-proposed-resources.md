@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924858"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183989"
 ---
 # <a name="review-proposed-resources"></a>Analisar recursos propostos
 
@@ -40,8 +40,8 @@ Para analisar os recursos propostos, siga estes passos:
     Ocorrem as seguintes atualizações de estado:
 
     - Na página **Assistente da Agenda**, os indicadores de estado são atualizados para indicar que a reserva é proposta, e não reservada de forma fixa.
-    - No pedido de recurso, o estado é alterado para **Necessita de Revisão**.
-    - No separador **Equipa** do projeto, o valor **Estado do Pedido** do membro da equipa genérico é alterado para **Necessita de Revisão**.
+    - A pedido do recurso, o revisor do pedido deverá alterar o estado para **Necessita de revisão**.
+    - No separador **Equipa** do projeto, o valor **Estado do Pedido** do membro da equipa genérica é automaticamente alterado para **Necessita de Revisão**.
 
 O gestor de projeto pode aceitar ou rejeitar a proposta.
 

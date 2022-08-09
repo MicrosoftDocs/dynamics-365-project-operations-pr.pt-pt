@@ -2,7 +2,7 @@
 title: Aplicação móvel Project Timesheet
 description: Este artigo fornece informações sobre a aplicação móvel Microsoft Dynamics 365 Project Timesheet. A aplicação móvel Project Timesheet permite aos utilizadores submeter e aprovar as folhas de horas para os projetos nos respetivos dispositivos móveis.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923984"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110989"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicação móvel Project Timesheet
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Descrição Geral
+## <a name="overview"></a>Descrição geral
 
-A aplicação móvel Microsoft Dynamics 365 Project Timesheet permite aos utilizadores submeter e aprovar as folhas de horas para os projetos nos respetivos dispositivos móveis (iPhone ou Android). Esta aplicação móvel aborda a funcionalidade de folha de ponto, que reside na área de gestão de projetos e contabilidade do Dynamics 365 Finance, melhorando a produtividade do utilizador e a eficiência, bem como a ativação de entrada e aprovação atempada de folhas de ponto do projeto.
+A aplicação móvel Microsoft Dynamics 365 Project Timesheet permite aos utilizadores submeter e aprovar as folhas de horas para os projetos nos seus dispositivos móveis (iPhone ou Android). Esta aplicação móvel aborda a funcionalidade de folha de ponto que fica na área de gestão de projetos e contabilidade do Dynamics 365 Finance. Ajuda a melhorar a produtividade e a eficiência dos utilizadores, e também permite a entrada e aprovação atempadas das folhas de horas do projeto.
 
 ## <a name="download-and-install-the-mobile-app"></a>Transferir e instalar a aplicação móvel
 
@@ -38,6 +38,19 @@ Transfira e instale a aplicação móvel Microsoft Dynamics 365 Project Timeshee
 
 No Finance, a aplicação móvel Project Timesheet tem de ser ativada. Para ativar a funcionalidade, aceda a **Parâmetros da gestão de projetos e contabilística \> Folha de Horas** e selecione o parâmetro **Ativar Microsoft Dynamics 365 Project Timesheet**.
 
+### <a name="resolve-sign-in-issues"></a>Resolver problemas de início de sessão
+
+**Problema:** durante o início de sessão na aplicação móvel Project Timesheet, os utilizadores recebem uma mensagem de erro que afirma que "não é possível aceder à aplicação '2bc50526-cdc3-4e36-a970-c284c34cbd6e' naquele inquilino".
+
+**Problema:** durante o início de sessão na aplicação móvel Project Timesheet, os utilizadores recebem um erro semelhante a um dos seguintes exemplos:
+
+- "AADSTS50020: a conta de utilizador '[nome de utilizador]' do fornecedor de identidade 'https://sts.windows.net/[ID da aplicação]' não existe no inquilino '[ID de inquilino]' e não é possível aceder à aplicação '[ID da aplicação]' nesse inquilino."
+- "A conta de utilizador selecionada não existe no inquilino '[ID de inquilino]' e não é possível aceder à aplicação '[ID da aplicação]' nesse inquilino."
+
+**Explicação:** estes problemas são causados por uma alteração no Azure Active Directory (Azure AD) em maio de 2022 e que está relacionada com os utilizadores externos. Uma vez que esta alteração não foi efetuada nas aplicações de finanças e operações, pode afetar os clientes em qualquer versão da plataforma ou aplicação.
+
+**Solução:** todos os utilizadores externos devem ser convidados para o inquilino através do Azure AD. Para mais informações, consulte [Convidar utilizadores com a colaboração B2B do Azure Active Directory](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Iniciar sessão na aplicação
 
 1.  Inicie a aplicação no seu dispositivo móvel.
@@ -46,7 +59,7 @@ No Finance, a aplicação móvel Project Timesheet tem de ser ativada. Para ativ
 
 3.  Quando iniciar sessão pela primeira vez, ser-lhe-á solicitado o nome de utilizador e a palavra-passe. Introduza as suas credenciais.
 
-4.  Iniciará sessão na sua empresa predefinida.
+4. Irá iniciar sessão na sua empresa predefinida.
 
 ## <a name="submit-a-project-timesheet"></a>Enviar uma folha de horas do projeto
 
@@ -75,7 +88,7 @@ As pesquisas de clientes e projetos permitem pesquisar tanto em clientes como em
 
 Selecione a informação nos campos **Categoria**, **Atividade**, **Propriedade da linha**, **Grupo de impostos sobre vendas** e **Grupo de impostos sobre vendas de itens**, conforme necessário. Estes campos podem ser substituídos.
 
-O campo **Propriedade da linha** será definido com um valor predefinido, baseado nos Parâmetros da Gestão de projetos e contabilística. Quando os parâmetros de projeto/categoria e categoria/recurso estão ativados, o valor **Propriedade da linha** será definido para o valor predefinido que definiu para esta validação. Quando os parâmetros de projeto/categoria e categoria/recurso não estão ativados, o valor **Propriedade da linha** assumirá como predefinição de acordo com o campo **Ativar propriedade da linha predefinida** na página **Parâmetros da gestão de projetos e contabilística**. O valor **Propriedade da linha** pode ser substituído.
+O campo **Propriedade da linha** será definido com um valor predefinido, baseado nos Parâmetros da Gestão de projetos e contabilística. Quando os parâmetros de projeto/categoria e categoria/recurso estão ativados, o valor **Propriedade da linha** será definido para o valor predefinido que definiu para esta validação. Quando os parâmetros de projeto/categoria e categoria/recurso não estão ativados, o valor **Propriedade da linha** irá assumir o valor predefinido de acordo com o campo **Ativar propriedade da linha predefinida** na página **Parâmetros da gestão de projetos e contabilidade**. O valor **Propriedade da linha** pode ser substituído.
 
 Selecione um dia para adicionar tempo. Introduza o número de horas que trabalhou em cada dia.
 

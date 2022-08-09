@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933046"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029728"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em dezembro de 2020 – Project Operations para cenários baseados em Recursos/Não Armazenados
 
@@ -61,7 +61,7 @@ Estão incluídas nesta versão as seguintes funcionalidades:
 | Planeamento e Monitorização de Projetos | 2057197          | A cópia da linha de estimativa com referência de tarefa não é suportada                                                                                                     |
 | Planeamento e Monitorização de Projetos | 2060687          | O aviso de fuso horário agora desaparece após uma duração específica                                                                                                      |
 | Gestão de recursos           | 1832887          | O ID da categoria de recursos predefinida tem de ser estático para garantir cargas de dados repetíveis para os ambientes do Dataverse e do Finance                                                 |
-| Tempo e despesa              | 2081793          | O **Nome da categoria de despesas** tem de ser mapeado para o campo **Descrição de categoria de despesas** nas aplicações Finanças e Operações                                                  |
+| Tempo e despesa              | 2081793          | O **Nome da categoria de despesas** tem de ser mapeado para o campo **Descrição de categoria de despesas** nas aplicações de finanças e operações                                                  |
 | Tempo e despesa              | 2034882          | O botão **Novo** aparece duas vezes na barra de comando para entradas de hora quando o Dynamics 365 Field Service é instalado                                          |
 | Tempo e despesa              | 2056028          | Atualize a página **Edição de Tempo** para incluir linha de tempo                                                                                                              |
 | Tempo e despesa              | 1983747          | Gráfico de entrada de hora mostra dados adicionais                                                                                                                   |
@@ -106,7 +106,7 @@ Estão incluídas nesta versão as seguintes funcionalidades:
 | Viagem e Despesa                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | O fluxo de trabalho de publicação automática de relatório de despesas está concluído, mas a fatura não é publicada                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de finanças e operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

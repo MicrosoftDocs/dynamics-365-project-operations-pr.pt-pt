@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 210ef2bf0316c5e88c287052f739e438f3796c5b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923938"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029452"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações de janeiro de 2021 no Project Operations para cenários baseados em produção/armazenados
 
@@ -142,7 +142,7 @@ Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Proje
 | Viagem e Despesa                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | No Project Operations, o tempo com tarefas interempresa em Dataverse não pode ser criado ou aprovado.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Atualizações regulamentares
-Para obter informações sobre atualizações regulamentares para as aplicações de Finanças e Operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
+Para obter informações sobre atualizações regulamentares para as aplicações de finanças e operações, consulte [Atualizações regulamentares](/dynamics365/finance/localizations/regulatory-updates). Também pode iniciar sessão no LCS e ver as atualizações regulamentares planeadas utilizando a ferramenta de pesquisa Emitir. A pesquisa Emitir permite pesquisar por país, tipo de funcionalidade e versão.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

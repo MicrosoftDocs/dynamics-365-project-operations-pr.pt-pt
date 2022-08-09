@@ -1,6 +1,6 @@
 ---
-title: Sincronizar os valores reais do projeto diretamente do Project Service Automation para o diário de integração do projeto para publicação em Finanças e Operações
-description: Este artigo descreve os modelos e tarefas subjacentes que são utilizados para sincronizar valores reais do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para Finanças e Operações.
+title: Sincronizar os valores reais do projeto diretamente do Project Service Automation para o diário de integração do projeto para publicação em finanças e operações
+description: Este artigo descreve os modelos e tarefas subjacentes que são utilizados para sincronizar valores reais do projeto diretamente a partir do Microsoft Dynamics 365 Project Service Automation para o finanças e operações.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929504"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028992"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizar os valores reais do projeto diretamente do Project Service Automation para o diário de integração do projeto para publicação em Finanças e Operações
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizar os valores reais do projeto diretamente do Project Service Automation para o diário de integração do projeto para publicação em finanças e operações
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ A solução de integração do Project Service Automation para Finance utiliza a
 
 A seguinte ilustração mostra como os dados são sincronizados entre o Project Service Automation e o Finance.
 
-[![Fluxo de dados para a integração do Project Service Automation com Finanças e Operações.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Fluxo de dados para integração do Project Service Automation com o finanças e operações.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Valores reais do projeto a partir do Project Service Automation
 

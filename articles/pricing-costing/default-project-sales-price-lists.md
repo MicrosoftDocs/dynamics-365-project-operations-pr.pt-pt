@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917728"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036425"
 ---
 # <a name="default-price-lists"></a>Lista de preços predefinida
 
@@ -25,7 +25,7 @@ Cada cotação e contrato de projeto no Dynamics 365 Project Operations contém 
 O sistema completa o seguinte processo para determinar qual a lista de preços a assumir a predefinição numa proposta de projeto:
 
 1. O sistema analisa as listas de preços que estão anexadas às listas de preços do projeto da conta. 
-2. Se houver listas de preços de projeto anexadas ao registo da conta, o sistema analisa as listas de preços de vendas anexadas aos parâmetros de projeto que correspondem à moeda da proposta de projeto.
+2. Se não houver listas de preços de projeto anexadas ao registo da conta, o sistema analisa as listas de preços de vendas anexadas aos parâmetros de projeto que correspondem à moeda da proposta de projeto.
 3. Em seguida, o sistema verifica a efetividade da data das listas de preços que correspondem ao intervalo de datas da proposta de projeto. Especificamente, a data em que a proposta foi criada.
 4. Se existirem várias listas de preços que são efetivas para a data da proposta do projeto, todas as listas de preços assumem a predefinição na proposta do projeto.
 5. Se não houver listas de preços em vigor para a data da proposta do projeto, não há uma lista de preços do projeto predefinida na proposta do projeto. Uma mensagem de aviso ocorrerá na proposta do projeto. A mensagem indica que os valores reais e estimativas no projeto não terão preço porque não existem listas de preços do projeto anexadas.

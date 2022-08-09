@@ -2,17 +2,17 @@
 title: Resolução de problemas a trabalhar na grelha de tarefas
 description: Este artigo fornece informações de resolução de problemas necessárias quando trabalha na grelha Tarefa.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911058"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188246"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Resolução de problemas a trabalhar na grelha de tarefas 
 
@@ -32,7 +32,7 @@ Os problemas comuns incluem:
 
 ### <a name="mitigation-1-enable-cookies"></a>Mitigação 1: Ativar cookies
 
-O Project Operations exige que os cookies de terceiros sejam ativados para compor a estrutura hierárquica do trabalho. Quando os cookies de terceiros não estiverem ativados, em vez de ver tarefas, verá uma página em branco quando selecionar o separador **Tarefas** na página **Projeto**.
+O Project Operations exige que os cookies de terceiros sejam ativados para compor a estrutura hierárquica do trabalho. Quando os cookies de terceiros não estiverem ativados, em vez de ver tarefas, irá ver uma página em branco quando selecionar o separador **Tarefas** na página **Projeto**.
 
 Para Microsoft Edge ou para os navegadores Google Chrome, os seguintes procedimentos descrevem como atualizar a configuração do seu navegador para ativar cookies de terceiros.
 
@@ -72,7 +72,10 @@ O Project Operations requer que um parâmetro de projeto refira o ponto final PE
 4. Retire o campo da página **Parâmetros do Projeto**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigação 3: iniciar sessão em project.microsoft.com
-No browser Microsoft Edge, abra um novo separador, aceda project.microsoft.com, inicie sessão utilizando a função de utilizador que está a utilizar para aceder ao Project Operations.
+
+No browser , abra um novo separador, aceda project.microsoft.com, inicie sessão com a função de utilizador que está a utilizar para aceder ao Project Operations. É importante que apenas um utilizador inicie sessão num produto Microsoft no browser. A mensagem de erro "login.microsoftonline.com recusou-se a ligar" ocorre com mais frequência quando mais de um utilizador inicia sessão, como é mostrado na ilustração seguinte.
+
+![Escolha uma página de início de sessão de conta que mostra que dois utilizadores estão a iniciar sessão.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problema: O projeto não é carregado e a IU está bloqueada no ícone de progresso
 
@@ -112,7 +115,7 @@ Em alternativa, pode concluir os passos a seguir.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problema 3: Administração de privilégios do Project for the Web
 
-O Project Operations conta com um serviço de agendamento externo. O serviço exige que um utilizador tenha várias funções atribuídas que lhe permita ler e escrever em entidades relacionadas com o WBS. Estas entidades incluem tarefas de projeto, atribuições de recursos e dependências de tarefas. Se um utilizador não conseguir compor o WBS quando navega para o separador **Tarefas**, provavelmente o **Projeto** do **Project Operations** não foi ativado. Um utilizador pode receber um erro de direito de acesso ou um erro relacionado com uma negação de acesso.
+O Project Operations conta com um serviço de agendamento externo. O serviço exige que um utilizador tenha várias funções atribuídas que permitam ler e escrever em entidades relacionadas com o WBS. Estas entidades incluem tarefas de projeto, atribuições de recursos e dependências de tarefas. Se um utilizador não conseguir compor o WBS quando navega para o separador **Tarefas**, provavelmente o **Projeto** do **Project Operations** não foi ativado. Um utilizador pode receber um erro de direito de acesso ou um erro relacionado com uma negação de acesso.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Mitigação 1: Validar os direitos de acesso do utilizador da aplicação e do utilizador final
 

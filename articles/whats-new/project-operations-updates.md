@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959499"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188293"
 ---
 # <a name="project-operations-updates"></a>Atualizações do Project Operations
 
@@ -25,18 +25,18 @@ _**Aplica-se a:** Project Operations para cenários baseados em Recursos/Não St
 O Dynamics 365 Project Operations consiste de dois componentes:
 
 - O Project Operations no ambiente Dataverse cobre capacidades desde a oportunidade até à faturação pró-forma. Dataverse é utilizado na implementação lite e implementação de cenários de Recursos/Não Stock do Project Operations.
-- A gestão de projetos e a contabilidade no ambiente do Dynamics 365 Finance abrangem as capacidades de gestão de despesas, a contabilidade do projeto e o reconhecimento de receitas. O ambiente da aplicação Finanças e Operações é utilizado no Project Operations para cenários baseados em recursos/sem stock e no Project Operations para cenários baseados em stock/produção.
+- A gestão de projetos e a contabilidade no ambiente do Dynamics 365 Finance abrangem as capacidades de gestão de despesas, a contabilidade do projeto e o reconhecimento de receitas. O ambiente da aplicação de finanças e operações é utilizado no Project Operations para cenários baseados em recursos/sem stock e no Project Operations para cenários com base em stock/produção.
 
 ## <a name="project-operations-release-notes"></a>Notas de versão do Project Operations
-- Notas de versão mais recentes do Project Operations para cenários de [Recursos/não armazenados](whats-new-may-2022-resource-based.md).
-- Notas de versão mais recentes do Project Operations para cenários de [implementação lite](../pro/whats-new/whats-new-may-2022-lite.md).
-- Notas de versão mais recentes do Project Operations para cenários de [armazenado/produção](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
+- Notas de versão mais recentes do Project Operations para cenários de [Recursos/não armazenados](whats-new-july-2022-resource-based.md).
+- Notas de versão mais recentes do Project Operations para cenários de [implementação lite](../pro/whats-new/whats-new-july-2022-lite.md).
+- Notas de versão mais recentes do Project Operations para cenários de [armazenado/produção](../prod-pma/whats-new/whats-new-jul-2022-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Versão mais recente do Project Operations
 
-| Project Operations no ambiente Dataverse | Gestão de projetos e contabilidade num ambiente de aplicações de Finanças e Operações | 
+| Project Operations no ambiente Dataverse | Gestão de projetos e contabilidade em ambientes de aplicações de finanças e operações | 
 | --- | --- |
-| 4.43.0.77 | 10.0.26 |
+| 4.44.0.22 | 10.0.28 |
 
 Para o cenário recurso/sem stock do Project Operations, recomendamos que utilize a Orquestração de escrita dupla da versão 2.3.1.15 ou superior.
 
@@ -47,40 +47,38 @@ As atualizações do Project Operations no ambiente Dataverse estão disponívei
 | Estação | Região | Número da versão atual | Atualizações automáticas para implementação leve | Atualizações automáticas para implementação de recursos/não armazenados | Número da próxima versão | Próxima versão geralmente disponível |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estação 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira Versão         |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
+|   &nbsp;  | Primeira Versão         |  4.44.0.22      | Concluir           | Concluir            | TBD                 | 05 de agosto de 2022       |
 | Estação 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sul         |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
-|   &nbsp;  | Canadá                |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
-|   &nbsp;  | Índia                 |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
-|   &nbsp;  | França                |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
-|   &nbsp;  | África do Sul          |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
-|   &nbsp;  | Suíça           |  4.43.0.77      | Concluir           | Concluir            | TBD                 | 01 de julho de 2022       |
+|   &nbsp;  | América do Sul         |  4.44.0.22      | Concluir           | Concluir            | TBD                 | 06 de agosto de 2022       |
+|   &nbsp;  | Canadá                |  4.44.0.22      | Concluir           | Concluir            | TBD                 | 06 de agosto de 2022       |
+|   &nbsp;  | Índia                 |  4.44.0.22      | Concluir           | Concluir            | TBD                 | 06 de agosto de 2022       |
+|   &nbsp;  | França                |  4.44.0.22      | Concluir           | Concluir            | TBD                 | 06 de agosto de 2022       |
+|   &nbsp;  | África do Sul          |  4.44.0.22      | Concluir           | Concluir            | TBD                 | 06 de agosto de 2022       |
+|   &nbsp;  | Suíça           |  4.44.0.22      | Concluir           | Concluir            | TBD                 | 06 de agosto de 2022       |
 | Estação 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japão                 |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
-|   &nbsp;  | Ásia-Pacífico          |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
-|   &nbsp;  | Grã-Bretanha         |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
-|   &nbsp;  | Oceânia               |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
-|   &nbsp;  | Emirados Árabes Unidos  |  4.43.0.77      | 03 de junho de 2022      | 03 de junho de 2022       | TBD                 | 08 de julho de 2022       |
+|   &nbsp;  | Japão                 |  4.44.0.22      | Concluir      | Concluir       | TBD                 | 12 de agosto de 2022       |
+|   &nbsp;  | Ásia-Pacífico          |  4.44.0.22      | Concluir      | Concluir       | TBD                 | 12 de agosto de 2022       |
+|   &nbsp;  | Grã-Bretanha         |  4.44.0.22      | Concluir      | Concluir       | TBD                 | 12 de agosto de 2022       |
+|   &nbsp;  | Oceânia               |  4.44.0.22      | Concluir      | Concluir       | TBD                 | 12 de agosto de 2022       |
+|   &nbsp;  | Emirados Árabes Unidos  |  4.44.0.22      | Concluir      | Concluir       | TBD                 | 12 de agosto de 2022       |
 | Estação 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.42.0.70      | Concluir           | Concluir            | 4.43.0.77           | 10 de junho de 2022       |
+|   &nbsp;  | Europa                |  4.43.0.119      | Concluir           | Concluir            | 4.44.0.22           | 29 de julho de 2022       |
 | Estação 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.42.0.70      | Concluir           | Concluir            | 4.43.0.77           | 17 de junho de 2022       |
+|   &nbsp;  | América do Norte         |  4.43.0.119      | Concluir           | Concluir            | 4.44.0.22           | 05 de agosto de 2022       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Agenda da versão para Gestão de projetos e contabilidade no ambiente de aplicações de Finanças e Operações
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Agenda da versão para Gestão de projetos e contabilidade no ambiente de aplicações de finanças e operações
 
 As atualizações para a Gestão de projetos e contabilística são lançadas oito vezes por ano.
 
-|Versão Suportada| Disponibilidade de pré-visualização (PEAP) | Geralmente disponível (atualização automática) | Data de início da produção do agendamento de atualização automática (através de Definições de Atualização LCS) |   Fim do serviço   |
+|Versão Suportada| Disponibilidade de pré-visualização | Geralmente disponível (atualização automática) | Data de início da produção do agendamento de atualização automática (através de Definições de Atualização LCS) |   Fim do serviço   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.26     |      4 de Março de 2022          |        15 de abril de 2022             |                          29 de abril de 2022                              | 15 de julho de 2022      |
-|     10.0.25     |      31 de Janeiro de 2022       |        18 de Março de 2022             |                          1 de abril de 2022                               | 10 de junho de 2022      |
-
+|     10.0.28     |      27 de maio de 2022           |        15 de julho de 2022              |                          29 de julho de 2022                               | 21 de outubro de 2022   |
+|     10.0.27     |      22 de abril de 2022         |        17 de junho de 2022              |                          1 de julho de 2022                                | 16 de setembro de 2022 |
 
 As datas de versão direcionadas estão sujeitas a alterações. Para mais informações, consulte o [Disponibilidade das atualizações do serviço](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|Versão de Destino | Disponibilidade de pré-visualização (PEAP) | Geralmente disponível (atualização automática) | Data de início da produção do agendamento de atualização automática (através de Definições de Atualização LCS) |   Fim do serviço   |
+|Versão de Destino | Disponibilidade de pré-visualização | Geralmente disponível (atualização automática) | Data de início da produção do agendamento de atualização automática (através de Definições de Atualização LCS) |   Fim do serviço   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.27     |      22 de abril de 2022         |        17 de junho de 2022              |                          1 de julho de 2022                                | 16 de setembro de 2022 |
-|     10.0.28     |      27 de maio de 2022           |        15 de julho de 2022              |                          29 de julho de 2022                               | 21 de outubro de 2022   |
+|     10.0.29     |      1 de agosto de 2022         |       16 de setembro de 2022          |                        30 de setembro de 2022                            | 13 de Janeiro de 2023   |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

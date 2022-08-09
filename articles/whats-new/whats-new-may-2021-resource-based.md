@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 425b0eb78b5f03d4b0da9a792d6e33fc96adf060
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: cc5e8104702951fd787d02407d26671e46d44f0c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930424"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030003"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de maio de 2021 - Project Operations para cenários baseados em recursos/não armazenados
 
@@ -21,7 +21,7 @@ _**Aplica-se A:** Project Operations para cenários baseados em recursos/não ar
 Este artigo aplica-se aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Project Operations no ambiente do Dynamics 365 Dataverse, versão 4.10.0.186
-- Gestão de projetos e contabilidade em ambientes de aplicações de Finanças e Operações versão 10.0.18
+- Gestão de projetos e contabilidade em ambientes de aplicações de finanças e operações, versão 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versão
 

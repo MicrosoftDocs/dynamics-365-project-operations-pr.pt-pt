@@ -6,16 +6,16 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c6176247db37c3276d775050497585ead011e5a1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3e8e10d69368f4704ec6121106fbfd35394dc441
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917360"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023673"
 ---
 # <a name="corrective-project-invoices"></a>Faturas corretivas de projeto
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Implementação leve - negociar à faturação pró-forma, Project Operations para cenários baseados em recursos/não armazenados_
 
 Uma fatura de projeto confirmada pode ser corrigida para processar alterações ou créditos conforme negociado com o cliente e gestor de projeto.
 

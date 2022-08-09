@@ -4,7 +4,7 @@ description: Como criar um modelo do projeto no Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599008"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177440"
 ---
 # <a name="create-a-project-template-project-service"></a>Criar um modelo de projeto (Project Service)
 
@@ -35,12 +35,19 @@ Os modelos de projeto poupam tempo se a sua empresa apresenta propostas em tipos
 ## <a name="components-of-project-template"></a>Componentes do modelo de projeto
  Um modelo de projeto é composto por três componentes:  
   
-- **Estrutura hierárquica do trabalho**: Uma estrutura hierárquica do trabalho num modelo de projeto tem o mesmo conjunto de elementos que no projeto. Pode criar uma hierarquia de tarefas, associar funções à tarefa, definir atributos da agenda, definir dependências e ver todos os dados no gráfico Gantt. A estrutura hierárquica do trabalho nos modelos de projeto também suportam modos de tarefa para cada tarefa. Não existem diferença entre um modelo de projeto e um projeto ao criar a agenda de trabalho.  
+- **Estrutura hierárquica do trabalho**: Uma estrutura hierárquica do trabalho num modelo de projeto tem o mesmo conjunto de elementos que no projeto. Pode criar uma hierarquia de tarefas, associar funções à tarefa, definir atributos da agenda, definir dependências e ver todos os dados no gráfico Gantt. A estrutura hierárquica do trabalho nos modelos de projeto também suporta modos de tarefa para cada tarefa. Não existe diferença entre um modelo de projeto e um projeto ao criar uma agenda de trabalho.  
   
 - **Estimativas do projeto**: As estimativas do projeto em funcionam da mesma forma que nos projetos, à exceção das listas de preços, que para assumir por predefinição o custo e os preços de vendas, são sempre as listas de preços de venda e o custo definidos nos parâmetros do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. A restante funcionalidade é igual à de um projeto.  
   
 - **Formação da equipa do projeto**: Ao formar uma equipa do projeto para um modelo de projeto, não é possível reservar um recurso nomeado num modelo. Pode utilizar **Gerar Equipa do Projeto** estrutura hierárquica do trabalho para gerar um conjunto de recursos genéricos. Também pode especificar as competências e as proficiências necessárias para os recursos genéricos. Não pode substituir um recurso genérico por um recurso reservável nos modelos do projeto.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Criar um modelo de projeto com base num projeto existente
+Pode criar um modelo de projeto a partir de um projeto das seguintes formas:
+
+- **Estrutura hierárquica do trabalho**: uma estrutura hierárquica do trabalho num modelo derivado de um projeto irá copiar todas as tarefas e dependências. As atribuições criadas serão baseadas nos membros da equipa genérica que são adicionados à equipa do projeto quando o modelo de projeto for criado.
+- **Estimativas do projeto**: quando um modelo de projeto é criado a partir de um projeto existente, as estimativas do projeto de origem são copiadas para o modelo de projeto.
+- **Membros da equipa do projeto**: quando um modelo é criado a partir de um projeto existente, todos os membros da equipa nomeados são substituídos pelo recurso genérico da organização. Todos os nomes e funções de posição são mantidos.
+
 ## <a name="create-a-project-from-a-template"></a>Criar um projeto a partir de um modelo  
  Pode criar um projeto a partir de um modelo das seguintes formas:  
   
