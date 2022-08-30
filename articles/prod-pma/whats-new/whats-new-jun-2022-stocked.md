@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959481"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316956"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Novidades ou alterações no Project Operations, junho de 2022, para cenários baseados em produção/armazenados
 
@@ -24,7 +24,7 @@ Este artigo aplica-se aos seguintes componentes e versões do Microsoft Dynamics
 
 ## <a name="features-included-in-this-release"></a>Funcionalidades incluídas nesta versão
 
-É possível utilizar requisitos de itens para contratos de projeto que têm várias origens de financiamento. Para obter mais informações, consulte [Requisitos de itens para contratos de projeto com várias origens de financiamento](/multiple-funding-sources-item-req.md).
+É possível utilizar requisitos de itens para contratos de projeto que têm várias origens de financiamento. Para obter mais informações, consulte [Requisitos de itens para contratos de projeto com várias origens de financiamento](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Atualizações de qualidade
 

@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929228"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230330"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizar APIs de Agenda do Project para executar operações com entidades de Agendamento
 
@@ -45,9 +45,9 @@ Segue-se uma lista das APIs de agenda do Project atuais.
 - **msdyn_CreateProjectV1**: Esta API pode ser usada para criar um projeto. O projeto e o registo de projeto predefinido são criados imediatamente.
 - **msdyn_CreateTeamMemberV1**: Esta API pode ser usada para criar um membro da equipa de projeto. O registo de membros da equipa é criado imediatamente.
 - **msdyn_CreateOperationSetV1**: Esta API pode ser utilizada para agendar vários pedidos que devem ser realizados dentro de uma transação.
-- **msdyn_PSSCreateV1**: Esta API pode ser usada para criar uma entidade. A entidade pode ser qualquer uma das entidades de agendamento do Project que suportam a operação de criação.
-- **msdyn_PSSUpdateV1**: Esta API pode ser usada para atualizar uma entidade. A entidade pode ser qualquer uma das entidades de agendamento do Project que suportam a operação de atualização.
-- **msdyn_PSSDeleteV1**: Esta API pode ser usada para eliminar uma entidade. A entidade pode ser qualquer uma das entidades de agendamento do Project que suportam a operação de eliminação.
+- **msdyn_PssCreateV1**: esta API pode ser utilizada para criar uma entidade. A entidade pode ser qualquer uma das entidades de agendamento do Project que suportam a operação de criação.
+- **msdyn_PssUpdateV1**: esta API pode ser utilizada para atualizar uma entidade. A entidade pode ser qualquer uma das entidades de agendamento do Project que suportam a operação de atualização.
+- **msdyn_PssDeleteV1**: esta API pode ser utilizada para eliminar uma entidade. A entidade pode ser qualquer uma das entidades de agendamento do Project que suportam a operação de eliminação.
 - **msdyn_ExecuteOperationSetV1**: Esta API é utilizada para executar todas as operações no âmbito do conjunto de operações.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Utilizar APIs de agenda do Project com OperationSet

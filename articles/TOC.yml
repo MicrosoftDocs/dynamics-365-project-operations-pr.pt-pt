@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
-        - name: Julho de 2022 - Project Operations para cenários baseados em recursos/não armazenados
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Agosto de 2022 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arquivo
           items:
+            - name: Julho de 2022 - Project Operations para cenários baseados em recursos/não armazenados
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Junho de 2022 - Project Operations para cenários baseados em recursos/não armazenados
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Maio de 2022 - Project Operations para cenários baseados em recursos/não armazenados
@@ -384,6 +386,42 @@
           items:
             - name: Descrição geral da utilização de recursos
               href: resource-management/resource-utilization-overview.md
+    - name: Gestão de Subcontratos
+      items:
+        - name: Gestão de subcontratos no Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Principais conceitos de subcontratação
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gerir fornecedores e listas de preços de projetos
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subcontratantes como recursos reserváveis
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalhes do Cabeçalho para Subcontratos
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Itens de subcontrato para tempo
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Itens de subcontrato para categorias de despesa
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Itens de subcontrato para produtos
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Recursos do item de subcontratante
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Marcos do item de subcontrato
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subcontratação de membros da equipa do projeto
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opções de subcontratação para membros da equipa do projeto
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimativa de custos de atribuições de recursos subcontratados
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurar o Quadro da Agenda para mostrar trabalhadores contratados e capacidade subcontratada
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Dotar um projeto com trabalhadores contratados e capacidade subcontratada
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Tempo de gravação, despesas e utilização de materiais para componentes subcontratados'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transições de estado num subcontrato
+          href: pro/subcontracting/subcon-states.md
     - name: Tempo
       items:
         - name: Descrição geral do tempo
@@ -580,9 +618,11 @@
       items:
         - name: Migrar marcos de faturação totalmente faturados durante a transferência
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Sincronizar Estado do Projeto para impedir entradas em projetos fechados
+          href: advanced-configuration/sync-project-status.md
     - name: Atualizar
       items:
-        - name: Considerações de atualização para aprovações Modernas
+        - name: Considerações de atualização para Aprovações modernas
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Aplicações do Project Operations
       items:
@@ -604,16 +644,18 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Implementar o Project Operations - leve
           href: environment/lite-deployment.md
-        - name: Aplicar dados de configuração da demonstração - leve
+        - name: Aplicar configuração da demonstração e dados de configuração - leve
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Modelo de segurança
           href: environment/security-model.md
     - name: Novidades
       items:
-        - name: Novidades de julho de 2022 - implementação leve
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Novidades de agosto de 2022 - implementação leve
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arquivo
           items:
+            - name: Novidades de julho de 2022 - implementação leve
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novidades de junho de 2022 - implementação leve
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Novidades do acesso antecipado à versão 2021 edição 2 - implementação leve

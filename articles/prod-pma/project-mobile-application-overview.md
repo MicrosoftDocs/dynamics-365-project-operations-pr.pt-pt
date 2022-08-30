@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028900"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317002"
 ---
 # <a name="project-mobile-applications-overview"></a>Descrição geral das aplicações móveis do projeto
 
@@ -42,9 +42,8 @@ As minhas folhas de horas (Otimizadas para telemóveis) e as Folhas de horas par
 ## <a name="for-more-information"></a>Para obter mais informações
 
 - [Aplicação móvel Project Timesheet](project-timesheet.md)
-- [Entrada de hora do projeto]( project-time-entry-mobile-workspace.md)
+- [Entrada de hora do projeto](project-time-entry-mobile-workspace.md)
 - [Folhas de horas do projeto num dispositivo móvel](Mobile-timesheets.md)
 - [Implementar campos personalizados para a aplicação móvel Microsoft Dynamics 365 Project Timesheet em iOS e Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
