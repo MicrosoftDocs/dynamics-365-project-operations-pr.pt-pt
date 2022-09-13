@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183926"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403966"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de julho de 2022 - Project Operations para cenários baseados em recursos/não armazenados
 
@@ -45,6 +45,12 @@ Se ocorrer um problema quando iniciar o mapa, siga as instruções na secção [
 | Faturação e Preços | 2675880 | Impeça que um projeto seja associado a um item de contrato que não seja baseado em trabalho. |
 | Faturação e Preços | 2664396 | Se uma proposta de lista de preços for guardada sem uma asserção, tem de haver um erro que declara que a asserção não pode estar vazia. |
 | Faturação e Preços | 2184019 | O separador **Faturação baseada em tarefas** não deve ser apresentado para projetos que não tenham contrato ou proposta de suporte. |
+| Tempo e Despesa | 2754459 | Quando o agendamento recorrente do fluxo de cloudestiver inactivo, mostre o banner e ignore o processamento assíncrono. |
+| Faturação e Preços | 2724391 | É lançada uma excepção errada quando falta uma regra de faturação dividida de contratos do projeto num valor de cliente. |
+| Faturação e Preços | 2708638 | O registo não foi encontrado durante a pesquisa utilizando a pesquisa de grelha nas Utilizações de material e Aprovações para Utilizações de material.|
+| Faturação e Preços | 2686977 | Impeça a validação da linha de fatura durante a criação da fatura. |
+| Faturação e Preços | 2683032 | A cópia de funções e categorias carregáveis não ultrapassa os 5000 dados.|
+| Faturação e Preços | 2673363 | A % de consumo de custos no Projeto é danificada quando as estimativas de Esforço e de Despesa e os valores reais existem para um projeto. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Gestão de projetos e contabilística em Finanças
 

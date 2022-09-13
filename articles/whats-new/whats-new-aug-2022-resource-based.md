@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348026"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403871"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de agosto de 2022 - Project Operations para cenários baseados em recursos/não armazenados
 
@@ -38,6 +38,11 @@ Se ocorrer um problema quando iniciar o mapa, siga as instruções na secção [
 | Área de funcionalidades | Número de referência | Atualização de qualidade |
 | --- | --- | --- |
 | Gestão de oportunidades | 2762089 | O processamento de erros ao fechar o contrato como perdido se guardar automaticamente estiver desativado na organização.|
+|Planeamento e Monitorização de Projetos | 2767841 | A telemetria atualiza a entidade de Projeto de Criar ou Atualizar cenários.|
+|Faturação e Preços | 2771072 | Tratamento de exceção de referência nula durante uma proposta ganha.|
+|Faturação e Preços | 2844181 |Falha na obtenção de um ID de correlação e bloqueio da criação de uma fatura.|
+|Faturação e Preços | 2852836 | Valores reais entre empresas em falta para Despesas entre empresas criadas e aprovadas no CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Gestão de projetos e contabilística em Finanças
 
