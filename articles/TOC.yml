@@ -226,12 +226,14 @@
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
             - name: Configurar taxas de custo e de venda para materiais
               href: pricing-costing/set-up-cost-sales-rates-materials.md
-        - name: Predefinições e substituições
+        - name: Predefinições e definições manuais
           items:
             - name: Listas de preços predefinidas
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: Substituir listas de preços de vendas de projetos
+            - name: Definir manualmente listas de preços de vendas de projetos
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar Definições manuais efetivas na data para preços específicos numa lista de preços
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar preços de custo para estimativas e valores reais
               href: pricing-costing/cost-price-resolution.md
             - name: Determinar preços de venda para estimativas e valores reais
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Encomendar bens e serviços para os projetos que utilizam notas de encomenda de projeto
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Faturas de fornecedor para subcontratos no Dataverse
+          items:
+            - name: Criar faturas de fornecedor
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verificação de faturas de fornecedor com valores reais aprovados
+              href: pro/subcontracting/VI-Verification.md
+            - name: Confirmar faturas de fornecedor do projeto
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Retenção de fornecedores
           items:
             - name: Descrição geral da retenção de fornecedores
@@ -838,12 +848,14 @@
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
             - name: Configurar taxas de custo e de venda para materiais
               href: pricing-costing/set-up-cost-sales-rates-materials.md
-        - name: Predefinições e substituições
+        - name: Predefinições e definições manuais
           items:
             - name: Listas de preços predefinidas
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: Substituir listas de preços de vendas de projetos
+            - name: Definir manualmente listas de preços de vendas de projetos
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar Definições manuais efetivas na data para preços específicos numa lista de preços
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar preços de custo em estimativas e valores reais dos projetos
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Determinar preços de venda para estimativas e valores reais dos projetos
