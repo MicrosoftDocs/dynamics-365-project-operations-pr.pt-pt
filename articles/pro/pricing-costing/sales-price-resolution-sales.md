@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410133"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475199"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Determinar preços de venda para estimativas e valores reais de projeto
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-Para determinar os preços de venda de estimativas e valores reais no Microsoft Dynamics 365 Project Operations, o sistema utiliza primeiro a data e a moeda na estimativa recebida ou no contexto real para determinar a lista de preços de venda. Especificamente no contexto real, o sistema utiliza o campo **Data das transações** para determinar a lista de preços aplicável. Após a determinação da lista de preços de venda, o sistema determina a venda ou taxa de faturação.
+Para determinar os preços de venda de estimativas e valores reais no Microsoft Dynamics 365 Project Operations, o sistema utiliza primeiro a data e a moeda na estimativa recebida ou no contexto real para determinar a lista de preços de venda. Especificamente no contexto real, o sistema utiliza o campo **Data das transações** para determinar a lista de preços aplicável. O valor **Data de transação** da estimativa ou valor real de entrada é comparado com os valores **Início efetivo (independente do fuso horário)** e **Fim efetivo (independente do fuso horário)** na lista de preços. Após a determinação da lista de preços de venda, o sistema determina a venda ou taxa de faturação.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Determinar as taxas de venda em linhas de valores reais e de estimativa para a Hora
 

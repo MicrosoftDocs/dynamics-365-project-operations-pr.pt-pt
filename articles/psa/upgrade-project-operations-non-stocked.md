@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230283"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446050"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Atualizar a versão do Project Service Automation para Project Operations
 
@@ -29,7 +29,7 @@ Estamos entusiasmados por anunciar a primeira de três fases para a atualizar a 
 
 O programa de entrega da atualização de versão será dividido em três fases.
 
-| Entrega da atualização de versão | Fase 1 (janeiro de 2022) | Fase 2 (Vaga de abril de 2022) | Fase 3  |
+| Entrega da atualização de versão | Fase 1 (janeiro de 2022) | Fase 2 (novembro de 2022) | Fase 3 (Vaga de abril de 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Não há dependência na estrutura hierárquica do trabalho (WBS) para projetos | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | O WBS dentro dos limites atualmente suportados do Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ O programa de entrega da atualização de versão será dividido em três fases.
 
 Como parte do processo de atualização de versão, adicionámos registos de atualização de versão ao mapa do site, para que os administradores possam diagnosticar falhas mais facilmente. Além da nova interface, serão adicionadas novas regras de validação para garantir a integridade dos dados após uma atualização de versão. As validações que se seguem serão adicionadas ao processo de atualização de versão.
 
-| Validações | Fase 1 (janeiro de 2022) | Fase 2 (Vaga de abril de 2022) | Fase 3  |
+| Validações | Fase 1 (janeiro de 2022) | Fase 2 (novembro de 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | O WBS será validado contra violações comuns de integridade dos dados (por exemplo, atribuições de recursos que estão associadas à mesma tarefa principal, mas que têm diferentes projetos principais). | | :heavy_check_mark: | :heavy_check_mark: |
 | O WBS será validado contra os [limites conhecidos do Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
