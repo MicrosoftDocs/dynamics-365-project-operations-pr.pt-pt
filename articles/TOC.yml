@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Recuperar as entradas aprovadas anteriormente
           href: approvals/recall-cancel.md
+        - name: Segurança e aprovações
+          href: approvals/approvals-security.md
         - name: Notas do programador
           items:
             - name: Notas do programador para Aprovações
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Configurar a retenção de fornecedores
               href: procurement/set-up-vendor-retention.md
+            - name: Pagar quando pago
+              href: procurement/Pay-when-paid.md
     - name: Faturação
       items:
         - name: Descrição geral do processo de faturação
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Recuperar as entradas aprovadas anteriormente
           href: approvals/recall-cancel.md
+        - name: Segurança e aprovações
+          href: approvals/approvals-security.md
         - name: Notas do programador
           items:
             - name: Notas do programador para Aprovações
