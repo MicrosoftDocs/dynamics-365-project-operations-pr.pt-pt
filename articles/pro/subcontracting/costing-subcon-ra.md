@@ -2,20 +2,20 @@
 title: Estimativa de custos de atribuições de recursos subcontratados
 description: Este artigo explica como o Microsoft Dynamics 365 Project Operations calcula a estimativa de custos das atribuições de recursos subcontratados.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262074"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522670"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Estimativa de custos de atribuições de recursos subcontratados
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
 As atribuições de tarefas de membros da equipa do projeto subcontratados são custeadas utilizando a lista de preços **Compra** anexada ao subcontrato no registo de membros da equipa relacionada. Isto é diferente de como as atribuições de recursos dos colaboradores são custeados quando as atribuições de tarefas dos recursos dos colaboradores são custeados usando a lista de preços **Custo** que está anexada à unidade de contratação do projeto. 
 

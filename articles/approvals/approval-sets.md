@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918096"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524931"
 ---
 # <a name="approval-sets"></a>Conjuntos de aprovações
 
@@ -45,14 +45,9 @@ A seleção de **Repetir** adiciona à contagem de duração do conjunto de apro
 ## <a name="configure-approval-sets"></a>Configurar conjuntos de aprovação
 
 ### <a name="enable-the-approval-sets-feature"></a>Ativar a funcionalidade Conjuntos de aprovação
-Antes de ativar a funcionalidade de Conjuntos de aprovação, verifique se não existem aprovações atualmente em processamento.
+Antes de ativar a funcionalidade de Conjuntos de aprovação, verifique se não existem aprovações atualmente em processamento. Depois de esta caraterística ser ativada, não pode ser desativada.
 
 - Aceda à página **Parâmetros do projeto** e selecione **Controlo de Funcionalidades** > **Ativar Aprovações Modernas**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Desativar a funcionalidade Conjuntos de aprovação
-Antes de desativar a funcionalidade de Conjuntos de aprovação, verifique se não existem aprovações atualmente em processamento.
-
-- Aceda à página **Parâmetros do Projeto** e selecione **Controlo de Funcionalidades** > **Desativar Aprovações Modernas**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Configurar o limiar assíncrono 
 Quando os conjuntos de aprovação são criados, o processamento move-se para segundo plano quando o número selecionado de registos de aprovação excede o limiar indicado. Utilize o campo **Limiar Assíncrono** para configurar quando o processamento de aprovação deve ser executado de forma síncrona ou assíncrona. Selecione um dos seguintes valores:

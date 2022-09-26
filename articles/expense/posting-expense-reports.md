@@ -1,8 +1,8 @@
 ---
 title: Publicar relatórios de despesas
 description: Este artigo explica como publicar relatórios de despesas.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934518"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524884"
 ---
 # <a name="post-expense-reports"></a>Publicar relatórios de despesas
 
@@ -30,5 +30,15 @@ Para lançar um relatório de despesas, na página **Relatórios de despesas apr
 
 Também pode lançar todos os relatórios de despesas na lista ao mesmo tempo. Selecione todos os relatórios de despesas e, em seguida, selecione **Publicar**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Ativar a caraterística Capacidade de publicar o passivo de despesas na moeda do fornecedor para o método de pagamento em numerário
+
+A caraterística **Capacidade de publicar o passivo de despesas na moeda do fornecedor para o método de pagamento em numerário** permite a publicação de relatórios de despesas numa moeda de fornecedor para o método de pagamento em numerário.
+
+Atualmente, quando submete despesas em numerário, os relatórios de despesas são publicados na moeda contabilística. Devido à conversão do montante entre a moeda de transação, a moeda contabilística e a moeda do fornecedor, é pago um montante incorreto aos fornecedores se a data da transação da despesa e a data de pagamento real tiver taxas de câmbio diferentes.
+
+Esta caraterística irá assegurar que o saldo do fornecedor é registado na moeda do fornecedor quando o relatório de despesas é publicado.
+
+1. Aceda a **Áreas de Trabalho** \> **Gestão de Funcionalidades**.
+2. Na lista, localize e selecione **Capacidade de publicar o passivo de despesas na moeda do fornecedor para o método de pagamento em numerário** e, em seguida, selecione **Ativar agora**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

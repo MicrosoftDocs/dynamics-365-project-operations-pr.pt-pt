@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029223"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528019"
 ---
 # <a name="expense-management-integration"></a>Integração de gestão de despesas
 
@@ -34,7 +34,7 @@ As categorias de despesas nas aplicações de finanças e operações são espec
 
 ## <a name="expense-reports"></a>Relatórios de despesas
 
-Os relatórios de despesas são criados e aprovados nas aplicações de finanças e operações. Para obter mais informações, consulte [Criar e processar relatórios de despesas em Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Depois do relatório de despesas ser aprovado pelo diretor do projeto, é publicado no livro razão. No Project Operations, as linhas de relatório de despesas relacionadas com o projeto são publicadas utilizando regras especiais de publicação:
+Os relatórios de despesas são criados e aprovados nas aplicações de finanças e operações. Para obter mais informações, consulte [Criar e processar relatórios de despesas em Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Depois do relatório de despesas ser aprovado pelo diretor do projeto, é publicado no livro razão. No Project Operations, as linhas de relatório de despesas relacionadas com o projeto são publicadas utilizando regras especiais de publicação:
 
   - O custo relacionado com o projeto (incluindo o imposto não recuperável) não é imediatamente registado na conta de custos do projeto em geral, mas é registado na conta de integração de despesas. Esta conta é configurada no separador **Gestão de projetos e gestão contabilística** > **Configuração** > **gestão de projetos e parâmetros de gestão contabilística**, **Project Operations no Dynamics 365 Customer engagement**.
   - A dupla escrita sincroniza para Dataverse utilizando o mapa da tabela **Entidade de exportação de despesas de projeto de integração do Project Operations (msdyn\_expenses)**.

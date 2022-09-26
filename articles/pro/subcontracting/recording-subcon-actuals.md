@@ -2,20 +2,20 @@
 title: Tempo de gravação, despesas e utilização de materiais para componentes subcontratados
 description: Este artigo explica como o tempo, as despesas e a utilização de material registados em projetos a partir de componentes subcontratados são monitorizados pelo Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261151"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522528"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Tempo de gravação, despesas e utilização de materiais em projetos para componentes subcontratados
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
 Este artigo explica como o tempo, as despesas e a utilização de material registados em projetos a partir de componentes subcontratados são monitorizados pelo Microsoft Dynamics 365 Project Operations.
 

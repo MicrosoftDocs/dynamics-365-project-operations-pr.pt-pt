@@ -2,16 +2,16 @@
 title: Diário de integração no Project Operations
 description: Este artigo fornece informações sobre trabalhar com o Diário de integração no Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106289"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541092"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diário de integração no Project Operations
 
@@ -65,6 +65,12 @@ A publicação pode ser executada de forma interativa ou num lote. Note que todo
 > [!NOTE]
 > Para utilizar esta capacidade, ative a funcionalidade **Transferir todas as linhas com erros de publicação para um novo diário de integração do Project Operations** na área de trabalho **Gestão de Funcionalidades**.
 
-Durante a publicação no diário de integração do Project Operations, o sistema valida todas as linhas no diário. O sistema publica todas as linhas que não têm erros e cria um novo diário para todas as linhas que têm erros de publicação. Para rever os diários que têm linhas com erros de publicação, aceda a **Gestão de projetos e contabilidade** > **Diários** > **Diário de integração do Project Operations** e filtre os diários, utilizando o campo **Diário original**.
+Esta caraterística ajuda a melhorar a experiência com o diário de integração do Project Operations. Quando está ativado, os problemas de temporizador de escrita dupla e os problemas de configuração deixam de impedir a publicação de diários válidos. Durante a publicação no diário de integração do Project Operations, o sistema valida todas as linhas no diário. Publica todas as linhas que não têm erros e cria um novo diário para todas as linhas que tenham erros de publicação.
+
+Para rever os diários que têm linhas de erro de publicação, aceda a **Gestão de projetos e contabilidade** \> **Diários** \> **Diário de integração do Project Operations** e filtre a lista de diários utilizando o campo **Diário original**. A ilustração seguinte mostra um exemplo no qual os diários na página **Diário de integração do Project Operations** foram filtrados desta forma.
+
+![Diário original mostrado na página Diário de integração do Project Operations.](./media/transferLines-originalJournal.png)
+
+Se for configurada uma tarefa de lote periódica para publicar o diário de integração, a publicação será tentada novamente e os diários serão publicados se o problema de temporizador tiver sido corrigido. Quaisquer diários restantes deverão ser investigados manualmente revendo os registos e efetuando quaisquer ações necessárias.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

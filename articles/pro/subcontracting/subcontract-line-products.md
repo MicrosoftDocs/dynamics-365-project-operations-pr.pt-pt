@@ -2,20 +2,20 @@
 title: Itens de subcontrato para produtos
 description: Este artigo explica como gravar itens de subcontrato para produtos e utilizar os vários campos para gravar compras de produtos a fornecedores.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262137"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522857"
 ---
 # <a name="subcontract-lines-for-products"></a>Itens de subcontrato para produtos
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
 Um subcontrato no Dynamics 365 Project Operations pode ter um item de subcontrato para produtos. Estes itens permitem que um Gestor de Projeto compre produtos aos fornecedores que depois podem utilizar nas tarefas de projeto.
 
