@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409953"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622035"
 ---
 # <a name="project-operations-updates"></a>Atualizações do Project Operations
 
@@ -47,24 +47,24 @@ As atualizações do Project Operations no ambiente Dataverse estão disponívei
 | Estação | Região | Número da versão atual | Atualizações automáticas para implementação leve | Atualizações automáticas para implementação de recursos/não armazenados | Número da próxima versão | Próxima versão geralmente disponível |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estação 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira Versão         |  4.45.0.53      | Concluir           | Concluir            | TBD                 | 09 de setembro de 2022      |
+|   &nbsp;  | Primeira Versão         |  4.46.0.60      | Concluir           | Concluir            | TBD                 | 07 de outubro de 2022      |
 | Estação 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sul         |  4.45.0.53      | Concluir           | Concluir            | TBD                 | 09 de setembro de 2022       |
-|   &nbsp;  | Canadá                |  4.45.0.53      | Concluir           | Concluir            | TBD                 | 09 de setembro de 2022       |
-|   &nbsp;  | Índia                 |  4.45.0.53      | Concluir           | Concluir            | TBD                 | 09 de setembro de 2022       |
-|   &nbsp;  | França                |  4.45.0.53      | Concluir           | Concluir            | TBD                 | 09 de setembro de 2022       |
-|   &nbsp;  | África do Sul          |  4.45.0.53      | Concluir           | Concluir            | TBD                 | 09 de setembro de 2022       |
-|   &nbsp;  | Suíça           |  4.45.0.53      | Concluir           | Concluir            | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | América do Sul         |  4.46.0.60      | Concluir           | Concluir            | TBD                 | 14 de outubro de 2022       |
+|   &nbsp;  | Canadá                |  4.46.0.60      | Concluir           | Concluir            | TBD                 | 14 de outubro de 2022       |
+|   &nbsp;  | Índia                 |  4.46.0.60      | Concluir           | Concluir            | TBD                 | 14 de outubro de 2022       |
+|   &nbsp;  | França                |  4.46.0.60      | Concluir           | Concluir            | TBD                 | 14 de outubro de 2022       |
+|   &nbsp;  | África do Sul          |  4.46.0.60      | Concluir           | Concluir            | TBD                 | 14 de outubro de 2022       |
+|   &nbsp;  | Suíça           |  4.46.0.60      | Concluir           | Concluir            | TBD                 | 14 de outubro de 2022       |
 | Estação 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japão                 |  4.45.0.53      | Concluir      | Concluir       | TBD                 | 09 de setembro de 2022       |
-|   &nbsp;  | Ásia-Pacífico          |  4.45.0.53      | Concluir      | Concluir       | TBD                 | 09 de setembro de 2022       |
-|   &nbsp;  | Grã-Bretanha         |  4.45.0.53      | Concluir      | Concluir       | TBD                 | 09 de setembro de 2022       |
-|   &nbsp;  | Oceânia               |  4.45.0.53      | Concluir      | Concluir       | TBD                 | 09 de setembro de 2022       |
-|   &nbsp;  | Emirados Árabes Unidos  |  4.45.0.53      | Concluir      | Concluir       | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | Japão                 |  4.46.0.60      | Concluir      | Concluir       | TBD                 | 21 de outubro de 2022       |
+|   &nbsp;  | Ásia-Pacífico          |  4.46.0.60      | Concluir      | Concluir       | TBD                 | 21 de outubro de 2022       |
+|   &nbsp;  | Grã-Bretanha         |  4.46.0.60      | Concluir      | Concluir       | TBD                 | 21 de outubro de 2022       |
+|   &nbsp;  | Oceânia               |  4.46.0.60      | Concluir      | Concluir       | TBD                 | 21 de outubro de 2022       |
+|   &nbsp;  | Emirados Árabes Unidos  |  4.46.0.60      | Concluir      | Concluir       | TBD                 | 21 de outubro de 2022       |
 | Estação 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Concluir           | Concluir            | TBD           | 16 de setembro de 2022       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Concluir           | Concluir            | TBD           | 28 de outubro de 2022       |
 | Estação 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.45.0.53      | Concluir           | Concluir            | TBD           | 16 de setembro de 2022       |
+|   &nbsp;  | América do Norte         |  4.46.0.60      | Concluir           | Concluir            | TBD           | 04 de Novembro de 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Agenda da versão para Gestão de projetos e contabilidade no ambiente de aplicações de finanças e operações
 
