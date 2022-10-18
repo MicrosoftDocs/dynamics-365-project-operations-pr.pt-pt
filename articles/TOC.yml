@@ -1530,10 +1530,18 @@
           href: psa/whats-new-ur-12.md
         - name: 'Novidades ou alterações no Project Service Automation, V3.x da primeira fase de lançamentos de 2021'
           href: psa/whats-new-2021-wave1.md
-        - name: 'Novidades ou alterações no Project Service Automation, V3.x da primeira fase de lançamentos de 2020'
+        - name: Novidades ou alterações no Project Service Automation V3.x da primeira fase de lançamentos de 2020
           href: psa/whats-new-v3-2020-wave1.md
         - name: Novidades ou alterações no Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Atualização do Project Service Automation (versão da aplicação Project Operations Leve 4.x)
+      items:
+        - name: Atualizar do Project Service Automation para o Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Alterações de funcionalidades do Project Service Automation para o Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Processo de conversão do agendamento de projetos do Project Service Automation para o Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Planear a implementação (versão 3.x da aplicação)
       items:
         - name: Instalação de dados de exemplo
