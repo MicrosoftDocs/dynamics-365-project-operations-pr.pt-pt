@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621294"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634867"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Novidades de setembro de 2022 - Implementação do Project Operations Lite
 
@@ -30,6 +30,7 @@ Este artigo aplica-se aos seguintes componentes e versões do Microsoft Dynamics
 | Faturação e Preços | **Predefinição do preço agnóstico de fuso horário**<br>O Project Operations introduziu o conceito de uma data agnóstica de fuso horário em todos os valores reais do projeto. Um novo campo, **Data da transação**, está agora disponível em linhas do diário e valores reais, e será utilizado para armazenar a data em que a transação ocorreu, mas sem converter essa data para a Hora Universal Coordenada. Esta data será utilizada para processos a jusante, como a predefinição de preços e a criação de faturas. | <p>[Determinar taxas de custo para estimativas e valores reais com base no projeto](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Determinar preços de venda para estimativas e valores reais baseados no projeto](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Faturação e Preços | **O preço com data em vigor é substituído no Project Operations**<br>As Definições manuais de preço com data efetiva oferecem uma forma de definir manualemnte ou alterar preços específicos na lista de preços. | [Definições manuais de preço com data efetiva](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Tempo e Despesa | **Aprovador Global**<br>Esta caraterística permite o fornecedor independente de software (ISV) e a aprovação centralizada, independentemente do estado do projeto ou do membro da sua organização no projeto. | [Segurança e aprovações](/dynamics365/project-operations/approvals/approvals-security) |
+|Planeamento e Monitorização de Projetos|**Utilizar APIs de Agenda do Project para executar operações com entidades de Agendamento** </br> </br>O API de edição contorno de atribuição de recursos permite que os programadores especifiquem através da programação um esforço de detentor de tarefa em qualquer intervalo de datas suportado para um planeamento de esforço faseado de tempo mais granular.|[Utilizar APIs de Agenda do Project para executar operações com entidades de Agendamento](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Atualizações de qualidade
 

@@ -1,9 +1,9 @@
 ---
-title: Alterações de características para o Project Service Automation para o Project Operations
+title: Processo de conversão do agendamento de projetos do Project Service Automation para o Project Operations
 description: Este artigo fornece uma descrição geral das alterações de caraterísticas para o Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621274"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642583"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Alterações de características para o Project Service Automation para o Project Operations
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Processo de conversão do agendamento de projetos do Project Service Automation para o Project Operations
 
 Depois de um projeto ter sido atualizada com êxito do Microsoft Dynamics 365 Project Service Automation 3.X para o Dynamics 365 Project Operations Lite, não é possível editar tarefas de projeto na estrutura hierárquica do trabalho (WBS) da grelha de tarefas. Os clientes poderão rever as WBSs na grelha de monitorização onde foram adicionados novos campos para fornecerem todos os detalhes relacionados com a tarefa. Para projetos onde são necessárias edições à WBS, pode converter seletivamente projetos elegíveis na nova experiência de agendamento do Project for the Web.
 

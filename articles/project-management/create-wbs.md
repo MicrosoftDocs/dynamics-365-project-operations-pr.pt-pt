@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932080"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655203"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura hierárquica do trabalho (WBS)
 
@@ -63,7 +63,7 @@ Conclua os seguintes passos para avançar ou promover uma tarefa.
 
 ### <a name="move-tasks-up-and-down"></a>Mover tarefas para cima e para baixo
 
-As tarefas podem ser mudadas para qualquer nível na estrutura hierárquica de trabalho de uma de duas maneiras:
+As tarefas podem ser mudadas para qualquer nível na estrutura hierárquica do trabalho de uma de duas maneiras:
 
 - Selecione mais uma tarefa e arraste-as para o local pretendido.
 - Selecione uma ou mais tarefas, clique à direita e selecione **Cortar**, selecione a célula de destino na agenda e, em seguida, clique à direita e selecione **Colar**.
@@ -112,6 +112,18 @@ O campo **Categoria** contém os valores que indicam um tipo mais amplo de traba
 Pode utilizar a agenda no Project Operations para criar relações antecessoras entre tarefas. O campo **Antecessor** utiliza um ou mais valores para indicar as tarefas de que uma tarefa depende. Quando os valores antecessores são atribuídos a uma tarefa, a tarefa pode ser iniciada apenas depois de todas as tarefas antecessoras terem sido concluídas. Devido à dependência, a data de início planeada da tarefa é reposta para a data em que as tarefas antecessoras são concluídas.
 
 O modo de tarefa não tem efeito nas atualizações efetuadas nas datas de início e de fim das tarefas antecessoras/dependentes.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Compreensão dos impactos da duração, calendários de recursos e calendários de projeto em tarefas
+A duração de uma tarefa é definida como o número de horas de trabalho entre a hora de início da data de início e a hora de fim da data de conclusão da tarefa.   O Project for the Web define unidades de medida de duração da seguinte forma:
+
+| **Medida de duração** | **Quantidade**|
+|----------------------------------------------------|----------------------|
+| Horas por dia | 8 |
+| Horas por semana |  40 |
+| Dias por mês |  20 |
+
+As tarefas não atribuídas são agendadas utilizando o calendário do projeto. No entanto, após a atribuição inicial do recurso, o agendamento de uma tarefa é atualizado de modo a respeitar o calendário do recurso. As alterações subsequentes a uma tarefa que tem uma atribuição serão governadas pelo [modo de agendamento](scheduling-modes.md) do projeto. Para obter mais informações sobre a influência dos calendários nas tarefas, consulte [Calendários de Recursos em Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) e [Horas de início da tarefa e os seus projetos!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Atalhos de teclado e acessibilidade
 

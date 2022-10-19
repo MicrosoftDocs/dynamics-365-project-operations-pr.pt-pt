@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621279"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634820"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de setembro de 2022 - Project Operations para cenários baseados em recursos/itens não existentes em stock
 
@@ -35,6 +35,7 @@ Este artigo aplica-se aos seguintes componentes e versões do Microsoft Dynamics
 | Gestão de despesas | **Capacidade de publicar o passivo de despesas na moeda de fornecedor**<br>Esta caraterística permite que os relatórios sejam publicados numa moeda do fornecedor para o método de pagamento em numerário. | [Capacidade de publicar o passivo de despesas na moeda de fornecedor](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Aprovisionamento do Projeto | **Pagamentos de fornecedor paga quando pago**<br>Esta caraterística permite que a caraterística Pagar quando pago (PWP) seja utilizada em ambientes sem stock do Project Operations. Permite que os pagamentos ao fornecedor sejam bloqueados/retidos, com base em termos de retenção, até que o pagamento seja recebido pelo cliente. | [Pagamentos de fornecedor paga quando pago](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Aprovisionamento do Projeto | **Requisições de compra do projeto**<br>Esta caraterísticas permite que os utilizadores criem notas de encomenda relacionadas com o projeto em entidades legais em que o Project Operations na integração do Dynamics 365 Customer Engagement está ativado. As notas de encomendas do projeto podem ser utilizadas para gravar aprovisionamento de material sem stock para o projeto pela persona do departamento de Aprovisionamento. As notas de encomenda não serão sincronizadas com o Dataverse. No entanto, pode utilizar uma entidade virtual para emergir as linhas da nota de encomenda do Projeto no Dataverse para obter informações do gestor do projeto. O custo da fatura do fornecedor relacionado com o projeto está integrado com a entidade de Valores Reais do Projeto no Dataverse. O custo do projeto é registado no subrazão do Projeto utilizando o diário de Integração do Project Operations. | |
+|Planeamento e Monitorização de Projetos|**Utilizar APIs de Agenda do Project para executar operações com entidades de Agendamento** </br> </br>O API de edição contorno de atribuição de recursos permite que os programadores especifiquem através da programação um esforço de detentor de tarefa em qualquer intervalo de datas suportado para um planeamento de esforço faseado de tempo mais granular.|[Utilizar APIs de Agenda do Project para executar operações com entidades de Agendamento](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Atualizações de mapas de escrita dupla do Project Operations
 
