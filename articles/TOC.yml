@@ -1750,10 +1750,8 @@
               href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
             - name: Como posso efetuar uma "reserva flexível" de recursos (versão de aplicação 2.x)?
               href: psa/FAQ-soft-book-in-web-app.md
-            - name: Como posso personalizar o fluxo de processo empresarial das Fases do Projeto?
+            - name: Como posso personalizar o fluxo do processo de negócio das Fases do Projeto?
               href: psa/FAQ-customize-bpf.md
-            - name: Considerações sobre atualização da estrutura hierárquica do trabalho
-              href: psa/upgrade-considerations-tasks.md
         - name: Documentos técnicos
           href: psa/white-papers.md
         - name: Guia do administrador
