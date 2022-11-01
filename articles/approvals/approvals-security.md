@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525369"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709412"
 ---
 # <a name="security-and-approvals"></a>Segurança e aprovações
 
@@ -33,6 +33,6 @@ Para aprovar entradas que não sejam do projeto, tem de ser o gestor do submisso
 > [!NOTE]
 > A caraterística de [Conjuntos de aprovação](approval-sets.md) tem de estar ativada antes de poder utilizar a funcionalidade de Admin do Aprovador de Projetos.
 
-O direito de acesso **Admin do Aprovador de Projetos** permite que os utilizadores ignorem políticas e permite a aprovação de entradas em todos os projetos. A atribuição desta função irá ignorar a lógica de validação que necessita de associação à equipa e que está marcada como aprovador. Tem de ter acesso às entidades relacionadas relevantes, tais como **Projeto**. Esse acesso pode ser atribuído por alguém que tenha a função **Gestor de Projetos**.
+O direito de acesso **Admin do Aprovador de Projetos** permite que os utilizadores ignorem políticas e permite a aprovação de entradas em todos os projetos. A atribuição desta função irá ignorar a lógica de validação que necessita de associação à equipa e que está marcada como aprovador. Tem de ter acesso às tabelas relacionadas relevantes, como **Projeto**, através de direitos de acesso que lhe estão atribuídos.
 
 O contexto de utilizador do SISTEMA ignora validações da mesma forma que o direito de acesso de Admin do Aprovador de Projetos.

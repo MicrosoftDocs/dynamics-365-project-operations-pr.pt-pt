@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686990"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709459"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Atualizar a versão do Project Service Automation para Project Operations
 
@@ -70,7 +70,7 @@ Os pré-requisitos para a Fase 3 serão atualizados à medida que a data de disp
 
 ## <a name="licensing"></a>Licenciamento
 
-Se tiver licenças ativas para o Project Service Automation, pode instalar e utilizar o Project Operations, que inclui todas as capacidades do Project Service Automation e muito mais. Pode então testar as capacidades do Project Operations num ambiente separado enquanto continua a utilizar o Project Service Automation em produção. Após a expiração das licenças do Project Service Automation, terá de mudar para o Project Operations. Ao planear esta transição, tem de ter em conta o facto de que a licença do Project Operations não inclui uma licença do Project Service Automation.
+Se tiver licenças ativas para o Project Service Automation, pode instalar e utilizar o Project Operations, que inclui todas as capacidades do Project Service Automation e muito mais. Desta forma, pode testar as capacidades do Project Operations enquanto continua a utilizar o Project Service Automation em produção. Após a expiração das licenças do Project Service Automation, terá de mudar para o Project Operations. Ao planear esta transição, tem de ter em conta o facto de que a licença do Project Operations não inclui uma licença do Project Service Automation. Os clientes que tenham cenários onde implementaram um Project Service Automation e necessitam de continuar a utilizar ou aumentar as licenças para o PSA enquanto planeiam mudar para o Project Operations, poderão pedir licenças PSA temporárias com base nas licenças compradas do Project Operations. Será emitida uma licença do Project Service Automation para uma licença do Project Operations. As licenças do PSA temporárias podem ser pedidas utilizando esta ligação: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Testar e refatorizar personalizações
 
