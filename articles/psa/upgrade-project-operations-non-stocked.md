@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709459"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736681"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Atualizar a versão do Project Service Automation para Project Operations
 
@@ -97,7 +97,7 @@ Depois de atualizar as suas personalizações para importar de forma limpe o Pro
     Dependendo da quantidade de dados no ambiente, a atualização de versão pode demorar várias horas. A equipa principal que está a gerir a atualização da versão deve planear em conformidade e executar a atualização da versão durante o horário não comercial. Em alguns casos, se o volume de dados for grande, a atualização da versão deve ser executada durante o fim de semana. A decisão sobre o agendamento deve basear-se nos resultados dos testes em ambientes mais baixos.
 
 3. Atualize as soluções personalizadas, conforme apropriado. Neste ponto, implemente quaisquer alterações que tenha feito às suas personalizações na secção [Testar e refatorizar personalizações](#testing-and-refactoring-customizations) deste artigo.
-4. Vá a **Definições** \> **Soluções** e selecione para desinstalar a solução **Componentes Preteridos do Project Operations**.
+4. Aceda a **make.powerapps.com**, selecione o seu ambiente na lista pendente no canto superior direito do portal, selecione **Soluções** no menu esquerdo, selecione a solução **Componentes Preteridos do Project Operations** e **Desinstalar**.
 
     Esta solução é uma solução temporária que detém o modelo de dados e componentes existentes que estão presentes durante a atualização da versão. Ao remover esta solução, remova todos os campos e componentes que já não são utilizados. Desta forma, ajuda a simplificar a interface e a facilitar a integração e a extensão.
     
