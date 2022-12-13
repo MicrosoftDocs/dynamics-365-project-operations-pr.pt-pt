@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
-        - name: Setembro de 2022 - Project Operations para cenários baseados em recursos/não armazenados
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Novembro de 2022 - Project Operations para cenários baseados em recursos/não armazenados
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arquivo
           items:
+            - name: Outubro de 2022 - Project Operations para cenários baseados em recursos/não armazenados
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: Setembro de 2022 - Project Operations para cenários baseados em recursos/não armazenados
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: Agosto de 2022 - Project Operations para cenários baseados em recursos/não armazenados
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Julho de 2022 - Project Operations para cenários baseados em recursos/não armazenados
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Unidades organizacionais
               href: sales/OrgUnits.md
-        - name: Gerir oportunidades potenciais do projeto
+        - name: Gerir propostas baseadas em oportunidades potenciais
           href: sales/manage-leads.md
-        - name: Gerir oportunidades do projeto
+        - name: Gerir oportunidades baseadas em projetos
           items:
             - name: Descrição geral da gestão de oportunidades do projeto
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Itens de oportunidade baseados em projetos
               href: sales/project-based-lines.md
-            - name: Criar propostas do projeto a partir de oportunidades
+            - name: Criar propostas a partir de oportunidades de projetos
               href: sales/link-quotes-opportunities.md
-            - name: Copiar oportunidades baseadas em projetos
+            - name: Copiar oportunidades do projeto
               href: sales/copy-project-based-opportunity.md
             - name: Fechar uma oportunidade de projeto
               href: sales/close-opportunity.md
-        - name: Gerir propostas do projeto
+        - name: Gerir propostas baseadas em projetos
           items:
             - name: Descrição geral da gestão de propostas do projeto
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Detalhes do cabeçalho para propostas baseadas em projetos
               href: sales/quote-values-budget-limits-contract.md
-            - name: Gerir vários clientes numa proposta do projeto
+            - name: Gerir vários clientes numa proposta baseada em projetos
               href: sales/manage-multiple-customers-quote.md
-            - name: Gerir listas de preços de projetos numa proposta
+            - name: Listas de preços de projetos em propostas do projeto
               href: pro/sales/manage-project-price-lists-sales.md
-            - name: Linhas de proposta baseadas em projetos
+            - name: Itens de propostas baseadas em projetos
               items:
-                - name: Descrição geral das linhas de proposta baseadas em projetos
+                - name: Descrição geral dos itens de propostas do projeto
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Gerir vários clientes em linhas de proposta baseadas em projetos
+                - name: Gerir vários clientes em itens de propostas baseadas em projetos
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Mapear projetos e tarefas para linhas de propostas baseadas em projetos
+                - name: Mapear projetos e tarefas para itens de propostas do projeto
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Configurar componentes faturáveis para linhas de propostas baseadas em projetos
+                - name: Configurar os componentes faturáveis em itens de propostas do projeto
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Configurar os componentes faturáveis de uma linha de proposta do projeto
-                  href: sales/configure-chargeable-quoteline.md
-                - name: Estimar uma linha de proposta de projeto
-                  href: sales/create-estimate-quote-line.md
-                - name: Importar estimativas a partir de um projeto para uma linha de proposta baseada no projeto
-                  href: sales/import-estimate-quote-line.md
-                - name: Agendas de faturação nas linhas de proposta baseadas no projeto
+                - name: Estimar um item de proposta do projeto
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Importar estimativas de um projeto para um item de proposta do projeto
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Agendas de faturação em itens de propostas do projeto
                   href: sales/invoice-schedule-quote-line.md
             - name: Copiar propostas de projetos
               href: sales/lose-quote.md
             - name: Ativar e rever uma proposta de projeto
               href: sales/activation-and-revision.md
-            - name: Fechar propostas do projeto
+            - name: Fechar propostas baseadas em projetos
               href: sales/win-quote.md
-        - name: Gerir contratos de projetos
+        - name: Gerir contratos baseados em projetos
           items:
-            - name: Descrição geral da gestão de contratos de projetos
+            - name: Gerir contratos de projetos
               href: pro/sales/manage-contracts-sales.md
-            - name: Conceitos exclusivos de contratos baseados em projetos
+            - name: Conceitos exclusivos de Contratos Baseados em Projetos
               href: sales/contracts-key-concepts.md
             - name: Detalhes do cabeçalho para contratos baseados em projetos
               href: sales/project-contract-settings.md
-            - name: Gerir listas de preços de projetos em contratos de projetos
+            - name: Gerir listas de preços de projetos em contratos baseados em projetos
               href: sales/contracts-manage-project-price-lists.md
-            - name: Gerir vários clientes em contratos de projetos
+            - name: Gerir vários clientes em contratos baseados em projetos
               href: sales/manage-multiple-customers-contract.md
             - name: Itens de contrato baseados em projetos
               items:
-                - name: Descrição geral dos itens de contrato baseados em projetos
+                - name: Descrição geral de itens de contrato do projeto
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Gerir vários clientes em itens de contratos baseados em projetos
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Mapear projetos e tarefas num item de contrato do projeto
+                - name: Mapear projetos e tarefas para um item de contrato do projeto
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Configurar componentes faturáveis de um item de contrato do projeto
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Estimar um item de contrato do projeto
+                - name: Estimar um item de contrato baseado no projeto
                   href: sales/create-estimate-contract-line.md
-                - name: Importar estimativas a partir de um projeto para um item de contrato baseado no projeto
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Criar agendas de faturação em itens de contrato baseados no projeto
+                - name: Importar estimativas de um projeto para um item de contrato do projeto
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Criar agendas de faturação num item de contrato baseado no projeto
                   href: sales/invoice-schedules-contract-line.md
             - name: Copiar contratos baseados em projetos
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Adiantamentos e sinais
               items:
-                - name: Adiantamentos e contratos baseados em sinais
+                - name: Contratos de projetos baseados em adiantamentos e sinais
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Configurar um agendamento de sinal
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Criar um adiantamento ad hoc num contrato
+                - name: Criar um adiantamento ad hoc num contrato do projeto
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Preços e custos
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Sincronizar Estado do Projeto para impedir entradas em projetos fechados
           href: advanced-configuration/sync-project-status.md
+        - name: Configuração da conversão de moeda para calcular preços de vendas a partir das taxas de custos
+          href: advanced-configuration/currencyconversion.md
     - name: Atualizar
       items:
         - name: Considerações de atualização para Aprovações modernas
@@ -662,23 +666,27 @@
       items:
         - name: Descrição geral da implementação leve
           href: pro/project-operations-overview-lite.md
-        - name: Inscrever-se para obter uma subscrição de pré-visualização - leve
+        - name: Inscrever-se para obter uma subscrição de pré-visualização - Lite
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Implementar o Project Operations - leve
+        - name: Implementar o Project Operations Lite
           href: environment/lite-deployment.md
-        - name: Aplicar configuração da demonstração e dados de configuração - leve
+        - name: Aplicar configuração da demonstração e dados de configuração - Lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Modelo de segurança
           href: environment/security-model.md
     - name: Novidades
       items:
-        - name: Novidades de setembro de 2022 - implementação leve
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Novidades de novembro de 2022 - implementação Lite
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arquivo
           items:
-            - name: Novidades de agosto de 2022 - implementação leve
+            - name: Novidades de outubro de 2022 - implementação Lite
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Novidades de setembro de 2022 - implementação Lite
+              href: pro/whats-new/whats-new-sept-2022-lite.md
+            - name: Novidades de agosto de 2022 - implementação Lite
               href: pro/whats-new/whats-new-aug-2022-lite.md
-            - name: Novidades de julho de 2022 - implementação leve
+            - name: Novidades de julho de 2022 - implementação Lite
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novidades de junho de 2022 - implementação leve
               href: pro/whats-new/whats-new-june-2022-lite.md
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Criar propostas a partir de oportunidades de projetos
               href: sales/link-quotes-opportunities.md
-            - name: Copiar oportunidades baseadas em projetos
+            - name: Copiar oportunidades do projeto
               href: sales/copy-project-based-opportunity.md
             - name: Fechar uma oportunidade de projeto
               href: sales/close-opportunity.md
-        - name: Gerir propostas baseadas em projetos
+        - name: Gerir propostas de projetos
           items:
-            - name: Descrição geral das propostas baseadas em projetos
+            - name: Descrição geral das propostas de projetos
               href: pro/sales/manage-quotes-sales.md
             - name: Conceitos exclusivos de propostas de projetos
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Detalhes do cabeçalho para propostas de projetos
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Vários clientes em propostas do projeto
+            - name: Gerir vários clientes nas propostas de projetos
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Listas de preços de projetos em propostas do projeto
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Gerir unidades complexas para linhas de proposta baseadas em produtos
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Linhas de proposta baseadas em projetos
+            - name: Itens de propostas de projetos
               items:
-                - name: Descrição geral das linhas de proposta baseadas em projetos
+                - name: Descrição geral dos itens de propostas do projeto
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Gerir vários clientes
+                - name: Gerir vários clientes em itens de propostas de projetos
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Mapear projetos e tarefas
+                - name: Mapear projetos e tarefas para itens de propostas do projeto
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Configurar componentes faturáveis
+                - name: Configurar os componentes faturáveis em itens de propostas do projeto
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Estimar uma linha de proposta baseada no projeto
+                - name: Estimar um item de proposta do projeto
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Importar estimativa a partir de um projeto
+                - name: Importar estimativas de um projeto para um item de proposta do projeto
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Gerir agendas de faturação
+                - name: Agendas de faturação em itens de propostas do projeto
                   href: sales/invoice-schedule-quote-line.md
-            - name: Copiar propostas baseadas em projetos
+            - name: Copiar propostas de projetos
               href: sales/lose-quote.md
             - name: Ativar e rever uma proposta de projeto
               href: sales/activation-and-revision.md
-            - name: Fechar propostas baseadas em projetos
+            - name: Fechar propostas de projetos
               href: pro/sales/win-quote-sales.md
-        - name: Gerir contratos baseados em projetos
+        - name: Gerir contratos de projetos
           items:
-            - name: Descrição geral de contratos baseados em projetos
+            - name: Descrição geral de contratos de projetos
               href: pro/sales/manage-contracts-sales.md
             - name: Conceitos exclusivos de contratos de projetos
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Detalhes do cabeçalho de contratos de projetos
               href: pro/sales/project-contract-settings-sales.md
-            - name: Vários clientes em contratos de projetos
+            - name: Gerir vários clientes em contratos de projetos
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Listas de preços de projeto em contratos de projetos
               href: sales/contracts-manage-project-price-lists.md
@@ -812,35 +820,35 @@
                   href: pro/sales/product-based-contract-lines-overview-sales.md
                 - name: Custo dos itens de contrato baseados em produtos
                   href: pro/sales/cost-product-based-contract-lines-sales.md
-                - name: Gerir unidades complexas para itens de contrato baseados em produtos
+                - name: Gerir unidades complexas para itens de contratos baseados em produtos
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Itens de contrato baseados em projetos
+            - name: Itens de contratos de projetos
               items:
-                - name: Descrição geral dos itens de contrato baseados em projetos
+                - name: Descrição geral de itens de contrato do projeto
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Gerir vários clientes do contrato
+                - name: Gerir vários clientes em contratos de projetos
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Mapear projetos e tarefas para um item de contrato do projeto
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Configurar componentes faturáveis num item de contrato do projeto
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Estimar um item de contrato baseado no projeto
+                - name: Estimar um item de contrato do projeto
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Importar estimativas de um projeto para um item de contrato do projeto
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Gerir agendas de faturação num item de contrato do projeto
+                - name: Criar agendas de faturação num item de contrato do projeto
                   href: pro/sales/invoice-schedules-contract-line-sales.md
-            - name: Copiar contratos do projeto
+            - name: Copiar contratos de projetos
               href: pro/sales/copy-project-contracts-sales.md
             - name: Confirmar um contrato de projeto
               href: pro/sales/confirm-contract-sales.md
             - name: Adiantamentos e sinais
               items:
-                - name: Contratos baseados em adiantamentos e sinais - leve
+                - name: Adiantamentos e contratos baseados em sinais
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurar uma agenda de sinais - leve
+                - name: Configurar um agendamento de sinalConfigurar um agendamento de sinal
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Criar um adiantamento ad hoc num contrato - leve
+                - name: Criar um adiantamento ad hoc num contrato do projeto
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Preços e custos
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Novidades
       items:
-        - name: Novidades de setembro de 2022 - Project Operations para cenários baseados em produção/armazenados
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Novidades de outubro de 2022 - Project Operations para cenários baseados em produção/armazenados
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arquivo
           items:
+            - name: Novidades de setembro de 2022 - Project Operations para cenários baseados em produção/armazenados
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Novidades de julho de 2022 - Project Operations para cenários baseados em produção/armazenados
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Novidades de junho de 2022 - Project Operations para cenários baseados em produção/armazenados
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Descrição geral da implementação do Project Operations para cenários baseados em produção/armazenados
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Descrição geral da gestão de projetos e contabilística
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Gestão contabilística do projeto
+      items:
+        - name: Descrição geral da gestão de projetos e contabilística
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Ajustes do projeto
+          href: project-accounting/project-adjustments.md
     - name: Processos de vendas do projeto
       items:
         - name: Cotações de projeto
