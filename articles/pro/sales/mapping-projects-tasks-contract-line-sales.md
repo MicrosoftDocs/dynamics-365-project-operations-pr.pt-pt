@@ -1,23 +1,23 @@
 ---
-title: Mapear projetos e tarefas para um item de contrato baseado em projetos – lite
+title: Mapear projetos e tarefas para um item de contrato do projeto
 description: Este artigo fornece informações sobre a adição e a remoção de projetos e tarefas para um item de contrato.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932540"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825073"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapear projetos e tarefas para um item de contrato baseado no projeto 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Mapear projetos e tarefas para um item de contrato do projeto 
 
 _**Aplica-se a:** Implementação leve - negociar à faturação pró-forma, Project Operations para cenários baseados em recursos/não armazenados_
 
-Nos itens de contrato baseados em projetos, pode mapear tarefas específicas num projeto para o item de contrato.
+Nos itens de contrato do projeto, pode mapear tarefas específicas num projeto para o item de contrato.
 
 Quando mapear tarefas específicas para um item de contrato, o método de faturação, opções de cobrança, limites A não exceder, e os clientes definidos no item de contrato serão aplicáveis apenas a essas tarefas específicas.
 
@@ -25,7 +25,7 @@ Se tiver um cenário em que uma fase de um projeto, por exemplo a Fase Protótip
 
 Todas as outras fases da estrutura hierárquica do trabalho (WBS) do projeto podem ser associadas ao item de contrato baseado em tempo e material.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Associar tarefas a itens de contrato baseadas em projetos
+## <a name="associate-tasks-to-project-contract-lines"></a>Associar tarefas a itens de contrato do projeto
 
 As tarefas podem ser associadas a itens de contrato a partir do separador **Tarefas Faturáveis** na página **Item de Contrato** ou do separador **Faturação de Tarefas** na página **Projeto**.
 

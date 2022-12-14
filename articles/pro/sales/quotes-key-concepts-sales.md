@@ -1,17 +1,17 @@
 ---
-title: Propostas – Conceitos chave – lite
+title: Conceitos exclusivos de propostas de Projetos
 description: Este artigo fornece informações sobre a utilização de propostas de projeto no Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916992"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825908"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Conceitos exclusivos de propostas de Projetos
 
@@ -82,9 +82,13 @@ As agendas de faturação são específicas de cada linha de proposta e também 
 
 As propostas do Project Operations são criadas nas propostas do Dynamics 365 Sales. No entanto, existem algumas diferenças importantes na funcionalidade que deve conhecer:
 
-- As ações **Rever** e **Ativar** não são suportadas.
+
 - As propostas do Project Operations têm dois tipos de linhas diferentes. Uma é para os projetos e a outra é para os produtos.
 - As propostas do Project Operations têm um formulário e elementos de IU, regras de negócio, lógica de negócio em plug-ins e scripts do lado do cliente próprios que as tornam únicos nas propostas de Vendas.
+- As propostas do Sales permitem-lhe anexar várias encomendas a uma proposta de vendas. No Project Operations, só é possível anexar um contrato de projeto a uma proposta do projeto.
+- Quando ganha uma proposta de vendas, a oportunidade relacionada pode permanecer aberta. Depois de uma proposta de projeto ser ganha, a oportunidade relacionada é fechada.
+- Uma proposta de vendas não inclui alguns campos e conceitos que estão incluídos numa proposta de projeto. Os campos incluem **Unidade de Contratação**, **Gestor de Contas** e **Nome do Contacto para Faturação**.  
+- **Tipo**: As propostas de vendas e do projeto também são identificadas por um campo baseado no conjunto de opções, **Tipo**. Para uma proposta de vendas, este campo tem o valor **Baseado em item**. Para uma proposta do projeto, tem o valor **Baseado em trabalho**.
 
 Por estas razões, não é recomendado utilizar uma proposta do Sales e uma proposta do Project Operations indistintamente.
 

@@ -1,19 +1,19 @@
 ---
-title: Gerir vários clientes em propostas do projeto – lite
+title: Gerir vários clientes em propostas do projeto
 description: Este artigo fornece informações sobre como trabalhar em propostas com vários clientes que irão financiar o projeto. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 337619e8d8081cdebd73f9336fa9fa99885a0ab2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8c42b51c48b7327247eb604d1bbc4f15a2bf6998
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921086"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824302"
 ---
-# <a name="manage-multiple-customers-on-project-quotes---lite"></a>Gerir vários clientes em propostas do projeto – lite
+# <a name="manage-multiple-customers-on-project-quotes"></a>Gerir vários clientes em propostas do projeto
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 

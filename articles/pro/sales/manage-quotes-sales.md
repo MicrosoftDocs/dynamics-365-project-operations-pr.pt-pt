@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911656"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826096"
 ---
 # <a name="manage-project-quotes"></a>Gerir propostas do projeto
 
@@ -23,7 +23,7 @@ No Dynamics 365 Project Operations, as propostas do projeto destinam-se a ajudar
   - Os detalhes da linha de proposta que identificam e estimam o trabalho para cada componente de alto nível ou linha de proposta. As estimativas de agenda ou de data e os aspetos financeiros do trabalho estão ligados a essa linha de proposta.
   - Os modelos de contratação e os componentes faturáveis são criados para cada linha de proposta. Esta configuração ajuda a estimar a distribuição de receitas, gastos e rentabilidade para cada linha de proposta e a proposta global.
 
-## <a name="view-all-project-based-quotes"></a>Ver todas as propostas baseadas em projetos
+## <a name="view-all-project-quotes"></a>Ver todas as propostas do projeto
 
 Uma lista de todas as propostas do projeto pode ser vista na página de lista **Propostas**. 
 

@@ -1,23 +1,23 @@
 ---
-title: Gerir vários clientes numa proposta de projeto
+title: Gerir vários clientes numa proposta baseada em projetos
 description: Este artigo fornece informações sobre como trabalhar em propostas que envolvam vários clientes que irão financiar o projeto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928216"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825163"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Gerir vários clientes numa proposta de projeto
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Gerir vários clientes numa proposta baseada em projetos
 
-_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
+_**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-As propostas do projeto suportam o cenário em que a proposta envolve vários clientes que irão financiar o negócio. O separador **Resumo** da Proposta tem o campo **Cliente potencial**, que identifica o cliente principal do negócio. Podem ser configurados outros clientes para a oportunidade potencial no separador **Clientes** da proposta do projeto.
+As propostas baseadas em projetos suportam o cenário em que a proposta envolve vários clientes que irão financiar o negócio. O separador **Resumo** da Proposta tem o campo **Cliente potencial**, que identifica o cliente principal do negócio. Podem ser configurados outros clientes para a oportunidade potencial no separador **Clientes** da proposta do projeto.
 
 Todos os clientes da proposta no separador **Clientes** da proposta do projeto são assumidos por predefinição como clientes de linha de proposta em quaisquer **novas** linhas de proposta baseadas em projetos criadas para a proposta. Quaisquer linhas de proposta baseadas em projetos existentes não vão herdar novos registos de clientes de proposta criados depois deles.
 

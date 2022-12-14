@@ -1,31 +1,29 @@
 ---
-title: Gerir oportunidades potenciais
+title: Gerir oportunidades potenciais baseadas em projetos
 description: Este artigo fornece informações sobre a gestão de oportunidades potenciais baseadas em projetos.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920212"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825814"
 ---
-# <a name="manage-leads"></a>Gerir oportunidades potenciais
+# <a name="manage-project-based-leads"></a>Gerir oportunidades potenciais baseadas em projetos
 
 _**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
 As oportunidades potenciais baseadas em projetos podem ser geridas e qualificadas no Project Operations. O processo de gestão de oportunidades potenciais inclui a criação de oportunidades potenciais baseadas no trabalho e a qualificação dessas oportunidades potenciais. 
 
-## <a name="project-sales-leads"></a>Oportunidades potenciais baseadas em projetos
-
 Na secção **Vendas**, no painel de navegação esquerdo, abra a página da lista **Oportunidades Potenciais** para ver uma lista de todos os registos de oportunidades potenciais no sistema. A lista de oportunidades potenciais baseia-se no trabalho e noutros tipos de oportunidades potenciais que podem ser criados se também tiver as aplicações do Dynamics 365 Sales ou do Dynamics 365 Field Service.
 
 Pode criar um vista filtrada para ver apenas as oportunidades potenciais pistas baseadas em projetos ao criar um filtro no valor **Tipo**. Por exemplo, pode selecionar para mostrar apenas as oportunidades potenciais baseadas no trabalho.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Criar uma nova oportunidade potencial para um negócio baseado em projetos
+## <a name="create-a-new-project-based-lead"></a>Criar uma nova oportunidade potencial baseada em projetos 
 
 Quando uma oportunidade potencial baseada em projetos é qualificada, é criada uma oportunidade e uma conta. Uma oportunidade baseada em projetos é o ponto de partida para as atividades de seguimento de vendas na fase Oportunidade. As oportunidades baseadas em projetos têm capacidades exclusivas que são necessárias para vender o trabalho do projeto. Estas capacidades incluem:
 

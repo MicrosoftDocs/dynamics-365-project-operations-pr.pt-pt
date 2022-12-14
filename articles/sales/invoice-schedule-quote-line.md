@@ -1,27 +1,27 @@
 ---
-title: Agendas de faturação nas linhas de proposta baseadas no projeto
+title: Agendas de faturação em linhas de proposta do projeto
 description: Este artigo fornece informações sobre a criação de agendas de faturas e marcos para linhas de proposta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918326"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825768"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Agendas de faturação nas linhas de proposta baseadas no projeto
+# <a name="invoice-schedules-on-project-quote-lines"></a>Agendas de faturação em linhas de proposta do projeto
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Uma linha de proposta baseada no projeto dá a capacidade de expressar uma agenda de faturação. Isto é opcional durante a fase de proposta porque a aplicação não suporta a faturação de um projeto quando está associado a uma linha Proposta. A faturação só é permitida depois de a proposta ser ganha. O único impacto a jusante da criação de uma agenda de faturação durante a fase de proposta reside no facto de esta agenda de faturação ser copiada para o item de contrato baseado no projeto. Se não criar uma agenda de faturação durante a fase de proposta, poderá fazê-lo no item de contrato baseado no projeto.
+Uma linha de proposta do projeto dá a capacidade de expressar uma agenda de faturação. Isto é opcional durante a fase de proposta porque a aplicação não suporta a faturação de um projeto quando está associado a uma linha Proposta. A faturação só é permitida depois de a proposta ser ganha. O único impacto a jusante da criação de uma agenda de faturação durante a fase de proposta reside no facto de esta agenda de faturação ser copiada para o item de contrato baseado no projeto. Se não criar uma agenda de faturação durante a fase de proposta, poderá fazê-lo no item de contrato baseado no projeto.
 
 Globalmente, o objetivo das agendas de faturação consiste em permitir a criação automática de faturas de rascunho para um item de contrato baseado no projeto. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Criar uma agenda de faturação Tempo e material para uma linha de proposta baseada no projeto
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Criar uma agenda de faturação Tempo e material para uma linha de proposta do projeto
 
 Quando o método de faturação para uma linha de proposta baseada no projeto for Tempo e material, o sistema gera uma agenda de faturação baseada na data. Para gerar automaticamente uma agenda de faturação baseada na data, conclua os seguintes passos.
 
@@ -36,7 +36,7 @@ Quando o método de faturação para uma linha de proposta baseada no projeto fo
     - A **Data limite da transação** está definida para o dia anterior à **Data de Execução da Fatura**.
     - O **Estado da Execução** é definido automaticamente como **Não Executar**. Quando a tarefa de criação automática de faturas é executada para uma determinada data de execução da faturação, atualizará este campo para **Execução com Êxito** ou **Falha na Execução**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Criar uma agenda de faturação de Preço fixo para uma linha de proposta baseada no projeto
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Criar uma agenda de faturação de Preço fixo para uma linha de proposta do projeto
 
 Quando a linha de proposta baseada no projeto tem um método de faturação **Fixo**, o sistema cria uma agenda de faturação baseada em marcos. Conclua os seguintes passos para gerar automaticamente esta agenda para um conjunto fixo de marcos que são distribuídos igualmente para o período de calendário.
 

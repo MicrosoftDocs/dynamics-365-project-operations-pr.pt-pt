@@ -1,19 +1,19 @@
 ---
-title: Descrição geral das linhas de proposta baseadas em projetos
+title: Descrição geral das linhas de proposta de projetos
 description: Este artigo fornece informações sobre a utilização de linhas de proposta baseadas em projetos para trabalho do projeto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e6a67b5c37508085c9ec3d8385eaa6828536de00
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934472"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825673"
 ---
-# <a name="project-based-quote-lines-overview"></a>Descrição geral das linhas de proposta baseadas em projetos 
+# <a name="project-quote-lines-overview"></a>Descrição geral das linhas de proposta de projetos 
 
 _**Aplica-se a:** Implementação leve - negociar à faturação pró-forma, Project Operations para cenários baseados em recursos/não armazenados_
 

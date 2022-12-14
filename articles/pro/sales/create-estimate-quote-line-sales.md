@@ -1,21 +1,21 @@
 ---
-title: Estimar uma linha de proposta baseada no projeto
-description: Este artigo fornece informações sobre como criar uma estimativa numa linha de proposta baseada em projetos.
+title: Calcular uma linha de proposta de projeto
+description: Este artigo fornece informações sobre como criar uma estimativa numa linha de proposta de projeto.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914370"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826002"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Estimar uma linha de proposta baseada no projeto
+# <a name="estimate-a-project-quote-line"></a>Calcular uma linha de proposta de projeto
 
-_**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
+_**Aplica-se a:** Implementação leve - negociar à faturação pró-forma, Project Operations para cenários baseados em recursos/não armazenados_
 
 Uma linha de proposta baseada em projetos tem detalhes que ajudam a estimar o custo e as receitas potenciais do trabalho envolvido para entregar a linha de proposta.
 
@@ -24,7 +24,7 @@ Para estimar uma linha de proposta baseada em projetos, na linha de proposta bas
 - Criar manualmente a estimativa diretamente na linha de proposta ao utilizar os detalhes da linha de proposta. 
 - Crie um projeto e um plano de projeto, e depois associe o projeto e as tarefas do projeto à linha de proposta. Será ativado o processo para importar as estimativas no plano de projeto para a linha de proposta baseado nas informações fornecidas.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Criar estimativas diretamente numa linha de proposta baseada em projetos
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Criar estimativas diretamente numa linha de proposta do projeto
 
 Para criar uma estimativa numa linha de proposta baseada em projetos, selecione o separador **Detalhe de Linha de Proposta**. O item que criar neste separador resumirá o valor proposto para esta linha de proposta. 
 
@@ -68,8 +68,7 @@ A moeda no detalhe da linha de proposta para o custo assume por predefinição a
 
 Os cálculos de rentabilidade convertem o montante nos detalhes da linha de proposta para o custo e as vendas na moeda base do ambiente para reportar a margem estimada global na proposta.
 
-> NOTA!
-> > Podem ocorrer erros de arredondamento de moeda e margens alteradas devido à falta de taxas de câmbio efetivas da data. Utilize estes cálculos apenas em contratos de projeto, uma vez que se trata de aproximações e não são para relatórios estatutários ou outros que exijam maior precisão de arredondamento e sensibilização para a efetividade da data para as taxas de câmbio.
+> [!NOTA] Podem ocorrer erros de arredondamento de moeda e margens alteradas devido à falta de taxas de câmbio efetivas da data. Utilize estes cálculos apenas em contratos de projeto, uma vez que se trata de aproximações e não são para relatórios estatutários ou outros que exijam maior precisão de arredondamento e sensibilização para a efetividade da data para as taxas de câmbio.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

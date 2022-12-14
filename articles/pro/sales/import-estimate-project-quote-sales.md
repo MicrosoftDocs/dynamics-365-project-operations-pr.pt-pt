@@ -1,19 +1,19 @@
 ---
-title: Importar estimativas do projeto para uma linha de proposta baseada no projeto – lite
-description: Este artigo fornece informações sobre como importar estimativas de um projeto para uma linha de proposta.
+title: Importar estimativas de um projeto para uma linha de proposta de projeto
+description: Este artigo fornece informações sobre como importar estimativas de um projeto para uma linha de proposta do projeto.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917314"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824501"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimativas do projeto para uma linha de proposta baseada no projeto 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>Importar estimativas de um projeto para uma linha de proposta de projeto 
 
 _**Aplica-se a:** Implementação leve - negociar à faturação pró-forma, Project Operations para cenários baseados em recursos/não armazenados_
 

@@ -1,23 +1,23 @@
 ---
-title: Gerir vários clientes em linhas de proposta baseadas em projetos – lite
-description: Este artigo descreve como gerir vários clientes em linhas de proposta baseadas em projetos.
+title: Gerir vários clientes em linhas de proposta do projeto
+description: Este artigo descreve como gerir vários clientes em linhas de proposta do projeto.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927802"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824453"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gerir vários clientes em linhas de proposta baseadas em projetos – lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Gerir vários clientes em linhas de proposta do projeto
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-As linhas de proposta baseadas em projetos suportam cenários em que cada linha de proposta tem uma lista de clientes que a estão a pagar. Esta lista de clientes na linha de proposta baseada em projetos pode ser a mesma que a lista de clientes na proposta. Também pode alterar a lista de clientes para ser diferente. Quando uma proposta do projeto é ganha, a lista de clientes na linha de proposta baseada em projetos é copiada para o item de contrato baseado em projetos correspondente para criar o contrato de projeto eventual. Os clientes na proposta baseada em projetos são copiados para o contrato de projeto.
+As linhas de proposta do projeto suportam cenários em que cada linha de proposta tem uma lista de clientes que a estão a pagar. Esta lista de clientes na linha de proposta baseada em projetos pode ser a mesma que a lista de clientes na proposta. Também pode alterar a lista de clientes para ser diferente. Quando uma proposta do projeto é ganha, a lista de clientes na linha de proposta baseada em projetos é copiada para o item de contrato baseado em projetos correspondente para criar o contrato de projeto eventual. Os clientes na proposta baseada em projetos são copiados para o contrato de projeto.
 
 Quando fatura o contrato de projeto eventual, a lista de clientes no item de contrato baseado em projetos tem prioridade sobre a lista no contrato de projeto. A lista de clientes no contrato de projeto só é utilizada para os valores por predefinição nos novos itens de contrato de projeto.
 

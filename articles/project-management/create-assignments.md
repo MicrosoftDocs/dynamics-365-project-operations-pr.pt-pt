@@ -2,16 +2,16 @@
 title: Criar atribuições de recursos
 description: Este artigo fornece informações sobre a criação de atribuições de recursos genéricas e nomeadas.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 11/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 42dd2906ce8db8844bf4dea232f24aca58a5d951
+ms.sourcegitcommit: 9b1136d95f19cc039d675a4a1b0962ca3ec61646
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933506"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812008"
 ---
 # <a name="create-resource-assignments"></a>Criar atribuições de recursos
 
@@ -31,7 +31,7 @@ Quando cria um membro da equipa genérico através de uma atribuição da tarefa
 4. Atribua tarefas conforme seja necessário a este recurso de marcador de posição ao selecionar o recurso no **Seletor de Recursos** para a tarefa. Os recursos listados em **Membros da Equipa**.
 5. Quando concluir a atribuição de recurso genérico, selecione-o no separador **Equipa**, selecione o recurso genérico e, em seguida, selecione **Gerar Requisito** para criar um requisito de recurso para o recurso genérico.
 6. Selecione **Reservar** para o recurso genérico e, em seguida, utilize o Quadro da agenda para localizar e reservar um recurso real. Também é possível enviar o requisito para preenchimento por um gestor de recursos.
-7. Quando o recurso genérico está totalmente concluído (a conclusão parcial dos requisitos do recurso não resultará numa atribuição de recursos) com um recurso nomeado, o recurso genérico é removido da equipa. As atribuições de tarefas para o recurso genérico são atribuídas ao recurso nomeado que concluiu o requisito de recurso do recurso genérico.
+7. Quando o recurso genérico é totalmente cumprido com um recurso nomeado, o recurso genérico é removido da equipa. (O cumprimento de requisito de recursos parcial não resultará numa atribuição de recursos.) As atribuições para o recurso genérico são atribuídas ao recurso nomeado que cumpriu o requisito de recursos do recurso genérico.
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Atribuir um recurso nomeado da lista de todos os recursos reserváveis
 
@@ -41,5 +41,32 @@ Pode utilizar a caixa de pesquisa no **Seletor de Recursos** para procurar todos
 2. Na caixa de pesquisa, comece a escrever um nome. Os resultados da pesquisa para o nome são apresentados no **Seletor de Recursos** em **Outros Recursos**.
 3. Selecione o recurso que pretende atribuir à tarefa ou selecione o nome do recurso em **Outros Recursos da Equipa**.
 
+## <a name="editing-resource-assignment-contours"></a>Editar desvios de atribuição de recursos
+
+Por predefinição, quando os recursos são atribuídos a uma tarefa na agenda, o respetivo esforço é distribuído linearmente a cada recurso, com base no horário de trabalho desse recurso e no modo de agenda do projeto. Um gestor de projetos pode utilizar a grelha de atribuição de recursos para refinar as estimativas de esforço de cada recurso atribuído a uma ou muitas tarefas em escalas de tempo diferentes. Esta caraterística ajuda os gestores de projetos a produzirem estimativas de custo e de vendas mais precisas, impulsionadas pelos contornos da atribuição de recursos que são gerados quando um recurso é atribuído a uma tarefa. Além disso, os gestores de projetos podem refletir mais facilmente a procura de recursos necessária para criar a procura num requisito de recurso.
+
+### <a name="navigation"></a>Navegação
+
+Para aceder à grelha de edição de contornos, o gestor de projetos primeiro seleciona o separador **Tarefas** na página principal do projeto e, em seguida, seleciona o separador **Atribuições**.
+
+![Separador Atribuições no separador Tarefas da página principal do projeto.](media/AssignmentGrid.png)
+
+A grelha suporta dois métodos de agrupamento: **agrupar por recurso** e **agrupar por tarefa**. Ao contrário da vista de grelha, as colunas não são configuráveis. As únicas colunas visíveis são **Atribuído A**, **Nome da Tarefa**, **Início da Atribuição**, **Conclusão da Atribuição** e **Esforço da Atribuição**.
+
+Quando a grelha é composta inicialmente, começa no contorno de atribuição mais antigo. Se a agenda não contiver quaisquer atribuições que tenham esforço, a grelha estará em branco e não irá compor nada.
+
+![Grelha de atribuição em branco.](media/emptyassignmentgrid.png)
+
+Se pretender ver os seus contornos e escalas de tempo diferentes, a grelha de atribuição de recursos só de leitura e a grelha de reconciliação de recursos também estão disponíveis.
+
+### <a name="resource-calendars"></a>Calendários de recursos
+
+A capacidade de editar um contorno para um dia específico é regida pelos dias de trabalho do recurso, como refletido no respetivo calendário. Se uma célula estiver desativada para um determinado recurso, esse recurso não terá dias de trabalho durante esse período.
+
+Os contornos de um recurso podem expandir-se para além das datas de início e de fim atuais da tarefa atribuída. Se um contorno for atualizado para ser posterior à data de fim mais recente de uma tarefa ou à data de início mais recente de uma tarefa, a data de fim ou a data de início da tarefa serão alteradas em conformidade. No entanto, se um contorno é atualizado para ser anterior à data de início de uma tarefa associada a uma antecessora, a atualização falhará porque a atribuição acionará a tarefa a iniciar para ser iniciada antes da antecessora ser concluída, e esse comportamento não é atualmente suportado.
+
+### <a name="co-authoring"></a>Cocriação
+
+As alterações à grelha de atribuição de recursos são automaticamente refletidas em quaisquer vistas associadas, incluindo vistas de gráfico, de linha cronológica, de quadro e de grelha. Se vários utilizadores estão a rever o projeto ao mesmo tempo, quaisquer alterações que um utilizador faça serão refletidas na grelha. Pelo contrário, todas as alterações efetuadas na grelha de atribuição de recursos serão mostradas a todos os outros utilizadores que estão a ver o projeto na mesma sessão.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

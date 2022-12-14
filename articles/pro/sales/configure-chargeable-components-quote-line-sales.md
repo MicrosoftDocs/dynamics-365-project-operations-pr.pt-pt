@@ -1,19 +1,19 @@
 ---
-title: Configurar os componentes faturáveis de uma linha de proposta
+title: Configurar os componentes faturáveis em linhas de proposta do projeto
 description: Este artigo fornece informações sobre a configuração de componentes faturáveis e não faturáveis numa linha de proposta baseada em projetos.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1e454278a1c5c24ac346c537c778b25448d9ea03
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930056"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825532"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Configurar os componentes faturáveis de uma linha de proposta 
+# <a name="configure-chargeable-components-on-project-quote-lines"></a>Configurar os componentes faturáveis em linhas de proposta do projeto
 
 _**Aplica-se a:** Implementação leve - negociar à faturação pró-forma, Project Operations para cenários baseados em recursos/não armazenados_
 

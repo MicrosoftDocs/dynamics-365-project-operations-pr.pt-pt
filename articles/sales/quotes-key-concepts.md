@@ -1,8 +1,8 @@
 ---
-title: Propostas - Conceitos-chave
-description: Este artigo fornece informações sobre propostas de projeto e propostas de vendas disponíveis no Project Operations.
+title: Conceitos exclusivos de propostas baseadas em projetos
+description: Este artigo fornece informações sobre propostas de projeto no Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912530"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824342"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Conceitos exclusivos de propostas baseadas em Projetos
+# <a name="concepts-unique-to-project-based-quotes"></a>Conceitos exclusivos de propostas baseadas em projetos
 
-_**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
+_**Aplica-se A:** Project Operations para cenários baseados em recursos/não armazenados_
 
-No Dynamics 365 Project Operations, existem dois tipos de propostas e vendas. Os dois tipos de propostas diferem nas seguintes formas:
+Antes de começar a utilizar propostas de projeto no Microsoft Dynamics 365 Project Operations, deve estar ciente dos seguintes conceitos-chave.
 
-- **Grelhas para itens de linha**: Numa proposta de venda, existe apenas uma grelha para os itens de linha. Numa proposta do projeto há duas grelhas para os itens de linha. Uma grelha é para linhas de projeto e a outra é para linhas de produtos.
-- **Ativação e revisões**: As propostas de vendas suportam ativação e revisões. Estes processos não são apoiados numa proposta do projeto.
-- **Encomendas anexadas**: Pode anexar várias encomendas a uma proposta de vendas. Só se pode anexar um contrato de projeto a uma proposta do projeto.
-- **Ganhar uma proposta**: Quando ganha uma proposta de vendas, a oportunidade relacionada pode permanecer aberta. Depois de uma proposta de projeto ser ganha, a oportunidade relacionada é fechada.
-- **Campos e conceitos**: Uma proposta de vendas não inclui alguns campos e conceitos que estão incluídos numa proposta de projeto. Os campos incluem **Unidade de Contratação**, **Gestor de Contas** e **Nome do Contacto para Faturação**.  
-- **Tipo**: As propostas de vendas e do projeto também são identificadas por um campo baseado no conjunto de opções, **Tipo**. Para uma proposta de vendas, este campo tem o valor **Baseado em item**. Para uma proposta do projeto, tem o valor **Baseado em trabalho**.
+## <a name="owning-company"></a>Empresa proprietária
 
-Este artigo concentra-se nos detalhes das propostas do projeto.
+A empresa proprietária representa a entidade legal que é a detentora da entrega do projeto. O cliente na proposta deverá ser um cliente válido nessa entidade legal em aplicações de finanças e operações. A moeda da empresa proprietária e a moeda da unidade de contratação selecionada numa proposta baseada em projeto têm de corresponder.
 
-Uma proposta do projeto nas Operações do projeto pode ter múltiplos itens de linha ou linhas de proposta. Na verdade, uma proposta do projeto tem duas grelhas para os itens de linha. Uma grelha destina-se às linhas baseadas em projetos que permitem estimativas detalhadas. A outra grelha destina-se às linhas baseadas em produtos que utilizam um preço unitário simples e uma abordagem baseada em quantidade.
+## <a name="contracting-unit"></a>Unidade de contratação
 
-- **Baseado em projetos**: O valor proposto é determinado depois de estimar a quantidade de trabalho necessária. Pode estimar o trabalho a um nível elevado, diretamente como detalhes de linha abaixo de cada linha da proposta, ou com base em estimativas de base, usando um projeto e plano de projeto. As linhas de proposta baseadas em projeto só são encontradas em propostas baseadas em projeto criadas através das Operações do projeto. Este tipo de linha de proposta é um formulário personalizado das linhas de proposta acrescentadas manualmente disponíveis no Microsoft Dynamics 365 Sales.
+Uma unidade de contratação representa a divisão ou a prática proprietária da entrega do projeto. Pode configurar os custos de recursos para cada unidade de contratação. Quando especifica os custos do recurso para um recurso numa unidade de contratação, pode configurar diferentes taxas de custo para os recursos que a unidade de contratação toma emprestados, ou para outras divisões ou práticas na empresa. Estas taxas de custo são referidas como preços de transferência, empréstimos de recursos ou preços de câmbio. Quando configura o custo dos recursos tomadores de outras divisões, pode configurar as taxas de custo na moeda da divisão prestadora.
 
-- **Baseado em produto**: O valor proposto é determinado com base na quantidade de unidades vendidas e no preço de venda unitário. O produto numa linha baseada em produto pode provir de um catálogo de produtos em Vendas ou pode ser um produto que defina. Este tipo de linha de proposta também está disponível nas propostas baseadas em projeto criadas através da utilização de Operações do projeto.
+## <a name="cost-currency"></a>Moeda de custo
 
-O montante numa proposta é o total nas linhas baseadas em produto e nas linhas baseadas em projetos.
+A moeda de custo no Project Operations é a moeda em que os custos são reportados. Esta moeda deriva da moeda que está anexada ao campo **Unidade de contratação** na proposta, contrato e projeto. Os custos para um projeto podem ser registados em qualquer moeda. No entanto, existe conversão da moeda em que os custos foram registados para a moeda de custo do projeto.
 
-> [!NOTE]
-> As propostas e as linhas de proposta não são necessárias nas Operações do projeto. Pode iniciar o processo do projeto com um contrato de projeto (projeto vendido). No entanto, uma oportunidade é sempre necessária, quer tenha iniciado com uma proposta ou um contrato do projeto.
+Como as taxas de câmbio na plataforma do Dataverse não podem ter vigência, os totais no ecrã para o custo poderão mudar ao longo do tempo se atualizar as taxas de câmbio de moeda. No entanto, os custos que estão registados na base de dados permanecem inalterados, uma vez que os montantes são armazenados na moeda em que foram incorridos.
 
-## <a name="project-based-quote-lines"></a>Linhas de proposta baseadas em projetos
+## <a name="sales-currency"></a>Moeda de venda
 
-Um item de proposta baseado em Operações do projeto tem os seguintes métodos de faturação:
+A moeda de venda no Project Operations é a moeda em que os montantes de venda estimados e reais são registados e mostrados. Também é a moeda em que o cliente é faturado para o negócio. Para uma proposta de projeto, uma moeda de venda é predefinida do registo de cliente ou de conta, e pode ser alterada quando a proposta é criada. No entanto, a moeda de venda não pode ser alterada depois de a proposta ser guardada. As listas de preços de produto e de projetos são definidas com base na moeda de venda da proposta.
 
-- Tempo e material
-- Preço fixo
+Ao contrário dos custos, os valores de venda **só** podem ser registados na moeda de vendas.
 
-### <a name="time-and-material"></a>Tempo e material
+## <a name="billing-method"></a>Método de faturação
 
-O método de faturação de tempo e material é baseado no consumo. Quando seleciona este método de faturação, o cliente é faturado à medida que o projeto incorre em custos. As faturas são criadas numa frequência periódica baseada na data. Durante o processo de vendas, o valor proposto de um componente de tempo e material fornece apenas uma estimativa do custo final ao cliente. O fornecedor não se compromete a concluir o projeto exatamente com o valor proposto. Os componentes de tempo e material aumentam o risco do cliente. Os clientes poderão pretender negociar cláusulas adicionais a não exceder para minimizar o risco. As Operações do projeto não suportam a definição de cláusulas a não exceder.
+Normalmente, os projetos têm taxas fixas e modelos de contratação baseados no consumo. No Project Operations, o modelo de contratação de um projeto é representado pelo método de faturação. O método de faturação tem dois valores: tempo e material e preço fixo.
 
-### <a name="fixed-price"></a>Preço fixo
+- **Tempo e material** — trata-se de um modelo de contratação baseado no consumo em que cada custo incorrido é suportado pelas receitas correspondentes. À medida que estima ou incorre em mais custos, as vendas estimadas e reais correspondentes também aumentarão. Pode especificar limites a não exceder nas linhas de proposta que têm este método de faturação. Desta forma, pode limitar a receita real. As receitas estimadas não são afetadas por limites a não exceder.
+- **Preço fixo** – um modelo de contratação de taxa fixa onde os valores de venda são independentes dos custos incorridos. O valor de vendas é fixo e não é alterado à medida que estima ou incorre em mais custos.
 
-No método de faturação de preços Fixos, um fornecedor compromete-se a entregar o projeto a um custo fixo ao cliente. Ao cliente é faturado o valor proposto da linha de proposta de preço fixo, independentemente dos custos que o fornecedor incorre para entregar essa linha de proposta. O valor da linha de proposta de preço fixo é faturado de uma das seguintes formas: 
+## <a name="project-price-lists"></a>Listas de preços de projetos
 
-- Como um montante único no início ou no final do projeto, ou quando um marco do projeto é atingido. 
-- Numa frequência baseada em datas de prestações iguais do valor fixo na linha de proposta. Estas prestações são conhecidas como marcos periódicos.
-- Em prestações com um valor monetário alinhado com o progresso do trabalho ou com marcos específicos alcançados no projeto. Neste caso, o valor de cada prestação pode ser diferente, mas tem de ser adicionado ao valor fixo na linha de proposta.
+As listas de preços do projeto são listas de preços que são utilizadas para introduzir preços predefinidos, e não taxas de custo, para o tempo, as despesas e outros componentes relacionados com o projeto. Podem existir várias listas de preços, e cada lista pode ter a sua própria data efetiva para cada proposta de projeto. O Project Operations não suporta datas efetivas sobrepostas para listas de preços de projeto.
 
-As Operações do projeto suportam os três tipos de agendas de faturação para as linhas de proposta de preço fixo.
+## <a name="product-price-lists"></a>Listas de preços de produtos
 
-## <a name="transaction-classification"></a>Classificação de transação
+As listas de preços do produto são listas de preços que são utilizadas para introduzir preços predefinidos, e não taxas de custo, para as listas baseadas em produtos numa proposta. Só existe uma lista de preços do produto por proposta.
 
-Normalmente, as organizações de serviços profissionais propõem e faturam os seus clientes por classificação de custos. Os custos são representados pelas seguintes classificações de transação:
+## <a name="transaction-classes"></a>Classe de transação
 
-- **Tempo**: Esta classificação representa o custo de trabalho ou o tempo dos recursos humanos num projeto.
-- **Despesa**: Esta classificação representa todos os outros tipos de despesas num projeto. Uma vez que as despesas podem ser amplamente classificadas, a maioria das organizações cria subcategorias, tais como viagens, aluguer de automóveis, hotel ou material de escritório.
-- **Taxa**: Esta classificação representa despesas gerais diversas, penalizações e outros itens que são cobrados ao cliente. 
-- **Imposto**: Esta classificação representa os montantes de imposto que os utilizadores adicionam enquanto introduzem as despesas.
-- **Transação de material**: Esta classificação representa os valores reais a partir de linhas de produto numa fatura do projeto confirmada.
-- **Marco**: Esta classificação é utilizada pela lógica de faturação de preço fixo.
+O Project Operations suporta quatro tipos de classes de transações:
 
-Uma ou mais destas classificações de transação podem ser associadas a cada linha de proposta. Depois de uma proposta ser ganha, o mapeamento entre a classificação de transação e a linha de proposta é transferido para o item de contrato.
-  
-Por exemplo, uma proposta poderá conter as seguintes duas linhas de proposta: 
+- Tempo
+- Despesa
+- Material
+- Taxa
 
-- Trabalho de consultadoria que utiliza um método de faturação de tempo e material em que as classificações de transação de tempo e taxas são aplicáveis. Por exemplo, todas as transações de tempo e taxa para o projeto de exemplo de **Implementação do Dynamics AX** são faturadas ao cliente com base no tempo e nos materiais que são utilizados. 
-- Despesas de viagens relacionadas que utilizam um método de faturação de preço Fixo. Por exemplo, todas as despesas de viagem para o projeto de exemplo de **Implementação do Dynamics AX** são faturadas a um valor monetário fixo.
+Os valores de custos e vendas podem ser estimados e incorridos nas classes de transação **Tempo**, **Despesa** e **Material**. **Honorários** é uma classe de transações só de receitas.
 
-> [!NOTE]
-> A combinação das classificações de projeto e transação de **Tempo**, **Despesa** e **Taxa** que estão associadas a uma linha de proposta ou item de contrato tem de ser exclusiva. Se a mesma combinação de projeto e classe de transação estiver associada a mais de um item de contrato ou linha de proposta, as Operações do projeto não funcionam corretamente.
+## <a name="work-entities-and-billing-entities"></a>Entidades de trabalho e entidades de faturação
 
-## <a name="billing-types"></a>Tipos de faturação
+Projetos e Tarefas são entidades que representam o trabalho. As Linhas de proposta e os Itens de contrato são entidades que representam faturação. Pode associar diferentes entidades de trabalho a opções de faturação ao associá-las a Linhas de proposta ou Itens de contrato.
 
-O campo **Tipo de Faturação** define o conceito de exigibilidade. Trata-se de um conjunto de opções que tem os seguintes valores possíveis:
+## <a name="multi-customer-deals"></a>Negócios para vários clientes
 
-- **Faturável**: O custo acumulado por esta função/categoria é um custo direto que conduz à execução do projeto e que o cliente irá pagar por este trabalho. O pagamento pode ser administrado como uma disposição de tempo e material ou de preço fixo. No entanto, o funcionário que passar este tempo receberá o crédito correspondente pela sua utilização faturável.
-- **Não Faturável**: O custo acumulado por esta função/categoria é considerado um custo direto que conduz à execução do projeto, mesmo que o cliente não reconheça esse facto e não pague por este trabalho. O funcionário que passar este tempo não será creditado com a utilização faturável.
-- **Grátis**: O custo acumulado por esta função/categoria é considerado um custo direto que conduz à execução do projeto e o cliente reconhece este facto. O funcionário que passar este tempo será creditado com a utilização faturável. No entanto, este custo não é cobrado ao cliente.
-- **Não disponível**: Os custos incorridos nos projetos internos que não necessitam de monitorização das receitas são monitorizados através da utilização desta opção.
+Os negócios com vários clientes ocorrem quando existe mais de um cliente por fatura. Eis alguns exemplos típicos:
 
-## <a name="invoice-schedule"></a>Agenda de faturação
+- **Empresas de fabricante de equipamento original (OEM) e os seus parceiros:** — Os parceiros e os revendedores vendem um produto que inclui serviços de valor acrescentado. Durante um negócio com um cliente, o OEM, normalmente, oferece-se para financiar parte do projeto.
+- **Projetos do setor público** — Vários departamentos da administração pública local concordam em financiar um projeto e são faturados de acordo com uma divisão acordada previamente. Por exemplo, um agrupamento escolar e a cidade ou o departamento da administração pública local concordam financiar a construção de uma piscina.
 
-Uma agenda de faturação é uma série de datas durante a faturação de um projeto. Opcionalmente, pode criar uma agenda de faturação numa linha de proposta. Cada linha de proposta pode ter a sua própria agenda de faturação. Para criar uma agenda de faturação, tem de fornecer os seguintes valores de atributo:
+## <a name="invoice-schedules"></a>Agendas de faturação
 
-- Uma data de início da faturação 
-- Uma data de entrega que representa a data de fim da faturação no projeto
-- Uma frequência de faturação
+As agendas de faturação são específicas de cada linha de proposta e são opcionais. As agendas de faturação são criadas com base em datas de início e de fim específicas e uma frequência da fatura. São utilizadas durante a fase de contrato, quando o processo automático de criação de faturas é configurado. Durante a fase de proposta, as agendas de fatura são opcionais. Se forem criadas durante a fase de proposta, são copiadas para o contrato de projeto que é criado quando uma proposta de projeto é ganha.
 
-Estes três valores de atributo são usados para gerar um conjunto de datas provisórias para estabelecer a faturação.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Diferenças das propostas do Dynamics 365 Sales
 
-## <a name="invoice-frequency"></a>Frequência da Fatura
+As propostas do Project Operations são criadas em propostas do Dynamics 365 Sales. No entanto, existem algumas diferenças importantes na funcionalidade que deve conhecer:
 
-A frequência de faturação é uma entidade que armazena valores de atributos que ajudam a expressar a frequência da criação de faturas. Os seguintes atributos expressam ou definem a entidade de frequência de faturação:
+- As propostas do Project Operations têm dois tipos diferentes de itens: um para projetos e outro para produtos.
+- As propostas do Project Operations têm a sua própria página e elementos da interface de utilizador (IU), regras de negócio, lógica de negócio em plug-ins e scripts do lado do cliente próprios que as tornam distintos nas propostas do Sales.
+- No Sales, pode anexar várias encomendas a uma única proposta de vendas. No Project Operations, pode anexar apenas um contrato de projeto a uma proposta do projeto.
+- Quando ganha uma proposta de vendas, a oportunidade relacionada pode permanecer aberta. Depois de uma proposta de projeto ser ganha, a oportunidade relacionada é fechada.
+- Uma proposta de vendas não inclui alguns campos e conceitos incluídos numa proposta de projeto. Os campos incluem **Unidade de Contratação**, **Gestor de Contas** e **Nome do Contacto para Faturação**.
+- As propostas do Sales e do projeto são identificadas por um campo **Tipo** baseado no conjunto de opções. Para uma proposta de vendas, o valor deste campo é **Baseado em item**. Para uma proposta do projeto, valor é **Baseado em trabalho**.
 
-- **Período**: São suportados períodos mensais, quinzenais e semanais. 
-- **Execuções por período**: Para períodos semanais e quinzenais, pode definir apenas uma execução por período. Para períodos mensais, pode definir entre uma e quatro execuções por período. 
-- **Dias de execução**: Os dias em que a faturação deve ser executada. Pode configurar este atributo de duas maneiras:
-  - **Dias da semana**: Por exemplo, pode especificar que a faturação é executada a cada segunda-feira ou a cada segunda segunda-feira. Os clientes que têm de definir a faturação a ser executada num dia de trabalho podem preferir este tipo de configuração. 
-  - **Dias do calendário**: Por exemplo, pode especificar que a faturação seja executada no sétimo e no vigésimo primeiro dias de cada mês. Algumas organizações poderão pretender este tipo de configuração, uma vez que ajuda a garantir que a faturação é executada numa agenda fixa a cada mês.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Agenda de faturação para uma linha de proposta de preço fixo
-
-Para uma linha de proposta de preço fixo, pode utilizar a grelha **Agenda de Faturação** para criar marcos de faturação que sejam iguais ao valor da linha de proposta.
-
-- Para criar marcos de faturação igualmente divididos, selecione uma frequência de faturação, introduza a data de início da faturação na linha de proposta e selecione **Data de Conclusão Pretendida** para a proposta na secção **Resumo** do cabeçalho da proposta. Em seguida, selecione **Gerar Marcos Periódicos** para criar marcos igualmente divididos com base na frequência de faturação selecionada. 
-- Para criar um marco de faturação de montante único, crie um marco e, em seguida, introduza o valor da linha de proposta como o montante do marco.
-- Para criar marcos de faturação baseados em tarefas específicas no plano do projeto, crie um marco e mapeie-o para o elemento de agenda do projeto na IU do marco de faturação.
-
+Devido a estas diferenças, não recomendamos que utilize propostas do Sale e do Project Operations alternadamente.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

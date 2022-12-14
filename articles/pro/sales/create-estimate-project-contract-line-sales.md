@@ -1,32 +1,32 @@
 ---
-title: Estimar um item de contrato baseado no projeto – lite
+title: Estimar um item de contrato de projeto
 description: Este artigo fornece informações sobre a estimativa de um item de contrato baseado em projeto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914416"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824782"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Estimar um item de contrato baseado no projeto – lite
+# <a name="estimate-a-project-contract-line"></a>Calcular um item de contrato de projeto
 
 _**Aplica-se a:** Implementação leve - oportunidade potencial para fatura pró-forma_
 
-No Dynamics 365 Project Operations, um item de contrato baseado em projetos tem detalhes que ajudam a estimar o custo e as receitas potenciais do trabalho envolvido para entregar o item de contrato.
+No Dynamics 365 Project Operations, um item de contrato do projeto tem detalhes que ajudam a estimar o custo e as receitas potenciais do trabalho envolvido para entregar o item de contrato.
 
-Para estimar um item de contrato baseado em projetos, aceda ao separador **Detalhe do Item de Contrato** no **Item de Contrato** baseado em projetos.  Existem duas formas de criar uma estimativa num item de contrato baseado em projetos:
+Para estimar um item de contrato do projeto, aceda ao separador **Detalhe do Item de Contrato** no **Item de Contrato** baseado em projetos.  Existem duas formas de criar uma estimativa num item de contrato baseado em projetos:
 
    - Crie uma estimativa diretamente no item de contrato adicionando manualmente detalhes do item de contrato.
    - Crie um projeto e um plano de projeto e, em seguida, associe o projeto e as tarefas ao item de contrato do projeto. Isto permite o processo através do qual pode importar a estimativa do plano de projeto para o item de contrato com base nos componentes incluídos no item de contrato.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Criar uma estimativa diretamente num item de contrato baseado no projeto
 
-Para criar uma estimativa diretamente num item de contrato baseado em projeto, siga estes passos:
+Para criar uma estimativa diretamente num item de contrato de projeto, siga estes passos:
 
 1. Vá para o item de contrato e selecione o separador **Detalhe do Item de Contrato**. Os itens que cria neste separador são resumidos e exibidos como o **Valor Contratado** para este **Item de Contrato**. 
 2. Na subgrelha **Detalhes do Item de Contrato**, selecione **Novo Detalhe de Item de Contrato**. Abre-se um controlador de deslize de criação rápida. Os seguintes campos estão disponíveis na página **Detalhes da linha de contrato**.

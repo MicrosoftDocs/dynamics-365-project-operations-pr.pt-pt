@@ -1,23 +1,23 @@
 ---
-title: Mapear projetos e tarefas para uma linha de proposta baseada no projeto
-description: Este artigo fornece informações sobre como mapear projetos e tarefas para uma linha de tarefas baseada em projetos.
+title: Mapear projetos e tarefas para linhas de propostas do projeto
+description: Este artigo fornece informações sobre como mapear projetos e tarefas para linhas de proposta do projeto.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917176"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824361"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapear projetos e tarefas para uma linha de proposta baseada no projeto
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapear projetos e tarefas para linhas de propostas do projeto
 
 _**Aplica-se a:** Operações do projeto para cenários baseados em recursos/sem stock, implantação Lite - negócio para faturação pró-forma_
 
-Nas linhas de proposta baseadas em projetos, pode mapear as tarefas específicas de um projeto que já esteja associado a uma linha de proposta.
+Nas linhas de proposta do projeto, pode mapear as tarefas específicas de um projeto que já esteja associado a uma linha de proposta.
 
 Quando mapeia tarefas para uma linha de proposta, os seguintes itens que definiu na linha de proposta aplicar-se-ão apenas a essas tarefas:
 
