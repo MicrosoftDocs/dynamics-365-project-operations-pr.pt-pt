@@ -846,7 +846,7 @@
               items:
                 - name: Adiantamentos e contratos baseados em sinais
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurar um agendamento de sinalConfigurar um agendamento de sinal
+                - name: Configurar um agendamento de sinal
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Criar um adiantamento ad hoc num contrato do projeto
                   href: pro/sales/create-ad-hoc-advance-sales.md
